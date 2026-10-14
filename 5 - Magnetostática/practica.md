@@ -656,7 +656,7 @@ Sentido: corriente $-\hat e_y$, P a la izquierda: $(-\hat e_y)\times(-\hat e_x) 
 
 **Paso 4 — Suma.**
 
-$$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \frac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right](-\hat e_z)$$
+$$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \frac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right]\,(-\hat e_z)$$
 
 > La guía escribe $\dfrac2L$ en lugar de $\dfrac1L$ y $\sqrt{L^2/(4D^2)}$ en lugar de $\sqrt{1 + L^2/(4D^2)}$. Con el resultado del ejercicio 15, cada rama aporta $\frac{\mu_0 i}{2\pi L}(1 + \dots)$ y las dos juntas $\frac{\mu_0 i}{\pi L}(1 + \dots)$.
 
@@ -665,7 +665,7 @@ $$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^
 **Respuesta:**
 
 - a) $\dfrac{\vec F}{\ell} = \dfrac{\mu_0 i^2}{2\pi L}(-\hat e_y)$
-- b) $\vec B = \dfrac{\mu_0 i}{\pi}\left[\dfrac1L\left(1 + \dfrac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \dfrac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right](-\hat e_z)$ (la guía: $\dfrac{\mu_0 i}{\pi}\left[\dfrac2L\left(1 + \dfrac{1}{\sqrt{L^2/4D^2}}\right) + \dfrac{L}{4D\sqrt{L^2/4 + D^2}}\right](-\hat e_z)$; ver nota)
+- b) $\vec B = \dfrac{\mu_0 i}{\pi}\left[\dfrac1L\left(1 + \dfrac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \dfrac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right]\,(-\hat e_z)$ (la guía: $\dfrac{\mu_0 i}{\pi}\left[\dfrac2L\left(1 + \dfrac{1}{\sqrt{L^2/4D^2}}\right) + \dfrac{L}{4D\sqrt{L^2/4 + D^2}}\right]\,(-\hat e_z)$; ver nota)
 
 </details>
 

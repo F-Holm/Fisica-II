@@ -833,7 +833,7 @@ Tiene sentido: entra más flujo del que sale, así que adentro hay carga negativ
 
 </details>
 
-**Respuesta:** $Q = \varepsilon_0[E(x = 25\text{ m}) - E(x = 0)](25\text{ m})^2 = -0{,}83\ \mu$C
+**Respuesta:** $Q = \varepsilon_0[E(x = 25\text{ m}) - E(x = 0)]\,(25\text{ m})^2 = -0{,}83\ \mu$C
 
 </details>
 

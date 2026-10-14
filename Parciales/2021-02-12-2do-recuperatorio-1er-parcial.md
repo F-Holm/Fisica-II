@@ -91,7 +91,7 @@ Un hilo finito con densidad de carga uniforme λ<sub>1</sub>=5 μC/m se halla so
 **Paso 1 — Campo de un hilo sobre su propio eje.** Integrando $k\lambda\,dx'/(x - x')^2$:
 
 - Para un punto a la **derecha** del hilo ($x > x_b > x_a$): $\vec E = k\lambda\left[\dfrac{1}{x - x_b} - \dfrac{1}{x - x_a}\right]\hat\imath$.
-- Para un punto a la **izquierda** ($x < x_a < x_b$): $\vec E = k\lambda\left[\dfrac{1}{x_a - x} - \dfrac{1}{x_b - x}\right](-\hat\imath)$.
+- Para un punto a la **izquierda** ($x < x_a < x_b$): $\vec E = k\lambda\left[\dfrac{1}{x_a - x} - \dfrac{1}{x_b - x}\right]\,(-\hat\imath)$.
 
 **Paso 2 — Hilo 1** (a la izquierda de $x_5$, positivo; empuja hacia $+x$):
 
@@ -99,7 +99,7 @@ $$\vec E_1 = k\lambda_1\left[\frac{1}{x_5 - x_2} - \frac{1}{x_5 - x_1}\right]\ha
 
 **Paso 3 — Hilo 2** (a la derecha, negativo; atrae hacia él, también $+x$):
 
-$$\vec E_2 = k\lambda_2\left[\frac{1}{x_3 - x_5} - \frac{1}{x_4 - x_5}\right](-\hat\imath) = 9\times10^9\cdot(-3\times10^{-6})\left[\frac{1}{0{,}04} - \frac{1}{0{,}10}\right](-\hat\imath) = 4{,}05\times10^5\ \tfrac{\text{N}}{\text{C}}\ \hat\imath$$
+$$\vec E_2 = k\lambda_2\left[\frac{1}{x_3 - x_5} - \frac{1}{x_4 - x_5}\right]\,(-\hat\imath) = 9\times10^9\cdot(-3\times10^{-6})\left[\frac{1}{0{,}04} - \frac{1}{0{,}10}\right]\,(-\hat\imath) = 4{,}05\times10^5\ \tfrac{\text{N}}{\text{C}}\ \hat\imath$$
 
 **Paso 4 — Total y fuerza.**
 

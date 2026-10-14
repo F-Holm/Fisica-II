@@ -686,7 +686,7 @@ con $\dfrac{di_C}{dt} = -b\,i_0e^{-bt}$ y $\dfrac{di_{ESP}}{dt} = \omega i_1\cos
 **Respuesta:**
 
 - a) $M = \dfrac{N\mu_0}{2\pi}h\ln\!\left(1 + \dfrac{h}{2D}\right)$
-- b) $|\mathcal E| = \left|\dfrac{N\mu_0}{2\pi}h\left[\ln\!\left(1 + \dfrac hD\right) - \ln\!\left(1 + \dfrac{h}{2D}\right)\right](-b)\,i_0e^{-bt} + L\omega i_1\cos(\omega t)\right|$
+- b) $|\mathcal E| = \left|\dfrac{N\mu_0}{2\pi}h\left[\ln\!\left(1 + \dfrac hD\right) - \ln\!\left(1 + \dfrac{h}{2D}\right)\right]\,(-b)\,i_0e^{-bt} + L\omega i_1\cos(\omega t)\right|$
 
 </details>
 
