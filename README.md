@@ -41,18 +41,34 @@ Los temas están en el orden en que se dictan en la cursada.
 
 ## Parciales
 
-Ocho exámenes resueltos (2020-2022). Ver el [índice de parciales](Parciales/README.md).
+Trece exámenes resueltos (2015-2025), separados por parcial.
+
+### [1er Parcial](Primer%20Parcial/README.md)
+
+Teoría para el examen: [teoría del 1er Parcial](Primer%20Parcial/teoria.md).
 
 | Examen | Fecha |
 |---|---|
-| [2º Parcial](Parciales/2020-12-03-2do-parcial.md) | 03/12/2020 |
-| [2º Recuperatorio del 1er Parcial](Parciales/2021-02-12-2do-recuperatorio-1er-parcial.md) | 12/02/2021 |
-| [2º Recuperatorio del 2º Parcial](Parciales/2021-02-19-2do-recuperatorio-2do-parcial.md) | 19/02/2021 |
-| [1er Parcial](Parciales/2021-08-19-1er-parcial.md) | 19/08/2021 |
-| [2º Parcial](Parciales/2021-11-25-2do-parcial.md) | 25/11/2021 |
-| [1er Recuperatorio del 2º Parcial](Parciales/2021-12-09-1er-recuperatorio-2do-parcial.md) | 09/12/2021 |
-| [1er Recuperatorio del 1er Parcial](Parciales/2021-12-16-1er-recuperatorio-1er-parcial.md) | 16/12/2021 |
-| [2º Recuperatorio del 2º Parcial](Parciales/2022-02-18-2do-recuperatorio-2do-parcial.md) | 18/02/2022 |
+| [2º Recuperatorio del 1er Parcial](Primer%20Parcial/2021-02-12-2do-recuperatorio-1er-parcial.md) | 12/02/2021 |
+| [1er Parcial](Primer%20Parcial/2021-08-19-1er-parcial.md) | 19/08/2021 |
+| [1er Recuperatorio del 1er Parcial](Primer%20Parcial/2021-12-16-1er-recuperatorio-1er-parcial.md) | 16/12/2021 |
+
+### [2º Parcial](Segundo%20Parcial/README.md)
+
+Teoría para el examen: [teoría del 2º Parcial](Segundo%20Parcial/teoria.md).
+
+| Examen | Fecha |
+|---|---|
+| [Simulacro del 2º Parcial](Segundo%20Parcial/simulacro-2do-parcial.md) | sin fecha |
+| [2º Parcial](Segundo%20Parcial/2015-11-20-2do-parcial.md) | 20/11/2015 |
+| [2º Parcial](Segundo%20Parcial/2020-12-03-2do-parcial.md) | 03/12/2020 |
+| [2º Recuperatorio del 2º Parcial](Segundo%20Parcial/2021-02-19-2do-recuperatorio-2do-parcial.md) | 19/02/2021 |
+| [2º Parcial](Segundo%20Parcial/2021-11-25-2do-parcial.md) | 25/11/2021 |
+| [1er Recuperatorio del 2º Parcial](Segundo%20Parcial/2021-12-09-1er-recuperatorio-2do-parcial.md) | 09/12/2021 |
+| [2º Recuperatorio del 2º Parcial](Segundo%20Parcial/2022-02-18-2do-recuperatorio-2do-parcial.md) | 18/02/2022 |
+| [2º Parcial](Segundo%20Parcial/2024-11-28-2do-parcial.md) | 28/11/2024 |
+| [1er Recuperatorio del 2º Parcial](Segundo%20Parcial/2024-12-12-1er-recuperatorio-2do-parcial.md) | 12/12/2024 |
+| [2º Parcial (Tema 2)](Segundo%20Parcial/2025-11-27-2do-parcial-tema-2.md) | 27/11/2025 |
 
 ## Cómo usar los ejercicios
 
