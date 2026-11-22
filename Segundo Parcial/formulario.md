@@ -45,7 +45,7 @@ Todo en metros antes de reemplazar. Calculadora en **radianes**.
 | 9 | **Eficaces y potencia:** $V_{EF} = \dfrac{V_0}{\sqrt2}$, $\ P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$ |
 | 10 | **Capacitor cilíndrico:** $C = \dfrac{2\pi\varepsilon_0\ell}{\ln(b/a)}$ |
 
-Imprescindibles: **1**, **2** y **4**.
+Imprescindibles: **1**, **2** y **4**. Para practicar sus demostraciones: [demostraciones](demostraciones.md).
 
 ---
 
