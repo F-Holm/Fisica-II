@@ -70,7 +70,7 @@ Un hilo muy largo con corriente adopta la forma indicada en la figura. Determina
 
 - El hilo entra desde la izquierda por la recta horizontal que pasa por P y llega al extremo izquierdo del arco.
 - El arco pasa por arriba, en sentido **horario**, hasta un punto a un ángulo α **por debajo** de la horizontal. En total recorre $\pi + \alpha$.
-- Desde ahí, el hilo sale hacia la derecha en forma horizontal, a una distancia $R\operatorname{sen}\alpha$ por debajo de P.
+- Desde ahí, el hilo sale hacia la derecha en forma horizontal, a una distancia $R\mathrm{sen}\,\alpha$ por debajo de P.
 
 Se toma $\hat k$ saliente de la hoja.
 
@@ -84,15 +84,15 @@ $$B_{arco} = \frac{7\mu_0I}{24R} = \frac{7\cdot4\pi\times10^{-7}\cdot2}{24\cdot0
 
 Sentido: la corriente gira en sentido horario alrededor de P, así que el campo es **entrante** ($-\hat k$).
 
-**Paso 3 — Tramo de salida.** Es un hilo semi-infinito a distancia $d = R\operatorname{sen}\alpha$ de P. Su pie de perpendicular queda directamente debajo de P ($x = 0$). El hilo empieza en $x = R\cos\alpha$, que se ve con $\operatorname{sen}\beta_1 = \dfrac{R\cos\alpha}{R} = \cos\alpha$, y llega a $+\infty$, con $\operatorname{sen}\beta_2 = 1$:
+**Paso 3 — Tramo de salida.** Es un hilo semi-infinito a distancia $d = R\mathrm{sen}\,\alpha$ de P. Su pie de perpendicular queda directamente debajo de P ($x = 0$). El hilo empieza en $x = R\cos\alpha$, que se ve con $\mathrm{sen}\,\beta_1 = \dfrac{R\cos\alpha}{R} = \cos\alpha$, y llega a $+\infty$, con $\mathrm{sen}\,\beta_2 = 1$:
 
-$$B_{rec} = \frac{\mu_0I}{4\pi R\operatorname{sen}\alpha}\left(1 - \cos\alpha\right) = \frac{10^{-7}\cdot2}{0{,}04}(1 - 0{,}866)\ \text{T} = 0{,}67\ \mu\text{T}$$
+$$B_{rec} = \frac{\mu_0I}{4\pi R\mathrm{sen}\,\alpha}\left(1 - \cos\alpha\right) = \frac{10^{-7}\cdot2}{0{,}04}(1 - 0{,}866)\ \text{T} = 0{,}67\ \mu\text{T}$$
 
 Sentido: la corriente va hacia $+\hat x$ y P está por encima, así que $\hat x\times\hat y = +\hat k$: es **saliente**.
 
 **Paso 4 — Superposición.**
 
-$$\vec B_P = \left[\frac{\mu_0I(\pi + \alpha)}{4\pi R} - \frac{\mu_0I(1 - \cos\alpha)}{4\pi R\operatorname{sen}\alpha}\right](-\hat k) = (9{,}16 - 0{,}67)\ \mu\text{T}\ (-\hat k) = 8{,}49\ \mu\text{T}\ (-\hat k)$$
+$$\vec B_P = \left[\frac{\mu_0I(\pi + \alpha)}{4\pi R} - \frac{\mu_0I(1 - \cos\alpha)}{4\pi R\mathrm{sen}\,\alpha}\right](-\hat k) = (9{,}16 - 0{,}67)\ \mu\text{T}\ (-\hat k) = 8{,}49\ \mu\text{T}\ (-\hat k)$$
 
 </details>
 
@@ -129,7 +129,7 @@ $$C = \frac{2\pi\cdot8{,}85\times10^{-12}\cdot200}{\ln(0{,}85/0{,}4)}\ \text{F} 
 
 $$L = \frac{1}{\omega_0^2C} = \frac{1}{(2\pi\cdot300)^2\cdot1{,}475\times10^{-8}}\ \text{H} = 19{,}1\ \text{H}$$
 
-La fase de 30° y la frecuencia de trabajo no hacen falta para L: alcanzan la resonancia y C. Con la fase se obtiene $|X_L - X_C| = Z\operatorname{sen}30^\circ = 100\ \Omega$, que sirve para hallar la frecuencia de trabajo si se pidiera.
+La fase de 30° y la frecuencia de trabajo no hacen falta para L: alcanzan la resonancia y C. Con la fase se obtiene $|X_L - X_C| = Z\mathrm{sen}\,30^\circ = 100\ \Omega$, que sirve para hallar la frecuencia de trabajo si se pidiera.
 
 </details>
 

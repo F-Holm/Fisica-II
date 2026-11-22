@@ -75,7 +75,7 @@ Teoría completa: [Biot-Savart](../5%20-%20Magnetost%C3%A1tica/teoria.md#7-ley-d
 
 **Hilo recto finito** ([teoría](../5%20-%20Magnetost%C3%A1tica/teoria.md#hilo-recto-finito)): a distancia $y$ del punto, con $\theta_1, \theta_2$ los ángulos con que se ven los extremos, medidos desde la perpendicular que pasa por P (con signo):
 
-$$B = \frac{\mu_0I}{4\pi y}\left(\operatorname{sen}\theta_2 - \operatorname{sen}\theta_1\right) \qquad \operatorname{sen}\theta = \frac{x_{extremo}}{\sqrt{x_{extremo}^2 + y^2}}$$
+$$B = \frac{\mu_0I}{4\pi y}\left(\mathrm{sen}\,\theta_2 - \mathrm{sen}\,\theta_1\right) \qquad \mathrm{sen}\,\theta = \frac{x_{extremo}}{\sqrt{x_{extremo}^2 + y^2}}$$
 
 | Caso | Resultado |
 |---|---|
@@ -132,14 +132,14 @@ $$B_i = \frac{\mu_0I_i}{2\pi r_i} \qquad \frac{F}{\ell} = \frac{\mu_0I_1I_2}{2\p
 
 Teoría completa: [fuerza sobre una carga](../5%20-%20Magnetost%C3%A1tica/teoria.md#1-fuerza-magnética-sobre-una-carga), [movimiento en campo uniforme](../5%20-%20Magnetost%C3%A1tica/teoria.md#3-movimiento-de-una-carga-en-un-campo-uniforme), [fuerza sobre un conductor](../5%20-%20Magnetost%C3%A1tica/teoria.md#5-fuerza-sobre-un-conductor-con-corriente).
 
-$$\vec F = q\vec v\times\vec B \qquad |\vec F| = |q|vB\operatorname{sen}\theta \qquad \vec F_{conductor} = I\vec\ell\times\vec B$$
+$$\vec F = q\vec v\times\vec B \qquad |\vec F| = |q|vB\mathrm{sen}\,\theta \qquad \vec F_{conductor} = I\vec\ell\times\vec B$$
 
 - **La fuerza magnética no hace trabajo**, porque es siempre perpendicular a $\vec v$: **el módulo de la velocidad es constante**, aunque B dependa de la posición. Ejemplo: [18/02/22 Ej 2](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-2) (la respuesta es la velocidad inicial).
 - **$\vec v\perp\vec B$ uniforme:** movimiento circular uniforme con
 
 $$R = \frac{mv}{|q|B} \qquad T = \frac{2\pi m}{|q|B}$$
 
-- **$\vec v$ oblicua (ángulo θ con B):** hélice con $R = \dfrac{mv\operatorname{sen}\theta}{|q|B}$ y paso $p = v\cos\theta\cdot T$. Si no se conocen $m$, $q$, $v$, se despeja la combinación $mv/|q|$ de un dato y se usa en el otro. Ejemplo: [25/11/21 Ej 3](2021-11-25-2do-parcial.md#ejercicio-3).
+- **$\vec v$ oblicua (ángulo θ con B):** hélice con $R = \dfrac{mv\mathrm{sen}\,\theta}{|q|B}$ y paso $p = v\cos\theta\cdot T$. Si no se conocen $m$, $q$, $v$, se despeja la combinación $mv/|q|$ de un dato y se usa en el otro. Ejemplo: [25/11/21 Ej 3](2021-11-25-2do-parcial.md#ejercicio-3).
 - **Carga en el centro de una espira con $\vec v$ en el plano:** $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $F = |q|vB$. Ejemplo: [18/02/22 Ej 1](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-1).
 
 ---
@@ -155,7 +155,7 @@ $$M = \frac{\mu_0N_1N_2A_{chico}}{\ell} \qquad U = \frac12LI^2 \qquad u = \frac{
 - **"Justifique la fórmula":** hay que deducirla. Con Ampère, $B = \mu_0nI$; el flujo por espira es $BA$; el flujo concatenado es $N\cdot BA$; y $L = N\phi/I$.
 - **Mutua de solenoides coaxiales:** el campo del interior solo existe dentro del solenoide de **menor** radio, así que se usa **el área chica**.
 - **Pedir la longitud con L, I y B:** de B sale $n$, y de $L = \mu_0n^2A\ell$ sale $\ell$. También se puede por energía: $\tfrac12LI^2 = \dfrac{B^2}{2\mu_0}A\ell$. Ejemplos: [28/11/24 Ej 3](2024-11-28-2do-parcial.md#ejercicio-3), [simulacro Ej 3](simulacro-2do-parcial.md#ejercicio-3).
-- **Fem autoinducida con $I(t) = I_0\operatorname{sen}\omega t$:** $\mathcal E = -LI_0\omega\cos\omega t$. Ejemplo: [18/02/22 Ej 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4).
+- **Fem autoinducida con $I(t) = I_0\mathrm{sen}\,\omega t$:** $\mathcal E = -LI_0\omega\cos\omega t$. Ejemplo: [18/02/22 Ej 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4).
 
 ---
 
@@ -247,7 +247,7 @@ En resonancia $X_L = X_C$, Z = R es mínima, la corriente es máxima y $\cos\var
 1. Pasar todo a **eficaces** (el amperímetro mide eficaces; "corriente de pico" o $I_0$ en $I(t)$ es pico).
 2. $R = P/I^2$, o $R = Z\cos\varphi$.
 3. $Z = V/I = S/I^2$.
-4. $|X| = \sqrt{Z^2 - R^2} = Z\operatorname{sen}\varphi$, y el signo sale de la fase o de la frecuencia respecto de la resonancia.
+4. $|X| = \sqrt{Z^2 - R^2} = Z\mathrm{sen}\,\varphi$, y el signo sale de la fase o de la frecuencia respecto de la resonancia.
 5. **Con $f$ y $f_0$:** $X = \omega L - \dfrac{1}{\omega C}$ y $C = \dfrac{1}{\omega_0^2L}$ dan
 
 $$X = L\,\frac{\omega^2 - \omega_0^2}{\omega} \quad\Rightarrow\quad L = \frac{X\omega}{\omega^2 - \omega_0^2}$$
@@ -294,7 +294,7 @@ Ejemplos: [28/11/24 Ej 1](2024-11-28-2do-parcial.md#ejercicio-1), [12/12/24 Ej 1
 - Mezclar valores **pico** y **eficaces** en alterna.
 - Signo de X: decidirlo con la fase (adelanta → capacitivo) o con la frecuencia respecto de la resonancia. No suponerlo.
 - Inductancia mutua con el área del solenoide grande (va la del **chico**).
-- Ángulos de 0,01 s en $\operatorname{sen}(100\pi t)$: la calculadora tiene que estar en **radianes**.
+- Ángulos de 0,01 s en $\mathrm{sen}\,(100\pi t)$: la calculadora tiene que estar en **radianes**.
 - Olvidar N (el número de vueltas) en Faraday.
 - Polaridad de una barra: el extremo **hacia donde empuja** $\vec v\times\vec B$ a las cargas positivas es el de **mayor** potencial.
 
@@ -308,7 +308,7 @@ Ejemplos: [28/11/24 Ej 1](2024-11-28-2do-parcial.md#ejercicio-1), [12/12/24 Ej 1
 | Fuerza sobre un conductor | $\vec F = I\vec\ell\times\vec B$ |
 | MCU | $R = mv/(\lvert q\rvert B)$, $T = 2\pi m/(\lvert q\rvert B)$ |
 | Hélice | paso $p = v\cos\theta\,T$ |
-| Hilo finito | $B = \frac{\mu_0I}{4\pi y}(\operatorname{sen}\theta_2 - \operatorname{sen}\theta_1)$ |
+| Hilo finito | $B = \frac{\mu_0I}{4\pi y}(\mathrm{sen}\,\theta_2 - \mathrm{sen}\,\theta_1)$ |
 | Hilo infinito | $B = \mu_0I/(2\pi r)$ |
 | Arco (centro) | $B = \mu_0I\Delta\theta/(4\pi R)$ |
 | Espira circular (centro / eje) | $\mu_0I/(2R)$ / $\mu_0IR^2/[2(R^2 + z^2)^{3/2}]$ |

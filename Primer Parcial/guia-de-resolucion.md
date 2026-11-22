@@ -91,7 +91,7 @@ El campo es conservativo (como los campos de gradiente de AM2): la integral no d
 
 ### 0.3 Ley de Gauss (el teorema de la divergencia)
 
-$$\oiint_S\vec E\cdot d\vec A = \frac{Q_{enc}}{\varepsilon_0}$$
+$$\oint_S\vec E\cdot d\vec A = \frac{Q_{enc}}{\varepsilon_0}$$
 
 El flujo del campo por una superficie **cerrada** es la carga encerrada sobre $\varepsilon_0$. Solo sirve para despejar $E$ cuando hay mucha simetría, porque entonces $E$ sale de la integral:
 
@@ -112,7 +112,7 @@ $Q_{enc}$ es una integral de volumen de $\rho$ sobre lo que queda **adentro** de
 | Carga puntual | $\dfrac{kq}{r^2}$ radial | $\dfrac{kq}{r}$ |
 | Hilo finito ($x_1$ a $x_2$), punto sobre su eje en $x > x_2$ | $k\lambda\left(\dfrac{1}{x - x_2} - \dfrac{1}{x - x_1}\right)$ en $+\hat x$ | $k\lambda\ln\dfrac{x - x_1}{x - x_2}$ |
 | Anillo (carga total $Q$, radio $R$), sobre su eje a distancia $z$ | $\dfrac{kQz}{(R^2 + z^2)^{3/2}}$ a lo largo del eje | $\dfrac{kQ}{\sqrt{R^2 + z^2}}$ |
-| Arco de ángulo $\theta$ y radio $R$, en el centro | $\dfrac{2k\lambda}{R}\operatorname{sen}\dfrac\theta2$ por la bisectriz | $\dfrac{k\lambda\theta R}{R} = k\lambda\theta$ |
+| Arco de ángulo $\theta$ y radio $R$, en el centro | $\dfrac{2k\lambda}{R}\mathrm{sen}\,\dfrac\theta2$ por la bisectriz | $\dfrac{k\lambda\theta R}{R} = k\lambda\theta$ |
 | Semicircunferencia, en el centro ($\theta = \pi$) | $\dfrac{2k\lambda}{R}$ | $k\lambda\pi$ |
 | Esfera de radio $R$ con $\rho$ uniforme | adentro $\dfrac{\rho r}{3\varepsilon_0}$; afuera $\dfrac{\rho R^3}{3\varepsilon_0r^2} = \dfrac{kQ}{r^2}$ | afuera $\dfrac{kQ}{r}$ |
 | Hilo infinito / cilindro, afuera | $\dfrac{\lambda}{2\pi\varepsilon_0r}$ ($\lambda$ = carga por unidad de longitud) | $-\dfrac{\lambda}{2\pi\varepsilon_0}\ln r + cte$ |
@@ -349,7 +349,7 @@ Negativo: se aleja la carga del anillo, contra la atracción.
 
 1. Campo de un arco uniforme en su centro: parametrizando con el ángulo, $dq = \lambda R\,d\varphi$, todos a distancia $R$. Las componentes perpendiculares a la bisectriz se cancelan:
 
-$$E = \frac{k\lambda}{R}\int_{-\theta/2}^{\theta/2}\cos\varphi\,d\varphi = \frac{2k\lambda}{R}\operatorname{sen}\frac\theta2$$
+$$E = \frac{k\lambda}{R}\int_{-\theta/2}^{\theta/2}\cos\varphi\,d\varphi = \frac{2k\lambda}{R}\mathrm{sen}\,\frac\theta2$$
 
    Para una semicircunferencia: $\dfrac{2k\lambda}{R}$, apuntando **alejándose** de ella si $\lambda > 0$.
 2. Superponer los tramos con signo.

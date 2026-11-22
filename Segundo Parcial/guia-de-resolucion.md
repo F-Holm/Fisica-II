@@ -108,9 +108,9 @@ donde $I_{\text{enc}}$ es la corriente que atraviesa una superficie con borde $\
 - *Hilo infinito con Ampère:* por simetría, $B$ es tangente a circunferencias centradas en el hilo y constante sobre ellas. Tomando $\mathcal C$ una circunferencia de radio $d$: $B\cdot2\pi d = \mu_0 I$, o sea $B = \dfrac{\mu_0 I}{2\pi d}$.
 - *Tramo recto finito con Biot-Savart:* el cable sobre el eje $x$, P a distancia $d$ del eje. Entonces $\lvert d\vec l\times\hat r\rvert = dx\,\dfrac{d}{\sqrt{x^2 + d^2}}$ y $r^2 = x^2 + d^2$:
 
-$$B = \frac{\mu_0 I}{4\pi}\int_{x_1}^{x_2}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 I}{4\pi d}\left(\operatorname{sen}\beta_2 - \operatorname{sen}\beta_1\right)$$
+$$B = \frac{\mu_0 I}{4\pi}\int_{x_1}^{x_2}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 I}{4\pi d}\left(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1\right)$$
 
-Acá $x$ se mide desde el **pie de la perpendicular** trazada desde P al cable, y $\operatorname{sen}\beta_i = x_i/\sqrt{x_i^2 + d^2}$ (con signo: negativo si el extremo está "antes" del pie). Un extremo en el infinito tiene $\operatorname{sen}\beta = \pm1$.
+Acá $x$ se mide desde el **pie de la perpendicular** trazada desde P al cable, y $\mathrm{sen}\,\beta_i = x_i/\sqrt{x_i^2 + d^2}$ (con signo: negativo si el extremo está "antes" del pie). Un extremo en el infinito tiene $\mathrm{sen}\,\beta = \pm1$.
 
 ### 0.5 Formulario de campos
 
@@ -119,7 +119,7 @@ Todas estas fórmulas salen de 0.4 y se pueden usar directamente en el parcial (
 | Configuración | $B$ | Dirección |
 |---|---|---|
 | Hilo infinito, a distancia $d$ | $\dfrac{\mu_0 I}{2\pi d}$ | circunferencias alrededor del hilo |
-| Tramo recto finito, a distancia $d$ | $\dfrac{\mu_0 I}{4\pi d}(\operatorname{sen}\beta_2 - \operatorname{sen}\beta_1)$ | ídem |
+| Tramo recto finito, a distancia $d$ | $\dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$ | ídem |
 | Hilo semi-infinito, P frente al extremo (pie = extremo) | $\dfrac{\mu_0 I}{4\pi d}$ | ídem |
 | P sobre la prolongación de un tramo recto | $0$ | ($d\vec l\parallel\hat r$) |
 | Arco de radio $R$ y ángulo $\theta$ (rad), en el centro | $\dfrac{\mu_0 I\,\theta}{4\pi R}$ | perpendicular al plano |
@@ -161,7 +161,7 @@ La fuerza magnética sobre una carga es siempre perpendicular a $\vec v$, así q
 
 ### 0.9 Corriente alterna
 
-El generador produce $v(t) = V_0\operatorname{sen}(\omega t)$ con $\omega = 2\pi f$. En un circuito RLC serie la corriente es $i(t) = I_0\operatorname{sen}(\omega t - \varphi)$: misma frecuencia, otra amplitud y un desfasaje $\varphi$.
+El generador produce $v(t) = V_0\mathrm{sen}\,(\omega t)$ con $\omega = 2\pi f$. En un circuito RLC serie la corriente es $i(t) = I_0\mathrm{sen}\,(\omega t - \varphi)$: misma frecuencia, otra amplitud y un desfasaje $\varphi$.
 
 **Valores eficaces.** Los amperímetros y voltímetros miden **eficaces**: $V_{EF} = V_0/\sqrt2$, $I_{EF} = I_0/\sqrt2$. Si el enunciado dice "de pico" o "máximo", es la amplitud $V_0$ o $I_0$.
 
@@ -195,11 +195,11 @@ Es el **triángulo de impedancias**: catetos $R$ y $X_L - X_C$, hipotenusa $Z$, 
 |---|---|---|
 | Activa (la que se disipa, solo en R) | $P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R = \tfrac12I_0^2R$ | W |
 | Aparente | $S = V_{EF}I_{EF} = I_{EF}^2Z$ | VA |
-| Reactiva | $Q = V_{EF}I_{EF}\operatorname{sen}\varphi = I_{EF}^2(X_L - X_C)$ | VAR |
+| Reactiva | $Q = V_{EF}I_{EF}\mathrm{sen}\,\varphi = I_{EF}^2(X_L - X_C)$ | VAR |
 
 $\cos\varphi$ se llama **factor de potencia**.
 
-**Truco central de casi todos los ejercicios de alterna:** con los datos se obtienen $Z$ y $R$ (o $Z$ y $\varphi$), y de ahí $\lvert X_L - X_C\rvert = \sqrt{Z^2 - R^2} = Z\operatorname{sen}\varphi$. Lo que diga el enunciado sobre la fase o la resonancia decide el **signo** de $X_L - X_C$.
+**Truco central de casi todos los ejercicios de alterna:** con los datos se obtienen $Z$ y $R$ (o $Z$ y $\varphi$), y de ahí $\lvert X_L - X_C\rvert = \sqrt{Z^2 - R^2} = Z\mathrm{sen}\,\varphi$. Lo que diga el enunciado sobre la fase o la resonancia decide el **signo** de $X_L - X_C$.
 
 ---
 
@@ -328,7 +328,7 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10
 **Receta.**
 
 1. Circular: $B = \dfrac{\mu_0 I}{2R}$. Rectangular $a\times b$: $B = \dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$. Cuadrada: $\dfrac{2\sqrt2\,\mu_0 I}{\pi D}$.
-2. Si piden *demostrar* la del rectángulo: sumar los 4 lados con la fórmula del tramo finito (0.4). Cada lado se ve desde su mediatriz, así que $\operatorname{sen}\beta_2 = -\operatorname{sen}\beta_1$ y el aporte es $\dfrac{\mu_0 I}{4\pi d}\cdot2\operatorname{sen}\beta$. Los 4 lados dan campo en el mismo sentido.
+2. Si piden *demostrar* la del rectángulo: sumar los 4 lados con la fórmula del tramo finito (0.4). Cada lado se ve desde su mediatriz, así que $\mathrm{sen}\,\beta_2 = -\mathrm{sen}\,\beta_1$ y el aporte es $\dfrac{\mu_0 I}{4\pi d}\cdot2\mathrm{sen}\,\beta$. Los 4 lados dan campo en el mismo sentido.
 3. Dirección: perpendicular al plano de la espira, sentido por mano derecha. Si el sentido de la corriente no está dado, se elige y se aclara.
 4. Plantear la relación pedida y despejar.
 
@@ -364,7 +364,7 @@ $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \fr
 2. Para cada tramo, decidir cuál de estos casos es:
    - **P sobre la prolongación del tramo** → aporta **0**. (Es el caso más fácil de pasar por alto y el que más se repite.)
    - **Arco centrado en P** → $\dfrac{\mu_0 I\theta}{4\pi R}$, con $\theta$ en radianes.
-   - **Recto** → $\dfrac{\mu_0 I}{4\pi d}(\operatorname{sen}\beta_2 - \operatorname{sen}\beta_1)$. Trazar la perpendicular desde P a la **recta** que contiene al tramo; $d$ es su largo y desde su pie se miden las posiciones de los extremos.
+   - **Recto** → $\dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$. Trazar la perpendicular desde P a la **recta** que contiene al tramo; $d$ es su largo y desde su pie se miden las posiciones de los extremos.
 3. Sentido de cada aporte: mano derecha, o $d\vec l\times\hat r$. Todos son perpendiculares a la hoja (⊙ o ⊗).
 4. Sumar con signo.
 
@@ -382,9 +382,9 @@ P es el centro del arco. El cable llega desde la izquierda por la horizontal que
 
 $$B_{arco} = \frac{\mu_0 I\,(7\pi/6)}{4\pi R} = \frac{7\mu_0 I}{24R} = \frac{7\cdot4\pi\times10^{-7}\cdot2}{24\cdot0{,}08}\ \text{T} = 9{,}16\ \mu\text{T}$$
 
-**Tramo de salida.** Es horizontal y está a $d = R\operatorname{sen}\alpha = 4$ cm por debajo de P. El pie de la perpendicular queda justo debajo de P. El tramo empieza en $x_1 = R\cos\alpha$ (así que $\operatorname{sen}\beta_1 = \dfrac{R\cos\alpha}{R} = \cos\alpha$) y llega a $+\infty$ ($\operatorname{sen}\beta_2 = 1$):
+**Tramo de salida.** Es horizontal y está a $d = R\mathrm{sen}\,\alpha = 4$ cm por debajo de P. El pie de la perpendicular queda justo debajo de P. El tramo empieza en $x_1 = R\cos\alpha$ (así que $\mathrm{sen}\,\beta_1 = \dfrac{R\cos\alpha}{R} = \cos\alpha$) y llega a $+\infty$ ($\mathrm{sen}\,\beta_2 = 1$):
 
-$$B_{rec} = \frac{\mu_0 I}{4\pi R\operatorname{sen}\alpha}(1 - \cos\alpha) = \frac{10^{-7}\cdot2}{0{,}04}(1 - 0{,}866)\ \text{T} = 0{,}67\ \mu\text{T}$$
+$$B_{rec} = \frac{\mu_0 I}{4\pi R\mathrm{sen}\,\alpha}(1 - \cos\alpha) = \frac{10^{-7}\cdot2}{0{,}04}(1 - 0{,}866)\ \text{T} = 0{,}67\ \mu\text{T}$$
 
 Corriente hacia la derecha con P por encima: $\hat x\times\hat y = \hat z$ → **saliente**.
 
@@ -395,7 +395,7 @@ $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 **Variantes.**
 
 - [2º Parcial 03/12/2020, Ej. 4](2020-12-03-2do-parcial.md#ejercicio-4): semicircunferencia + semi-infinito con P frente a su extremo ($\mu_0 I/4\pi R$) + un hilo infinito aparte.
-- [2º Recuperatorio 19/02/2021, Ej. 1](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-1) y [2º Parcial 27/11/2025, Ej. 1](2025-11-27-2do-parcial-tema-2.md#ejercicio-1): hilo doblado en ángulo recto, sin arcos. Cuidado con los $\operatorname{sen}\beta$: el pie de la perpendicular puede caer **fuera** del tramo (en 2021, $\operatorname{sen}\beta_1 = D/\sqrt{D^2 + H^2}$ con el mismo signo que $\operatorname{sen}\beta_2$, y por eso queda una **resta** $1 - D/\sqrt{D^2+H^2}$).
+- [2º Recuperatorio 19/02/2021, Ej. 1](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-1) y [2º Parcial 27/11/2025, Ej. 1](2025-11-27-2do-parcial-tema-2.md#ejercicio-1): hilo doblado en ángulo recto, sin arcos. Cuidado con los $\mathrm{sen}\,\beta$: el pie de la perpendicular puede caer **fuera** del tramo (en 2021, $\mathrm{sen}\,\beta_1 = D/\sqrt{D^2 + H^2}$ con el mismo signo que $\mathrm{sen}\,\beta_2$, y por eso queda una **resta** $1 - D/\sqrt{D^2+H^2}$).
 - [2º Parcial 20/11/2015, Ej. 2](2015-11-20-2do-parcial.md#ejercicio-2): espira circular + hilo infinito coplanares; piden la distancia D para que el campo en el centro sea nulo. Se igualan $\dfrac{\mu_0 I_H}{2\pi D} = \dfrac{\mu_0 I_E}{2R}$. **Trampa:** da $D < R$, o sea que el hilo tendría que atravesar la espira; hay que comentarlo.
 
 ---
@@ -406,7 +406,7 @@ $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 
 **Receta.**
 
-1. Separar $\vec v$ en componente paralela a $\vec B$ ($v_\parallel = v\cos\theta$) y perpendicular ($v_\perp = v\operatorname{sen}\theta$).
+1. Separar $\vec v$ en componente paralela a $\vec B$ ($v_\parallel = v\cos\theta$) y perpendicular ($v_\perp = v\mathrm{sen}\,\theta$).
 2. La perpendicular produce un **movimiento circular**: igualando $\lvert q\rvert v_\perp B = m\dfrac{v_\perp^2}{r}$:
 
 $$r = \frac{mv_\perp}{\lvert q\rvert B} \qquad T = \frac{2\pi m}{\lvert q\rvert B}\ (\text{no depende de } v)$$
@@ -477,7 +477,7 @@ $$L = \mu_0\frac{N^2}{\ell}\pi R^2 = 4\pi\times10^{-7}\cdot\frac{3000^2}{0{,}6}\
 
 $$M = \frac{N_1B_2\pi R_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi R_1^2}{\ell} = \frac{4\pi\times10^{-7}\cdot3000\cdot2000\cdot\pi\cdot0{,}02^2}{0{,}6}\ \text{H} = 15{,}8\ \text{mH}$$
 
-**Variantes.** [2º Recuperatorio 18/02/2022, Ej. 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4): bobina con $I(t) = 3\operatorname{sen}(200t)$. Se calcula L igual ($45{,}7$ mH) y después
+**Variantes.** [2º Recuperatorio 18/02/2022, Ej. 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4): bobina con $I(t) = 3\mathrm{sen}\,(200t)$. Se calcula L igual ($45{,}7$ mH) y después
 
 $$\mathcal E(t) = -L\frac{dI}{dt} = -0{,}0457\cdot3\cdot200\cos(200t)\ \text{V} = -27{,}4\cos(200t)\ \text{V}$$
 
@@ -690,7 +690,7 @@ Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.
 
 1. Sacar $Z$: $Z = V_{EF}/I_{EF}$, o $Z = S/I_{EF}^2$.
 2. Sacar $\varphi$ (o el factor de potencia) y $R = Z\cos\varphi$. O al revés: $R = P/I_{EF}^2$ y $\cos\varphi = R/Z$.
-3. $\lvert X_L - X_C\rvert = Z\operatorname{sen}\varphi$. Signo: "la corriente adelanta" → capacitivo ($X_C > X_L$); "la tensión adelanta" → inductivo.
+3. $\lvert X_L - X_C\rvert = Z\mathrm{sen}\,\varphi$. Signo: "la corriente adelanta" → capacitivo ($X_C > X_L$); "la tensión adelanta" → inductivo.
 4. Con el elemento conocido, despejar el otro. $X_L = \omega L$, $X_C = 1/(\omega C)$, $\omega = 2\pi f$.
 5. Si piden resonancia: $f_0 = 1/(2\pi\sqrt{LC})$. Verificar coherencia: capacitivo ⇔ $f < f_0$.
 
@@ -700,7 +700,7 @@ Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.
 
 **a)** $Z = S/I_{EF}^2 = 800/16 = 50\ \Omega$ y $R = 50\cos30^\circ = 43{,}3\ \Omega$.
 
-**b)** La corriente adelanta → capacitivo: $X_C - X_L = Z\operatorname{sen}30^\circ = 25\ \Omega$. Con $\omega = 100\pi$:
+**b)** La corriente adelanta → capacitivo: $X_C - X_L = Z\mathrm{sen}\,30^\circ = 25\ \Omega$. Con $\omega = 100\pi$:
 
 $$X_L = 100\pi\cdot0{,}06 = 18{,}85\ \Omega \qquad X_C = 18{,}85 + 25 = 43{,}85\ \Omega \qquad C = \frac{1}{100\pi\cdot43{,}85}\ \text{F} = 72{,}6\ \mu\text{F}$$
 
@@ -730,7 +730,7 @@ Es una ecuación lineal en L. Se despeja L y luego $C = 1/(\omega_0^2L)$.
 
 **a)** $V_{EF} = S/I_{EF} = 100$ V, $Z = 100/0{,}6 = 166{,}7\ \Omega$, $R = Z\cos30^\circ = 144{,}3\ \Omega$.
 
-**b)** Capacitivo (corriente adelanta; además $40 < 50$ Hz): $X_C - X_L = Z\operatorname{sen}30^\circ = 83{,}3\ \Omega$. Con $\omega = 80\pi$ y $\omega_0 = 100\pi$:
+**b)** Capacitivo (corriente adelanta; además $40 < 50$ Hz): $X_C - X_L = Z\mathrm{sen}\,30^\circ = 83{,}3\ \Omega$. Con $\omega = 80\pi$ y $\omega_0 = 100\pi$:
 
 $$L = \frac{83{,}3\cdot80\pi}{(100\pi)^2 - (80\pi)^2}\ \text{H} = 0{,}59\ \text{H} \qquad C = \frac{1}{(100\pi)^2\cdot0{,}59}\ \text{F} = 17{,}2\ \mu\text{F}$$
 
@@ -744,7 +744,7 @@ $$V_R = 86{,}6\ \text{V} \qquad V_L = 89\ \text{V} \qquad V_C = 138{,}8\ \text{V
 
 **Variantes.**
 
-- [2º Recuperatorio 18/02/2022, Ej. 5](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-5): dan potencia activa, factor de potencia y la corriente **de pico**. Entonces $R = 2P/I_0^2$ y $X = R\tan\varphi$. Trabaja por encima de la resonancia → inductivo. Además piden $S = P/\cos\varphi$ y $Q = S\operatorname{sen}\varphi$.
+- [2º Recuperatorio 18/02/2022, Ej. 5](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-5): dan potencia activa, factor de potencia y la corriente **de pico**. Entonces $R = 2P/I_0^2$ y $X = R\tan\varphi$. Trabaja por encima de la resonancia → inductivo. Además piden $S = P/\cos\varphi$ y $Q = S\mathrm{sen}\,\varphi$.
 - [1er Recuperatorio 12/12/2024, Ej. 3](2024-12-12-1er-recuperatorio-2do-parcial.md#ejercicio-3): el capacitor es **cilíndrico**; primero se calcula $C = 2\pi\varepsilon_0\ell/\ln(b/a) = 14{,}75$ nF. Como C ya se conoce, L sale directo de la resonancia: $L = 1/(\omega_0^2C)$.
 
 ---
@@ -789,7 +789,7 @@ $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7
 
 1. Si la tensión está adelantada (girada en sentido antihorario respecto de la corriente) → inductivo → **R y L**. Si atrasada → **R y C**. Si disipa potencia, uno de los dos es R. (Si estuvieran a 90° exactos serían L y C sin R, y no disiparía.)
 2. Los fasores se dibujan con amplitudes: $P = \tfrac12V_0I_0\cos\varphi$, $Z = V_0/I_0$.
-3. $R = Z\cos\varphi$ (o $2P/I_0^2$) y $X = Z\operatorname{sen}\varphi$.
+3. $R = Z\cos\varphi$ (o $2P/I_0^2$) y $X = Z\mathrm{sen}\,\varphi$.
 
 ### Ejemplo — 2º Parcial 27/11/2025 (Tema 2), Ej. 4
 
@@ -801,7 +801,7 @@ La tensión está adelantada → **R y L** en serie.
 
 $$\cos\varphi = \frac{2P}{V_0I_0} = \frac{160}{320} = 0{,}5\ (\le1,\ \text{hay solución}) \quad\Rightarrow\quad \varphi = 60^\circ$$
 
-$$R = \frac{2P}{I_0^2} = \frac{160}{16} = 10\ \Omega \qquad Z = \frac{80}{4} = 20\ \Omega \qquad X_L = 20\operatorname{sen}60^\circ = 17{,}32\ \Omega$$
+$$R = \frac{2P}{I_0^2} = \frac{160}{16} = 10\ \Omega \qquad Z = \frac{80}{4} = 20\ \Omega \qquad X_L = 20\mathrm{sen}\,60^\circ = 17{,}32\ \Omega$$
 
 $$L = \frac{17{,}32}{2\pi\cdot100}\ \text{H} = 27{,}6\ \text{mH}$$
 

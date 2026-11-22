@@ -48,7 +48,7 @@ $$Z = \frac{\mathcal E_{EF}}{I_{EF}}$$
 
 **Paso 2 — R y C (ítem b).** Del triángulo de impedancias, con $\phi = 60^\circ$:
 
-$$R = Z\cos\phi \qquad X_C = Z\operatorname{sen}\phi \qquad C = \frac{1}{\omega X_C}$$
+$$R = Z\cos\phi \qquad X_C = Z\mathrm{sen}\,\phi \qquad C = \frac{1}{\omega X_C}$$
 
 **Paso 3 — Tensiones (ítems c y d).** $V_{R,EF} = RI_{EF}$ y $V_{C,EF} = X_CI_{EF}$ (comprobando que $\sqrt{V_R^2 + V_C^2} = 100$ V).
 
@@ -75,7 +75,7 @@ $$L = \frac{1}{(628{,}3)^2\cdot7{,}35\times10^{-6}}\ \text{H} = 0{,}345\ \text{H
 **Respuesta:**
 
 - a) $Z = \mathcal E_{ef}/i_{ef} = 500\ \Omega$
-- b) $R = Z\cos\phi = 250\ \Omega$; $|X_C| = Z\operatorname{sen}\phi = 433\ \Omega \Rightarrow C = 7{,}35\ \mu$F
+- b) $R = Z\cos\phi = 250\ \Omega$; $|X_C| = Z\mathrm{sen}\,\phi = 433\ \Omega \Rightarrow C = 7{,}35\ \mu$F
 - c) $V_{ef,R} = 50$ V
 - d) $V_{ef,C} = (100^2 - 50^2)^{1/2}$ V $= 86{,}6$ V
 - e) $L = 345$ mH
@@ -117,7 +117,7 @@ $$C = \frac{1}{(2\omega)^2L} = \frac{1}{(628{,}3)^2\cdot1{,}378}\ \text{F} = 1{,
 
 **Respuesta:**
 
-- (a) no cambia; (b) el valor de $|X|$ no cambia, y $|X_L| = Z\operatorname{sen}\phi = 433\ \Omega \Rightarrow L = 1{,}38$ H
+- (a) no cambia; (b) el valor de $|X|$ no cambia, y $|X_L| = Z\mathrm{sen}\,\phi = 433\ \Omega \Rightarrow L = 1{,}38$ H
 - (c) no cambia; (d) no cambia; (e) $C = 1{,}83\ \mu$F; (f) no cambia
 - g) Diagramas de la guía:
 
@@ -356,7 +356,7 @@ b) la tensión en función del tiempo en el resistor, en la bobina y en el capac
 
 **Paso 3 — Corriente.** $i_0 = \mathcal E_0/Z = 2$ A. Como es capacitivo, la corriente **adelanta** $\phi = \arctan\dfrac34 = 37^\circ$:
 
-$$i(t) = 2\operatorname{sen}(500t + 37^\circ)\ \text{A}$$
+$$i(t) = 2\mathrm{sen}\,(500t + 37^\circ)\ \text{A}$$
 
 **Paso 4 — Potencias (ítem a).**
 
@@ -364,18 +364,18 @@ $$S = \tfrac12\mathcal E_0i_0 = \tfrac12\cdot10\cdot2 = 10\ \text{VA} \qquad P =
 
 **Paso 5 — Tensiones (ítem b).** Cada una con su amplitud ($i_0$ por la reactancia o resistencia) y su fase respecto de la corriente:
 
-$$V_R = i_0R\operatorname{sen}(500t + 37^\circ) = 8\operatorname{sen}(500t + 37^\circ)\ \text{V}$$
+$$V_R = i_0R\mathrm{sen}\,(500t + 37^\circ) = 8\mathrm{sen}\,(500t + 37^\circ)\ \text{V}$$
 
-$$V_C = i_0X_C\operatorname{sen}(500t + 37^\circ - 90^\circ) = 20\operatorname{sen}(500t - 53^\circ)\ \text{V}$$
+$$V_C = i_0X_C\mathrm{sen}\,(500t + 37^\circ - 90^\circ) = 20\mathrm{sen}\,(500t - 53^\circ)\ \text{V}$$
 
-$$V_L = i_0X_L\operatorname{sen}(500t + 37^\circ + 90^\circ) = 14\operatorname{sen}(500t + 127^\circ)\ \text{V}$$
+$$V_L = i_0X_L\mathrm{sen}\,(500t + 37^\circ + 90^\circ) = 14\mathrm{sen}\,(500t + 127^\circ)\ \text{V}$$
 
 </details>
 
 **Respuesta:**
 
 - a) $S = 10$ VA; $P = 8$ W
-- b) $V_R = i_0R = 8\operatorname{sen}(500t + 37^\circ)$ V; $V_C = i_0|X_C|\operatorname{sen}(500t + 37^\circ - 90^\circ) = 20\operatorname{sen}(500t - 53^\circ)$ V; $V_L = i_0X_L\operatorname{sen}(500t + 37^\circ + 90^\circ) = 14\operatorname{sen}(500t + 127^\circ)$ V
+- b) $V_R = i_0R = 8\mathrm{sen}\,(500t + 37^\circ)$ V; $V_C = i_0|X_C|\mathrm{sen}\,(500t + 37^\circ - 90^\circ) = 20\mathrm{sen}\,(500t - 53^\circ)$ V; $V_L = i_0X_L\mathrm{sen}\,(500t + 37^\circ + 90^\circ) = 14\mathrm{sen}\,(500t + 127^\circ)$ V
 
 </details>
 
@@ -421,11 +421,11 @@ $$L = \frac{6}{314{,}16}\ \text{H} = 19{,}1\ \text{mH}$$
 
 **Paso 6 — Tensiones (ítem d).**
 
-$$V_R = 20\cdot4 = 80\operatorname{sen}(2\pi50t + 37^\circ)\ \text{V}$$
+$$V_R = 20\cdot4 = 80\mathrm{sen}\,(2\pi50t + 37^\circ)\ \text{V}$$
 
-$$V_C = 20\cdot6 = 120\operatorname{sen}(2\pi50t - 53^\circ)\ \text{V}$$
+$$V_C = 20\cdot6 = 120\mathrm{sen}\,(2\pi50t - 53^\circ)\ \text{V}$$
 
-$$V_L = 20\cdot3 = 60\operatorname{sen}(2\pi50t + 127^\circ)\ \text{V}$$
+$$V_L = 20\cdot3 = 60\mathrm{sen}\,(2\pi50t + 127^\circ)\ \text{V}$$
 
 **Paso 7 — Kirchhoff (ítem f).** Sumando fasores: $\mathcal E = \sqrt{V_R^2 + (V_C - V_L)^2} = \sqrt{80^2 + 60^2} = 100$ V $= Z\,i_0 = 5\cdot20$ ✓.
 
@@ -436,7 +436,7 @@ $$V_L = 20\cdot3 = 60\operatorname{sen}(2\pi50t + 127^\circ)\ \text{V}$$
 - a) $R = 4\ \Omega$; $L = 9{,}55$ mH
 - b) $L = 19{,}1$ mH
 - c) Porque si la tensión atrasa, el circuito es capacitivo. Luego, la frecuencia de resonancia se halla por debajo de la frecuencia de trabajo, de manera tal que para correr la frecuencia de resonancia hacia la derecha debe aumentarse la reactancia inductiva.
-- d) $V_R = i(t)R = 80\operatorname{sen}(2\pi50t + 37^\circ)$ V; $V_C = i(t)|X_C| = 120\operatorname{sen}(2\pi50t - 53^\circ)$ V; $V_L = i(t)X_L = 60\operatorname{sen}(2\pi50t + 127^\circ)$ V
+- d) $V_R = i(t)R = 80\mathrm{sen}\,(2\pi50t + 37^\circ)$ V; $V_C = i(t)|X_C| = 120\mathrm{sen}\,(2\pi50t - 53^\circ)$ V; $V_L = i(t)X_L = 60\mathrm{sen}\,(2\pi50t + 127^\circ)$ V
 - e) y f) Diagramas de la guía ($\mathcal E = \sqrt{V_R^2 + V_X^2} = \sqrt{80^2 + 60^2} = 100$ V):
 
 ![Diagramas del ejercicio 9](img/ej-09-respuesta.png)
@@ -487,17 +487,17 @@ $$X = 43\cdot0{,}593 = 25{,}5\ \Omega \qquad L = \frac{25{,}5}{113{,}1}\ \text{H
 
 **Paso 5 — Tensión y corriente (ítem c).** $Z = R/\cos\phi = 50\ \Omega$, $\mathcal E_0 = Zi_0 = 100$ V. Tomando la tensión con fase 0, la corriente atrasa 30°:
 
-$$\mathcal E(t) = 100\operatorname{sen}(2\pi50t)\ \text{V} \qquad i(t) = 2\operatorname{sen}(2\pi50t - \pi/6)\ \text{A}$$
+$$\mathcal E(t) = 100\mathrm{sen}\,(2\pi50t)\ \text{V} \qquad i(t) = 2\mathrm{sen}\,(2\pi50t - \pi/6)\ \text{A}$$
 
 **Paso 6 — Tensiones (ítem d).** $X_L = \omega L = 70{,}9\ \Omega$ y $X_C = 45{,}4\ \Omega$ (con los valores de la guía, 69,7 y 44,2):
 
-$$V_R = 86\operatorname{sen}(2\pi50t - 30^\circ) \qquad V_C \approx 88{,}4\operatorname{sen}(2\pi50t - 120^\circ) \qquad V_L \approx 139{,}4\operatorname{sen}(2\pi50t + 60^\circ)$$
+$$V_R = 86\mathrm{sen}\,(2\pi50t - 30^\circ) \qquad V_C \approx 88{,}4\mathrm{sen}\,(2\pi50t - 120^\circ) \qquad V_L \approx 139{,}4\mathrm{sen}\,(2\pi50t + 60^\circ)$$
 
 **Paso 7 — Kirchhoff (ítem f).** $\sqrt{86^2 + (139{,}4 - 88{,}4)^2} = \sqrt{86^2 + 51^2} = 100$ V ✓.
 
 **Paso 8 — Potencias (ítem h).**
 
-$$S = \tfrac12\mathcal E_0i_0 = 100\ \text{VA} \qquad Q = S\operatorname{sen}\phi = 51\ \text{VAR} \qquad P = \sqrt{S^2 - Q^2} = 86\ \text{W}$$
+$$S = \tfrac12\mathcal E_0i_0 = 100\ \text{VA} \qquad Q = S\mathrm{sen}\,\phi = 51\ \text{VAR} \qquad P = \sqrt{S^2 - Q^2} = 86\ \text{W}$$
 
 </details>
 
@@ -505,8 +505,8 @@ $$S = \tfrac12\mathcal E_0i_0 = 100\ \text{VA} \qquad Q = S\operatorname{sen}\ph
 
 - a) El circuito es inductivo porque la frecuencia de resonancia está por debajo de la de trabajo. Luego, la tensión adelanta a la corriente.
 - b) $R = 43\ \Omega$; $L = 222$ mH; $C = 72\ \mu$F
-- c) $\mathcal E(t) = 100\operatorname{sen}(2\pi50t)$ V; $i(t) = 2\operatorname{sen}(2\pi50t - \pi/6)$ A
-- d) $V_R = 86\operatorname{sen}(2\pi50t - \pi/3)$ V (la guía; con la corriente atrasada 30° corresponde −π/6); $V_C = 88{,}4\operatorname{sen}(2\pi50t - 120^\circ)$ V; $V_L = 139{,}4\operatorname{sen}(2\pi50t + 60^\circ)$ V
+- c) $\mathcal E(t) = 100\mathrm{sen}\,(2\pi50t)$ V; $i(t) = 2\mathrm{sen}\,(2\pi50t - \pi/6)$ A
+- d) $V_R = 86\mathrm{sen}\,(2\pi50t - \pi/3)$ V (la guía; con la corriente atrasada 30° corresponde −π/6); $V_C = 88{,}4\mathrm{sen}\,(2\pi50t - 120^\circ)$ V; $V_L = 139{,}4\mathrm{sen}\,(2\pi50t + 60^\circ)$ V
 - e), f), g) Diagramas de la guía ($\mathcal E = \sqrt{86^2 + 51^2} = 100$ V):
 
 ![Diagramas del ejercicio 10](img/ej-10-respuesta.png)

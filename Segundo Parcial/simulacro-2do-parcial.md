@@ -153,7 +153,7 @@ Con corriente en **sentido antihorario** (vista desde arriba de la hoja), el cam
 
 **Paso 2 — Espira cuadrada.** Cada lado de longitud D está a $D/2$ del centro y ve sus extremos a 45°:
 
-$$B_{lado} = \frac{\mu_0I}{4\pi(D/2)}\cdot2\operatorname{sen}45^\circ = \frac{\sqrt2\,\mu_0I}{2\pi D} \qquad B_{cuad} = 4B_{lado} = \frac{2\sqrt2\,\mu_0I}{\pi D}$$
+$$B_{lado} = \frac{\mu_0I}{4\pi(D/2)}\cdot2\mathrm{sen}\,45^\circ = \frac{\sqrt2\,\mu_0I}{2\pi D} \qquad B_{cuad} = 4B_{lado} = \frac{2\sqrt2\,\mu_0I}{\pi D}$$
 
 **Paso 3 — Condición (ítem b).** $B_{cuad} = 3B_c$:
 

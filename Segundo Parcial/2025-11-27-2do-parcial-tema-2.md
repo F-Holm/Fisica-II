@@ -28,17 +28,17 @@ Un hilo muy largo que transporta una corriente I adopta la forma indicada en la 
 
 **Paso 1 — Hilo recto finito.** Un tramo recto a distancia $d$ de P genera
 
-$$B = \frac{\mu_0I}{4\pi d}\left(\operatorname{sen}\beta_2 - \operatorname{sen}\beta_1\right)$$
+$$B = \frac{\mu_0I}{4\pi d}\left(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1\right)$$
 
 donde $\beta_{1,2}$ son los ángulos con que se ven los extremos, medidos desde la perpendicular trazada por P.
 
-**Paso 2 — Tramo vertical** ($d = D$). El pie de la perpendicular está en $y = 0$. Un extremo está en $-\infty$, así que $\operatorname{sen}\beta_1 = -1$. El otro está en $y = H$, así que $\operatorname{sen}\beta_2 = \dfrac{H}{\sqrt{H^2 + D^2}}$:
+**Paso 2 — Tramo vertical** ($d = D$). El pie de la perpendicular está en $y = 0$. Un extremo está en $-\infty$, así que $\mathrm{sen}\,\beta_1 = -1$. El otro está en $y = H$, así que $\mathrm{sen}\,\beta_2 = \dfrac{H}{\sqrt{H^2 + D^2}}$:
 
 $$B_v = \frac{\mu_0I}{4\pi D}\left(1 + \frac{H}{\sqrt{H^2 + D^2}}\right)$$
 
 Sentido: la corriente sube y P está a la derecha del hilo, así que $\vec B_v$ es **entrante** ($-\hat k$).
 
-**Paso 3 — Tramo horizontal** ($d = H$). El pie de la perpendicular está en $x = 0$. Un extremo está en $x = -D$, así que $\operatorname{sen}\beta_1 = -\dfrac{D}{\sqrt{H^2 + D^2}}$. El otro está en $+\infty$, así que $\operatorname{sen}\beta_2 = 1$:
+**Paso 3 — Tramo horizontal** ($d = H$). El pie de la perpendicular está en $x = 0$. Un extremo está en $x = -D$, así que $\mathrm{sen}\,\beta_1 = -\dfrac{D}{\sqrt{H^2 + D^2}}$. El otro está en $+\infty$, así que $\mathrm{sen}\,\beta_2 = 1$:
 
 $$B_h = \frac{\mu_0I}{4\pi H}\left(1 + \frac{D}{\sqrt{H^2 + D^2}}\right)$$
 
@@ -166,7 +166,7 @@ Como $\cos\varphi \le 1$, existe solución. El dibujo es esquemático y solo ind
 
 $$P = \frac{I_{MAX}^2}{2}R \quad\Rightarrow\quad R = \frac{2P}{I_{MAX}^2} = \frac{160}{16}\ \Omega = 10\ \Omega$$
 
-**Paso 4 — L.** $Z = V_{MAX}/I_{MAX} = 20\ \Omega$ y $X_L = Z\operatorname{sen}\varphi = 20\cdot\tfrac{\sqrt3}{2} = 17{,}32\ \Omega$:
+**Paso 4 — L.** $Z = V_{MAX}/I_{MAX} = 20\ \Omega$ y $X_L = Z\mathrm{sen}\,\varphi = 20\cdot\tfrac{\sqrt3}{2} = 17{,}32\ \Omega$:
 
 $$L = \frac{X_L}{2\pi f} = \frac{17{,}32}{2\pi\cdot100}\ \text{H} = 27{,}6\ \text{mH}$$
 

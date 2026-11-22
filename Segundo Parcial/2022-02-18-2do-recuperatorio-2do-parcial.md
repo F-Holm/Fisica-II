@@ -155,7 +155,7 @@ $$L = \frac{R\tan\phi}{\omega\left(1 - (f_R/f)^2\right)} = \frac{24{,}4}{376{,}9
 
 **Paso 4 — Potencias (ítem c).**
 
-$$S = \frac{P}{\cos\phi} = \frac{70}{0{,}82}\ \text{VA} = 85{,}4\ \text{VA} \qquad Q = S\operatorname{sen}\phi = 85{,}4\cdot0{,}572\ \text{VAR} = 48{,}9\ \text{VAR}$$
+$$S = \frac{P}{\cos\phi} = \frac{70}{0{,}82}\ \text{VA} = 85{,}4\ \text{VA} \qquad Q = S\mathrm{sen}\,\phi = 85{,}4\cdot0{,}572\ \text{VAR} = 48{,}9\ \text{VAR}$$
 
 </details>
 

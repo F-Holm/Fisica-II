@@ -136,7 +136,7 @@ $$\vec F = q\vec E \qquad W_{campo}^{A\to B} = q\,(V_A - V_B) = -\Delta U$$
 | [Hilo finito, punto en su eje](../2%20-%20Electrost%C3%A1tica/teoria.md#hilo-finito-en-un-punto-de-su-eje), a distancias $a$ y $b$ de los extremos ($a < b$) | $E = k\lambda\left(\dfrac1a - \dfrac1b\right)$, sobre el eje | $V = k\lambda\ln\dfrac{b}{a}$ |
 | [Hilo infinito](../2%20-%20Electrost%C3%A1tica/teoria.md#hilo-infinito) | $E = \dfrac{2k\lambda}{r} = \dfrac{\lambda}{2\pi\varepsilon_0r}$ | (solo diferencias) $V_A - V_B = 2k\lambda\ln\dfrac{r_B}{r_A}$ |
 | [Anillo, punto en su eje](../2%20-%20Electrost%C3%A1tica/teoria.md#anillo-en-su-eje) a distancia $z$ | $E = \dfrac{kQz}{(R^2 + z^2)^{3/2}}$ | $V = \dfrac{kQ}{\sqrt{R^2 + z^2}}$ |
-| [Arco de ángulo θ, en el centro](../2%20-%20Electrost%C3%A1tica/teoria.md#arco-de-circunferencia-en-el-centro) | $E = \dfrac{2k\lambda}{R}\operatorname{sen}\dfrac\theta2$ (semianillo: $2k\lambda/R$) | $V = k\lambda\theta$ |
+| [Arco de ángulo θ, en el centro](../2%20-%20Electrost%C3%A1tica/teoria.md#arco-de-circunferencia-en-el-centro) | $E = \dfrac{2k\lambda}{R}\mathrm{sen}\,\dfrac\theta2$ (semianillo: $2k\lambda/R$) | $V = k\lambda\theta$ |
 | Carga puntual | $E = kq/r^2$ | $V = kq/r$ |
 
 ### Casos de examen
