@@ -2,7 +2,7 @@
 
 Exámenes del 1er Parcial (temas 1 a 4: térmica, electrostática, electrodinámica, capacitores) del curso Z2151 (Prof. Minces), ordenados por fecha. Los PDF originales y las resoluciones manuscritas del profesor están en [Aula Virtual](Aula%20Virtual).
 
-**Antes de empezar:** la [teoría del 1er Parcial](teoria.md) resume, por tipo de ejercicio, todo lo necesario para resolver estos exámenes.
+**Antes de empezar:** la [teoría del 1er Parcial](teoria.md) resume, por tipo de ejercicio, todo lo necesario para resolver estos exámenes. Si nunca cursaste Física II, empezá por la [guía de resolución](guia-de-resolucion.md): explica desde cero cada tipo de ejercicio con un ejemplo de parcial.
 
 Cada ejercicio tiene un botón **Solución** y, adentro, un botón **Solución paso a paso**.
 

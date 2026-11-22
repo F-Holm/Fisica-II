@@ -2,7 +2,7 @@
 
 Exámenes del 2º Parcial (temas 5 a 7: magnetostática, inducción, corriente alterna), ordenados por fecha. En [Aula Virtual](Aula%20Virtual) están los originales: PDF del curso Z2151 (Prof. Minces) con las resoluciones manuscritas del profesor, y los Word y fotos de los demás exámenes.
 
-**Antes de empezar:** la [teoría del 2º Parcial](teoria.md) resume, por tipo de ejercicio, todo lo necesario para resolver estos exámenes.
+**Antes de empezar:** la [teoría del 2º Parcial](teoria.md) resume, por tipo de ejercicio, todo lo necesario para resolver estos exámenes. Si nunca cursaste Física II, empezá por la [guía de resolución](guia-de-resolucion.md): explica desde cero cada tipo de ejercicio con un ejemplo de parcial.
 
 Cada ejercicio tiene un botón **Solución** y, adentro, un botón **Solución paso a paso**.
 
