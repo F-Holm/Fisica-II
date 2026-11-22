@@ -4,9 +4,10 @@ Esta guía es para quien ya aprobó Análisis Matemático II (integrales de lín
 
 Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpeta y se agruparon en **19 tipos**, ordenados por unidad de la materia (4. Capacitores, 5. Magnetostática, 6. Inducción, 7. Corriente alterna). Para cada tipo hay:
 
+- **Qué está pasando (desde cero)**: la física de la situación en palabras, sin fórmulas.
 - **Cómo reconocerlo** en el enunciado.
 - **Receta**: los pasos que siempre se siguen.
-- **Ejemplo resuelto**: un ejercicio real de parcial, elegido como representante del tipo. Cada fórmula se **deduce** de las leyes en el momento en que se usa, con el atajo al lado. No hace falta memorizar los atajos: alcanza con saber hacer la deducción.
+- **Ejemplo resuelto**: un ejercicio real de parcial, elegido como representante del tipo. Arranca con **Qué piden, en palabras**: el enunciado traducido, dato por dato, y el plan. Cada fórmula se **deduce** de las leyes en el momento en que se usa, con el atajo al lado. No hace falta memorizar los atajos: alcanza con saber hacer la deducción.
 - **Variantes**: los demás ejercicios del mismo tipo, con lo que cambia respecto del ejemplo.
 
 Primero conviene leer la [sección 0](#0-kit-mínimo-lo-que-am2-no-te-dio). Ahí está la idea central de la guía: todo el 2º Parcial sale de [seis leyes](#04-las-seis-leyes-lo-único-que-hay-que-memorizar), y cada fórmula que se usa en los ejercicios se deduce de una de ellas con una integral o una derivada. Después se puede ir directo al tipo que interese.
@@ -17,7 +18,7 @@ Volver al [índice de parciales](README.md).
 
 ## Índice
 
-**[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: unidades, regla de la mano derecha, las seis leyes de las que se deducen todas las fórmulas y la [tabla de atajos para el día del parcial](#011-atajos-para-el-día-del-parcial).
+**[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: [conceptos desde cero](#00-conceptos-desde-cero) (carga, corriente, tensión, campo, flujo, fem, capacitor, bobina), unidades, regla de la mano derecha, las seis leyes de las que se deducen todas las fórmulas y la [tabla de atajos para el día del parcial](#011-atajos-para-el-día-del-parcial).
 
 **Unidad 4. Capacitores (en el 2º Parcial desde 2024)**
 
@@ -55,6 +56,27 @@ Volver al [índice de parciales](README.md).
 ---
 
 ## 0. Kit mínimo (lo que AM2 no te dio)
+
+### 0.0 Conceptos desde cero
+
+Se supone que sabés Física I: fuerza, leyes de Newton, energía, trabajo y movimiento circular. Esta tabla es todo lo de electricidad y magnetismo que la guía usa sin volver a explicar.
+
+| Concepto | Qué es, en palabras | Unidad |
+|---|---|---|
+| **Carga** $q$ | Propiedad de las partículas que las hace atraerse o repelerse. Hay positiva y negativa: iguales se repelen, distintas se atraen. | C (coulomb) |
+| **Corriente** $I$ | Cuánta carga pasa por un cable por segundo: $I = dq/dt$. Por convención, su sentido es el que seguirían cargas positivas. | A = C/s |
+| **Tensión** o **diferencia de potencial** $V$ | Energía que gana o pierde cada coulomb al ir de un punto a otro. Es como la diferencia de altura para el agua: por fuera de la fuente, la corriente "cae" del potencial alto al bajo. | V = J/C |
+| **Fuente** (pila, batería, generador) | Mantiene una tensión entre sus dos bornes y así empuja la corriente por el circuito. | |
+| **Resistencia** $R$ | Cuánto se opone un elemento al paso de la corriente. Ley de Ohm: $V = RI$. La energía que pierde la corriente al atravesarla se convierte en calor (efecto Joule). | Ω (ohm) |
+| **Potencia** $P$ | Energía por segundo. En cualquier elemento $P = VI$. En una resistencia, $P = I^2R$. | W = J/s |
+| **Serie** y **paralelo** | En serie, los elementos están uno detrás del otro y los atraviesa la misma corriente. En paralelo, están conectados a los mismos dos puntos y tienen la misma tensión. | |
+| **Campo magnético** $\vec B$ | Una flecha asociada a cada punto del espacio. Indica qué fuerza sentiría ahí una carga en movimiento. Lo producen las corrientes (y los imanes). | T (tesla) |
+| **Líneas de campo** | Curvas que en cada punto son tangentes a $\vec B$. Alrededor de un hilo recto son circunferencias centradas en el hilo. | |
+| **Flujo magnético** $\phi$ | Cuánto campo atraviesa una superficie. Si el campo es uniforme y perpendicular a la superficie, es $B\cdot\text{área}$. | Wb = T m² |
+| **Fem** (fuerza electromotriz) $\mathcal E$ | Una tensión que empuja corriente por un circuito. La de una pila sale de la química. La **inducida** aparece cuando cambia el flujo magnético que atraviesa el circuito. Pese al nombre, es una tensión, no una fuerza. | V |
+| **Capacitor** | Dos placas conductoras separadas por un aislante. Conectado a una fuente, una placa se carga con $+Q$ y la otra con $-Q$. La corriente no lo atraviesa: solo lo carga. Guarda energía. La **capacidad** $C = Q/V$ es cuánta carga guarda por cada volt. | F (farad) |
+| **Bobina**, **inductor** o **solenoide** | Alambre enrollado en muchas vueltas. Con corriente produce adentro un campo magnético, como un imán. Se opone a los cambios de su propia corriente. La **inductancia** $L$ mide cuánto. | H (henry) |
+| **Corriente alterna** | La tensión del enchufe no es fija: oscila como $V_0\,\mathrm{sen}\,(\omega t)$, 50 veces por segundo en Argentina. | Hz |
 
 ### 0.1 Unidades y constantes
 
@@ -345,6 +367,10 @@ Los imprescindibles son el **1**, el **2** y el **4**: entre los tres aparecen e
 
 ## 1. Capacitores con llaves: energía disipada
 
+**Qué está pasando (desde cero).** Un capacitor funciona como un tanque de carga: dos placas que se cargan con $+Q$ y $-Q$. Cuanta más carga tiene, mayor es la tensión entre sus placas: $V = Q/C$. Una llave es un interruptor: abierta corta el cable, cerrada lo conecta. "Transcurrido un tiempo muy largo" significa que la corriente ya dejó de circular, porque el capacitor se cargó hasta tener la misma tensión que la fuente.
+
+Los cables reales tienen algo de resistencia, y mientras circula corriente parte de la energía se pierde ahí en forma de calor. Lo que pregunta este tipo de ejercicio es cuánta energía se pierde. El resultado sorprende: esa pérdida no depende de cuánto valga la resistencia, solo de las capacidades y de las tensiones del principio y del final. Por eso la piden sin dar R.
+
 **Cómo reconocerlo.** Circuito con fuente, capacitores y dos llaves que se abren y cierran en orden. Piden cargas finales y energía disipada "en las resistencias" (las de los cables).
 
 **De dónde sale.** [Ley 5, capacitores](#09-ley-5-capacitores): $U = \int v\,dq$ y conservación de la carga.
@@ -364,6 +390,14 @@ $$V_f = \frac{Q_0}{C_1 + C_{\text{resto}}} \qquad Q_i = C_iV_f$$
 > En el circuito de la figura, inicialmente los capacitores se hallan descargados y las llaves se encuentran abiertas. Se cierra la llave 1 y, transcurrido un tiempo muy largo, se abre la llave 1 y a continuación se cierra la llave 2. Calcular la energía disipada en las resistencias en la evolución completa del sistema. **Datos:** V=60 V; C₁=20 μF; C₂=30 μF.
 
 ![Figura](img/2024-12-12-ej1.png)
+
+**Qué piden, en palabras.**
+
+- Fuente de 60 V; $C_1 = 20\ \mu$F y $C_2 = 30\ \mu$F, los dos descargados al principio.
+- **Etapa 1:** se cierra la llave 1 y $C_1$ se carga desde la fuente hasta 60 V.
+- **Etapa 2:** se abre la llave 1, así que la fuente queda desconectada, y se cierra la llave 2. $C_1$, cargado, queda conectado con $C_2$, descargado. Parte de la carga de $C_1$ pasa a $C_2$, hasta que los dos tienen la misma tensión.
+- **Qué piden:** la "energía disipada en la evolución completa", o sea la energía que se convirtió en calor en las dos etapas.
+- **Plan:** sumar la energía perdida en la etapa 1 y la perdida en la etapa 2.
 
 **Deducción de las energías.**
 
@@ -390,6 +424,10 @@ $$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \t
 
 ## 2. Hilos paralelos: campo en un punto y punto de campo nulo
 
+**Qué está pasando (desde cero).** Una corriente produce campo magnético a su alrededor. Un hilo "muy largo" o "infinito" es uno tan largo, comparado con las distancias del problema, que sus extremos no importan. Su campo tiene líneas que son circunferencias centradas en el hilo, y se debilita con la distancia como $1/d$.
+
+Con dos hilos, el campo en un punto es la **suma vectorial** de los campos de cada uno (superposición). Si el punto está en el plano de los dos hilos, ambos campos son perpendiculares a ese plano (salen o entran de la hoja). Entonces sumar vectores se reduce a sumar o restar módulos, según el sentido de cada uno. "Campo nulo" en un punto significa que ahí los dos campos tienen igual módulo y sentidos opuestos.
+
 **Cómo reconocerlo.** Dos hilos "muy largos" paralelos; piden el campo en un punto, dónde se anula, o una corriente desconocida a partir de un punto de campo nulo.
 
 **De dónde sale.** [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría) (o [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable) con límites infinitos) para el campo de cada hilo, y superposición.
@@ -410,6 +448,14 @@ $$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \t
 ### Ejemplo — 1er Recuperatorio 09/12/2021, Ej. 1
 
 > Dos alambres paralelos infinitos, separados por una distancia de 8 cm, están circulados por corrientes I₁=1 A e I₂. El campo magnético generado por los alambres se anula a una distancia de 2 cm del primero, en la región externa a los dos alambres. **a)** Determine I₂. **b)** Halle el campo magnético en el punto medio entre ambos alambres. **c)** Una carga q=6 μC pasa por el punto del ítem anterior con una velocidad de módulo 4 x 10⁴ m/s y dirección coincidente con la de los hilos. Determine el módulo de la fuerza sobre la carga.
+
+**Qué piden, en palabras.**
+
+- Dos hilos paralelos separados 8 cm. $I_1 = 1$ A; de $I_2$ no se conocen ni el valor ni el sentido.
+- **Dato clave:** en un punto **afuera** de los hilos, a 2 cm del primero, el campo total es cero.
+- **a)** Con esa condición, hallar $I_2$ y su sentido.
+- **b)** Campo total en el punto medio, a 4 cm de cada hilo.
+- **c)** Una carga pasa por el punto medio moviéndose paralela a los hilos y siente una fuerza magnética: hallar su módulo.
 
 **Deducción del campo de un hilo infinito** (atajo: $B = \dfrac{\mu_0 I}{2\pi d}$). Por simetría, $\vec B$ es tangente a las circunferencias centradas en el hilo y tiene el mismo módulo en toda la circunferencia de radio $d$. Circulación de Ampère sobre esa circunferencia:
 
@@ -441,6 +487,10 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 
 ## 3. Fuerza entre hilos
 
+**Qué está pasando (desde cero).** Un campo magnético empuja a las cargas que se mueven dentro de él, y por lo tanto también a los cables con corriente. Dos hilos con corriente se empujan entre sí porque cada uno está dentro del campo del otro. El resultado, que se deduce abajo, es que si las corrientes van en el mismo sentido los hilos se atraen, y si van en sentidos opuestos se repelen.
+
+Como los hilos son infinitos, la fuerza total sería infinita. Por eso el dato es la fuerza **por unidad de longitud**, $F/\ell$: los newtons que siente cada metro de hilo.
+
 **Cómo reconocerlo.** "Los hilos se atraen/repelen con una fuerza por unidad de longitud de…".
 
 **De dónde sale.** [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética) sobre un hilo que está en el campo del otro ([Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría)).
@@ -458,6 +508,13 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 > Dos hilos muy largos y que transportan corrientes I₁=I e I₂ de valor y sentido desconocidos se hallan dispuestos de forma coplanar, y separados por una distancia D. **a)** Sabiendo que los hilos se atraen entre sí con una fuerza por unidad de longitud de módulo 4μ₀I²/(3πD), determine el campo en el punto P (H=D/5). Exprese en términos de μ₀, I y D. **b)** ¿Existen puntos donde el campo magnético sea nulo? En caso afirmativo, determine alguno de ellos. En caso negativo, justifique claramente.
 
 ![Figura](img/2025-11-27-ej2.png)
+
+**Qué piden, en palabras.**
+
+- Dos hilos separados $D$. $I_1 = I$ es dato; de $I_2$ no se conocen ni el valor ni el sentido.
+- **Dato:** los hilos se atraen con $F/\ell = \dfrac{4\mu_0I^2}{3\pi D}$.
+- **a)** Con eso, sacar $I_2$ y su sentido. Después, el campo total en P, que está a $D/5$ a la derecha del hilo 2. El resultado va en función de $\mu_0$, $I$ y $D$, sin números.
+- **b)** Decir si hay puntos donde el campo total es cero y, si los hay, encontrar uno.
 
 En la figura P está a la derecha del hilo 2, a $H = D/5$ de él (o sea a $6D/5$ del hilo 1).
 
@@ -485,6 +542,12 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 
 ## 4. Campo en 3D (anillo + hilo) y fuerza sobre una carga
 
+**Qué está pasando (desde cero).** Acá los campos no están todos en la misma dirección, así que no alcanza con sumar módulos: hay que escribir cada campo como un vector con componentes $(x, y, z)$ y sumar componente a componente.
+
+- Un **anillo** (espira circular) con corriente produce sobre su eje un campo dirigido a lo largo del eje, que se debilita al alejarse del anillo.
+- Un **hilo** produce un campo que da vueltas alrededor de él.
+- Una **carga** que se mueve dentro de un campo siente la fuerza $q\,\vec v\times\vec B$. Esa fuerza es perpendicular a la velocidad y al campo, y vale cero si la carga se mueve paralela al campo.
+
 **Cómo reconocerlo.** Aparece un anillo con un punto sobre su **eje**, a veces combinado con un hilo; y una carga que pasa por ese punto.
 
 **De dónde sale.** [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable), caso C (anillo) y caso A (hilo); [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética) para la carga.
@@ -501,6 +564,13 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 > Un anillo de radio R=8 cm, cuyo eje coincide con el eje de las Z y cuyo centro es el punto z=0, transporta una corriente I=2 A. Un hilo muy largo perpendicular al eje de las Z y que lo intersecta en el punto z₂=18 cm, transporta la misma corriente I. **a)** Determine el campo magnético en el punto z₁=10 cm. **b)** En un instante dado, una carga q=6 μC pasa por el punto z₁ con velocidad **v**=5 x 10⁴ m/s **k**. Determinar la fuerza magnética sobre la carga, en ese instante.
 
 ![Figura](img/2021-02-19-ej2.png)
+
+**Qué piden, en palabras.**
+
+- Anillo de radio 8 cm, en un plano horizontal y centrado en el origen, con 2 A. Su eje es el eje $z$.
+- Un hilo horizontal muy largo cruza el eje $z$ a 18 cm de altura, también con 2 A.
+- **a)** Campo total en el punto del eje que está a 10 cm de altura. Es la suma del campo del anillo (vertical) y el del hilo (horizontal).
+- **b)** Una carga de 6 μC pasa por ese punto subiendo, con velocidad en $+\hat k$. Calcular la fuerza magnética como vector.
 
 Ejes: $\hat k$ hacia arriba (eje del anillo), $\hat\imath$ en el sentido de la corriente del hilo, $\hat\jmath = \hat k\times\hat\imath$. El anillo circula en sentido antihorario visto desde arriba.
 
@@ -528,6 +598,8 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10
 
 ## 5. Espiras: campo en el centro
 
+**Qué está pasando (desde cero).** Una **espira** es un cable cerrado con forma de curva (circunferencia, cuadrado o rectángulo) por el que circula corriente. En el centro de la espira, todos los pedazos de cable producen campo en el mismo sentido, perpendicular al plano de la espira, así que sus aportes se suman. En la espira circular, todos los pedazos están a la misma distancia del centro. En la rectangular, cada lado es un tramo recto y se suman los aportes de los cuatro.
+
 **Cómo reconocerlo.** Espira circular, cuadrada o rectangular; piden B en el centro o un tamaño para que los campos de dos espiras cumplan una relación.
 
 **De dónde sale.** [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable): caso B (arco con $\theta = 2\pi$) para la circular y caso A sumando 4 lados para la rectangular.
@@ -542,6 +614,12 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10
 ### Ejemplo — 2º Parcial 25/11/2021, Ej. 2
 
 > **a)** Determine el campo magnético en el centro de una espira rectangular de lados 5 y 10 cm, que transporta una corriente de 2 A. **b)** ¿Qué radio debería tener una espira circular que transportase una corriente de 0,5 A, para que el campo en su centro tuviese un valor igual al determinado en **a)**?
+
+**Qué piden, en palabras.**
+
+- **a)** Espira rectangular de 5 cm × 10 cm con 2 A: campo en su centro.
+- **b)** Espira circular con 0,5 A: qué radio tiene que tener para que el campo en su centro sea igual al de a).
+- **Plan:** calcular el campo de la rectangular sumando los 4 lados. Después igualarlo al campo de la circular y despejar el radio.
 
 **Deducción del campo de un lado** (atajo para el rectángulo entero: $B = \dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$). Biot-Savart sobre un tramo recto de largo $\ell$, visto desde su mediatriz a distancia $d$. Con el tramo sobre el eje $x$ y el origen en el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{d\,dx}{\sqrt{x^2 + d^2}}$ y
 
@@ -579,6 +657,10 @@ $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \fr
 
 ## 6. Hilo doblado: Biot-Savart por tramos
 
+**Qué está pasando (desde cero).** Este tipo tiene un solo cable que cambia de forma: tramos rectos y arcos. El campo de un cable es la suma de lo que aporta cada pedacito (eso dice Biot-Savart), así que se puede partir el cable en tramos, calcular lo que aporta cada uno en P y sumar.
+
+Cada pedacito aporta en la dirección de $d\vec l\times\hat r$. Si el cable y P están en el plano de la hoja, todos los aportes son perpendiculares a la hoja (⊙ o ⊗), así que se suman o se restan. Un tramo que apunta directo hacia P, o que se aleja directo de P, no aporta nada.
+
 **Cómo reconocerlo.** Un dibujo con un único cable que tiene tramos rectos (a veces semi-infinitos) y arcos, y un punto P.
 
 **De dónde sale.** [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable): caso 0 (prolongación), caso A (tramos rectos) y caso B (arcos), y superposición.
@@ -598,6 +680,13 @@ $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \fr
 > Un hilo muy largo con corriente adopta la forma indicada en la figura. Determinar el campo magnético en el punto P. **Datos:** R=8 cm; I=2 A; α=30°.
 
 ![Figura](img/2024-12-12-ej2.png)
+
+**Qué piden, en palabras.**
+
+- El cable llega desde la izquierda por una recta que pasa por P. Después recorre un arco de radio 8 cm alrededor de P, y sale hacia la derecha por una recta horizontal que **no** pasa por P.
+- $I = 2$ A, $\alpha = 30^\circ$.
+- **Qué piden:** el campo total en P, con módulo y sentido.
+- **Plan:** separar en tres tramos (entrada, arco, salida), calcular cada uno y sumarlos con su sentido.
 
 P es el centro del arco. El cable llega desde la izquierda por la horizontal que pasa por P, recorre el arco por arriba en sentido **horario** hasta un punto a un ángulo α **por debajo** de la horizontal, y sale hacia la derecha horizontalmente.
 
@@ -639,6 +728,10 @@ $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 
 ## 7. Movimiento de una carga en un campo magnético
 
+**Qué está pasando (desde cero).** Una carga que se mueve en un campo magnético siente una fuerza **perpendicular a su velocidad**. Una fuerza así no la acelera ni la frena: solo la desvía, como la tensión de la soga cuando hacés girar una piedra. Por eso, si la carga entra perpendicular al campo, describe una circunferencia con rapidez constante.
+
+Si entra oblicua, la parte de la velocidad paralela al campo no siente fuerza y sigue de largo. La combinación de girar y avanzar es una **hélice**, con forma de resorte. El **paso** de la hélice es lo que avanza en una vuelta.
+
 **Cómo reconocerlo.** Una partícula entra a una región con $\vec B$; piden radio, paso de hélice o velocidad.
 
 **De dónde sale.** [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética): fuerza centrípeta para el radio, y trabajo nulo.
@@ -656,6 +749,12 @@ $$r = \frac{mv_\perp}{\lvert q\rvert B} \qquad T = \frac{2\pi m}{\lvert q\rvert 
 ### Ejemplo — 2º Parcial 25/11/2021, Ej. 3
 
 > Una partícula cargada ingresa con una cierta velocidad en una zona de campo magnético uniforme de módulo 0,24 T y que forma un ángulo de 80° con la velocidad, observándose que la carga describe una trayectoria helicoidal de paso 0,85 mm. Teniendo esto en cuenta, se pide determinar el radio de la trayectoria circular que esa misma partícula, con esa misma velocidad, habría descrito si hubiese ingresado en una zona de campo uniforme perpendicular a la velocidad y de módulo 0,18 T.
+
+**Qué piden, en palabras.**
+
+- Una partícula de la que no se conocen la masa, la carga ni la velocidad entra en un campo de 0,24 T, formando 80° con él, y describe una hélice de paso 0,85 mm.
+- **Qué piden:** el radio de la circunferencia que describiría la misma partícula, con la misma velocidad, si entrara **perpendicular** a un campo de 0,18 T.
+- **Plan:** del paso sale la combinación $mv/\lvert q\rvert$, y es lo único que hace falta para el radio. No hace falta conocer $m$, $q$ ni $v$ por separado.
 
 **Deducción del radio, el período y el paso** (atajos: $r = \dfrac{mv_\perp}{\lvert q\rvert B}$, $T = \dfrac{2\pi m}{\lvert q\rvert B}$, $p = v_\parallel T$). La fuerza $q\,\vec v\times\vec B$ es perpendicular a $\vec B$, así que no cambia $v_\parallel$; y es perpendicular a $\vec v$, así que no cambia el módulo de la velocidad. En el plano perpendicular a $\vec B$ queda una fuerza de módulo constante $\lvert q\rvert v_\perp B$, siempre perpendicular a la velocidad: es un movimiento circular uniforme, y esa fuerza es la centrípeta. Por Newton:
 
@@ -679,6 +778,8 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 
 ## 8. Bobina en un campo que varía con el tiempo
 
+**Qué está pasando (desde cero).** **Ley de Faraday:** si cambia el campo magnético que atraviesa un circuito, aparece en el circuito una tensión (fem inducida) y, si el circuito está cerrado, circula corriente. No hace falta ninguna pila: así funcionan los generadores y los transformadores. Cuanto más rápido cambia el flujo, mayor es la fem. Una bobina de $N$ vueltas es como $N$ espiras en serie, así que la fem se multiplica por $N$.
+
 **Cómo reconocerlo.** $B(t)$ dado como función; bobina quieta con N vueltas.
 
 **De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) con $B(t)$ y área fija.
@@ -692,6 +793,14 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 ### Ejemplo — Simulacro, Ej. 2
 
 > Un alambre de longitud 5 m se enrolla para formar una bobina circular de área 2,21 x 10⁻³ m². La bobina es sumergida en un campo magnético perpendicular al plano que la contiene, y cuya intensidad varía en el tiempo según la ley B(t) = a t² + b t⁴ [T], donde a y b son coeficientes. Sabiendo que la resistencia de la bobina es de 5Ω, y que la corriente que circula por ella satisface I(t=1 s) = 0,3 A; I(t=2 s) = 0,05 A, determinar los valores de a y b.
+
+**Qué piden, en palabras.**
+
+- Con 5 m de alambre se arma una bobina circular de área $2{,}21\times10^{-3}$ m². No dicen cuántas vueltas tiene: sale de la geometría.
+- El campo es perpendicular a la bobina y cambia con el tiempo como $B(t) = at^2 + bt^4$. Resistencia de la bobina: 5 Ω.
+- **Datos:** la corriente vale 0,3 A en $t = 1$ s y 0,05 A en $t = 2$ s.
+- **Qué piden:** $a$ y $b$.
+- **Plan:** calcular el número de vueltas, escribir la corriente $I(t)$ y plantear dos ecuaciones con dos incógnitas.
 
 **N.** $r = \sqrt{A/\pi} = 2{,}652$ cm, perímetro $2\pi r = 0{,}1666$ m, $N = 5/0{,}1666 = 30$ vueltas. Entonces $NA = 0{,}0663$ m².
 
@@ -715,6 +824,11 @@ Restando dos veces la primera a la segunda: $24b = -41{,}48$, así que $b = -1{,
 
 ## 9. Espira junto a un hilo: flujo con integral
 
+**Qué está pasando (desde cero).** Igual que en el tipo anterior, un flujo que cambia induce una fem. La diferencia es que el campo del hilo no es el mismo en toda la espira: es más fuerte cerca del hilo. Por eso el flujo no es "$B$ por el área" sino una integral. El flujo puede cambiar de dos formas:
+
+- cambia la corriente del hilo, y con ella el campo;
+- la espira se aleja del hilo y pasa a una zona de campo más débil.
+
 **Cómo reconocerlo.** Espira rectangular en el mismo plano que un hilo infinito; la corriente del hilo varía o la espira se mueve.
 
 **De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): flujo del hilo integrado en franjas, y derivada respecto de $t$.
@@ -734,6 +848,13 @@ $$\phi = \int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}\,c\,dx = \frac{\mu_0 Ic}{2\pi}\l
 > En la figura el hilo es muy largo, y la corriente por el mismo varía en el tiempo según la ley I(t) = I₀ sen(ωt). **a)** Determine la fem inducida en la espira. **b)** Suponga ahora que la corriente en el hilo se mantiene constante en el tiempo con valor I₀, y que la espira parte de la posición inicial anterior y se aleja del hilo con velocidad constante de módulo 5 cm/s. Determinar la fem inducida en la espira. **c)** Suponga que la espira es conductora, con resistencia 3Ω. Determinar, para el caso del ítem anterior, la corriente inducida en la espira, indicando el sentido de circulación. **Datos:** L₁=12 cm, L₂=20 cm, L₃=15 cm, I₀=3 A, ω=5π 1/s.
 
 ![Figura](img/2021-02-19-ej3.png)
+
+**Qué piden, en palabras.**
+
+- Hilo vertical. A su derecha, en el mismo plano, una espira rectangular. Su lado cercano está a $L_1 = 12$ cm del hilo, el lejano a $L_2 = 20$ cm, y los lados paralelos al hilo miden $L_3 = 15$ cm.
+- **a)** La corriente del hilo oscila, $I(t) = 3\,\mathrm{sen}\,(5\pi t)$, y la espira está quieta: fem en la espira.
+- **b)** La corriente es fija, 3 A, pero la espira se aleja del hilo a 5 cm/s: fem en el instante inicial.
+- **c)** Para el caso b), con una espira de 3 Ω: corriente y su sentido (horario o antihorario).
 
 La espira va de $x = L_1$ a $x = L_2$, con lado paralelo $L_3$.
 
@@ -759,6 +880,10 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 
 ## 10. Barra sobre rieles
 
+**Qué está pasando (desde cero).** Hay dos rieles metálicos paralelos, unidos en un extremo por resistencias, y una barra metálica apoyada sobre ellos que se desliza. Rieles, barra y resistencias forman un circuito cerrado cuya área cambia cuando se mueve la barra. Con un campo magnético perpendicular, el flujo cambia y se induce una fem: la barra funciona como una pila y circula corriente.
+
+Además, la barra con corriente está dentro de un campo magnético, así que siente una fuerza, y esa fuerza siempre se opone al movimiento (es la ley de Lenz). Para mantener la velocidad constante, alguien (el "agente externo") tiene que empujar la barra con una fuerza igual y opuesta.
+
 **Cómo reconocerlo.** Una barra que desliza sobre dos rieles conductores unidos por resistencias, en un campo perpendicular al plano.
 
 **De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) con área $\ell x$ (o $\int B(x)\,\ell\,dx$), y [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética) para la fuerza que frena.
@@ -775,6 +900,14 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 > La barra de longitud L=11 cm se desplaza con velocidad constante hacia la izquierda y de módulo 15 m/s, sobre rieles conductores, en presencia de un campo magnético entrante y uniforme de módulo B=3 T. No hay rozamiento. Determine: **a)** Valor y sentido de circulación de la corriente inducida, y **b)** Módulo, dirección y sentido de la fuerza magnética y de la fuerza del agente externo que actúan sobre la barra. R₁=5Ω, R₂=2Ω, R₃=6Ω.
 
 ![Figura](img/2020-12-03-ej3.png)
+
+**Qué piden, en palabras.**
+
+- Barra de 11 cm que se mueve hacia la izquierda a 15 m/s.
+- Campo entrante de 3 T.
+- Tres resistencias (5, 2 y 6 Ω) conectan los rieles.
+- **a)** Corriente inducida: valor y sentido.
+- **b)** Fuerza magnética sobre la barra, y fuerza que tiene que hacer el agente externo para mantener la velocidad constante. Las dos con módulo, dirección y sentido.
 
 **Deducción de la fem** (atajo: $\mathcal E = B\ell v$). El circuito es el rectángulo formado por los rieles, la barra y el tramo con resistencias. Si $x$ es la distancia de la barra a ese tramo, el área es $\ell x$ y, con $B$ uniforme y perpendicular, $\phi = B\ell x$. Faraday:
 
@@ -806,6 +939,10 @@ Con $x = vt = 40$ m: $\mathcal E = 0{,}5\cdot40\cdot0{,}24\cdot20 = 96$ V e $I =
 
 ## 11. Barra que se mueve junto a un hilo
 
+**Qué está pasando (desde cero).** Una barra metálica se mueve dentro de un campo magnético. Sus electrones libres se mueven con ella, así que sienten la fuerza $q\,\vec v\times\vec B$, que los empuja a lo largo de la barra. Se acumula carga negativa en un extremo y queda carga positiva en el otro: aparece una diferencia de potencial entre los extremos, como en una pila. No circula corriente porque no hay circuito cerrado.
+
+Como el campo del hilo es más fuerte cerca del hilo, cada pedazo de barra empuja a las cargas con distinta intensidad. Por eso hay que integrar a lo largo de la barra.
+
 **Cómo reconocerlo.** Barra perpendicular a un hilo infinito, moviéndose **paralela** al hilo. No hay circuito cerrado: piden diferencia de potencial entre los extremos.
 
 **De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá), en la forma de fem de movimiento $\int(\vec v\times\vec B)\cdot d\vec l$ con el campo del hilo.
@@ -821,6 +958,13 @@ El extremo hacia el que apunta $\vec v\times\vec B$ está a mayor potencial.
 > Un hilo muy largo transporta una corriente I=3A. Una barra conductora de longitud l=10 cm se mueve en dirección paralela al hilo, con velocidad de módulo 20 m/s y de sentido opuesto al de circulación de la corriente. La distancia entre el hilo y el extremo más próximo de la barra es d=5 cm. Determinar la diferencia de potencial inducida entre los extremos de la barra. Justificar cuál se halla a mayor potencial.
 
 ![Figura](img/2024-12-12-ej4.png)
+
+**Qué piden, en palabras.**
+
+- Hilo con 3 A.
+- Barra de 10 cm perpendicular al hilo, con su extremo más cercano a 5 cm.
+- La barra se mueve paralela al hilo a 20 m/s, en sentido contrario al de la corriente.
+- **Qué piden:** la diferencia de potencial entre los extremos de la barra, y cuál de los dos está a mayor potencial.
 
 **Deducción** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). No hay circuito cerrado, así que se usa la fem de movimiento: sobre cada carga de la barra actúa $q\,\vec v\times\vec B$, que equivale a un campo eléctrico $\vec v\times\vec B$, y la fem es su integral de línea a lo largo de la barra. El campo del hilo a distancia $r$ es $\dfrac{\mu_0 I}{2\pi r}$ (Ampère: $B\cdot2\pi r = \mu_0 I$). $\vec v$ es paralela al hilo y $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB$ y apunta a lo largo de la barra. Entonces:
 
@@ -838,6 +982,8 @@ Polaridad: hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\
 
 ## 12. Barra que gira
 
+**Qué está pasando (desde cero).** Es la misma idea que la barra junto al hilo, pero ahora el campo es uniforme y lo que cambia de un punto a otro es la **velocidad**: al girar, los puntos lejos del eje se mueven más rápido ($v = \omega r$). Si el eje está en un punto interior de la barra, la barra son dos mitades que giran. Cada mitad empuja las cargas hacia el eje (o las dos hacia afuera), y lo que interesa es la diferencia de potencial entre los dos extremos.
+
 **Cómo reconocerlo.** Barra que rota con velocidad angular ω en un campo uniforme perpendicular.
 
 **De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): fem de movimiento con $v = \omega r$ (o el área barrida).
@@ -851,6 +997,12 @@ Si el eje está en un punto interior O, se calcula cada mitad por separado; las 
 ### Ejemplo — 2º Parcial 20/11/2015, Ej. 3
 
 > Una barra conductora de longitud 45 cm y extremos P y Q, gira en sentido horario alrededor del punto O de la barra, situado a una distancia de 15 cm del extremo P. Existe un campo magnético uniforme, saliente respecto del plano de la hoja. Sabiendo que ω=8 1/s y B=0,3 T, determine la diferencia de tensión entre P y Q. Justifique cuál de ellos se halla a mayor potencial.
+
+**Qué piden, en palabras.**
+
+- Barra de 45 cm, con extremos P y Q, que gira en sentido horario alrededor de un punto O de la barra. O está a 15 cm de P, y por lo tanto a 30 cm de Q.
+- Campo saliente de 0,3 T; $\omega = 8$ rad/s.
+- **Qué piden:** $V_P - V_Q$, y cuál de los dos extremos está a mayor potencial.
 
 $OP = 0{,}15$ m y $OQ = 0{,}30$ m.
 
@@ -872,6 +1024,10 @@ P (el más cercano al eje) está a mayor potencial.
 
 ## 13. Autoinductancia e inductancia mutua de solenoides
 
+**Qué está pasando (desde cero).** Una bobina con corriente produce campo magnético, y ese campo atraviesa sus propias vueltas: la bobina tiene un flujo propio. Si la corriente cambia, ese flujo cambia y, por Faraday, se induce una fem **en la misma bobina** que se opone al cambio. Eso es la **autoinducción**. La autoinductancia $L$ mide cuánto flujo propio produce cada ampere.
+
+Si hay dos bobinas, el campo de una atraviesa a la otra, así que un cambio de corriente en una induce fem en la otra. La **inductancia mutua** $M$ mide cuánto flujo produce una bobina en la otra por cada ampere. Así funciona un transformador.
+
 **Cómo reconocerlo.** Piden "coeficiente de autoinducción", "inductancia mutua" o "fem autoinducida" de una bobina con radio, longitud y número de vueltas.
 
 **De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): $N\Phi = LI$ y $N_2\Phi_2 = MI_1$, con el $B$ del solenoide de [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría).
@@ -886,6 +1042,12 @@ P (el más cercano al eje) está a mayor potencial.
 ### Ejemplo — 1er Recuperatorio 09/12/2021, Ej. 2
 
 > Un solenoide de radio 2 cm y longitud 60 cm tiene arrolladas 3000 vueltas de alambre. **a)** Determine el coeficiente de autoinducción del solenoide. Justifique la fórmula utilizada. **b)** Se dispone al solenoide de forma coaxial con otro solenoide de la misma longitud, radio 3 cm y 2000 vueltas de alambre. ¿Cuál es la inductancia mutua? Justifique la fórmula utilizada.
+
+**Qué piden, en palabras.**
+
+- Solenoide de radio 2 cm, largo 60 cm y 3000 vueltas.
+- **a)** Su autoinductancia $L$, justificando la fórmula.
+- **b)** Otro solenoide del mismo largo, de radio 3 cm y 2000 vueltas, se coloca coaxial con el primero (uno dentro del otro, con el mismo eje). Calcular la inductancia mutua $M$, justificando la fórmula.
 
 **a)** *Justificación del campo* (atajo: $B = \mu_0\dfrac N\ell I$). 60 cm ≫ 2 cm, así que se trata como solenoide infinito: adentro el campo es uniforme y paralelo al eje, y afuera es despreciable. Ampère sobre un rectángulo con un lado de largo $\ell'$ adentro y el opuesto afuera: solo aporta el lado de adentro y se encierran $\dfrac N\ell\ell'$ vueltas, así que $B\ell' = \mu_0\dfrac N\ell\ell' I$ y $B = \mu_0\dfrac N\ell I$.
 
@@ -905,6 +1067,8 @@ $$\mathcal E(t) = -L\frac{dI}{dt} = -0{,}0457\cdot3\cdot200\cos(200t)\ \text{V} 
 
 ## 14. Solenoide: campo, inductancia, energía y longitud
 
+**Qué está pasando (desde cero).** Un **solenoide** es una bobina larga: alambre enrollado en hélice sobre un cilindro. Adentro el campo es uniforme y paralelo al eje, y afuera es casi cero. El solenoide guarda energía en ese campo: para establecer la corriente hay que vencer la autoinducción, y esa energía queda almacenada (se recupera al cortar la corriente). En este tipo se combinan tres ecuaciones (campo, inductancia y energía) para despejar el dato que no se da.
+
 **Cómo reconocerlo.** "Solenoide muy largo" con datos de L, B, I y radio; piden energía o longitud.
 
 **De dónde sale.** [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría) para $B$, [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) para $L$ y la energía como integral de la potencia.
@@ -918,6 +1082,13 @@ La de $L$ sale de la definición: $N\phi = (n\ell)(\mu_0 nI)(\pi R^2)$ y $L = N\
 ### Ejemplo — 2º Parcial 28/11/2024, Ej. 3
 
 > Un solenoide muy largo de radio R=0,8 cm y autoinducción L=2 x 10⁻⁵ H transporta una corriente I=18 A. Sabiendo que el módulo del campo magnético en su interior es B=5 x 10⁻⁴ T, determinar la longitud del solenoide.
+
+**Qué piden, en palabras.**
+
+- Solenoide de radio 0,8 cm, con $L = 2\times10^{-5}$ H y corriente de 18 A. El campo adentro es $5\times10^{-4}$ T.
+- No dan ni el número de vueltas ni la longitud.
+- **Qué piden:** la longitud.
+- **Plan:** escribir la energía de dos formas, con $L$ y con $B$, e igualarlas. La longitud es la única incógnita.
 
 **Deducción de las tres ecuaciones.**
 
@@ -951,6 +1122,22 @@ Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.
 
 ## 15. RLC serie a partir de mediciones
 
+**Qué está pasando (desde cero).** Con corriente alterna, la tensión y la corriente oscilan. Cada elemento las relaciona de una forma distinta:
+
+- Una **resistencia** las deja en fase: suben y bajan juntas.
+- Una **bobina** se opone a los cambios de corriente, así que la corriente queda **atrasada** respecto de la tensión.
+- Un **capacitor** tiene que cargarse antes de tener tensión, así que la corriente queda **adelantada**.
+
+En un circuito **RLC serie** (resistencia, bobina y capacitor uno detrás del otro), según la frecuencia gana el efecto de la bobina (circuito **inductivo**) o el del capacitor (**capacitivo**). La "resistencia total" en alterna se llama **impedancia** $Z$, y el desfasaje entre la tensión y la corriente se llama $\varphi$.
+
+Hay tres potencias:
+
+- **Activa**: la que realmente se consume, en la resistencia.
+- **Reactiva**: la que va y vuelve entre la bobina, el capacitor y la fuente sin consumirse.
+- **Aparente**: tensión por corriente, en valores eficaces.
+
+Los amperímetros y voltímetros miden **valores eficaces** (ver [0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)).
+
 **Cómo reconocerlo.** Dan algunos de: tensión, corriente (amperímetro), potencias, fase, frecuencia, y uno de L o C. Piden el resto.
 
 **De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): módulo y argumento de $Z$.
@@ -966,6 +1153,16 @@ Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.
 ### Ejemplo — 2º Parcial 03/12/2020, Ej. 5
 
 > En un circuito RLC serie con generador de alterna la frecuencia es de 50 Hz y la corriente adelanta en 30° a la tensión. La lectura del amperímetro es de 4 A, y la potencia aparente es de 800 VA. **a)** Calcular el valor de la resistencia. **b)** Si L=60 mH, determinar C. **c)** ¿Cuál es la frecuencia de resonancia?
+
+**Qué piden, en palabras.**
+
+- La frecuencia es 50 Hz.
+- La corriente adelanta 30° a la tensión, así que el circuito es capacitivo.
+- El amperímetro marca 4 A, que es valor eficaz. La potencia aparente es 800 VA.
+- **a)** $R$.
+- **b)** Sabiendo que $L = 60$ mH, calcular $C$.
+- **c)** Frecuencia de resonancia: aquella en la que bobina y capacitor se compensan exactamente.
+- **Plan:** $Z$ a partir de $S$ e $I$; $R$ y la reactancia neta con la fase; $X_L$ con $L$ y $\omega$; $X_C$, y de ahí $C$.
 
 **Deducción de lo que se usa** (todo sale de $v = Zi$ con $Z = R + j(X_L - X_C)$, ver [0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)).
 
@@ -992,6 +1189,8 @@ Coherente: capacitivo y $50 < 76{,}3$ Hz ✓.
 
 ## 16. RLC serie con la frecuencia de resonancia como dato
 
+**Qué está pasando (desde cero).** La **resonancia** es la frecuencia en la que los efectos de la bobina y del capacitor se cancelan exactamente. Ahí el circuito se comporta como una resistencia sola: la corriente es máxima y está en fase con la tensión. Saber la frecuencia de resonancia da una relación entre L y C. Junto con la reactancia a la frecuencia de trabajo, alcanza para despejar los dos.
+
 **Cómo reconocerlo.** Dan la frecuencia de trabajo **y** la de resonancia, pero no dan ni L ni C.
 
 **De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): módulo y argumento de $Z$, con $C = 1/(\omega_0^2L)$ de la condición de resonancia.
@@ -1005,6 +1204,14 @@ Es una ecuación lineal en L. Se despeja L y luego $C = 1/(\omega_0^2L)$.
 ### Ejemplo — 2º Parcial 25/11/2021, Ej. 4
 
 > A un circuito RLC serie que opera a 40Hz y resuena a 50 Hz, se le suministra una potencia aparente de 60 VA. Si la corriente (cuyo valor eficaz es 0,6 A) adelanta 30° respecto de la tensión, calcule: **a)** el valor de *R*; **b)** los valores de *L* y *C*; **c)** la tensión eficaz en cada elemento.
+
+**Qué piden, en palabras.**
+
+- RLC serie que trabaja a 40 Hz y resuena a 50 Hz.
+- Potencia aparente 60 VA; corriente eficaz 0,6 A; la corriente adelanta 30°.
+- **a)** $R$.
+- **b)** $L$ y $C$.
+- **c)** Tensión eficaz en cada elemento: lo que marcaría un voltímetro conectado a los bornes de cada uno.
 
 **a)** De $S = V_{EF}I_{EF}$: $V_{EF} = S/I_{EF} = 100$ V. Del módulo de $v = Zi$: $Z = V_{EF}/I_{EF} = 100/0{,}6 = 166{,}7\ \Omega$. De la parte real de $Z$: $R = Z\cos30^\circ = 144{,}3\ \Omega$. (Estas tres relaciones se deducen en el [tipo 15](#15-rlc-serie-a-partir-de-mediciones).)
 
@@ -1035,6 +1242,10 @@ $$V_R = 86{,}6\ \text{V} \qquad V_L = 89\ \text{V} \qquad V_C = 138{,}8\ \text{V
 
 ## 17. Dos capacitores posibles (corregir el factor de potencia)
 
+**Qué está pasando (desde cero).** Una bobina real tiene resistencia (la del alambre), así que se modela como R y L en serie. Su **factor de potencia**, $\cos\varphi$, mide qué fracción de la potencia aparente se consume de verdad. Un factor bajo es malo para la red eléctrica.
+
+Agregar un capacitor en serie compensa parte del efecto de la bobina y cambia el factor de potencia. El factor depende de **cuánto** se desbalancean bobina y capacitor, no de cuál de los dos gana. Por eso hay dos capacitores que dan el mismo factor: uno que compensa poco (sigue ganando la bobina) y otro que compensa de más (pasa a ganar el capacitor).
+
 **Cómo reconocerlo.** "Determine dos valores posibles de C", "factor de potencia 0,9", "¿existe otro capacitor que…?", "las dos opciones C y C'".
 
 **De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): $Z$ depende de $\lvert X_L - X_C\rvert$, no de su signo.
@@ -1048,6 +1259,13 @@ La primera solo existe si da positiva.
 ### Ejemplo — Simulacro, Ej. 5
 
 > Un generador de alterna de frecuencia 50 Hz se conecta con una bobina cuya resistencia interna no es despreciable. La lectura del amperímetro es de 5 A, la potencia es de 100 W y el factor de potencia es 0,6. **a)** Determine la inductancia L de la bobina. **b)** Se desea conectar un capacitor en serie con la bobina, de tal modo que el nuevo factor de potencia sea 0,9. Determine dos valores posibles de C.
+
+**Qué piden, en palabras.**
+
+- Una bobina con resistencia interna, conectada a un generador de 50 Hz.
+- El amperímetro marca 5 A; la potencia (activa) es 100 W; el factor de potencia es 0,6.
+- **a)** $L$ de la bobina.
+- **b)** Qué capacitor agregar en serie para que el factor de potencia pase a 0,9. Hay dos respuestas.
 
 "Bobina con resistencia interna" = R y L en serie.
 
@@ -1081,6 +1299,8 @@ $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7
 
 ## 18. Diagrama de fasores: identificar los elementos
 
+**Qué está pasando (desde cero).** Un **fasor** es una flecha que representa una tensión o una corriente alterna: su largo es la amplitud y su ángulo es la fase. Todas las flechas giran juntas, así que lo único que importa es el ángulo entre ellas: cuál va adelante (girada en sentido antihorario respecto de la otra) y por cuánto. Si la tensión va adelante, manda la bobina; si la corriente va adelante, manda el capacitor.
+
 **Cómo reconocerlo.** Un dibujo con dos flechas (tensión y corriente) y "circuito de solo dos elementos".
 
 **De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): el argumento de $Z$ dice qué fasor adelanta, y la potencia media da $R$.
@@ -1096,6 +1316,12 @@ $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7
 > El diagrama de fases de la figura corresponde a un circuito de CA de solo dos elementos pasivos que disipa 80W a 100Hz. Calcule el valor de esos elementos, en caso de que exista solución. **Datos:** I_MAX = 4 A ; V_MAX = 80 V.
 
 ![Figura](img/2025-11-27-ej4.png)
+
+**Qué piden, en palabras.**
+
+- El circuito tiene solo dos elementos, de entre R, L y C, y disipa 80 W a 100 Hz.
+- En el dibujo de fasores, la tensión está adelantada respecto de la corriente. Las amplitudes son 4 A y 80 V.
+- **Qué piden:** cuáles son los dos elementos y cuánto valen, o justificar que no hay solución.
 
 La tensión está adelantada → **R y L** en serie. *Por qué:* el argumento de $Z$ es el ángulo que la tensión adelanta a la corriente. Adelanto positivo significa parte imaginaria positiva, y de R, L y C el único que la aporta positiva es L ($+j\omega L$). Como además disipa potencia, el otro es R (L y C no disipan: la potencia media es $\tfrac12V_0I_0\cos90^\circ = 0$).
 
@@ -1117,6 +1343,12 @@ El ángulo del dibujo es esquemático: solo importa cuál fasor va adelante.
 
 ## 19. Afirmaciones verdaderas o falsas sobre RLC
 
+**Qué está pasando (desde cero).** Este tipo no tiene cuentas: hay que razonar cómo cambia la impedancia cuando cambian la frecuencia o el capacitor.
+
+- La **bobina** se opone más a las frecuencias altas, porque la corriente cambia más rápido.
+- El **capacitor** se opone más a las frecuencias bajas, porque tiene tiempo de cargarse y frenar la corriente. También se opone más cuanto más chico es.
+- Por debajo de la resonancia manda el capacitor; por encima, la bobina.
+
 **Cómo reconocerlo.** Lista de afirmaciones y opciones tipo "solo una es verdadera".
 
 **De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): signo de la parte imaginaria de $Z$ y cómo cambia con $C$ y $\omega$.
@@ -1130,6 +1362,13 @@ El ángulo del dibujo es esquemático: solo importa cuál fasor va adelante.
 ### Ejemplo — 2º Recuperatorio 19/02/2021, Ej. 5
 
 > **1:** Por encima de la frecuencia de resonancia, un circuito RLC serie es capacitivo. **2:** Si un RLC serie es inductivo, aumentando progresivamente C podemos llegar a tornarlo capacitivo. **3:** Una bobina con resistencia interna da un factor de potencia menor a 0,9; existen exactamente dos valores de C que, agregados en serie, llevan el factor de potencia a 0,9.
+
+**Qué piden, en palabras.**
+
+- Hay tres afirmaciones y hay que decidir cuáles son verdaderas:
+  - **1:** si un RLC es capacitivo por encima de la resonancia;
+  - **2:** si aumentar C puede volver capacitivo a un circuito inductivo;
+  - **3:** si hay exactamente dos capacitores que llevan a 0,9 el factor de potencia de una bobina.
 
 Todo sale de la parte imaginaria de $Z$, $X(\omega, C) = \omega L - \dfrac{1}{\omega C}$, que es positiva para un circuito inductivo y negativa para uno capacitivo.
 
