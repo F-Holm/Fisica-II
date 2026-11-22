@@ -17,7 +17,7 @@ Volver al [índice de parciales](README.md).
 
 ## Índice
 
-**[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: unidades, regla de la mano derecha y las seis leyes de las que se deducen todas las fórmulas.
+**[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: unidades, regla de la mano derecha, las seis leyes de las que se deducen todas las fórmulas y la [tabla de atajos para el día del parcial](#011-atajos-para-el-día-del-parcial).
 
 **Magnetostática (campos y fuerzas que producen las corrientes)**
 
@@ -104,7 +104,7 @@ En $d\vec l\times\hat r$, $d\vec l$ apunta en el sentido de la corriente y $\hat
 
 Las secciones 0.5 a 0.10 deducen de estas seis todo lo que se usa en los ejercicios. Cada deducción es una integral de AM2 de pocas líneas. Al final de cada sección hay una tabla de lo que sale de esa ley. No hace falta memorizar esas tablas: sirven para **reconocer** el caso y saber cómo se deduce.
 
-**Atajos que conviene saber igual** (porque aparecen en casi todos los exámenes y la deducción, aunque corta, consume tiempo): hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, espira circular en el centro $\dfrac{\mu_0 I}{2R}$ y solenoide $\mu_0 nI$.
+**Atajos para el día del parcial:** están todos juntos en [0.11](#011-atajos-para-el-día-del-parcial). Son 10 y evitan todas las integrales de los parciales. Los tres que aparecen en casi todos los exámenes son hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, espira circular en el centro $\dfrac{\mu_0 I}{2R}$ y solenoide $\mu_0 nI$.
 
 ---
 
@@ -297,6 +297,47 @@ $\cos\varphi$ se llama **factor de potencia**.
 
 **Truco central de casi todos los ejercicios de alterna:** con los datos se obtienen $Z$ y $R$ (o $Z$ y $\varphi$), y de ahí $\lvert X_L - X_C\rvert = \sqrt{Z^2 - R^2} = Z\,\mathrm{sen}\,\varphi$. Lo que diga el enunciado sobre la fase o la resonancia decide el **signo** de $X_L - X_C$.
 
+
+---
+
+### 0.11 Atajos para el día del parcial
+
+Con estos **10 atajos** se evitan todas las integrales que aparecen en los 10 parciales. Cada uno está deducido en la sección de su ley y en el ejemplo del tipo correspondiente.
+
+| # | Atajo | Integral que ahorra | Tipos |
+|---|---|---|---|
+| 1 | **Tramo recto:** $B = \dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$. Casos particulares: hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, semi-infinito con P frente a su extremo $\dfrac{\mu_0 I}{4\pi d}$, P sobre la prolongación $0$ | Biot-Savart en una recta ([0.5, caso A](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo), [2](#2-fuerza-entre-hilos), [3](#3-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga), [4](#4-espiras-campo-en-el-centro), [5](#5-hilo-doblado-biot-savart-por-tramos), [10](#10-espira-junto-a-un-hilo-flujo-con-integral), [12](#12-barra-que-se-mueve-junto-a-un-hilo) |
+| 2 | **Arco centrado en P:** $B = \dfrac{\mu_0 I\theta}{4\pi R}$. Espira circular $\dfrac{\mu_0 I}{2R}$, semicircunferencia $\dfrac{\mu_0 I}{4R}$ | Biot-Savart en un arco ([0.5, caso B](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [4](#4-espiras-campo-en-el-centro), [5](#5-hilo-doblado-biot-savart-por-tramos) |
+| 3 | **Anillo en su eje:** $B = \dfrac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$ | Biot-Savart con simetría ([0.5, caso C](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [3](#3-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga) |
+| 4 | **Solenoide:** $B = \mu_0 nI$ | circulación de Ampère ([0.6](#06-ley-2-ampère-atajo-cuando-hay-simetría)) | [7](#7-solenoide-campo-inductancia-energía-y-longitud), [8](#8-autoinductancia-e-inductancia-mutua-de-solenoides) |
+| 5 | **Hilo y logaritmo:** flujo en una espira $\Phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$; barra junto al hilo $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$ | flujo o fem con un campo no uniforme ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [10](#10-espira-junto-a-un-hilo-flujo-con-integral), [12](#12-barra-que-se-mueve-junto-a-un-hilo) |
+| 6 | **Barra que gira:** $\mathcal E = \tfrac12B\omega r_0^2$ | $\int(\vec v\times\vec B)\cdot d\vec l$ con $v = \omega r$ ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [13](#13-barra-que-gira) |
+| 7 | **Energía magnética:** $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$ | $\int L\,i\,di$ ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [7](#7-solenoide-campo-inductancia-energía-y-longitud) |
+| 8 | **Energía de un capacitor:** $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$; la fuente entrega $QV$, así que se disipa la mitad | $\int v\,dq$ ([0.9](#09-ley-5-capacitores)) | [14](#14-capacitores-con-llaves-energía-disipada) |
+| 9 | **Eficaces y potencia:** $V_{EF} = \dfrac{V_0}{\sqrt2}$, $\ P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$ | promedios en un período ([0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)) | [15](#15-rlc-serie-a-partir-de-mediciones) a [18](#18-diagrama-de-fasores-identificar-los-elementos) |
+| 10 | **Capacitor cilíndrico:** $C = \dfrac{2\pi\varepsilon_0\ell}{\ln(b/a)}$ | Gauss y $\int E\,dr$ ([0.9](#09-ley-5-capacitores)) | [16](#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) (apareció una sola vez) |
+
+Los imprescindibles son el **1**, el **2** y el **4**: entre los tres aparecen en casi todos los parciales.
+
+**Lo que no hace falta memorizar** porque sale con álgebra o con una derivada, sin integrar:
+
+| Fórmula | Cómo sale en una línea |
+|---|---|
+| Fuerza entre hilos $\dfrac F\ell = \dfrac{\mu_0 I_1I_2}{2\pi D}$ | campo del hilo 1 (atajo 1) por $I_2\ell$; paralelas se atraen |
+| Fuerza sobre una carga o un cable | $\vec F = q\,\vec v\times\vec B$, $\ \vec F = I\vec\ell\times\vec B$ (la ley misma) |
+| Radio y período $r = \dfrac{mv_\perp}{\lvert q\rvert B}$, $T = \dfrac{2\pi m}{\lvert q\rvert B}$; paso $p = v_\parallel T$ | fuerza magnética = fuerza centrípeta $\dfrac{mv^2}{r}$ |
+| Barra sobre rieles $\mathcal E = B\ell v$ | derivar $\Phi = B\ell x$ |
+| Bobina con $B(t)$: $\mathcal E = NA\dfrac{dB}{dt}$ | derivar $\Phi = NAB(t)$ |
+| $L = \mu_0\dfrac{N^2}{\ell}A$, $\ M = \mu_0\dfrac{N_1N_2}{\ell}A_{\text{menor}}$, $\ \mathcal E = -L\dfrac{dI}{dt}$ | $N\Phi = LI$ con el solenoide (atajo 4) |
+| Espira rectangular $\dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$ | sumar 4 lados con el atajo 1 |
+| Reparto de carga $V_f = \dfrac{Q_0}{\sum C}$ | la carga se conserva y terminan en paralelo |
+| $Z = \sqrt{R^2 + (X_L - X_C)^2}$, $\ X_L = \omega L$, $\ X_C = \dfrac{1}{\omega C}$ | $d/dt\to j\omega$ en $v_L$ y $v_C$, y sumar en serie |
+| $\cos\varphi = \dfrac RZ$, $\ \lvert X_L - X_C\rvert = Z\,\mathrm{sen}\,\varphi$ | parte real e imaginaria de $Z$ |
+| $\omega_0 = \dfrac{1}{\sqrt{LC}}$ | parte imaginaria de $Z$ igual a 0 |
+| $X_L - X_C = L\,\dfrac{\omega^2 - \omega_0^2}{\omega}$ | reemplazar $C = \dfrac{1}{\omega_0^2L}$ |
+| $S = V_{EF}I_{EF}$, $\ Q = V_{EF}I_{EF}\,\mathrm{sen}\,\varphi$ | lados del triángulo de impedancias por $I_{EF}^2$ |
+
+**Ojo: a veces piden la demostración.** En [20/11/2015, Ej. 1](2015-11-20-2do-parcial.md#ejercicio-1) piden demostrar el campo de una espira rectangular, y en [09/12/2021, Ej. 2](2021-12-09-1er-recuperatorio-2do-parcial.md#ejercicio-2) piden "justifique la fórmula utilizada" para L y M. Conviene saber deducir al menos los atajos 1, 2 y 4 y la $L$ del solenoide.
 
 ---
 
