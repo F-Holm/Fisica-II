@@ -2,7 +2,7 @@
 
 Ejercicios de la [Guía de ejercicios de Capacitores y dieléctricos](Aula%20Virtual/Gu%C3%ADa%20de%20ejercicios%20-%20Capacitores%20y%20diel%C3%A9ctricos.pdf). Los enunciados están copiados textualmente de la guía.
 
-Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y, arriba, un segundo botón **Solución paso a paso** con el desarrollo completo. En el paso a paso primero se obtiene la fórmula en forma simbólica y recién al final se reemplazan los números.
+Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y, arriba, un segundo botón **Solución paso a paso** con el desarrollo completo. El paso a paso está escrito para alguien que no sabe nada del tema: arranca con **Qué piden, en palabras** (el enunciado traducido) y **La idea, desde cero** (la teoría necesaria, explicada sobre ese ejercicio), y después resuelve deduciendo cada fórmula. Primero se obtiene la fórmula en forma simbólica y recién al final se reemplazan los números.
 
 Teoría: [resumen del tema](teoria.md). Constantes: $\varepsilon_0 = 8{,}85\times10^{-12}$ C²/(N m²), $k_0 = 9\times10^9$ N m²/C².
 
@@ -39,32 +39,75 @@ d) la energía almacenada por cada capacitor y la del sistema
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Estructura.** Bloque izquierdo: $C_1$ y $C_2$ en serie, y ese conjunto en paralelo con $C_3$. Bloque derecho: $C_4$ en paralelo con $C_5$. Los dos bloques están en serie con la pila de 50 V.
+**Qué piden, en palabras.**
 
-$$C_{12} = \frac{C_1C_2}{C_1 + C_2} \qquad C_a = C_{12} + C_3 \qquad C_b = C_4 + C_5 \qquad C_{eq} = \frac{C_aC_b}{C_a + C_b}$$
+- Cinco capacitores conectados a una pila de 50 V: $C_1 = 4$, $C_2 = 6$, $C_3 = 12{,}6$, $C_4 = 2$ y $C_5 = 8$, todos en μF.
+- "Régimen estacionario": pasó mucho tiempo, los capacitores terminaron de cargarse y ya no circula corriente.
+- **a)** Un único capacitor que equivalga a todo el circuito. **b)** y **c)** La carga y la tensión de cada uno. **d)** La energía de cada uno y la total.
 
-**Paso 2 — Carga total y tensión de cada bloque.** Los bloques están en serie: tienen la **misma carga** $Q = C_{eq}V$.
+**La idea, desde cero.** Un capacitor son dos placas metálicas enfrentadas que no se tocan. La pila saca electrones de una placa y los pone en la otra: una queda con $+Q$ y la otra con $-Q$. La corriente no lo atraviesa, solo lo carga. Cuanta más carga tiene, mayor es la tensión entre sus placas: $Q = CV$, donde $C$ (la capacidad) es cuánta carga guarda por cada volt. Para resolver circuitos de capacitores hay que reconocer dos formas de conexión:
 
-$$V_a = \frac{Q}{C_a} \qquad V_b = \frac{Q}{C_b}$$
+| | Cómo se ve | Qué tienen igual |
+|---|---|---|
+| **Paralelo** | los dos extremos de uno están unidos a los dos extremos del otro | la misma **tensión** |
+| **Serie** | uno a continuación del otro, sin nada más conectado en la unión | la misma **carga** |
 
-**Paso 3 — Cargas de cada capacitor.**
+- *Por qué en paralelo tienen la misma tensión.* Un cable sin corriente está todo al mismo potencial. Las placas de la izquierda están unidas por cable y tienen el mismo potencial; lo mismo las de la derecha. La diferencia entre los dos lados es la misma para los dos capacitores.
+- *Por qué en serie tienen la misma carga.* El pedazo de metal entre los dos (la placa derecha de uno, el cable y la placa izquierda del otro) está aislado. Antes de conectar la pila tenía carga total cero, y la carga no puede entrar ni salir. Si una de sus placas queda con $-Q$, la otra tiene que quedar con $+Q$.
 
-- $C_3$, $C_4$ y $C_5$ están directamente a la tensión de su bloque: $Q_i = C_iV_{bloque}$.
-- $C_1$ y $C_2$ están en serie: $Q_1 = Q_2 = C_{12}V_a$, y luego $V_1 = Q_1/C_1$, $V_2 = Q_2/C_2$.
+**Paso 1 — Leer el circuito.** $C_1$ y $C_2$ están uno detrás del otro, en serie. $C_3$ va de los mismos dos puntos que ese par, así que está en paralelo con él: eso forma el bloque izquierdo. $C_4$ y $C_5$ comparten sus dos extremos: están en paralelo y forman el bloque derecho. Los dos bloques están en serie con la pila.
 
-**Paso 4 — Energías:** $U_i = \dfrac{Q_iV_i}{2}$.
+**Paso 2 — Fórmulas de combinación (deducidas).**
 
-**Paso 5 — Cálculo** (en μF, μC, V y μJ):
+*Paralelo*: misma $V$, y las cargas se suman:
 
-$$C_{12} = \frac{24}{10} = 2{,}4 \qquad C_a = 2{,}4 + 12{,}6 = 15 \qquad C_b = 10 \qquad C_{eq} = \frac{150}{25} = 6\ \mu\text{F}$$
+$$Q = C_aV + C_bV = (C_a + C_b)V \quad\Rightarrow\quad C_{eq} = C_a + C_b$$
 
-$$Q = 6\cdot50 = 300\ \mu\text{C} \qquad V_a = \frac{300}{15} = 20\ \text{V} \qquad V_b = \frac{300}{10} = 30\ \text{V}$$
+*Serie*: misma $Q$, y las tensiones se suman:
 
-$$Q_1 = Q_2 = 2{,}4\cdot20 = 48 \qquad Q_3 = 12{,}6\cdot20 = 252 \qquad Q_4 = 2\cdot30 = 60 \qquad Q_5 = 8\cdot30 = 240$$
+$$V = \frac{Q}{C_a} + \frac{Q}{C_b} \quad\Rightarrow\quad \frac{1}{C_{eq}} = \frac1{C_a} + \frac1{C_b} \quad\Leftrightarrow\quad C_{eq} = \frac{C_aC_b}{C_a + C_b}$$
 
-$$V_1 = \frac{48}{4} = 12\ \text{V} \qquad V_2 = \frac{48}{6} = 8\ \text{V} \qquad V_3 = 20\ \text{V} \qquad V_4 = V_5 = 30\ \text{V}$$
+En serie, la equivalente siempre es menor que la menor de las dos.
 
-$$U_1 = 288 \quad U_2 = 192 \quad U_3 = 2520 \quad U_4 = 900 \quad U_5 = 3600 \qquad U_T = 7500\ \mu\text{J} = \tfrac12C_{eq}V^2 = \tfrac12\cdot6\cdot2500\ ✓$$
+**Paso 3 — Ítem a: simplificar de adentro hacia afuera** (todo en μF).
+
+$$C_{12} = \frac{4\cdot6}{4 + 6} = 2{,}4 \qquad C_A = C_{12} + C_3 = 2{,}4 + 12{,}6 = 15 \qquad C_B = C_4 + C_5 = 10$$
+
+$$C_{eq} = \frac{C_AC_B}{C_A + C_B} = \frac{15\cdot10}{25} = 6\ \mu\text{F}$$
+
+**Paso 4 — Carga que entrega la pila.** Todo el circuito equivale a un capacitor de 6 μF conectado a 50 V:
+
+$$Q = C_{eq}V = 6\cdot50 = 300\ \mu\text{C}$$
+
+**Paso 5 — Volver hacia atrás: los dos bloques.** Están en serie, así que los dos tienen 300 μC:
+
+$$V_A = \frac{300}{15} = 20\ \text{V} \qquad V_B = \frac{300}{10} = 30\ \text{V} \qquad (20 + 30 = 50\ \text{V}\ ✓)$$
+
+**Paso 6 — Abrir el bloque derecho.** $C_4$ y $C_5$ están en paralelo, así que los dos tienen 30 V:
+
+$$Q_4 = 2\cdot30 = 60\ \mu\text{C} \qquad Q_5 = 8\cdot30 = 240\ \mu\text{C} \qquad (60 + 240 = 300\ ✓)$$
+
+**Paso 7 — Abrir el bloque izquierdo.** $C_3$ y el par $C_{12}$ están en paralelo, así que los dos tienen 20 V:
+
+$$Q_3 = 12{,}6\cdot20 = 252\ \mu\text{C} \qquad Q_{12} = 2{,}4\cdot20 = 48\ \mu\text{C} \qquad (252 + 48 = 300\ ✓)$$
+
+**Paso 8 — Abrir el par $C_1$–$C_2$.** Están en serie, así que cada uno tiene 48 μC (no se suman):
+
+$$V_1 = \frac{48}{4} = 12\ \text{V} \qquad V_2 = \frac{48}{6} = 8\ \text{V} \qquad (12 + 8 = 20\ \text{V}\ ✓)$$
+
+Con la misma carga, el capacitor más chico de una serie se queda con la mayor tensión ($V = Q/C$).
+
+**Paso 9 — Ítem d: energía.** *De dónde sale:* con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\,dq$. Sumando de 0 a $Q$:
+
+$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+
+En μF y V, la energía sale en μJ:
+
+$$U_1 = \tfrac12\cdot4\cdot12^2 = 288 \quad U_2 = \tfrac12\cdot6\cdot8^2 = 192 \quad U_3 = \tfrac12\cdot12{,}6\cdot20^2 = 2520 \quad U_4 = \tfrac12\cdot2\cdot30^2 = 900 \quad U_5 = \tfrac12\cdot8\cdot30^2 = 3600$$
+
+Total: 7500 μJ. Control: $\tfrac12C_{eq}V^2 = \tfrac12\cdot6\cdot50^2 = 7500\ \mu\text{J}$ ✓.
+
+**Resumen del método.** (1) Identificar serie y paralelo. (2) Simplificar hasta $C_{eq}$. (3) $Q = C_{eq}V$. (4) Volver hacia atrás: en serie se copia la carga y se reparte la tensión; en paralelo se copia la tensión y se reparte la carga. (5) $U = \tfrac12CV^2$ para cada uno, y verificar con $\tfrac12C_{eq}V^2$.
 
 </details>
 
@@ -94,6 +137,15 @@ b) demuestre que la ubicación de la placa dentro del capacitor es irrelevante.
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un capacitor de placas paralelas (área $A$, separación $d$). Entre las placas se mete una lámina de metal de espesor $e$, paralela a ellas.
+- **a)** La nueva capacidad. **b)** Mostrar que no importa a qué altura se ponga la lámina.
+
+**La idea, desde cero.** Un capacitor plano son dos placas de área $A$ a distancia $d$, y su capacidad es $C = \varepsilon_0A/d$: más área, más lugar para carga; más distancia, menos capacidad. Dentro de un metal en equilibrio el campo eléctrico es cero, porque sus electrones libres se mueven hasta anularlo. Por eso la lámina metálica "se come" un espesor $e$ en el que no hay campo, y en sus dos caras aparecen cargas $-Q$ y $+Q$ enfrentadas a las de las placas. El resultado es lo mismo que dos capacitores puestos uno detrás del otro (en serie): de la placa de arriba a la lámina, y de la lámina a la placa de abajo.
+
+**Resolución.**
 
 **Paso 1 — Qué hace la lámina.** En sus caras se inducen cargas $\mp Q$ y adentro del metal $E = 0$. El sistema queda como **dos capacitores en serie**: uno entre la placa superior y la lámina (separación $D_1$) y otro entre la lámina y la placa inferior (separación $D_2$). El espesor que queda vacío es $D_1 + D_2 = d - e$.
 
@@ -133,6 +185,15 @@ c) si se retira el capacitor *C<sub>3</sub>*, justifique si la carga almacenada 
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- $C_1$ en serie con el grupo de $C_2$ y $C_3$ en paralelo, y se sabe que $C_1 < C_2 < C_3$.
+- **a)** Explicar por qué la capacidad total es menor que $C_1$. **b)** Si se saca $C_3$, ¿la capacidad total sube, baja o queda igual? **c)** Y la carga de $C_1$, ¿sube, baja o queda igual?
+
+**La idea, desde cero.** En **paralelo** (mismos dos extremos) las capacidades se suman, porque es como agrandar las placas. En **serie** (uno detrás del otro) se suman las inversas, $1/C_{eq} = 1/C_a + 1/C_b$, porque los dos tienen la misma carga y las tensiones se suman. Una consecuencia: en serie la equivalente es siempre menor que la menor de las capacidades. Además, en una serie todos los elementos tienen la misma carga que el conjunto, $Q = C_{eq}V$.
+
+**Resolución.**
 
 **Estructura.** $C_1$ en serie con el paralelo $C_{23} = C_2 + C_3$:
 
@@ -175,6 +236,15 @@ d) la capacidad de la esfera de radio *r<sub>1</sub>*.
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Una esfera de metal de radio $r_1$ con carga $Q$, rodeada por una cáscara esférica de metal (radios $r_2$ y $r_3$), con el mismo centro. La cáscara no tiene carga propia.
+- **a)** La diferencia de potencial entre la esfera y la superficie exterior de la cáscara. **b)** El potencial de la esfera, tomando cero en el infinito. **c)** La capacidad del par esfera–cáscara. **d)** La capacidad de la esfera sola.
+
+**La idea, desde cero.** En un metal en equilibrio el campo es cero, y toda su carga se va a las superficies. La carga $Q$ de la esfera atrae carga negativa a la cara interior de la cáscara: aparece $-Q$ en $r_2$. Como la cáscara es neutra, en su cara exterior queda $+Q$. El campo se calcula con **Gauss**: el flujo del campo a través de una esfera imaginaria de radio $r$ es la carga encerrada sobre $\varepsilon_0$, lo que da $E = kQ/r^2$ donde hay carga neta encerrada y $E = 0$ dentro del metal. El **potencial** es la integral del campo: $V(a) - V(b) = \int_a^b E\,dr$ yendo hacia afuera. Y la **capacidad** es carga dividida por la diferencia de potencial entre los dos conductores, $C = Q/\Delta V$.
+
+**Resolución.**
 
 **Paso 1 — Cargas.** Esfera: $Q$ en $r_1$. La cáscara (neutra) tiene $-Q$ inducida en $r_2$ y $+Q$ en $r_3$.
 
@@ -225,6 +295,16 @@ b) la energía almacenada por el sistema *C<sub>1</sub> C<sub>2</sub>* antes de 
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Llave en posición (1): $C_1 = 12$ μF y $C_2 = 6$ μF quedan en serie con la pila de 10 V y se cargan.
+- Llave en posición (2): $C_2$ queda conectado con $C_3 = 2$ μF, que estaba descargado.
+- **a)** La carga final de $C_3$. **b)** La energía guardada antes de mover la llave y después.
+
+**La idea, desde cero.** Un capacitor guarda carga: $Q = CV$. En serie, todos tienen la misma carga; en paralelo, la misma tensión. Cuando un capacitor cargado se desconecta de la pila y se conecta con otro descargado, la carga no puede aparecer ni desaparecer: **se conserva** y se reparte hasta que los dos quedan con la misma tensión. Es como dos tanques de agua que se conectan por abajo y quedan al mismo nivel. En ese reparto se pierde energía en forma de calor en los cables, aunque la carga total sea la misma. La energía de un capacitor es $U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
+
+**Resolución.**
+
 **Paso 1 — Posición (1).** La llave une $C_1$ con $C_2$: quedan **en serie** con la pila de 10 V.
 
 $$C_s = \frac{C_1C_2}{C_1 + C_2} \qquad Q_0 = C_s\,V \qquad U_0 = \tfrac12C_sV^2$$
@@ -270,6 +350,16 @@ b) el valor de la ddp en cada capacitor una vez alcanzado el régimen estacionar
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- $C_1 = 25$ nF está cargado a 60 V. $C_2 = 20$ nF y $C_3$ (placas de 0,5 m², separadas 0,1 mm, con un aislante de $\varepsilon_R = 4$) están descargados.
+- Se cierra la llave K y se espera a que deje de circular corriente.
+- **a)** La carga final de cada capacitor. **b)** La tensión final de cada uno.
+
+**La idea, desde cero.** La capacidad de un capacitor plano es $C = \varepsilon_R\varepsilon_0A/d$. El factor $\varepsilon_R$ aparece cuando entre las placas hay un aislante (dieléctrico), que permite guardar más carga con la misma tensión. Al cerrar K, la carga de $C_1$ se reparte, porque no tiene de dónde salir más carga ni a dónde irse: **se conserva**. Al final no circula corriente, así que los elementos conectados a los mismos dos puntos tienen la misma tensión. Acá $C_2$ y $C_3$ están uno detrás del otro (en serie, con la misma carga), y ese par queda conectado a los mismos puntos que $C_1$ (en paralelo, con la misma tensión).
+
+**Resolución.**
 
 **Paso 1 — Capacidad de $C_3$.**
 
@@ -319,6 +409,15 @@ c) el valor del campo eléctrico en cada sector del arreglo.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Capacitor plano de placas verticales (área 40 cm², separación 5 mm). La mitad de arriba del espacio entre placas tiene un aislante con $\varepsilon_{R1} = 2{,}3$ y la mitad de abajo, otro con $\varepsilon_{R2} = 2{,}6$. Está conectado a 1000 V.
+- **a)** La carga en las placas frente a cada aislante. **b)** El vector desplazamiento $D$ en cada parte. **c)** El campo eléctrico en cada parte.
+
+**La idea, desde cero.** Un **dieléctrico** es un aislante cuyas moléculas se orientan con el campo, como pequeños imanes eléctricos (dipolos). Eso debilita el campo adentro y permite guardar más carga con la misma tensión: la capacidad se multiplica por $\varepsilon_R$. El **vector desplazamiento** $\vec D = \varepsilon_R\varepsilon_0\vec E$ es un campo auxiliar que solo "ve" la carga libre (la de las placas): en la superficie de una placa, $D$ es igual a la carga libre por unidad de área. Acá cada aislante ocupa la mitad del área con todo el espesor, así que las dos mitades son dos capacitores uno al lado del otro, en paralelo: tienen la misma tensión y la misma distancia, y por lo tanto el mismo $E = V/d$.
+
+**Resolución.**
+
 **Paso 1 — Disposición.** Las placas son verticales y cada dieléctrico ocupa la mitad del **área** con todo el espesor $d$: son dos capacitores **en paralelo**, ambos a la tensión $V$.
 
 **Paso 2 — Campo (ítem c).** En los dos sectores, $E = V/d$ (la misma tensión y la misma distancia):
@@ -354,6 +453,15 @@ Regresemos a la esfera del ejercicio 4 y supongamos que el espacio entre *r<sub>
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- La esfera y la cáscara del ejercicio 4, ahora con un aislante de $\varepsilon_R = 3$ entre la esfera y la cáscara. $Q = 1$ μC; radios de 2, 4 y 8 cm.
+- Calcular $E$ y $D$ en tres puntos: A a 3 cm (en el aislante), B a 6 cm (dentro del metal de la cáscara) y C a 10 cm (afuera).
+
+**La idea, desde cero.** **Gauss para $D$:** el flujo de $\vec D$ a través de una superficie cerrada es la carga **libre** encerrada (la de los metales, sin contar la que aparece en el dieléctrico al polarizarse). Con una esfera imaginaria de radio $r$, la simetría da $D\cdot4\pi r^2 = Q_{libre}$. Después, $E = D/(\varepsilon_R\varepsilon_0)$: el dieléctrico divide el campo por $\varepsilon_R$, y en el vacío $\varepsilon_R = 1$. Dentro de un metal en equilibrio, $E = 0$.
+
+**Resolución.**
 
 **Paso 1 — Gauss para D.** Esfera de radio $r$; solo cuenta la carga **libre** encerrada:
 
@@ -398,6 +506,15 @@ b) el ángulo que forma el vector ***D*** (respecto de la superficie de separaci
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Dos dieléctricos distintos ($\varepsilon_R = 3$ y $\varepsilon_R = 18$) separados por una superficie plana. En el primero el campo vale $10^4$ V/m y forma 60° con la superficie.
+- **a)** Las componentes del campo en el segundo medio: la perpendicular a la superficie ($E_N$) y la paralela ($E_T$). **b)** El ángulo de $\vec D$ con la superficie en el segundo medio.
+
+**La idea, desde cero.** Cuando el campo cruza de un dieléctrico a otro, cambia de tamaño y de dirección, como la luz que se quiebra al pasar del aire al agua. Las reglas de ese cruce (**condiciones de contorno**), cuando en la superficie no hay carga libre, son dos. (1) La componente **paralela** a la superficie de $\vec E$ es la misma de los dos lados. (2) La componente **perpendicular** de $\vec D = \varepsilon\vec E$ es la misma de los dos lados. Por la segunda, en el medio de mayor $\varepsilon$ la componente perpendicular de $\vec E$ es más chica, y el campo se "acuesta" hacia la superficie.
+
+**Resolución.**
 
 **Paso 1 — Componentes en el medio 1.** El ángulo de 60° se mide desde la **superficie**:
 
@@ -450,6 +567,15 @@ g) de la energía antes y después de introducir los dieléctricos. Discuta a qu
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Capacitor plano de 0,2 m² y 4 mm, cargado a 50 V. Se desconecta la fuente y se llena el espacio entre placas con dos aislantes ($\varepsilon_R = 10$ y $30$), cada uno en la mitad del área.
+- Piden la capacidad antes y después, la carga, la nueva tensión, los campos $E$, $D$ y $P$, las cargas libres y de polarización, y la energía antes y después.
+
+**La idea, desde cero.** Al desconectar la fuente, el capacitor queda **aislado**: su carga no puede cambiar. Si después se meten dieléctricos, la capacidad aumenta (se multiplica por $\varepsilon_R$ en cada parte), y como $V = Q/C$ con $Q$ fija, la tensión **baja**. Cada aislante ocupa la mitad del área con todo el espesor: son dos capacitores en paralelo, con el mismo $E$. El dieléctrico se **polariza**: sus moléculas se orientan, y en sus caras aparece una carga ligada que debilita el campo. $\vec P$ (la polarización) mide cuánto se orientó, $\vec P = \vec D - \varepsilon_0\vec E$, y la carga de polarización por unidad de área en cada cara vale $P$. La energía es $U = \tfrac12QV$.
+
+**Resolución.**
 
 **Paso 1 — Disposición.** Cada dieléctrico ocupa la mitad del **área** y todo el espesor: es un **paralelo** de dos capacitores de área $A/2$ (así lo confirma el resultado de la guía).
 
@@ -511,6 +637,15 @@ Repita el ejercicio anterior suponiendo ahora que los dieléctricos se conectan 
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- El mismo capacitor del ejercicio 10, pero ahora cada aislante ocupa todo el área y la mitad del espesor: uno arriba del otro.
+- Las mismas preguntas del ejercicio 10.
+
+**La idea, desde cero.** Si los aislantes se apilan uno sobre otro en el espesor, son dos capacitores **en serie**: la carga libre es la misma en todo el área, así que $D = \sigma = Q/A$ es el mismo en los dos. Pero el campo $E = D/(\varepsilon_R\varepsilon_0)$ es distinto en cada uno: más débil en el de mayor $\varepsilon_R$. La tensión total es la suma de las dos caídas, $E_1\frac d2 + E_2\frac d2$. Comparar con el ejercicio 10: allá era igual $E$ y distinto $D$; acá es al revés.
+
+**Resolución.**
+
 **Paso 1 — Disposición.** Ahora cada dieléctrico ocupa todo el **área** y la mitad del **espesor** ($d/2$): son dos capacitores **en serie**.
 
 $$C_1 = \frac{\varepsilon_{R1}\varepsilon_0A}{d/2} = 2\varepsilon_{R1}C_0 \qquad C_2 = 2\varepsilon_{R2}C_0 \qquad C' = \frac{C_1C_2}{C_1 + C_2}$$
@@ -561,6 +696,15 @@ b) la cantidad de carga distribuida en cada superficie (interior y exterior) de 
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Esfera de metal de 5 cm con 40 nC, rodeada por un aislante de $\varepsilon_R = 4$ y por una esfera hueca de metal (radios 20 y 22 cm) con 30 nC propios.
+- **a)** La diferencia de potencial entre las dos esferas. **b)** Cuánta carga hay en cada superficie de la esfera hueca.
+
+**La idea, desde cero.** Gauss para $\vec D$ (solo cuenta la carga libre) da $D = Q_1/(4\pi r^2)$ entre las esferas, y el dieléctrico divide el campo por $\varepsilon_R$: $E = kQ_1/(\varepsilon_Rr^2)$. La diferencia de potencial es la integral del campo entre las dos esferas. Para las cargas: dentro del metal de la esfera hueca $E = 0$, así que una superficie imaginaria dentro de ese metal tiene que encerrar carga neta cero. Por eso en la cara interior aparece $-Q_1$, y la cara exterior se queda con todo lo demás.
+
+**Resolución.**
+
 **Paso 1 — Campo entre las esferas.** Gauss para D: $D = \dfrac{Q_1}{4\pi r^2}$, y en el dieléctrico $E = \dfrac{D}{\varepsilon_R\varepsilon_0} = \dfrac{kQ_1}{\varepsilon_Rr^2}$.
 
 **Paso 2 — Diferencia de potencial.**
@@ -593,6 +737,15 @@ Suponga que en el ejercicio 10 los dieléctricos se introducen sin desconectar l
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Como el ejercicio 10, pero los dieléctricos se meten **con la fuente conectada**.
+- Decir qué resultados cambian y calcularlos.
+
+**La idea, desde cero.** Con la fuente conectada, lo que queda fijo es la **tensión** (la fuente la mantiene en 50 V), no la carga. Al meter el dieléctrico la capacidad aumenta, y como $Q = CV$ con $V$ fija, la fuente manda **más carga**. La capacidad depende solo de la geometría y los materiales, así que es la misma que en el ejercicio 10. El campo es $E = V/d$, igual que sin dieléctrico. La energía $\tfrac12CV^2$ aumenta: la pone la fuente.
+
+**Resolución.**
 
 **Paso 1 — Qué cambia.** La batería sigue conectada, así que la **tensión** se mantiene en 50 V y la **carga** cambia. Las capacidades (ítems a y b) solo dependen de la geometría: no cambian.
 
@@ -638,6 +791,15 @@ b) calcule el valor de la densidad de carga de polarización en A y en D.
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Dos dieléctricos ($\varepsilon_1$ y $\varepsilon_2$) separados por una superficie vertical. En el primero hay un campo $\vec E_1$ que forma un ángulo $\alpha$ con la horizontal.
+- **a)** Si llevar una carga $Q$ de A a B (en el medio 1, distancia $d$) cuesta $W_1$, ¿cuánto cuesta llevarla de B a D (en el medio 2, distancia $2d$)? **b)** La carga de polarización por unidad de área en A y en D.
+
+**La idea, desde cero.** El trabajo para mover una carga a velocidad constante contra un campo uniforme es $W = Q\,E\,\ell$, usando solo la componente del campo a lo largo del camino. Acá el camino es horizontal, perpendicular a las superficies, así que importa la componente **normal** del campo. Al pasar de un medio a otro sin carga libre en la superficie, se conserva la componente normal de $\vec D = \varepsilon\vec E$, así que $E_N$ se divide por $\varepsilon_2/\varepsilon_1$. La carga de polarización por unidad de área en una cara del dieléctrico es la componente normal de $\vec P = (\varepsilon - \varepsilon_0)\vec E$.
+
+**Resolución.**
 
 **Paso 1 — Geometría.** A, B y D son superficies verticales: el medio 1 ocupa de A a B (espesor $d$) y el medio 2 de B a D (espesor $2d$). La dirección **horizontal** es la **normal** a las superficies. La carga se mueve horizontalmente, así que solo importa la componente normal del campo.
 
@@ -690,6 +852,14 @@ Tres de las siguientes afirmaciones son correctas. Indique cuáles son.
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Diez afirmaciones sobre capacitores y dieléctricos; tres son correctas. Encontrarlas.
+
+**La idea, desde cero.** Lo que hay que tener claro: $C$ depende solo de la geometría y del material (no de $Q$ ni de $V$); un dieléctrico siempre **aumenta** la capacidad, porque $\varepsilon_R > 1$; $\vec D$ está asociado a la carga libre y $\vec E$ a la carga total; $\vec P$ cuenta los dipolos orientados por unidad de volumen. La energía guardada es $\tfrac12CV^2$, y a la misma $V$ dos capacitores iguales valen $2C$ en paralelo y $C/2$ en serie.
+
+**Resolución.**
 
 - "Paralelo almacena el doble que serie": **falso**. A la misma $V$: en paralelo, $C_{eq} = 2C$ y $U = CV^2$; en serie, $C_{eq} = C/2$ y $U = CV^2/4$. Es **cuatro** veces.
 - "C se duplica si se duplica la ddp": **falso**. $C$ no depende de $V$.

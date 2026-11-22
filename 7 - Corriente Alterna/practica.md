@@ -2,7 +2,7 @@
 
 Ejercicios de la [Guía de ejercicios de Corriente alterna](Aula%20Virtual/Gu%C3%ADa%20de%20ejercicios%20-%20Corriente%20alterna.pdf). Los enunciados están copiados textualmente de la guía.
 
-Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y, arriba, un segundo botón **Solución paso a paso** con el desarrollo completo. En el paso a paso primero se obtiene la fórmula en forma simbólica y recién al final se reemplazan los números.
+Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y, arriba, un segundo botón **Solución paso a paso** con el desarrollo completo. El paso a paso está escrito para alguien que no sabe nada del tema: arranca con **Qué piden, en palabras** (el enunciado traducido) y **La idea, desde cero** (la teoría necesaria, explicada sobre ese ejercicio), y después resuelve deduciendo cada fórmula. Primero se obtiene la fórmula en forma simbólica y recién al final se reemplazan los números.
 
 Teoría: [resumen del tema](teoria.md). En el aula virtual también está la [resolución manuscrita de la guía](Aula%20Virtual/Resoluci%C3%B3n%20gu%C3%ADa%20-%20Corriente%20alterna.pdf).
 
@@ -43,6 +43,21 @@ h) realice el diagrama de fasores correspondientes a los circuitos RC y RLC seri
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un generador de 100 V eficaces y 50 Hz alimenta una resistencia y un capacitor en serie. La corriente eficaz es 0,2 A y adelanta 60° ($\pi/3$) a la tensión.
+- Piden: **a)** la impedancia, **b)** R y C, **c)** y **d)** la tensión en cada uno, **e)** qué bobina agregar para que resuene al doble de frecuencia, **f)** la potencia, **g)** la tensión en R si estuvieran en paralelo, **h)** los fasores.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina.
+
+**Resolución.**
 
 **Lectura de datos.** La guía llama "corriente eficaz" a la expresión, así que se toma $I_{EF} = 0{,}2$ A. La fase $+\pi/3$ indica que la corriente **adelanta 60°** a la tensión (capacitivo, como corresponde a un RC). $\omega = 2\pi\cdot50 = 314{,}16$ s⁻¹.
 
@@ -103,6 +118,21 @@ Suponga que el circuito del ejercicio anterior fuera un RL serie, con la corrien
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- El mismo circuito del ejercicio 1, pero con una bobina en lugar del capacitor: ahora la corriente **atrasa** 60°.
+- Piden: qué resultados cambian y cómo.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. El triángulo de impedancias tiene los mismos lados ($Z$, $R$, $\lvert X\rvert$), pero ahora la reactancia es de una bobina, no de un capacitor. Para la resonancia hay que agregar el elemento que falta, un capacitor.
+
+**Resolución.**
+
 **Paso 1 — Qué se mantiene.** La tensión, la corriente eficaz y el **módulo** del ángulo (60°) son los mismos. Ahora la corriente **atrasa**: es inductivo. Por lo tanto $Z$, $R$, $|X|$, $V_R$, $V_X$ y la potencia no cambian.
 
 **Paso 2 — Inductancia.** Ahora la reactancia de 433 Ω es inductiva:
@@ -142,6 +172,21 @@ En las especificaciones de una lámpara incandescente se lee: 120 V, 60 W. Se sa
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Una lámpara de 120 V y 60 W (filamento de 240 Ω) se quiere conectar a 220 V y 50 Hz sin que cambie su potencia.
+- Piden: qué bobina conectar en serie.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. Para que la lámpara dé la misma potencia, tiene que pasar por ella la misma corriente que a 120 V, porque $P = I^2R$ con $R$ fija. Con 220 V, para tener esa corriente hace falta una impedancia mayor, $Z = V/I$. La bobina aporta la reactancia que falta sin consumir potencia: una resistencia también serviría, pero desperdiciaría energía en calor.
+
+**Resolución.**
 
 **Paso 1 — Corriente nominal.** Para dar la misma potencia, por la lámpara tiene que pasar la misma corriente que a 120 V:
 
@@ -185,6 +230,23 @@ El diagrama de fases de la figura corresponde a un circuito de CA de sólo dos e
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un circuito de solo dos elementos disipa 40 W a 50 Hz. En el diagrama de fasores la corriente va adelantada, y las amplitudes son 2 A y 80 V.
+- Piden: cuáles son los dos elementos y cuánto valen.
+
+**La idea, desde cero.** Un **fasor** es una flecha que representa una tensión o una corriente alterna: su largo es la amplitud y su ángulo, la fase. Lo único que importa es cuál va adelante (girada en sentido antihorario). Corriente adelantada → manda un capacitor. Como el circuito disipa potencia, el otro elemento tiene que ser una resistencia (bobina y capacitor no disipan).
+
+Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$.
+
+**Resolución.**
+
 **Paso 1 — Qué elementos son.** En el diagrama la corriente está **adelantada** respecto de la tensión: es un circuito capacitivo, con dos elementos **R y C**. Los valores son de pico: $i_0 = 2$ A y $\mathcal E_0 = 80$ V.
 
 **Paso 2 — R.** Solo la resistencia disipa: $P = \tfrac12i_0^2R$:
@@ -224,6 +286,21 @@ b) ¿Aumentaría o disminuiría usted el valor de *C* si se propusiera hacer ent
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un RLC serie disipa 80 W. La corriente atrasa respecto de la tensión. Amplitudes: 2 A y 100 V.
+- **a)** $X_L - X_C$. **b)** Para llevarlo a resonancia sin tocar L ni la frecuencia, ¿hay que aumentar o disminuir C?
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina.
+
+**Resolución.**
 
 **Paso 1 — R.** $P = \tfrac12i_0^2R$, así que $R = \dfrac{2P}{i_0^2}$.
 
@@ -265,6 +342,21 @@ b) los valores de *L* y *C*.
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un RLC serie trabaja a 50 Hz y resuena a 40 Hz. Potencia aparente 60 VA; corriente de pico 0,4 A, que atrasa 37°.
+- **a)** R. **b)** L y C.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina. Saber la frecuencia de resonancia da una relación entre L y C: $C = 1/(\omega_0^2L)$. Reemplazando en la reactancia neta, queda una sola incógnita.
+
+**Resolución.**
 
 **Paso 1 — Corriente eficaz.** $I_{EF} = i_0/\sqrt2 = 0{,}283$ A.
 
@@ -313,6 +405,21 @@ b) el valor de la frecuencia *f<sub>0</sub>* que debería tener el generador par
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un RLC serie con un voltímetro conectado sobre la bobina y el capacitor juntos, que marca 90 V.
+- **a)** La tensión eficaz en cada elemento. **b)** La frecuencia de resonancia.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. Las tensiones de la bobina y del capacitor están en **contrafase** (una a +90° y otra a −90° de la corriente), así que, sumadas, se restan: un voltímetro conectado sobre los dos mide $\lvert V_L - V_C\rvert$. Por eso cada una puede ser mayor que la tensión del generador. La tensión total cumple $V^2 = V_R^2 + (V_L - V_C)^2$ (triángulo de tensiones). **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina.
+
+**Resolución.**
 
 **Paso 1 — Qué mide el voltímetro.** Está conectado sobre el capacitor y la bobina juntos. Sus tensiones están en **contrafase** (una a +90° y otra a −90° de la corriente), así que el voltímetro mide la **diferencia**:
 
@@ -363,6 +470,21 @@ b) la tensión en función del tiempo en el resistor, en la bobina y en el capac
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un RLC serie con fuente $10\sin(500t)$ V, $R = 4\ \Omega$, $C = 200$ μF y L ajustable. Dan el diagrama de impedancias.
+- **a)** Las potencias aparente y activa. **b)** La tensión en cada elemento en función del tiempo.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. Cada elemento tiene su propia tensión: amplitud igual a la corriente de pico por su $R$ o su $X$, y una fase propia respecto de la corriente (0° en R, +90° en L, −90° en C).
+
+**Resolución.**
 
 **Paso 1 — Leer el diagrama.** $R = 4\ \Omega$ y reactancia neta $X = X_L - X_C = -3\ \Omega$ (hacia abajo): es **capacitivo**. $Z = \sqrt{4^2 + 3^2} = 5\ \Omega$.
 
@@ -418,6 +540,21 @@ f) construya el diagrama de tensiones y muestre que vale Kirchhoff;
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un RLC serie con corriente $20\sin(2\pi50t + 37°)$ A, potencia activa 800 W y $C = 530{,}7$ μF.
+- **a)** R y L. **b)** Qué L daría la máxima potencia. **c)** Por qué hay que aumentar L. **d)** a **f)** Tensiones, diagramas y Kirchhoff.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina. La máxima potencia se da en resonancia, porque ahí $Z$ es mínima y la corriente, máxima.
+
+**Resolución.**
 
 **Paso 1 — R.** $P = \tfrac12i_0^2R$, de donde $R = \dfrac{2P}{i_0^2} = \dfrac{1600}{400} = 4\ \Omega$.
 
@@ -489,6 +626,21 @@ h) calcule el valor de las potencias aparente y reactiva y relaciónelas con la 
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un RLC serie entrega 86 W con factor de potencia 0,86. Trabaja a 50 Hz, resuena a 40 Hz, y la corriente de pico es 2 A.
+- **a)** Si es capacitivo o inductivo. **b)** R, L y C. **c)** a **h)** Tensiones, diagramas y potencias.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina. Con $\omega_0$ como dato: $C = 1/(\omega_0^2L)$, y la reactancia neta queda $X = \omega L\left(1 - \omega_0^2/\omega^2\right)$, con una sola incógnita.
+
+**Resolución.**
+
 **Paso 1 — Ítem a.** Trabaja **por encima** de la resonancia ($50 > 40$ Hz), así que $X_L > X_C$: **inductivo**. La tensión adelanta a la corriente.
 
 **Paso 2 — R.** $P = \tfrac12i_0^2R$, entonces $R = \dfrac{2P}{i_0^2} = \dfrac{172}{4} = 43\ \Omega$.
@@ -553,6 +705,21 @@ b) el factor de potencia del circuito cuando la llave está en la posición 1.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un circuito con una llave. En la posición 2 quedan $R_1$, L y C en serie, y la tensión y la corriente están en fase. En la posición 1 la bobina queda afuera y entra $R_2$.
+- **a)** L. **b)** El factor de potencia en la posición 1.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina. "Tensión y corriente en fase" es la señal de resonancia: $X_L = X_C$. El factor de potencia es $\cos\varphi = R/Z$.
+
+**Resolución.**
+
 **Paso 1 — Posición 2.** El circuito es $R_1$, $L$ y $C$ en serie. Si tensión y corriente están en fase, hay **resonancia**: $X_L = X_C$.
 
 $$L = \frac{X_C}{\omega} = \frac{1}{\omega^2C}$$
@@ -591,6 +758,20 @@ Del siguiente conjunto de proposiciones, indique cuáles son las dos correctas
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Ocho afirmaciones sobre circuitos de alterna; dos son correctas.
+
+**La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
+
+- **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
+- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
+
+En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina.
+
+**Resolución.**
 
 - "Z independiente de la frecuencia": **falso**. $X_L$ y $X_C$ dependen de $\omega$.
 - "Por encima de resonancia es capacitivo": **falso**. Es inductivo.

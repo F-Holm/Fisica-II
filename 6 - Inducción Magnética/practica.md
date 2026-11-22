@@ -2,7 +2,7 @@
 
 Ejercicios de la [Guía de ejercicios de Fenómenos de inducción magnética](Aula%20Virtual/Gu%C3%ADa%20de%20ejercicios%20-%20Inducci%C3%B3n%20magn%C3%A9tica.pdf). Los enunciados están copiados textualmente de la guía.
 
-Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y, arriba, un segundo botón **Solución paso a paso** con el desarrollo completo. En el paso a paso primero se obtiene la fórmula en forma simbólica y recién al final se reemplazan los números.
+Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y, arriba, un segundo botón **Solución paso a paso** con el desarrollo completo. El paso a paso está escrito para alguien que no sabe nada del tema: arranca con **Qué piden, en palabras** (el enunciado traducido) y **La idea, desde cero** (la teoría necesaria, explicada sobre ese ejercicio), y después resuelve deduciendo cada fórmula. Primero se obtiene la fórmula en forma simbólica y recién al final se reemplazan los números.
 
 Teoría: [resumen del tema](teoria.md). En el aula virtual también está la [resolución manuscrita de la guía](Aula%20Virtual/Resoluci%C3%B3n%20gu%C3%ADa%20-%20Inducci%C3%B3n%20magn%C3%A9tica.pdf). Constante: $\mu_0 = 4\pi\times10^{-7}$ T m/A.
 
@@ -43,6 +43,15 @@ d) suponga que en la situación (a) la superficie de la espira se redujera a la 
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un hilo recto con 10 A y, en el mismo plano, una espira rectangular de 5 cm × 2 cm, con su lado más cercano a 1 cm del hilo.
+- **a)** El flujo a través de la espira. **b)** Si cambia al invertir la corriente. **c)** El flujo si la espira se gira y queda enfrentado el lado corto. **d)** Si al achicar la espira a la mitad el flujo también se reduce a la mitad.
+
+**La idea, desde cero.** El **flujo magnético** mide cuánto campo atraviesa una superficie: si el campo es uniforme y perpendicular, es $B\cdot\text{área}$. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\,dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$.
+
+**Resolución.**
 
 **Paso 1 — Por qué hay que integrar.** El campo del hilo, $B = \dfrac{\mu_0 i}{2\pi x}$, no es uniforme: depende de la distancia $x$. Se divide la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$ (el lado paralelo al hilo); en cada tira $B$ es constante.
 
@@ -86,6 +95,15 @@ b) el valor que tendría que tener *i<sub>2</sub>* para que el flujo fuera nulo.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Una bobina de 50 vueltas, en el mismo plano que dos hilos con 50 A y 200 A.
+- **a)** El flujo total a través de la bobina. **b)** Qué corriente tendría que tener el segundo hilo para que el flujo sea cero.
+
+**La idea, desde cero.** **Superposición:** el campo total es la suma de los campos de cada hilo, y el flujo total es la suma de los flujos. Cada flujo se calcula con la integral en tiras. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\,dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$. Hay que fijarse en el sentido de cada campo dentro de la bobina (mano derecha): si apuntan para lados opuestos, los flujos se restan.
+
+**Resolución.**
+
 **Paso 1 — Sentidos de los campos.**
 
 - $i_1$ (horizontal, hacia la derecha), con la bobina debajo: $\hat e_x\times(-\hat e_y) = -\hat e_z$, **entrante**.
@@ -126,6 +144,15 @@ Un cable rectilíneo (que puede considerarse infinito) transporta una corriente 
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un hilo con corriente variable atraviesa perpendicularmente una espira cuadrada por su centro.
+- **Qué piden:** la fem inducida en la espira.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. La clave es el **flujo**: el campo del hilo da vueltas alrededor de él, en planos perpendiculares al hilo, o sea en el mismo plano que la espira. Si el campo es paralelo a la superficie, no la atraviesa.
+
+**Resolución.**
+
 Las líneas de campo del hilo son circunferencias centradas en él, contenidas en planos perpendiculares al hilo: en este caso, **en el plano de la espira**. Entonces $\vec B\perp\hat n$ en todos los puntos de la espira y el flujo es nulo **en todo momento**, aunque $i(t)$ varíe. Sin variación de flujo no hay fem.
 
 </details>
@@ -147,6 +174,15 @@ Un solenoide de 500 vueltas, radio *r<sub>S</sub>*=0,5cm, longitud *L*=20cm, est
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un solenoide largo (500 vueltas, 20 cm, 10 A) con una bobina chica adentro (10 vueltas, radio 0,3 cm, 0,2 Ω). El campo del solenoide se invierte en 0,2 s.
+- **Qué piden:** la corriente media en la bobina chica (carga por unidad de tiempo).
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. Adentro de un solenoide largo el campo es uniforme, $B = \mu_0\dfrac NLi$ (Ampère con un rectángulo con un lado adentro y otro afuera). La bobina chica está toda dentro de ese campo, así que su flujo es $N_B\cdot B\cdot\pi r_B^2$. "Invertirse" significa pasar de $+B$ a $-B$: el flujo cambia el doble de su valor.
+
+**Resolución.**
 
 **Paso 1 — Campo del solenoide.** Como $L \gg r_S$, se lo aproxima por un solenoide infinito:
 
@@ -187,6 +223,15 @@ Una bobina de 20 espiras circulares de 1cm de radio está colocada en un campo u
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Una bobina de 20 vueltas (radio 1 cm, circuito de 5 Ω) en un campo de 0,8 T, ubicada de modo que el flujo es máximo. Se la gira rápido hasta que el flujo es cero.
+- **Qué piden:** la carga total que circula.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. La corriente es carga por unidad de tiempo, $i = dq/dt$. Si se combina $i = \mathcal E/R$ con $\mathcal E = N\,d\phi/dt$, el $dt$ se cancela, $dq = \frac NR\,d\phi$, y la carga total depende solo de cuánto cambió el flujo, no de lo rápido que se giró.
+
+**Resolución.**
 
 **Paso 1 — Relación entre fem, corriente y carga.**
 
@@ -238,6 +283,15 @@ e) la bobina se agranda, fija en su posición, y la corriente es constante.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un hilo con corriente hacia arriba y una bobina rectangular a su derecha.
+- **Qué piden:** el sentido de la corriente inducida en cinco casos: se acerca y la corriente aumenta; quieta y la corriente baja; gira alrededor del hilo a distancia fija; se achica; se agranda.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. A la derecha del hilo, el campo es **entrante** (mano derecha) y más fuerte cerca del hilo. En cada caso hay que preguntarse si el flujo entrante crece, decrece o queda igual: si crece, la corriente inducida va en sentido antihorario (genera campo saliente); si decrece, en sentido horario; si no cambia, no hay corriente.
+
+**Resolución.**
+
 **Paso 1 — Campo externo.** La corriente sube; a la derecha del cable el campo es **entrante** ($\hat e_y\times\hat e_x = -\hat e_z$).
 
 **Paso 2 — Regla de Lenz.** Si el flujo entrante **crece**, la corriente inducida genera campo **saliente**: sentido **antihorario**. Si **decrece**, genera campo entrante: sentido **horario**.
@@ -281,6 +335,15 @@ d) la fuerza que debe realizarse para mantener a la espira en movimiento uniform
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Una espira rectangular (2 cm × 4 cm, 0,5 Ω) entra a velocidad constante de 0,25 cm/s en una región con campo entrante de 3 T.
+- **a)** El flujo en función del tiempo. **b)** La fem. **c)** La corriente y su sentido. **d)** La fuerza que hay que hacer para que siga a velocidad constante.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. Mientras la espira entra, la parte dentro del campo crece como un rectángulo de alto $d$ y ancho $vt$, así que el flujo crece linealmente. Cuando termina de entrar, el flujo deja de cambiar y la fem se anula. La corriente inducida circula por el lado que está dentro del campo y siente una fuerza $i\,\vec\ell\times\vec B$ que frena la espira (Lenz); para mantener la velocidad hay que empujar con una fuerza igual.
+
+**Resolución.**
 
 **Datos.** $d = 2$ cm (lado vertical), $a = 4$ cm (lado horizontal), $v = 0{,}25$ cm/s, $B = 3$ T, $R = 0{,}5$ Ω. Se toma $t = 0$ cuando el borde derecho llega al límite de la región.
 
@@ -333,6 +396,15 @@ b) indique el sentido de circulación que tendría la corriente inducida en la b
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Una barra de largo $L$ gira con velocidad angular $\omega$ alrededor de un pivote P, en un campo uniforme entrante.
+- **a)** La fem entre sus extremos. **b)** El sentido de la corriente inducida.
+
+**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\,\vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. Acá cada punto de la barra va a distinta velocidad: el que está a distancia $r$ del pivote se mueve con $v = \omega r$. Por eso hay que integrar a lo largo de la barra.
+
+**Resolución.**
+
 **Paso 1 — Velocidad de cada punto.** Un punto a distancia $r$ del pivote tiene $\vec v = \omega r\,\hat e_\phi$ (gira en sentido antihorario).
 
 **Paso 2 — $\vec v\times\vec B$.** Con $\hat e_\phi\times(-\hat e_z) = -\hat e_R$:
@@ -370,6 +442,15 @@ La bobina de la figura, de radio *r* =10cm, tiene 5 vueltas y se halla inmersa e
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Una bobina de 5 vueltas y radio 10 cm, en un campo uniforme $B = \alpha t^2$ (hacia $x$) que forma 37° con la normal a la bobina.
+- **Qué piden:** la fem en función del tiempo.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. Si el campo no es perpendicular a la superficie, solo cuenta la componente que la atraviesa: $\phi = BA\cos\theta$, con $\theta$ el ángulo entre el campo y la normal. La bobina está quieta, así que solo cambia $B$, y la fem es $N A\cos\theta\,\dfrac{dB}{dt}$.
+
+**Resolución.**
 
 **Paso 1 — Flujo.** El campo es uniforme y forma 37° con la normal:
 
@@ -412,6 +493,15 @@ d) calcule la potencia que se disipa por efecto Joule y compárela con la desarr
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Una barra de 0,5 m desliza a 4 m/s sobre un marco metálico, en un campo entrante de 0,5 T. Resistencia total 0,2 Ω.
+- **a)** La fem. **b)** El sentido de la corriente. **c)** La fuerza externa para mantener la velocidad. **d)** La potencia disipada en calor, comparada con la de la fuerza externa.
+
+**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\,\vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. La barra con corriente dentro del campo siente $i\,\vec\ell\times\vec B$, que la frena (Lenz). Para que vaya a velocidad constante, alguien tiene que empujar con una fuerza igual y opuesta. La energía se conserva: el trabajo por segundo del que empuja ($Fv$) termina convertido en calor en la resistencia ($i^2R$).
+
+**Resolución.**
 
 **Paso 1 — Fem (ítem a).** Barra perpendicular a $\vec B$ y a $\vec v$:
 
@@ -457,6 +547,15 @@ b) halle la expresión de la velocidad de caída de la barra (en términos de *M
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Una barra de masa $M$ cae por un marco vertical, dentro de un campo uniforme, y lo hace con velocidad constante. Resistencia del cuadro: $R$.
+- **a)** El sentido de la corriente inducida. **b)** La velocidad de caída.
+
+**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\,\vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. Al caer, se induce corriente, y la barra con corriente siente una fuerza magnética que la frena, hacia arriba. Esa fuerza crece con la velocidad, $F = iLB = \dfrac{B^2L^2v}{R}$. La barra se acelera hasta que esa fuerza iguala el peso, y desde ahí cae a velocidad constante (velocidad terminal).
+
+**Resolución.**
+
 **Paso 1 — Sentido (ítem a).** Al caer la barra, el área del cuadro **por encima** de ella se achica: el flujo dentro del cuadro disminuye. La corriente inducida tiende a reforzarlo. (Así lo plantea la guía, con el cuadro cerrado por arriba.)
 
 **Paso 2 — Velocidad constante.** Si cae a velocidad constante, la fuerza magnética equilibra el peso:
@@ -494,6 +593,15 @@ c) si la barra tiene resistencia propia *R*, halle la expresión de la fuerza de
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un marco metálico con un lado inclinado (ángulo $\alpha$) que puede moverse.
+- **a)** Sentido de la corriente si el marco está quieto y el campo se apaga exponencialmente. **b)** El flujo si el campo es fijo y el lado se mueve a $v_0$. **c)** La fuerza que frena ese lado.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. El flujo puede cambiar porque cambia el campo (ítem a) o porque cambia el área (ítem b). Si el lado inclinado se mueve horizontalmente, en un tiempo $dt$ barre un paralelogramo de altura $L$ y base $v_0\,dt$: la inclinación no cambia el área barrida. La fuerza sobre el lado inclinado es $i\,\vec\ell\times\vec B$, con $\vec\ell$ a lo largo del lado.
+
+**Resolución.**
 
 **Paso 1 — Ítem a.** El campo es entrante y se extingue exponencialmente: el flujo entrante disminuye. La corriente inducida refuerza el campo entrante: sentido **horario**.
 
@@ -543,6 +651,15 @@ b) Halle la expresión del módulo de la fem inducida en la espira.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Una espira cuadrada quieta, en un campo uniforme y perpendicular a ella que se apaga como $B_0e^{-\alpha t}$.
+- **a)** El sentido de la corriente inducida. **b)** El módulo de la fem.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. Acá el área y la orientación son fijas y solo cambia $B$: $\phi = B(t)\,\ell^2$, y la fem es la derivada.
+
+**Resolución.**
+
 **Paso 1 — Flujo.** El campo es uniforme y perpendicular a la espira:
 
 $$\phi = B_0e^{-\alpha t}\,\ell^2$$
@@ -579,6 +696,15 @@ b) halle la expresión del módulo de la fem inducida en la espira.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Una espira cuadrada de lado $\ell$ que se aleja a velocidad $v_0$ en un campo que se debilita con la distancia, $B = \alpha B_0/x^2$.
+- **a)** El sentido de la corriente inducida. **b)** El módulo de la fem.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. El campo no es uniforme, así que el flujo se calcula en tiras de ancho $dx'$ y largo $\ell$, donde $B$ es constante: $\phi = \displaystyle\int_x^{x+\ell}B(x')\,\ell\,dx'$. Como la espira se mueve, $x$ cambia con el tiempo, y la derivada se hace con la regla de la cadena: $\dfrac{d\phi}{dt} = \dfrac{d\phi}{dx}\,v_0$.
+
+**Resolución.**
+
 **Paso 1 — Flujo con la espira entre $x$ y $x + \ell$.** El campo depende de $x$, así que se integra en tiras de ancho $dx'$ y largo $\ell$:
 
 $$\phi(x) = \int_x^{x+\ell}\frac{\alpha B_0}{x'^2}\,\ell\,dx' = \alpha B_0\ell\left[\frac1x - \frac{1}{x + \ell}\right]$$
@@ -612,6 +738,15 @@ b) Indique claramente y justifique el sentido de la corriente que se induciría 
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un hilo con 7 A y, a 10 cm, una bobina cuadrada de 100 vueltas y 25 cm de lado, con 1 A en sentido antihorario, en el mismo plano.
+- **a)** La fuerza neta del hilo sobre la bobina. **b)** El sentido de la corriente inducida si la bobina se acerca al hilo.
+
+**La idea, desde cero.** Cada lado de la bobina es un cable con corriente dentro del campo del hilo, $B = \mu_0 i/(2\pi x)$, así que siente $i\,\vec\ell\times\vec B$. Los lados perpendiculares al hilo reciben fuerzas iguales y opuestas, que se cancelan. Los paralelos están a distancias distintas: el cercano siente más campo. Corrientes del mismo sentido se atraen y de sentido opuesto se repelen. Para b) se usa Lenz: al acercarse, el campo que atraviesa la bobina crece, y la corriente inducida se opone a ese aumento.
+
+**Resolución.**
 
 **Paso 1 — Qué lados importan.** Las fuerzas sobre los lados horizontales (arriba y abajo) son iguales y opuestas: se cancelan. Quedan los lados verticales, de longitud $a$, a distancias $\ell$ y $\ell + a$ del alambre.
 
@@ -649,6 +784,15 @@ Por una bobina de 2 cm de radio y 40 cm de longitud, que tiene arrolladas 2000 v
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Una bobina de radio 2 cm, largo 40 cm y 2000 vueltas, con corriente $i(t) = 2\sin(100\pi t)$.
+- **a)** Su coeficiente de autoinducción $L$. **b)** La fem autoinducida en función del tiempo.
+
+**La idea, desde cero.** Una bobina con corriente produce campo, y ese campo atraviesa sus propias vueltas. La **autoinductancia** $L$ es el flujo propio total por cada ampere: $N\phi = Li$. Para un solenoide largo, adentro $B = \mu_0\frac N\ell i$ (Ampère), y cada vuelta tiene flujo $B\pi r^2$, así que $L = \dfrac{N\cdot\mu_0\frac N\ell i\cdot\pi r^2}{i} = \dfrac{\mu_0N^2\pi r^2}{\ell}$. Si la corriente cambia, el flujo propio cambia y, por Faraday, aparece la fem autoinducida $\mathcal E = -L\,di/dt$.
+
+**Resolución.**
+
 **Paso 1 — Inductancia (ítem a).** Se aproxima por solenoide largo ($40\ \text{cm} \gg 2\ \text{cm}$):
 
 $$L = \mu_0\frac{N^2}{\ell}\pi r^2$$
@@ -684,6 +828,15 @@ b) el valor absoluto de la fem inducida en el cuadro en función del tiempo a pa
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Dos cables paralelos con corrientes opuestas que se apagan exponencialmente, y un cuadro de $N$ vueltas (con su propia corriente senoidal y su propia $L$) a la derecha.
+- **a)** La inductancia mutua entre un cable y el cuadro. **b)** La fem total en el cuadro.
+
+**La idea, desde cero.** La **inductancia mutua** $M$ es el flujo que la corriente de un circuito produce a través del otro, por cada ampere: $N\phi = Mi$. Para un cable y un cuadro se calcula el flujo del campo del cable a través del cuadro, con la integral en tiras ($\ln$). El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\,dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$. La fem total en el cuadro es la suma de la que inducen los cables (por $M\,di_C/dt$) y la autoinducida (por $L\,di_{ESP}/dt$).
+
+**Resolución.**
 
 **Paso 1 — Geometría.** El cuadro está a $D$ del cable cercano, así que a $2D$ del lejano. Se extiende una distancia $h$.
 
@@ -724,6 +877,15 @@ Suponga que se arregla la configuración de corrientes y espiras del ejercicio a
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- La misma situación del ejercicio 17, pero con el cuadro **entre** los dos cables.
+- **Qué piden:** qué resultados cambian, en especial la inductancia mutua si las corrientes fueran opuestas.
+
+**La idea, desde cero.** Entre dos cables, sus campos apuntan para el mismo lado si las corrientes son **opuestas** y para lados contrarios si son del mismo sentido (mano derecha). Por eso, al poner el cuadro entre los cables, los flujos que antes se restaban ahora se suman, o al revés. La mutua con cada cable solo depende de la distancia y del tamaño del cuadro.
+
+**Resolución.**
+
 **Paso 1 — Nueva geometría.** Ahora el cuadro está **entre** los dos cables: a $D$ del izquierdo y a $2D$ del derecho. El cable que está a $2D$ del cuadro sigue a $2D$, así que $M$ con ese cable (ítem a) **no cambia**.
 
 **Paso 2 — Entre los cables.** Con corrientes **paralelas**, entre los cables los campos son opuestos y los flujos se restan; con corrientes **antiparalelas**, entre los cables los campos van en el mismo sentido y los flujos se **suman**. Así cambia el ítem b, y el coeficiente $M$ conjunto (cables–espira) **aumenta**, porque los dos logaritmos se suman.
@@ -753,6 +915,15 @@ c) discuta y justifique cómo se modifica el resultado anterior si el toroide se
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un hilo recto que pasa por el centro de un toroide de sección cuadrada (lado $a$, radio $R$, $n$ espiras por metro).
+- **a)** La inductancia mutua. **b)** La fem en el toroide. **c)** Qué cambia si se corta el toroide a la mitad.
+
+**La idea, desde cero.** Las líneas de campo del hilo son circunferencias que pasan justo por adentro de las espiras del toroide, así que cada espira es atravesada perpendicularmente. Como $B = \mu_0 i/(2\pi x)$ depende de la distancia, el flujo por cada espira cuadrada se calcula en tiras ($\ln$). La mutua es el flujo total (por espira, por el número de espiras) dividido $i$. La fem es $M\,di/dt$.
+
+**Resolución.**
 
 **Paso 1 — Flujo por una espira del toroide.** Cada espira es un cuadrado de lado $a$, que se extiende radialmente desde $R - a/2$ hasta $R + a/2$ ($R$ = radio medio). El campo del hilo es perpendicular a cada espira:
 
@@ -797,6 +968,15 @@ c) calcule el valor absoluto de la fem inducida en función de la posición e in
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Un hilo y, a 25 cm, una bobina cuadrada de 100 vueltas y 10 cm de lado.
+- **a)** Con la corriente $0{,}3(1 - e^{-\beta t})$ y la bobina quieta: fem y sentido. **b)** Cuándo se anula la fem. **c)** Con la corriente fija y la bobina acercándose a velocidad $v$: fem y sentido.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\,dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$. El flujo puede cambiar porque cambia la corriente (se deriva respecto de $t$) o porque cambia la distancia (regla de la cadena con $dx/dt = -v$).
+
+**Resolución.**
 
 **Paso 1 — Flujo.** Bobina de $N$ vueltas, lado paralelo $a$, desde $x$ hasta $x + a$:
 
@@ -848,6 +1028,15 @@ b) suponiendo *r<sub>2</sub> >> r<sub>1</sub>* y ℓ<sub>2</sub>>>ℓ<sub>1</sub
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un solenoide chico dentro de otro mucho más grande y largo, coaxiales; por el exterior circula una corriente variable.
+- **a)** La inductancia mutua. **b)** La fem en la bobina exterior con corrientes dadas.
+
+**La idea, desde cero.** La **inductancia mutua** es el flujo que produce la corriente de una bobina a través de la otra, por ampere. Conviene calcularla con el campo del solenoide **grande**, que es uniforme en todo su interior, $B_2 = \mu_0 n_2 i_2$ (Ampère), y que atraviesa las $N_1$ vueltas del chico por su área $\pi r_1^2$. Calculada al revés da lo mismo ($M_{12} = M_{21}$). La fem en una bobina suma la inducida por la otra ($M\,di/dt$) y la autoinducida ($L\,di/dt$).
+
+**Resolución.**
+
 **Paso 1 — Mutua (ítem a).** Conviene calcular el flujo del campo del solenoide **exterior** (uniforme, $B_2 = \mu_0 n_2 i_2$) a través del **interior** (área $\pi r_1^2$, $N_1$ vueltas):
 
 $$M = \frac{N_1B_2\pi r_1^2}{i_2} = \mu_0\,n_2\,N_1\,\pi r_1^2$$
@@ -890,6 +1079,15 @@ b) el valor eficaz de la fem inducida.
 <details>
 <summary>Solución paso a paso</summary>
 
+**Qué piden, en palabras.**
+
+- Un generador: bobina de 10 espiras de 60 cm² que gira a 300 vueltas por minuto en un campo de 3 T.
+- **a)** El flujo por espira en función del tiempo. **b)** El valor eficaz de la fem.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. Al girar la bobina, el ángulo entre el campo y la normal cambia como $\omega t$, así que $\phi = BA\cos(\omega t)$ oscila, y su derivada da una fem senoidal: así se genera la corriente alterna. El **valor eficaz** de una senoidal (el que se usa para potencias y el que miden los instrumentos) es su máximo dividido $\sqrt2$.
+
+**Resolución.**
+
 **Paso 1 — Velocidad angular.** $\omega = 300\ \text{rpm} = 300\cdot\dfrac{2\pi}{60}\ \text{s}^{-1} = 10\pi\ \text{s}^{-1}$.
 
 **Paso 2 — Flujo por espira (ítem a).** $\phi = BA\cos(\omega t)$:
@@ -926,6 +1124,14 @@ Indique cuáles son los dos enunciados verdaderos
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Varios enunciados sobre inducción; dos son verdaderos.
+
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. La inductancia mutua depende solo de la geometría, no de las corrientes. Lo que induce fem es que el flujo **cambie**, no que sea distinto de cero.
+
+**Resolución.**
 
 - "M se duplica si se duplica una corriente": **falso**. $M$ depende solo de la geometría.
 - "Flujo nulo ⇔ fem nula": **falso**. Lo que importa es la **variación** del flujo; el flujo puede valer cero en un instante y estar cambiando.
@@ -965,6 +1171,14 @@ Indique cuáles son los dos enunciados verdaderos
 
 <details>
 <summary>Solución paso a paso</summary>
+
+**Qué piden, en palabras.**
+
+- Varios enunciados sobre bobinas e inducción; dos son verdaderos.
+
+**La idea, desde cero.** Una bobina guarda energía en su **campo magnético**, $U = \tfrac12Li^2$, que depende de la corriente. Su autoinductancia depende de la geometría y del número de vueltas, $L = \mu_0N^2A/\ell$, así que dos bobinas del mismo tamaño pueden tener distinta $L$. Un campo variable induce fem en una espira solo si cambia el flujo que la atraviesa.
+
+**Resolución.**
 
 - "Almacena energía del campo eléctrico": **falso**. Del campo **magnético**.
 - "Igual radio e igual longitud implica igual L": **falso**. Depende también del número de vueltas ($L\propto N^2$).
