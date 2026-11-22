@@ -6,21 +6,21 @@ Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y,
 
 Teoría: [resumen del tema](teoria.md). Constante: $\mu_0 = 4\pi\times10^{-7}$ T m/A. Versores: $\hat e_x$, $\hat e_y$, $\hat e_z$ (= $\hat\imath$, $\hat\jmath$, $\hat k$).
 
-**⭐ Para el 2º Parcial:** 16 de los 27 ejercicios están marcados con ⭐. Son los que practican un tipo de ejercicio que se tomó en los parciales. Si estudiás para el 2º Parcial, alcanza con hacer los marcados; los demás se pueden saltear.
+**⭐ Para el 2º Parcial:** 20 de los 27 ejercicios están marcados con ⭐. Hay de dos clases: los **parecidos a ejercicios de parcial** y los de **concepto base**, más simples, que sirven para entender lo que después se usa en el parcial. Si estudiás para el 2º Parcial, alcanza con hacer los marcados; los demás se pueden saltear.
 
 | Bloque | Ejercicios |
 |---|---|
-| Cargas en campos magnéticos | [1](#ejercicio-1) ⭐ · [2](#ejercicio-2) ⭐ · [3](#ejercicio-3) · [4](#ejercicio-4) ⭐ · [5](#ejercicio-5) ⭐ |
-| Fuerza sobre conductores | [6](#ejercicio-6) · [7](#ejercicio-7) · [8](#ejercicio-8) · [9](#ejercicio-9) · [10](#ejercicio-10) |
+| Cargas en campos magnéticos | [1](#ejercicio-1) ⭐ · [2](#ejercicio-2) ⭐ · [3](#ejercicio-3) ⭐ · [4](#ejercicio-4) ⭐ · [5](#ejercicio-5) ⭐ |
+| Fuerza sobre conductores | [6](#ejercicio-6) ⭐ · [7](#ejercicio-7) ⭐ · [8](#ejercicio-8) · [9](#ejercicio-9) · [10](#ejercicio-10) |
 | Hilos rectos | [11](#ejercicio-11) ⭐ · [12](#ejercicio-12) ⭐ · [13](#ejercicio-13) ⭐ · [14](#ejercicio-14) ⭐ · [15](#ejercicio-15) ⭐ · [16](#ejercicio-16) ⭐ · [17](#ejercicio-17) ⭐ · [18](#ejercicio-18) ⭐ · [19](#ejercicio-19) ⭐ |
 | Espiras y solenoides | [20](#ejercicio-20) ⭐ · [21](#ejercicio-21) ⭐ · [22](#ejercicio-22) · [23](#ejercicio-23) · [24](#ejercicio-24) ⭐ · [25](#ejercicio-25) · [26](#ejercicio-26) |
-| Conceptual | [27](#ejercicio-27) |
+| Conceptual | [27](#ejercicio-27) ⭐ |
 
 ---
 
 ### Ejercicio 1
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
 
 Un haz de isótopos ${}^{56}_{26}Fe^{++}$ (masa *m=8,96 x 10<sup>−27</sup> kg*; carga *q=+3,2 ×10<sup>−19</sup> C*) ingresa por el punto A de la figura a una región del espacio donde existe un campo magnético de valor B = 0,1T. La energía de cada elemento del haz es de 10 keV.
 
@@ -79,7 +79,7 @@ $$AC = 2\cdot\frac{8{,}96\times10^{-27}\cdot5{,}98\times10^5}{3{,}2\times10^{-19
 
 ### Ejercicio 2
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
 
 Una partícula de masa $m$ =1,67x10<sup>-27</sup> kg y carga ***q*** =1,6x10<sup>-19</sup> C se desplaza con una velocidad de 10<sup>6</sup> m/s describiendo una circunferencia en un plano perpendicular a un campo de inducción magnética ***B***. El módulo de dicho campo es de 1,75 T. Halle el valor de la frecuencia de giro de la partícula.
 
@@ -123,6 +123,8 @@ $$f = \frac{1{,}6\times10^{-19}\cdot1{,}75}{2\pi\cdot1{,}67\times10^{-27}}\ \tex
 ---
 
 ### Ejercicio 3
+
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución. Practica la dirección de la fuerza $q\,\vec v\times\vec B$ y cómo depende del signo de la carga, sin cuentas.
 
 Una carga *q* > 0 ingresa a la región entre las placas de un capacitor plano. El espacio entre las placas es vacío, y en él existe un campo magnético uniforme ***B***, como indica la figura. Discuta cuáles son las tres afirmaciones correctas
 
@@ -187,7 +189,7 @@ Apunta **hacia arriba** (placa positiva), con módulo $qvB$.
 
 ### Ejercicio 4
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
 
 Un electrón (masa $m$ =9,1x10<sup>-31</sup> kg y carga $q$ =−1,6x10<sup>-19</sup> C) con energía de 2 keV ingresa a un campo magnético uniforme de 0,1T formando un ángulo de 89° con la dirección del campo. La trayectoria del electrón será entonces una hélice alrededor de una línea de campo. Halle los valores característicos de la hélice, esto es, su período, paso y radio. (1 keV= 1,6 × 10<sup>−16</sup> J).
 
@@ -238,7 +240,7 @@ $$r = \frac{9{,}1\times10^{-31}\cdot2{,}65\times10^7\cdot\sin89^\circ}{1{,}6\tim
 
 ### Ejercicio 5
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución.
 
 Un protón (m<sub>P</sub>=1,67×10<sup>−27</sup>kg, q<sub>P</sub>=1,6×10<sup>−19</sup> C) ingresa a una región del espacio en la que existe un campo magnético uniforme cuyas líneas son perpendiculares a la velocidad del protón. El protón describe una trayectoria circular de período τ=10<sup>−8</sup> seg.
 
@@ -293,6 +295,8 @@ $$r = \frac{1{,}67\times10^{-27}\cdot7{,}58\times10^5}{1{,}6\times10^{-19}\cdot6
 
 ### Ejercicio 6
 
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 10: Barra sobre rieles](../Segundo%20Parcial/guia-de-resolucion.md#10-barra-sobre-rieles) de la guía de resolución. Practica la fuerza sobre un cable con corriente, $i\,\vec\ell\times\vec B$, que es la que frena a la barra.
+
 Un alambre de 1m de longitud transporta una corriente de intensidad *i*=10A. El alambre se halla en una región donde existe un campo magnético uniforme B=1,5T, y forma un ángulo α=30° con la dirección del campo. Calcule la fuerza que el campo ejerce sobre el alambre.
 
 ![Figura del ejercicio 6](img/ej-06.png)
@@ -331,6 +335,8 @@ $$\vec F = 10\cdot1\cdot1{,}5\cdot0{,}5\ \text{N}\ \hat e_z = 7{,}5\ \text{N}\ \
 ---
 
 ### Ejercicio 7
+
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 10: Barra sobre rieles](../Segundo%20Parcial/guia-de-resolucion.md#10-barra-sobre-rieles) de la guía de resolución. Practica la dirección y el valor de la fuerza magnética sobre una barra con corriente apoyada en rieles.
 
 Un alambre metálico de masa *m* desliza sin fricción sobre dos rieles metálicos separados una distancia *D*. El sistema está alojado en una región del espacio en la que existe un campo magnético uniforme ***B***. Entre los rieles se establece una corriente i por medio del generador de corriente *G<sub>C</sub>* que se muestra en la figura. Halle la expresión del vector velocidad del alambre en función del tiempo sabiendo que en t=0 el alambre está en reposo.
 
@@ -528,7 +534,7 @@ Es positiva: la barra baja por el plano (con 2 A la fuerza magnética no alcanza
 
 ### Ejercicio 11
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 2: Hilos paralelos: campo en un punto y punto de campo nulo](../Segundo%20Parcial/guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 2: Hilos paralelos: campo en un punto y punto de campo nulo](../Segundo%20Parcial/guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) de la guía de resolución.
 
 Calcule el campo magnético generado a una distancia *R* por un alambre recto infinito circulado por una corriente eléctrica de intensidad *i*. Discuta cómo cambia el resultado si se invirtiera el sentido de la corriente.
 
@@ -569,7 +575,7 @@ $$\oint\vec B\cdot d\vec\ell = B\,2\pi R = \mu_0 i \quad\Rightarrow\quad \vec B 
 
 ### Ejercicio 12
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 3: Fuerza entre hilos](../Segundo%20Parcial/guia-de-resolucion.md#3-fuerza-entre-hilos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 3: Fuerza entre hilos](../Segundo%20Parcial/guia-de-resolucion.md#3-fuerza-entre-hilos) de la guía de resolución.
 
 Por dos alambres infinitos paralelos, separados una distancia *D*=0,6m, circulan corrientes *i<sub>1</sub>*=0,2A e *i<sub>2</sub>*=0,3A, respectivamente. Calcule la fuerza que por unidad de longitud la corriente superior ejerce sobre la corriente inferior si:
 
@@ -612,7 +618,7 @@ $$\frac F\ell = \frac{4\pi\times10^{-7}\cdot0{,}2\cdot0{,}3}{2\pi\cdot0{,}6}\ \t
 
 ### Ejercicio 13
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 2: Hilos paralelos: campo en un punto y punto de campo nulo](../Segundo%20Parcial/guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 2: Hilos paralelos: campo en un punto y punto de campo nulo](../Segundo%20Parcial/guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) de la guía de resolución.
 
 Dos alambres paralelos infinitos, separados una distancia *d*, están circulados por corrientes *i*<sub>1</sub> e *i*<sub>2</sub>, respectivamente. El campo magnético generado por estos alambres se anula a una distancia *d/3* del que transporta la corriente *i*<sub>1</sub> en la región externa a los dos alambres.
 
@@ -659,7 +665,7 @@ $$B = \frac{\mu_0 i_1}{2\pi(d/2)} + \frac{\mu_0 i_2}{2\pi(d/2)} = \frac{\mu_0}{\
 
 ### Ejercicio 14
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 2: Hilos paralelos: campo en un punto y punto de campo nulo](../Segundo%20Parcial/guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 2: Hilos paralelos: campo en un punto y punto de campo nulo](../Segundo%20Parcial/guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) de la guía de resolución.
 
 Una carga *q*=2 μC se mueve con velocidad ***v*** = 0,05 m/seg **e**<sub>Y</sub> desde el alambre inferior de la figura al superior. Los dos alambres tienen longitud L>>1,5m. Cuando la carga pasa por el punto A, situado a 0,6 m del alambre inferior, se encienden las corrientes i<sub>INF</sub>=2mA i<sub>SUP</sub>=3mA, ambas en la dirección **e**<sub>X</sub>.
 
@@ -709,7 +715,7 @@ $$t = \frac{y_B - y_A}{v} = \frac{0{,}7 - 0{,}6}{0{,}05}\ \text{s} = 2\ \text{s}
 
 ### Ejercicio 15
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
 
 La figura muestra un alambre recto semiinfinito circulado por una corriente de intensidad *i*. Por comodidad se ha hecho coincidir al cable con el semieje positivo Z. Calcule el campo magnético generado por este alambre en puntos a una distancia *R* enfrentados al semieje que contiene al cable (por ejemplo, el punto P<sub>1</sub> de la figura) y puntos a una distancia *R* enfrentados al semieje que no contiene corrientes (como el punto P<sub>2</sub> de la figura).
 
@@ -761,7 +767,7 @@ $$B = \frac{\mu_0 i}{4\pi R}\left(1 + \frac{z_0}{\sqrt{R^2 + z_0^2}}\right) = \f
 
 ### Ejercicio 16
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
 
 La figura muestra un segmento rectilíneo de alambre, de longitud *L*, que conduce una corriente de intensidad *i* (no se muestran los alambres que completan el circuito y que a los efectos de este cálculo pueden ser ignorados). Calcule el campo magnético que la corriente genera en un punto *P* ubicado a una distancia *R* del alambre, y a una distancia *h>L/2* del centro del mismo.
 
@@ -808,7 +814,7 @@ Es positivo, porque el primer término es mayor.
 
 ### Ejercicio 17
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 3: Fuerza entre hilos](../Segundo%20Parcial/guia-de-resolucion.md#3-fuerza-entre-hilos) y [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 3: Fuerza entre hilos](../Segundo%20Parcial/guia-de-resolucion.md#3-fuerza-entre-hilos) y [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
 
 Por el alambre de la figura, en forma de U abierta, cuyo lado vertical mide L, circula una corriente *i*. Las ramas horizontales son rectas. En tal caso halle la expresión
 
@@ -878,7 +884,7 @@ $$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^
 
 ### Ejercicio 18
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 5: Espiras: campo en el centro](../Segundo%20Parcial/guia-de-resolucion.md#5-espiras-campo-en-el-centro) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 5: Espiras: campo en el centro](../Segundo%20Parcial/guia-de-resolucion.md#5-espiras-campo-en-el-centro) de la guía de resolución.
 
 Calcule el campo magnético generado en su centro por una espira cuadrada de lado *L* circulada por una corriente eléctrica de intensidad *i*.
 
@@ -923,7 +929,7 @@ $$B = 4\,B_{lado} = 2\sqrt2\,\frac{\mu_0 i}{\pi L}$$
 
 ### Ejercicio 19
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
 
 La figura muestra un sector de un conductor recto y de gran longitud, por el que circula una corriente continua y estacionaria de intensidad *i* = 8 A, y que está doblado en ángulo recto. Halle el vector inducción magnética en el punto ***P*** de coordenadas (0; 0; 0,5 m) generado por la corriente *i.*
 
@@ -975,7 +981,7 @@ $$\frac{\mu_0 i}{4\pi R} = \frac{10^{-7}\cdot8}{0{,}5}\ \text{T} = 1{,}6\times10
 
 ### Ejercicio 20
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 4: Campo en 3D (anillo + hilo) y fuerza sobre una carga](../Segundo%20Parcial/guia-de-resolucion.md#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 4: Campo en 3D (anillo + hilo) y fuerza sobre una carga](../Segundo%20Parcial/guia-de-resolucion.md#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga) de la guía de resolución.
 
 a) halle la expresión general del campo magnético generado por un anillo de radio *R,* circulado por una corriente de intensidad *i,* en cada punto de su eje de revolución (eje Z en la figura);
 
@@ -1036,7 +1042,7 @@ Ahora aparece una componente perpendicular al eje, porque la media espira no es 
 
 ### Ejercicio 21
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 6: Hilo doblado: Biot-Savart por tramos](../Segundo%20Parcial/guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) de la guía de resolución.
 
 Halle la expresión del vector ***B*** en el centro *C* de las siguientes configuraciones de semiespiras (recuerde que un segmento recto de alambre circulado por una corriente *i* genera campo nulo en su prolongación). La configuración (d) es una sucesión infinita de semiespiras concéntricas, de radios *R<sub>n</sub>*= *r<sub>a</sub>* /(2*n*) (*n* ≥1). La corriente que circula por cada espira decrece (por efecto de la resistencia) como *i <sub>n</sub>*= *i<sub>0</sub>* / *n*<sup>2</sup>. En cada caso discuta qué sucede si se invierte el sentido de la corriente
 
@@ -1188,7 +1194,7 @@ Afuera del solenoide uno de los cosenos resulta negativo y la expresión sigue v
 
 ### Ejercicio 24
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 14: Solenoide: campo, inductancia, energía y longitud](../Segundo%20Parcial/guia-de-resolucion.md#14-solenoide-campo-inductancia-energ%C3%ADa-y-longitud) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 14: Solenoide: campo, inductancia, energía y longitud](../Segundo%20Parcial/guia-de-resolucion.md#14-solenoide-campo-inductancia-energ%C3%ADa-y-longitud) de la guía de resolución.
 
 A partir del ejercicio anterior, calcule el campo magnético en cada punto del eje de simetría de un solenoide infinito y de un toroide. Discuta cuál es la condición para que un solenoide pueda ser considerado infinito y cuál es la condición para que la expresión valga para un toroide.
 
@@ -1312,6 +1318,8 @@ $$B_{exacto} = \frac{7{,}54\times10^{-4}}{2}\,(0{,}9972 + 0{,}9950)\ \text{T} = 
 ---
 
 ### Ejercicio 27
+
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución. Practica conceptos que se toman: la fuerza magnética no cambia la energía cinética, y entre hilos con corrientes opuestas los campos se suman.
 
 Indique cuáles son las dos proposiciones correctas del siguiente conjunto de enunciados
 

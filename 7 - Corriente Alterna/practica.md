@@ -6,19 +6,19 @@ Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y,
 
 Teoría: [resumen del tema](teoria.md). En el aula virtual también está la [resolución manuscrita de la guía](Aula%20Virtual/Resoluci%C3%B3n%20gu%C3%ADa%20-%20Corriente%20alterna.pdf).
 
-**⭐ Para el 2º Parcial:** 9 de los 12 ejercicios están marcados con ⭐. Son los que practican un tipo de ejercicio que se tomó en los parciales. Si estudiás para el 2º Parcial, alcanza con hacer los marcados; los demás se pueden saltear.
+**⭐ Para el 2º Parcial:** 12 de los 12 ejercicios están marcados con ⭐. Hay de dos clases: los **parecidos a ejercicios de parcial** y los de **concepto base**, más simples, que sirven para entender lo que después se usa en el parcial. Si estudiás para el 2º Parcial, alcanza con hacer los marcados; los demás se pueden saltear.
 
 | Bloque | Ejercicios |
 |---|---|
-| Circuitos de dos elementos | [1](#ejercicio-1) ⭐ · [2](#ejercicio-2) · [3](#ejercicio-3) ⭐ · [4](#ejercicio-4) ⭐ |
-| RLC serie | [5](#ejercicio-5) ⭐ · [6](#ejercicio-6) ⭐ · [7](#ejercicio-7) · [8](#ejercicio-8) ⭐ · [9](#ejercicio-9) ⭐ · [10](#ejercicio-10) ⭐ · [11](#ejercicio-11) |
+| Circuitos de dos elementos | [1](#ejercicio-1) ⭐ · [2](#ejercicio-2) ⭐ · [3](#ejercicio-3) ⭐ · [4](#ejercicio-4) ⭐ |
+| RLC serie | [5](#ejercicio-5) ⭐ · [6](#ejercicio-6) ⭐ · [7](#ejercicio-7) ⭐ · [8](#ejercicio-8) ⭐ · [9](#ejercicio-9) ⭐ · [10](#ejercicio-10) ⭐ · [11](#ejercicio-11) ⭐ |
 | Conceptual | [12](#ejercicio-12) ⭐ |
 
 ---
 
 ### Ejercicio 1
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
 
 Un generador de corriente alterna que entrega 100V de tensión eficaz a 50 Hz se halla conectado a un circuito RC serie. Por el circuito circula una corriente eficaz *i<sub>ef</sub>*= 0,2 sen (2π50 t + π/3) A.
 
@@ -110,6 +110,8 @@ $$L = \frac{1}{(628{,}3)^2\cdot7{,}35\times10^{-6}}\ \text{H} = 0{,}345\ \text{H
 
 ### Ejercicio 2
 
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución. Practica el ejercicio 1 pero inductivo: qué cambia entre una bobina y un capacitor.
+
 Suponga que el circuito del ejercicio anterior fuera un RL serie, con la corriente ahora de valor *i<sub>ef</sub>*= 0,2 sen (2π50 t − π/3) A y los 80 V cayendo sobre el inductor. Indique y justifique cuáles resultados cambiarían y cómo.
 
 <details>
@@ -163,7 +165,7 @@ $$C = \frac{1}{(2\omega)^2L} = \frac{1}{(628{,}3)^2\cdot1{,}378}\ \text{F} = 1{,
 
 ### Ejercicio 3
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
 
 En las especificaciones de una lámpara incandescente se lee: 120 V, 60 W. Se sabe que la resistencia del filamento es de 240 Ω. Se desea conectar la lámpara a la red domiciliaria (220 V de tensión eficaz, 50 Hz) de manera tal que provea la misma potencia lumínica. Calcule el valor de la inductancia *L* que debe conectarse en serie con la lámpara para lograr el objetivo.
 
@@ -218,7 +220,7 @@ $$L = \frac{\sqrt{440^2 - 240^2}}{2\pi\cdot50}\ \text{H} = \frac{368{,}8}{314{,}
 
 ### Ejercicio 4
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 18: Diagrama de fasores: identificar los elementos](../Segundo%20Parcial/guia-de-resolucion.md#18-diagrama-de-fasores-identificar-los-elementos) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 18: Diagrama de fasores: identificar los elementos](../Segundo%20Parcial/guia-de-resolucion.md#18-diagrama-de-fasores-identificar-los-elementos) de la guía de resolución.
 
 El diagrama de fases de la figura corresponde a un circuito de CA de sólo dos elementos pasivos que disipa 40W a 50Hz. Calcule el valor de esos elementos.
 
@@ -273,7 +275,7 @@ $$C = \frac{1}{314{,}16\cdot34{,}6}\ \text{F} = 92\ \mu\text{F}$$
 
 ### Ejercicio 5
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
 
 Un circuito RLC serie de CA disipa 80 W. Se sabe que la corriente atrasa respecto de la tensión, cuyos valores de pico son *i<sub>0</sub>* = 2 A y *ℰ<sub>0</sub>* = 100 V, respectivamente.
 
@@ -329,7 +331,7 @@ $$R = \frac{160}{4}\ \Omega = 40\ \Omega \qquad Z = 50\ \Omega \qquad X_L - X_C 
 
 ### Ejercicio 6
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 16: RLC serie con la frecuencia de resonancia como dato](../Segundo%20Parcial/guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 16: RLC serie con la frecuencia de resonancia como dato](../Segundo%20Parcial/guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) de la guía de resolución.
 
 A un circuito RLC serie que opera a 50Hz y resuena a 40 Hz, se le suministra una potencia aparente de 60 VA. Si la corriente (cuya intensidad de pico es *i<sub>0</sub>* = 0,4 A) retrasa 37° respecto de la tensión, calcule:
 
@@ -389,6 +391,8 @@ $$C = \frac{1}{(2\pi\cdot40)^2\cdot4{,}0}\ \text{F} = 3{,}96\ \mu\text{F}$$
 ---
 
 ### Ejercicio 7
+
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 16: RLC serie con la frecuencia de resonancia como dato](../Segundo%20Parcial/guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) de la guía de resolución. Practica por qué las tensiones de cada elemento no se suman como números (están desfasadas).
 
 El voltímetro representado en el circuito serie RLC de la figura indica 90V. Calcule:
 
@@ -455,7 +459,7 @@ $$f_0 = \frac{1}{2\pi\sqrt{LC}} = \frac{1}{2\pi\sqrt{0{,}1\cdot25\times10^{-6}}}
 
 ### Ejercicio 8
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
 
 A un circuito RLC serie se le conecta una fuente que entrega una tensión ℰ(t)= 10 *sen* (500 s<sup>−1</sup> *t*) V. La inductancia es variable, en tanto que la resistencia es de 4Ω y el capacitor de 200 μF. Se ajusta el valor de *L* de tal manera que el diagrama de impedancias es el de la figura. En estas condiciones calcule:
 
@@ -519,7 +523,7 @@ $$V_L = i_0X_L\mathrm{sen}\,(500t + 37^\circ + 90^\circ) = 14\mathrm{sen}\,(500t
 
 ### Ejercicio 9
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 15: RLC serie a partir de mediciones](../Segundo%20Parcial/guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) de la guía de resolución.
 
 Por un circuito *RLC* serie circula una corriente *i*(t) = 20 sen (2π50 t +37°) A. Sabiendo que la potencia activa es de 800 W y *C* = 530,7 μF
 
@@ -600,7 +604,7 @@ $$V_L = 20\cdot3 = 60\mathrm{sen}\,(2\pi50t + 127^\circ)\ \text{V}$$
 
 ### Ejercicio 10
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 16: RLC serie con la frecuencia de resonancia como dato](../Segundo%20Parcial/guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 16: RLC serie con la frecuencia de resonancia como dato](../Segundo%20Parcial/guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) de la guía de resolución.
 
 La potencia media que entrega un circuito *RLC* serie es de 86 W con un factor de potencia 0,86. El circuito trabaja a 50 Hz y resuena a 40 Hz. La corriente de pico es de 2 A.
 
@@ -689,6 +693,8 @@ $$S = \tfrac12\mathcal E_0i_0 = 100\ \text{VA} \qquad Q = S\mathrm{sen}\,\phi = 
 
 ### Ejercicio 11
 
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 16: RLC serie con la frecuencia de resonancia como dato](../Segundo%20Parcial/guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) de la guía de resolución. Practica resonancia en su forma más simple: tensión y corriente en fase significa $X_L = X_C$.
+
 Cuando la llave del circuito de la figura está en la posición 2, la tensión y la corriente están en fase. Calcule:
 
 a) el coeficiente de autoinducción *L* de la bobina.
@@ -740,7 +746,7 @@ $$\cos\phi = \cos\!\left[\arctan\frac{X_C}{R_1 + R_2}\right] = \cos\!\left[\arct
 
 ### Ejercicio 12
 
-⭐ **Sirve para el 2º Parcial**: practica el [tipo 19: Afirmaciones verdaderas o falsas sobre RLC](../Segundo%20Parcial/guia-de-resolucion.md#19-afirmaciones-verdaderas-o-falsas-sobre-rlc) de la guía de resolución.
+⭐ **Sirve para el 2º Parcial** (parecido a ejercicios de parcial): practica el [tipo 19: Afirmaciones verdaderas o falsas sobre RLC](../Segundo%20Parcial/guia-de-resolucion.md#19-afirmaciones-verdaderas-o-falsas-sobre-rlc) de la guía de resolución.
 
 Del siguiente conjunto de proposiciones, indique cuáles son las dos correctas
 

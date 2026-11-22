@@ -8,7 +8,7 @@ Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpe
 - **Cómo reconocerlo** en el enunciado.
 - **Receta**: los pasos que siempre se siguen.
 - **Ejemplo resuelto**: un ejercicio real de parcial, elegido como representante del tipo, con el formato de los exámenes: la consigna y un botón **Solución** con la respuesta. Adentro hay otro botón, **Solución paso a paso**, que traduce el enunciado (**Qué piden, en palabras**), cuenta la teoría del tipo aplicada a ese ejercicio (**La idea, aplicada a este ejercicio**) y resuelve deduciendo cada fórmula en el momento en que se usa, con el atajo al lado.
-- **Para practicar**: los ejercicios de la práctica (marcados con ⭐) que sirven para ese tipo.
+- **Para practicar**: los ejercicios de la práctica (marcados con ⭐) que sirven para ese tipo. Los que dicen "(base)" son más simples y ayudan a entender los conceptos antes de hacer los parecidos al parcial.
 - **Variantes**: los demás ejercicios del mismo tipo, con lo que cambia respecto del ejemplo.
 
 Primero conviene leer la [sección 0](#0-kit-mínimo-lo-que-am2-no-te-dio). Ahí está la idea central de la guía: todo el 2º Parcial sale de [seis leyes](#04-las-seis-leyes-lo-único-que-hay-que-memorizar), y cada fórmula que se usa en los ejercicios se deduce de una de ellas con una integral o una derivada. Después se puede ir directo al tipo que interese.
@@ -435,7 +435,7 @@ $$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \t
 
 **Variantes.** [2º Parcial 28/11/2024, Ej. 1](2024-11-28-2do-parcial.md#ejercicio-1): igual, pero en la etapa de reparto C₁ se conecta con $C_2\parallel C_3$ (se suman: 80 μF).
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Capacitores, Ej. 1](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-1) · [Capacitores, Ej. 5](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-5) · [Capacitores, Ej. 6](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-6)
+**Para practicar** (ejercicios ⭐ de la práctica): [Capacitores, Ej. 1](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-1) · [Capacitores, Ej. 5](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-5) · [Capacitores, Ej. 6](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-6) · [Capacitores, Ej. 3 (base)](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-3)
 
 ---
 
@@ -916,7 +916,7 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 
 **Variantes.** [2º Recuperatorio 18/02/2022, Ej. 2](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-2): carga en un campo **no uniforme** $\vec B(z)$; piden el módulo de la velocidad en un instante posterior. Es una pregunta conceptual: como la fuerza magnética no hace trabajo, $\lvert\vec v\rvert$ se conserva y vale lo mismo que al principio ($3\times10^5$ m/s). No hay que integrar nada.
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 1](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-1) · [Magnetostática, Ej. 2](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-2) · [Magnetostática, Ej. 4](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-4) · [Magnetostática, Ej. 5](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-5)
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 1](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-1) · [Magnetostática, Ej. 2](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-2) · [Magnetostática, Ej. 4](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-4) · [Magnetostática, Ej. 5](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-5) · [Magnetostática, Ej. 3 (base)](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-3) · [Magnetostática, Ej. 27 (base)](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-27)
 
 ---
 
@@ -982,7 +982,7 @@ Restando dos veces la primera a la segunda: $24b = -41{,}48$, así que $b = -1{,
 
 </details>
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 4](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-4) · [Inducción, Ej. 9](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-9)
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 4](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-4) · [Inducción, Ej. 9](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-9) · [Inducción, Ej. 13 (base)](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-13) · [Inducción, Ej. 23 (base)](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-23)
 
 ---
 
@@ -1060,7 +1060,7 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 
 **Variantes.** [2º Parcial 25/11/2021, Ej. 1b-c](2021-11-25-2do-parcial.md#ejercicio-1): espira entre **dos** hilos. Se calcula el flujo de cada uno con la misma integral y se suman con signo (dentro de la espira los campos de hilos paralelos se oponen).
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 1](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-1) · [Inducción, Ej. 2](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-2) · [Inducción, Ej. 6](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-6) · [Inducción, Ej. 20](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-20)
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 1](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-1) · [Inducción, Ej. 2](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-2) · [Inducción, Ej. 6](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-6) · [Inducción, Ej. 20](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-20) · [Inducción, Ej. 3 (base)](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-3)
 
 ---
 
@@ -1139,7 +1139,7 @@ $$\phi(x) = \int_0^x kx'\,\ell\,dx' = \frac{k\ell x^2}{2} \quad\Rightarrow\quad 
 
 Con $x = vt = 40$ m: $\mathcal E = 0{,}5\cdot40\cdot0{,}24\cdot20 = 96$ V e $I = 96/8 = 12$ A.
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 10](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-10) · [Inducción, Ej. 14](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-14)
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 10](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-10) · [Inducción, Ej. 14](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-14) · [Magnetostática, Ej. 6 (base)](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-6) · [Magnetostática, Ej. 7 (base)](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-7) · [Inducción, Ej. 7 (base)](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-7)
 
 ---
 
@@ -1486,7 +1486,7 @@ Coherente: capacitivo y $50 < 76{,}3$ Hz ✓.
 
 **Variantes.** [2º Parcial 20/11/2015, Ej. 4](2015-11-20-2do-parcial.md#ejercicio-4): igual, pero dan C y piden L; también la potencia activa $P = V_{EF}I_{EF}\cos\varphi$.
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 1](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-1) · [Alterna, Ej. 3](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-3) · [Alterna, Ej. 5](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-5) · [Alterna, Ej. 8](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-8) · [Alterna, Ej. 9](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-9)
+**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 1](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-1) · [Alterna, Ej. 3](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-3) · [Alterna, Ej. 5](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-5) · [Alterna, Ej. 8](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-8) · [Alterna, Ej. 9](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-9) · [Alterna, Ej. 2 (base)](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-2)
 
 ---
 
@@ -1561,7 +1561,7 @@ $$V_R = 86{,}6\ \text{V} \qquad V_L = 89\ \text{V} \qquad V_C = 138{,}8\ \text{V
 - [2º Recuperatorio 18/02/2022, Ej. 5](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-5): dan potencia activa, factor de potencia y la corriente **de pico**. Entonces $R = 2P/I_0^2$ y $X = R\tan\varphi$. Trabaja por encima de la resonancia → inductivo. Además piden $S = P/\cos\varphi$ y $Q = S\mathrm{sen}\,\varphi$.
 - [1er Recuperatorio 12/12/2024, Ej. 3](2024-12-12-1er-recuperatorio-2do-parcial.md#ejercicio-3): el capacitor es **cilíndrico**; primero se calcula $C = 2\pi\varepsilon_0\ell/\ln(b/a) = 14{,}75$ nF. Como C ya se conoce, L sale directo de la resonancia: $L = 1/(\omega_0^2C)$.
 
-**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 6](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-6) · [Alterna, Ej. 10](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-10)
+**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 6](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-6) · [Alterna, Ej. 10](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-10) · [Capacitores, Ej. 4 (base)](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-4) · [Alterna, Ej. 7 (base)](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-7) · [Alterna, Ej. 11 (base)](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-11)
 
 ---
 
