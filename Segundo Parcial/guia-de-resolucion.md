@@ -2,7 +2,7 @@
 
 Esta guía es para quien ya aprobó Análisis Matemático II (integrales de línea, de superficie, Stokes, producto vectorial) pero **no sabe nada de Física II**. No hace falta haber leído la teoría del repo: todo lo necesario está acá.
 
-Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpeta y se agruparon en **19 tipos**. Para cada tipo hay:
+Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpeta y se agruparon en **19 tipos**, ordenados por unidad de la materia (4. Capacitores, 5. Magnetostática, 6. Inducción, 7. Corriente alterna). Para cada tipo hay:
 
 - **Cómo reconocerlo** en el enunciado.
 - **Receta**: los pasos que siempre se siguen.
@@ -19,30 +19,30 @@ Volver al [índice de parciales](README.md).
 
 **[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: unidades, regla de la mano derecha, las seis leyes de las que se deducen todas las fórmulas y la [tabla de atajos para el día del parcial](#011-atajos-para-el-día-del-parcial).
 
-**Magnetostática (campos y fuerzas que producen las corrientes)**
+**Unidad 4. Capacitores (en el 2º Parcial desde 2024)**
 
-1. [Hilos paralelos: campo en un punto y punto de campo nulo](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)
-2. [Fuerza entre hilos](#2-fuerza-entre-hilos)
-3. [Campo en 3D (anillo + hilo) y fuerza sobre una carga](#3-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga)
-4. [Espiras: campo en el centro](#4-espiras-campo-en-el-centro)
-5. [Hilo doblado: Biot-Savart por tramos](#5-hilo-doblado-biot-savart-por-tramos)
-6. [Movimiento de una carga en un campo magnético](#6-movimiento-de-una-carga-en-un-campo-magnético)
-7. [Solenoide: campo, inductancia, energía y longitud](#7-solenoide-campo-inductancia-energía-y-longitud)
-8. [Autoinductancia e inductancia mutua de solenoides](#8-autoinductancia-e-inductancia-mutua-de-solenoides)
+1. [Capacitores con llaves: energía disipada](#1-capacitores-con-llaves-energía-disipada)
 
-**Inducción (fem que aparece cuando cambia el flujo)**
+**Unidad 5. Magnetostática (campos y fuerzas que producen las corrientes)**
 
-9. [Bobina en un campo que varía con el tiempo](#9-bobina-en-un-campo-que-varía-con-el-tiempo)
-10. [Espira junto a un hilo: flujo con integral](#10-espira-junto-a-un-hilo-flujo-con-integral)
-11. [Barra sobre rieles](#11-barra-sobre-rieles)
-12. [Barra que se mueve junto a un hilo](#12-barra-que-se-mueve-junto-a-un-hilo)
-13. [Barra que gira](#13-barra-que-gira)
+2. [Hilos paralelos: campo en un punto y punto de campo nulo](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)
+3. [Fuerza entre hilos](#3-fuerza-entre-hilos)
+4. [Campo en 3D (anillo + hilo) y fuerza sobre una carga](#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga)
+5. [Espiras: campo en el centro](#5-espiras-campo-en-el-centro)
+6. [Hilo doblado: Biot-Savart por tramos](#6-hilo-doblado-biot-savart-por-tramos)
+7. [Movimiento de una carga en un campo magnético](#7-movimiento-de-una-carga-en-un-campo-magnético)
 
-**Capacitores (desde 2024)**
+**Unidad 6. Inducción (fem que aparece cuando cambia el flujo, inductancia y energía magnética)**
 
-14. [Capacitores con llaves: energía disipada](#14-capacitores-con-llaves-energía-disipada)
+8. [Bobina en un campo que varía con el tiempo](#8-bobina-en-un-campo-que-varía-con-el-tiempo)
+9. [Espira junto a un hilo: flujo con integral](#9-espira-junto-a-un-hilo-flujo-con-integral)
+10. [Barra sobre rieles](#10-barra-sobre-rieles)
+11. [Barra que se mueve junto a un hilo](#11-barra-que-se-mueve-junto-a-un-hilo)
+12. [Barra que gira](#12-barra-que-gira)
+13. [Autoinductancia e inductancia mutua de solenoides](#13-autoinductancia-e-inductancia-mutua-de-solenoides)
+14. [Solenoide: campo, inductancia, energía y longitud](#14-solenoide-campo-inductancia-energía-y-longitud)
 
-**Corriente alterna**
+**Unidad 7. Corriente alterna**
 
 15. [RLC serie a partir de mediciones](#15-rlc-serie-a-partir-de-mediciones)
 16. [RLC serie con la frecuencia de resonancia como dato](#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato)
@@ -154,7 +154,7 @@ $$B = \frac{\mu_0 I}{4\pi r^2}\cdot\frac Rr\int dl = \frac{\mu_0 I}{4\pi r^3}R\c
 
 Control: con $z = 0$ da $\dfrac{\mu_0 I}{2R}$, igual que el caso B con $\theta = 2\pi$.
 
-**Superposición.** Un cable con varias partes (tramos rectos y arcos) o varios cables: se calcula cada parte con su caso y se suman los vectores. Esto resuelve los tipos [1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) a [5](#5-hilo-doblado-biot-savart-por-tramos).
+**Superposición.** Un cable con varias partes (tramos rectos y arcos) o varios cables: se calcula cada parte con su caso y se suman los vectores. Esto resuelve los tipos [2](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) a [6](#6-hilo-doblado-biot-savart-por-tramos).
 
 ---
 
@@ -200,17 +200,17 @@ El flujo puede cambiar porque cambia $B$, porque cambia el área o porque el cir
 
 | Caso | Flujo | Derivando | Tipo |
 |---|---|---|---|
-| Bobina quieta con $B(t)$ uniforme | $N\Phi = NA\,B(t)$ | $\mathcal E = NA\,\dfrac{dB}{dt}$ | [9](#9-bobina-en-un-campo-que-varía-con-el-tiempo) |
-| Espira rectangular junto a un hilo (lado paralelo $c$, de $x_1$ a $x_2$) | franjas de ancho $dx$: $\displaystyle\int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}c\,dx = \frac{\mu_0 Ic}{2\pi}\ln\frac{x_2}{x_1}$ | derivar $I(t)$, o $x_1(t)$ y $x_2(t)$ con regla de la cadena | [10](#10-espira-junto-a-un-hilo-flujo-con-integral) |
-| Barra sobre rieles (separación $\ell$, posición $x$), $B$ uniforme | $\Phi = B\ell x$ | $\mathcal E = B\ell v$ | [11](#11-barra-sobre-rieles) |
-| Barra sobre rieles con $B(x)$ | $\Phi = \displaystyle\int_0^xB(x')\,\ell\,dx'$ | Teorema fundamental del cálculo: $\mathcal E = B(x)\,\ell v$ | [11](#11-barra-sobre-rieles) |
-| Barra que gira alrededor de un extremo | barre un sector de área $\tfrac12r_0^2\theta$: $\Phi = \tfrac12Br_0^2\theta$ | $\mathcal E = \tfrac12B\omega r_0^2$ | [13](#13-barra-que-gira) |
+| Bobina quieta con $B(t)$ uniforme | $N\Phi = NA\,B(t)$ | $\mathcal E = NA\,\dfrac{dB}{dt}$ | [8](#8-bobina-en-un-campo-que-varía-con-el-tiempo) |
+| Espira rectangular junto a un hilo (lado paralelo $c$, de $x_1$ a $x_2$) | franjas de ancho $dx$: $\displaystyle\int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}c\,dx = \frac{\mu_0 Ic}{2\pi}\ln\frac{x_2}{x_1}$ | derivar $I(t)$, o $x_1(t)$ y $x_2(t)$ con regla de la cadena | [9](#9-espira-junto-a-un-hilo-flujo-con-integral) |
+| Barra sobre rieles (separación $\ell$, posición $x$), $B$ uniforme | $\Phi = B\ell x$ | $\mathcal E = B\ell v$ | [10](#10-barra-sobre-rieles) |
+| Barra sobre rieles con $B(x)$ | $\Phi = \displaystyle\int_0^xB(x')\,\ell\,dx'$ | Teorema fundamental del cálculo: $\mathcal E = B(x)\,\ell v$ | [10](#10-barra-sobre-rieles) |
+| Barra que gira alrededor de un extremo | barre un sector de área $\tfrac12r_0^2\theta$: $\Phi = \tfrac12Br_0^2\theta$ | $\mathcal E = \tfrac12B\omega r_0^2$ | [12](#12-barra-que-gira) |
 
 **Fem de movimiento (misma ley vista desde la barra).** Cuando una barra se mueve **sola**, sin un circuito cerrado, no hay un "área" evidente. Ahí se usa que sobre cada carga de la barra actúa $q\,\vec v\times\vec B$, que hace el papel de un campo eléctrico $\vec v\times\vec B$. La fem es su integral de línea a lo largo de la barra:
 
 $$\mathcal E = \int_{\text{barra}}(\vec v\times\vec B)\cdot d\vec l$$
 
-El extremo hacia el que apunta $\vec v\times\vec B$ queda a **mayor potencial**. Da lo mismo que Faraday (por ejemplo, la barra que gira: $v = \omega r$ y $\displaystyle\int_0^{r_0}B\omega r\,dr = \tfrac12B\omega r_0^2$). Con el campo de un hilo, $B = \dfrac{\mu_0 I}{2\pi r}$, sale $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$ (tipo [12](#12-barra-que-se-mueve-junto-a-un-hilo)).
+El extremo hacia el que apunta $\vec v\times\vec B$ queda a **mayor potencial**. Da lo mismo que Faraday (por ejemplo, la barra que gira: $v = \omega r$ y $\displaystyle\int_0^{r_0}B\omega r\,dr = \tfrac12B\omega r_0^2$). Con el campo de un hilo, $B = \dfrac{\mu_0 I}{2\pi r}$, sale $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$ (tipo [11](#11-barra-que-se-mueve-junto-a-un-hilo)).
 
 **Inductancias: Faraday aplicado al propio circuito.** Si el flujo $N\Phi$ que atraviesa una bobina es proporcional a una corriente, la constante de proporcionalidad es una inductancia:
 
@@ -227,7 +227,7 @@ Y Faraday da directamente la fem autoinducida: $\mathcal E = -\dfrac{d(LI)}{dt} 
 
 $$U = \int_0^IL\,i\,di = \tfrac12LI^2$$
 
-Reemplazando $L$ y $B$ del solenoide: $\tfrac12\mu_0 n^2A\ell\,I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}A\ell = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$. La energía está repartida en el volumen con densidad $\dfrac{B^2}{2\mu_0}$ (tipo [7](#7-solenoide-campo-inductancia-energía-y-longitud)).
+Reemplazando $L$ y $B$ del solenoide: $\tfrac12\mu_0 n^2A\ell\,I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}A\ell = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$. La energía está repartida en el volumen con densidad $\dfrac{B^2}{2\mu_0}$ (tipo [14](#14-solenoide-campo-inductancia-energía-y-longitud)).
 
 ---
 
@@ -306,14 +306,14 @@ Con estos **10 atajos** se evitan todas las integrales que aparecen en los 10 pa
 
 | # | Atajo | Integral que ahorra | Tipos |
 |---|---|---|---|
-| 1 | **Tramo recto:** $B = \dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$. Casos particulares: hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, semi-infinito con P frente a su extremo $\dfrac{\mu_0 I}{4\pi d}$, P sobre la prolongación $0$ | Biot-Savart en una recta ([0.5, caso A](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo), [2](#2-fuerza-entre-hilos), [3](#3-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga), [4](#4-espiras-campo-en-el-centro), [5](#5-hilo-doblado-biot-savart-por-tramos), [10](#10-espira-junto-a-un-hilo-flujo-con-integral), [12](#12-barra-que-se-mueve-junto-a-un-hilo) |
-| 2 | **Arco centrado en P:** $B = \dfrac{\mu_0 I\theta}{4\pi R}$. Espira circular $\dfrac{\mu_0 I}{2R}$, semicircunferencia $\dfrac{\mu_0 I}{4R}$ | Biot-Savart en un arco ([0.5, caso B](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [4](#4-espiras-campo-en-el-centro), [5](#5-hilo-doblado-biot-savart-por-tramos) |
-| 3 | **Anillo en su eje:** $B = \dfrac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$ | Biot-Savart con simetría ([0.5, caso C](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [3](#3-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga) |
-| 4 | **Solenoide:** $B = \mu_0 nI$ | circulación de Ampère ([0.6](#06-ley-2-ampère-atajo-cuando-hay-simetría)) | [7](#7-solenoide-campo-inductancia-energía-y-longitud), [8](#8-autoinductancia-e-inductancia-mutua-de-solenoides) |
-| 5 | **Hilo y logaritmo:** flujo en una espira $\Phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$; barra junto al hilo $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$ | flujo o fem con un campo no uniforme ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [10](#10-espira-junto-a-un-hilo-flujo-con-integral), [12](#12-barra-que-se-mueve-junto-a-un-hilo) |
-| 6 | **Barra que gira:** $\mathcal E = \tfrac12B\omega r_0^2$ | $\int(\vec v\times\vec B)\cdot d\vec l$ con $v = \omega r$ ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [13](#13-barra-que-gira) |
-| 7 | **Energía magnética:** $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$ | $\int L\,i\,di$ ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [7](#7-solenoide-campo-inductancia-energía-y-longitud) |
-| 8 | **Energía de un capacitor:** $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$; la fuente entrega $QV$, así que se disipa la mitad | $\int v\,dq$ ([0.9](#09-ley-5-capacitores)) | [14](#14-capacitores-con-llaves-energía-disipada) |
+| 1 | **Tramo recto:** $B = \dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$. Casos particulares: hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, semi-infinito con P frente a su extremo $\dfrac{\mu_0 I}{4\pi d}$, P sobre la prolongación $0$ | Biot-Savart en una recta ([0.5, caso A](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [2](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo), [3](#3-fuerza-entre-hilos), [4](#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga), [5](#5-espiras-campo-en-el-centro), [6](#6-hilo-doblado-biot-savart-por-tramos), [9](#9-espira-junto-a-un-hilo-flujo-con-integral), [11](#11-barra-que-se-mueve-junto-a-un-hilo) |
+| 2 | **Arco centrado en P:** $B = \dfrac{\mu_0 I\theta}{4\pi R}$. Espira circular $\dfrac{\mu_0 I}{2R}$, semicircunferencia $\dfrac{\mu_0 I}{4R}$ | Biot-Savart en un arco ([0.5, caso B](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [5](#5-espiras-campo-en-el-centro), [6](#6-hilo-doblado-biot-savart-por-tramos) |
+| 3 | **Anillo en su eje:** $B = \dfrac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$ | Biot-Savart con simetría ([0.5, caso C](#05-ley-1-biot-savart-campo-de-cualquier-cable)) | [4](#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga) |
+| 4 | **Solenoide:** $B = \mu_0 nI$ | circulación de Ampère ([0.6](#06-ley-2-ampère-atajo-cuando-hay-simetría)) | [13](#13-autoinductancia-e-inductancia-mutua-de-solenoides), [14](#14-solenoide-campo-inductancia-energía-y-longitud) |
+| 5 | **Hilo y logaritmo:** flujo en una espira $\Phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$; barra junto al hilo $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$ | flujo o fem con un campo no uniforme ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [9](#9-espira-junto-a-un-hilo-flujo-con-integral), [11](#11-barra-que-se-mueve-junto-a-un-hilo) |
+| 6 | **Barra que gira:** $\mathcal E = \tfrac12B\omega r_0^2$ | $\int(\vec v\times\vec B)\cdot d\vec l$ con $v = \omega r$ ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [12](#12-barra-que-gira) |
+| 7 | **Energía magnética:** $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$ | $\int L\,i\,di$ ([0.8](#08-ley-4-faraday-toda-la-inducción-sale-de-acá)) | [14](#14-solenoide-campo-inductancia-energía-y-longitud) |
+| 8 | **Energía de un capacitor:** $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$; la fuente entrega $QV$, así que se disipa la mitad | $\int v\,dq$ ([0.9](#09-ley-5-capacitores)) | [1](#1-capacitores-con-llaves-energía-disipada) |
 | 9 | **Eficaces y potencia:** $V_{EF} = \dfrac{V_0}{\sqrt2}$, $\ P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$ | promedios en un período ([0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)) | [15](#15-rlc-serie-a-partir-de-mediciones) a [18](#18-diagrama-de-fasores-identificar-los-elementos) |
 | 10 | **Capacitor cilíndrico:** $C = \dfrac{2\pi\varepsilon_0\ell}{\ln(b/a)}$ | Gauss y $\int E\,dr$ ([0.9](#09-ley-5-capacitores)) | [16](#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) (apareció una sola vez) |
 
@@ -341,9 +341,54 @@ Los imprescindibles son el **1**, el **2** y el **4**: entre los tres aparecen e
 
 ---
 
-# Magnetostática
+# Unidad 4. Capacitores
 
-## 1. Hilos paralelos: campo en un punto y punto de campo nulo
+## 1. Capacitores con llaves: energía disipada
+
+**Cómo reconocerlo.** Circuito con fuente, capacitores y dos llaves que se abren y cierran en orden. Piden cargas finales y energía disipada "en las resistencias" (las de los cables).
+
+**De dónde sale.** [Ley 5, capacitores](#09-ley-5-capacitores): $U = \int v\,dq$ y conservación de la carga.
+
+**Receta.**
+
+1. **Etapa de carga** (fuente conectada a $C_1$): $Q_0 = C_1V$. Se disipa $E_1 = \tfrac12C_1V^2$ (la mitad de lo que entrega la fuente, ver [0.9](#09-ley-5-capacitores)).
+2. **Etapa de reparto** (fuente desconectada, $C_1$ cargado se conecta en paralelo con capacitores descargados): la carga **se conserva** y todos terminan a la misma tensión:
+
+$$V_f = \frac{Q_0}{C_1 + C_{\text{resto}}} \qquad Q_i = C_iV_f$$
+
+3. Energía disipada en el reparto: $E_2 = U_{\text{antes}} - U_{\text{después}}$.
+4. Total: $E_1 + E_2$.
+
+### Ejemplo — 1er Recuperatorio 12/12/2024, Ej. 1
+
+> En el circuito de la figura, inicialmente los capacitores se hallan descargados y las llaves se encuentran abiertas. Se cierra la llave 1 y, transcurrido un tiempo muy largo, se abre la llave 1 y a continuación se cierra la llave 2. Calcular la energía disipada en las resistencias en la evolución completa del sistema. **Datos:** V=60 V; C₁=20 μF; C₂=30 μF.
+
+![Figura](img/2024-12-12-ej1.png)
+
+**Deducción de las energías.**
+
+- *Energía guardada* (atajo: $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$). Para llevar una carga $dq$ de una placa a la otra cuando la tensión es $v = q/C$ hace falta $v\,dq$. Integrando de 0 a $Q$:
+
+$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+
+- *Energía que entrega la fuente* (atajo: $QV$, el doble de lo guardado). La fuente mantiene su tensión $V$ **fija** mientras pasa toda la carga, así que $W = \displaystyle\int_0^QV\,dq = QV = CV^2$. La diferencia $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$ se disipa en las resistencias, valgan lo que valgan.
+- *Reparto.* Con la fuente desconectada, la carga de C₁ no tiene a dónde ir más que a C₂: se conserva. Al final C₁ y C₂ quedan conectados entre sí, en paralelo, con la misma tensión $V_f$, así que $Q_0 = C_1V_f + C_2V_f$. Lo que falta de energía se disipó en el camino.
+
+**Carga.** $Q_0 = 20\ \mu\text{F}\cdot60\ \text{V} = 1200\ \mu$C. Energía en C₁: $U_0 = \tfrac12\cdot20\times10^{-6}\cdot3600 = 36$ mJ. La fuente entregó $Q_0V = 72$ mJ, así que se disiparon $E_1 = 36$ mJ.
+
+**Reparto.**
+
+$$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \tfrac12\cdot50\times10^{-6}\cdot24^2\ \text{J} = 14{,}4\ \text{mJ} \qquad E_2 = 36 - 14{,}4 = 21{,}6\ \text{mJ}$$
+
+**Total.** $E = 36 + 21{,}6 = 57{,}6$ mJ. (Cargas finales: $Q_1 = 480\ \mu$C, $Q_2 = 720\ \mu$C.)
+
+**Variantes.** [2º Parcial 28/11/2024, Ej. 1](2024-11-28-2do-parcial.md#ejercicio-1): igual, pero en la etapa de reparto C₁ se conecta con $C_2\parallel C_3$ (se suman: 80 μF).
+
+---
+
+# Unidad 5. Magnetostática
+
+## 2. Hilos paralelos: campo en un punto y punto de campo nulo
 
 **Cómo reconocerlo.** Dos hilos "muy largos" paralelos; piden el campo en un punto, dónde se anula, o una corriente desconocida a partir de un punto de campo nulo.
 
@@ -394,7 +439,7 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 
 ---
 
-## 2. Fuerza entre hilos
+## 3. Fuerza entre hilos
 
 **Cómo reconocerlo.** "Los hilos se atraen/repelen con una fuerza por unidad de longitud de…".
 
@@ -404,7 +449,7 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 
 1. Atracción → corrientes **paralelas**; repulsión → antiparalelas.
 2. $\dfrac{F}{\ell} = \dfrac{\mu_0 I_1 I_2}{2\pi D}$ → despejar la corriente que falte.
-3. Con los sentidos ya conocidos, seguir como en el [tipo 1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo).
+3. Con los sentidos ya conocidos, seguir como en el [tipo 2](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo).
 
 *Por qué se atraen:* el hilo 1 genera $B_1$ en el hilo 2, y sobre el hilo 2 actúa $I_2\vec\ell\times\vec B_1$. Haciendo la cuenta con corrientes del mismo sentido, la fuerza apunta hacia el hilo 1.
 
@@ -416,7 +461,7 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 
 En la figura P está a la derecha del hilo 2, a $H = D/5$ de él (o sea a $6D/5$ del hilo 1).
 
-**Deducción de la fuerza entre hilos** (atajo: $\dfrac F\ell = \dfrac{\mu_0 I_1I_2}{2\pi D}$, paralelas se atraen). Hilo 1 sobre el eje $y$ con $I_1$ hacia arriba, hilo 2 en $x = D$. El campo del hilo 1 en el hilo 2 sale de Ampère ([tipo 1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)): $\vec B_1 = -\dfrac{\mu_0 I_1}{2\pi D}\hat z$ (entrante, a la derecha del hilo). Es el mismo en todo el hilo 2, así que integrar $d\vec F = I_2\,d\vec l\times\vec B_1$ sobre un largo $\ell$ con $I_2$ hacia arriba da
+**Deducción de la fuerza entre hilos** (atajo: $\dfrac F\ell = \dfrac{\mu_0 I_1I_2}{2\pi D}$, paralelas se atraen). Hilo 1 sobre el eje $y$ con $I_1$ hacia arriba, hilo 2 en $x = D$. El campo del hilo 1 en el hilo 2 sale de Ampère ([tipo 2](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)): $\vec B_1 = -\dfrac{\mu_0 I_1}{2\pi D}\hat z$ (entrante, a la derecha del hilo). Es el mismo en todo el hilo 2, así que integrar $d\vec F = I_2\,d\vec l\times\vec B_1$ sobre un largo $\ell$ con $I_2$ hacia arriba da
 
 $$\vec F = I_2\ell\,\hat y\times\left(-\frac{\mu_0 I_1}{2\pi D}\hat z\right) = -\frac{\mu_0 I_1I_2\ell}{2\pi D}\,\hat x$$
 
@@ -426,7 +471,7 @@ Apunta hacia el hilo 1: corrientes del mismo sentido se **atraen**. Si $I_2$ baj
 
 $$\frac{\mu_0 I\,I_2}{2\pi D} = \frac{4\mu_0 I^2}{3\pi D} \quad\Rightarrow\quad I_2 = \frac83 I$$
 
-P está a la derecha de ambos hilos y las dos corrientes suben: los dos campos son **entrantes** y se suman. Cada uno es el de un hilo infinito, $\dfrac{\mu_0 I}{2\pi d}$ (deducido con Ampère en el [tipo 1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)):
+P está a la derecha de ambos hilos y las dos corrientes suben: los dos campos son **entrantes** y se suman. Cada uno es el de un hilo infinito, $\dfrac{\mu_0 I}{2\pi d}$ (deducido con Ampère en el [tipo 2](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)):
 
 $$B_P = \frac{\mu_0 I}{2\pi(6D/5)} + \frac{\mu_0(8I/3)}{2\pi(D/5)} = \frac{\mu_0 I}{2\pi D}\left(\frac56 + \frac{40}{3}\right) = \frac{85\,\mu_0 I}{12\pi D}\ \text{entrante}$$
 
@@ -438,7 +483,7 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 
 ---
 
-## 3. Campo en 3D (anillo + hilo) y fuerza sobre una carga
+## 4. Campo en 3D (anillo + hilo) y fuerza sobre una carga
 
 **Cómo reconocerlo.** Aparece un anillo con un punto sobre su **eje**, a veces combinado con un hilo; y una carga que pasa por ese punto.
 
@@ -467,7 +512,7 @@ $$B = \frac{\mu_0 I}{4\pi r^2}\cdot\frac Rr\cdot2\pi R = \frac{\mu_0 IR^2}{2r^3}
 
 $$B_a = \frac{4\pi\times10^{-7}\cdot2\cdot0{,}08^2}{2\,(0{,}08^2 + 0{,}10^2)^{3/2}}\ \text{T} = \frac{1{,}608\times10^{-8}}{2\cdot0{,}0021}\ \text{T} = 3{,}83\ \mu\text{T}$$
 
-*Hilo* (está en $z_2$, a $d = 8$ cm por encima del punto). Módulo $\dfrac{\mu_0 I}{2\pi d}$, de la circulación de Ampère sobre una circunferencia de radio $d$ ($B\cdot2\pi d = \mu_0 I$, ver [tipo 1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)). Dirección: la de $d\vec l\times\hat r$ de Biot-Savart, con $d\vec l\parallel\hat\imath$ y, del hilo al punto, $\hat u = -\hat k$. Queda $\hat\imath\times(-\hat k) = \hat\jmath$:
+*Hilo* (está en $z_2$, a $d = 8$ cm por encima del punto). Módulo $\dfrac{\mu_0 I}{2\pi d}$, de la circulación de Ampère sobre una circunferencia de radio $d$ ($B\cdot2\pi d = \mu_0 I$, ver [tipo 2](#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)). Dirección: la de $d\vec l\times\hat r$ de Biot-Savart, con $d\vec l\parallel\hat\imath$ y, del hilo al punto, $\hat u = -\hat k$. Queda $\hat\imath\times(-\hat k) = \hat\jmath$:
 
 $$B_h = \frac{2\times10^{-7}\cdot2}{0{,}08}\ \text{T} = 5\ \mu\text{T}$$
 
@@ -481,7 +526,7 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10
 
 ---
 
-## 4. Espiras: campo en el centro
+## 5. Espiras: campo en el centro
 
 **Cómo reconocerlo.** Espira circular, cuadrada o rectangular; piden B en el centro o un tamaño para que los campos de dos espiras cumplan una relación.
 
@@ -532,7 +577,7 @@ $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \fr
 
 ---
 
-## 5. Hilo doblado: Biot-Savart por tramos
+## 6. Hilo doblado: Biot-Savart por tramos
 
 **Cómo reconocerlo.** Un dibujo con un único cable que tiene tramos rectos (a veces semi-infinitos) y arcos, y un punto P.
 
@@ -592,7 +637,7 @@ $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 
 ---
 
-## 6. Movimiento de una carga en un campo magnético
+## 7. Movimiento de una carga en un campo magnético
 
 **Cómo reconocerlo.** Una partícula entra a una región con $\vec B$; piden radio, paso de hélice o velocidad.
 
@@ -630,84 +675,9 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 
 ---
 
-## 7. Solenoide: campo, inductancia, energía y longitud
+# Unidad 6. Inducción
 
-**Cómo reconocerlo.** "Solenoide muy largo" con datos de L, B, I y radio; piden energía o longitud.
-
-**De dónde sale.** [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría) para $B$, [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) para $L$ y la energía como integral de la potencia.
-
-**Receta.** Hay tres ecuaciones y se combinan según los datos:
-
-$$B = \mu_0 nI \qquad L = \mu_0 n^2\pi R^2\ell \qquad U = \tfrac12LI^2 = \frac{B^2}{2\mu_0}\pi R^2\ell$$
-
-La de $L$ sale de la definición: $N\phi = (n\ell)(\mu_0 nI)(\pi R^2)$ y $L = N\phi/I$. La última dice que la energía está repartida en el volumen interior con densidad $B^2/2\mu_0$.
-
-### Ejemplo — 2º Parcial 28/11/2024, Ej. 3
-
-> Un solenoide muy largo de radio R=0,8 cm y autoinducción L=2 x 10⁻⁵ H transporta una corriente I=18 A. Sabiendo que el módulo del campo magnético en su interior es B=5 x 10⁻⁴ T, determinar la longitud del solenoide.
-
-**Deducción de las tres ecuaciones.**
-
-- *Campo* (atajo: $B = \mu_0 nI$). Ampère sobre un rectángulo con un lado de largo $\ell'$ adentro del solenoide, paralelo al eje, y el lado opuesto afuera. Afuera $B\approx0$; en los lados perpendiculares al eje $\vec B\perp d\vec l$. Solo aporta el lado de adentro. El rectángulo encierra $n\ell'$ vueltas, cada una con corriente $I$:
-
-$$\oint\vec B\cdot d\vec l = B\ell' = \mu_0 n\ell' I \quad\Rightarrow\quad B = \mu_0 nI$$
-
-- *Inductancia* (atajo: $L = \mu_0 n^2\pi R^2\ell$). Por definición $N\Phi = LI$. Cada una de las $N = n\ell$ vueltas tiene flujo $B\pi R^2$:
-
-$$L = \frac{N\Phi}{I} = \frac{n\ell\cdot\mu_0 nI\cdot\pi R^2}{I} = \mu_0 n^2\pi R^2\ell$$
-
-- *Energía* (atajo: $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot$volumen). Mientras la corriente crece de 0 a $I$, la fuente tiene que vencer la fem autoinducida $L\,di/dt$ (Faraday). La potencia es $L\,i\,\dfrac{di}{dt}$ y su integral en el tiempo es
-
-$$U = \int L\,i\,\frac{di}{dt}\,dt = \int_0^IL\,i\,di = \tfrac12LI^2$$
-
-Reemplazando $L$ y $B$: $\tfrac12\mu_0 n^2\pi R^2\ell\,I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}\pi R^2\ell = \dfrac{B^2}{2\mu_0}\pi R^2\ell$.
-
-La forma más directa es igualar las dos expresiones de la energía:
-
-$$\tfrac12LI^2 = \frac{B^2}{2\mu_0}\pi R^2\ell \quad\Rightarrow\quad \ell = \frac{\mu_0 LI^2}{B^2\pi R^2} = \frac{4\pi\times10^{-7}\cdot2\times10^{-5}\cdot18^2}{(5\times10^{-4})^2\cdot\pi\cdot0{,}008^2}\ \text{m} = 162\ \text{m}$$
-
-Verificación por el otro camino: $n = B/(\mu_0 I) = 22{,}1$ m⁻¹ y $\ell = L/(\mu_0 n^2\pi R^2) = 162$ m ✓.
-
-**Variantes.** [Simulacro, Ej. 3](simulacro-2do-parcial.md#ejercicio-3): es el mismo ejercicio con otros números, y además piden la energía $\tfrac12LI^2$.
-
----
-
-## 8. Autoinductancia e inductancia mutua de solenoides
-
-**Cómo reconocerlo.** Piden "coeficiente de autoinducción", "inductancia mutua" o "fem autoinducida" de una bobina con radio, longitud y número de vueltas.
-
-**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): $N\Phi = LI$ y $N_2\Phi_2 = MI_1$, con el $B$ del solenoide de [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría).
-
-**Receta.**
-
-1. Justificar: si la longitud es mucho mayor que el radio, vale el campo del solenoide infinito.
-2. $L = \mu_0\dfrac{N^2}{\ell}\pi R^2$.
-3. Dos solenoides coaxiales de igual longitud: el campo del **exterior** es uniforme en todo su interior y atraviesa la sección del **interior**. Entonces $M = \dfrac{\mu_0 N_1N_2\pi R_{\text{menor}}^2}{\ell}$ (siempre con el radio menor).
-4. Fem autoinducida: $\mathcal E = -L\dfrac{dI}{dt}$.
-
-### Ejemplo — 1er Recuperatorio 09/12/2021, Ej. 2
-
-> Un solenoide de radio 2 cm y longitud 60 cm tiene arrolladas 3000 vueltas de alambre. **a)** Determine el coeficiente de autoinducción del solenoide. Justifique la fórmula utilizada. **b)** Se dispone al solenoide de forma coaxial con otro solenoide de la misma longitud, radio 3 cm y 2000 vueltas de alambre. ¿Cuál es la inductancia mutua? Justifique la fórmula utilizada.
-
-**a)** *Justificación del campo* (atajo: $B = \mu_0\dfrac N\ell I$). 60 cm ≫ 2 cm, así que se trata como solenoide infinito: adentro el campo es uniforme y paralelo al eje, y afuera es despreciable. Ampère sobre un rectángulo con un lado de largo $\ell'$ adentro y el opuesto afuera: solo aporta el lado de adentro y se encierran $\dfrac N\ell\ell'$ vueltas, así que $B\ell' = \mu_0\dfrac N\ell\ell' I$ y $B = \mu_0\dfrac N\ell I$.
-
-*Justificación de L.* Por definición $N\phi = LI$, con $\phi = B\cdot\pi R^2$ el flujo por cada vuelta:
-
-$$L = \mu_0\frac{N^2}{\ell}\pi R^2 = 4\pi\times10^{-7}\cdot\frac{3000^2}{0{,}6}\cdot\pi\cdot0{,}02^2\ \text{H} = 23{,}7\ \text{mH}$$
-
-**b)** *Justificación de M.* Por definición $N_1\phi_{1\leftarrow2} = MI_2$: el flujo que la corriente del solenoide 2 produce a través de las vueltas del 1. El solenoide de 3 cm es el exterior. Su campo $B_2 = \mu_0 N_2I_2/\ell$ (mismo Ampère que en a) es uniforme dentro de él, así que atraviesa las $N_1$ vueltas del interior, de área $\pi R_1^2$. (Al revés, el campo del interior solo existe dentro de $R_1$, así que por las vueltas del exterior también pasa solo a través de $\pi R_1^2$: por eso siempre va el radio menor.) Entonces:
-
-$$M = \frac{N_1B_2\pi R_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi R_1^2}{\ell} = \frac{4\pi\times10^{-7}\cdot3000\cdot2000\cdot\pi\cdot0{,}02^2}{0{,}6}\ \text{H} = 15{,}8\ \text{mH}$$
-
-**Variantes.** [2º Recuperatorio 18/02/2022, Ej. 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4): bobina con $I(t) = 3\mathrm{sen}\,(200t)$. Se calcula L igual ($45{,}7$ mH). La fem sale de Faraday aplicado a la propia bobina: $\mathcal E = -\dfrac{d(N\phi)}{dt} = -\dfrac{d(LI)}{dt}$, y con L constante
-
-$$\mathcal E(t) = -L\frac{dI}{dt} = -0{,}0457\cdot3\cdot200\cos(200t)\ \text{V} = -27{,}4\cos(200t)\ \text{V}$$
-
----
-
-# Inducción
-
-## 9. Bobina en un campo que varía con el tiempo
+## 8. Bobina en un campo que varía con el tiempo
 
 **Cómo reconocerlo.** $B(t)$ dado como función; bobina quieta con N vueltas.
 
@@ -743,7 +713,7 @@ Restando dos veces la primera a la segunda: $24b = -41{,}48$, así que $b = -1{,
 
 ---
 
-## 10. Espira junto a un hilo: flujo con integral
+## 9. Espira junto a un hilo: flujo con integral
 
 **Cómo reconocerlo.** Espira rectangular en el mismo plano que un hilo infinito; la corriente del hilo varía o la espira se mueve.
 
@@ -787,7 +757,7 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 
 ---
 
-## 11. Barra sobre rieles
+## 10. Barra sobre rieles
 
 **Cómo reconocerlo.** Una barra que desliza sobre dos rieles conductores unidos por resistencias, en un campo perpendicular al plano.
 
@@ -834,7 +804,7 @@ Con $x = vt = 40$ m: $\mathcal E = 0{,}5\cdot40\cdot0{,}24\cdot20 = 96$ V e $I =
 
 ---
 
-## 12. Barra que se mueve junto a un hilo
+## 11. Barra que se mueve junto a un hilo
 
 **Cómo reconocerlo.** Barra perpendicular a un hilo infinito, moviéndose **paralela** al hilo. No hay circuito cerrado: piden diferencia de potencial entre los extremos.
 
@@ -866,7 +836,7 @@ Polaridad: hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\
 
 ---
 
-## 13. Barra que gira
+## 12. Barra que gira
 
 **Cómo reconocerlo.** Barra que rota con velocidad angular ω en un campo uniforme perpendicular.
 
@@ -900,52 +870,82 @@ P (el más cercano al eje) está a mayor potencial.
 
 ---
 
-# Capacitores
+## 13. Autoinductancia e inductancia mutua de solenoides
 
-## 14. Capacitores con llaves: energía disipada
+**Cómo reconocerlo.** Piden "coeficiente de autoinducción", "inductancia mutua" o "fem autoinducida" de una bobina con radio, longitud y número de vueltas.
 
-**Cómo reconocerlo.** Circuito con fuente, capacitores y dos llaves que se abren y cierran en orden. Piden cargas finales y energía disipada "en las resistencias" (las de los cables).
-
-**De dónde sale.** [Ley 5, capacitores](#09-ley-5-capacitores): $U = \int v\,dq$ y conservación de la carga.
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): $N\Phi = LI$ y $N_2\Phi_2 = MI_1$, con el $B$ del solenoide de [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría).
 
 **Receta.**
 
-1. **Etapa de carga** (fuente conectada a $C_1$): $Q_0 = C_1V$. Se disipa $E_1 = \tfrac12C_1V^2$ (la mitad de lo que entrega la fuente, ver [0.9](#09-ley-5-capacitores)).
-2. **Etapa de reparto** (fuente desconectada, $C_1$ cargado se conecta en paralelo con capacitores descargados): la carga **se conserva** y todos terminan a la misma tensión:
+1. Justificar: si la longitud es mucho mayor que el radio, vale el campo del solenoide infinito.
+2. $L = \mu_0\dfrac{N^2}{\ell}\pi R^2$.
+3. Dos solenoides coaxiales de igual longitud: el campo del **exterior** es uniforme en todo su interior y atraviesa la sección del **interior**. Entonces $M = \dfrac{\mu_0 N_1N_2\pi R_{\text{menor}}^2}{\ell}$ (siempre con el radio menor).
+4. Fem autoinducida: $\mathcal E = -L\dfrac{dI}{dt}$.
 
-$$V_f = \frac{Q_0}{C_1 + C_{\text{resto}}} \qquad Q_i = C_iV_f$$
+### Ejemplo — 1er Recuperatorio 09/12/2021, Ej. 2
 
-3. Energía disipada en el reparto: $E_2 = U_{\text{antes}} - U_{\text{después}}$.
-4. Total: $E_1 + E_2$.
+> Un solenoide de radio 2 cm y longitud 60 cm tiene arrolladas 3000 vueltas de alambre. **a)** Determine el coeficiente de autoinducción del solenoide. Justifique la fórmula utilizada. **b)** Se dispone al solenoide de forma coaxial con otro solenoide de la misma longitud, radio 3 cm y 2000 vueltas de alambre. ¿Cuál es la inductancia mutua? Justifique la fórmula utilizada.
 
-### Ejemplo — 1er Recuperatorio 12/12/2024, Ej. 1
+**a)** *Justificación del campo* (atajo: $B = \mu_0\dfrac N\ell I$). 60 cm ≫ 2 cm, así que se trata como solenoide infinito: adentro el campo es uniforme y paralelo al eje, y afuera es despreciable. Ampère sobre un rectángulo con un lado de largo $\ell'$ adentro y el opuesto afuera: solo aporta el lado de adentro y se encierran $\dfrac N\ell\ell'$ vueltas, así que $B\ell' = \mu_0\dfrac N\ell\ell' I$ y $B = \mu_0\dfrac N\ell I$.
 
-> En el circuito de la figura, inicialmente los capacitores se hallan descargados y las llaves se encuentran abiertas. Se cierra la llave 1 y, transcurrido un tiempo muy largo, se abre la llave 1 y a continuación se cierra la llave 2. Calcular la energía disipada en las resistencias en la evolución completa del sistema. **Datos:** V=60 V; C₁=20 μF; C₂=30 μF.
+*Justificación de L.* Por definición $N\phi = LI$, con $\phi = B\cdot\pi R^2$ el flujo por cada vuelta:
 
-![Figura](img/2024-12-12-ej1.png)
+$$L = \mu_0\frac{N^2}{\ell}\pi R^2 = 4\pi\times10^{-7}\cdot\frac{3000^2}{0{,}6}\cdot\pi\cdot0{,}02^2\ \text{H} = 23{,}7\ \text{mH}$$
 
-**Deducción de las energías.**
+**b)** *Justificación de M.* Por definición $N_1\phi_{1\leftarrow2} = MI_2$: el flujo que la corriente del solenoide 2 produce a través de las vueltas del 1. El solenoide de 3 cm es el exterior. Su campo $B_2 = \mu_0 N_2I_2/\ell$ (mismo Ampère que en a) es uniforme dentro de él, así que atraviesa las $N_1$ vueltas del interior, de área $\pi R_1^2$. (Al revés, el campo del interior solo existe dentro de $R_1$, así que por las vueltas del exterior también pasa solo a través de $\pi R_1^2$: por eso siempre va el radio menor.) Entonces:
 
-- *Energía guardada* (atajo: $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$). Para llevar una carga $dq$ de una placa a la otra cuando la tensión es $v = q/C$ hace falta $v\,dq$. Integrando de 0 a $Q$:
+$$M = \frac{N_1B_2\pi R_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi R_1^2}{\ell} = \frac{4\pi\times10^{-7}\cdot3000\cdot2000\cdot\pi\cdot0{,}02^2}{0{,}6}\ \text{H} = 15{,}8\ \text{mH}$$
 
-$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+**Variantes.** [2º Recuperatorio 18/02/2022, Ej. 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4): bobina con $I(t) = 3\mathrm{sen}\,(200t)$. Se calcula L igual ($45{,}7$ mH). La fem sale de Faraday aplicado a la propia bobina: $\mathcal E = -\dfrac{d(N\phi)}{dt} = -\dfrac{d(LI)}{dt}$, y con L constante
 
-- *Energía que entrega la fuente* (atajo: $QV$, el doble de lo guardado). La fuente mantiene su tensión $V$ **fija** mientras pasa toda la carga, así que $W = \displaystyle\int_0^QV\,dq = QV = CV^2$. La diferencia $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$ se disipa en las resistencias, valgan lo que valgan.
-- *Reparto.* Con la fuente desconectada, la carga de C₁ no tiene a dónde ir más que a C₂: se conserva. Al final C₁ y C₂ quedan conectados entre sí, en paralelo, con la misma tensión $V_f$, así que $Q_0 = C_1V_f + C_2V_f$. Lo que falta de energía se disipó en el camino.
-
-**Carga.** $Q_0 = 20\ \mu\text{F}\cdot60\ \text{V} = 1200\ \mu$C. Energía en C₁: $U_0 = \tfrac12\cdot20\times10^{-6}\cdot3600 = 36$ mJ. La fuente entregó $Q_0V = 72$ mJ, así que se disiparon $E_1 = 36$ mJ.
-
-**Reparto.**
-
-$$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \tfrac12\cdot50\times10^{-6}\cdot24^2\ \text{J} = 14{,}4\ \text{mJ} \qquad E_2 = 36 - 14{,}4 = 21{,}6\ \text{mJ}$$
-
-**Total.** $E = 36 + 21{,}6 = 57{,}6$ mJ. (Cargas finales: $Q_1 = 480\ \mu$C, $Q_2 = 720\ \mu$C.)
-
-**Variantes.** [2º Parcial 28/11/2024, Ej. 1](2024-11-28-2do-parcial.md#ejercicio-1): igual, pero en la etapa de reparto C₁ se conecta con $C_2\parallel C_3$ (se suman: 80 μF).
+$$\mathcal E(t) = -L\frac{dI}{dt} = -0{,}0457\cdot3\cdot200\cos(200t)\ \text{V} = -27{,}4\cos(200t)\ \text{V}$$
 
 ---
 
-# Corriente alterna
+## 14. Solenoide: campo, inductancia, energía y longitud
+
+**Cómo reconocerlo.** "Solenoide muy largo" con datos de L, B, I y radio; piden energía o longitud.
+
+**De dónde sale.** [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría) para $B$, [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) para $L$ y la energía como integral de la potencia.
+
+**Receta.** Hay tres ecuaciones y se combinan según los datos:
+
+$$B = \mu_0 nI \qquad L = \mu_0 n^2\pi R^2\ell \qquad U = \tfrac12LI^2 = \frac{B^2}{2\mu_0}\pi R^2\ell$$
+
+La de $L$ sale de la definición: $N\phi = (n\ell)(\mu_0 nI)(\pi R^2)$ y $L = N\phi/I$. La última dice que la energía está repartida en el volumen interior con densidad $B^2/2\mu_0$.
+
+### Ejemplo — 2º Parcial 28/11/2024, Ej. 3
+
+> Un solenoide muy largo de radio R=0,8 cm y autoinducción L=2 x 10⁻⁵ H transporta una corriente I=18 A. Sabiendo que el módulo del campo magnético en su interior es B=5 x 10⁻⁴ T, determinar la longitud del solenoide.
+
+**Deducción de las tres ecuaciones.**
+
+- *Campo* (atajo: $B = \mu_0 nI$). Ampère sobre un rectángulo con un lado de largo $\ell'$ adentro del solenoide, paralelo al eje, y el lado opuesto afuera. Afuera $B\approx0$; en los lados perpendiculares al eje $\vec B\perp d\vec l$. Solo aporta el lado de adentro. El rectángulo encierra $n\ell'$ vueltas, cada una con corriente $I$:
+
+$$\oint\vec B\cdot d\vec l = B\ell' = \mu_0 n\ell' I \quad\Rightarrow\quad B = \mu_0 nI$$
+
+- *Inductancia* (atajo: $L = \mu_0 n^2\pi R^2\ell$). Por definición $N\Phi = LI$. Cada una de las $N = n\ell$ vueltas tiene flujo $B\pi R^2$:
+
+$$L = \frac{N\Phi}{I} = \frac{n\ell\cdot\mu_0 nI\cdot\pi R^2}{I} = \mu_0 n^2\pi R^2\ell$$
+
+- *Energía* (atajo: $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot$volumen). Mientras la corriente crece de 0 a $I$, la fuente tiene que vencer la fem autoinducida $L\,di/dt$ (Faraday). La potencia es $L\,i\,\dfrac{di}{dt}$ y su integral en el tiempo es
+
+$$U = \int L\,i\,\frac{di}{dt}\,dt = \int_0^IL\,i\,di = \tfrac12LI^2$$
+
+Reemplazando $L$ y $B$: $\tfrac12\mu_0 n^2\pi R^2\ell\,I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}\pi R^2\ell = \dfrac{B^2}{2\mu_0}\pi R^2\ell$.
+
+La forma más directa es igualar las dos expresiones de la energía:
+
+$$\tfrac12LI^2 = \frac{B^2}{2\mu_0}\pi R^2\ell \quad\Rightarrow\quad \ell = \frac{\mu_0 LI^2}{B^2\pi R^2} = \frac{4\pi\times10^{-7}\cdot2\times10^{-5}\cdot18^2}{(5\times10^{-4})^2\cdot\pi\cdot0{,}008^2}\ \text{m} = 162\ \text{m}$$
+
+Verificación por el otro camino: $n = B/(\mu_0 I) = 22{,}1$ m⁻¹ y $\ell = L/(\mu_0 n^2\pi R^2) = 162$ m ✓.
+
+**Variantes.** [Simulacro, Ej. 3](simulacro-2do-parcial.md#ejercicio-3): es el mismo ejercicio con otros números, y además piden la energía $\tfrac12LI^2$.
+
+---
+
+# Unidad 7. Corriente alterna
 
 Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja) y anotar qué dato es eficaz y cuál es de pico.
 
@@ -1147,17 +1147,17 @@ Cada ejercicio de los 10 exámenes, con el tipo de esta guía que lo resuelve. E
 
 | Examen | Ej. 1 | Ej. 2 | Ej. 3 | Ej. 4 | Ej. 5 |
 |---|---|---|---|---|---|
-| [Simulacro](simulacro-2do-parcial.md) | 2 + 1 | **9** | 7 | 4 | **17** |
-| [20/11/2015](2015-11-20-2do-parcial.md) | 4 | 5 | **13** | 15 | — |
-| [03/12/2020](2020-12-03-2do-parcial.md) | 1 | 4 | **11** | 5 | **15** |
-| [19/02/2021](2021-02-19-2do-recuperatorio-2do-parcial.md) | 5 | **3** | **10** | 17 | **19** |
-| [25/11/2021](2021-11-25-2do-parcial.md) | 1 + 10 | **4** | **6** | **16** | — |
-| [09/12/2021](2021-12-09-1er-recuperatorio-2do-parcial.md) | **1** | **8** | 3 | 15 + 17 | — |
-| [18/02/2022](2022-02-18-2do-recuperatorio-2do-parcial.md) | 4 | 6 | 12 | 8 | 16 |
-| [28/11/2024](2024-11-28-2do-parcial.md) | 14 | 1 | **7** | 17 | — |
-| [12/12/2024](2024-12-12-1er-recuperatorio-2do-parcial.md) | **14** | **5** | 16 | **12** | — |
-| [27/11/2025](2025-11-27-2do-parcial-tema-2.md) | 5 | **2** | 11 | **18** | — |
+| [Simulacro](simulacro-2do-parcial.md) | 3 + 2 | **8** | 14 | 5 | **17** |
+| [20/11/2015](2015-11-20-2do-parcial.md) | 5 | 6 | **12** | 15 | — |
+| [03/12/2020](2020-12-03-2do-parcial.md) | 2 | 5 | **10** | 6 | **15** |
+| [19/02/2021](2021-02-19-2do-recuperatorio-2do-parcial.md) | 6 | **4** | **9** | 17 | **19** |
+| [25/11/2021](2021-11-25-2do-parcial.md) | 2 + 9 | **5** | **7** | **16** | — |
+| [09/12/2021](2021-12-09-1er-recuperatorio-2do-parcial.md) | **2** | **13** | 4 | 15 + 17 | — |
+| [18/02/2022](2022-02-18-2do-recuperatorio-2do-parcial.md) | 5 | 7 | 11 | 13 | 16 |
+| [28/11/2024](2024-11-28-2do-parcial.md) | 1 | 2 | **14** | 17 | — |
+| [12/12/2024](2024-12-12-1er-recuperatorio-2do-parcial.md) | **1** | **6** | 16 | **11** | — |
+| [27/11/2025](2025-11-27-2do-parcial-tema-2.md) | 6 | **3** | 10 | **18** | — |
 
-**Lo que más se repite** (aparece en casi todos los exámenes): un ejercicio de hilos o espiras (tipos 1-5), uno de inducción (9-13) y uno de RLC serie (15-17). Desde 2024 se suma uno de capacitores con llaves (14).
+**Lo que más se repite** (aparece en casi todos los exámenes): un ejercicio de hilos o espiras (tipos 2-6), uno de inducción (8-12) y uno de RLC serie (15-17). Desde 2024 se suma uno de capacitores con llaves (1).
 
 Volver al [índice de parciales](README.md).
