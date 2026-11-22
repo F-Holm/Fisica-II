@@ -302,7 +302,7 @@ $\cos\varphi$ se llama **factor de potencia**.
 
 ### 0.11 Atajos para el día del parcial
 
-Con estos **10 atajos** se evitan todas las integrales que aparecen en los 10 parciales. Cada uno está deducido en la sección de su ley y en el ejemplo del tipo correspondiente. La lista completa de fórmulas y constantes, sin deducciones, está en el [formulario](formulario.md).
+Con estos **10 atajos** se evitan todas las integrales que aparecen en los 10 parciales. Cada uno está deducido en la sección de su ley y en el ejemplo del tipo correspondiente. Las leyes, estos atajos y las constantes, sin deducciones, están juntos en el [formulario](formulario.md).
 
 | # | Atajo | Integral que ahorra | Tipos |
 |---|---|---|---|
