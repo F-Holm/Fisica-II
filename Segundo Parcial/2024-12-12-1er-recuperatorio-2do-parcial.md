@@ -96,7 +96,7 @@ $$\vec B_P = \left[\frac{\mu_0I(\pi + \alpha)}{4\pi R} - \frac{\mu_0I(1 - \cos\a
 
 </details>
 
-**Respuesta:** $\vec B_P \approx 8{,}5\ \mu$T, entrante a la hoja (arco: 9,16 μT entrante; tramo de salida: 0,67 μT saliente; tramo de entrada: 0)
+**Respuesta:** $\vec B_P \approx 8{,}5\ \mu\text{T}$, entrante a la hoja (arco: 9,16 μT entrante; tramo de salida: 0,67 μT saliente; tramo de entrada: 0)
 
 </details>
 
@@ -167,6 +167,6 @@ $$\mathcal E = 2\times10^{-7}\cdot3\cdot20\cdot\ln3\ \text{V} = 1{,}2\times10^{-
 
 </details>
 
-**Respuesta:** $|\Delta V| = \dfrac{\mu_0Iv}{2\pi}\ln\dfrac{d + l}{d} \approx 13{,}2\ \mu$V; el extremo más alejado del hilo está a mayor potencial
+**Respuesta:** $|\Delta V| = \dfrac{\mu_0Iv}{2\pi}\ln\dfrac{d + l}{d} \approx 13{,}2\ \mu\text{V}$; el extremo más alejado del hilo está a mayor potencial
 
 </details>

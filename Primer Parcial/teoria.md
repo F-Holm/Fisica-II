@@ -159,7 +159,7 @@ $$\oint\vec E\cdot d\vec S = \frac{Q_{enc}}{\varepsilon_0}$$
 1. **Simetría:** decir hacia dónde apunta $\vec E$ (radial) y de qué depende su módulo (solo de $r$).
 2. **Superficie gaussiana** con esa simetría: una esfera de radio $r$, o un cilindro coaxial de radio $r$ y largo $\ell$. En el cilindro, las tapas no aportan flujo porque $\vec E$ es paralelo a ellas.
 3. **Flujo:** $E\cdot4\pi r^2$ (esfera) o $E\cdot2\pi r\ell$ (cilindro).
-4. **Carga encerrada:** si ρ es uniforme, $\rho\cdot$volumen. Si $\rho(r)$, **integrar en cascarones**: $Q_{enc} = \int_0^r\rho(r')\,dV'$ con $dV' = 4\pi r'^2dr'$ (esfera) o $2\pi r'\ell\,dr'$ (cilindro). Para $r$ fuera de la distribución, la integral llega solo hasta $R$.
+4. **Carga encerrada:** si ρ es uniforme, $\rho\cdot\text{volumen}$. Si $\rho(r)$, **integrar en cascarones**: $Q_{enc} = \int_0^r\rho(r')\,dV'$ con $dV' = 4\pi r'^2dr'$ (esfera) o $2\pi r'\ell\,dr'$ (cilindro). Para $r$ fuera de la distribución, la integral llega solo hasta $R$.
 5. Despejar E, una vez **adentro** ($r < R$) y otra **afuera** ($r > R$).
 
 ### Resultados

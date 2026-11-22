@@ -405,7 +405,7 @@ Si $A$ y $C$ están sobre la misma línea de campo, separados $d_1$, y $C$ y $B$
 
 ### Disco con $\sigma = 850\ \mu\text{C/m}^2$, $R = 7$ cm
 
-Con la fórmula del potencial del disco: $V(12\text{ cm}) = 9{,}1\times10^5$ V y $V(19\text{ cm}) = 6\times10^5$ V. El trabajo del campo sobre $q = 9\ \mu$C es $W_c = -q\,\Delta V = 2{,}8$ J.
+Con la fórmula del potencial del disco: $V(12\text{ cm}) = 9{,}1\times10^5$ V y $V(19\text{ cm}) = 6\times10^5$ V. El trabajo del campo sobre $q = 9\ \mu\text{C}$ es $W_c = -q\,\Delta V = 2{,}8$ J.
 
 ### Esfera conductora dentro de un casquete conductor
 

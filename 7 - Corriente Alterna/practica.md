@@ -79,7 +79,7 @@ $$L = \frac{1}{(628{,}3)^2\cdot7{,}35\times10^{-6}}\ \text{H} = 0{,}345\ \text{H
 **Respuesta:**
 
 - a) $Z = \mathcal E_{ef}/i_{ef} = 500\ \Omega$
-- b) $R = Z\cos\phi = 250\ \Omega$; $|X_C| = Z\mathrm{sen}\,\phi = 433\ \Omega \Rightarrow C = 7{,}35\ \mu$F
+- b) $R = Z\cos\phi = 250\ \Omega$; $|X_C| = Z\mathrm{sen}\,\phi = 433\ \Omega \Rightarrow C = 7{,}35\ \mu\text{F}$
 - c) $V_{ef,R} = 50$ V
 - d) $V_{ef,C} = (100^2 - 50^2)^{1/2}$ V $= 86{,}6$ V
 - e) $L = 345$ mH
@@ -122,7 +122,7 @@ $$C = \frac{1}{(2\omega)^2L} = \frac{1}{(628{,}3)^2\cdot1{,}378}\ \text{F} = 1{,
 **Respuesta:**
 
 - (a) no cambia; (b) el valor de $|X|$ no cambia, y $|X_L| = Z\mathrm{sen}\,\phi = 433\ \Omega \Rightarrow L = 1{,}38$ H
-- (c) no cambia; (d) no cambia; (e) $C = 1{,}83\ \mu$F; (f) no cambia
+- (c) no cambia; (d) no cambia; (e) $C = 1{,}83\ \mu\text{F}$; (f) no cambia
 - g) Diagramas de la guía:
 
 ![Fasores del ejercicio 2](img/ej-02-respuesta.png)
@@ -203,7 +203,7 @@ $$C = \frac{1}{314{,}16\cdot34{,}6}\ \text{F} = 92\ \mu\text{F}$$
 
 </details>
 
-**Respuesta:** $R = 20\ \Omega$; $C = 92\ \mu$F
+**Respuesta:** $R = 20\ \Omega$; $C = 92\ \mu\text{F}$
 
 </details>
 
@@ -286,11 +286,11 @@ $$X = 600\cdot0{,}7536\ \Omega = 452\ \Omega \qquad L = \frac{452}{314{,}16\cdot
 
 $$C = \frac{1}{(2\pi\cdot40)^2\cdot4{,}0}\ \text{F} = 3{,}96\ \mu\text{F}$$
 
-> La guía da $L \approx 0{,}84$ H y $C \approx 18{,}8\ \mu$F. Ese par cumple la condición de resonancia a 40 Hz, pero con él $X = 0{,}84\cdot113{,}1 = 95\ \Omega$ y $\tan\phi = 95/600$, es decir $\phi = 9°$ en lugar de 37°. Con los datos del enunciado ($R = 600\ \Omega$ y $\phi = 37°$) se obtiene $L = 4$ H y $C = 3{,}96\ \mu$F.
+> La guía da $L \approx 0{,}84$ H y $C \approx 18{,}8\ \mu\text{F}$. Ese par cumple la condición de resonancia a 40 Hz, pero con él $X = 0{,}84\cdot113{,}1 = 95\ \Omega$ y $\tan\phi = 95/600$, es decir $\phi = 9°$ en lugar de 37°. Con los datos del enunciado ($R = 600\ \Omega$ y $\phi = 37°$) se obtiene $L = 4$ H y $C = 3{,}96\ \mu\text{F}$.
 
 </details>
 
-**Respuesta:** a) $R = 600\ \Omega$; b) $L \approx 4{,}0$ H y $C \approx 3{,}96\ \mu$F (la guía: $L \approx 0{,}84$ H, $C \approx 18{,}8\ \mu$F; ver nota)
+**Respuesta:** a) $R = 600\ \Omega$; b) $L \approx 4{,}0$ H y $C \approx 3{,}96\ \mu\text{F}$ (la guía: $L \approx 0{,}84$ H, $C \approx 18{,}8\ \mu\text{F}$; ver nota)
 
 </details>
 
@@ -306,7 +306,7 @@ b) el valor de la frecuencia *f<sub>0</sub>* que debería tener el generador par
 
 ![Figura del ejercicio 7](img/ej-07.png)
 
-> ⚠️ En el PDF de la guía los rótulos de la figura están superpuestos ("200V; 60 Hz", "150 V; 400 Hz", "R₂ μF"). Los resultados de la guía se reproducen con: **generador de 150 V eficaces**, $C = 25\ \mu$F, $L = 0{,}1$ H y $\omega = 800$ s⁻¹ ($f \approx 127$ Hz). Se resuelve con esos datos.
+> ⚠️ En el PDF de la guía los rótulos de la figura están superpuestos ("200V; 60 Hz", "150 V; 400 Hz", "R₂ μF"). Los resultados de la guía se reproducen con: **generador de 150 V eficaces**, $C = 25\ \mu\text{F}$, $L = 0{,}1$ H y $\omega = 800$ s⁻¹ ($f \approx 127$ Hz). Se resuelve con esos datos.
 
 <details>
 <summary><b>Solución</b></summary>
@@ -501,7 +501,7 @@ $$L = \frac{R\tan\phi}{\omega(1 - 0{,}64)} \qquad C = \frac{1}{\omega_R^2L}$$
 
 $$X = 43\cdot0{,}593 = 25{,}5\ \Omega \qquad L = \frac{25{,}5}{113{,}1}\ \text{H} = 0{,}226\ \text{H} \qquad C = \frac{1}{(251{,}3)^2\cdot0{,}226}\ \text{F} = 70\ \mu\text{F}$$
 
-(La guía, redondeando $\phi = 30^\circ$, da $L = 222$ mH y $C = 72\ \mu$F.)
+(La guía, redondeando $\phi = 30^\circ$, da $L = 222$ mH y $C = 72\ \mu\text{F}$.)
 
 **Paso 5 — Tensión y corriente (ítem c).** $Z = R/\cos\phi = 50\ \Omega$, $\mathcal E_0 = Zi_0 = 100$ V. Tomando la tensión con fase 0, la corriente atrasa 30°:
 
@@ -522,7 +522,7 @@ $$S = \tfrac12\mathcal E_0i_0 = 100\ \text{VA} \qquad Q = S\mathrm{sen}\,\phi = 
 **Respuesta:**
 
 - a) El circuito es inductivo porque la frecuencia de resonancia está por debajo de la de trabajo. Luego, la tensión adelanta a la corriente.
-- b) $R = 43\ \Omega$; $L = 222$ mH; $C = 72\ \mu$F
+- b) $R = 43\ \Omega$; $L = 222$ mH; $C = 72\ \mu\text{F}$
 - c) $\mathcal E(t) = 100\mathrm{sen}\,(2\pi50t)$ V; $i(t) = 2\mathrm{sen}\,(2\pi50t - \pi/6)$ A
 - d) $V_R = 86\mathrm{sen}\,(2\pi50t - \pi/3)$ V (la guía; con la corriente atrasada 30° corresponde −π/6); $V_C = 88{,}4\mathrm{sen}\,(2\pi50t - 120^\circ)$ V; $V_L = 139{,}4\mathrm{sen}\,(2\pi50t + 60^\circ)$ V
 - e), f), g) Diagramas de la guía ($\mathcal E = \sqrt{86^2 + 51^2} = 100$ V):

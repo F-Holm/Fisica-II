@@ -54,7 +54,7 @@ $$Q = P\,t = 1875{,}6\ \text{cal} = m\,c\,\Delta T \quad\Rightarrow\quad \Delta 
 
 </details>
 
-**Respuesta:** a) $Q = 187{,}5\ \mu$C; b) $R = 3\ \Omega$; c) $\Delta T = 37{,}5\ ^\circ$C
+**Respuesta:** a) $Q = 187{,}5\ \mu\text{C}$; b) $R = 3\ \Omega$; c) $\Delta T = 37{,}5\ ^\circ\text{C}$
 
 </details>
 
@@ -114,7 +114,7 @@ Dos soluciones: $\lambda_2 = 2\lambda_1$ o $\lambda_2 = 0$.
 
 </details>
 
-**Respuesta:** $\lambda_2 = 14\ \mu$C/m o $\lambda_2 = 0$
+**Respuesta:** $\lambda_2 = 14\ \mu\text{C}$/m o $\lambda_2 = 0$
 
 </details>
 

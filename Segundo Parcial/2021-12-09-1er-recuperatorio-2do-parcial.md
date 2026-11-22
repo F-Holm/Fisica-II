@@ -36,7 +36,7 @@ $$F = qvB = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2
 
 </details>
 
-**Respuesta:** a) $I_2 = 5$ A (sentido opuesto a I₁); b) $|\vec B| = 30\ \mu$T; c) $|\vec F| = 7{,}2\ \mu$N
+**Respuesta:** a) $I_2 = 5$ A (sentido opuesto a I₁); b) $|\vec B| = 30\ \mu\text{T}$; c) $|\vec F| = 7{,}2\ \mu\text{N}$
 
 </details>
 
@@ -98,7 +98,7 @@ $$B = \frac{\mu_0IR^2}{2[R^2 + (3D)^2]^{3/2}} = \frac{9{,}048\times10^{-10}}{2\c
 
 </details>
 
-**Respuesta:** $D = 10$ cm y $|\vec B(3D)| = 0{,}0158\ \mu$T
+**Respuesta:** $D = 10$ cm y $|\vec B(3D)| = 0{,}0158\ \mu\text{T}$
 
 </details>
 
@@ -136,6 +136,6 @@ Con $C'$ el circuito pasa a ser capacitivo, pero con el mismo factor de potencia
 
 </details>
 
-**Respuesta:** a) $L = 79{,}6$ mH, inductivo ($X_L = 40\ \Omega > X_C = 33{,}16\ \Omega$); R no surge de los datos del enunciado (la resolución usa $R = 10\ \Omega$); b) $\cos\phi = 0{,}825$, $f_R = 72{,}83$ Hz; c) sí: $C' = 42{,}5\ \mu$F
+**Respuesta:** a) $L = 79{,}6$ mH, inductivo ($X_L = 40\ \Omega > X_C = 33{,}16\ \Omega$); R no surge de los datos del enunciado (la resolución usa $R = 10\ \Omega$); b) $\cos\phi = 0{,}825$, $f_R = 72{,}83$ Hz; c) sí: $C' = 42{,}5\ \mu\text{F}$
 
 </details>

@@ -70,10 +70,10 @@ $$U_1 = 288 \quad U_2 = 192 \quad U_3 = 2520 \quad U_4 = 900 \quad U_5 = 3600 \q
 
 **Respuesta:**
 
-- a) $C_{eq} = 6\ \mu$F
-- b) $Q_1 = Q_2 = 48\ \mu$C; $Q_3 = 252\ \mu$C; $Q_4 = 60\ \mu$C; $Q_5 = 240\ \mu$C
+- a) $C_{eq} = 6\ \mu\text{F}$
+- b) $Q_1 = Q_2 = 48\ \mu\text{C}$; $Q_3 = 252\ \mu\text{C}$; $Q_4 = 60\ \mu\text{C}$; $Q_5 = 240\ \mu\text{C}$
 - c) $V_1 = 12$ V; $V_2 = 8$ V; $V_3 = 20$ V; $V_4 = V_5 = 30$ V
-- d) $U_1 = 288\ \mu$J; $U_2 = 192\ \mu$J; $U_3 = 2520\ \mu$J; $U_4 = 900\ \mu$J; $U_5 = 3600\ \mu$J; $U_T = U_1 + \dots + U_5 = C_{eq}V^2/2 = 7500\ \mu$J
+- d) $U_1 = 288\ \mu\text{J}$; $U_2 = 192\ \mu\text{J}$; $U_3 = 2520\ \mu\text{J}$; $U_4 = 900\ \mu\text{J}$; $U_5 = 3600\ \mu\text{J}$; $U_T = U_1 + \dots + U_5 = C_{eq}V^2/2 = 7500\ \mu\text{J}$
 
 </details>
 
@@ -247,7 +247,7 @@ La energía disminuye: la diferencia se disipa en los cables durante la redistri
 
 </details>
 
-**Respuesta:** a) $Q_3 = 10\ \mu$C; b) $U_0 = 200\ \mu$J y $U' = 166{,}67\ \mu$J
+**Respuesta:** a) $Q_3 = 10\ \mu\text{C}$; b) $U_0 = 200\ \mu\text{J}$ y $U' = 166{,}67\ \mu\text{J}$
 
 </details>
 
@@ -375,9 +375,9 @@ $$D_C = \frac{10^{-6}}{4\pi\cdot0{,}01}\ \tfrac{\text{C}}{\text{m}^2} = 7{,}96\ 
 
 **Respuesta:**
 
-- $\vec D_A = 88{,}5\ \mu$C/m² $\hat e_r$; $\vec E_A = 3{,}33\times10^6$ V/m $\hat e_r$
+- $\vec D_A = 88{,}5\ \mu\text{C}$/m² $\hat e_r$; $\vec E_A = 3{,}33\times10^6$ V/m $\hat e_r$
 - $\vec D_B = 0$; $\vec E_B = 0$
-- $\vec D_C = 7{,}96\ \mu$C/m² $\hat e_r$; $\vec E_C = 9\times10^5$ V/m $\hat e_r$
+- $\vec D_C = 7{,}96\ \mu\text{C}$/m² $\hat e_r$; $\vec E_C = 9\times10^5$ V/m $\hat e_r$
 
 </details>
 

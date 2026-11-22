@@ -112,16 +112,16 @@ $$\boxed{C_{eq} = \sum_iC_i}\quad(\text{paralelo, misma tensión})$$
 
 ## 7. Redistribución de carga entre capacitores
 
-**Ejemplo de clase:** $V = 18$ V, $C_1 = 6\ \mu$F, $C_2 = 9\ \mu$F, $C_3 = 12\ \mu$F. Se cierra $L_1$, se carga $C_1$; se abre $L_1$ y se cierra $L_2$, que conecta $C_1$ con la serie $C_2$–$C_3$.
+**Ejemplo de clase:** $V = 18$ V, $C_1 = 6\ \mu\text{F}$, $C_2 = 9\ \mu\text{F}$, $C_3 = 12\ \mu\text{F}$. Se cierra $L_1$, se carga $C_1$; se abre $L_1$ y se cierra $L_2$, que conecta $C_1$ con la serie $C_2$–$C_3$.
 
 ![Ejemplo con llaves](img/teoria-ejemplo-llaves.png)
 
-1. Con $L_1$ cerrada: $Q_1 = C_1V = 108\ \mu$C.
+1. Con $L_1$ cerrada: $Q_1 = C_1V = 108\ \mu\text{C}$.
 2. Al cerrar $L_2$ (batería afuera), se plantean tres ecuaciones:
    - $C_2$ y $C_3$ en serie: $Q_2' = Q_3'$.
    - **Conservación de la carga** (en la isla que forman las placas conectadas): $Q_1' + Q_2' = Q_1$.
    - **Ley de mallas:** $\dfrac{Q_1'}{C_1} - \dfrac{Q_2'}{C_2} - \dfrac{Q_3'}{C_3} = 0$.
-3. Resultado: $Q_1' = 58{,}15\ \mu$C, $Q_2' = Q_3' = 49{,}85\ \mu$C.
+3. Resultado: $Q_1' = 58{,}15\ \mu\text{C}$, $Q_2' = Q_3' = 49{,}85\ \mu\text{C}$.
 
 > **Método general:** (1) en cada isla, la carga total se conserva; (2) en cada malla sin batería, $\sum Q_i/C_i = 0$ con los signos de las placas; (3) los capacitores en serie tienen la misma carga.
 
@@ -173,7 +173,7 @@ Matemáticamente los valores estacionarios se alcanzan solo asintóticamente. Co
 **Ejemplo de clase:** batería de 18 V, 2 Ω en serie, luego 3 Ω en paralelo con (8 Ω + 6 μF).
 
 - Al cerrar: el capacitor es un cable, así que $3 \,/\!/\, 8 = 2{,}18\ \Omega$; $I = 18/4{,}18 = 4{,}3$ A y $P = 77{,}5$ W.
-- Tiempo largo: el capacitor es una llave abierta, así que $I = 18/5 = 3{,}6$ A; $V_C = V_{3\Omega} = 10{,}8$ V y $Q = 64{,}8\ \mu$C.
+- Tiempo largo: el capacitor es una llave abierta, así que $I = 18/5 = 3{,}6$ A; $V_C = V_{3\Omega} = 10{,}8$ V y $Q = 64{,}8\ \mu\text{C}$.
 
 ---
 

@@ -39,7 +39,7 @@ $$F = qvB = 40\times10^{-6}\cdot4\times10^5\cdot61{,}8\times10^{-6}\ \text{N} = 
 
 </details>
 
-**Respuesta:** a) $B = 61{,}8\ \mu$T; b) $F \approx 9{,}9\times10^{-4}$ N
+**Respuesta:** a) $B = 61{,}8\ \mu\text{T}$; b) $F \approx 9{,}9\times10^{-4}$ N
 
 </details>
 
@@ -103,7 +103,7 @@ $$V_2 - V_1 = 2\times10^{-7}\cdot10\cdot40\cdot\ln\!\left(\frac{39}{9}\right)\ \
 
 </details>
 
-**Respuesta:** $V_2 - V_1 = \dfrac{\mu_0Iv}{2\pi}\ln\!\left(1 + \dfrac\ell d\right) \approx 117\ \mu$V (el extremo 2 está a mayor potencial).
+**Respuesta:** $V_2 - V_1 = \dfrac{\mu_0Iv}{2\pi}\ln\!\left(1 + \dfrac\ell d\right) \approx 117\ \mu\text{V}$ (el extremo 2 está a mayor potencial).
 
 </details>
 
@@ -159,6 +159,6 @@ $$S = \frac{P}{\cos\phi} = \frac{70}{0{,}82}\ \text{VA} = 85{,}4\ \text{VA} \qqu
 
 </details>
 
-**Respuesta:** a) inductivo; b) $R = 35\ \Omega$, $L \approx 0{,}148$ H, $C \approx 84{,}5\ \mu$F; c) $S \approx 85{,}4$ VA, $Q \approx 48{,}9$ VAR
+**Respuesta:** a) inductivo; b) $R = 35\ \Omega$, $L \approx 0{,}148$ H, $C \approx 84{,}5\ \mu\text{F}$; c) $S \approx 85{,}4$ VA, $Q \approx 48{,}9$ VAR
 
 </details>

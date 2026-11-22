@@ -495,7 +495,7 @@ $$W = 10^{-6}\ \text{C}\cdot1{,}67\ \text{V} = 1{,}67\ \mu\text{J}$$
 
 - a) N = 2; b) N = 1
 - c) $i_{R1} = i_{R2} = i_{R3} = 667$ mA; $i_{R4} = i_{R5} = i_{R6} = 333$ mA
-- d) $W_{AB} = 1{,}67\ \mu$J
+- d) $W_{AB} = 1{,}67\ \mu\text{J}$
 
 </details>
 
@@ -556,7 +556,7 @@ $$\tau = RC \approx 40\times10^3\cdot3\times10^{-6}\ \text{s} = 0{,}12\ \text{s}
 
 </details>
 
-**Respuesta:** a) $V_2 = 7{,}5$ V; b) $P_{120} = 5{,}37$ W; c) $V_A - V_B = 9{,}5$ V; d) $Q_C = 28{,}5\ \mu$C; e) $t \sim 0{,}6$ s
+**Respuesta:** a) $V_2 = 7{,}5$ V; b) $P_{120} = 5{,}37$ W; c) $V_A - V_B = 9{,}5$ V; d) $Q_C = 28{,}5\ \mu\text{C}$; e) $t \sim 0{,}6$ s
 
 </details>
 
@@ -653,7 +653,7 @@ $$Q = \varepsilon_R C_0\,V_C = 20\cdot25\ \mu\text{F}\cdot50\ \text{V} = 25000\ 
 
 </details>
 
-**Respuesta:** $Q = 25000\ \mu$C
+**Respuesta:** $Q = 25000\ \mu\text{C}$
 
 </details>
 
@@ -704,7 +704,7 @@ $$Q = C\,V_C = 20\ \mu\text{F}\cdot5{,}75\ \text{V} = 115\ \mu\text{C}$$
 
 </details>
 
-**Respuesta:** a) $P_{R1} = 1{,}44$ W; b) $Q = 115\ \mu$C
+**Respuesta:** a) $P_{R1} = 1{,}44$ W; b) $Q = 115\ \mu\text{C}$
 
 </details>
 
@@ -789,11 +789,11 @@ $$i_2 = \frac{1}{15}\ \text{A} = 66{,}7\ \text{mA} \qquad i_1 = \frac{25 + 25\,i
 
 $$P_5 = 5\cdot\left(\tfrac{1}{15}\right)^2\ \text{W} = 22{,}2\ \text{mW}$$
 
-**Paso 6 — Energía en los capacitores (ítem c).** Los dos capacitores conectan el extremo derecho de la 40 Ω con la línea inferior: están **en paralelo**, $C = 5\ \mu$F. Por la 40 Ω no pasa corriente, así que ese extremo está al potencial de B. La línea inferior es el borne negativo de la pila de 10 V:
+**Paso 6 — Energía en los capacitores (ítem c).** Los dos capacitores conectan el extremo derecho de la 40 Ω con la línea inferior: están **en paralelo**, $C = 5\ \mu\text{F}$. Por la 40 Ω no pasa corriente, así que ese extremo está al potencial de B. La línea inferior es el borne negativo de la pila de 10 V:
 
 $$V_C = 10 - 13\,i_1 = 10 - 6{,}93 = 3{,}07\ \text{V} \qquad U = \tfrac12\,C\,V_C^2 = \tfrac12\cdot5\ \mu\text{F}\cdot3{,}07^2 = 23{,}5\ \mu\text{J}$$
 
-> La guía da $U = 27{,}9\ \mu$J, que corresponde a usar $|V_B - V_A| = 3{,}33$ V. Con la conexión de la figura (los capacitores van a la línea inferior, no al punto A) la tensión es 3,07 V.
+> La guía da $U = 27{,}9\ \mu\text{J}$, que corresponde a usar $|V_B - V_A| = 3{,}33$ V. Con la conexión de la figura (los capacitores van a la línea inferior, no al punto A) la tensión es 3,07 V.
 
 **Paso 7 — Tiempo (ítem d).** Los capacitores se cargan a través de la 40 Ω (más unos pocos ohms del resto): $\tau \approx 40\cdot5\times10^{-6} = 0{,}2$ ms, y $t \approx 5\tau \approx 1$ ms.
 
@@ -803,7 +803,7 @@ $$V_C = 10 - 13\,i_1 = 10 - 6{,}93 = 3{,}07\ \text{V} \qquad U = \tfrac12\,C\,V_
 
 - a) $i_{12} = i_{13} = 533$ mA (horaria); $i_{20} = i_5 = 66{,}7$ mA (horaria); $i_{25} = 466{,}3$ mA (de B hacia A)
 - b) $P_5 = 22{,}2$ mW (la guía escribe "mJ")
-- c) $U \approx 23{,}5\ \mu$J (la guía: 27,9 μJ; ver nota)
+- c) $U \approx 23{,}5\ \mu\text{J}$ (la guía: 27,9 μJ; ver nota)
 - d) $t \sim 1$ ms
 
 </details>

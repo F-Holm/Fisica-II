@@ -44,7 +44,7 @@ $$B = B_v - B_i = 0{,}72\ \mu\text{T}\quad(\text{entrante})$$
 
 </details>
 
-**Respuesta:** $\vec B(P) \approx 0{,}72\ \mu$T $(-\hat z)$, entrante a la hoja.
+**Respuesta:** $\vec B(P) \approx 0{,}72\ \mu\text{T}$ $(-\hat z)$, entrante a la hoja.
 
 </details>
 
@@ -84,7 +84,7 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -q\,v\,B_h\,\hat\imath = -6\tim
 
 </details>
 
-**Respuesta:** a) $\vec B = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu$T (el signo de cada componente depende de los sentidos de la figura); b) $|\vec F| = 1{,}5\ \mu$N, en la dirección del hilo ($-\hat\imath$ con los ejes elegidos).
+**Respuesta:** a) $\vec B = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu\text{T}$ (el signo de cada componente depende de los sentidos de la figura); b) $|\vec F| = 1{,}5\ \mu\text{N}$, en la dirección del hilo ($-\hat\imath$ con los ejes elegidos).
 
 </details>
 

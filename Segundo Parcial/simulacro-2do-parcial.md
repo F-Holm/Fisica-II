@@ -161,7 +161,7 @@ $$D = \frac{2\sqrt2\,\mu_0I_{cuad}}{3\pi B_c} = \frac{2\sqrt2\cdot4\pi\times10^{
 
 </details>
 
-**Respuesta:** a) $B = 75{,}4\ \mu$T, perpendicular al plano (saliente si la corriente circula en sentido antihorario); b) $D \approx 4{,}0$ cm
+**Respuesta:** a) $B = 75{,}4\ \mu\text{T}$, perpendicular al plano (saliente si la corriente circula en sentido antihorario); b) $D \approx 4{,}0$ cm
 
 </details>
 
@@ -200,6 +200,6 @@ $$C = \frac{1}{2\pi fX_C} \quad\Rightarrow\quad C_1 = \frac{1}{100\pi\cdot3{,}39
 
 </details>
 
-**Respuesta:** a) $L \approx 17{,}0$ mH ($R = 4\ \Omega$); b) $C_1 \approx 937\ \mu$F (queda inductivo) o $C_2 \approx 438\ \mu$F (queda capacitivo)
+**Respuesta:** a) $L \approx 17{,}0$ mH ($R = 4\ \Omega$); b) $C_1 \approx 937\ \mu\text{F}$ (queda inductivo) o $C_2 \approx 438\ \mu\text{F}$ (queda capacitivo)
 
 </details>

@@ -72,7 +72,7 @@ $$W = \frac{q\,\rho R^2}{36\varepsilon_0} = 5\times10^{-6}\cdot\frac{48\cdot0{,}
 
 </details>
 
-**Respuesta:** a) $E(2R) = 4$ V/m; b) $R = 37{,}5$ cm; c) $W = 2{,}5\ \mu$J
+**Respuesta:** a) $E(2R) = 4$ V/m; b) $R = 37{,}5$ cm; c) $W = 2{,}5\ \mu\text{J}$
 
 </details>
 
@@ -145,6 +145,6 @@ $$R'_3 = \frac{4{,}9653}{0{,}9} - 3{,}3414 = 2{,}1756\ \tfrac{^\circ\text{C}}{\t
 
 </details>
 
-**Respuesta:** a) $T = 58{,}18\ ^\circ$C; b) $k_3 = 380{,}67$ W/(m °C)
+**Respuesta:** a) $T = 58{,}18\ ^\circ\text{C}$; b) $k_3 = 380{,}67$ W/(m °C)
 
 </details>

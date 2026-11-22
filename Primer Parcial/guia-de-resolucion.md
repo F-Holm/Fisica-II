@@ -262,7 +262,7 @@ $$C_{der} = \frac{5\cdot3}{5 + 3}\ \mu\text{F} = 1{,}875\ \mu\text{F} \qquad V' 
 
 $$Q_{6} = Q_{9} = 3{,}6\cdot13{,}15\ \mu\text{C} = 47{,}4\ \mu\text{C} \qquad Q_{5} = Q_{3} = 1{,}875\cdot13{,}15\ \mu\text{C} = 24{,}6\ \mu\text{C}$$
 
-Verificación: $47{,}4 + 24{,}6 = 72\ \mu$C ✓.
+Verificación: $47{,}4 + 24{,}6 = 72\ \mu\text{C}$ ✓.
 
 ---
 
@@ -417,7 +417,7 @@ $$W = -q[V(4R) - V(3R)] = 5\times10^{-6}\cdot0{,}5\ \text{J} = 2{,}5\ \mu\text{J
 
 ![Figura](img/2021-08-19-ej4.png)
 
-Sea $\rho = \rho_0r$ con $\rho_0 = 90\ \mu$C/m⁴.
+Sea $\rho = \rho_0r$ con $\rho_0 = 90\ \mu\text{C}$/m⁴.
 
 **a) Adentro** ($r = 4$ cm $< R$):
 
