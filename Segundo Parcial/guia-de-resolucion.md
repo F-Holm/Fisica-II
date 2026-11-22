@@ -9,7 +9,7 @@ Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpe
 - **Ejemplo resuelto**: un ejercicio real de parcial, elegido como representante del tipo.
 - **Variantes**: los demás ejercicios del mismo tipo, con lo que cambia respecto del ejemplo.
 
-Primero conviene leer la [sección 0](#0-kit-mínimo-lo-que-am2-no-te-dio), que traduce la física a lenguaje de AM2. Después se puede ir directo al tipo que interese.
+Primero conviene leer la [sección 0](#0-kit-mínimo-lo-que-am2-no-te-dio). Ahí está la idea central de la guía: todo el 2º Parcial sale de [seis leyes](#04-las-seis-leyes-lo-único-que-hay-que-memorizar), y cada fórmula que se usa en los ejercicios se deduce de una de ellas con una integral o una derivada. Después se puede ir directo al tipo que interese.
 
 Volver al [índice de parciales](README.md).
 
@@ -17,7 +17,7 @@ Volver al [índice de parciales](README.md).
 
 ## Índice
 
-**[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: unidades, regla de la mano derecha, todas las fórmulas que se usan.
+**[0. Kit mínimo](#0-kit-mínimo-lo-que-am2-no-te-dio)**: unidades, regla de la mano derecha y las seis leyes de las que se deducen todas las fórmulas.
 
 **Magnetostática (campos y fuerzas que producen las corrientes)**
 
@@ -87,119 +87,216 @@ Casi todos los ejercicios piden **módulo, dirección y sentido**. El módulo sa
 
 Equivalente analítico: el campo de un elemento de corriente apunta según $d\vec l\times\hat r$, donde $\hat r$ va **del elemento al punto**.
 
-### 0.4 De dónde salen los campos (conexión con AM2)
+### 0.4 Las seis leyes (lo único que hay que memorizar)
 
-Hay dos herramientas para calcular $\vec B$:
+Las fórmulas del 2º Parcial no son 20 fórmulas independientes. Todas salen de **seis leyes**, cada una una integral o una derivada, más alguna simetría. Esta es la tabla para memorizar:
 
-**Ley de Biot-Savart** (una integral de línea vectorial sobre el cable):
+| # | Ley | Ecuación | Qué da |
+|---|---|---|---|
+| 1 | Biot-Savart | $d\vec B = \dfrac{\mu_0 I}{4\pi}\,\dfrac{d\vec l\times\hat r}{r^2}$ | el campo de **cualquier** cable (integral de línea) |
+| 2 | Ampère | $\displaystyle\oint\vec B\cdot d\vec l = \mu_0 I_{enc}$ | atajo para hilo infinito y solenoide |
+| 3 | Fuerza magnética | $d\vec F = I\,d\vec l\times\vec B$ (una carga: $\vec F = q\,\vec v\times\vec B$) | fuerza sobre cargas y cables |
+| 4 | Faraday | $\mathcal E = -\dfrac{d\Phi}{dt}$, con $\Phi = \displaystyle\iint\vec B\cdot d\vec A$ | toda la inducción, L, M y energía magnética |
+| 5 | Capacitor | $q = Cv$, energía $U = \displaystyle\int v\,dq$ | capacitores con llaves |
+| 6 | Elementos de un circuito | $v_R = Ri$, $\ v_L = L\dfrac{di}{dt}$, $\ v_C = \dfrac qC$ | toda la corriente alterna |
+
+En $d\vec l\times\hat r$, $d\vec l$ apunta en el sentido de la corriente y $\hat r$ es el versor que va **del elemento de cable al punto P**. Constante: $\mu_0 = 4\pi\times10^{-7}$ T m/A.
+
+Las secciones 0.5 a 0.10 deducen de estas seis todo lo que se usa en los ejercicios. Cada deducción es una integral de AM2 de pocas líneas. Al final de cada sección hay una tabla de lo que sale de esa ley. No hace falta memorizar esas tablas: sirven para **reconocer** el caso y saber cómo se deduce.
+
+**Atajos que conviene saber igual** (porque aparecen en casi todos los exámenes y la deducción, aunque corta, consume tiempo): hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, espira circular en el centro $\dfrac{\mu_0 I}{2R}$ y solenoide $\mu_0 nI$.
+
+---
+
+### 0.5 Ley 1: Biot-Savart (campo de cualquier cable)
 
 $$\vec B(P) = \frac{\mu_0 I}{4\pi}\int_{\text{cable}}\frac{d\vec l\times\hat r}{r^2}$$
 
-donde $r$ es la distancia del elemento $d\vec l$ al punto P. Se usa para cualquier forma de cable.
+Es una integral de línea vectorial sobre el cable. El **sentido** de cada aporte es el de $d\vec l\times\hat r$ (o la mano derecha, 0.3). Para el módulo, en todos los casos del parcial alcanza con tres integrales: tramo recto, arco centrado en P y anillo visto desde su eje.
 
-**Ley de Ampère** (una circulación, al estilo del teorema de Stokes):
+**Caso 0: P sobre la prolongación de un tramo recto.** Ahí $d\vec l\parallel\hat r$, así que $d\vec l\times\hat r = \vec0$:
 
-$$\oint_{\mathcal C}\vec B\cdot d\vec l = \mu_0 I_{\text{enc}}$$
+$$B = 0$$
 
-donde $I_{\text{enc}}$ es la corriente que atraviesa una superficie con borde $\mathcal C$. Solo sirve cuando hay mucha simetría (hilo infinito, solenoide).
+**Caso A: tramo recto.** Se pone el cable sobre el eje $x$, con el origen en el **pie de la perpendicular** trazada desde P (P queda a distancia $d$). Para el elemento en $x$: $\vec r = (-x,\ d)$, $r = \sqrt{x^2 + d^2}$ y
 
-**Ejemplo de cada una.**
+$$d\vec l\times\hat r = dx\,\hat x\times\frac{-x\hat x + d\hat y}{r} = \frac{d\,dx}{r}\,\hat z$$
 
-- *Hilo infinito con Ampère:* por simetría, $B$ es tangente a circunferencias centradas en el hilo y constante sobre ellas. Tomando $\mathcal C$ una circunferencia de radio $d$: $B\cdot2\pi d = \mu_0 I$, o sea $B = \dfrac{\mu_0 I}{2\pi d}$.
-- *Tramo recto finito con Biot-Savart:* el cable sobre el eje $x$, P a distancia $d$ del eje. Entonces $\lvert d\vec l\times\hat r\rvert = dx\,\dfrac{d}{\sqrt{x^2 + d^2}}$ y $r^2 = x^2 + d^2$:
+$$B = \frac{\mu_0 I}{4\pi}\int_{x_1}^{x_2}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2}$$
 
-$$B = \frac{\mu_0 I}{4\pi}\int_{x_1}^{x_2}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 I}{4\pi d}\left(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1\right)$$
+(La primitiva sale con $x = d\tan u$, o se verifica derivando.) El corchete evaluado en cada extremo es el seno del ángulo con que P ve ese extremo, medido desde la perpendicular, **con signo** (negativo si el extremo está del otro lado del pie). Hay que acordarse de la integral, no de los casos:
 
-Acá $x$ se mide desde el **pie de la perpendicular** trazada desde P al cable, y $\mathrm{sen}\,\beta_i = x_i/\sqrt{x_i^2 + d^2}$ (con signo: negativo si el extremo está "antes" del pie). Un extremo en el infinito tiene $\mathrm{sen}\,\beta = \pm1$.
-
-### 0.5 Formulario de campos
-
-Todas estas fórmulas salen de 0.4 y se pueden usar directamente en el parcial (salvo que pidan demostrarlas, como en 2015 ej. 2b).
-
-| Configuración | $B$ | Dirección |
+| Caso | Límites | Resultado |
 |---|---|---|
-| Hilo infinito, a distancia $d$ | $\dfrac{\mu_0 I}{2\pi d}$ | circunferencias alrededor del hilo |
-| Tramo recto finito, a distancia $d$ | $\dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$ | ídem |
-| Hilo semi-infinito, P frente al extremo (pie = extremo) | $\dfrac{\mu_0 I}{4\pi d}$ | ídem |
-| P sobre la prolongación de un tramo recto | $0$ | ($d\vec l\parallel\hat r$) |
-| Arco de radio $R$ y ángulo $\theta$ (rad), en el centro | $\dfrac{\mu_0 I\,\theta}{4\pi R}$ | perpendicular al plano |
-| Espira circular, en el centro ($\theta = 2\pi$) | $\dfrac{\mu_0 I}{2R}$ | perpendicular al plano |
-| Semicircunferencia, en el centro ($\theta = \pi$) | $\dfrac{\mu_0 I}{4R}$ | perpendicular al plano |
-| Anillo, sobre su eje a distancia $z$ del centro | $\dfrac{\mu_0 I R^2}{2(R^2 + z^2)^{3/2}}$ | a lo largo del eje |
-| Espira rectangular $a\times b$, en el centro | $\dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$ | perpendicular al plano |
-| Espira cuadrada de lado $D$, en el centro | $\dfrac{2\sqrt2\,\mu_0 I}{\pi D}$ | perpendicular al plano |
-| Solenoide largo ($N$ vueltas, longitud $\ell$), adentro | $\mu_0 nI$, con $n = N/\ell$ | a lo largo del eje; afuera $\approx 0$ |
+| Hilo infinito | $x_1 = -\infty$, $x_2 = +\infty$ (corchete: $1 - (-1)$) | $\dfrac{\mu_0 I}{2\pi d}$ |
+| Semi-infinito, P frente a su extremo | $x_1 = 0$, $x_2 = \infty$ (corchete: $1 - 0$) | $\dfrac{\mu_0 I}{4\pi d}$ |
+| Lado de una espira visto desde su mediatriz (largo $\ell$) | $\pm\ell/2$ | $\dfrac{\mu_0 I}{4\pi d}\cdot\dfrac{\ell}{\sqrt{(\ell/2)^2 + d^2}}$ |
+| Espira rectangular $a\times b$ en el centro | sumar los 4 lados ($d = b/2$ para los lados de largo $a$ y viceversa) | $\dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$ |
+| Espira cuadrada de lado $D$ | rectángulo con $a = b = D$ | $\dfrac{2\sqrt2\,\mu_0 I}{\pi D}$ |
 
-Los campos se **suman vectorialmente** (principio de superposición): se calcula el de cada cable por separado y después se suman, con signo.
+Cuenta del rectángulo: los dos lados de largo $a$ están a $b/2$ y cada uno da $\dfrac{\mu_0 I}{4\pi(b/2)}\cdot\dfrac{a}{\sqrt{a^2 + b^2}/2}$. Sumando los cuatro lados:
 
-### 0.6 Fuerzas magnéticas
+$$B = \frac{\mu_0 I}{\pi\sqrt{a^2 + b^2}}\left(\frac ab + \frac ba\right)\cdot 2 = \frac{2\mu_0 I}{\pi\sqrt{a^2 + b^2}}\cdot\frac{a^2 + b^2}{ab} = \frac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$$
 
-| Sobre | Fórmula | Comentario |
+**Caso B: arco de radio $R$ centrado en P.** Cada elemento está a distancia $R$ y es perpendicular al radio, así que $\lvert d\vec l\times\hat r\rvert = dl = R\,d\varphi$:
+
+$$B = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\,d\varphi}{R^2} = \frac{\mu_0 I\,\theta}{4\pi R}$$
+
+| Caso | $\theta$ | Resultado |
 |---|---|---|
-| Carga puntual $q$ con velocidad $\vec v$ | $\vec F = q\,\vec v\times\vec B$ | Si $\vec v\parallel\vec B$, $F = 0$. Si $\vec v\perp\vec B$, $F = \lvert q\rvert vB$. **Respetar el signo de $q$.** |
-| Tramo recto de cable $\vec\ell$ (sentido de $I$) | $\vec F = I\,\vec\ell\times\vec B$ | |
-| Entre dos hilos paralelos, por unidad de longitud | $\dfrac{F}{\ell} = \dfrac{\mu_0 I_1 I_2}{2\pi D}$ | Corrientes **paralelas se atraen**; antiparalelas se repelen. |
+| Espira circular en el centro | $2\pi$ | $\dfrac{\mu_0 I}{2R}$ |
+| Semicircunferencia | $\pi$ | $\dfrac{\mu_0 I}{4R}$ |
+| Cualquier arco | el que recorra (en radianes) | $\dfrac{\mu_0 I\,\theta}{4\pi R}$ |
 
-La fuerza magnética sobre una carga es siempre perpendicular a $\vec v$, así que **no hace trabajo** y no cambia el módulo de la velocidad.
+**Caso C: anillo de radio $R$, en un punto de su eje a distancia $z$.** Todos los elementos están a $r = \sqrt{R^2 + z^2}$ y son perpendiculares a $\vec r$, así que cada uno da $dB = \dfrac{\mu_0 I\,dl}{4\pi r^2}$. Por simetría, las componentes perpendiculares al eje se cancelan de a pares (elementos opuestos del anillo). Sobrevive la componente axial, que es $dB\cdot\dfrac Rr$:
 
-### 0.7 Inducción
+$$B = \frac{\mu_0 I}{4\pi r^2}\cdot\frac Rr\int dl = \frac{\mu_0 I}{4\pi r^3}R\cdot2\pi R = \frac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$$
 
-- **Flujo** (integral de superficie): $\phi = \iint_S\vec B\cdot\hat n\,dA$. Si $\vec B$ es uniforme y perpendicular a la superficie, $\phi = BA$. Si la bobina tiene $N$ vueltas, el flujo total es $N\phi$.
-- **Ley de Faraday:** cuando el flujo cambia, aparece una fem $\mathcal E = -\dfrac{d(N\phi)}{dt}$. Es la versión física de Stokes: $\oint\vec E\cdot d\vec l = -\dfrac{d}{dt}\iint\vec B\cdot d\vec A$.
-- **Ley de Lenz** (para el sentido): la corriente inducida circula de modo de **oponerse al cambio de flujo**. Si el flujo entrante aumenta, la corriente inducida genera campo saliente (antihoraria); si disminuye, genera campo entrante (horaria). En la práctica: se calcula el módulo con $\lvert d\phi/dt\rvert$ y el sentido con Lenz.
-- **Fem de movimiento** (un conductor que se mueve): $\mathcal E = \displaystyle\int(\vec v\times\vec B)\cdot d\vec l$, integral de línea a lo largo del conductor. Si todo es uniforme y perpendicular: $\mathcal E = B\ell v$. El extremo hacia el que apunta $\vec v\times\vec B$ queda a **mayor potencial** (ahí se acumulan las cargas positivas).
-- **Corriente inducida:** $I = \mathcal E/R$ (ley de Ohm).
-- **Autoinductancia:** $L = N\phi/I$ (flujo propio por unidad de corriente). Fem autoinducida $\mathcal E = -L\,dI/dt$. Energía $U = \tfrac12LI^2$, que también es $\iiint\dfrac{B^2}{2\mu_0}dV$.
-- **Inductancia mutua:** $M = N_2\phi_{2}/I_1$ (flujo en la bobina 2 por unidad de corriente en la 1).
+Control: con $z = 0$ da $\dfrac{\mu_0 I}{2R}$, igual que el caso B con $\theta = 2\pi$.
 
-### 0.8 Capacitores (repaso del 1er Parcial, solo lo que se usa)
+**Superposición.** Un cable con varias partes (tramos rectos y arcos) o varios cables: se calcula cada parte con su caso y se suman los vectores. Esto resuelve los tipos [1](#1-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) a [5](#5-hilo-doblado-biot-savart-por-tramos).
 
-- $Q = CV$; en paralelo las capacidades se suman; energía $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$.
-- Una fuente de tensión $V$ que carga un capacitor entrega $QV = CV^2$, pero el capacitor guarda $\tfrac12CV^2$: **la otra mitad se disipa** en las resistencias (sin importar cuánto valgan).
-- Un capacitor aislado conserva su carga.
-- Capacitor cilíndrico (radios $a<b$, longitud $\ell$): $C = \dfrac{2\pi\varepsilon_0\ell}{\ln(b/a)}$.
+---
 
-### 0.9 Corriente alterna
+### 0.6 Ley 2: Ampère (atajo cuando hay simetría)
 
-El generador produce $v(t) = V_0\mathrm{sen}\,(\omega t)$ con $\omega = 2\pi f$. En un circuito RLC serie la corriente es $i(t) = I_0\mathrm{sen}\,(\omega t - \varphi)$: misma frecuencia, otra amplitud y un desfasaje $\varphi$.
+$$\oint_{\mathcal C}\vec B\cdot d\vec l = \mu_0 I_{enc}$$
 
-**Valores eficaces.** Los amperímetros y voltímetros miden **eficaces**: $V_{EF} = V_0/\sqrt2$, $I_{EF} = I_0/\sqrt2$. Si el enunciado dice "de pico" o "máximo", es la amplitud $V_0$ o $I_0$.
+Es una circulación, como en el teorema de Stokes: $I_{enc}$ es la corriente que atraviesa cualquier superficie con borde $\mathcal C$. Solo permite **despejar** $B$ si se elige una curva donde $\vec B$ sea tangente y de módulo constante (o perpendicular, o nulo).
 
-**Cada elemento** se comporta como una "resistencia" que depende de la frecuencia (reactancia):
+| Caso | Curva $\mathcal C$ | Cuenta | Resultado |
+|---|---|---|---|
+| Hilo infinito | circunferencia de radio $d$ centrada en el hilo | $B\cdot2\pi d = \mu_0 I$ | $B = \dfrac{\mu_0 I}{2\pi d}$ |
+| Solenoide largo ($n = N/\ell$ vueltas por metro) | rectángulo con un lado de largo $\ell'$ adentro, paralelo al eje, y el opuesto afuera | adentro aporta $B\ell'$; afuera $B \approx 0$; los lados perpendiculares no aportan. Encierra $n\ell'$ vueltas: $B\ell' = \mu_0 n\ell' I$ | $B = \mu_0 nI$ (uniforme) |
 
-| Elemento | Reactancia | Desfasaje de la tensión respecto de la corriente |
+El hilo infinito también sale de Biot-Savart (caso A con límites infinitos). Que dos caminos den lo mismo sirve de control.
+
+---
+
+### 0.7 Ley 3: fuerza magnética
+
+$$d\vec F = I\,d\vec l\times\vec B \qquad (\text{para una carga puntual: } \vec F = q\,\vec v\times\vec B)$$
+
+Es la misma ley: una corriente es carga en movimiento ($I\,d\vec l = dq\,\vec v$).
+
+| Caso | Cómo sale | Resultado |
 |---|---|---|
-| Resistencia | $R$ | 0 (en fase) |
-| Bobina | $X_L = \omega L$ | adelanta 90° |
-| Capacitor | $X_C = \dfrac{1}{\omega C}$ | atrasa 90° |
+| Carga puntual | directo; si $\vec v\parallel\vec B$ da 0, si $\vec v\perp\vec B$ da $\lvert q\rvert vB$ | $\vec F = q\,\vec v\times\vec B$ (**con el signo de $q$**) |
+| Tramo recto en campo uniforme | integrar $d\vec l$ a lo largo del tramo | $\vec F = I\,\vec\ell\times\vec B$ |
+| Entre dos hilos paralelos | el hilo 2 está en el campo del 1 (Ampère): $F = I_2\ell\cdot\dfrac{\mu_0 I_1}{2\pi D}$ | $\dfrac{F}{\ell} = \dfrac{\mu_0 I_1I_2}{2\pi D}$; paralelas se atraen |
+| Carga con $\vec v\perp\vec B$ uniforme | la fuerza es centrípeta: $\lvert q\rvert vB = \dfrac{mv^2}{r}$ | $r = \dfrac{mv}{\lvert q\rvert B}$, período $T = \dfrac{2\pi r}{v} = \dfrac{2\pi m}{\lvert q\rvert B}$ |
+| Carga con $\vec v$ oblicua | la componente paralela a $\vec B$ no siente fuerza; la perpendicular gira | hélice de paso $p = v_\parallel T$ |
+| Trabajo de la fuerza magnética | $dW = \vec F\cdot\vec v\,dt = (q\,\vec v\times\vec B)\cdot\vec v\,dt = 0$ | **nunca** cambia el módulo de la velocidad |
 
-**Fasores (números complejos).** Se trabaja como si $v = V_0e^{j\omega t}$. Entonces el circuito serie cumple $V = ZI$ con impedancia compleja $Z = R + j(X_L - X_C)$. De ahí sale todo:
+---
 
-$$Z = \lvert Z\rvert = \sqrt{R^2 + (X_L - X_C)^2} \qquad \tan\varphi = \frac{X_L - X_C}{R} \qquad \cos\varphi = \frac RZ \qquad V_{EF} = ZI_{EF}$$
+### 0.8 Ley 4: Faraday (toda la inducción sale de acá)
+
+$$\mathcal E = -\frac{d\Phi}{dt} \qquad \Phi = \iint_S\vec B\cdot d\vec A$$
+
+El flujo es una integral de superficie sobre cualquier superficie con borde en el circuito. Si el circuito tiene $N$ vueltas, el flujo total es $N$ veces el de una. El **sentido** de la corriente inducida lo da la **ley de Lenz**: se opone al cambio de flujo (si el flujo entrante crece, la corriente genera campo saliente, o sea que circula en sentido antihorario; si decrece, en sentido horario). En la práctica se calcula $\lvert d\Phi/dt\rvert$ y el sentido se saca con Lenz. La corriente es $I = \mathcal E/R$.
+
+El flujo puede cambiar porque cambia $B$, porque cambia el área o porque el circuito se mueve dentro de un campo no uniforme. Cada ejercicio de inducción es uno de estos casos:
+
+| Caso | Flujo | Derivando | Tipo |
+|---|---|---|---|
+| Bobina quieta con $B(t)$ uniforme | $N\Phi = NA\,B(t)$ | $\mathcal E = NA\,\dfrac{dB}{dt}$ | [9](#9-bobina-en-un-campo-que-varía-con-el-tiempo) |
+| Espira rectangular junto a un hilo (lado paralelo $c$, de $x_1$ a $x_2$) | franjas de ancho $dx$: $\displaystyle\int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}c\,dx = \frac{\mu_0 Ic}{2\pi}\ln\frac{x_2}{x_1}$ | derivar $I(t)$, o $x_1(t)$ y $x_2(t)$ con regla de la cadena | [10](#10-espira-junto-a-un-hilo-flujo-con-integral) |
+| Barra sobre rieles (separación $\ell$, posición $x$), $B$ uniforme | $\Phi = B\ell x$ | $\mathcal E = B\ell v$ | [11](#11-barra-sobre-rieles) |
+| Barra sobre rieles con $B(x)$ | $\Phi = \displaystyle\int_0^xB(x')\,\ell\,dx'$ | Teorema fundamental del cálculo: $\mathcal E = B(x)\,\ell v$ | [11](#11-barra-sobre-rieles) |
+| Barra que gira alrededor de un extremo | barre un sector de área $\tfrac12r_0^2\theta$: $\Phi = \tfrac12Br_0^2\theta$ | $\mathcal E = \tfrac12B\omega r_0^2$ | [13](#13-barra-que-gira) |
+
+**Fem de movimiento (misma ley vista desde la barra).** Cuando una barra se mueve **sola**, sin un circuito cerrado, no hay un "área" evidente. Ahí se usa que sobre cada carga de la barra actúa $q\,\vec v\times\vec B$, que hace el papel de un campo eléctrico $\vec v\times\vec B$. La fem es su integral de línea a lo largo de la barra:
+
+$$\mathcal E = \int_{\text{barra}}(\vec v\times\vec B)\cdot d\vec l$$
+
+El extremo hacia el que apunta $\vec v\times\vec B$ queda a **mayor potencial**. Da lo mismo que Faraday (por ejemplo, la barra que gira: $v = \omega r$ y $\displaystyle\int_0^{r_0}B\omega r\,dr = \tfrac12B\omega r_0^2$). Con el campo de un hilo, $B = \dfrac{\mu_0 I}{2\pi r}$, sale $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$ (tipo [12](#12-barra-que-se-mueve-junto-a-un-hilo)).
+
+**Inductancias: Faraday aplicado al propio circuito.** Si el flujo $N\Phi$ que atraviesa una bobina es proporcional a una corriente, la constante de proporcionalidad es una inductancia:
+
+$$N\Phi_{\text{propio}} = LI \qquad N_2\Phi_{2\leftarrow1} = MI_1$$
+
+Y Faraday da directamente la fem autoinducida: $\mathcal E = -\dfrac{d(LI)}{dt} = -L\dfrac{dI}{dt}$.
+
+| Caso | Cuenta (con $B = \mu_0 nI$ de Ampère, $A = \pi R^2$) | Resultado |
+|---|---|---|
+| L de un solenoide | $N\Phi = N\cdot\mu_0\dfrac N\ell I\cdot A$ | $L = \dfrac{\mu_0 N^2A}{\ell} = \mu_0 n^2A\ell$ |
+| M de dos solenoides coaxiales | el campo del **exterior** atraviesa las $N_1$ vueltas del interior, de área $A_1$ (la **menor**) | $M = \dfrac{\mu_0 N_1N_2A_1}{\ell}$ |
+
+**Energía magnética: integrar la potencia.** Para hacer crecer la corriente hay que vencer la fem autoinducida, que exige una potencia $P = \mathcal E I = LI\dfrac{dI}{dt}$. Integrando:
+
+$$U = \int_0^IL\,i\,di = \tfrac12LI^2$$
+
+Reemplazando $L$ y $B$ del solenoide: $\tfrac12\mu_0 n^2A\ell\,I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}A\ell = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$. La energía está repartida en el volumen con densidad $\dfrac{B^2}{2\mu_0}$ (tipo [7](#7-solenoide-campo-inductancia-energía-y-longitud)).
+
+---
+
+### 0.9 Ley 5: capacitores
+
+$$q = Cv \qquad U = \int_0^Qv\,dq = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+
+| Caso | Cómo sale | Resultado |
+|---|---|---|
+| Energía que entrega una fuente de tensión fija $V$ | $W = \displaystyle\int V\,dq = QV = CV^2$ | el doble de lo que guarda: **la mitad se disipa** en las resistencias, sin importar cuánto valgan |
+| Capacitor aislado que se conecta a otros descargados | la carga no tiene a dónde ir: se conserva. Terminan en paralelo, con la misma tensión | $V_f = \dfrac{Q_0}{\sum C}$; energía disipada $=U_{antes} - U_{después}$ |
+| Capacitores en paralelo / en serie | misma $v$, se suman las $q$ / misma $q$, se suman las $v$ | $C_{eq} = \sum C_i$ / $\dfrac{1}{C_{eq}} = \sum\dfrac{1}{C_i}$ |
+| Capacitor cilíndrico (radios $a < b$, largo $\ell$) | Gauss: $E = \dfrac{\lambda}{2\pi\varepsilon_0 r}$; $\ V = \displaystyle\int_a^bE\,dr = \frac{\lambda}{2\pi\varepsilon_0}\ln\frac ba$; $\ C = \dfrac{\lambda\ell}{V}$ | $C = \dfrac{2\pi\varepsilon_0\ell}{\ln(b/a)}$ |
+
+---
+
+### 0.10 Ley 6: corriente alterna (una sola ecuación compleja)
+
+Las relaciones entre tensión y corriente en cada elemento son:
+
+$$v_R = Ri \qquad v_L = L\frac{di}{dt} \qquad v_C = \frac qC,\ \text{con } i = \frac{dq}{dt}$$
+
+(La de la bobina es Faraday: es la fem autoinducida.)
+
+**El truco: la derivada se convierte en un producto.** Con el generador $v(t) = V_0\,\mathrm{sen}\,(\omega t)$, todas las tensiones y corrientes oscilan a la misma $\omega$. Se escriben como parte imaginaria de exponenciales complejas, $i = I_0e^{j\omega t}$ (en electricidad $j = \sqrt{-1}$, porque $i$ ya es la corriente). Entonces:
+
+$$\frac{di}{dt} = j\omega\,i \qquad q = \int i\,dt = \frac{i}{j\omega}$$
+
+y las tres relaciones quedan como una ley de Ohm con una "resistencia" compleja, la **impedancia**:
+
+$$v_R = R\,i \qquad v_L = (j\omega L)\,i \qquad v_C = \frac{1}{j\omega C}\,i = \left(-\frac{j}{\omega C}\right)i$$
+
+En serie la corriente es la misma y las tensiones se suman:
+
+$$v = \underbrace{\left[R + j\left(\omega L - \frac{1}{\omega C}\right)\right]}_{Z}\,i = \left[R + j(X_L - X_C)\right]i \qquad X_L = \omega L,\ \ X_C = \frac{1}{\omega C}$$
+
+**Todo lo de alterna es leer este número complejo $Z$:**
+
+| Qué | Cómo sale de $Z$ | Resultado |
+|---|---|---|
+| Relación de amplitudes | módulo: $V_0 = \lvert Z\rvert I_0$ | $Z = \sqrt{R^2 + (X_L - X_C)^2} = \dfrac{V_0}{I_0} = \dfrac{V_{EF}}{I_{EF}}$ |
+| Desfasaje | argumento: $v = \lvert Z\rvert e^{j\varphi}i$ | $\tan\varphi = \dfrac{X_L - X_C}{R}$, $\ \cos\varphi = \dfrac RZ$. Si $\varphi > 0$ la tensión adelanta |
+| Inductivo o capacitivo | signo de la parte imaginaria | $X_L > X_C$: inductivo (la tensión adelanta). $X_C > X_L$: capacitivo (la corriente adelanta) |
+| Resonancia | parte imaginaria nula: $\omega L = \dfrac{1}{\omega C}$ | $\omega_0 = \dfrac{1}{\sqrt{LC}}$. Por debajo de $\omega_0$ domina $X_C$ (capacitivo); por encima, $X_L$ (inductivo) |
+| Reactancia con $\omega_0$ como dato | reemplazar $C = 1/(\omega_0^2L)$ | $X_L - X_C = L\,\dfrac{\omega^2 - \omega_0^2}{\omega}$ |
+| Tensión en un solo elemento | módulo de su impedancia por $I$ | $V_R = RI$, $\ V_L = X_LI$, $\ V_C = X_CI$ (no se suman como números: se suman como vectores del plano complejo) |
 
 Es el **triángulo de impedancias**: catetos $R$ y $X_L - X_C$, hipotenusa $Z$, ángulo $\varphi$.
 
-**Inductivo o capacitivo:**
+**Valores eficaces: un promedio integral.** El valor eficaz es la raíz del valor medio del cuadrado. Los amperímetros y voltímetros miden eficaces; "de pico" o "máximo" es la amplitud.
 
-| | Inductivo | Capacitivo |
-|---|---|---|
-| Reactancias | $X_L > X_C$ | $X_C > X_L$ |
-| Fase | la **tensión adelanta** a la corriente | la **corriente adelanta** a la tensión |
-| Respecto de la resonancia | $f > f_0$ | $f < f_0$ |
+$$V_{EF}^2 = \frac1T\int_0^TV_0^2\,\mathrm{sen}^2(\omega t)\,dt = \frac{V_0^2}{2} \quad\Rightarrow\quad V_{EF} = \frac{V_0}{\sqrt2}$$
 
-**Resonancia:** $X_L = X_C$, o sea $f_0 = \dfrac{1}{2\pi\sqrt{LC}}$ ($\omega_0^2 = 1/LC$). Ahí $Z = R$ (mínima) y $\varphi = 0$.
+**Potencia activa: otro promedio integral.** Con $v = V_0\,\mathrm{sen}\,(\omega t)$ e $i = I_0\,\mathrm{sen}\,(\omega t - \varphi)$, y usando $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
 
-**Potencias** (multiplicando el triángulo de impedancias por $I_{EF}^2$):
+$$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T\left[\cos\varphi - \cos(2\omega t - \varphi)\right]dt = \frac{V_0I_0}{2}\cos\varphi = V_{EF}I_{EF}\cos\varphi$$
 
-| Potencia | Fórmula | Unidad |
-|---|---|---|
-| Activa (la que se disipa, solo en R) | $P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R = \tfrac12I_0^2R$ | W |
-| Aparente | $S = V_{EF}I_{EF} = I_{EF}^2Z$ | VA |
-| Reactiva | $Q = V_{EF}I_{EF}\mathrm{sen}\,\varphi = I_{EF}^2(X_L - X_C)$ | VAR |
+Como $\cos\varphi = R/Z$ y $V_{EF} = ZI_{EF}$, también $P = I_{EF}^2R$: solo la resistencia consume energía en promedio. Multiplicando los lados del triángulo de impedancias por $I_{EF}^2$ salen las otras dos potencias:
+
+| Potencia | Lado del triángulo × $I_{EF}^2$ | Fórmula | Unidad |
+|---|---|---|---|
+| Activa | $R$ | $P = I_{EF}^2R = V_{EF}I_{EF}\cos\varphi$ | W |
+| Reactiva | $X_L - X_C$ | $Q = I_{EF}^2(X_L - X_C) = V_{EF}I_{EF}\,\mathrm{sen}\,\varphi$ | VAR |
+| Aparente | $Z$ | $S = I_{EF}^2Z = V_{EF}I_{EF}$ | VA |
 
 $\cos\varphi$ se llama **factor de potencia**.
 
-**Truco central de casi todos los ejercicios de alterna:** con los datos se obtienen $Z$ y $R$ (o $Z$ y $\varphi$), y de ahí $\lvert X_L - X_C\rvert = \sqrt{Z^2 - R^2} = Z\mathrm{sen}\,\varphi$. Lo que diga el enunciado sobre la fase o la resonancia decide el **signo** de $X_L - X_C$.
+**Truco central de casi todos los ejercicios de alterna:** con los datos se obtienen $Z$ y $R$ (o $Z$ y $\varphi$), y de ahí $\lvert X_L - X_C\rvert = \sqrt{Z^2 - R^2} = Z\,\mathrm{sen}\,\varphi$. Lo que diga el enunciado sobre la fase o la resonancia decide el **signo** de $X_L - X_C$.
+
 
 ---
 
@@ -208,6 +305,8 @@ $\cos\varphi$ se llama **factor de potencia**.
 ## 1. Hilos paralelos: campo en un punto y punto de campo nulo
 
 **Cómo reconocerlo.** Dos hilos "muy largos" paralelos; piden el campo en un punto, dónde se anula, o una corriente desconocida a partir de un punto de campo nulo.
+
+**De dónde sale.** [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría) (o [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable) con límites infinitos) para el campo de cada hilo, y superposición.
 
 **Receta.**
 
@@ -252,6 +351,8 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 
 **Cómo reconocerlo.** "Los hilos se atraen/repelen con una fuerza por unidad de longitud de…".
 
+**De dónde sale.** [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética) sobre un hilo que está en el campo del otro ([Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría)).
+
 **Receta.**
 
 1. Atracción → corrientes **paralelas**; repulsión → antiparalelas.
@@ -287,6 +388,8 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 ## 3. Campo en 3D (anillo + hilo) y fuerza sobre una carga
 
 **Cómo reconocerlo.** Aparece un anillo con un punto sobre su **eje**, a veces combinado con un hilo; y una carga que pasa por ese punto.
+
+**De dónde sale.** [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable), caso C (anillo) y caso A (hilo); [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética) para la carga.
 
 **Receta.**
 
@@ -325,10 +428,12 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10
 
 **Cómo reconocerlo.** Espira circular, cuadrada o rectangular; piden B en el centro o un tamaño para que los campos de dos espiras cumplan una relación.
 
+**De dónde sale.** [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable): caso B (arco con $\theta = 2\pi$) para la circular y caso A sumando 4 lados para la rectangular.
+
 **Receta.**
 
 1. Circular: $B = \dfrac{\mu_0 I}{2R}$. Rectangular $a\times b$: $B = \dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$. Cuadrada: $\dfrac{2\sqrt2\,\mu_0 I}{\pi D}$.
-2. Si piden *demostrar* la del rectángulo: sumar los 4 lados con la fórmula del tramo finito (0.4). Cada lado se ve desde su mediatriz, así que $\mathrm{sen}\,\beta_2 = -\mathrm{sen}\,\beta_1$ y el aporte es $\dfrac{\mu_0 I}{4\pi d}\cdot2\mathrm{sen}\,\beta$. Los 4 lados dan campo en el mismo sentido.
+2. Si piden *demostrar* la del rectángulo: sumar los 4 lados con la integral del tramo recto ([0.5, caso A](#05-ley-1-biot-savart-campo-de-cualquier-cable)). Cada lado se ve desde su mediatriz, así que $\mathrm{sen}\,\beta_2 = -\mathrm{sen}\,\beta_1$ y el aporte es $\dfrac{\mu_0 I}{4\pi d}\cdot2\mathrm{sen}\,\beta$. Los 4 lados dan campo en el mismo sentido.
 3. Dirección: perpendicular al plano de la espira, sentido por mano derecha. Si el sentido de la corriente no está dado, se elige y se aclara.
 4. Plantear la relación pedida y despejar.
 
@@ -357,6 +462,8 @@ $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \fr
 ## 5. Hilo doblado: Biot-Savart por tramos
 
 **Cómo reconocerlo.** Un dibujo con un único cable que tiene tramos rectos (a veces semi-infinitos) y arcos, y un punto P.
+
+**De dónde sale.** [Ley 1, Biot-Savart](#05-ley-1-biot-savart-campo-de-cualquier-cable): caso 0 (prolongación), caso A (tramos rectos) y caso B (arcos), y superposición.
 
 **Receta.**
 
@@ -404,6 +511,8 @@ $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 
 **Cómo reconocerlo.** Una partícula entra a una región con $\vec B$; piden radio, paso de hélice o velocidad.
 
+**De dónde sale.** [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética): fuerza centrípeta para el radio, y trabajo nulo.
+
 **Receta.**
 
 1. Separar $\vec v$ en componente paralela a $\vec B$ ($v_\parallel = v\cos\theta$) y perpendicular ($v_\perp = v\mathrm{sen}\,\theta$).
@@ -434,6 +543,8 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 
 **Cómo reconocerlo.** "Solenoide muy largo" con datos de L, B, I y radio; piden energía o longitud.
 
+**De dónde sale.** [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría) para $B$, [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) para $L$ y la energía como integral de la potencia.
+
 **Receta.** Hay tres ecuaciones y se combinan según los datos:
 
 $$B = \mu_0 nI \qquad L = \mu_0 n^2\pi R^2\ell \qquad U = \tfrac12LI^2 = \frac{B^2}{2\mu_0}\pi R^2\ell$$
@@ -457,6 +568,8 @@ Verificación por el otro camino: $n = B/(\mu_0 I) = 22{,}1$ m⁻¹ y $\ell = L/
 ## 8. Autoinductancia e inductancia mutua de solenoides
 
 **Cómo reconocerlo.** Piden "coeficiente de autoinducción", "inductancia mutua" o "fem autoinducida" de una bobina con radio, longitud y número de vueltas.
+
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): $N\Phi = LI$ y $N_2\Phi_2 = MI_1$, con el $B$ del solenoide de [Ley 2, Ampère](#06-ley-2-ampère-atajo-cuando-hay-simetría).
 
 **Receta.**
 
@@ -489,6 +602,8 @@ $$\mathcal E(t) = -L\frac{dI}{dt} = -0{,}0457\cdot3\cdot200\cos(200t)\ \text{V} 
 
 **Cómo reconocerlo.** $B(t)$ dado como función; bobina quieta con N vueltas.
 
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) con $B(t)$ y área fija.
+
 **Receta.**
 
 1. Flujo total $N\phi(t) = NA\,B(t)$ (si $\vec B$ es perpendicular al plano).
@@ -516,6 +631,8 @@ Restando dos veces la primera a la segunda: $24b = -41{,}48$, así que $b = -1{,
 ## 10. Espira junto a un hilo: flujo con integral
 
 **Cómo reconocerlo.** Espira rectangular en el mismo plano que un hilo infinito; la corriente del hilo varía o la espira se mueve.
+
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): flujo del hilo integrado en franjas, y derivada respecto de $t$.
 
 **Receta.**
 
@@ -556,6 +673,8 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 ## 11. Barra sobre rieles
 
 **Cómo reconocerlo.** Una barra que desliza sobre dos rieles conductores unidos por resistencias, en un campo perpendicular al plano.
+
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá) con área $\ell x$ (o $\int B(x)\,\ell\,dx$), y [Ley 3, fuerza magnética](#07-ley-3-fuerza-magnética) para la fuerza que frena.
 
 **Receta.**
 
@@ -598,6 +717,8 @@ Con $x = vt = 40$ m: $\mathcal E = 0{,}5\cdot40\cdot0{,}24\cdot20 = 96$ V e $I =
 
 **Cómo reconocerlo.** Barra perpendicular a un hilo infinito, moviéndose **paralela** al hilo. No hay circuito cerrado: piden diferencia de potencial entre los extremos.
 
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá), en la forma de fem de movimiento $\int(\vec v\times\vec B)\cdot d\vec l$ con el campo del hilo.
+
 **Receta.** El campo cambia a lo largo de la barra, así que la fem es una integral de línea:
 
 $$\mathcal E = \int_d^{d + \ell}(\vec v\times\vec B)\cdot d\vec r = \int_d^{d + \ell}\frac{\mu_0 Iv}{2\pi r}\,dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
@@ -621,6 +742,8 @@ Polaridad: hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\
 ## 13. Barra que gira
 
 **Cómo reconocerlo.** Barra que rota con velocidad angular ω en un campo uniforme perpendicular.
+
+**De dónde sale.** [Ley 4, Faraday](#08-ley-4-faraday-toda-la-inducción-sale-de-acá): fem de movimiento con $v = \omega r$ (o el área barrida).
 
 **Receta.** El punto a distancia $r$ del eje tiene $v = \omega r$. La fem de un tramo de largo $r_0$ que gira alrededor de uno de sus extremos:
 
@@ -650,9 +773,11 @@ P (el más cercano al eje) está a mayor potencial.
 
 **Cómo reconocerlo.** Circuito con fuente, capacitores y dos llaves que se abren y cierran en orden. Piden cargas finales y energía disipada "en las resistencias" (las de los cables).
 
+**De dónde sale.** [Ley 5, capacitores](#09-ley-5-capacitores): $U = \int v\,dq$ y conservación de la carga.
+
 **Receta.**
 
-1. **Etapa de carga** (fuente conectada a $C_1$): $Q_0 = C_1V$. Se disipa $E_1 = \tfrac12C_1V^2$ (la mitad de lo que entrega la fuente, ver 0.8).
+1. **Etapa de carga** (fuente conectada a $C_1$): $Q_0 = C_1V$. Se disipa $E_1 = \tfrac12C_1V^2$ (la mitad de lo que entrega la fuente, ver [0.9](#09-ley-5-capacitores)).
 2. **Etapa de reparto** (fuente desconectada, $C_1$ cargado se conecta en paralelo con capacitores descargados): la carga **se conserva** y todos terminan a la misma tensión:
 
 $$V_f = \frac{Q_0}{C_1 + C_{\text{resto}}} \qquad Q_i = C_iV_f$$
@@ -680,11 +805,13 @@ $$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \t
 
 # Corriente alterna
 
-Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.9](#09-corriente-alterna) y anotar qué dato es eficaz y cuál es de pico.
+Todos estos ejercicios son RLC **serie**. Antes de empezar, conviene repasar [0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja) y anotar qué dato es eficaz y cuál es de pico.
 
 ## 15. RLC serie a partir de mediciones
 
 **Cómo reconocerlo.** Dan algunos de: tensión, corriente (amperímetro), potencias, fase, frecuencia, y uno de L o C. Piden el resto.
+
+**De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): módulo y argumento de $Z$.
 
 **Receta.**
 
@@ -717,6 +844,8 @@ Coherente: capacitivo y $50 < 76{,}3$ Hz ✓.
 ## 16. RLC serie con la frecuencia de resonancia como dato
 
 **Cómo reconocerlo.** Dan la frecuencia de trabajo **y** la de resonancia, pero no dan ni L ni C.
+
+**De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): módulo y argumento de $Z$, con $C = 1/(\omega_0^2L)$ de la condición de resonancia.
 
 **Receta.** Pasos 1 a 3 del [tipo 15](#15-rlc-serie-a-partir-de-mediciones) para obtener $X = X_L - X_C$ (con signo). Después, usando $C = 1/(\omega_0^2L)$:
 
@@ -753,6 +882,8 @@ $$V_R = 86{,}6\ \text{V} \qquad V_L = 89\ \text{V} \qquad V_C = 138{,}8\ \text{V
 
 **Cómo reconocerlo.** "Determine dos valores posibles de C", "factor de potencia 0,9", "¿existe otro capacitor que…?", "las dos opciones C y C'".
 
+**De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): $Z$ depende de $\lvert X_L - X_C\rvert$, no de su signo.
+
 **Idea clave.** El factor de potencia (y $Z$) depende de $\lvert X_L - X_C\rvert$, no de su signo. Para una reactancia neta $X$ pedida hay dos opciones:
 
 $$X_C = X_L - X\ (\text{queda inductivo}) \qquad\text{o}\qquad X_C = X_L + X\ (\text{queda capacitivo})$$
@@ -785,6 +916,8 @@ $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7
 
 **Cómo reconocerlo.** Un dibujo con dos flechas (tensión y corriente) y "circuito de solo dos elementos".
 
+**De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): el argumento de $Z$ dice qué fasor adelanta, y la potencia media da $R$.
+
 **Receta.**
 
 1. Si la tensión está adelantada (girada en sentido antihorario respecto de la corriente) → inductivo → **R y L**. Si atrasada → **R y C**. Si disipa potencia, uno de los dos es R. (Si estuvieran a 90° exactos serían L y C sin R, y no disiparía.)
@@ -813,7 +946,9 @@ El ángulo del dibujo es esquemático: solo importa cuál fasor va adelante.
 
 **Cómo reconocerlo.** Lista de afirmaciones y opciones tipo "solo una es verdadera".
 
-**Herramientas** (todas salen de 0.9):
+**De dónde sale.** [Ley 6, alterna](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja): signo de la parte imaginaria de $Z$ y cómo cambia con $C$ y $\omega$.
+
+**Herramientas** (todas salen de [0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)):
 
 - Por debajo de $f_0$: capacitivo. Por encima: inductivo.
 - Aumentar C → **baja** $X_C$ → el circuito se vuelve **más inductivo**. Aumentar L → más inductivo.
