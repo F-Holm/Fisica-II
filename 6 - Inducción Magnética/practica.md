@@ -10,17 +10,21 @@ Teoría: [resumen del tema](teoria.md). En el aula virtual también está la [re
 >
 > $$\phi = \frac{\mu_0 i c}{2\pi}\ln\!\left(\frac{a + b}{a}\right)$$
 
+**⭐ Para el 2º Parcial:** 11 de los 24 ejercicios están marcados con ⭐. Son los que practican un tipo de ejercicio que se tomó en los parciales. Si estudiás para el 2º Parcial, alcanza con hacer los marcados; los demás se pueden saltear.
+
 | Bloque | Ejercicios |
 |---|---|
-| Flujo | [1](#ejercicio-1) · [2](#ejercicio-2) · [3](#ejercicio-3) |
-| Faraday-Lenz | [4](#ejercicio-4) · [5](#ejercicio-5) · [6](#ejercicio-6) · [9](#ejercicio-9) · [13](#ejercicio-13) · [14](#ejercicio-14) · [20](#ejercicio-20) · [22](#ejercicio-22) |
-| Fem de movimiento | [7](#ejercicio-7) · [8](#ejercicio-8) · [10](#ejercicio-10) · [11](#ejercicio-11) · [12](#ejercicio-12) · [15](#ejercicio-15) |
-| Inductancia | [16](#ejercicio-16) · [17](#ejercicio-17) · [18](#ejercicio-18) · [19](#ejercicio-19) · [21](#ejercicio-21) |
+| Flujo | [1](#ejercicio-1) ⭐ · [2](#ejercicio-2) ⭐ · [3](#ejercicio-3) |
+| Faraday-Lenz | [4](#ejercicio-4) ⭐ · [5](#ejercicio-5) · [6](#ejercicio-6) ⭐ · [9](#ejercicio-9) ⭐ · [13](#ejercicio-13) · [14](#ejercicio-14) ⭐ · [20](#ejercicio-20) ⭐ · [22](#ejercicio-22) |
+| Fem de movimiento | [7](#ejercicio-7) · [8](#ejercicio-8) ⭐ · [10](#ejercicio-10) ⭐ · [11](#ejercicio-11) · [12](#ejercicio-12) · [15](#ejercicio-15) |
+| Inductancia | [16](#ejercicio-16) ⭐ · [17](#ejercicio-17) · [18](#ejercicio-18) · [19](#ejercicio-19) · [21](#ejercicio-21) ⭐ |
 | Conceptuales | [23](#ejercicio-23) · [24](#ejercicio-24) |
 
 ---
 
 ### Ejercicio 1
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 9: Espira junto a un hilo: flujo con integral](../Segundo%20Parcial/guia-de-resolucion.md#9-espira-junto-a-un-hilo-flujo-con-integral) de la guía de resolución.
 
 Por el conductor recto de la figura circula una corriente de 10A. Para los valores ab=cd=5cm; bc=da=2cm; L=1cm
 
@@ -65,6 +69,8 @@ $$\phi = \frac{4\pi\times10^{-7}\cdot10\cdot0{,}02}{2\pi}\ln6\ \text{Wb} = 4\tim
 ---
 
 ### Ejercicio 2
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 9: Espira junto a un hilo: flujo con integral](../Segundo%20Parcial/guia-de-resolucion.md#9-espira-junto-a-un-hilo-flujo-con-integral) de la guía de resolución.
 
 Una bobina de 50 espiras se halla próxima a dos conductores por los que circulan corrientes de intensidades *i<sub>1</sub>*=50A e *i<sub>2</sub>*=200A, respectivamente. La bobina y los conductores son coplanares. Calcule:
 
@@ -131,6 +137,8 @@ Las líneas de campo del hilo son circunferencias centradas en él, contenidas e
 ---
 
 ### Ejercicio 4
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 8: Bobina en un campo que varía con el tiempo](../Segundo%20Parcial/guia-de-resolucion.md#8-bobina-en-un-campo-que-var%C3%ADa-con-el-tiempo) de la guía de resolución.
 
 Un solenoide de 500 vueltas, radio *r<sub>S</sub>*=0,5cm, longitud *L*=20cm, está circulado por una corriente *i*=10A. En el interior del solenoide hay una pequeña bobina de 10 vueltas, radio *r<sub>B</sub>*=0,3cm y resistencia total *R*=0,2Ω. Si el campo de inducción se invierte en 0,2 seg, calcule la cantidad de carga que por unidad de tiempo circula por la bobina interior.
 
@@ -207,6 +215,8 @@ $$Q = \frac{20\cdot0{,}8\cdot\pi\cdot10^{-4}}{5}\ \text{C} = 1\times10^{-3}\ \te
 ---
 
 ### Ejercicio 6
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 9: Espira junto a un hilo: flujo con integral](../Segundo%20Parcial/guia-de-resolucion.md#9-espira-junto-a-un-hilo-flujo-con-integral) de la guía de resolución.
 
 La figura, muestra un alambre "infinito" y una bobina rectangular. Indique la dirección de la corriente inducida en cada uno de los siguientes casos
 
@@ -307,6 +317,8 @@ $$F = 3\times10^{-4}\cdot0{,}02\cdot3\ \text{N} = 1{,}8\times10^{-5}\ \text{N}$$
 
 ### Ejercicio 8
 
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 12: Barra que gira](../Segundo%20Parcial/guia-de-resolucion.md#12-barra-que-gira) de la guía de resolución.
+
 La barra metálica de longitud *L* de la figura gira con velocidad angular constante ω solidaria al pivote *P*, sumergida en un campo magnético uniforme $\vec B = B_0\,(-\hat e_z)$.
 
 a) halle la expresión de la fem inducida en la barra;
@@ -347,6 +359,8 @@ $$|\mathcal E| = \int_0^L\omega rB_0\,dr = \frac{B_0L^2\omega}{2}$$
 
 ### Ejercicio 9
 
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 8: Bobina en un campo que varía con el tiempo](../Segundo%20Parcial/guia-de-resolucion.md#8-bobina-en-un-campo-que-var%C3%ADa-con-el-tiempo) de la guía de resolución.
+
 La bobina de la figura, de radio *r* =10cm, tiene 5 vueltas y se halla inmersa en un campo magnético espacialmente uniforme $\vec B_{EXT} = \alpha t^2\,\hat e_X$ (***n<sub>S</sub>*** representa la normal a la superficie de la espira). Para *α = 0,04 Tseg<sup>−2</sup>*, calcule la fem inducida en la bobina como función del tiempo.
 
 ![Figura del ejercicio 9](img/ej-09.png)
@@ -378,6 +392,8 @@ $$|\mathcal E| = 2\cdot5\cdot0{,}04\cdot\pi\cdot0{,}01\cdot0{,}8\ t\ \text{V} = 
 ---
 
 ### Ejercicio 10
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 10: Barra sobre rieles](../Segundo%20Parcial/guia-de-resolucion.md#10-barra-sobre-rieles) de la guía de resolución.
 
 La barra metálica de la figura desliza idealmente en contacto con un cuadro metálico en presencia de un campo magnético externo uniforme $\vec B = 0{,}5T\ (-\hat e_z)$. La resistencia eléctrica del conjunto es de 0,2 Ω, *L*=0,5m y velocidad de la barra es uniforme y vale $\vec v = 4\ m/seg\ (\hat e_x)$.
 
@@ -547,6 +563,8 @@ $$|\mathcal E| = \left|\frac{d\phi}{dt}\right| = B_0\ell^2\alpha\,e^{-\alpha t}$
 
 ### Ejercicio 14
 
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 10: Barra sobre rieles](../Segundo%20Parcial/guia-de-resolucion.md#10-barra-sobre-rieles) de la guía de resolución.
+
 La espira cuadrada de lado ℓ de la figura se mueve con velocidad uniforme $\vec v = v_0\hat e_x$, ubicada en el plano *XZ* y en presencia de un campo magnético externo que varía espacialmente como $\vec B(x) = (\alpha B_0/x^2)\,\hat y$. (α, *B<sub>0</sub>* > 0)
 
 a) indique y justifique cuál es el sentido de circulación de la corriente inducida en la espira.
@@ -620,6 +638,8 @@ $$F = 100\cdot2\times10^{-7}\cdot7\cdot0{,}25\cdot1\cdot\left(10 - 2{,}857\right
 ---
 
 ### Ejercicio 16
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 13: Autoinductancia e inductancia mutua de solenoides](../Segundo%20Parcial/guia-de-resolucion.md#13-autoinductancia-e-inductancia-mutua-de-solenoides) de la guía de resolución.
 
 Por una bobina de 2 cm de radio y 40 cm de longitud, que tiene arrolladas 2000 vueltas de alambre, circula una corriente *i* (t)=*2 sen (100π t)*. Calcule: a) el valor del coeficiente de autoinducción *L* de la bobina; b) la fem autoinducida en función del tiempo.
 
@@ -760,6 +780,8 @@ $$M = \frac{N\phi_1}{i} = R\,n\,\mu_0\,a\ln\!\left(\frac{2R + a}{2R - a}\right)$
 
 ### Ejercicio 20
 
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 9: Espira junto a un hilo: flujo con integral](../Segundo%20Parcial/guia-de-resolucion.md#9-espira-junto-a-un-hilo-flujo-con-integral) de la guía de resolución.
+
 A una distancia *d*= 25cm de un alambre recto infinito por el que circula una corriente *i* (t) se encuentra una bobina cuadrada de 100 vueltas y lado *a*=10cm.
 
 a) para *i* (t) = 0,3 (1−e<sup>−βt</sup>) A (β=0,1 seg<sup>−1</sup>) y la espira en reposo respecto del alambre, calcule el valor absoluto de la fem inducida en función del tiempo e indique el sentido de circulación de la corriente inducida en la espira;
@@ -811,6 +833,8 @@ Al acercarse, el flujo saliente crece: sentido **horario**.
 ---
 
 ### Ejercicio 21
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 13: Autoinductancia e inductancia mutua de solenoides](../Segundo%20Parcial/guia-de-resolucion.md#13-autoinductancia-e-inductancia-mutua-de-solenoides) de la guía de resolución.
 
 Un solenoide de radio *r<sub>1</sub>*, longitud ℓ<sub>1</sub> y *N<sub>1</sub>* vueltas se halla en el interior de otro solenoide, de radio *r<sub>2</sub> >> r<sub>1</sub>*, *N<sub>2</sub>* vueltas y longitud ℓ<sub>2</sub> >> ℓ<sub>1</sub>. Los solenoides son coaxiales y por el externo circula una corriente variable de la forma *i<sub>2</sub>*(t) = 2 sen (10seg<sup>−1</sup> t) A. Suponiendo *r<sub>1</sub>* = 10 cm y que la bobina exterior tiene *N<sub>2</sub>*= 1000 vueltas/cm ≡ 10<sup>5</sup> vueltas/m, a primer orden calcule:
 

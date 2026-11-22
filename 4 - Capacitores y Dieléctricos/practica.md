@@ -6,9 +6,11 @@ Cada ejercicio tiene un botón **Solución**. Al abrirlo aparece la respuesta y,
 
 Teoría: [resumen del tema](teoria.md). Constantes: $\varepsilon_0 = 8{,}85\times10^{-12}$ C²/(N m²), $k_0 = 9\times10^9$ N m²/C².
 
+**⭐ Para el 2º Parcial:** 3 de los 15 ejercicios están marcados con ⭐. Son los que practican un tipo de ejercicio que se tomó en los parciales (el de capacitores con llaves, que se toma desde 2024). Para el 1er Parcial, ver su [guía de resolución](../Primer%20Parcial/guia-de-resolucion.md). Si estudiás para el 2º Parcial, alcanza con hacer los marcados; los demás se pueden saltear.
+
 | Bloque | Ejercicios |
 |---|---|
-| Asociación de capacitores | [1](#ejercicio-1) · [3](#ejercicio-3) · [5](#ejercicio-5) · [6](#ejercicio-6) |
+| Asociación de capacitores | [1](#ejercicio-1) ⭐ · [3](#ejercicio-3) · [5](#ejercicio-5) ⭐ · [6](#ejercicio-6) ⭐ |
 | Geometría y capacidad | [2](#ejercicio-2) · [4](#ejercicio-4) · [12](#ejercicio-12) |
 | Dieléctricos, D, P | [7](#ejercicio-7) · [8](#ejercicio-8) · [9](#ejercicio-9) · [10](#ejercicio-10) · [11](#ejercicio-11) · [13](#ejercicio-13) · [14](#ejercicio-14) |
 | Conceptual | [15](#ejercicio-15) |
@@ -16,6 +18,8 @@ Teoría: [resumen del tema](teoria.md). Constantes: $\varepsilon_0 = 8{,}85\time
 ---
 
 ### Ejercicio 1
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 1: Capacitores con llaves: energía disipada](../Segundo%20Parcial/guia-de-resolucion.md#1-capacitores-con-llaves-energ%C3%ADa-disipada) de la guía de resolución.
 
 Los capacitores del circuito de la figura valen *C<sub>1</sub>*=4μF; *C<sub>2</sub>*=6μF; *C<sub>3</sub>*=12,6μF; *C<sub>4</sub>*=2μF; *C<sub>5</sub>*=8μF. En régimen estacionario, calcule:
 
@@ -205,6 +209,8 @@ $$C = \frac{Q}{|V(r_1) - V(r_2)|} = \frac{1}{k_0\left(\dfrac{1}{r_1} - \dfrac{1}
 
 ### Ejercicio 5
 
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 1: Capacitores con llaves: energía disipada](../Segundo%20Parcial/guia-de-resolucion.md#1-capacitores-con-llaves-energ%C3%ADa-disipada) de la guía de resolución.
+
 Los capacitores *C<sub>1</sub>* = 12μF y *C<sub>2</sub>*= 6μF de la figura se cargan con la llave en la posición (1). Una vez cargados se lleva la llave a la posición (2). Suponiendo que el capacitor *C<sub>3</sub>* = 2μF está inicialmente descargado, calcule:
 
 a) la carga final almacenada por el capacitor *C<sub>3</sub>*;
@@ -248,6 +254,8 @@ La energía disminuye: la diferencia se disipa en los cables durante la redistri
 ---
 
 ### Ejercicio 6
+
+⭐ **Sirve para el 2º Parcial**: practica el [tipo 1: Capacitores con llaves: energía disipada](../Segundo%20Parcial/guia-de-resolucion.md#1-capacitores-con-llaves-energ%C3%ADa-disipada) de la guía de resolución.
 
 Los capacitores *C<sub>1</sub>* y *C<sub>2</sub>* de la figura son de 25nF y 20nF, respectivamente. El capacitor *C<sub>3</sub>* es de placas plano paralelas y sus dimensiones son: área de placa *A*= 0,5m<sup>2</sup>, distancia interplacas *d*=0,1mm, dieléctrico de constante relativa ε<sub>R</sub>=4 llenando todo el espacio interplacas. *C<sub>2</sub>* y *C<sub>3</sub>* están descargados, y *C<sub>1</sub>* se ha cargado a 60V. Calcule:
 

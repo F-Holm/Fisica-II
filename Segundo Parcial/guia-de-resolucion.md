@@ -7,7 +7,8 @@ Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpe
 - **Qué está pasando (desde cero)**: la física de la situación en palabras, sin fórmulas.
 - **Cómo reconocerlo** en el enunciado.
 - **Receta**: los pasos que siempre se siguen.
-- **Ejemplo resuelto**: un ejercicio real de parcial, elegido como representante del tipo. Arranca con **Qué piden, en palabras**: el enunciado traducido, dato por dato, y el plan. Cada fórmula se **deduce** de las leyes en el momento en que se usa, con el atajo al lado. No hace falta memorizar los atajos: alcanza con saber hacer la deducción.
+- **Ejemplo resuelto**: un ejercicio real de parcial, elegido como representante del tipo, con el formato de los exámenes: la consigna y un botón **Solución** con la respuesta. Adentro hay otro botón, **Solución paso a paso**, que traduce el enunciado (**Qué piden, en palabras**), cuenta la teoría del tipo aplicada a ese ejercicio (**La idea, aplicada a este ejercicio**) y resuelve deduciendo cada fórmula en el momento en que se usa, con el atajo al lado.
+- **Para practicar**: los ejercicios de la práctica (marcados con ⭐) que sirven para ese tipo.
 - **Variantes**: los demás ejercicios del mismo tipo, con lo que cambia respecto del ejemplo.
 
 Primero conviene leer la [sección 0](#0-kit-mínimo-lo-que-am2-no-te-dio). Ahí está la idea central de la guía: todo el 2º Parcial sale de [seis leyes](#04-las-seis-leyes-lo-único-que-hay-que-memorizar), y cada fórmula que se usa en los ejercicios se deduce de una de ellas con una integral o una derivada. Después se puede ir directo al tipo que interese.
@@ -391,6 +392,12 @@ $$V_f = \frac{Q_0}{C_1 + C_{\text{resto}}} \qquad Q_i = C_iV_f$$
 
 ![Figura](img/2024-12-12-ej1.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Fuente de 60 V; $C_1 = 20\ \mu$F y $C_2 = 30\ \mu$F, los dos descargados al principio.
@@ -398,6 +405,10 @@ $$V_f = \frac{Q_0}{C_1 + C_{\text{resto}}} \qquad Q_i = C_iV_f$$
 - **Etapa 2:** se abre la llave 1, así que la fuente queda desconectada, y se cierra la llave 2. $C_1$, cargado, queda conectado con $C_2$, descargado. Parte de la carga de $C_1$ pasa a $C_2$, hasta que los dos tienen la misma tensión.
 - **Qué piden:** la "energía disipada en la evolución completa", o sea la energía que se convirtió en calor en las dos etapas.
 - **Plan:** sumar la energía perdida en la etapa 1 y la perdida en la etapa 2.
+
+**La idea, aplicada a este ejercicio.**
+
+El "tanque" de carga de este ejercicio es $C_1$. En la **etapa 1** la fuente de 60 V lo llena: entra carga hasta que la tensión de $C_1$ llega a 60 V, y mientras tanto se pierde calor en los cables. En la **etapa 2** la fuente ya no está, así que la carga de $C_1$ no puede aumentar ni desaparecer: solo puede repartirse con $C_2$. Es como dos tanques de agua que se conectan por abajo y quedan al mismo nivel; acá "mismo nivel" quiere decir misma tensión. En ese reparto también se pierde energía, aunque la carga total no cambie. La energía perdida en cada etapa se calcula como "lo que había (o lo que entregó la fuente) menos lo que quedó".
 
 **Deducción de las energías.**
 
@@ -416,7 +427,15 @@ $$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \t
 
 **Total.** $E = 36 + 21{,}6 = 57{,}6$ mJ. (Cargas finales: $Q_1 = 480\ \mu$C, $Q_2 = 720\ \mu$C.)
 
+</details>
+
+**Respuesta:** Energía disipada en total $E = 57{,}6$ mJ (36 mJ al cargar y 21,6 mJ en el reparto). Cargas finales $Q_1 = 480\ \mu$C y $Q_2 = 720\ \mu$C.
+
+</details>
+
 **Variantes.** [2º Parcial 28/11/2024, Ej. 1](2024-11-28-2do-parcial.md#ejercicio-1): igual, pero en la etapa de reparto C₁ se conecta con $C_2\parallel C_3$ (se suman: 80 μF).
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Capacitores, Ej. 1](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-1) · [Capacitores, Ej. 5](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-5) · [Capacitores, Ej. 6](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/practica.md#ejercicio-6)
 
 ---
 
@@ -449,6 +468,12 @@ Con dos hilos, el campo en un punto es la **suma vectorial** de los campos de ca
 
 > Dos alambres paralelos infinitos, separados por una distancia de 8 cm, están circulados por corrientes I₁=1 A e I₂. El campo magnético generado por los alambres se anula a una distancia de 2 cm del primero, en la región externa a los dos alambres. **a)** Determine I₂. **b)** Halle el campo magnético en el punto medio entre ambos alambres. **c)** Una carga q=6 μC pasa por el punto del ítem anterior con una velocidad de módulo 4 x 10⁴ m/s y dirección coincidente con la de los hilos. Determine el módulo de la fuerza sobre la carga.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Dos hilos paralelos separados 8 cm. $I_1 = 1$ A; de $I_2$ no se conocen ni el valor ni el sentido.
@@ -456,6 +481,15 @@ Con dos hilos, el campo en un punto es la **suma vectorial** de los campos de ca
 - **a)** Con esa condición, hallar $I_2$ y su sentido.
 - **b)** Campo total en el punto medio, a 4 cm de cada hilo.
 - **c)** Una carga pasa por el punto medio moviéndose paralela a los hilos y siente una fuerza magnética: hallar su módulo.
+
+**La idea, aplicada a este ejercicio.**
+
+Cada hilo produce un campo que da vueltas a su alrededor y vale $\mu_0 I/2\pi d$. En el punto que está afuera, a 2 cm del hilo 1, el campo total es cero, así que ahí los dos campos tienen que apuntar en sentidos opuestos y tener el mismo módulo.
+
+- Que apunten opuesto **afuera** de los hilos obliga a que las corrientes sean opuestas.
+- Que tengan el mismo módulo, con el punto 5 veces más lejos del hilo 2 que del hilo 1, obliga a que $I_2$ sea 5 veces $I_1$.
+
+En el punto medio, entre dos hilos con corrientes opuestas, los dos campos apuntan para el mismo lado y se suman. Por último, la carga se mueve paralela a los hilos y el campo es perpendicular a los hilos. Entonces $\vec v\perp\vec B$ y la fuerza es la máxima posible, $qvB$.
 
 **Deducción del campo de un hilo infinito** (atajo: $B = \dfrac{\mu_0 I}{2\pi d}$). Por simetría, $\vec B$ es tangente a las circunferencias centradas en el hilo y tiene el mismo módulo en toda la circunferencia de radio $d$. Circulación de Ampère sobre esa circunferencia:
 
@@ -477,11 +511,19 @@ $$B = \frac{\mu_0}{2\pi}\left(\frac{I_1}{0{,}04} + \frac{I_2}{0{,}04}\right) = 2
 
 $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\text{N}$$
 
+</details>
+
+**Respuesta:** a) $I_2 = 5$ A, en sentido opuesto a $I_1$; b) $B = 30\ \mu$T; c) $F = 7{,}2\ \mu$N.
+
+</details>
+
 **Variantes.**
 
 - [2º Parcial 28/11/2024, Ej. 2](2024-11-28-2do-parcial.md#ejercicio-2): mismas preguntas al revés (dan las dos corrientes antiparalelas, piden B en un punto intermedio y dónde se anula).
 - [2º Parcial 03/12/2020, Ej. 1](2020-12-03-2do-parcial.md#ejercicio-1): además piden la fuerza **vectorial** sobre una carga negativa que se mueve perpendicular a los hilos. Ahí sí hay que hacer $q\,\vec v\times\vec B$ con versores y con el signo de $q$.
 - [2º Parcial 25/11/2021, Ej. 1a](2021-11-25-2do-parcial.md#ejercicio-1): el campo se anula **entre** los hilos → corrientes paralelas.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 11](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-11) · [Magnetostática, Ej. 13](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-13) · [Magnetostática, Ej. 14](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-14)
 
 ---
 
@@ -509,12 +551,24 @@ Como los hilos son infinitos, la fuerza total sería infinita. Por eso el dato e
 
 ![Figura](img/2025-11-27-ej2.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Dos hilos separados $D$. $I_1 = I$ es dato; de $I_2$ no se conocen ni el valor ni el sentido.
 - **Dato:** los hilos se atraen con $F/\ell = \dfrac{4\mu_0I^2}{3\pi D}$.
 - **a)** Con eso, sacar $I_2$ y su sentido. Después, el campo total en P, que está a $D/5$ a la derecha del hilo 2. El resultado va en función de $\mu_0$, $I$ y $D$, sin números.
 - **b)** Decir si hay puntos donde el campo total es cero y, si los hay, encontrar uno.
+
+**La idea, aplicada a este ejercicio.**
+
+Los hilos se atraen, así que, por la regla "mismo sentido se atraen", $I_2$ va en el mismo sentido que $I_1$. La fuerza por metro crece con el producto de las corrientes, así que su valor dice cuánto vale $I_2$. Con las dos corrientes conocidas, P es un punto a la derecha de los dos hilos: ahí los dos campos apuntan igual (entrante) y se suman.
+
+Para b): con corrientes del mismo sentido, los campos solo se oponen **entre** los hilos. Por eso el cero tiene que estar ahí, más cerca del hilo con menos corriente (el 1).
 
 En la figura P está a la derecha del hilo 2, a $H = D/5$ de él (o sea a $6D/5$ del hilo 1).
 
@@ -536,7 +590,15 @@ $$B_P = \frac{\mu_0 I}{2\pi(6D/5)} + \frac{\mu_0(8I/3)}{2\pi(D/5)} = \frac{\mu_0
 
 $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rightarrow\quad x = \frac{3D}{11}$$
 
+</details>
+
+**Respuesta:** a) $I_2 = \tfrac83I$, en el mismo sentido que $I_1$; $B_P = \dfrac{85\,\mu_0 I}{12\pi D}$, entrante. b) Sí: sobre la recta entre los hilos, a $x = \tfrac{3D}{11}$ del hilo 1.
+
+</details>
+
 **Variantes.** [Simulacro, Ej. 1a-b](simulacro-2do-parcial.md#ejercicio-1): misma idea con números (dan F/ℓ y piden I).
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 12](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-12) · [Magnetostática, Ej. 17](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-17)
 
 ---
 
@@ -565,12 +627,24 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 
 ![Figura](img/2021-02-19-ej2.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Anillo de radio 8 cm, en un plano horizontal y centrado en el origen, con 2 A. Su eje es el eje $z$.
 - Un hilo horizontal muy largo cruza el eje $z$ a 18 cm de altura, también con 2 A.
 - **a)** Campo total en el punto del eje que está a 10 cm de altura. Es la suma del campo del anillo (vertical) y el del hilo (horizontal).
 - **b)** Una carga de 6 μC pasa por ese punto subiendo, con velocidad en $+\hat k$. Calcular la fuerza magnética como vector.
+
+**La idea, aplicada a este ejercicio.**
+
+El anillo está acostado en el plano horizontal, así que su campo sobre el eje es vertical ($\hat k$). El hilo es horizontal y pasa por encima del punto, así que su campo, que da vueltas alrededor del hilo, en el punto es horizontal y perpendicular al hilo ($\hat\jmath$). Los dos campos son perpendiculares: no se suman sus módulos, se arma el vector con las dos componentes.
+
+La carga sube por el eje, paralela al campo del anillo, y esa parte del campo no le hace nada. Solo la empuja el campo del hilo, y la fuerza sale perpendicular a los dos ($\hat\imath$).
 
 Ejes: $\hat k$ hacia arriba (eje del anillo), $\hat\imath$ en el sentido de la corriente del hilo, $\hat\jmath = \hat k\times\hat\imath$. El anillo circula en sentido antihorario visto desde arriba.
 
@@ -592,7 +666,15 @@ $$\vec B(z_1) = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu\text{T}$$
 
 $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10^{-6}\cdot5\times10^4\cdot5\times10^{-6}\ \text{N}\ \hat\imath = -1{,}5\ \mu\text{N}\ \hat\imath$$
 
+</details>
+
+**Respuesta:** a) $\vec B(z_1) = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu$T; b) $\vec F = -1{,}5\ \mu\text{N}\ \hat\imath$.
+
+</details>
+
 **Variantes.** [1er Recuperatorio 09/12/2021, Ej. 3](2021-12-09-1er-recuperatorio-2do-parcial.md#ejercicio-3): dan $B$ sobre el eje a distancia D y piden $B$ a distancia 3D. Se despeja D de la fórmula del anillo: $(R^2 + D^2)^{3/2} = \dfrac{\mu_0 IR^2}{2B}$ (da $D = 10$ cm) y se reemplaza $3D$.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 20](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-20)
 
 ---
 
@@ -615,11 +697,23 @@ $$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10
 
 > **a)** Determine el campo magnético en el centro de una espira rectangular de lados 5 y 10 cm, que transporta una corriente de 2 A. **b)** ¿Qué radio debería tener una espira circular que transportase una corriente de 0,5 A, para que el campo en su centro tuviese un valor igual al determinado en **a)**?
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - **a)** Espira rectangular de 5 cm × 10 cm con 2 A: campo en su centro.
 - **b)** Espira circular con 0,5 A: qué radio tiene que tener para que el campo en su centro sea igual al de a).
 - **Plan:** calcular el campo de la rectangular sumando los 4 lados. Después igualarlo al campo de la circular y despejar el radio.
+
+**La idea, aplicada a este ejercicio.**
+
+En la espira rectangular, cada uno de los cuatro lados es un tramo recto de cable, y todos empujan el campo del centro hacia el mismo lado (perpendicular a la hoja). Los lados largos están más cerca del centro y aportan más. Alcanza con calcular un lado de cada tipo y multiplicar por dos.
+
+En b) se busca una espira circular "equivalente". Su campo es $\mu_0 I/2R$, así que cuanto más chico el radio, más campo. Con 0,5 A (cuatro veces menos corriente) va a hacer falta un radio chico.
 
 **Deducción del campo de un lado** (atajo para el rectángulo entero: $B = \dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$). Biot-Savart sobre un tramo recto de largo $\ell$, visto desde su mediatriz a distancia $d$. Con el tramo sobre el eje $x$ y el origen en el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{d\,dx}{\sqrt{x^2 + d^2}}$ y
 
@@ -647,11 +741,19 @@ Igualando:
 
 $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \frac{4\pi\times10^{-7}\cdot0{,}5}{2\cdot35{,}8\times10^{-6}}\ \text{m} = 8{,}8\ \text{mm}$$
 
+</details>
+
+**Respuesta:** a) $B = 35{,}8\ \mu$T; b) $R = 8{,}8$ mm.
+
+</details>
+
 **Variantes.**
 
 - [2º Parcial 20/11/2015, Ej. 1](2015-11-20-2do-parcial.md#ejercicio-1): demostrar el campo de una espira $a\times\sqrt3a$ (receta, paso 2).
 - [2º Parcial 03/12/2020, Ej. 2](2020-12-03-2do-parcial.md#ejercicio-2) y [Simulacro, Ej. 4](simulacro-2do-parcial.md#ejercicio-4): espira cuadrada con campo $k$ veces el de una circular → $D = \dfrac{4\sqrt2\,I_qR}{k\pi I_c}$.
 - [2º Recuperatorio 18/02/2022, Ej. 1](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-1): además una carga pasa por el centro con velocidad **paralela al plano** → $\vec v\perp\vec B$ y $F = qvB$.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 18](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-18)
 
 ---
 
@@ -681,12 +783,28 @@ Cada pedacito aporta en la dirección de $d\vec l\times\hat r$. Si el cable y P 
 
 ![Figura](img/2024-12-12-ej2.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - El cable llega desde la izquierda por una recta que pasa por P. Después recorre un arco de radio 8 cm alrededor de P, y sale hacia la derecha por una recta horizontal que **no** pasa por P.
 - $I = 2$ A, $\alpha = 30^\circ$.
 - **Qué piden:** el campo total en P, con módulo y sentido.
 - **Plan:** separar en tres tramos (entrada, arco, salida), calcular cada uno y sumarlos con su sentido.
+
+**La idea, aplicada a este ejercicio.**
+
+El cable tiene tres pedazos:
+
+- **El tramo de entrada** viene por una recta que pasa justo por P. Cada pedacito apunta hacia P, así que no aporta.
+- **El arco** está todo a 8 cm de P, y cada pedacito aporta lo mismo. Alcanza con saber cuántos radianes recorre: media vuelta más 30°.
+- **El tramo de salida** es recto pero no pasa por P: va un poco más abajo, a $R\,\mathrm{sen}\,\alpha$. Aporta, pero poco, y hacia el lado contrario que el arco, porque visto desde P la corriente gira en el sentido opuesto.
+
+El resultado es el campo del arco menos el del tramo de salida.
 
 P es el centro del arco. El cable llega desde la izquierda por la horizontal que pasa por P, recorre el arco por arriba en sentido **horario** hasta un punto a un ángulo α **por debajo** de la horizontal, y sale hacia la derecha horizontalmente.
 
@@ -718,11 +836,19 @@ Corriente hacia la derecha con P por encima: $\hat x\times\hat y = \hat z$ → *
 
 $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 
+</details>
+
+**Respuesta:** $B_P = 8{,}49\ \mu$T, entrante.
+
+</details>
+
 **Variantes.**
 
 - [2º Parcial 03/12/2020, Ej. 4](2020-12-03-2do-parcial.md#ejercicio-4): semicircunferencia + semi-infinito con P frente a su extremo ($\mu_0 I/4\pi R$) + un hilo infinito aparte.
 - [2º Recuperatorio 19/02/2021, Ej. 1](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-1) y [2º Parcial 27/11/2025, Ej. 1](2025-11-27-2do-parcial-tema-2.md#ejercicio-1): hilo doblado en ángulo recto, sin arcos. Cuidado con los $\mathrm{sen}\,\beta$: el pie de la perpendicular puede caer **fuera** del tramo (en 2021, $\mathrm{sen}\,\beta_1 = D/\sqrt{D^2 + H^2}$ con el mismo signo que $\mathrm{sen}\,\beta_2$, y por eso queda una **resta** $1 - D/\sqrt{D^2+H^2}$).
 - [2º Parcial 20/11/2015, Ej. 2](2015-11-20-2do-parcial.md#ejercicio-2): espira circular + hilo infinito coplanares; piden la distancia D para que el campo en el centro sea nulo. Se igualan $\dfrac{\mu_0 I_H}{2\pi D} = \dfrac{\mu_0 I_E}{2R}$. **Trampa:** da $D < R$, o sea que el hilo tendría que atravesar la espira; hay que comentarlo.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 15](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-15) · [Magnetostática, Ej. 16](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-16) · [Magnetostática, Ej. 17](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-17) · [Magnetostática, Ej. 19](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-19) · [Magnetostática, Ej. 21](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-21)
 
 ---
 
@@ -750,11 +876,23 @@ $$r = \frac{mv_\perp}{\lvert q\rvert B} \qquad T = \frac{2\pi m}{\lvert q\rvert 
 
 > Una partícula cargada ingresa con una cierta velocidad en una zona de campo magnético uniforme de módulo 0,24 T y que forma un ángulo de 80° con la velocidad, observándose que la carga describe una trayectoria helicoidal de paso 0,85 mm. Teniendo esto en cuenta, se pide determinar el radio de la trayectoria circular que esa misma partícula, con esa misma velocidad, habría descrito si hubiese ingresado en una zona de campo uniforme perpendicular a la velocidad y de módulo 0,18 T.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Una partícula de la que no se conocen la masa, la carga ni la velocidad entra en un campo de 0,24 T, formando 80° con él, y describe una hélice de paso 0,85 mm.
 - **Qué piden:** el radio de la circunferencia que describiría la misma partícula, con la misma velocidad, si entrara **perpendicular** a un campo de 0,18 T.
 - **Plan:** del paso sale la combinación $mv/\lvert q\rvert$, y es lo único que hace falta para el radio. No hace falta conocer $m$, $q$ ni $v$ por separado.
+
+**La idea, aplicada a este ejercicio.**
+
+La partícula entra oblicua (a 80° del campo), así que describe una hélice: gira con la componente de la velocidad perpendicular al campo y avanza con la paralela. El paso, lo que avanza en una vuelta, mezcla las dos cosas: es el tiempo de una vuelta por la velocidad paralela. El tiempo de una vuelta depende de $m/\lvert q\rvert$ y de $B$, pero no de $v$. Así, del paso sale cuánto vale $mv/\lvert q\rvert$.
+
+En la segunda situación la partícula entra perpendicular: toda su velocidad la hace girar, sin avanzar, y el radio depende justo de $mv/\lvert q\rvert$. No hace falta saber qué partícula es.
 
 **Deducción del radio, el período y el paso** (atajos: $r = \dfrac{mv_\perp}{\lvert q\rvert B}$, $T = \dfrac{2\pi m}{\lvert q\rvert B}$, $p = v_\parallel T$). La fuerza $q\,\vec v\times\vec B$ es perpendicular a $\vec B$, así que no cambia $v_\parallel$; y es perpendicular a $\vec v$, así que no cambia el módulo de la velocidad. En el plano perpendicular a $\vec B$ queda una fuerza de módulo constante $\lvert q\rvert v_\perp B$, siempre perpendicular a la velocidad: es un movimiento circular uniforme, y esa fuerza es la centrípeta. Por Newton:
 
@@ -770,7 +908,15 @@ Con el campo perpendicular, toda la velocidad es $v_\perp$:
 
 $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{0{,}85\times10^{-3}\cdot0{,}24}{2\pi\cdot0{,}18\cdot0{,}1736}\ \text{m} = 1{,}04\ \text{mm}$$
 
+</details>
+
+**Respuesta:** $r = 1{,}04$ mm.
+
+</details>
+
 **Variantes.** [2º Recuperatorio 18/02/2022, Ej. 2](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-2): carga en un campo **no uniforme** $\vec B(z)$; piden el módulo de la velocidad en un instante posterior. Es una pregunta conceptual: como la fuerza magnética no hace trabajo, $\lvert\vec v\rvert$ se conserva y vale lo mismo que al principio ($3\times10^5$ m/s). No hay que integrar nada.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 1](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-1) · [Magnetostática, Ej. 2](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-2) · [Magnetostática, Ej. 4](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-4) · [Magnetostática, Ej. 5](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-5)
 
 ---
 
@@ -794,6 +940,12 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 
 > Un alambre de longitud 5 m se enrolla para formar una bobina circular de área 2,21 x 10⁻³ m². La bobina es sumergida en un campo magnético perpendicular al plano que la contiene, y cuya intensidad varía en el tiempo según la ley B(t) = a t² + b t⁴ [T], donde a y b son coeficientes. Sabiendo que la resistencia de la bobina es de 5Ω, y que la corriente que circula por ella satisface I(t=1 s) = 0,3 A; I(t=2 s) = 0,05 A, determinar los valores de a y b.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Con 5 m de alambre se arma una bobina circular de área $2{,}21\times10^{-3}$ m². No dicen cuántas vueltas tiene: sale de la geometría.
@@ -801,6 +953,10 @@ $$r = \frac{mv}{\lvert q\rvert B_2} = \frac{pB_1}{2\pi B_2\cos80^\circ} = \frac{
 - **Datos:** la corriente vale 0,3 A en $t = 1$ s y 0,05 A en $t = 2$ s.
 - **Qué piden:** $a$ y $b$.
 - **Plan:** calcular el número de vueltas, escribir la corriente $I(t)$ y plantear dos ecuaciones con dos incógnitas.
+
+**La idea, aplicada a este ejercicio.**
+
+La bobina está quieta y el campo crece con el tiempo, como $at^2 + bt^4$. El flujo por cada vuelta es $B$ por el área, y hay $N$ vueltas. Al cambiar el flujo aparece una fem igual a la rapidez con que cambia, o sea la derivada de $NAB(t)$. Esa fem empuja corriente por la resistencia de 5 Ω, según la ley de Ohm. La derivada tiene a $a$ y a $b$, y la corriente es dato en dos instantes: quedan dos ecuaciones lineales con dos incógnitas.
 
 **N.** $r = \sqrt{A/\pi} = 2{,}652$ cm, perímetro $2\pi r = 0{,}1666$ m, $N = 5/0{,}1666 = 30$ vueltas. Entonces $NA = 0{,}0663$ m².
 
@@ -819,6 +975,14 @@ $$I(t) = \frac{NA}{R}\,\frac{dB}{dt} = \frac{NA}{R}(2at + 4bt^3)$$
 $$t = 1:\ 2a + 4b = \frac{0{,}3\cdot5}{0{,}0663} = 22{,}62 \qquad t = 2:\ 4a + 32b = \frac{0{,}05\cdot5}{0{,}0663} = 3{,}771$$
 
 Restando dos veces la primera a la segunda: $24b = -41{,}48$, así que $b = -1{,}73$ T/s⁴ y $a = 14{,}77$ T/s².
+
+</details>
+
+**Respuesta:** $a = 14{,}77$ T/s² y $b = -1{,}73$ T/s⁴.
+
+</details>
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 4](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-4) · [Inducción, Ej. 9](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-9)
 
 ---
 
@@ -849,12 +1013,26 @@ $$\phi = \int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}\,c\,dx = \frac{\mu_0 Ic}{2\pi}\l
 
 ![Figura](img/2021-02-19-ej3.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Hilo vertical. A su derecha, en el mismo plano, una espira rectangular. Su lado cercano está a $L_1 = 12$ cm del hilo, el lejano a $L_2 = 20$ cm, y los lados paralelos al hilo miden $L_3 = 15$ cm.
 - **a)** La corriente del hilo oscila, $I(t) = 3\,\mathrm{sen}\,(5\pi t)$, y la espira está quieta: fem en la espira.
 - **b)** La corriente es fija, 3 A, pero la espira se aleja del hilo a 5 cm/s: fem en el instante inicial.
 - **c)** Para el caso b), con una espira de 3 Ω: corriente y su sentido (horario o antihorario).
+
+**La idea, aplicada a este ejercicio.**
+
+El hilo produce a su derecha un campo entrante, más fuerte cerca del hilo (a 12 cm) que lejos (a 20 cm). Para el flujo se corta la espira en franjas verticales muy finas, en cada una de las cuales el campo es parejo. Sumar (integrar) las franjas da un logaritmo.
+
+- **a)** Si la corriente oscila, el campo y el flujo oscilan con ella, y la fem es la derivada.
+- **b)** Si la espira se aleja, pasa a zonas de campo más débil, el flujo baja y también hay fem.
+- **c)** Lenz: el flujo entrante baja, así que la corriente inducida trata de "reponerlo" generando campo entrante dentro de la espira. Eso es sentido horario.
 
 La espira va de $x = L_1$ a $x = L_2$, con lado paralelo $L_3$.
 
@@ -874,7 +1052,15 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 
 **c)** $I = \mathcal E/R = 5\times10^{-9}$ A. Sentido: a la derecha del hilo (corriente hacia arriba) el campo es entrante; al alejarse, el flujo entrante disminuye; la corriente inducida lo refuerza → **horario**.
 
+</details>
+
+**Respuesta:** a) $\lvert\mathcal E\rvert = 7{,}2\times10^{-7}\cos(5\pi t)$ V; b) $\lvert\mathcal E\rvert = 1{,}5\times10^{-8}$ V; c) $I = 5\times10^{-9}$ A, en sentido horario.
+
+</details>
+
 **Variantes.** [2º Parcial 25/11/2021, Ej. 1b-c](2021-11-25-2do-parcial.md#ejercicio-1): espira entre **dos** hilos. Se calcula el flujo de cada uno con la misma integral y se suman con signo (dentro de la espira los campos de hilos paralelos se oponen).
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 1](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-1) · [Inducción, Ej. 2](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-2) · [Inducción, Ej. 6](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-6) · [Inducción, Ej. 20](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-20)
 
 ---
 
@@ -901,6 +1087,12 @@ Además, la barra con corriente está dentro de un campo magnético, así que si
 
 ![Figura](img/2020-12-03-ej3.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Barra de 11 cm que se mueve hacia la izquierda a 15 m/s.
@@ -908,6 +1100,12 @@ Además, la barra con corriente está dentro de un campo magnético, así que si
 - Tres resistencias (5, 2 y 6 Ω) conectan los rieles.
 - **a)** Corriente inducida: valor y sentido.
 - **b)** Fuerza magnética sobre la barra, y fuerza que tiene que hacer el agente externo para mantener la velocidad constante. Las dos con módulo, dirección y sentido.
+
+**La idea, aplicada a este ejercicio.**
+
+Rieles, barra y resistencias forman un rectángulo. La barra va hacia la izquierda y el área encerrada se achica, así que el flujo del campo entrante baja y aparece la fem $B\ell v$. La barra hace de pila. Lo que conecta sus extremos son las tres resistencias, las tres entre los mismos dos rieles, o sea en paralelo.
+
+La corriente que circula por la barra está dentro del campo, así que recibe una fuerza, y esa fuerza la frena: apunta hacia la derecha. Como la barra va a velocidad constante, la fuerza total sobre ella es cero, así que el agente externo empuja con la misma fuerza hacia la izquierda.
 
 **Deducción de la fem** (atajo: $\mathcal E = B\ell v$). El circuito es el rectángulo formado por los rieles, la barra y el tramo con resistencias. Si $x$ es la distancia de la barra a ese tramo, el área es $\ell x$ y, con $B$ uniforme y perpendicular, $\phi = B\ell x$. Faraday:
 
@@ -929,11 +1127,19 @@ $$\vec F_M = I\vec\ell\times\vec B = 4{,}29\cdot0{,}11\cdot3\,\big((-\hat y)\tim
 
 Hacia la derecha: frena la barra. El agente externo hace $1{,}42$ N hacia la izquierda.
 
+</details>
+
+**Respuesta:** a) $\mathcal E = 4{,}95$ V e $I = 4{,}29$ A, en sentido horario (hacia abajo en la barra); b) $\vec F_M = 1{,}42$ N hacia la derecha (frena), y el agente externo hace 1,42 N hacia la izquierda.
+
+</details>
+
 **Variantes.** [2º Parcial 27/11/2025, Ej. 3](2025-11-27-2do-parcial-tema-2.md#ejercicio-3): campo **no uniforme** $B(x) = kx$. El flujo es una integral:
 
 $$\phi(x) = \int_0^x kx'\,\ell\,dx' = \frac{k\ell x^2}{2} \quad\Rightarrow\quad \mathcal E = \frac{d\phi}{dt} = k\ell x\,v = B(x)\,\ell v$$
 
 Con $x = vt = 40$ m: $\mathcal E = 0{,}5\cdot40\cdot0{,}24\cdot20 = 96$ V e $I = 96/8 = 12$ A.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 10](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-10) · [Inducción, Ej. 14](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-14)
 
 ---
 
@@ -959,12 +1165,22 @@ El extremo hacia el que apunta $\vec v\times\vec B$ está a mayor potencial.
 
 ![Figura](img/2024-12-12-ej4.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Hilo con 3 A.
 - Barra de 10 cm perpendicular al hilo, con su extremo más cercano a 5 cm.
 - La barra se mueve paralela al hilo a 20 m/s, en sentido contrario al de la corriente.
 - **Qué piden:** la diferencia de potencial entre los extremos de la barra, y cuál de los dos está a mayor potencial.
+
+**La idea, aplicada a este ejercicio.**
+
+La barra está a la derecha del hilo, dentro de su campo entrante, y baja, en contra de la corriente. Sus cargas bajan con ella, y la fuerza $q\,\vec v\times\vec B$ las empuja a lo largo de la barra: a las positivas, alejándolas del hilo. Se acumulan cargas positivas en el extremo lejano, que queda a mayor potencial. Cerca del hilo el campo es más fuerte y empuja más. Por eso la fem es una integral a lo largo de la barra, que da un logaritmo.
 
 **Deducción** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). No hay circuito cerrado, así que se usa la fem de movimiento: sobre cada carga de la barra actúa $q\,\vec v\times\vec B$, que equivale a un campo eléctrico $\vec v\times\vec B$, y la fem es su integral de línea a lo largo de la barra. El campo del hilo a distancia $r$ es $\dfrac{\mu_0 I}{2\pi r}$ (Ampère: $B\cdot2\pi r = \mu_0 I$). $\vec v$ es paralela al hilo y $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB$ y apunta a lo largo de la barra. Entonces:
 
@@ -975,6 +1191,12 @@ Con los datos:
 $$\mathcal E = 2\times10^{-7}\cdot3\cdot20\cdot\ln\frac{15}{5}\ \text{V} = 13{,}2\ \mu\text{V}$$
 
 Polaridad: hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\hat z$. La barra va hacia abajo: $\vec v\times\vec B = (-\hat y)\times(-\hat z) = \hat x$. Las cargas positivas se van al extremo **más lejano del hilo**, que queda a mayor potencial.
+
+</details>
+
+**Respuesta:** $\mathcal E = 13{,}2\ \mu$V; el extremo más lejano del hilo está a mayor potencial.
+
+</details>
 
 **Variantes.** [2º Recuperatorio 18/02/2022, Ej. 3](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-3): idéntico con otros números.
 
@@ -998,11 +1220,21 @@ Si el eje está en un punto interior O, se calcula cada mitad por separado; las 
 
 > Una barra conductora de longitud 45 cm y extremos P y Q, gira en sentido horario alrededor del punto O de la barra, situado a una distancia de 15 cm del extremo P. Existe un campo magnético uniforme, saliente respecto del plano de la hoja. Sabiendo que ω=8 1/s y B=0,3 T, determine la diferencia de tensión entre P y Q. Justifique cuál de ellos se halla a mayor potencial.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Barra de 45 cm, con extremos P y Q, que gira en sentido horario alrededor de un punto O de la barra. O está a 15 cm de P, y por lo tanto a 30 cm de Q.
 - Campo saliente de 0,3 T; $\omega = 8$ rad/s.
 - **Qué piden:** $V_P - V_Q$, y cuál de los dos extremos está a mayor potencial.
+
+**La idea, aplicada a este ejercicio.**
+
+La barra gira alrededor de O. Las dos mitades, OP (15 cm) y OQ (30 cm), giran con la misma $\omega$, pero los puntos de OQ llegan más lejos y van más rápido. En cada mitad, la fuerza magnética empuja las cargas positivas hacia O (sale de $\vec v\times\vec B$). Entonces O es el punto de mayor potencial, y el potencial baja hacia cada extremo: poco hacia P y más hacia Q. La diferencia entre P y Q es la resta de esas dos caídas. P está más cerca de O, cae menos y queda más alto.
 
 $OP = 0{,}15$ m y $OQ = 0{,}30$ m.
 
@@ -1019,6 +1251,14 @@ $$V_O - V_P = \tfrac12\cdot0{,}3\cdot8\cdot0{,}15^2 = 0{,}027\ \text{V} \qquad V
 $$V_P - V_Q = 0{,}108 - 0{,}027 = 0{,}081\ \text{V}$$
 
 P (el más cercano al eje) está a mayor potencial.
+
+</details>
+
+**Respuesta:** $V_P - V_Q = 0{,}081$ V; P está a mayor potencial.
+
+</details>
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 8](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-8)
 
 ---
 
@@ -1043,11 +1283,23 @@ Si hay dos bobinas, el campo de una atraviesa a la otra, así que un cambio de c
 
 > Un solenoide de radio 2 cm y longitud 60 cm tiene arrolladas 3000 vueltas de alambre. **a)** Determine el coeficiente de autoinducción del solenoide. Justifique la fórmula utilizada. **b)** Se dispone al solenoide de forma coaxial con otro solenoide de la misma longitud, radio 3 cm y 2000 vueltas de alambre. ¿Cuál es la inductancia mutua? Justifique la fórmula utilizada.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Solenoide de radio 2 cm, largo 60 cm y 3000 vueltas.
 - **a)** Su autoinductancia $L$, justificando la fórmula.
 - **b)** Otro solenoide del mismo largo, de radio 3 cm y 2000 vueltas, se coloca coaxial con el primero (uno dentro del otro, con el mismo eje). Calcular la inductancia mutua $M$, justificando la fórmula.
+
+**La idea, aplicada a este ejercicio.**
+
+**a)** El solenoide es 30 veces más largo que su radio, así que se lo trata como infinito: adentro el campo es uniforme y vale $\mu_0NI/\ell$. Ese campo atraviesa cada una de las 3000 vueltas, así que el flujo propio total es $N\cdot B\cdot\text{área}$. Ese flujo es proporcional a $I$, y la constante de proporcionalidad es $L$.
+
+**b)** El solenoide de 2 cm queda dentro del de 3 cm. El campo del grande llena todo su interior, así que también atraviesa las vueltas del chico, pero solo por el área del chico: la parte del grande que queda afuera del chico no cuenta. El flujo en el chico dividido la corriente del grande es $M$.
 
 **a)** *Justificación del campo* (atajo: $B = \mu_0\dfrac N\ell I$). 60 cm ≫ 2 cm, así que se trata como solenoide infinito: adentro el campo es uniforme y paralelo al eje, y afuera es despreciable. Ampère sobre un rectángulo con un lado de largo $\ell'$ adentro y el opuesto afuera: solo aporta el lado de adentro y se encierran $\dfrac N\ell\ell'$ vueltas, así que $B\ell' = \mu_0\dfrac N\ell\ell' I$ y $B = \mu_0\dfrac N\ell I$.
 
@@ -1059,9 +1311,17 @@ $$L = \mu_0\frac{N^2}{\ell}\pi R^2 = 4\pi\times10^{-7}\cdot\frac{3000^2}{0{,}6}\
 
 $$M = \frac{N_1B_2\pi R_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi R_1^2}{\ell} = \frac{4\pi\times10^{-7}\cdot3000\cdot2000\cdot\pi\cdot0{,}02^2}{0{,}6}\ \text{H} = 15{,}8\ \text{mH}$$
 
+</details>
+
+**Respuesta:** a) $L = 23{,}7$ mH; b) $M = 15{,}8$ mH.
+
+</details>
+
 **Variantes.** [2º Recuperatorio 18/02/2022, Ej. 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4): bobina con $I(t) = 3\mathrm{sen}\,(200t)$. Se calcula L igual ($45{,}7$ mH). La fem sale de Faraday aplicado a la propia bobina: $\mathcal E = -\dfrac{d(N\phi)}{dt} = -\dfrac{d(LI)}{dt}$, y con L constante
 
 $$\mathcal E(t) = -L\frac{dI}{dt} = -0{,}0457\cdot3\cdot200\cos(200t)\ \text{V} = -27{,}4\cos(200t)\ \text{V}$$
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Inducción, Ej. 16](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-16) · [Inducción, Ej. 21](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-21)
 
 ---
 
@@ -1083,12 +1343,27 @@ La de $L$ sale de la definición: $N\phi = (n\ell)(\mu_0 nI)(\pi R^2)$ y $L = N\
 
 > Un solenoide muy largo de radio R=0,8 cm y autoinducción L=2 x 10⁻⁵ H transporta una corriente I=18 A. Sabiendo que el módulo del campo magnético en su interior es B=5 x 10⁻⁴ T, determinar la longitud del solenoide.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Solenoide de radio 0,8 cm, con $L = 2\times10^{-5}$ H y corriente de 18 A. El campo adentro es $5\times10^{-4}$ T.
 - No dan ni el número de vueltas ni la longitud.
 - **Qué piden:** la longitud.
 - **Plan:** escribir la energía de dos formas, con $L$ y con $B$, e igualarlas. La longitud es la única incógnita.
+
+**La idea, aplicada a este ejercicio.**
+
+El solenoide guarda energía en el campo de su interior, y esa energía se puede escribir de dos formas:
+
+- con la inductancia y la corriente, $\tfrac12LI^2$, que son datos;
+- con el campo y el volumen interior, $\dfrac{B^2}{2\mu_0}\pi R^2\ell$, donde la única incógnita es $\ell$.
+
+Igualarlas da $\ell$ directamente, sin necesitar el número de vueltas.
 
 **Deducción de las tres ecuaciones.**
 
@@ -1112,7 +1387,15 @@ $$\tfrac12LI^2 = \frac{B^2}{2\mu_0}\pi R^2\ell \quad\Rightarrow\quad \ell = \fra
 
 Verificación por el otro camino: $n = B/(\mu_0 I) = 22{,}1$ m⁻¹ y $\ell = L/(\mu_0 n^2\pi R^2) = 162$ m ✓.
 
+</details>
+
+**Respuesta:** $\ell = 162$ m.
+
+</details>
+
 **Variantes.** [Simulacro, Ej. 3](simulacro-2do-parcial.md#ejercicio-3): es el mismo ejercicio con otros números, y además piden la energía $\tfrac12LI^2$.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Magnetostática, Ej. 24](../5%20-%20Magnetost%C3%A1tica/practica.md#ejercicio-24)
 
 ---
 
@@ -1154,6 +1437,12 @@ Los amperímetros y voltímetros miden **valores eficaces** (ver [0.10](#010-ley
 
 > En un circuito RLC serie con generador de alterna la frecuencia es de 50 Hz y la corriente adelanta en 30° a la tensión. La lectura del amperímetro es de 4 A, y la potencia aparente es de 800 VA. **a)** Calcular el valor de la resistencia. **b)** Si L=60 mH, determinar C. **c)** ¿Cuál es la frecuencia de resonancia?
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - La frecuencia es 50 Hz.
@@ -1163,6 +1452,12 @@ Los amperímetros y voltímetros miden **valores eficaces** (ver [0.10](#010-ley
 - **b)** Sabiendo que $L = 60$ mH, calcular $C$.
 - **c)** Frecuencia de resonancia: aquella en la que bobina y capacitor se compensan exactamente.
 - **Plan:** $Z$ a partir de $S$ e $I$; $R$ y la reactancia neta con la fase; $X_L$ con $L$ y $\omega$; $X_C$, y de ahí $C$.
+
+**La idea, aplicada a este ejercicio.**
+
+La corriente adelanta, así que el capacitor manda sobre la bobina ($X_C > X_L$). El amperímetro (4 A) y la potencia aparente (800 VA) dan la impedancia, la "resistencia total" del circuito: 50 Ω. Ese número combina la resistencia y la reactancia neta como la hipotenusa y los catetos de un triángulo rectángulo con un ángulo de 30°: el cateto horizontal es $R$ y el vertical, $X_C - X_L$.
+
+Con $L$ se sabe cuánto "empuja" la bobina a 50 Hz, y de ahí cuánto tiene que empujar el capacitor para ganarle por 25 Ω. La resonancia es la frecuencia en la que bobina y capacitor empatan.
 
 **Deducción de lo que se usa** (todo sale de $v = Zi$ con $Z = R + j(X_L - X_C)$, ver [0.10](#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)).
 
@@ -1183,7 +1478,15 @@ $$f_0 = \frac{1}{2\pi\sqrt{0{,}06\cdot72{,}6\times10^{-6}}}\ \text{Hz} = 76{,}3\
 
 Coherente: capacitivo y $50 < 76{,}3$ Hz ✓.
 
+</details>
+
+**Respuesta:** a) $R = 43{,}3\ \Omega$; b) $C = 72{,}6\ \mu$F; c) $f_0 = 76{,}3$ Hz.
+
+</details>
+
 **Variantes.** [2º Parcial 20/11/2015, Ej. 4](2015-11-20-2do-parcial.md#ejercicio-4): igual, pero dan C y piden L; también la potencia activa $P = V_{EF}I_{EF}\cos\varphi$.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 1](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-1) · [Alterna, Ej. 3](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-3) · [Alterna, Ej. 5](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-5) · [Alterna, Ej. 8](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-8) · [Alterna, Ej. 9](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-9)
 
 ---
 
@@ -1205,6 +1508,12 @@ Es una ecuación lineal en L. Se despeja L y luego $C = 1/(\omega_0^2L)$.
 
 > A un circuito RLC serie que opera a 40Hz y resuena a 50 Hz, se le suministra una potencia aparente de 60 VA. Si la corriente (cuyo valor eficaz es 0,6 A) adelanta 30° respecto de la tensión, calcule: **a)** el valor de *R*; **b)** los valores de *L* y *C*; **c)** la tensión eficaz en cada elemento.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - RLC serie que trabaja a 40 Hz y resuena a 50 Hz.
@@ -1212,6 +1521,14 @@ Es una ecuación lineal en L. Se despeja L y luego $C = 1/(\omega_0^2L)$.
 - **a)** $R$.
 - **b)** $L$ y $C$.
 - **c)** Tensión eficaz en cada elemento: lo que marcaría un voltímetro conectado a los bornes de cada uno.
+
+**La idea, aplicada a este ejercicio.**
+
+Como en el tipo 15, $S$ e $I$ dan $Z$, y con los 30° se separan $R$ y la reactancia neta. Dos cosas dicen que manda el capacitor: la corriente adelanta, y la frecuencia de trabajo (40 Hz) está por debajo de la de resonancia (50 Hz).
+
+No dan ni $L$ ni $C$, pero la resonancia dice que a 50 Hz bobina y capacitor empatan. Eso permite escribir $C$ en función de $L$, y la reactancia neta a 40 Hz queda con una sola incógnita, $L$.
+
+En c), cada elemento tiene su propia "resistencia" ($R$, $X_L$, $X_C$), y su tensión es esa "resistencia" por la corriente. Las tres tensiones no suman 100 V porque no están en fase.
 
 **a)** De $S = V_{EF}I_{EF}$: $V_{EF} = S/I_{EF} = 100$ V. Del módulo de $v = Zi$: $Z = V_{EF}/I_{EF} = 100/0{,}6 = 166{,}7\ \Omega$. De la parte real de $Z$: $R = Z\cos30^\circ = 144{,}3\ \Omega$. (Estas tres relaciones se deducen en el [tipo 15](#15-rlc-serie-a-partir-de-mediciones).)
 
@@ -1233,10 +1550,18 @@ $$V_R = 86{,}6\ \text{V} \qquad V_L = 89\ \text{V} \qquad V_C = 138{,}8\ \text{V
 
 **Las tensiones no se suman aritméticamente** (están desfasadas): $\sqrt{V_R^2 + (V_C - V_L)^2} = \sqrt{86{,}6^2 + 49{,}8^2} = 100$ V ✓.
 
+</details>
+
+**Respuesta:** a) $R = 144{,}3\ \Omega$; b) $L = 0{,}59$ H y $C = 17{,}2\ \mu$F; c) $V_R = 86{,}6$ V, $V_L = 89$ V y $V_C = 138{,}8$ V.
+
+</details>
+
 **Variantes.**
 
 - [2º Recuperatorio 18/02/2022, Ej. 5](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-5): dan potencia activa, factor de potencia y la corriente **de pico**. Entonces $R = 2P/I_0^2$ y $X = R\tan\varphi$. Trabaja por encima de la resonancia → inductivo. Además piden $S = P/\cos\varphi$ y $Q = S\mathrm{sen}\,\varphi$.
 - [1er Recuperatorio 12/12/2024, Ej. 3](2024-12-12-1er-recuperatorio-2do-parcial.md#ejercicio-3): el capacitor es **cilíndrico**; primero se calcula $C = 2\pi\varepsilon_0\ell/\ln(b/a) = 14{,}75$ nF. Como C ya se conoce, L sale directo de la resonancia: $L = 1/(\omega_0^2C)$.
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 6](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-6) · [Alterna, Ej. 10](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-10)
 
 ---
 
@@ -1260,12 +1585,27 @@ La primera solo existe si da positiva.
 
 > Un generador de alterna de frecuencia 50 Hz se conecta con una bobina cuya resistencia interna no es despreciable. La lectura del amperímetro es de 5 A, la potencia es de 100 W y el factor de potencia es 0,6. **a)** Determine la inductancia L de la bobina. **b)** Se desea conectar un capacitor en serie con la bobina, de tal modo que el nuevo factor de potencia sea 0,9. Determine dos valores posibles de C.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Una bobina con resistencia interna, conectada a un generador de 50 Hz.
 - El amperímetro marca 5 A; la potencia (activa) es 100 W; el factor de potencia es 0,6.
 - **a)** $L$ de la bobina.
 - **b)** Qué capacitor agregar en serie para que el factor de potencia pase a 0,9. Hay dos respuestas.
+
+**La idea, aplicada a este ejercicio.**
+
+La bobina sola es R y L en serie. Como solo R consume potencia, los 100 W con 5 A dicen cuánto vale R. El factor 0,6 dice qué fracción de $Z$ es $R$, y de ahí sale cuánto aporta la bobina ($X_L$).
+
+En b), el capacitor en serie resta reactancia. Para llegar a factor 0,9 la reactancia neta tiene que valer 1,94 Ω en módulo, y da lo mismo que sea $+1{,}94$ o $-1{,}94$:
+
+- $+1{,}94$: sigue mandando la bobina. El capacitor compensa poco: $X_C$ chica, o sea $C$ grande.
+- $-1{,}94$: el capacitor compensa de más, con $C$ más chico.
 
 "Bobina con resistencia interna" = R y L en serie.
 
@@ -1288,6 +1628,12 @@ $$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T\left[\cos\v
 $$X_C = 5{,}33 - 1{,}94 = 3{,}40\ \Omega \Rightarrow C_1 = \frac{1}{100\pi\cdot3{,}40}\ \text{F} = 937\ \mu\text{F}$$
 
 $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7{,}27}\ \text{F} = 438\ \mu\text{F}$$
+
+</details>
+
+**Respuesta:** a) $L = 17{,}0$ mH; b) $C_1 = 937\ \mu$F (queda inductivo) o $C_2 = 438\ \mu$F (queda capacitivo).
+
+</details>
 
 **Variantes.**
 
@@ -1317,11 +1663,23 @@ $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7
 
 ![Figura](img/2025-11-27-ej4.png)
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - El circuito tiene solo dos elementos, de entre R, L y C, y disipa 80 W a 100 Hz.
 - En el dibujo de fasores, la tensión está adelantada respecto de la corriente. Las amplitudes son 4 A y 80 V.
 - **Qué piden:** cuáles son los dos elementos y cuánto valen, o justificar que no hay solución.
+
+**La idea, aplicada a este ejercicio.**
+
+La flecha de la tensión va adelantada respecto de la de la corriente, así que el circuito es inductivo. Como disipa 80 W, uno de los dos elementos tiene que ser R. Entonces son R y L.
+
+Las amplitudes dan $Z = 80/4 = 20$ Ω. La potencia escrita con amplitudes, $\tfrac12V_0I_0\cos\varphi$, da el ángulo, y con él sale $R$. El resto del triángulo da $X_L$, y con la frecuencia, $L$. Hay que verificar que $\cos\varphi \le 1$: si diera más que 1, no habría solución.
 
 La tensión está adelantada → **R y L** en serie. *Por qué:* el argumento de $Z$ es el ángulo que la tensión adelanta a la corriente. Adelanto positivo significa parte imaginaria positiva, y de R, L y C el único que la aporta positiva es L ($+j\omega L$). Como además disipa potencia, el otro es R (L y C no disipan: la potencia media es $\tfrac12V_0I_0\cos90^\circ = 0$).
 
@@ -1338,6 +1696,14 @@ $$R = \frac{2P}{I_0^2} = \frac{160}{16} = 10\ \Omega \qquad Z = \frac{80}{4} = 2
 $$L = \frac{17{,}32}{2\pi\cdot100}\ \text{H} = 27{,}6\ \text{mH}$$
 
 El ángulo del dibujo es esquemático: solo importa cuál fasor va adelante.
+
+</details>
+
+**Respuesta:** Son R y L en serie: $R = 10\ \Omega$ y $L = 27{,}6$ mH.
+
+</details>
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 4](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-4)
 
 ---
 
@@ -1363,12 +1729,24 @@ El ángulo del dibujo es esquemático: solo importa cuál fasor va adelante.
 
 > **1:** Por encima de la frecuencia de resonancia, un circuito RLC serie es capacitivo. **2:** Si un RLC serie es inductivo, aumentando progresivamente C podemos llegar a tornarlo capacitivo. **3:** Una bobina con resistencia interna da un factor de potencia menor a 0,9; existen exactamente dos valores de C que, agregados en serie, llevan el factor de potencia a 0,9.
 
+<details>
+<summary><b>Solución</b></summary>
+
+<details>
+<summary>Solución paso a paso</summary>
+
 **Qué piden, en palabras.**
 
 - Hay tres afirmaciones y hay que decidir cuáles son verdaderas:
   - **1:** si un RLC es capacitivo por encima de la resonancia;
   - **2:** si aumentar C puede volver capacitivo a un circuito inductivo;
   - **3:** si hay exactamente dos capacitores que llevan a 0,9 el factor de potencia de una bobina.
+
+**La idea, aplicada a este ejercicio.**
+
+- **Afirmación 1.** Por encima de la resonancia la frecuencia es alta: la bobina se opone mucho y el capacitor poco, así que manda la bobina.
+- **Afirmación 2.** Aumentar C hace que el capacitor se oponga menos, porque un capacitor grande casi no llega a llenarse. El circuito se vuelve más inductivo, no menos.
+- **Afirmación 3.** Es el tipo 17: si la bobina sola tiene un factor de potencia peor que 0,9, hay dos capacitores que lo llevan a 0,9, uno que compensa poco y otro que compensa de más.
 
 Todo sale de la parte imaginaria de $Z$, $X(\omega, C) = \omega L - \dfrac{1}{\omega C}$, que es positiva para un circuito inductivo y negativa para uno capacitivo.
 
@@ -1377,6 +1755,14 @@ Todo sale de la parte imaginaria de $Z$, $X(\omega, C) = \omega L - \dfrac{1}{\o
 - **3 — Verdadera.** El factor de potencia es $\cos\varphi = R/\sqrt{R^2 + X^2}$, así que $\cos\varphi = 0{,}9$ equivale a $\lvert X\rvert = R\tan(\arccos0{,}9) = 0{,}484R$. La bobina sola tiene $X = X_L$; si su $\cos\varphi < 0{,}9$, entonces $X_L > 0{,}484R$. Con el capacitor, $X = X_L - X_C = \pm0{,}484R$ da $X_C = X_L\mp0{,}484R$, y las dos son positivas: hay exactamente dos valores de C.
 
 Respuesta: **solo una es verdadera**.
+
+</details>
+
+**Respuesta:** Solo la afirmación 3 es verdadera.
+
+</details>
+
+**Para practicar** (ejercicios ⭐ de la práctica): [Alterna, Ej. 12](../7%20-%20Corriente%20Alterna/practica.md#ejercicio-12)
 
 ---
 
