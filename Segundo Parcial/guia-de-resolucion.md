@@ -13,6 +13,8 @@ Se revisaron los 44 ejercicios de los 10 exámenes del 2º Parcial de esta carpe
 
 Primero conviene leer la [sección 0](#0-kit-mínimo-lo-que-am2-no-te-dio). Ahí está la idea central de la guía: todo el 2º Parcial sale de [seis leyes](#04-las-seis-leyes-lo-único-que-hay-que-memorizar), y cada fórmula que se usa en los ejercicios se deduce de una de ellas con una integral o una derivada. Después se puede ir directo al tipo que interese.
 
+Para practicar de a poco, con ejercicios que van de fácil a difícil, está la [guía de ejercicios](guia-de-ejercicios.md).
+
 Volver al [índice de parciales](README.md).
 
 ---

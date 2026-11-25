@@ -55,7 +55,7 @@ Teoría para el examen: [teoría del 1er Parcial](Primer%20Parcial/teoria.md).
 
 ### [2º Parcial](Segundo%20Parcial/README.md)
 
-Teoría para el examen: [teoría del 2º Parcial](Segundo%20Parcial/teoria.md).
+Teoría para el examen: [teoría del 2º Parcial](Segundo%20Parcial/teoria.md). Para aprender desde cero: [guía de ejercicios](Segundo%20Parcial/guia-de-ejercicios.md) (54 ejercicios de fácil a parcial) y [guía de resolución](Segundo%20Parcial/guia-de-resolucion.md).
 
 | Examen | Fecha |
 |---|---|
