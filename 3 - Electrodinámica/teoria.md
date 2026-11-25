@@ -41,9 +41,9 @@ $$I_m = \frac{\Delta Q}{\Delta t} \qquad\qquad \boxed{I = \frac{dQ}{dt}} \qquad 
 
 La corriente es **la carga que atraviesa una sección del conductor por unidad de tiempo**.
 
-**Corriente en términos microscópicos.** Si los portadores tienen carga $q$, densidad $n$ (portadores por unidad de volumen) y velocidad de deriva $v$, en un tiempo $\Delta t$ cruzan la sección $A$ todos los que están en un volumen $A\,v\,\Delta t$:
+**Corriente en términos microscópicos.** Si los portadores tienen carga $q$, densidad $n$ (portadores por unidad de volumen) y velocidad de deriva $v$, en un tiempo $\Delta t$ cruzan la sección $A$ todos los que están en un volumen $A\ v\ \Delta t$:
 
-$$\Delta Q = q\,n\,A\,v\,\Delta t \quad\Rightarrow\quad \boxed{I = q\,n\,A\,v}$$
+$$\Delta Q = q\ n\ A\ v\ \Delta t \quad\Rightarrow\quad \boxed{I = q\ n\ A\ v}$$
 
 (En una instalación domiciliaria, la velocidad de deriva resulta mucho más baja de lo que uno imaginaría: del orden de décimas de milímetro por segundo.)
 
@@ -53,18 +53,18 @@ $$\Delta Q = q\,n\,A\,v\,\Delta t \quad\Rightarrow\quad \boxed{I = q\,n\,A\,v}$$
 
 La **densidad de corriente** $\vec J$ es un vector cuyo módulo es la corriente por unidad de área y cuya dirección es la de la velocidad de deriva:
 
-$$I = \int_S \vec J\cdot\hat n\,ds \qquad \text{(uniforme y } \vec J\parallel\hat n\text{):}\quad J = \frac{I}{A} \qquad \vec J = q\,n\,\vec v \qquad [J] = \frac{\text{A}}{\text{m}^2}$$
+$$I = \int_S \vec J\cdot\hat n\ ds \qquad \text{(uniforme y } \vec J\parallel\hat n\text{):}\quad J = \frac{I}{A} \qquad \vec J = q\ n\ \vec v \qquad [J] = \frac{\text{A}}{\text{m}^2}$$
 
 **Materiales óhmicos.** Hay proporcionalidad directa entre la densidad de corriente y el campo:
 
-$$\boxed{\vec J = \sigma\,\vec E}$$
+$$\boxed{\vec J = \sigma\ \vec E}$$
 
 $\sigma$ es la **conductividad eléctrica** y depende del material:
 
 - $\sigma$ pequeña: un campo intenso produce una corriente débil (**dieléctricos**). El dieléctrico ideal tiene $\sigma = 0$.
 - $\sigma$ grande: un campo débil produce una corriente intensa (**conductores**). El conductor ideal ($\sigma \to \infty$) no existe.
 
-Se define el **ohm**: $\Omega = \text{V/A}$. Entonces $[\sigma] = \dfrac{1}{\text{m}\,\Omega}$.
+Se define el **ohm**: $\Omega = \text{V/A}$. Entonces $[\sigma] = \dfrac{1}{\text{m}\ \Omega}$.
 
 ---
 
@@ -72,13 +72,13 @@ Se define el **ohm**: $\Omega = \text{V/A}$. Entonces $[\sigma] = \dfrac{1}{\tex
 
 La **resistividad** es la inversa de la conductividad e indica cuánto se opone el material a la corriente:
 
-$$\boxed{\rho = \frac{1}{\sigma}} \qquad [\rho] = \Omega\,\text{m}$$
+$$\boxed{\rho = \frac{1}{\sigma}} \qquad [\rho] = \Omega\ \text{m}$$
 
 Depende de la temperatura. En los rangos de interés la dependencia es aproximadamente **lineal**:
 
-$$\boxed{\rho(T) = \rho_{20\,^\circ\text{C}}\,\big[1 + \alpha\,(T - 20\,^\circ\text{C})\big]}$$
+$$\boxed{\rho(T) = \rho_{20\ ^\circ\text{C}}\ \big[1 + \alpha\ (T - 20\ ^\circ\text{C})\big]}$$
 
-$\rho_{20\,^\circ\text{C}}$ y $\alpha$ (coeficiente de temperatura de la resistividad, $[\alpha] = 1/^\circ\text{C}$) están tabulados. Como $R \propto \rho$, la resistencia varía igual: $R(T) = R_{20}\,[1 + \alpha\,\Delta T]$.
+$\rho_{20\ ^\circ\text{C}}$ y $\alpha$ (coeficiente de temperatura de la resistividad, $[\alpha] = 1/^\circ\text{C}$) están tabulados. Como $R \propto \rho$, la resistencia varía igual: $R(T) = R_{20}\ [1 + \alpha\ \Delta T]$.
 
 ---
 
@@ -86,9 +86,9 @@ $\rho_{20\,^\circ\text{C}}$ y $\alpha$ (coeficiente de temperatura de la resisti
 
 Se toma un tramo de conductor de longitud $\ell$ y sección $A$, con campo uniforme:
 
-$$V_2 - V_1 = -\int_1^2\vec E\cdot d\vec\ell = -E\,\ell \qquad\text{con}\quad E = \frac{J}{\sigma} = \rho\,J = \rho\,\frac{I}{A}$$
+$$V_2 - V_1 = -\int_1^2\vec E\cdot d\vec\ell = -E\ \ell \qquad\text{con}\quad E = \frac{J}{\sigma} = \rho\ J = \rho\ \frac{I}{A}$$
 
-$$\boxed{V_1 - V_2 = R\,I}\quad(\text{ley de Ohm}) \qquad\qquad \boxed{R = \rho\,\frac{\ell}{A}} \qquad [R] = \Omega$$
+$$\boxed{V_1 - V_2 = R\ I}\quad(\text{ley de Ohm}) \qquad\qquad \boxed{R = \rho\ \frac{\ell}{A}} \qquad [R] = \Omega$$
 
 La ley de Ohm dice que, en los materiales óhmicos, la tensión y la corriente son **proporcionales**, con la **resistencia** como constante de proporcionalidad. La corriente circula del punto de **mayor** potencial al de **menor** potencial: al atravesar una resistencia **a favor** de la corriente, el potencial **cae** $RI$.
 
@@ -98,13 +98,13 @@ La ley de Ohm dice que, en los materiales óhmicos, la tensión y la corriente s
 
 ## 5. Potencia y efecto Joule
 
-Una carga $Q$ que atraviesa una caída de potencial $\Delta V$ pierde energía $Q\,\Delta V$, que se disipa como calor:
+Una carga $Q$ que atraviesa una caída de potencial $\Delta V$ pierde energía $Q\ \Delta V$, que se disipa como calor:
 
-$$P = \frac{dU}{dt} = \frac{d}{dt}(Q\,\Delta V) = I\,\Delta V$$
+$$P = \frac{dU}{dt} = \frac{d}{dt}(Q\ \Delta V) = I\ \Delta V$$
 
-$$\boxed{P = I\,\Delta V = I^2R = \frac{(\Delta V)^2}{R}} \qquad [P] = \text{W}$$
+$$\boxed{P = I\ \Delta V = I^2R = \frac{(\Delta V)^2}{R}} \qquad [P] = \text{W}$$
 
-Se elige la forma más cómoda: $I^2R$ si se conoce la corriente (elementos en serie) y $V^2/R$ si se conoce la tensión (elementos en paralelo). La energía disipada en un tiempo $t$ (con $P$ constante) es $E = P\,t$.
+Se elige la forma más cómoda: $I^2R$ si se conoce la corriente (elementos en serie) y $V^2/R$ si se conoce la tensión (elementos en paralelo). La energía disipada en un tiempo $t$ (con $P$ constante) es $E = P\ t$.
 
 ---
 
@@ -128,8 +128,8 @@ Casos útiles:
 
 **Divisores:**
 
-- Divisor de tensión (serie): $V_k = V\,\dfrac{R_k}{R_{eq}}$.
-- Divisor de corriente (dos en paralelo): $I_1 = I\,\dfrac{R_2}{R_1 + R_2}$.
+- Divisor de tensión (serie): $V_k = V\ \dfrac{R_k}{R_{eq}}$.
+- Divisor de corriente (dos en paralelo): $I_1 = I\ \dfrac{R_2}{R_1 + R_2}$.
 
 > **Puntos unidos por un cable** están al mismo potencial y se pueden "juntar" en un solo nodo. Una resistencia con ambos extremos al mismo potencial no lleva corriente.
 
@@ -143,7 +143,7 @@ Dos cilindros conductores coaxiales de radios $a < b$ y longitud $\ell$ tienen e
 
 La corriente atraviesa capas cilíndricas de radio $r$, espesor $dr$ y sección $A(r) = 2\pi r\ell$, **en serie**:
 
-$$dR = \rho\,\frac{dr}{2\pi r\,\ell} \quad\Rightarrow\quad \boxed{R = \frac{\rho}{2\pi\ell}\,\ln\!\left(\frac ba\right)}$$
+$$dR = \rho\ \frac{dr}{2\pi r\ \ell} \quad\Rightarrow\quad \boxed{R = \frac{\rho}{2\pi\ell}\ \ln\left(\frac ba\right)}$$
 
 ---
 
@@ -153,7 +153,7 @@ Un conductor aislado tiene todos sus puntos al mismo potencial y no hay corrient
 
 - Símbolo: dos placas paralelas. La **larga** es el borne **positivo** y la **corta** el **negativo**.
 - La fem es la circulación del campo **no conservativo** que establece la batería: $\mathcal E = \oint\vec E\cdot d\vec\ell$, $[\mathcal E] = \text{V}$.
-- La batería **no aporta cargas**: **hace trabajo**. Cuando una carga $q$ pasa del borne negativo al positivo, su energía aumenta en $q\mathcal E$. Si la corriente sale por el borne positivo, la batería **entrega** potencia $P = \mathcal E\,I$; si entra por el positivo, la **absorbe** (se está cargando).
+- La batería **no aporta cargas**: **hace trabajo**. Cuando una carga $q$ pasa del borne negativo al positivo, su energía aumenta en $q\mathcal E$. Si la corriente sale por el borne positivo, la batería **entrega** potencia $P = \mathcal E\ I$; si entra por el positivo, la **absorbe** (se está cargando).
 - La batería tiene una **resistencia interna**. Si es despreciable, la batería es **ideal**: la tensión entre bornes coincide con la fem solo si es ideal o si no circula corriente.
 - La batería es el elemento **activo** (entrega energía) y la resistencia el **pasivo** (la disipa irreversiblemente como calor).
 
@@ -221,8 +221,8 @@ Si los instrumentos **no son ideales**, se los reemplaza por su resistencia inte
 (Se desarrolla en el [Tema 4 — Capacitores](../4%20-%20Capacitores%20y%20Diel%C3%A9ctricos/teoria.md), pero aparece en la guía de este tema.)
 
 - En **régimen estacionario** un capacitor está cargado y **no circula corriente por su rama**. Se lo trata como un **circuito abierto**: las resistencias en serie con él no tienen caída de tensión.
-- Su carga es $Q = C\,V_C$, donde $V_C$ es la diferencia de potencial entre sus bornes, que se calcula con el resto del circuito. La energía almacenada es $U = \tfrac12CV_C^2$.
-- El tiempo que tarda en alcanzarse el régimen estacionario es de unas pocas **constantes de tiempo** $\tau = R\,C$ (típicamente se toma $\approx 5\tau$), donde $R$ es la resistencia que "ve" el capacitor.
+- Su carga es $Q = C\ V_C$, donde $V_C$ es la diferencia de potencial entre sus bornes, que se calcula con el resto del circuito. La energía almacenada es $U = \tfrac12CV_C^2$.
+- El tiempo que tarda en alcanzarse el régimen estacionario es de unas pocas **constantes de tiempo** $\tau = R\ C$ (típicamente se toma $\approx 5\tau$), donde $R$ es la resistencia que "ve" el capacitor.
 
 ---
 
@@ -235,12 +235,12 @@ Si los instrumentos **no son ideales**, se los reemplaza por su resistencia inte
 - La resistencia de 9 Ω tiene sus dos extremos unidos por un cable: está al mismo potencial y no lleva corriente.
 - 2 Ω y 5 Ω en paralelo: $R_{eq} = 1{,}43\ \Omega$.
 - Nodos (A y B dan la misma ecuación): $I_1 + I_3 = I_2$.
-- Malla I (horario): $21\ \text{V} = 1{,}43\,I_1 + 6\,I_2$.
-- Malla II (horario): $-1\ \text{V} = 6\,I_2 + 4\,I_3$.
+- Malla I (horario): $21\ \text{V} = 1{,}43\ I_1 + 6\ I_2$.
+- Malla II (horario): $-1\ \text{V} = 6\ I_2 + 4\ I_3$.
 - Resultado: $I_1 = 5{,}62$ A, $I_2 = 2{,}16$ A, $I_3 = -3{,}49$ A (circula al revés de lo supuesto).
 - Potencia entregada: $18\cdot I_1 + 3\cdot I_2 + 4\cdot|I_3| = 121{,}6$ W. Potencia disipada: $1{,}43I_1^2 + 6I_2^2 + 4I_3^2 = 121{,}9$ W. Son iguales salvo redondeo.
 - Corriente en la de 2 Ω: $I_4 = \dfrac{1{,}43}{2}\cdot5{,}62 = 4{,}02$ A, que disipa $P = 2\cdot4{,}02^2 = 32{,}3$ W.
-- $V_B = V_A + 3\ \text{V} - 6\,I_2 = V_A - 10\ \text{V}$, así que $V_A > V_B$.
+- $V_B = V_A + 3\ \text{V} - 6\ I_2 = V_A - 10\ \text{V}$, así que $V_A > V_B$.
 
 ### Puente de Wheatstone
 
@@ -261,7 +261,7 @@ Sirve para **medir una resistencia desconocida**: se varía $R_3$ hasta que un a
 | Corriente | $I = dQ/dt$, $I = qnAv$ |
 | Densidad de corriente | $J = I/A$, $\vec J = \sigma\vec E$ |
 | Resistividad | $\rho = 1/\sigma$, $\rho(T) = \rho_{20}[1 + \alpha(T - 20)]$ |
-| Resistencia | $R = \rho\,\ell/A$ |
+| Resistencia | $R = \rho\ \ell/A$ |
 | Ley de Ohm | $V = RI$ |
 | Potencia | $P = IV = I^2R = V^2/R$ |
 | Serie | $R_{eq} = \sum R_i$ (misma $I$) |

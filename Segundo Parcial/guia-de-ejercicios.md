@@ -59,15 +59,15 @@ c) Si en vez de 12 V se usara una pila de 24 V, ¿cuánto valdrían la carga y l
 
 **La idea, desde cero.** Un capacitor son dos placas metálicas enfrentadas que no se tocan. Al conectarlo a una pila, la pila saca electrones de una placa y los pone en la otra: una placa queda con carga $+Q$ y la otra con $-Q$. La corriente no atraviesa el capacitor, solo lo carga. A medida que se carga, la tensión entre sus placas crece, hasta igualar la de la pila; en ese momento deja de circular corriente. La relación entre carga y tensión de un capacitor es
 
-$$Q = C\,V$$
+$$Q = C\ V$$
 
 donde $C$, la **capacidad**, dice cuánta carga guarda por cada volt. Un faradio (F) es un coulomb por volt; $1\ \mu\text{F} = 10^{-6}$ F.
 
 Cargar un capacitor cuesta trabajo: para meter más carga hay que empujarla contra la que ya está. Ese trabajo queda guardado como energía.
 
-**Deducción de la energía** (atajo: $U = \tfrac12CV^2$). Cuando el capacitor ya tiene una carga $q$, la tensión entre sus placas es $v = q/C$. Llevar una carga pequeña $dq$ de una placa a la otra cuesta un trabajo $dW = v\,dq$ (la tensión es justamente energía por unidad de carga). La energía total es la suma de todos esos trabajos, desde $q = 0$ hasta la carga final $Q$:
+**Deducción de la energía** (atajo: $U = \tfrac12CV^2$). Cuando el capacitor ya tiene una carga $q$, la tensión entre sus placas es $v = q/C$. Llevar una carga pequeña $dq$ de una placa a la otra cuesta un trabajo $dW = v\ dq$ (la tensión es justamente energía por unidad de carga). La energía total es la suma de todos esos trabajos, desde $q = 0$ hasta la carga final $Q$:
 
-$$U = \int_0^Q v\,dq = \int_0^Q\frac{q}{C}\,dq = \frac1C\left[\frac{q^2}{2}\right]_0^Q = \frac{Q^2}{2C}$$
+$$U = \int_0^Q v\ dq = \int_0^Q\frac{q}{C}\ dq = \frac1C\left[\frac{q^2}{2}\right]_0^Q = \frac{Q^2}{2C}$$
 
 Reemplazando $Q = CV$: $U = \dfrac{(CV)^2}{2C} = \tfrac12CV^2$. El $\tfrac12$ aparece porque la tensión no fue siempre $V$: empezó en 0 y creció de a poco.
 
@@ -174,13 +174,13 @@ c) ¿Cuánta energía se disipó en la resistencia? ¿Depende del valor de $R$?
 
 **La idea, desde cero.** La energía se conserva: lo que entrega la pila tiene que ir a algún lado. Una parte queda guardada en el capacitor y el resto se pierde como calor en la resistencia (efecto Joule). Al final la corriente se detiene porque el capacitor llegó a la tensión de la pila. La diferencia clave entre la pila y el capacitor es que **la pila empuja cada coulomb con 20 V desde el principio**, mientras que el capacitor empezó en 0 V y fue subiendo.
 
-**Deducción de la energía guardada** (atajo: $U = \tfrac12CV^2$). Con carga $q$ el capacitor tiene tensión $q/C$, y agregar $dq$ cuesta $\frac qC\,dq$:
+**Deducción de la energía guardada** (atajo: $U = \tfrac12CV^2$). Con carga $q$ el capacitor tiene tensión $q/C$, y agregar $dq$ cuesta $\frac qC\ dq$:
 
-$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+$$U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
 
-**Deducción de la energía que entrega la pila** (atajo: $W = QV$). La pila mantiene su tensión $V$ **fija** mientras pasa cada pedacito de carga $dq$, y le entrega $V\,dq$:
+**Deducción de la energía que entrega la pila** (atajo: $W = QV$). La pila mantiene su tensión $V$ **fija** mientras pasa cada pedacito de carga $dq$, y le entrega $V\ dq$:
 
-$$W = \int_0^QV\,dq = V\int_0^Qdq = QV = CV^2$$
+$$W = \int_0^QV\ dq = V\int_0^Qdq = QV = CV^2$$
 
 Comparando: la pila entrega $CV^2$ y el capacitor guarda $\tfrac12CV^2$. **Siempre se pierde la mitad**, y en ninguna de las dos cuentas aparece $R$.
 
@@ -286,9 +286,9 @@ $$V_1 = \frac{48}{4} = 12\ \text{V} \qquad V_2 = \frac{48}{6} = 8\ \text{V} \qqu
 
 Con la misma carga, el capacitor más chico de una serie se queda con la mayor tensión ($V = Q/C$).
 
-**Paso 9 — Ítem d: energía.** *De dónde sale:* con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\,dq$. Sumando de 0 a $Q$:
+**Paso 9 — Ítem d: energía.** *De dónde sale:* con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\ dq$. Sumando de 0 a $Q$:
 
-$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+$$U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
 
 En μF y V, la energía sale en μJ:
 
@@ -335,19 +335,19 @@ b) la energía almacenada por el sistema *C<sub>1</sub> C<sub>2</sub>* antes de 
 - Llave en posición (2): $C_2$ queda conectado con $C_3 = 2$ μF, que estaba descargado.
 - **a)** La carga final de $C_3$. **b)** La energía guardada antes de mover la llave y después.
 
-**La idea, desde cero.** Un capacitor guarda carga: $Q = CV$. En serie, todos tienen la misma carga; en paralelo, la misma tensión. Cuando un capacitor cargado se desconecta de la pila y se conecta con otro descargado, la carga no puede aparecer ni desaparecer: **se conserva** y se reparte hasta que los dos quedan con la misma tensión. Es como dos tanques de agua que se conectan por abajo y quedan al mismo nivel. En ese reparto se pierde energía en forma de calor en los cables, aunque la carga total sea la misma. La energía de un capacitor es $U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
+**La idea, desde cero.** Un capacitor guarda carga: $Q = CV$. En serie, todos tienen la misma carga; en paralelo, la misma tensión. Cuando un capacitor cargado se desconecta de la pila y se conecta con otro descargado, la carga no puede aparecer ni desaparecer: **se conserva** y se reparte hasta que los dos quedan con la misma tensión. Es como dos tanques de agua que se conectan por abajo y quedan al mismo nivel. En ese reparto se pierde energía en forma de calor en los cables, aunque la carga total sea la misma. La energía de un capacitor es $U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
 
 **Deducción de la serie** (atajo: $C_s = \dfrac{C_1C_2}{C_1 + C_2}$). En serie los dos tienen la misma carga $Q$ (el metal entre ellos está aislado y era neutro), y la tensión de la pila se reparte: $V = \dfrac{Q}{C_1} + \dfrac{Q}{C_2}$. Un equivalente cumple $V = Q/C_s$, así que $\dfrac1{C_s} = \dfrac1{C_1} + \dfrac1{C_2}$.
 
 **Deducción del reparto** (atajo: $V' = \dfrac{Q_0}{C_2 + C_3}$). Cuando $C_2$, cargado, queda conectado a $C_3$, descargado, la carga solo puede pasar de uno al otro: $Q_2' + Q_3' = Q_0$. Al final no circula corriente, así que los dos tienen la misma tensión (están en paralelo): $Q_2' = C_2V'$ y $Q_3' = C_3V'$. Sumando, $(C_2 + C_3)V' = Q_0$.
 
-**Deducción de la energía** (atajo: $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$). $U = \displaystyle\int_0^Q\frac qC\,dq = \frac{Q^2}{2C}$: cada $dq$ que se agrega cuesta la tensión que ya tiene el capacitor.
+**Deducción de la energía** (atajo: $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$). $U = \displaystyle\int_0^Q\frac qC\ dq = \frac{Q^2}{2C}$: cada $dq$ que se agrega cuesta la tensión que ya tiene el capacitor.
 
 **Resolución.**
 
 **Paso 1 — Posición (1).** La llave une $C_1$ con $C_2$: quedan **en serie** con la pila de 10 V.
 
-$$C_s = \frac{C_1C_2}{C_1 + C_2} \qquad Q_0 = C_s\,V \qquad U_0 = \tfrac12C_sV^2$$
+$$C_s = \frac{C_1C_2}{C_1 + C_2} \qquad Q_0 = C_s\ V \qquad U_0 = \tfrac12C_sV^2$$
 
 $$C_s = \frac{72}{18} = 4\ \mu\text{F} \qquad Q_0 = 40\ \mu\text{C} \qquad U_0 = \tfrac12\cdot4\cdot100 = 200\ \mu\text{J}$$
 
@@ -406,7 +406,7 @@ $$E\cdot2\pi r\ell = \frac{\lambda\ell}{\varepsilon_0} \quad\Rightarrow\quad E(r
 
 **Deducción de la tensión.** La diferencia de potencial entre los cilindros es la integral del campo a lo largo de un radio:
 
-$$V = \int_a^bE\,dr = \frac{\lambda}{2\pi\varepsilon_0}\int_a^b\frac{dr}{r} = \frac{\lambda}{2\pi\varepsilon_0}\ln\frac ba$$
+$$V = \int_a^bE\ dr = \frac{\lambda}{2\pi\varepsilon_0}\int_a^b\frac{dr}{r} = \frac{\lambda}{2\pi\varepsilon_0}\ln\frac ba$$
 
 **Deducción de la capacidad** (atajo: $C = \dfrac{2\pi\varepsilon_0\ell}{\ln(b/a)}$).
 
@@ -463,11 +463,11 @@ El "tanque" de carga de este ejercicio es $C_1$. En la **etapa 1** la fuente de 
 
 **Deducción de las energías.**
 
-- *Energía guardada* (atajo: $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$). Para llevar una carga $dq$ de una placa a la otra cuando la tensión es $v = q/C$ hace falta $v\,dq$. Integrando de 0 a $Q$:
+- *Energía guardada* (atajo: $U = \tfrac12CV^2 = \dfrac{Q^2}{2C}$). Para llevar una carga $dq$ de una placa a la otra cuando la tensión es $v = q/C$ hace falta $v\ dq$. Integrando de 0 a $Q$:
 
-$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+$$U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
 
-- *Energía que entrega la fuente* (atajo: $QV$, el doble de lo guardado). La fuente mantiene su tensión $V$ **fija** mientras pasa toda la carga, así que $W = \displaystyle\int_0^QV\,dq = QV = CV^2$. La diferencia $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$ se disipa en las resistencias, valgan lo que valgan.
+- *Energía que entrega la fuente* (atajo: $QV$, el doble de lo guardado). La fuente mantiene su tensión $V$ **fija** mientras pasa toda la carga, así que $W = \displaystyle\int_0^QV\ dq = QV = CV^2$. La diferencia $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$ se disipa en las resistencias, valgan lo que valgan.
 - *Reparto.* Con la fuente desconectada, la carga de C₁ no tiene a dónde ir más que a C₂: se conserva. Al final C₁ y C₂ quedan conectados entre sí, en paralelo, con la misma tensión $V_f$, así que $Q_0 = C_1V_f + C_2V_f$. Lo que falta de energía se disipó en el camino.
 
 **Carga.** $Q_0 = 20\ \mu\text{F}\cdot60\ \text{V} = 1200\ \mu\text{C}$. Energía en C₁: $U_0 = \tfrac12\cdot20\times10^{-6}\cdot3600 = 36$ mJ. La fuente entregó $Q_0V = 72$ mJ, así que se disiparon $E_1 = 36$ mJ.
@@ -514,8 +514,8 @@ Los cables reales tienen algo de resistencia, y mientras circula corriente parte
 
 **Deducción de las energías** (atajos: $U = \tfrac12CV^2$; la fuente entrega $QV$).
 
-- *Energía guardada.* Con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\,dq$: $U = \displaystyle\int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
-- *Energía de la fuente.* La fuente empuja cada $dq$ con su tensión fija $V$: $W = \displaystyle\int_0^QV\,dq = QV = CV^2$. Es el doble de lo guardado: al cargar desde una fuente siempre se disipa la mitad.
+- *Energía guardada.* Con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\ dq$: $U = \displaystyle\int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
+- *Energía de la fuente.* La fuente empuja cada $dq$ con su tensión fija $V$: $W = \displaystyle\int_0^QV\ dq = QV = CV^2$. Es el doble de lo guardado: al cargar desde una fuente siempre se disipa la mitad.
 
 **Deducción del reparto** (atajo: $V_f = \dfrac{Q_0}{\sum C}$). Sin la fuente, la carga $Q_0$ de $C_1$ no puede aparecer ni desaparecer: solo se reparte. Al final no circula corriente y los capacitores conectados entre los mismos dos cables tienen la misma tensión $V_f$ (paralelo). Entonces $Q_0 = C_1V_f + C_2V_f + C_3V_f$.
 
@@ -600,21 +600,21 @@ d) ¿Y si el protón se moviera en la dirección $\hat y$?
 
 **La idea, desde cero.** Un campo magnético no hace nada sobre una carga quieta: solo empuja a las cargas **que se mueven**. La fuerza es
 
-$$\vec F = q\,\vec v\times\vec B$$
+$$\vec F = q\ \vec v\times\vec B$$
 
-El producto vectorial $\vec v\times\vec B$ da un vector **perpendicular a los dos**, de módulo $vB\,\mathrm{sen}\,\theta$ ($\theta$ = ángulo entre $\vec v$ y $\vec B$). Su sentido sale de la regla de la mano derecha, o con los versores de una terna derecha:
+El producto vectorial $\vec v\times\vec B$ da un vector **perpendicular a los dos**, de módulo $vB\ \mathrm{sen}\ \theta$ ($\theta$ = ángulo entre $\vec v$ y $\vec B$). Su sentido sale de la regla de la mano derecha, o con los versores de una terna derecha:
 
 $$\hat x\times\hat y = \hat z \qquad \hat y\times\hat z = \hat x \qquad \hat z\times\hat x = \hat y$$
 
 y al invertir el orden cambia el signo. Un vector paralelo a otro tiene producto vectorial nulo ($\hat y\times\hat y = 0$). El signo de $q$ importa: una carga negativa siente la fuerza en sentido contrario.
 
-**Paso 1 — Módulo (ítem a).** $\vec v\perp\vec B$, así que $\mathrm{sen}\,90^\circ = 1$:
+**Paso 1 — Módulo (ítem a).** $\vec v\perp\vec B$, así que $\mathrm{sen}\ 90^\circ = 1$:
 
 $$F = qvB = 1{,}6\times10^{-19}\cdot2\times10^5\cdot0{,}5\ \text{N} = 1{,}6\times10^{-14}\ \text{N}$$
 
 **Paso 2 — Dirección (ítem b).**
 
-$$\vec F = q\,v\,B\,(\hat x\times\hat y) = qvB\,\hat z$$
+$$\vec F = q\ v\ B\ (\hat x\times\hat y) = qvB\ \hat z$$
 
 Apunta en $+\hat z$, perpendicular a la velocidad y al campo (si $x$ va a la derecha e $y$ hacia arriba en la hoja, $\hat z$ sale de la hoja).
 
@@ -653,7 +653,7 @@ c) ¿Qué pasa con el radio y con el período si la velocidad se duplica?
 - Una carga que entra perpendicular a un campo magnético uniforme gira en círculos.
 - **a)** El tamaño del círculo. **b)** El tiempo de una vuelta. **c)** Cómo cambian si va más rápido.
 
-**La idea, desde cero.** La fuerza magnética $q\,\vec v\times\vec B$ es siempre perpendicular a la velocidad. Una fuerza perpendicular a la velocidad no acelera ni frena: solo cambia la dirección del movimiento, como la tensión de una soga que hace girar una piedra. Como el campo es uniforme y $v$ no cambia, la fuerza tiene siempre el mismo módulo y siempre apunta hacia un mismo punto: el movimiento es **circular uniforme**. En un movimiento circular uniforme, la fuerza que apunta al centro (centrípeta) tiene que valer $m\dfrac{v^2}{r}$ (segunda ley de Newton con la aceleración centrípeta $v^2/r$).
+**La idea, desde cero.** La fuerza magnética $q\ \vec v\times\vec B$ es siempre perpendicular a la velocidad. Una fuerza perpendicular a la velocidad no acelera ni frena: solo cambia la dirección del movimiento, como la tensión de una soga que hace girar una piedra. Como el campo es uniforme y $v$ no cambia, la fuerza tiene siempre el mismo módulo y siempre apunta hacia un mismo punto: el movimiento es **circular uniforme**. En un movimiento circular uniforme, la fuerza que apunta al centro (centrípeta) tiene que valer $m\dfrac{v^2}{r}$ (segunda ley de Newton con la aceleración centrípeta $v^2/r$).
 
 **Deducción del radio** (atajo: $r = \dfrac{mv}{\lvert q\rvert B}$). La fuerza magnética hace de fuerza centrípeta:
 
@@ -702,7 +702,7 @@ Un electrón (masa $m$ =9,1x10<sup>-31</sup> kg y carga $q$ =−1,6x10<sup>-19</
 - Un electrón con energía de 2 keV entra a un campo de 0,1 T formando 89° con él.
 - **Qué piden:** las características de la hélice que describe: período (tiempo de una vuelta), paso (lo que avanza por vuelta) y radio.
 
-**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\,\vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
+**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\ \vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
 
 $$\lvert q\rvert vB = \frac{mv^2}{r} \quad\Rightarrow\quad r = \frac{mv}{\lvert q\rvert B} \qquad T = \frac{2\pi r}{v} = \frac{2\pi m}{\lvert q\rvert B}$$
 
@@ -716,7 +716,7 @@ $$v_\perp = v\sin\theta \qquad v_\parallel = v\cos\theta \qquad v = \sqrt{\frac{
 
 **Paso 2 — Fórmulas de la hélice.**
 
-$$T = \frac{2\pi m}{|q|B} \qquad p = v_\parallel\,T \qquad r = \frac{m\,v_\perp}{|q|B}$$
+$$T = \frac{2\pi m}{|q|B} \qquad p = v_\parallel\ T \qquad r = \frac{m\ v_\perp}{|q|B}$$
 
 **Paso 3 — Cálculo.** $E = 2\ \text{keV} = 3{,}2\times10^{-16}$ J:
 
@@ -771,9 +771,9 @@ Se elige como curva una circunferencia de radio $d$ centrada en el hilo. Sobre e
 
 $$B\cdot2\pi d = \mu_0 I \quad\Rightarrow\quad B = \frac{\mu_0 I}{2\pi d}$$
 
-**Deducción con Biot-Savart** (el mismo resultado, como control). Cada pedacito del hilo aporta $dB = \dfrac{\mu_0 I}{4\pi}\dfrac{\lvert d\vec l\times\hat r\rvert}{r^2}$. Con el hilo sobre el eje $x$ y el punto a distancia $d$, $\lvert d\vec l\times\hat r\rvert/r^2 = \dfrac{d\,dx}{(x^2 + d^2)^{3/2}}$:
+**Deducción con Biot-Savart** (el mismo resultado, como control). Cada pedacito del hilo aporta $dB = \dfrac{\mu_0 I}{4\pi}\dfrac{\lvert d\vec l\times\hat r\rvert}{r^2}$. Con el hilo sobre el eje $x$ y el punto a distancia $d$, $\lvert d\vec l\times\hat r\rvert/r^2 = \dfrac{d\ dx}{(x^2 + d^2)^{3/2}}$:
 
-$$B = \frac{\mu_0 I}{4\pi}\int_{-\infty}^{\infty}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{-\infty}^{\infty} = \frac{\mu_0 I}{4\pi d}(1 - (-1)) = \frac{\mu_0 I}{2\pi d}\ ✓$$
+$$B = \frac{\mu_0 I}{4\pi}\int_{-\infty}^{\infty}\frac{d\ dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{-\infty}^{\infty} = \frac{\mu_0 I}{4\pi d}(1 - (-1)) = \frac{\mu_0 I}{2\pi d}\ ✓$$
 
 (primitiva con $x = d\tan u$.) $\mu_0 = 4\pi\times10^{-7}$ T m/A, así que $\dfrac{\mu_0}{2\pi} = 2\times10^{-7}$.
 
@@ -861,19 +861,19 @@ b) las corrientes son antiparalelas. (μ<sub>0</sub>=4π×10<sup>−7</sup> N/A<
 - Dos hilos paralelos a 0,6 m, con 0,2 A y 0,3 A.
 - **Qué piden:** la fuerza por metro que uno hace sobre el otro, con las corrientes en el mismo sentido y en sentidos opuestos.
 
-**La idea, desde cero.** Cada hilo está dentro del campo del otro. El hilo de arriba produce, en el de abajo, $B = \mu_0 i_1/(2\pi D)$ (Ampère), perpendicular al hilo. Sobre un metro del hilo de abajo actúa $F = i_2\cdot1\cdot B$ (fuerza sobre un cable, $i\,\vec\ell\times\vec B$). Haciendo el producto vectorial con las direcciones se ve que las corrientes del mismo sentido se atraen y las de sentido opuesto se repelen. El módulo es el mismo en los dos casos.
+**La idea, desde cero.** Cada hilo está dentro del campo del otro. El hilo de arriba produce, en el de abajo, $B = \mu_0 i_1/(2\pi D)$ (Ampère), perpendicular al hilo. Sobre un metro del hilo de abajo actúa $F = i_2\cdot1\cdot B$ (fuerza sobre un cable, $i\ \vec\ell\times\vec B$). Haciendo el producto vectorial con las direcciones se ve que las corrientes del mismo sentido se atraen y las de sentido opuesto se repelen. El módulo es el mismo en los dos casos.
 
 **Deducción del campo de un hilo** (atajo: $B = \dfrac{\mu_0 i}{2\pi d}$). Por simetría el campo del hilo es tangente a las circunferencias centradas en él y tiene el mismo módulo en toda la circunferencia de radio $d$. La ley de Ampère dice que la circulación del campo en una curva cerrada es $\mu_0$ por la corriente que la atraviesa. Sobre esa circunferencia, $\vec B\parallel d\vec l$:
 
 $$\oint\vec B\cdot d\vec l = B\cdot2\pi d = \mu_0 i \quad\Rightarrow\quad B = \frac{\mu_0 i}{2\pi d}$$
 
-**Deducción de la fuerza entre hilos** (atajo: $\dfrac F\ell = \dfrac{\mu_0 i_1i_2}{2\pi D}$). El hilo de abajo está dentro del campo del de arriba, $B_1 = \dfrac{\mu_0 i_1}{2\pi D}$, que es el mismo en todo el hilo y perpendicular a él. La fuerza sobre cada pedacito es $d\vec F = i_2\,d\vec l\times\vec B_1$, de módulo $i_2B_1\,dl$. Sumando sobre un largo $\ell$: $F = i_2\ell B_1$, y dividiendo por $\ell$ sale la fórmula. Haciendo el producto vectorial con las direcciones: si las corrientes van en el mismo sentido, la fuerza apunta hacia el otro hilo (atracción).
+**Deducción de la fuerza entre hilos** (atajo: $\dfrac F\ell = \dfrac{\mu_0 i_1i_2}{2\pi D}$). El hilo de abajo está dentro del campo del de arriba, $B_1 = \dfrac{\mu_0 i_1}{2\pi D}$, que es el mismo en todo el hilo y perpendicular a él. La fuerza sobre cada pedacito es $d\vec F = i_2\ d\vec l\times\vec B_1$, de módulo $i_2B_1\ dl$. Sumando sobre un largo $\ell$: $F = i_2\ell B_1$, y dividiendo por $\ell$ sale la fórmula. Haciendo el producto vectorial con las direcciones: si las corrientes van en el mismo sentido, la fuerza apunta hacia el otro hilo (atracción).
 
 **Resolución.**
 
 **Paso 1 — Fórmula.** El hilo inferior está en el campo del superior, $B = \mu_0 i_1/(2\pi D)$, perpendicular a él:
 
-$$\frac F\ell = i_2\,B = \frac{\mu_0\,i_1i_2}{2\pi D}$$
+$$\frac F\ell = i_2\ B = \frac{\mu_0\ i_1i_2}{2\pi D}$$
 
 **Paso 2 — Cálculo.**
 
@@ -965,13 +965,13 @@ c) ¿Cuánto valdría el campo en el centro si el cable fuera solo media circunf
 
 **La idea, desde cero.** La ley de **Biot-Savart** dice que cada pedacito de cable $d\vec l$ con corriente $I$ produce en un punto un campo
 
-$$d\vec B = \frac{\mu_0 I}{4\pi}\,\frac{d\vec l\times\hat r}{r^2}$$
+$$d\vec B = \frac{\mu_0 I}{4\pi}\ \frac{d\vec l\times\hat r}{r^2}$$
 
 donde $\hat r$ apunta del pedacito al punto y $r$ es la distancia. El campo total es la suma (integral) de todos los pedacitos. En el centro de una espira circular todo es sencillo: todos los pedacitos están a la misma distancia $R$, y cada uno es perpendicular al radio que lo une con el centro.
 
-**Deducción del campo de un arco** (atajo: $B = \dfrac{\mu_0 I\theta}{4\pi R}$). Como $d\vec l\perp\hat r$, $\lvert d\vec l\times\hat r\rvert = dl$, y todos los aportes apuntan en la misma dirección (perpendicular al plano de la espira). Con $dl = R\,d\varphi$ (arco de ángulo $d\varphi$):
+**Deducción del campo de un arco** (atajo: $B = \dfrac{\mu_0 I\theta}{4\pi R}$). Como $d\vec l\perp\hat r$, $\lvert d\vec l\times\hat r\rvert = dl$, y todos los aportes apuntan en la misma dirección (perpendicular al plano de la espira). Con $dl = R\ d\varphi$ (arco de ángulo $d\varphi$):
 
-$$B = \frac{\mu_0 I}{4\pi}\int\frac{dl}{R^2} = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\,d\varphi}{R^2} = \frac{\mu_0 I\theta}{4\pi R}$$
+$$B = \frac{\mu_0 I}{4\pi}\int\frac{dl}{R^2} = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\ d\varphi}{R^2} = \frac{\mu_0 I\theta}{4\pi R}$$
 
 Para la vuelta completa, $\theta = 2\pi$: $B = \dfrac{\mu_0 I}{2R}$.
 
@@ -1014,7 +1014,7 @@ Halle la expresión del vector ***B*** en el centro *C* de las siguientes config
 - Varias configuraciones de semicircunferencias concéntricas unidas por tramos rectos que apuntan al centro C, más una sucesión infinita (d).
 - **Qué piden:** el campo en C en cada caso.
 
-**La idea, desde cero.** Dos herramientas. (1) Un tramo recto cuya prolongación pasa por C no aporta campo en C, porque cada pedacito apunta hacia C ($d\vec l\parallel\hat r$). (2) Una semicircunferencia de radio $R$ centrada en C aporta $\dfrac{\mu_0 i}{4R}$. Sale de Biot-Savart: cada pedacito está a distancia $R$ y es perpendicular al radio, así que $B = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^\pi\frac{R\,d\varphi}{R^2} = \dfrac{\mu_0 i}{4R}$. El sentido sale de la mano derecha: recorrida antihoraria → saliente; horaria → entrante. Después se suma con signos.
+**La idea, desde cero.** Dos herramientas. (1) Un tramo recto cuya prolongación pasa por C no aporta campo en C, porque cada pedacito apunta hacia C ($d\vec l\parallel\hat r$). (2) Una semicircunferencia de radio $R$ centrada en C aporta $\dfrac{\mu_0 i}{4R}$. Sale de Biot-Savart: cada pedacito está a distancia $R$ y es perpendicular al radio, así que $B = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^\pi\frac{R\ d\varphi}{R^2} = \dfrac{\mu_0 i}{4R}$. El sentido sale de la mano derecha: recorrida antihoraria → saliente; horaria → entrante. Después se suma con signos.
 
 **Resolución.**
 
@@ -1037,11 +1037,11 @@ $$\vec B = \frac{\mu_0 i}{4}\left(\frac{1}{R_3} + \frac{1}{R_1} - \frac{1}{R_2}\
 
 **Paso 5 — (d).** Las semiespiras consecutivas se recorren alternadamente en un sentido y en el otro. Cada una aporta
 
-$$\frac{\mu_0 i_n}{4R_n} = \frac{\mu_0\,(i_0/n^2)}{4\,r_a/(2n)} = \frac{\mu_0 i_0}{2r_a}\cdot\frac1n$$
+$$\frac{\mu_0 i_n}{4R_n} = \frac{\mu_0\ (i_0/n^2)}{4\ r_a/(2n)} = \frac{\mu_0 i_0}{2r_a}\cdot\frac1n$$
 
 con signos alternados $(-1)^n$:
 
-$$\vec B = \frac{\mu_0 i_0}{2r_a}\sum_{n=1}^\infty\frac{(-1)^n}{n}\,\hat e_z = \frac{\mu_0 i_0}{2r_a}(-\ln2)\,\hat e_z = \frac{\mu_0 i}{2r_a}\ln2\,(-\hat e_z)$$
+$$\vec B = \frac{\mu_0 i_0}{2r_a}\sum_{n=1}^\infty\frac{(-1)^n}{n}\ \hat e_z = \frac{\mu_0 i_0}{2r_a}(-\ln2)\ \hat e_z = \frac{\mu_0 i}{2r_a}\ln2\ (-\hat e_z)$$
 
 **Paso 6 — Invertir la corriente.** En todos los casos el campo cambia de sentido (el módulo no cambia).
 
@@ -1078,9 +1078,9 @@ La figura muestra un segmento rectilíneo de alambre, de longitud *L*, que condu
 - Un segmento recto de largo $L$ con corriente $i$, y un punto P a distancia $R$ de su recta y a una altura $h > L/2$ del centro del segmento: el pie de la perpendicular cae **afuera** del segmento.
 - **Qué piden:** el campo en P.
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Como el pie de la perpendicular cae afuera del segmento, los dos extremos quedan del mismo lado: los dos senos tienen el mismo signo y se **restan**.
 
@@ -1125,9 +1125,9 @@ Calcule el campo magnético generado en su centro por una espira cuadrada de lad
 - Una espira cuadrada de lado $L$ con corriente $i$.
 - **Qué piden:** el campo en su centro.
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Cada lado es un tramo recto visto desde su mediatriz, a distancia $L/2$, y ve sus extremos a $\pm45^\circ$. Los cuatro lados aportan lo mismo y en el mismo sentido (perpendicular al plano), así que se multiplica por 4.
 
@@ -1139,13 +1139,13 @@ $$B_{lado} = \frac{\mu_0 i}{4\pi(L/2)}\left(\sin45^\circ - \sin(-45^\circ)\right
 
 **Paso 2 — Cuatro lados.** Todos aportan lo mismo y en el mismo sentido:
 
-$$B = 4\,B_{lado} = 2\sqrt2\,\frac{\mu_0 i}{\pi L}$$
+$$B = 4\ B_{lado} = 2\sqrt2\ \frac{\mu_0 i}{\pi L}$$
 
 **Paso 3 — Sentido.** En la figura la corriente circula en sentido **horario** (en el lado superior va hacia la derecha), así que el campo en el centro es **entrante**: $-\hat e_z$.
 
 </details>
 
-**Respuesta:** $\vec B = 2\sqrt2\,\dfrac{\mu_0 i}{\pi L}\,(-\hat e_z)$
+**Respuesta:** $\vec B = 2\sqrt2\ \dfrac{\mu_0 i}{\pi L}\ (-\hat e_z)$
 
 </details>
 
@@ -1178,21 +1178,21 @@ c) escriba ahora la expresión que permite calcular el campo generado por un ani
 
 **Resolución.**
 
-**Paso 1 — Biot-Savart.** Elemento en $\vec r' = R(\cos\phi';\ \sin\phi';\ 0)$, con $d\vec\ell = R\,d\phi'(-\sin\phi';\ \cos\phi';\ 0)$. Vector del elemento al punto $(0;0;z)$: $(-R\cos\phi';\ -R\sin\phi';\ z)$, de módulo $\sqrt{R^2 + z^2}$.
+**Paso 1 — Biot-Savart.** Elemento en $\vec r' = R(\cos\phi';\ \sin\phi';\ 0)$, con $d\vec\ell = R\ d\phi'(-\sin\phi';\ \cos\phi';\ 0)$. Vector del elemento al punto $(0;0;z)$: $(-R\cos\phi';\ -R\sin\phi';\ z)$, de módulo $\sqrt{R^2 + z^2}$.
 
 **Paso 2 — Producto vectorial.**
 
-$$d\vec\ell\times(\vec r - \vec r') = R\,d\phi'\,(z\cos\phi';\ z\sin\phi';\ R)$$
+$$d\vec\ell\times(\vec r - \vec r') = R\ d\phi'\ (z\cos\phi';\ z\sin\phi';\ R)$$
 
-$$\vec B(z) = \frac{\mu_0 i}{4\pi}\int\frac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi'$$
+$$\vec B(z) = \frac{\mu_0 i}{4\pi}\int\frac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi'$$
 
 **Paso 3 — Ítem a (de 0 a 2π).** Las integrales de $\cos\phi'$ y $\sin\phi'$ se anulan:
 
-$$\vec B(z) = \frac{\mu_0 i}{4\pi}\,\frac{2\pi R^2}{(R^2 + z^2)^{3/2}}\,\hat e_z = \frac{\mu_0 i}{2}\,\frac{R^2}{(R^2 + z^2)^{3/2}}\,\hat e_z$$
+$$\vec B(z) = \frac{\mu_0 i}{4\pi}\ \frac{2\pi R^2}{(R^2 + z^2)^{3/2}}\ \hat e_z = \frac{\mu_0 i}{2}\ \frac{R^2}{(R^2 + z^2)^{3/2}}\ \hat e_z$$
 
 **Paso 4 — Ítem b (de 0 a π).** $\int_0^\pi\cos\phi' = 0$, $\int_0^\pi\sin\phi' = 2$, $\int_0^\pi d\phi' = \pi$:
 
-$$\vec B(z) = \frac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\,\hat e_y + \pi R^2\,\hat e_z\right)$$
+$$\vec B(z) = \frac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\ \hat e_y + \pi R^2\ \hat e_z\right)$$
 
 Ahora aparece una componente perpendicular al eje, porque la media espira no es simétrica. La componente $z$ es la mitad de la del anillo completo, como era de esperar.
 
@@ -1202,9 +1202,9 @@ Ahora aparece una componente perpendicular al eje, porque la media espira no es 
 
 **Respuesta:**
 
-- a) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{2\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi' = \dfrac{\mu_0 i}{2}\,\dfrac{R^2}{(R^2 + z^2)^{3/2}}\,\hat e_z$
-- b) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi' = \dfrac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\,\hat e_y + \pi R^2\,\hat e_z\right)$
-- c) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_{\phi_1}^{\phi_2}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi'$
+- a) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{2\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi' = \dfrac{\mu_0 i}{2}\ \dfrac{R^2}{(R^2 + z^2)^{3/2}}\ \hat e_z$
+- b) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi' = \dfrac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\ \hat e_y + \pi R^2\ \hat e_z\right)$
+- c) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_{\phi_1}^{\phi_2}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi'$
 
 (La guía escribe en b el factor $\dfrac{\mu_0 i}{4(R^2 + z^2)^{3/2}}$, sin $\pi$ en el denominador. Así, la componente $z$ quedaría $\pi/2$ veces la del anillo completo, cuando tiene que ser la mitad: falta el $\pi$.)
 
@@ -1261,7 +1261,7 @@ Coherente: el cero quedó del lado del hilo con menos corriente.
 
 $$B = \frac{\mu_0}{2\pi}\left(\frac{I_1}{0{,}04} + \frac{I_2}{0{,}04}\right) = 2\times10^{-7}\cdot\frac{6}{0{,}04}\ \text{T} = 30\ \mu\text{T}$$
 
-**c)** El campo de un hilo es tangente a circunferencias alrededor del hilo, o sea **perpendicular** a él. La velocidad es paralela a los hilos, así que $\vec v\perp\vec B$ y, de $\vec F = q\,\vec v\times\vec B$, el módulo es $\lvert\vec F\rvert = qvB\,\mathrm{sen}\,90^\circ = qvB$:
+**c)** El campo de un hilo es tangente a circunferencias alrededor del hilo, o sea **perpendicular** a él. La velocidad es paralela a los hilos, así que $\vec v\perp\vec B$ y, de $\vec F = q\ \vec v\times\vec B$, el módulo es $\lvert\vec F\rvert = qvB\ \mathrm{sen}\ 90^\circ = qvB$:
 
 $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\text{N}$$
 
@@ -1308,19 +1308,19 @@ Para b): con corrientes del mismo sentido, los campos solo se oponen **entre** l
 
 En la figura P está a la derecha del hilo 2, a $H = D/5$ de él (o sea a $6D/5$ del hilo 1).
 
-**Deducción de la fuerza entre hilos** (atajo: $\dfrac F\ell = \dfrac{\mu_0 I_1I_2}{2\pi D}$, paralelas se atraen). Hilo 1 sobre el eje $y$ con $I_1$ hacia arriba, hilo 2 en $x = D$. El campo del hilo 1 en el hilo 2 sale de Ampère ([tipo 2](guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)): $\vec B_1 = -\dfrac{\mu_0 I_1}{2\pi D}\hat z$ (entrante, a la derecha del hilo). Es el mismo en todo el hilo 2, así que integrar $d\vec F = I_2\,d\vec l\times\vec B_1$ sobre un largo $\ell$ con $I_2$ hacia arriba da
+**Deducción de la fuerza entre hilos** (atajo: $\dfrac F\ell = \dfrac{\mu_0 I_1I_2}{2\pi D}$, paralelas se atraen). Hilo 1 sobre el eje $y$ con $I_1$ hacia arriba, hilo 2 en $x = D$. El campo del hilo 1 en el hilo 2 sale de Ampère ([tipo 2](guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)): $\vec B_1 = -\dfrac{\mu_0 I_1}{2\pi D}\hat z$ (entrante, a la derecha del hilo). Es el mismo en todo el hilo 2, así que integrar $d\vec F = I_2\ d\vec l\times\vec B_1$ sobre un largo $\ell$ con $I_2$ hacia arriba da
 
-$$\vec F = I_2\ell\,\hat y\times\left(-\frac{\mu_0 I_1}{2\pi D}\hat z\right) = -\frac{\mu_0 I_1I_2\ell}{2\pi D}\,\hat x$$
+$$\vec F = I_2\ell\ \hat y\times\left(-\frac{\mu_0 I_1}{2\pi D}\hat z\right) = -\frac{\mu_0 I_1I_2\ell}{2\pi D}\ \hat x$$
 
 Apunta hacia el hilo 1: corrientes del mismo sentido se **atraen**. Si $I_2$ bajara, cambiaría el signo y se repelerían.
 
 **a)** Se atraen → I₂ va en el **mismo sentido** que I₁ (hacia arriba). Su valor:
 
-$$\frac{\mu_0 I\,I_2}{2\pi D} = \frac{4\mu_0 I^2}{3\pi D} \quad\Rightarrow\quad I_2 = \frac83 I$$
+$$\frac{\mu_0 I\ I_2}{2\pi D} = \frac{4\mu_0 I^2}{3\pi D} \quad\Rightarrow\quad I_2 = \frac83 I$$
 
 P está a la derecha de ambos hilos y las dos corrientes suben: los dos campos son **entrantes** y se suman. Cada uno es el de un hilo infinito, $\dfrac{\mu_0 I}{2\pi d}$ (deducido con Ampère en el [tipo 2](guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)):
 
-$$B_P = \frac{\mu_0 I}{2\pi(6D/5)} + \frac{\mu_0(8I/3)}{2\pi(D/5)} = \frac{\mu_0 I}{2\pi D}\left(\frac56 + \frac{40}{3}\right) = \frac{85\,\mu_0 I}{12\pi D}\ \text{entrante}$$
+$$B_P = \frac{\mu_0 I}{2\pi(6D/5)} + \frac{\mu_0(8I/3)}{2\pi(D/5)} = \frac{\mu_0 I}{2\pi D}\left(\frac56 + \frac{40}{3}\right) = \frac{85\ \mu_0 I}{12\pi D}\ \text{entrante}$$
 
 **b)** Corrientes paralelas → el cero está **entre** los hilos. A distancia $x$ del hilo 1:
 
@@ -1328,7 +1328,7 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 
 </details>
 
-**Respuesta:** a) $I_2 = \tfrac83I$, en el mismo sentido que $I_1$; $B_P = \dfrac{85\,\mu_0 I}{12\pi D}$, entrante. b) Sí: sobre la recta entre los hilos, a $x = \tfrac{3D}{11}$ del hilo 1.
+**Respuesta:** a) $I_2 = \tfrac83I$, en el mismo sentido que $I_1$; $B_P = \dfrac{85\ \mu_0 I}{12\pi D}$, entrante. b) Sí: sobre la recta entre los hilos, a $x = \tfrac{3D}{11}$ del hilo 1.
 
 </details>
 
@@ -1360,9 +1360,9 @@ En la espira rectangular, cada uno de los cuatro lados es un tramo recto de cabl
 
 En b) se busca una espira circular "equivalente". Su campo es $\mu_0 I/2R$, así que cuanto más chico el radio, más campo. Con 0,5 A (cuatro veces menos corriente) va a hacer falta un radio chico.
 
-**Deducción del campo de un lado** (atajo para el rectángulo entero: $B = \dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$). Biot-Savart sobre un tramo recto de largo $\ell$, visto desde su mediatriz a distancia $d$. Con el tramo sobre el eje $x$ y el origen en el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{d\,dx}{\sqrt{x^2 + d^2}}$ y
+**Deducción del campo de un lado** (atajo para el rectángulo entero: $B = \dfrac{2\mu_0 I\sqrt{a^2 + b^2}}{\pi ab}$). Biot-Savart sobre un tramo recto de largo $\ell$, visto desde su mediatriz a distancia $d$. Con el tramo sobre el eje $x$ y el origen en el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{d\ dx}{\sqrt{x^2 + d^2}}$ y
 
-$$B_{lado} = \frac{\mu_0 I}{4\pi}\int_{-\ell/2}^{\ell/2}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{-\ell/2}^{\ell/2} = \frac{\mu_0 I}{4\pi d}\cdot\frac{\ell}{\sqrt{(\ell/2)^2 + d^2}}$$
+$$B_{lado} = \frac{\mu_0 I}{4\pi}\int_{-\ell/2}^{\ell/2}\frac{d\ dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{-\ell/2}^{\ell/2} = \frac{\mu_0 I}{4\pi d}\cdot\frac{\ell}{\sqrt{(\ell/2)^2 + d^2}}$$
 
 (primitiva con $x = d\tan u$, o verificar derivando). Con la corriente circulando, los cuatro lados dan campo en el mismo sentido (perpendicular al plano), así que se suman.
 
@@ -1378,9 +1378,9 @@ $$B = 2(14{,}31 + 3{,}58)\ \mu\text{T} = 35{,}8\ \mu\text{T}$$
 
 Con el atajo: $\dfrac{2\cdot4\pi\times10^{-7}\cdot2\cdot\sqrt{0{,}05^2 + 0{,}10^2}}{\pi\cdot0{,}05\cdot0{,}10} = 35{,}8\ \mu\text{T}$ ✓.
 
-**b)** **Deducción del campo de la espira circular en el centro** (atajo: $\dfrac{\mu_0 I}{2R}$). Biot-Savart: cada elemento está a distancia $R$ y es perpendicular al radio, así que $\lvert d\vec l\times\hat r\rvert = dl = R\,d\varphi$. Integrando la vuelta entera:
+**b)** **Deducción del campo de la espira circular en el centro** (atajo: $\dfrac{\mu_0 I}{2R}$). Biot-Savart: cada elemento está a distancia $R$ y es perpendicular al radio, así que $\lvert d\vec l\times\hat r\rvert = dl = R\ d\varphi$. Integrando la vuelta entera:
 
-$$B = \frac{\mu_0 I}{4\pi}\int_0^{2\pi}\frac{R\,d\varphi}{R^2} = \frac{\mu_0 I}{2R}$$
+$$B = \frac{\mu_0 I}{4\pi}\int_0^{2\pi}\frac{R\ d\varphi}{R^2} = \frac{\mu_0 I}{2R}$$
 
 Igualando:
 
@@ -1419,7 +1419,7 @@ Un anillo de radio R=8 cm, cuyo eje coincide con el eje de las Z y cuyo centro e
 
 - Un **anillo** (espira circular) con corriente produce sobre su eje un campo dirigido a lo largo del eje, que se debilita al alejarse del anillo.
 - Un **hilo** produce un campo que da vueltas alrededor de él.
-- Una **carga** que se mueve dentro de un campo siente la fuerza $q\,\vec v\times\vec B$. Esa fuerza es perpendicular a la velocidad y al campo, y vale cero si la carga se mueve paralela al campo.
+- Una **carga** que se mueve dentro de un campo siente la fuerza $q\ \vec v\times\vec B$. Esa fuerza es perpendicular a la velocidad y al campo, y vale cero si la carga se mueve paralela al campo.
 
 **La idea, aplicada a este ejercicio.**
 
@@ -1429,27 +1429,27 @@ La carga sube por el eje, paralela al campo del anillo, y esa parte del campo no
 
 Ejes: $\hat k$ hacia arriba (eje del anillo), $\hat\imath$ en el sentido de la corriente del hilo, $\hat\jmath = \hat k\times\hat\imath$. El anillo circula en sentido antihorario visto desde arriba.
 
-**Deducción del campo del anillo en su eje** (atajo: $B = \dfrac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$). Biot-Savart: cada elemento $d\vec l$ del anillo está a distancia $r = \sqrt{R^2 + z^2}$ del punto y es perpendicular a $\vec r$, así que $\lvert d\vec B\rvert = \dfrac{\mu_0 I\,dl}{4\pi r^2}$. El elemento diametralmente opuesto da un $d\vec B$ con la misma componente sobre el eje y la componente perpendicular al eje opuesta: estas se cancelan de a pares. La componente axial es $dB\cdot\dfrac Rr$ (el ángulo entre $d\vec B$ y el eje es el mismo que entre $\vec r$ y el plano del anillo). Integrando sobre el anillo, $\displaystyle\oint dl = 2\pi R$:
+**Deducción del campo del anillo en su eje** (atajo: $B = \dfrac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$). Biot-Savart: cada elemento $d\vec l$ del anillo está a distancia $r = \sqrt{R^2 + z^2}$ del punto y es perpendicular a $\vec r$, así que $\lvert d\vec B\rvert = \dfrac{\mu_0 I\ dl}{4\pi r^2}$. El elemento diametralmente opuesto da un $d\vec B$ con la misma componente sobre el eje y la componente perpendicular al eje opuesta: estas se cancelan de a pares. La componente axial es $dB\cdot\dfrac Rr$ (el ángulo entre $d\vec B$ y el eje es el mismo que entre $\vec r$ y el plano del anillo). Integrando sobre el anillo, $\displaystyle\oint dl = 2\pi R$:
 
 $$B = \frac{\mu_0 I}{4\pi r^2}\cdot\frac Rr\cdot2\pi R = \frac{\mu_0 IR^2}{2r^3} = \frac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$$
 
 **a)** *Anillo* (en $z_1 = 0{,}10$ m, apunta en $+\hat k$ por la mano derecha):
 
-$$B_a = \frac{4\pi\times10^{-7}\cdot2\cdot0{,}08^2}{2\,(0{,}08^2 + 0{,}10^2)^{3/2}}\ \text{T} = \frac{1{,}608\times10^{-8}}{2\cdot0{,}0021}\ \text{T} = 3{,}83\ \mu\text{T}$$
+$$B_a = \frac{4\pi\times10^{-7}\cdot2\cdot0{,}08^2}{2\ (0{,}08^2 + 0{,}10^2)^{3/2}}\ \text{T} = \frac{1{,}608\times10^{-8}}{2\cdot0{,}0021}\ \text{T} = 3{,}83\ \mu\text{T}$$
 
 *Hilo* (está en $z_2$, a $d = 8$ cm por encima del punto). Módulo $\dfrac{\mu_0 I}{2\pi d}$, de la circulación de Ampère sobre una circunferencia de radio $d$ ($B\cdot2\pi d = \mu_0 I$, ver [tipo 2](guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)). Dirección: la de $d\vec l\times\hat r$ de Biot-Savart, con $d\vec l\parallel\hat\imath$ y, del hilo al punto, $\hat u = -\hat k$. Queda $\hat\imath\times(-\hat k) = \hat\jmath$:
 
 $$B_h = \frac{2\times10^{-7}\cdot2}{0{,}08}\ \text{T} = 5\ \mu\text{T}$$
 
-$$\vec B(z_1) = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu\text{T}$$
+$$\vec B(z_1) = (5\ \hat\jmath + 3{,}83\ \hat k)\ \mu\text{T}$$
 
 **b)** $\vec v = v\hat k$. La parte $\hat k$ del campo (la del anillo) es paralela a $\vec v$ y no aporta:
 
-$$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -qvB_h\,\hat\imath = -6\times10^{-6}\cdot5\times10^4\cdot5\times10^{-6}\ \text{N}\ \hat\imath = -1{,}5\ \mu\text{N}\ \hat\imath$$
+$$\vec F = q\ v\ B_h\ (\hat k\times\hat\jmath) = -qvB_h\ \hat\imath = -6\times10^{-6}\cdot5\times10^4\cdot5\times10^{-6}\ \text{N}\ \hat\imath = -1{,}5\ \mu\text{N}\ \hat\imath$$
 
 </details>
 
-**Respuesta:** a) $\vec B(z_1) = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu\text{T}$; b) $\vec F = -1{,}5\ \mu\text{N}\ \hat\imath$.
+**Respuesta:** a) $\vec B(z_1) = (5\ \hat\jmath + 3{,}83\ \hat k)\ \mu\text{T}$; b) $\vec F = -1{,}5\ \mu\text{N}\ \hat\imath$.
 
 </details>
 
@@ -1487,7 +1487,7 @@ El cable tiene tres pedazos:
 
 - **El tramo de entrada** viene por una recta que pasa justo por P. Cada pedacito apunta hacia P, así que no aporta.
 - **El arco** está todo a 8 cm de P, y cada pedacito aporta lo mismo. Alcanza con saber cuántos radianes recorre: media vuelta más 30°.
-- **El tramo de salida** es recto pero no pasa por P: va un poco más abajo, a $R\,\mathrm{sen}\,\alpha$. Aporta, pero poco, y hacia el lado contrario que el arco, porque visto desde P la corriente gira en el sentido opuesto.
+- **El tramo de salida** es recto pero no pasa por P: va un poco más abajo, a $R\ \mathrm{sen}\ \alpha$. Aporta, pero poco, y hacia el lado contrario que el arco, porque visto desde P la corriente gira en el sentido opuesto.
 
 El resultado es el campo del arco menos el del tramo de salida.
 
@@ -1497,23 +1497,23 @@ P es el centro del arco. El cable llega desde la izquierda por la horizontal que
 
 **Arco.** Recorre media vuelta más α: $\theta = \pi + \alpha = 7\pi/6$. Gira en sentido horario alrededor de P → **entrante**.
 
-*Deducción* (atajo: $\dfrac{\mu_0 I\theta}{4\pi R}$). Biot-Savart con cada elemento a distancia $R$ y perpendicular al radio: $\lvert d\vec l\times\hat r\rvert = R\,d\varphi$, y
+*Deducción* (atajo: $\dfrac{\mu_0 I\theta}{4\pi R}$). Biot-Savart con cada elemento a distancia $R$ y perpendicular al radio: $\lvert d\vec l\times\hat r\rvert = R\ d\varphi$, y
 
-$$B_{arco} = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\,d\varphi}{R^2} = \frac{\mu_0 I\theta}{4\pi R}$$
+$$B_{arco} = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\ d\varphi}{R^2} = \frac{\mu_0 I\theta}{4\pi R}$$
 
 Con $\theta = 7\pi/6$:
 
-$$B_{arco} = \frac{\mu_0 I\,(7\pi/6)}{4\pi R} = \frac{7\mu_0 I}{24R} = \frac{7\cdot4\pi\times10^{-7}\cdot2}{24\cdot0{,}08}\ \text{T} = 9{,}16\ \mu\text{T}$$
+$$B_{arco} = \frac{\mu_0 I\ (7\pi/6)}{4\pi R} = \frac{7\mu_0 I}{24R} = \frac{7\cdot4\pi\times10^{-7}\cdot2}{24\cdot0{,}08}\ \text{T} = 9{,}16\ \mu\text{T}$$
 
-**Tramo de salida.** Es horizontal y está a $d = R\mathrm{sen}\,\alpha = 4$ cm por debajo de P. El pie de la perpendicular queda justo debajo de P. Con el origen ahí, el tramo va de $x_1 = R\cos\alpha$ a $+\infty$.
+**Tramo de salida.** Es horizontal y está a $d = R\mathrm{sen}\ \alpha = 4$ cm por debajo de P. El pie de la perpendicular queda justo debajo de P. Con el origen ahí, el tramo va de $x_1 = R\cos\alpha$ a $+\infty$.
 
-*Deducción* (atajo: $\dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$). Biot-Savart sobre el tramo recto, con $\lvert d\vec l\times\hat r\rvert = \dfrac{d\,dx}{\sqrt{x^2 + d^2}}$:
+*Deducción* (atajo: $\dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\ \beta_2 - \mathrm{sen}\ \beta_1)$). Biot-Savart sobre el tramo recto, con $\lvert d\vec l\times\hat r\rvert = \dfrac{d\ dx}{\sqrt{x^2 + d^2}}$:
 
-$$B_{rec} = \frac{\mu_0 I}{4\pi}\int_{R\cos\alpha}^{\infty}\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{R\cos\alpha}^{\infty} = \frac{\mu_0 I}{4\pi d}\left(1 - \frac{R\cos\alpha}{R}\right)$$
+$$B_{rec} = \frac{\mu_0 I}{4\pi}\int_{R\cos\alpha}^{\infty}\frac{d\ dx}{(x^2 + d^2)^{3/2}} = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{R\cos\alpha}^{\infty} = \frac{\mu_0 I}{4\pi d}\left(1 - \frac{R\cos\alpha}{R}\right)$$
 
 (en el límite inferior, $\sqrt{R^2\cos^2\alpha + R^2\mathrm{sen}^2\alpha} = R$). Entonces:
 
-$$B_{rec} = \frac{\mu_0 I}{4\pi R\mathrm{sen}\,\alpha}(1 - \cos\alpha) = \frac{10^{-7}\cdot2}{0{,}04}(1 - 0{,}866)\ \text{T} = 0{,}67\ \mu\text{T}$$
+$$B_{rec} = \frac{\mu_0 I}{4\pi R\mathrm{sen}\ \alpha}(1 - \cos\alpha) = \frac{10^{-7}\cdot2}{0{,}04}(1 - 0{,}866)\ \text{T} = 0{,}67\ \mu\text{T}$$
 
 Corriente hacia la derecha con P por encima: $\hat x\times\hat y = \hat z$ → **saliente**.
 
@@ -1557,7 +1557,7 @@ La partícula entra oblicua (a 80° del campo), así que describe una hélice: g
 
 En la segunda situación la partícula entra perpendicular: toda su velocidad la hace girar, sin avanzar, y el radio depende justo de $mv/\lvert q\rvert$. No hace falta saber qué partícula es.
 
-**Deducción del radio, el período y el paso** (atajos: $r = \dfrac{mv_\perp}{\lvert q\rvert B}$, $T = \dfrac{2\pi m}{\lvert q\rvert B}$, $p = v_\parallel T$). La fuerza $q\,\vec v\times\vec B$ es perpendicular a $\vec B$, así que no cambia $v_\parallel$; y es perpendicular a $\vec v$, así que no cambia el módulo de la velocidad. En el plano perpendicular a $\vec B$ queda una fuerza de módulo constante $\lvert q\rvert v_\perp B$, siempre perpendicular a la velocidad: es un movimiento circular uniforme, y esa fuerza es la centrípeta. Por Newton:
+**Deducción del radio, el período y el paso** (atajos: $r = \dfrac{mv_\perp}{\lvert q\rvert B}$, $T = \dfrac{2\pi m}{\lvert q\rvert B}$, $p = v_\parallel T$). La fuerza $q\ \vec v\times\vec B$ es perpendicular a $\vec B$, así que no cambia $v_\parallel$; y es perpendicular a $\vec v$, así que no cambia el módulo de la velocidad. En el plano perpendicular a $\vec B$ queda una fuerza de módulo constante $\lvert q\rvert v_\perp B$, siempre perpendicular a la velocidad: es un movimiento circular uniforme, y esa fuerza es la centrípeta. Por Newton:
 
 $$\lvert q\rvert v_\perp B = m\frac{v_\perp^2}{r} \quad\Rightarrow\quad r = \frac{mv_\perp}{\lvert q\rvert B} \qquad T = \frac{2\pi r}{v_\perp} = \frac{2\pi m}{\lvert q\rvert B}$$
 
@@ -1612,11 +1612,11 @@ c) el campo es paralelo al plano de la espira.
 
 $$\phi = \iint\vec B\cdot d\vec A$$
 
-donde $d\vec A$ es un vector perpendicular a cada pedacito de superficie, de módulo igual a su área. El producto escalar $\vec B\cdot d\vec A = B\,dA\cos\theta$ se queda solo con la parte del campo que atraviesa la superficie ($\theta$ = ángulo entre $\vec B$ y la normal).
+donde $d\vec A$ es un vector perpendicular a cada pedacito de superficie, de módulo igual a su área. El producto escalar $\vec B\cdot d\vec A = B\ dA\cos\theta$ se queda solo con la parte del campo que atraviesa la superficie ($\theta$ = ángulo entre $\vec B$ y la normal).
 
 **Deducción del flujo uniforme** (atajo: $\phi = BA\cos\theta$). Si $\vec B$ es el mismo en toda la espira y la espira es plana, $B$ y $\cos\theta$ salen de la integral:
 
-$$\phi = \iint B\cos\theta\,dA = B\cos\theta\iint dA = BA\cos\theta$$
+$$\phi = \iint B\cos\theta\ dA = B\cos\theta\iint dA = BA\cos\theta$$
 
 La unidad es T m² = Wb (weber).
 
@@ -1669,7 +1669,7 @@ $$\mathcal E = -N\frac{d\phi}{dt}$$
 
 Acá la bobina no se mueve; el flujo cambia porque cambia $B$.
 
-**Deducción de la fem** (atajo: $\lvert\mathcal E\rvert = NA\left\lvert\dfrac{dB}{dt}\right\rvert$). El campo es uniforme y perpendicular, así que el flujo por cada vuelta es $\phi = \iint\vec B\cdot d\vec A = B(t)\,A$. Con $N$ vueltas y $A$ fija, derivando:
+**Deducción de la fem** (atajo: $\lvert\mathcal E\rvert = NA\left\lvert\dfrac{dB}{dt}\right\rvert$). El campo es uniforme y perpendicular, así que el flujo por cada vuelta es $\phi = \iint\vec B\cdot d\vec A = B(t)\ A$. Con $N$ vueltas y $A$ fija, derivando:
 
 $$\lvert\mathcal E\rvert = N\left\lvert\frac{d(BA)}{dt}\right\rvert = NA\left\lvert\frac{dB}{dt}\right\rvert$$
 
@@ -1728,9 +1728,9 @@ Acá el campo es fijo; lo que cambia es el **área** del circuito, porque la bar
 
 $$\lvert\mathcal E\rvert = \left\lvert\frac{d(B\ell x)}{dt}\right\rvert = B\ell\frac{dx}{dt} = B\ell v$$
 
-**Otra forma, mirando la barra** (sale lo mismo). Los electrones libres de la barra se mueven con ella a velocidad $\vec v$, así que sienten la fuerza magnética $q\,\vec v\times\vec B$, que los empuja a lo largo de la barra. Eso hace de un campo eléctrico $\vec v\times\vec B$, de módulo $vB$ (porque $\vec v\perp\vec B$). La fem es su integral a lo largo de la barra:
+**Otra forma, mirando la barra** (sale lo mismo). Los electrones libres de la barra se mueven con ella a velocidad $\vec v$, así que sienten la fuerza magnética $q\ \vec v\times\vec B$, que los empuja a lo largo de la barra. Eso hace de un campo eléctrico $\vec v\times\vec B$, de módulo $vB$ (porque $\vec v\perp\vec B$). La fem es su integral a lo largo de la barra:
 
-$$\mathcal E = \int_0^\ell(\vec v\times\vec B)\cdot d\vec l = \int_0^\ell vB\,dl = B\ell v\ ✓$$
+$$\mathcal E = \int_0^\ell(\vec v\times\vec B)\cdot d\vec l = \int_0^\ell vB\ dl = B\ell v\ ✓$$
 
 **Paso 1 — Fem (ítem a).**
 
@@ -1775,9 +1775,9 @@ d) calcule la potencia que se disipa por efecto Joule y compárela con la desarr
 - Una barra de 0,5 m desliza a 4 m/s sobre un marco metálico, en un campo entrante de 0,5 T. Resistencia total 0,2 Ω.
 - **a)** La fem. **b)** El sentido de la corriente. **c)** La fuerza externa para mantener la velocidad. **d)** La potencia disipada en calor, comparada con la de la fuerza externa.
 
-**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\,\vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. La barra con corriente dentro del campo siente $i\,\vec\ell\times\vec B$, que la frena (Lenz). Para que vaya a velocidad constante, alguien tiene que empujar con una fuerza igual y opuesta. La energía se conserva: el trabajo por segundo del que empuja ($Fv$) termina convertido en calor en la resistencia ($i^2R$).
+**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\ \vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. La barra con corriente dentro del campo siente $i\ \vec\ell\times\vec B$, que la frena (Lenz). Para que vaya a velocidad constante, alguien tiene que empujar con una fuerza igual y opuesta. La energía se conserva: el trabajo por segundo del que empuja ($Fv$) termina convertido en calor en la resistencia ($i^2R$).
 
-**Deducción de la fuerza sobre la barra** (atajo: $F = iLB$). Sobre cada pedacito de barra con corriente actúa $d\vec F = i\,d\vec l\times\vec B$. $i$ y $\vec B$ son constantes a lo largo de la barra, así que sumando queda $\vec F = i\,\vec L\times\vec B$, de módulo $iLB$ (la barra es perpendicular al campo). Con $i = \mathcal E/R = BLv/R$: $F = \dfrac{B^2L^2v}{R}$.
+**Deducción de la fuerza sobre la barra** (atajo: $F = iLB$). Sobre cada pedacito de barra con corriente actúa $d\vec F = i\ d\vec l\times\vec B$. $i$ y $\vec B$ son constantes a lo largo de la barra, así que sumando queda $\vec F = i\ \vec L\times\vec B$, de módulo $iLB$ (la barra es perpendicular al campo). Con $i = \mathcal E/R = BLv/R$: $F = \dfrac{B^2L^2v}{R}$.
 
 **Deducción de las potencias** (atajos: $P_{ext} = Fv$, $P_{Joule} = i^2R$). La potencia de una fuerza es fuerza por velocidad (trabajo por segundo): $Fv = \dfrac{B^2L^2v^2}{R}$. La potencia que se convierte en calor en la resistencia es $\mathcal Ei = i^2R = \dfrac{(BLv)^2}{R}$. Son iguales: la energía que pone el que empuja termina toda como calor.
 
@@ -1785,7 +1785,7 @@ d) calcule la potencia que se disipa por efecto Joule y compárela con la desarr
 
 **Paso 1 — Fem (ítem a).** Barra perpendicular a $\vec B$ y a $\vec v$:
 
-$$\mathcal E = B\,L\,v$$
+$$\mathcal E = B\ L\ v$$
 
 **Paso 2 — Sentido (ítem b).** El área del circuito (y el flujo **entrante**) crece, así que la corriente genera campo saliente: sentido **antihorario**.
 
@@ -1795,7 +1795,7 @@ $$i = \frac{\mathcal E}{R} \qquad F = iLB = \frac{B^2L^2v}{R}$$
 
 La fuerza magnética frena la barra ($-\hat e_x$); la externa tiene que ser igual y en $+\hat e_x$.
 
-**Paso 4 — Potencias (ítem d).** $P_{Joule} = i^2R$ y $P_{ext} = F\,v$. Son iguales: $\dfrac{B^2L^2v^2}{R}$.
+**Paso 4 — Potencias (ítem d).** $P_{Joule} = i^2R$ y $P_{ext} = F\ v$. Son iguales: $\dfrac{B^2L^2v^2}{R}$.
 
 **Paso 5 — Cálculo.**
 
@@ -1838,17 +1838,17 @@ d) suponga que en la situación (a) la superficie de la espira se redujera a la 
 - Un hilo recto con 10 A y, en el mismo plano, una espira rectangular de 5 cm × 2 cm, con su lado más cercano a 1 cm del hilo.
 - **a)** El flujo a través de la espira. **b)** Si cambia al invertir la corriente. **c)** El flujo si la espira se gira y queda enfrentado el lado corto. **d)** Si al achicar la espira a la mitad el flujo también se reduce a la mitad.
 
-**La idea, desde cero.** El **flujo magnético** mide cuánto campo atraviesa una superficie: si el campo es uniforme y perpendicular, es $B\cdot\text{área}$. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\,dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$.
+**La idea, desde cero.** El **flujo magnético** mide cuánto campo atraviesa una superficie: si el campo es uniforme y perpendicular, es $B\cdot\text{área}$. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\ dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$.
 
 **Resolución.**
 
 **Paso 1 — Por qué hay que integrar.** El campo del hilo, $B = \dfrac{\mu_0 i}{2\pi x}$, no es uniforme: depende de la distancia $x$. Se divide la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$ (el lado paralelo al hilo); en cada tira $B$ es constante.
 
-$$\phi = \int_a^{a+b}\frac{\mu_0 i}{2\pi x}\,c\,dx = \frac{\mu_0 i c}{2\pi}\ln\!\left(\frac{a + b}{a}\right)$$
+$$\phi = \int_a^{a+b}\frac{\mu_0 i}{2\pi x}\ c\ dx = \frac{\mu_0 i c}{2\pi}\ln\left(\frac{a + b}{a}\right)$$
 
 **Paso 2 — Ítem a.** El lado enfrentado al hilo es ab (5 cm, paralelo), a $a = L = 1$ cm, y la espira se extiende $b = 2$ cm:
 
-$$\phi = \frac{4\pi\times10^{-7}\cdot10\cdot0{,}05}{2\pi}\ln\!\left(\frac{3}{1}\right)\ \text{Wb} = 10^{-7}\cdot1{,}0986\ \text{Wb} = 1{,}1\times10^{-7}\ \text{Wb}$$
+$$\phi = \frac{4\pi\times10^{-7}\cdot10\cdot0{,}05}{2\pi}\ln\left(\frac{3}{1}\right)\ \text{Wb} = 10^{-7}\cdot1{,}0986\ \text{Wb} = 1{,}1\times10^{-7}\ \text{Wb}$$
 
 **Paso 3 — Ítem b.** Si se invierte la corriente, $\vec B$ cambia de sentido y el flujo cambia de signo. Pero el signo depende de la orientación elegida para $d\vec S$, que también se puede invertir: el **módulo** no cambia.
 
@@ -1891,19 +1891,19 @@ c) calcule el valor absoluto de la fem inducida en función de la posición e in
 - Un hilo y, a 25 cm, una bobina cuadrada de 100 vueltas y 10 cm de lado.
 - **a)** Con la corriente $0{,}3(1 - e^{-\beta t})$ y la bobina quieta: fem y sentido. **b)** Cuándo se anula la fem. **c)** Con la corriente fija y la bobina acercándose a velocidad $v$: fem y sentido.
 
-**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\,dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$. El flujo puede cambiar porque cambia la corriente (se deriva respecto de $t$) o porque cambia la distancia (regla de la cadena con $dx/dt = -v$).
+**La idea, desde cero.** **Ley de Faraday:** si cambia el flujo magnético que atraviesa un circuito, aparece en él una tensión (fem inducida) igual a la rapidez con que cambia ese flujo, $\mathcal E = -\dfrac{d\phi}{dt}$ (por $N$ si hay $N$ vueltas). Si el circuito está cerrado, circula corriente, $i = \mathcal E/R$, sin necesidad de pila. El **flujo** es cuánto campo atraviesa la superficie del circuito: $\phi = \iint\vec B\cdot d\vec A$, que con un campo uniforme y perpendicular es simplemente $B\cdot\text{área}$. **Lenz** da el sentido: la corriente inducida circula de modo de oponerse al cambio. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor. El campo de un hilo infinito a distancia $x$ es $B = \dfrac{\mu_0 i}{2\pi x}$ (de Ampère, con una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 i$). No es uniforme: es más fuerte cerca del hilo. Por eso el flujo a través de una espira rectangular coplanar no es "$B$ por el área": se corta la espira en tiras paralelas al hilo, de ancho $dx$ y largo $c$, en cada una de las cuales $B$ es constante, y se suma: $\phi = \displaystyle\int_{x_1}^{x_2}\frac{\mu_0 i}{2\pi x}c\ dx = \frac{\mu_0 ic}{2\pi}\ln\frac{x_2}{x_1}$. El flujo puede cambiar porque cambia la corriente (se deriva respecto de $t$) o porque cambia la distancia (regla de la cadena con $dx/dt = -v$).
 
 **Resolución.**
 
 **Paso 1 — Flujo.** Bobina de $N$ vueltas, lado paralelo $a$, desde $x$ hasta $x + a$:
 
-$$\phi = N\frac{\mu_0 i a}{2\pi}\ln\!\left(\frac{x + a}{x}\right)$$
+$$\phi = N\frac{\mu_0 i a}{2\pi}\ln\left(\frac{x + a}{x}\right)$$
 
 **Paso 2 — Ítem a (espira quieta en $x = d$).**
 
-$$|\mathcal E| = N\frac{\mu_0 a}{2\pi}\ln\!\left(\frac{d + a}{d}\right)\frac{di}{dt} \qquad \frac{di}{dt} = 0{,}3\,\beta\,e^{-\beta t}$$
+$$|\mathcal E| = N\frac{\mu_0 a}{2\pi}\ln\left(\frac{d + a}{d}\right)\frac{di}{dt} \qquad \frac{di}{dt} = 0{,}3\ \beta\ e^{-\beta t}$$
 
-$$|\mathcal E| = 100\cdot2\times10^{-7}\cdot0{,}1\cdot\ln(1{,}4)\cdot0{,}03\,e^{-\beta t}\ \text{V} = 2\times10^{-8}e^{-\beta t}\ \text{V}$$
+$$|\mathcal E| = 100\cdot2\times10^{-7}\cdot0{,}1\cdot\ln(1{,}4)\cdot0{,}03\ e^{-\beta t}\ \text{V} = 2\times10^{-8}e^{-\beta t}\ \text{V}$$
 
 Sentido: la corriente baja por el cable, así que a la derecha el campo es saliente, y **crece**. La corriente inducida genera campo entrante: sentido **horario**.
 
@@ -1911,9 +1911,9 @@ Sentido: la corriente baja por el cable, así que a la derecha el campo es salie
 
 **Paso 4 — Ítem c (espira que se acerca).** Ahora cambia $x$, con $dx/dt = -v$:
 
-$$\frac{d}{dx}\ln\!\left(\frac{x + a}{x}\right) = \frac{1}{x + a} - \frac1x = -\frac{a}{x(x + a)}$$
+$$\frac{d}{dx}\ln\left(\frac{x + a}{x}\right) = \frac{1}{x + a} - \frac1x = -\frac{a}{x(x + a)}$$
 
-$$|\mathcal E| = N\frac{\mu_0 i_0 a}{2\pi}\,\frac{1}{a + x}\left(\frac ax\right)v$$
+$$|\mathcal E| = N\frac{\mu_0 i_0 a}{2\pi}\ \frac{1}{a + x}\left(\frac ax\right)v$$
 
 Al acercarse, el flujo saliente crece: sentido **horario**.
 
@@ -1950,7 +1950,7 @@ b) ¿Cuál de los dos extremos está a mayor potencial?
 - Una barra suelta (no forma un circuito) que se mueve dentro del campo del hilo.
 - **a)** La tensión entre sus puntas. **b)** Cuál punta queda "positiva".
 
-**La idea, desde cero.** Cuando un metal se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\,\vec v\times\vec B$. Esa fuerza las empuja a lo largo de la barra: se acumulan cargas positivas en una punta y negativas en la otra, y aparece una diferencia de potencial, como en una pila. No circula corriente porque no hay circuito. Esa tensión es la **fem de movimiento**: la integral de $\vec v\times\vec B$ (que hace de campo eléctrico) a lo largo de la barra.
+**La idea, desde cero.** Cuando un metal se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\ \vec v\times\vec B$. Esa fuerza las empuja a lo largo de la barra: se acumulan cargas positivas en una punta y negativas en la otra, y aparece una diferencia de potencial, como en una pila. No circula corriente porque no hay circuito. Esa tensión es la **fem de movimiento**: la integral de $\vec v\times\vec B$ (que hace de campo eléctrico) a lo largo de la barra.
 
 La dificultad es que el campo del hilo **no es uniforme**: es más fuerte cerca del hilo. Cada pedacito de barra empuja con distinta fuerza, y por eso hay que integrar.
 
@@ -1958,7 +1958,7 @@ La dificultad es que el campo del hilo **no es uniforme**: es más fuerte cerca 
 
 **Deducción de la fem** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). La velocidad es paralela al hilo y el campo es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB(r)$ y apunta a lo largo de la barra. Integrando desde $r = d$ hasta $r = d + \ell$:
 
-$$\mathcal E = \int_d^{d + \ell}v\,\frac{\mu_0 I}{2\pi r}\,dr = \frac{\mu_0 Iv}{2\pi}\int_d^{d + \ell}\frac{dr}{r} = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
+$$\mathcal E = \int_d^{d + \ell}v\ \frac{\mu_0 I}{2\pi r}\ dr = \frac{\mu_0 Iv}{2\pi}\int_d^{d + \ell}\frac{dr}{r} = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
 
 **Paso 1 — Valor (ítem a).** $d = 0{,}02$ m, $d + \ell = 0{,}22$ m, $\dfrac{\mu_0}{2\pi} = 2\times10^{-7}$:
 
@@ -1966,7 +1966,7 @@ $$\mathcal E = 2\times10^{-7}\cdot10\cdot5\cdot\ln11\ \text{V} = 10^{-5}\cdot2{,
 
 **Paso 2 — Polaridad (ítem b).** Ejes: $\hat x$ a la derecha, $\hat y$ hacia arriba, $\hat z$ saliente. A la derecha del hilo el campo es entrante, $\vec B = -B\hat z$. La barra sube, $\vec v = v\hat y$:
 
-$$\vec v\times\vec B = vB\,\hat y\times(-\hat z) = -vB\,\hat x$$
+$$\vec v\times\vec B = vB\ \hat y\times(-\hat z) = -vB\ \hat x$$
 
 Empuja las cargas positivas hacia $-\hat x$, o sea **hacia el hilo**. El extremo **más cercano** al hilo queda a mayor potencial.
 
@@ -1982,7 +1982,7 @@ Empuja las cargas positivas hacia $-\hat x$, o sea **hacia el hilo**. El extremo
 
 **Nivel:** 🟡 Práctica · **Fuente:** [Práctica de Inducción magnética, Ej. 8](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/practica.md#ejercicio-8) (enunciado textual de la guía de la cátedra) · **Tipo de la guía de resolución:** [12. Barra que gira](guia-de-resolucion.md#12-barra-que-gira)
 
-La barra metálica de longitud *L* de la figura gira con velocidad angular constante ω solidaria al pivote *P*, sumergida en un campo magnético uniforme $\vec B = B_0\,(-\hat e_z)$.
+La barra metálica de longitud *L* de la figura gira con velocidad angular constante ω solidaria al pivote *P*, sumergida en un campo magnético uniforme $\vec B = B_0\ (-\hat e_z)$.
 
 a) halle la expresión de la fem inducida en la barra;
 
@@ -2001,21 +2001,21 @@ b) indique el sentido de circulación que tendría la corriente inducida en la b
 - Una barra de largo $L$ gira con velocidad angular $\omega$ alrededor de un pivote P, en un campo uniforme entrante.
 - **a)** La fem entre sus extremos. **b)** El sentido de la corriente inducida.
 
-**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\,\vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. Acá cada punto de la barra va a distinta velocidad: el que está a distancia $r$ del pivote se mueve con $v = \omega r$. Por eso hay que integrar a lo largo de la barra.
+**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\ \vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. Acá cada punto de la barra va a distinta velocidad: el que está a distancia $r$ del pivote se mueve con $v = \omega r$. Por eso hay que integrar a lo largo de la barra.
 
 **Resolución.**
 
-**Paso 1 — Velocidad de cada punto.** Un punto a distancia $r$ del pivote tiene $\vec v = \omega r\,\hat e_\phi$ (gira en sentido antihorario).
+**Paso 1 — Velocidad de cada punto.** Un punto a distancia $r$ del pivote tiene $\vec v = \omega r\ \hat e_\phi$ (gira en sentido antihorario).
 
 **Paso 2 — $\vec v\times\vec B$.** Con $\hat e_\phi\times(-\hat e_z) = -\hat e_R$:
 
-$$\vec v\times\vec B = \omega rB_0\,(-\hat e_R)$$
+$$\vec v\times\vec B = \omega rB_0\ (-\hat e_R)$$
 
 Apunta **hacia el pivote**.
 
 **Paso 3 — Fem de movimiento.**
 
-$$|\mathcal E| = \int_0^L\omega rB_0\,dr = \frac{B_0L^2\omega}{2}$$
+$$|\mathcal E| = \int_0^L\omega rB_0\ dr = \frac{B_0L^2\omega}{2}$$
 
 (También sale con el flujo: el área barrida es $\tfrac12\omega L^2t$.)
 
@@ -2046,11 +2046,11 @@ Por una bobina de 2 cm de radio y 40 cm de longitud, que tiene arrolladas 2000 v
 - Una bobina de radio 2 cm, largo 40 cm y 2000 vueltas, con corriente $i(t) = 2\sin(100\pi t)$.
 - **a)** Su coeficiente de autoinducción $L$. **b)** La fem autoinducida en función del tiempo.
 
-**La idea, desde cero.** Una bobina con corriente produce campo, y ese campo atraviesa sus propias vueltas. La **autoinductancia** $L$ es el flujo propio total por cada ampere: $N\phi = Li$. Para un solenoide largo, adentro $B = \mu_0\frac N\ell i$ (Ampère), y cada vuelta tiene flujo $B\pi r^2$, así que $L = \dfrac{N\cdot\mu_0\frac N\ell i\cdot\pi r^2}{i} = \dfrac{\mu_0N^2\pi r^2}{\ell}$. Si la corriente cambia, el flujo propio cambia y, por Faraday, aparece la fem autoinducida $\mathcal E = -L\,di/dt$.
+**La idea, desde cero.** Una bobina con corriente produce campo, y ese campo atraviesa sus propias vueltas. La **autoinductancia** $L$ es el flujo propio total por cada ampere: $N\phi = Li$. Para un solenoide largo, adentro $B = \mu_0\frac N\ell i$ (Ampère), y cada vuelta tiene flujo $B\pi r^2$, así que $L = \dfrac{N\cdot\mu_0\frac N\ell i\cdot\pi r^2}{i} = \dfrac{\mu_0N^2\pi r^2}{\ell}$. Si la corriente cambia, el flujo propio cambia y, por Faraday, aparece la fem autoinducida $\mathcal E = -L\ di/dt$.
 
 **Deducción del campo del solenoide** (atajo: $B = \mu_0\dfrac N\ell i$). Ampère con un rectángulo con un lado de largo $\ell'$ adentro (paralelo al eje) y el opuesto afuera: adentro aporta $B\ell'$, afuera $B\approx0$, y los lados perpendiculares no aportan. Encierra $\frac N\ell\ell'$ vueltas: $B\ell' = \mu_0\frac N\ell\ell' i$.
 
-**Deducción de la fem autoinducida** (atajo: $\mathcal E = -L\dfrac{di}{dt}$). Faraday aplicado a la propia bobina: $\mathcal E = -\dfrac{d(N\phi)}{dt} = -\dfrac{d(Li)}{dt} = -L\dfrac{di}{dt}$, con $L$ constante. Para $i = 2\,\mathrm{sen}\,(100\pi t)$: $\dfrac{di}{dt} = 200\pi\cos(100\pi t)$.
+**Deducción de la fem autoinducida** (atajo: $\mathcal E = -L\dfrac{di}{dt}$). Faraday aplicado a la propia bobina: $\mathcal E = -\dfrac{d(N\phi)}{dt} = -\dfrac{d(Li)}{dt} = -L\dfrac{di}{dt}$, con $L$ constante. Para $i = 2\ \mathrm{sen}\ (100\pi t)$: $\dfrac{di}{dt} = 200\pi\cos(100\pi t)$.
 
 **Resolución.**
 
@@ -2099,7 +2099,7 @@ b) Si la corriente del solenoide exterior aumenta a razón de 100 A/s, ¿cuánto
 
 **La idea, desde cero.** Un solenoide es un alambre enrollado en hélice sobre un cilindro. Con corriente, adentro produce un campo uniforme y paralelo al eje (como un imán), y afuera casi nada. Si hay dos bobinas, el campo de una atraviesa las vueltas de la otra. La **inductancia mutua** $M$ es la constante que relaciona la corriente de una con el flujo total en la otra:
 
-$$N_1\phi_{1\leftarrow2} = M\,I_2$$
+$$N_1\phi_{1\leftarrow2} = M\ I_2$$
 
 Si $I_2$ cambia, ese flujo cambia y, por Faraday, aparece una fem en la bobina 1: $\mathcal E_1 = -M\dfrac{dI_2}{dt}$. Así funciona un transformador.
 
@@ -2109,7 +2109,7 @@ $$\oint\vec B\cdot d\vec l = B\ell' = \mu_0 n\ell' I \quad\Rightarrow\quad B = \
 
 **Deducción de M** (atajo: $M = \dfrac{\mu_0 N_1N_2\pi r_1^2}{\ell}$). El campo del exterior, $B_2 = \mu_0\dfrac{N_2}{\ell}I_2$, llena todo su interior y atraviesa cada una de las $N_1$ vueltas del solenoide de adentro por su área $\pi r_1^2$ (el área del grande que queda afuera del chico no cuenta, porque no es parte de las vueltas del chico):
 
-$$M = \frac{N_1\,B_2\,\pi r_1^2}{I_2} = \frac{N_1\cdot\mu_0\dfrac{N_2}{\ell}I_2\cdot\pi r_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi r_1^2}{\ell}$$
+$$M = \frac{N_1\ B_2\ \pi r_1^2}{I_2} = \frac{N_1\cdot\mu_0\dfrac{N_2}{\ell}I_2\cdot\pi r_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi r_1^2}{\ell}$$
 
 Va siempre el radio **menor**.
 
@@ -2162,7 +2162,7 @@ $$L = \frac{N\phi}{I} = \frac{N\cdot\mu_0\dfrac N\ell I\cdot\pi r^2}{I} = \frac{
 
 **Deducción de la energía** (atajo: $U = \tfrac12LI^2$). Mientras la corriente crece, la fuente tiene que vencer la fem autoinducida, de módulo $L\dfrac{di}{dt}$. La potencia que entrega es tensión por corriente, $L\dfrac{di}{dt}i$, y la energía es su integral en el tiempo. Cambiando la variable a $i$ (de 0 a $I$):
 
-$$U = \int L\,i\,\frac{di}{dt}\,dt = \int_0^IL\,i\,di = \tfrac12LI^2$$
+$$U = \int L\ i\ \frac{di}{dt}\ dt = \int_0^IL\ i\ di = \tfrac12LI^2$$
 
 **Deducción de la densidad** (atajo: $u = \dfrac{B^2}{2\mu_0}$). Reemplazando $L$ y despejando con $B = \mu_0\dfrac N\ell I$:
 
@@ -2222,7 +2222,7 @@ La bobina está quieta y el campo crece con el tiempo, como $at^2 + bt^4$. El fl
 
 **N.** $r = \sqrt{A/\pi} = 2{,}652$ cm, perímetro $2\pi r = 0{,}1666$ m, $N = 5/0{,}1666 = 30$ vueltas. Entonces $NA = 0{,}0663$ m².
 
-**Deducción de la corriente** (atajo: $I = \dfrac{NA}{R}\dfrac{dB}{dt}$). El campo es uniforme y perpendicular a cada vuelta, así que la integral de superficie del flujo se reduce a un producto: $\phi = \displaystyle\iint\vec B\cdot d\vec A = B(t)\,A$. Con $N$ vueltas el flujo total es $NB(t)A$. Faraday, con $N$ y $A$ fijos:
+**Deducción de la corriente** (atajo: $I = \dfrac{NA}{R}\dfrac{dB}{dt}$). El campo es uniforme y perpendicular a cada vuelta, así que la integral de superficie del flujo se reduce a un producto: $\phi = \displaystyle\iint\vec B\cdot d\vec A = B(t)\ A$. Con $N$ vueltas el flujo total es $NB(t)A$. Faraday, con $N$ y $A$ fijos:
 
 $$\lvert\mathcal E\rvert = \left\lvert\frac{d(NAB)}{dt}\right\rvert = NA\left\lvert\frac{dB}{dt}\right\rvert$$
 
@@ -2230,7 +2230,7 @@ y la corriente sale de la ley de Ohm, $I = \mathcal E/R$.
 
 **Corriente.** Derivando $B(t) = at^2 + bt^4$:
 
-$$I(t) = \frac{NA}{R}\,\frac{dB}{dt} = \frac{NA}{R}(2at + 4bt^3)$$
+$$I(t) = \frac{NA}{R}\ \frac{dB}{dt} = \frac{NA}{R}(2at + 4bt^3)$$
 
 **Sistema.**
 
@@ -2263,7 +2263,7 @@ En la figura el hilo es muy largo, y la corriente por el mismo varía en el tiem
 **Qué piden, en palabras.**
 
 - Hilo vertical. A su derecha, en el mismo plano, una espira rectangular. Su lado cercano está a $L_1 = 12$ cm del hilo, el lejano a $L_2 = 20$ cm, y los lados paralelos al hilo miden $L_3 = 15$ cm.
-- **a)** La corriente del hilo oscila, $I(t) = 3\,\mathrm{sen}\,(5\pi t)$, y la espira está quieta: fem en la espira.
+- **a)** La corriente del hilo oscila, $I(t) = 3\ \mathrm{sen}\ (5\pi t)$, y la espira está quieta: fem en la espira.
 - **b)** La corriente es fija, 3 A, pero la espira se aleja del hilo a 5 cm/s: fem en el instante inicial.
 - **c)** Para el caso b), con una espira de 3 Ω: corriente y su sentido (horario o antihorario).
 
@@ -2282,17 +2282,17 @@ El hilo produce a su derecha un campo entrante, más fuerte cerca del hilo (a 12
 
 La espira va de $x = L_1$ a $x = L_2$, con lado paralelo $L_3$.
 
-**Deducción del flujo** (atajo: $\phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$). El campo del hilo a distancia $x$ es $B(x) = \dfrac{\mu_0 I}{2\pi x}$ (Ampère sobre una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 I$) y es perpendicular al plano de la espira. No es uniforme, pero es constante a lo largo de cada franja paralela al hilo. Se toma como elemento de área una franja de largo $L_3$ y ancho $dx$, $dA = L_3\,dx$, y la integral de superficie queda simple:
+**Deducción del flujo** (atajo: $\phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$). El campo del hilo a distancia $x$ es $B(x) = \dfrac{\mu_0 I}{2\pi x}$ (Ampère sobre una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 I$) y es perpendicular al plano de la espira. No es uniforme, pero es constante a lo largo de cada franja paralela al hilo. Se toma como elemento de área una franja de largo $L_3$ y ancho $dx$, $dA = L_3\ dx$, y la integral de superficie queda simple:
 
-$$\phi = \iint\vec B\cdot d\vec A = \int_{L_1}^{L_2}\frac{\mu_0 I}{2\pi x}\,L_3\,dx = \frac{\mu_0 IL_3}{2\pi}\ln\frac{L_2}{L_1}$$
+$$\phi = \iint\vec B\cdot d\vec A = \int_{L_1}^{L_2}\frac{\mu_0 I}{2\pi x}\ L_3\ dx = \frac{\mu_0 IL_3}{2\pi}\ln\frac{L_2}{L_1}$$
 
 **a)** Solo varía $I$. Por Faraday, $\lvert\mathcal E\rvert = \left\lvert\dfrac{d\phi}{dt}\right\rvert$, con la geometría fija y $\dfrac{dI}{dt} = I_0\omega\cos(\omega t)$:
 
-$$\lvert\mathcal E\rvert = \frac{\mu_0L_3}{2\pi}\ln\frac{L_2}{L_1}\,I_0\omega\cos(\omega t) = 2\times10^{-7}\cdot0{,}15\cdot0{,}511\cdot3\cdot5\pi\cos(5\pi t)\ \text{V} = 7{,}2\times10^{-7}\cos(5\pi t)\ \text{V}$$
+$$\lvert\mathcal E\rvert = \frac{\mu_0L_3}{2\pi}\ln\frac{L_2}{L_1}\ I_0\omega\cos(\omega t) = 2\times10^{-7}\cdot0{,}15\cdot0{,}511\cdot3\cdot5\pi\cos(5\pi t)\ \text{V} = 7{,}2\times10^{-7}\cos(5\pi t)\ \text{V}$$
 
 **b)** Ahora $I = I_0$ fija y se mueve la espira. Con $b = L_2 - L_1 = 0{,}08$ m y $x(t) = L_1 + vt$, el flujo es la misma integral entre $x$ y $x + b$. Se deriva con la regla de la cadena, usando $\dfrac{d}{dt}\ln\dfrac{x + b}{x} = \left(\dfrac{1}{x + b} - \dfrac1x\right)\dfrac{dx}{dt}$:
 
-$$\phi = \frac{\mu_0 I_0L_3}{2\pi}\ln\frac{x + b}{x} \quad\Rightarrow\quad \lvert\mathcal E\rvert = \frac{\mu_0 I_0L_3}{2\pi}\left(\frac{1}{x} - \frac{1}{x + b}\right)v = \frac{\mu_0 I_0L_3}{2\pi}\,\frac{bv}{x(x + b)}$$
+$$\phi = \frac{\mu_0 I_0L_3}{2\pi}\ln\frac{x + b}{x} \quad\Rightarrow\quad \lvert\mathcal E\rvert = \frac{\mu_0 I_0L_3}{2\pi}\left(\frac{1}{x} - \frac{1}{x + b}\right)v = \frac{\mu_0 I_0L_3}{2\pi}\ \frac{bv}{x(x + b)}$$
 
 En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac{0{,}08\cdot0{,}05}{0{,}12\cdot0{,}20}\ \text{V} = 1{,}5\times10^{-8}$ V.
 
@@ -2352,9 +2352,9 @@ $$R_{eq} = \left(\frac15 + \frac12 + \frac16\right)^{-1}\ \Omega = 1{,}154\ \Ome
 
 Sentido: la barra va hacia la izquierda, el área encerrada se achica y el flujo entrante disminuye. La corriente inducida lo refuerza → **horaria** (en la barra, hacia abajo). Comprobación: $\vec v\times\vec B = (-\hat x)\times(-\hat z) = -\hat y$, hacia abajo ✓.
 
-**b)** *Deducción de la fuerza sobre la barra* (atajo: $\vec F = I\vec\ell\times\vec B$). Se integra $d\vec F = I\,d\vec l\times\vec B$ a lo largo de la barra. Como $I$ y $\vec B$ son constantes, salen de la integral y queda $\displaystyle\int d\vec l = \vec\ell$, el vector que va de un extremo al otro en el sentido de la corriente. Acá $\vec\ell = -\ell\hat y$:
+**b)** *Deducción de la fuerza sobre la barra* (atajo: $\vec F = I\vec\ell\times\vec B$). Se integra $d\vec F = I\ d\vec l\times\vec B$ a lo largo de la barra. Como $I$ y $\vec B$ son constantes, salen de la integral y queda $\displaystyle\int d\vec l = \vec\ell$, el vector que va de un extremo al otro en el sentido de la corriente. Acá $\vec\ell = -\ell\hat y$:
 
-$$\vec F_M = I\vec\ell\times\vec B = 4{,}29\cdot0{,}11\cdot3\,\big((-\hat y)\times(-\hat z)\big)\ \text{N} = 1{,}42\ \text{N}\ \hat x$$
+$$\vec F_M = I\vec\ell\times\vec B = 4{,}29\cdot0{,}11\cdot3\ \big((-\hat y)\times(-\hat z)\big)\ \text{N} = 1{,}42\ \text{N}\ \hat x$$
 
 Hacia la derecha: frena la barra. El agente externo hace $1{,}42$ N hacia la izquierda.
 
@@ -2387,17 +2387,17 @@ Un hilo muy largo transporta una corriente I=3A. Una barra conductora de longitu
 - La barra se mueve paralela al hilo a 20 m/s, en sentido contrario al de la corriente.
 - **Qué piden:** la diferencia de potencial entre los extremos de la barra, y cuál de los dos está a mayor potencial.
 
-**La idea, desde cero.** Una barra metálica se mueve dentro de un campo magnético. Sus electrones libres se mueven con ella, así que sienten la fuerza $q\,\vec v\times\vec B$, que los empuja a lo largo de la barra. Se acumula carga negativa en un extremo y queda carga positiva en el otro: aparece una diferencia de potencial entre los extremos, como en una pila. No circula corriente porque no hay circuito cerrado.
+**La idea, desde cero.** Una barra metálica se mueve dentro de un campo magnético. Sus electrones libres se mueven con ella, así que sienten la fuerza $q\ \vec v\times\vec B$, que los empuja a lo largo de la barra. Se acumula carga negativa en un extremo y queda carga positiva en el otro: aparece una diferencia de potencial entre los extremos, como en una pila. No circula corriente porque no hay circuito cerrado.
 
 Como el campo del hilo es más fuerte cerca del hilo, cada pedazo de barra empuja a las cargas con distinta intensidad. Por eso hay que integrar a lo largo de la barra.
 
 **La idea, aplicada a este ejercicio.**
 
-La barra está a la derecha del hilo, dentro de su campo entrante, y baja, en contra de la corriente. Sus cargas bajan con ella, y la fuerza $q\,\vec v\times\vec B$ las empuja a lo largo de la barra: a las positivas, alejándolas del hilo. Se acumulan cargas positivas en el extremo lejano, que queda a mayor potencial. Cerca del hilo el campo es más fuerte y empuja más. Por eso la fem es una integral a lo largo de la barra, que da un logaritmo.
+La barra está a la derecha del hilo, dentro de su campo entrante, y baja, en contra de la corriente. Sus cargas bajan con ella, y la fuerza $q\ \vec v\times\vec B$ las empuja a lo largo de la barra: a las positivas, alejándolas del hilo. Se acumulan cargas positivas en el extremo lejano, que queda a mayor potencial. Cerca del hilo el campo es más fuerte y empuja más. Por eso la fem es una integral a lo largo de la barra, que da un logaritmo.
 
-**Deducción** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). No hay circuito cerrado, así que se usa la fem de movimiento: sobre cada carga de la barra actúa $q\,\vec v\times\vec B$, que equivale a un campo eléctrico $\vec v\times\vec B$, y la fem es su integral de línea a lo largo de la barra. El campo del hilo a distancia $r$ es $\dfrac{\mu_0 I}{2\pi r}$ (Ampère: $B\cdot2\pi r = \mu_0 I$). $\vec v$ es paralela al hilo y $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB$ y apunta a lo largo de la barra. Entonces:
+**Deducción** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). No hay circuito cerrado, así que se usa la fem de movimiento: sobre cada carga de la barra actúa $q\ \vec v\times\vec B$, que equivale a un campo eléctrico $\vec v\times\vec B$, y la fem es su integral de línea a lo largo de la barra. El campo del hilo a distancia $r$ es $\dfrac{\mu_0 I}{2\pi r}$ (Ampère: $B\cdot2\pi r = \mu_0 I$). $\vec v$ es paralela al hilo y $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB$ y apunta a lo largo de la barra. Entonces:
 
-$$\mathcal E = \int_d^{d + \ell}(\vec v\times\vec B)\cdot d\vec r = \int_d^{d + \ell}\frac{\mu_0 Iv}{2\pi r}\,dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
+$$\mathcal E = \int_d^{d + \ell}(\vec v\times\vec B)\cdot d\vec r = \int_d^{d + \ell}\frac{\mu_0 Iv}{2\pi r}\ dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
 
 Con los datos:
 
@@ -2441,11 +2441,11 @@ $OP = 0{,}15$ m y $OQ = 0{,}30$ m.
 
 **Deducción de la fem de cada mitad** (atajo: $\mathcal E = \tfrac12B\omega r_0^2$). Fem de movimiento: el punto de la barra a distancia $r$ de O se mueve con $v = \omega r$, perpendicular a la barra y a $\vec B$, así que $\lvert\vec v\times\vec B\rvert = \omega rB$, a lo largo de la barra. Integrando desde O hasta el extremo, a distancia $r_0$:
 
-$$\mathcal E = \int_0^{r_0}\omega rB\,dr = \tfrac12B\omega r_0^2$$
+$$\mathcal E = \int_0^{r_0}\omega rB\ dr = \tfrac12B\omega r_0^2$$
 
 (Por Faraday sale lo mismo: en un tiempo $t$ la mitad barre un sector de ángulo $\omega t$ y área $\tfrac12r_0^2\omega t$, así que $\phi = \tfrac12Br_0^2\omega t$ y $\dfrac{d\phi}{dt} = \tfrac12B\omega r_0^2$.)
 
-Sentido: con la barra sobre $+\hat x$ y giro horario, $\vec v = -\omega r\hat y$ y $\vec v\times\vec B = (-\hat y)\times\hat z\cdot\omega rB = -\omega rB\,\hat x$: apunta **hacia O**. Lo mismo pasa en la otra mitad. O queda al mayor potencial y el potencial cae hacia cada extremo:
+Sentido: con la barra sobre $+\hat x$ y giro horario, $\vec v = -\omega r\hat y$ y $\vec v\times\vec B = (-\hat y)\times\hat z\cdot\omega rB = -\omega rB\ \hat x$: apunta **hacia O**. Lo mismo pasa en la otra mitad. O queda al mayor potencial y el potencial cae hacia cada extremo:
 
 $$V_O - V_P = \tfrac12\cdot0{,}3\cdot8\cdot0{,}15^2 = 0{,}027\ \text{V} \qquad V_O - V_Q = \tfrac12\cdot0{,}3\cdot8\cdot0{,}30^2 = 0{,}108\ \text{V}$$
 
@@ -2547,11 +2547,11 @@ $$\oint\vec B\cdot d\vec l = B\ell' = \mu_0 n\ell' I \quad\Rightarrow\quad B = \
 
 $$L = \frac{N\Phi}{I} = \frac{n\ell\cdot\mu_0 nI\cdot\pi R^2}{I} = \mu_0 n^2\pi R^2\ell$$
 
-- *Energía* (atajo: $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$). Mientras la corriente crece de 0 a $I$, la fuente tiene que vencer la fem autoinducida $L\,di/dt$ (Faraday). La potencia es $L\,i\,\dfrac{di}{dt}$ y su integral en el tiempo es
+- *Energía* (atajo: $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$). Mientras la corriente crece de 0 a $I$, la fuente tiene que vencer la fem autoinducida $L\ di/dt$ (Faraday). La potencia es $L\ i\ \dfrac{di}{dt}$ y su integral en el tiempo es
 
-$$U = \int L\,i\,\frac{di}{dt}\,dt = \int_0^IL\,i\,di = \tfrac12LI^2$$
+$$U = \int L\ i\ \frac{di}{dt}\ dt = \int_0^IL\ i\ di = \tfrac12LI^2$$
 
-Reemplazando $L$ y $B$: $\tfrac12\mu_0 n^2\pi R^2\ell\,I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}\pi R^2\ell = \dfrac{B^2}{2\mu_0}\pi R^2\ell$.
+Reemplazando $L$ y $B$: $\tfrac12\mu_0 n^2\pi R^2\ell\ I^2 = \dfrac{(\mu_0 nI)^2}{2\mu_0}\pi R^2\ell = \dfrac{B^2}{2\mu_0}\pi R^2\ell$.
 
 La forma más directa es igualar las dos expresiones de la energía:
 
@@ -2594,27 +2594,27 @@ b) Se conecta a la red una resistencia de 100 Ω. Calcule la corriente eficaz y 
 - "220 V" no es el máximo de la tensión del enchufe, sino su **valor eficaz**.
 - **a)** El máximo y la fórmula de la tensión en el tiempo. **b)** La corriente y la potencia en una resistencia.
 
-**La idea, desde cero.** Con **corriente alterna** la tensión no es fija: oscila como $v(t) = V_0\,\mathrm{sen}\,(\omega t)$. $V_0$ es la **amplitud** o valor de pico, y $\omega = 2\pi f$ la pulsación, con $f$ la frecuencia (50 Hz en la red de Argentina: 50 oscilaciones por segundo). Como la tensión cambia todo el tiempo, se usa un valor "representativo": el **valor eficaz**, que es la tensión continua que produciría el mismo calor en una resistencia. Se define como la raíz del promedio del cuadrado en un período $T$ (por eso también se llama RMS):
+**La idea, desde cero.** Con **corriente alterna** la tensión no es fija: oscila como $v(t) = V_0\ \mathrm{sen}\ (\omega t)$. $V_0$ es la **amplitud** o valor de pico, y $\omega = 2\pi f$ la pulsación, con $f$ la frecuencia (50 Hz en la red de Argentina: 50 oscilaciones por segundo). Como la tensión cambia todo el tiempo, se usa un valor "representativo": el **valor eficaz**, que es la tensión continua que produciría el mismo calor en una resistencia. Se define como la raíz del promedio del cuadrado en un período $T$ (por eso también se llama RMS):
 
-$$V_{EF} = \sqrt{\frac1T\int_0^Tv^2\,dt}$$
+$$V_{EF} = \sqrt{\frac1T\int_0^Tv^2\ dt}$$
 
 Los voltímetros y amperímetros de alterna miden valores eficaces, y "220 V" es el eficaz.
 
 **Deducción del valor eficaz** (atajo: $V_{EF} = V_0/\sqrt2$). Con $\mathrm{sen}^2u = \tfrac12(1 - \cos2u)$:
 
-$$\frac1T\int_0^TV_0^2\,\mathrm{sen}^2(\omega t)\,dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos(2\omega t)}{2}\,dt = \frac{V_0^2}{T}\cdot\frac T2 = \frac{V_0^2}{2}$$
+$$\frac1T\int_0^TV_0^2\ \mathrm{sen}^2(\omega t)\ dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos(2\omega t)}{2}\ dt = \frac{V_0^2}{T}\cdot\frac T2 = \frac{V_0^2}{2}$$
 
 porque la integral de $\cos(2\omega t)$ en un período es 0 (es tan positiva como negativa). Entonces $V_{EF} = \sqrt{V_0^2/2} = V_0/\sqrt2$.
 
 **Deducción de la potencia media en una resistencia** (atajo: $P = V_{EF}^2/R = I_{EF}^2R$). La potencia instantánea es $p = vi = v^2/R$. Su promedio en un período:
 
-$$P = \frac1T\int_0^T\frac{v^2}{R}\,dt = \frac1R\cdot\frac1T\int_0^Tv^2\,dt = \frac{V_{EF}^2}{R}$$
+$$P = \frac1T\int_0^T\frac{v^2}{R}\ dt = \frac1R\cdot\frac1T\int_0^Tv^2\ dt = \frac{V_{EF}^2}{R}$$
 
 Por eso se usa el eficaz: con él las fórmulas son las mismas que en continua.
 
 **Paso 1 — Pico (ítem a).**
 
-$$V_0 = \sqrt2\cdot220\ \text{V} = 311\ \text{V} \qquad v(t) = 311\,\mathrm{sen}\,(100\pi t)\ \text{V}$$
+$$V_0 = \sqrt2\cdot220\ \text{V} = 311\ \text{V} \qquad v(t) = 311\ \mathrm{sen}\ (100\pi t)\ \text{V}$$
 
 ($\omega = 2\pi\cdot50 = 100\pi$ s⁻¹.)
 
@@ -2624,7 +2624,7 @@ $$I_{EF} = \frac{V_{EF}}{R} = \frac{220}{100} = 2{,}2\ \text{A} \qquad P = \frac
 
 </details>
 
-**Respuesta:** a) $V_0 = 311$ V, $v(t) = 311\,\mathrm{sen}\,(100\pi t)$ V; b) $I_{EF} = 2{,}2$ A y $P = 484$ W.
+**Respuesta:** a) $V_0 = 311$ V, $v(t) = 311\ \mathrm{sen}\ (100\pi t)$ V; b) $I_{EF} = 2{,}2$ A y $P = 484$ W.
 
 </details>
 
@@ -2653,17 +2653,17 @@ c) ¿A qué frecuencia las dos reactancias serían iguales?
 - La **reactancia** es la "resistencia" de una bobina o un capacitor en alterna: el cociente entre la amplitud de la tensión y la de la corriente.
 - **a)** Calcularla para cada elemento a dos frecuencias. **b)** Usarla para obtener una corriente. **c)** Encontrar la frecuencia en la que son iguales.
 
-**La idea, desde cero.** Con **corriente alterna** la tensión no es fija: oscila como $v(t) = V_0\,\mathrm{sen}\,(\omega t)$. $V_0$ es la **amplitud** o valor de pico, y $\omega = 2\pi f$ la pulsación, con $f$ la frecuencia (50 Hz en la red de Argentina: 50 oscilaciones por segundo). Una **bobina** se opone a los *cambios* de corriente: su tensión es $v_L = L\dfrac{di}{dt}$ (es la fem autoinducida). Un **capacitor** acumula carga: su tensión es $v_C = q/C$, con $q = \int i\,dt$. Como una derivada y una integral de un seno dan un coseno, en los dos casos tensión y corriente quedan **desfasadas 90°**, y la relación entre amplitudes depende de la frecuencia.
+**La idea, desde cero.** Con **corriente alterna** la tensión no es fija: oscila como $v(t) = V_0\ \mathrm{sen}\ (\omega t)$. $V_0$ es la **amplitud** o valor de pico, y $\omega = 2\pi f$ la pulsación, con $f$ la frecuencia (50 Hz en la red de Argentina: 50 oscilaciones por segundo). Una **bobina** se opone a los *cambios* de corriente: su tensión es $v_L = L\dfrac{di}{dt}$ (es la fem autoinducida). Un **capacitor** acumula carga: su tensión es $v_C = q/C$, con $q = \int i\ dt$. Como una derivada y una integral de un seno dan un coseno, en los dos casos tensión y corriente quedan **desfasadas 90°**, y la relación entre amplitudes depende de la frecuencia.
 
-**Deducción de $X_L$** (atajo: $X_L = \omega L$). Con $i = I_0\,\mathrm{sen}\,(\omega t)$:
+**Deducción de $X_L$** (atajo: $X_L = \omega L$). Con $i = I_0\ \mathrm{sen}\ (\omega t)$:
 
-$$v_L = L\frac{di}{dt} = L\,I_0\omega\cos(\omega t) = (\omega L)\,I_0\,\mathrm{sen}\,(\omega t + 90^\circ)$$
+$$v_L = L\frac{di}{dt} = L\ I_0\omega\cos(\omega t) = (\omega L)\ I_0\ \mathrm{sen}\ (\omega t + 90^\circ)$$
 
 La amplitud de la tensión es $\omega L$ veces la de la corriente, y la tensión va 90° **adelantada**. $X_L = \omega L$: cuanto más rápido cambia la corriente, más se opone la bobina.
 
 **Deducción de $X_C$** (atajo: $X_C = \dfrac1{\omega C}$). La carga es la integral de la corriente:
 
-$$q = \int I_0\,\mathrm{sen}\,(\omega t)\,dt = -\frac{I_0}{\omega}\cos(\omega t) \quad\Rightarrow\quad v_C = \frac qC = \frac{1}{\omega C}\,I_0\,\mathrm{sen}\,(\omega t - 90^\circ)$$
+$$q = \int I_0\ \mathrm{sen}\ (\omega t)\ dt = -\frac{I_0}{\omega}\cos(\omega t) \quad\Rightarrow\quad v_C = \frac qC = \frac{1}{\omega C}\ I_0\ \mathrm{sen}\ (\omega t - 90^\circ)$$
 
 La tensión va 90° **atrasada** (la corriente adelanta). $X_C = \dfrac1{\omega C}$: a baja frecuencia el capacitor tiene tiempo de llenarse y frena mucho la corriente.
 
@@ -2731,20 +2731,20 @@ h) realice el diagrama de fasores correspondientes a los circuitos RC y RLC seri
 **La idea, desde cero.** Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
 
 - **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
-- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Bobina:** $v = L\ di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
 - **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
 
 En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$. **Resonancia:** es la frecuencia en la que $X_L = X_C$, o sea $\omega_0 = 1/\sqrt{LC}$. Ahí bobina y capacitor se cancelan, $Z = R$ es mínima, la corriente es máxima y está en fase con la tensión. Por debajo de $\omega_0$ manda el capacitor; por encima, la bobina.
 
-**Deducción de las reactancias** (atajos: $X_L = \omega L$, $X_C = \dfrac1{\omega C}$). Con $i = I_0\,\mathrm{sen}\,(\omega t)$: la bobina tiene $v_L = L\dfrac{di}{dt} = \omega L\,I_0\cos(\omega t)$, que es amplitud $\omega L\,I_0$ y 90° de adelanto. El capacitor tiene $v_C = \dfrac1C\displaystyle\int i\,dt = -\frac{I_0}{\omega C}\cos(\omega t)$, que es amplitud $\dfrac{I_0}{\omega C}$ y 90° de atraso.
+**Deducción de las reactancias** (atajos: $X_L = \omega L$, $X_C = \dfrac1{\omega C}$). Con $i = I_0\ \mathrm{sen}\ (\omega t)$: la bobina tiene $v_L = L\dfrac{di}{dt} = \omega L\ I_0\cos(\omega t)$, que es amplitud $\omega L\ I_0$ y 90° de adelanto. El capacitor tiene $v_C = \dfrac1C\displaystyle\int i\ dt = -\frac{I_0}{\omega C}\cos(\omega t)$, que es amplitud $\dfrac{I_0}{\omega C}$ y 90° de atraso.
 
-**Deducción de la impedancia** (atajo: $Z = \sqrt{R^2 + (X_L - X_C)^2}$, $\cos\varphi = R/Z$). En serie las tensiones se suman, pero desfasadas: la de R va con la corriente y las de L y C a $\pm90^\circ$, opuestas entre sí. Escribiéndolas como números complejos ($d/dt\to j\omega$, $\int dt\to\frac1{j\omega}$), $v = [R + j(X_L - X_C)]\,i = Z\,i$. El módulo de $Z$ es la hipotenusa de un triángulo de catetos $R$ y $X_L - X_C$, y su ángulo $\varphi$ es el desfasaje.
+**Deducción de la impedancia** (atajo: $Z = \sqrt{R^2 + (X_L - X_C)^2}$, $\cos\varphi = R/Z$). En serie las tensiones se suman, pero desfasadas: la de R va con la corriente y las de L y C a $\pm90^\circ$, opuestas entre sí. Escribiéndolas como números complejos ($d/dt\to j\omega$, $\int dt\to\frac1{j\omega}$), $v = [R + j(X_L - X_C)]\ i = Z\ i$. El módulo de $Z$ es la hipotenusa de un triángulo de catetos $R$ y $X_L - X_C$, y su ángulo $\varphi$ es el desfasaje.
 
-**Deducción del valor eficaz** (atajo: $V_{EF} = V_0/\sqrt2$). $V_{EF}^2 = \dfrac1T\displaystyle\int_0^TV_0^2\,\mathrm{sen}^2(\omega t)\,dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos2\omega t}{2}\,dt = \frac{V_0^2}{2}$.
+**Deducción del valor eficaz** (atajo: $V_{EF} = V_0/\sqrt2$). $V_{EF}^2 = \dfrac1T\displaystyle\int_0^TV_0^2\ \mathrm{sen}^2(\omega t)\ dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos2\omega t}{2}\ dt = \frac{V_0^2}{2}$.
 
-**Deducción de la potencia media** (atajo: $P = \tfrac12V_0I_0\cos\varphi = I_{EF}^2R$). Con $v = V_0\,\mathrm{sen}\,(\omega t)$, $i = I_0\,\mathrm{sen}\,(\omega t - \varphi)$ y $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
+**Deducción de la potencia media** (atajo: $P = \tfrac12V_0I_0\cos\varphi = I_{EF}^2R$). Con $v = V_0\ \mathrm{sen}\ (\omega t)$, $i = I_0\ \mathrm{sen}\ (\omega t - \varphi)$ y $\mathrm{sen}\ a\ \mathrm{sen}\ b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
 
-$$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T[\cos\varphi - \cos(2\omega t - \varphi)]\,dt = \frac{V_0I_0}{2}\cos\varphi$$
+$$P = \frac1T\int_0^Tv\ i\ dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T[\cos\varphi - \cos(2\omega t - \varphi)]\ dt = \frac{V_0I_0}{2}\cos\varphi$$
 
 Con $V_0 = ZI_0$ y $\cos\varphi = R/Z$: $P = \tfrac12I_0^2R = I_{EF}^2R$.
 
@@ -2758,7 +2758,7 @@ $$Z = \frac{\mathcal E_{EF}}{I_{EF}}$$
 
 **Paso 2 — R y C (ítem b).** Del triángulo de impedancias, con $\phi = 60^\circ$:
 
-$$R = Z\cos\phi \qquad X_C = Z\mathrm{sen}\,\phi \qquad C = \frac{1}{\omega X_C}$$
+$$R = Z\cos\phi \qquad X_C = Z\mathrm{sen}\ \phi \qquad C = \frac{1}{\omega X_C}$$
 
 **Paso 3 — Tensiones (ítems c y d).** $V_{R,EF} = RI_{EF}$ y $V_{C,EF} = X_CI_{EF}$ (comprobando que $\sqrt{V_R^2 + V_C^2} = 100$ V).
 
@@ -2785,7 +2785,7 @@ $$L = \frac{1}{(628{,}3)^2\cdot7{,}35\times10^{-6}}\ \text{H} = 0{,}345\ \text{H
 **Respuesta:**
 
 - a) $Z = \mathcal E_{ef}/i_{ef} = 500\ \Omega$
-- b) $R = Z\cos\phi = 250\ \Omega$; $|X_C| = Z\mathrm{sen}\,\phi = 433\ \Omega \Rightarrow C = 7{,}35\ \mu\text{F}$
+- b) $R = Z\cos\phi = 250\ \Omega$; $|X_C| = Z\mathrm{sen}\ \phi = 433\ \Omega \Rightarrow C = 7{,}35\ \mu\text{F}$
 - c) $V_{ef,R} = 50$ V
 - d) $V_{ef,C} = (100^2 - 50^2)^{1/2}$ V $= 86{,}6$ V
 - e) $L = 345$ mH
@@ -2823,20 +2823,20 @@ El diagrama de fases de la figura corresponde a un circuito de CA de sólo dos e
 Con corriente alterna, la tensión y la corriente oscilan como senos: $v = V_0\sin(\omega t)$, con $\omega = 2\pi f$. Cada elemento relaciona tensión y corriente de una forma distinta:
 
 - **Resistencia:** $v = Ri$. Tensión y corriente suben y bajan juntas (en fase).
-- **Bobina:** $v = L\,di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
+- **Bobina:** $v = L\ di/dt$. Se opone a los cambios de corriente, y la corriente queda **atrasada** 90°. Su "resistencia" en alterna es la reactancia $X_L = \omega L$: crece con la frecuencia.
 - **Capacitor:** $v = q/C$. Tiene que cargarse antes de tener tensión, y la corriente queda **adelantada** 90°. Su reactancia es $X_C = 1/(\omega C)$: crece al bajar la frecuencia.
 
 En serie, la "resistencia total" es la **impedancia** $Z = \sqrt{R^2 + (X_L - X_C)^2}$, y cumple $V = ZI$ (con amplitudes o con valores eficaces). Esto se ve en un triángulo rectángulo con catetos $R$ y $X_L - X_C$ e hipotenusa $Z$. El ángulo $\varphi$ del triángulo es el desfasaje entre tensión y corriente: $\cos\varphi = R/Z$. Si gana la bobina ($X_L > X_C$, **inductivo**), la tensión adelanta; si gana el capacitor (**capacitivo**), adelanta la corriente. **Potencias:** la activa (la que se consume de verdad, solo en la resistencia) es el promedio en un período de $v\cdot i$, que da $P = \tfrac12V_0I_0\cos\varphi = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$. Los **valores eficaces** son los de pico divididos $\sqrt2$, y son los que miden los instrumentos. La aparente es $S = V_{EF}I_{EF}$ y la reactiva $Q = V_{EF}I_{EF}\sin\varphi$: son los lados del triángulo de impedancias multiplicados por $I_{EF}^2$.
 
-**Deducción de las reactancias** (atajos: $X_L = \omega L$, $X_C = \dfrac1{\omega C}$). Con $i = I_0\,\mathrm{sen}\,(\omega t)$: la bobina tiene $v_L = L\dfrac{di}{dt} = \omega L\,I_0\cos(\omega t)$, que es amplitud $\omega L\,I_0$ y 90° de adelanto. El capacitor tiene $v_C = \dfrac1C\displaystyle\int i\,dt = -\frac{I_0}{\omega C}\cos(\omega t)$, que es amplitud $\dfrac{I_0}{\omega C}$ y 90° de atraso.
+**Deducción de las reactancias** (atajos: $X_L = \omega L$, $X_C = \dfrac1{\omega C}$). Con $i = I_0\ \mathrm{sen}\ (\omega t)$: la bobina tiene $v_L = L\dfrac{di}{dt} = \omega L\ I_0\cos(\omega t)$, que es amplitud $\omega L\ I_0$ y 90° de adelanto. El capacitor tiene $v_C = \dfrac1C\displaystyle\int i\ dt = -\frac{I_0}{\omega C}\cos(\omega t)$, que es amplitud $\dfrac{I_0}{\omega C}$ y 90° de atraso.
 
-**Deducción de la impedancia** (atajo: $Z = \sqrt{R^2 + (X_L - X_C)^2}$, $\cos\varphi = R/Z$). En serie las tensiones se suman, pero desfasadas: la de R va con la corriente y las de L y C a $\pm90^\circ$, opuestas entre sí. Escribiéndolas como números complejos ($d/dt\to j\omega$, $\int dt\to\frac1{j\omega}$), $v = [R + j(X_L - X_C)]\,i = Z\,i$. El módulo de $Z$ es la hipotenusa de un triángulo de catetos $R$ y $X_L - X_C$, y su ángulo $\varphi$ es el desfasaje.
+**Deducción de la impedancia** (atajo: $Z = \sqrt{R^2 + (X_L - X_C)^2}$, $\cos\varphi = R/Z$). En serie las tensiones se suman, pero desfasadas: la de R va con la corriente y las de L y C a $\pm90^\circ$, opuestas entre sí. Escribiéndolas como números complejos ($d/dt\to j\omega$, $\int dt\to\frac1{j\omega}$), $v = [R + j(X_L - X_C)]\ i = Z\ i$. El módulo de $Z$ es la hipotenusa de un triángulo de catetos $R$ y $X_L - X_C$, y su ángulo $\varphi$ es el desfasaje.
 
-**Deducción del valor eficaz** (atajo: $V_{EF} = V_0/\sqrt2$). $V_{EF}^2 = \dfrac1T\displaystyle\int_0^TV_0^2\,\mathrm{sen}^2(\omega t)\,dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos2\omega t}{2}\,dt = \frac{V_0^2}{2}$.
+**Deducción del valor eficaz** (atajo: $V_{EF} = V_0/\sqrt2$). $V_{EF}^2 = \dfrac1T\displaystyle\int_0^TV_0^2\ \mathrm{sen}^2(\omega t)\ dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos2\omega t}{2}\ dt = \frac{V_0^2}{2}$.
 
-**Deducción de la potencia media** (atajo: $P = \tfrac12V_0I_0\cos\varphi = I_{EF}^2R$). Con $v = V_0\,\mathrm{sen}\,(\omega t)$, $i = I_0\,\mathrm{sen}\,(\omega t - \varphi)$ y $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
+**Deducción de la potencia media** (atajo: $P = \tfrac12V_0I_0\cos\varphi = I_{EF}^2R$). Con $v = V_0\ \mathrm{sen}\ (\omega t)$, $i = I_0\ \mathrm{sen}\ (\omega t - \varphi)$ y $\mathrm{sen}\ a\ \mathrm{sen}\ b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
 
-$$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T[\cos\varphi - \cos(2\omega t - \varphi)]\,dt = \frac{V_0I_0}{2}\cos\varphi$$
+$$P = \frac1T\int_0^Tv\ i\ dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T[\cos\varphi - \cos(2\omega t - \varphi)]\ dt = \frac{V_0I_0}{2}\cos\varphi$$
 
 Con $V_0 = ZI_0$ y $\cos\varphi = R/Z$: $P = \tfrac12I_0^2R = I_{EF}^2R$.
 
@@ -2889,19 +2889,19 @@ c) Calcule la impedancia, la corriente, el desfasaje y la potencia a 40 Hz. ¿El
 - Resistencia, bobina y capacitor uno detrás del otro, con un generador cuya frecuencia se puede cambiar.
 - **a)** La frecuencia en la que bobina y capacitor se compensan. **b)** Qué pasa ahí. **c)** Qué pasa a una frecuencia más baja.
 
-**La idea, desde cero.** Con **corriente alterna** la tensión no es fija: oscila como $v(t) = V_0\,\mathrm{sen}\,(\omega t)$. $V_0$ es la **amplitud** o valor de pico, y $\omega = 2\pi f$ la pulsación, con $f$ la frecuencia (50 Hz en la red de Argentina: 50 oscilaciones por segundo). En un circuito serie la corriente es la misma en los tres elementos, y las tensiones se suman. Pero no se suman como números, porque están desfasadas: la de la resistencia va en fase con la corriente, la de la bobina adelantada 90° y la del capacitor atrasada 90°. Las de bobina y capacitor apuntan en sentidos opuestos y **se restan**. Según cuál gane, el circuito es **inductivo** (gana la bobina, la tensión adelanta) o **capacitivo** (gana el capacitor, la corriente adelanta). Cuando empatan hay **resonancia**: el circuito se comporta como una resistencia sola.
+**La idea, desde cero.** Con **corriente alterna** la tensión no es fija: oscila como $v(t) = V_0\ \mathrm{sen}\ (\omega t)$. $V_0$ es la **amplitud** o valor de pico, y $\omega = 2\pi f$ la pulsación, con $f$ la frecuencia (50 Hz en la red de Argentina: 50 oscilaciones por segundo). En un circuito serie la corriente es la misma en los tres elementos, y las tensiones se suman. Pero no se suman como números, porque están desfasadas: la de la resistencia va en fase con la corriente, la de la bobina adelantada 90° y la del capacitor atrasada 90°. Las de bobina y capacitor apuntan en sentidos opuestos y **se restan**. Según cuál gane, el circuito es **inductivo** (gana la bobina, la tensión adelanta) o **capacitivo** (gana el capacitor, la corriente adelanta). Cuando empatan hay **resonancia**: el circuito se comporta como una resistencia sola.
 
-**Deducción de la impedancia** (atajo: $Z = \sqrt{R^2 + (X_L - X_C)^2}$). Escribiendo las tensiones como números complejos, la derivada se vuelve un producto: con $i = I_0e^{j\omega t}$, $\dfrac{di}{dt} = j\omega i$ y $\int i\,dt = \dfrac{i}{j\omega}$. Entonces $v_R = Ri$, $v_L = j\omega L\,i$, $v_C = -\dfrac{j}{\omega C}i$, y sumando:
+**Deducción de la impedancia** (atajo: $Z = \sqrt{R^2 + (X_L - X_C)^2}$). Escribiendo las tensiones como números complejos, la derivada se vuelve un producto: con $i = I_0e^{j\omega t}$, $\dfrac{di}{dt} = j\omega i$ y $\int i\ dt = \dfrac{i}{j\omega}$. Entonces $v_R = Ri$, $v_L = j\omega L\ i$, $v_C = -\dfrac{j}{\omega C}i$, y sumando:
 
-$$v = \left[R + j\left(\omega L - \frac1{\omega C}\right)\right]i = Z\,i$$
+$$v = \left[R + j\left(\omega L - \frac1{\omega C}\right)\right]i = Z\ i$$
 
 El módulo del número complejo da la relación de amplitudes, $\lvert Z\rvert = \sqrt{R^2 + (X_L - X_C)^2}$, y su argumento el desfasaje, $\tan\varphi = \dfrac{X_L - X_C}{R}$. Es un triángulo rectángulo con catetos $R$ y $X_L - X_C$.
 
 **Deducción de la resonancia** (atajo: $f_0 = \dfrac{1}{2\pi\sqrt{LC}}$). Parte imaginaria nula: $\omega_0L = \dfrac1{\omega_0C}$, así que $\omega_0^2 = \dfrac1{LC}$.
 
-**Deducción de la potencia media** (atajo: $P = I_{EF}^2R$). Con $v = V_0\,\mathrm{sen}\,(\omega t)$, $i = I_0\,\mathrm{sen}\,(\omega t - \varphi)$ y $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
+**Deducción de la potencia media** (atajo: $P = I_{EF}^2R$). Con $v = V_0\ \mathrm{sen}\ (\omega t)$, $i = I_0\ \mathrm{sen}\ (\omega t - \varphi)$ y $\mathrm{sen}\ a\ \mathrm{sen}\ b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
 
-$$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T[\cos\varphi - \cos(2\omega t - \varphi)]\,dt = \frac{V_0I_0}{2}\cos\varphi$$
+$$P = \frac1T\int_0^Tv\ i\ dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T[\cos\varphi - \cos(2\omega t - \varphi)]\ dt = \frac{V_0I_0}{2}\cos\varphi$$
 
 Con $V_0 = ZI_0$, $\cos\varphi = R/Z$ e $I_{EF} = I_0/\sqrt2$, queda $P = \tfrac12I_0^2R = I_{EF}^2R$: solo la resistencia consume.
 
@@ -2979,14 +2979,14 @@ Con $L$ se sabe cuánto "empuja" la bobina a 50 Hz, y de ahí cuánto tiene que 
 
 **Deducción de lo que se usa** (todo sale de $v = Zi$ con $Z = R + j(X_L - X_C)$, ver [0.10](guia-de-resolucion.md#010-ley-6-corriente-alterna-una-sola-ecuación-compleja)).
 
-- *Reactancias* (atajos: $X_L = \omega L$, $X_C = \dfrac{1}{\omega C}$). Con $i = I_0e^{j\omega t}$, la bobina da $v_L = L\dfrac{di}{dt} = j\omega L\,i$ y el capacitor $v_C = \dfrac1C\displaystyle\int i\,dt = \dfrac{1}{j\omega C}i = -\dfrac{j}{\omega C}i$. En serie se suman: $Z = R + j\left(\omega L - \dfrac{1}{\omega C}\right)$.
+- *Reactancias* (atajos: $X_L = \omega L$, $X_C = \dfrac{1}{\omega C}$). Con $i = I_0e^{j\omega t}$, la bobina da $v_L = L\dfrac{di}{dt} = j\omega L\ i$ y el capacitor $v_C = \dfrac1C\displaystyle\int i\ dt = \dfrac{1}{j\omega C}i = -\dfrac{j}{\omega C}i$. En serie se suman: $Z = R + j\left(\omega L - \dfrac{1}{\omega C}\right)$.
 - *Z a partir de S* (atajo: $Z = S/I_{EF}^2$). Del módulo de $v = Zi$: $V_{EF} = \lvert Z\rvert I_{EF}$. Como $S = V_{EF}I_{EF}$, queda $S = \lvert Z\rvert I_{EF}^2$.
-- *R y X a partir de la fase* (atajos: $R = Z\cos\varphi$, $\lvert X_L - X_C\rvert = Z\mathrm{sen}\,\varphi$). $\varphi$ es el argumento de $Z$, así que su parte real es $\lvert Z\rvert\cos\varphi$ y su parte imaginaria $\lvert Z\rvert\mathrm{sen}\,\varphi$. Si la corriente adelanta, $\varphi < 0$: la parte imaginaria es negativa, o sea $X_C > X_L$ (capacitivo).
+- *R y X a partir de la fase* (atajos: $R = Z\cos\varphi$, $\lvert X_L - X_C\rvert = Z\mathrm{sen}\ \varphi$). $\varphi$ es el argumento de $Z$, así que su parte real es $\lvert Z\rvert\cos\varphi$ y su parte imaginaria $\lvert Z\rvert\mathrm{sen}\ \varphi$. Si la corriente adelanta, $\varphi < 0$: la parte imaginaria es negativa, o sea $X_C > X_L$ (capacitivo).
 - *Resonancia* (atajo: $f_0 = \dfrac{1}{2\pi\sqrt{LC}}$). Es la frecuencia en que la parte imaginaria se anula: $\omega_0 L = \dfrac{1}{\omega_0 C}$, o sea $\omega_0 = \dfrac{1}{\sqrt{LC}}$ y $f_0 = \omega_0/2\pi$.
 
 **a)** $Z = S/I_{EF}^2 = 800/16 = 50\ \Omega$ y $R = 50\cos30^\circ = 43{,}3\ \Omega$.
 
-**b)** La corriente adelanta → capacitivo: $X_C - X_L = Z\mathrm{sen}\,30^\circ = 25\ \Omega$. Con $\omega = 2\pi f = 100\pi$:
+**b)** La corriente adelanta → capacitivo: $X_C - X_L = Z\mathrm{sen}\ 30^\circ = 25\ \Omega$. Con $\omega = 2\pi f = 100\pi$:
 
 $$X_L = 100\pi\cdot0{,}06 = 18{,}85\ \Omega \qquad X_C = 18{,}85 + 25 = 43{,}85\ \Omega \qquad C = \frac{1}{100\pi\cdot43{,}85}\ \text{F} = 72{,}6\ \mu\text{F}$$
 
@@ -3036,17 +3036,17 @@ En c), cada elemento tiene su propia "resistencia" ($R$, $X_L$, $X_C$), y su ten
 
 **a)** De $S = V_{EF}I_{EF}$: $V_{EF} = S/I_{EF} = 100$ V. Del módulo de $v = Zi$: $Z = V_{EF}/I_{EF} = 100/0{,}6 = 166{,}7\ \Omega$. De la parte real de $Z$: $R = Z\cos30^\circ = 144{,}3\ \Omega$. (Estas tres relaciones se deducen en el [tipo 15](guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones).)
 
-**b)** Capacitivo (corriente adelanta; además $40 < 50$ Hz): de la parte imaginaria de $Z$, $X_C - X_L = Z\mathrm{sen}\,30^\circ = 83{,}3\ \Omega$.
+**b)** Capacitivo (corriente adelanta; además $40 < 50$ Hz): de la parte imaginaria de $Z$, $X_C - X_L = Z\mathrm{sen}\ 30^\circ = 83{,}3\ \Omega$.
 
-*Deducción de L* (atajo: $X_L - X_C = L\,\dfrac{\omega^2 - \omega_0^2}{\omega}$). La condición de resonancia, $\omega_0L = \dfrac{1}{\omega_0C}$, da $C = \dfrac{1}{\omega_0^2L}$. Reemplazando en la reactancia a la frecuencia de trabajo:
+*Deducción de L* (atajo: $X_L - X_C = L\ \dfrac{\omega^2 - \omega_0^2}{\omega}$). La condición de resonancia, $\omega_0L = \dfrac{1}{\omega_0C}$, da $C = \dfrac{1}{\omega_0^2L}$. Reemplazando en la reactancia a la frecuencia de trabajo:
 
-$$X_L - X_C = \omega L - \frac{1}{\omega C} = \omega L - \frac{\omega_0^2L}{\omega} = L\,\frac{\omega^2 - \omega_0^2}{\omega} \quad\Rightarrow\quad L = \frac{(X_C - X_L)\,\omega}{\omega_0^2 - \omega^2}$$
+$$X_L - X_C = \omega L - \frac{1}{\omega C} = \omega L - \frac{\omega_0^2L}{\omega} = L\ \frac{\omega^2 - \omega_0^2}{\omega} \quad\Rightarrow\quad L = \frac{(X_C - X_L)\ \omega}{\omega_0^2 - \omega^2}$$
 
 Con $\omega = 80\pi$ y $\omega_0 = 100\pi$:
 
 $$L = \frac{83{,}3\cdot80\pi}{(100\pi)^2 - (80\pi)^2}\ \text{H} = 0{,}59\ \text{H} \qquad C = \frac{1}{(100\pi)^2\cdot0{,}59}\ \text{F} = 17{,}2\ \mu\text{F}$$
 
-**c)** Cada elemento cumple su propia ley de Ohm compleja ($v_L = j\omega L\,i$, $v_C = -\dfrac{j}{\omega C}i$); tomando módulos, $V = XI$:
+**c)** Cada elemento cumple su propia ley de Ohm compleja ($v_L = j\omega L\ i$, $v_C = -\dfrac{j}{\omega C}i$); tomando módulos, $V = XI$:
 
 $$X_L = 80\pi\cdot0{,}59 = 148{,}3\ \Omega \qquad X_C = \frac{1}{80\pi\cdot17{,}2\times10^{-6}} = 231{,}3\ \Omega$$
 
@@ -3100,11 +3100,11 @@ En b), el capacitor en serie resta reactancia. Para llegar a factor 0,9 la react
 
 **Deducción de lo que se usa.**
 
-- *Potencia activa* (atajo: $P = I_{EF}^2R$). Es el promedio en un período de $v\,i$. Con $v = V_0\mathrm{sen}\,(\omega t)$, $i = I_0\mathrm{sen}\,(\omega t - \varphi)$ y $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
+- *Potencia activa* (atajo: $P = I_{EF}^2R$). Es el promedio en un período de $v\ i$. Con $v = V_0\mathrm{sen}\ (\omega t)$, $i = I_0\mathrm{sen}\ (\omega t - \varphi)$ y $\mathrm{sen}\ a\ \mathrm{sen}\ b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
 
-$$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T\left[\cos\varphi - \cos(2\omega t - \varphi)\right]dt = \frac{V_0I_0}{2}\cos\varphi$$
+$$P = \frac1T\int_0^Tv\ i\ dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T\left[\cos\varphi - \cos(2\omega t - \varphi)\right]dt = \frac{V_0I_0}{2}\cos\varphi$$
 
-(el segundo coseno promedia cero). Con $V_0 = ZI_0$, $\cos\varphi = R/Z$ e $I_{EF} = I_0/\sqrt2$ (el eficaz es $\sqrt{\tfrac1T\int i^2\,dt}$, y el promedio de $\mathrm{sen}^2$ es $\tfrac12$): $P = \tfrac12I_0^2R = I_{EF}^2R$.
+(el segundo coseno promedia cero). Con $V_0 = ZI_0$, $\cos\varphi = R/Z$ e $I_{EF} = I_0/\sqrt2$ (el eficaz es $\sqrt{\tfrac1T\int i^2\ dt}$, y el promedio de $\mathrm{sen}^2$ es $\tfrac12$): $P = \tfrac12I_0^2R = I_{EF}^2R$.
 - *Z a partir del factor de potencia* (atajo: $Z = R/\cos\varphi$). La parte real de $Z$ es $R = \lvert Z\rvert\cos\varphi$.
 - *Reactancia* (atajo: $\lvert X\rvert = \sqrt{Z^2 - R^2}$). Es el módulo de $Z = R + jX$: $Z^2 = R^2 + X^2$.
 
@@ -3156,15 +3156,15 @@ Las amplitudes dan $Z = 80/4 = 20$ Ω. La potencia escrita con amplitudes, $\tfr
 
 La tensión está adelantada → **R y L** en serie. *Por qué:* el argumento de $Z$ es el ángulo que la tensión adelanta a la corriente. Adelanto positivo significa parte imaginaria positiva, y de R, L y C el único que la aporta positiva es L ($+j\omega L$). Como además disipa potencia, el otro es R (L y C no disipan: la potencia media es $\tfrac12V_0I_0\cos90^\circ = 0$).
 
-**Deducción de la potencia con amplitudes** (atajo: $P = \tfrac12V_0I_0\cos\varphi$). Promedio de $v\,i$ en un período, con $v = V_0\mathrm{sen}\,(\omega t)$, $i = I_0\mathrm{sen}\,(\omega t - \varphi)$ y $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
+**Deducción de la potencia con amplitudes** (atajo: $P = \tfrac12V_0I_0\cos\varphi$). Promedio de $v\ i$ en un período, con $v = V_0\mathrm{sen}\ (\omega t)$, $i = I_0\mathrm{sen}\ (\omega t - \varphi)$ y $\mathrm{sen}\ a\ \mathrm{sen}\ b = \tfrac12[\cos(a - b) - \cos(a + b)]$:
 
-$$P = \frac1T\int_0^Tv\,i\,dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T\left[\cos\varphi - \cos(2\omega t - \varphi)\right]dt = \tfrac12V_0I_0\cos\varphi$$
+$$P = \frac1T\int_0^Tv\ i\ dt = \frac{V_0I_0}{2}\cdot\frac1T\int_0^T\left[\cos\varphi - \cos(2\omega t - \varphi)\right]dt = \tfrac12V_0I_0\cos\varphi$$
 
 Y como $V_0 = ZI_0$ y $\cos\varphi = R/Z$, también $P = \tfrac12I_0^2R$, o sea $R = 2P/I_0^2$.
 
 $$\cos\varphi = \frac{2P}{V_0I_0} = \frac{160}{320} = 0{,}5\ (\le1,\ \text{hay solución}) \quad\Rightarrow\quad \varphi = 60^\circ$$
 
-$$R = \frac{2P}{I_0^2} = \frac{160}{16} = 10\ \Omega \qquad Z = \frac{80}{4} = 20\ \Omega \qquad X_L = 20\mathrm{sen}\,60^\circ = 17{,}32\ \Omega$$
+$$R = \frac{2P}{I_0^2} = \frac{160}{16} = 10\ \Omega \qquad Z = \frac{80}{4} = 20\ \Omega \qquad X_L = 20\mathrm{sen}\ 60^\circ = 17{,}32\ \Omega$$
 
 $$L = \frac{17{,}32}{2\pi\cdot100}\ \text{H} = 27{,}6\ \text{mH}$$
 

@@ -55,7 +55,7 @@ Vale para cargas **puntuales** en reposo (o a velocidades no relativistas).
 
 ![Fuerzas entre cargas de igual y distinto signo](img/teoria-coulomb.png)
 
-$$|\vec F_{1,2}| = |\vec F_{2,1}| = k\,\frac{|q_1|\,|q_2|}{d^2}$$
+$$|\vec F_{1,2}| = |\vec F_{2,1}| = k\ \frac{|q_1|\ |q_2|}{d^2}$$
 
 $$k = \frac{1}{4\pi\varepsilon_0} = 9\times10^9\ \frac{\text{N m}^2}{\text{C}^2} \qquad \varepsilon_0 = 8{,}85\times10^{-12}\ \frac{\text{C}^2}{\text{N m}^2}\ \ (\text{permitividad del vacío})$$
 
@@ -69,7 +69,7 @@ Cada carga genera un **campo eléctrico** $\vec E$ en el espacio que la rodea; l
 
 Una carga $q$ en un campo $\vec E$ siente una fuerza:
 
-$$\boxed{\vec F = q\,\vec E}$$
+$$\boxed{\vec F = q\ \vec E}$$
 
 (Es el análogo del peso, $\vec P = m\vec g$.)
 
@@ -81,11 +81,11 @@ $$\boxed{\vec F = q\,\vec E}$$
 
 Se coloca una **carga de prueba** $q$ (positiva y pequeña) en el punto y se usa Coulomb:
 
-$$\boxed{\vec E = \frac{kQ}{r^2}\,\hat r}$$
+$$\boxed{\vec E = \frac{kQ}{r^2}\ \hat r}$$
 
-$\hat r$ es el versor que va **desde la carga fuente hacia el punto**. Si la carga está en $\vec r\,'$ y el punto en $\vec r$:
+$\hat r$ es el versor que va **desde la carga fuente hacia el punto**. Si la carga está en $\vec r\ '$ y el punto en $\vec r$:
 
-$$\vec E(\vec r) = kQ\,\frac{\vec r - \vec r\,'}{|\vec r - \vec r\,'|^3}$$
+$$\vec E(\vec r) = kQ\ \frac{\vec r - \vec r\ '}{|\vec r - \vec r\ '|^3}$$
 
 ### Principio de superposición
 
@@ -95,7 +95,7 @@ $$\vec E = \vec E_1 + \vec E_2 + \dots$$
 
 ![Superposición de campos](img/teoria-superposicion.png)
 
-> **Método para cargas puntuales:** para cada carga, armar el vector que va de la carga al punto, $\vec r - \vec r_i$; calcular su módulo; sumar $kq_i\,(\vec r - \vec r_i)/|\vec r - \vec r_i|^3$ componente a componente.
+> **Método para cargas puntuales:** para cada carga, armar el vector que va de la carga al punto, $\vec r - \vec r_i$; calcular su módulo; sumar $kq_i\ (\vec r - \vec r_i)/|\vec r - \vec r_i|^3$ componente a componente.
 
 ---
 
@@ -105,20 +105,20 @@ A nivel macroscópico se ignora la discretización y se usan **densidades de car
 
 | Distribución | Densidad | Elemento de carga | Carga total | Unidades |
 |---|---|---|---|---|
-| Volumen | $\rho(\vec r)$ | $\delta q = \rho\,dV$ | $Q = \int_V \rho\,dV$ | C/m³ |
-| Superficie | $\sigma(\vec r)$ | $\delta q = \sigma\,ds$ | $Q = \int_S \sigma\,ds$ | C/m² |
-| Línea | $\lambda(\vec r)$ | $\delta q = \lambda\,d\ell$ | $Q = \int \lambda\,d\ell$ | C/m |
+| Volumen | $\rho(\vec r)$ | $\delta q = \rho\ dV$ | $Q = \int_V \rho\ dV$ | C/m³ |
+| Superficie | $\sigma(\vec r)$ | $\delta q = \sigma\ ds$ | $Q = \int_S \sigma\ ds$ | C/m² |
+| Línea | $\lambda(\vec r)$ | $\delta q = \lambda\ d\ell$ | $Q = \int \lambda\ d\ell$ | C/m |
 
 Si la densidad es uniforme: $Q = \rho V$, $Q = \sigma S$, $Q = \lambda\ell$.
 
 **Campo:** cada elemento $\delta q$ se trata como una carga puntual y se **integra** en lugar de sumar:
 
-$$\boxed{\vec E(\vec r) = k\int \frac{\vec r - \vec r\,'}{|\vec r - \vec r\,'|^3}\,\delta q'}$$
+$$\boxed{\vec E(\vec r) = k\int \frac{\vec r - \vec r\ '}{|\vec r - \vec r\ '|^3}\ \delta q'}$$
 
 > **Receta para integrar un campo**
 >
-> 1. Elegir ejes convenientes y escribir $\delta q$ (por ejemplo $\lambda\,dx'$, $\lambda R\,d\phi$, $\sigma\,r\,dr\,d\theta$).
-> 2. Escribir el vector $\vec r - \vec r\,'$ (del elemento al punto) y su módulo.
+> 1. Elegir ejes convenientes y escribir $\delta q$ (por ejemplo $\lambda\ dx'$, $\lambda R\ d\phi$, $\sigma\ r\ dr\ d\theta$).
+> 2. Escribir el vector $\vec r - \vec r\ '$ (del elemento al punto) y su módulo.
 > 3. **Usar la simetría** para ver qué componentes se anulan antes de integrar.
 > 4. Integrar las componentes que sobreviven.
 > 5. Verificar un límite conocido (por ejemplo, muy lejos debe parecerse a una carga puntual).
@@ -137,23 +137,23 @@ $$\vec E(x) = k\lambda\left[\frac{1}{x - x_2} - \frac{1}{x - x_1}\right]\hat\ima
 
 Dos hilos iguales de longitud $\ell$ y densidad $\lambda$, sobre el eje X, separados una distancia $a$:
 
-$$\vec F = k\lambda^2\,\ln\!\left[\frac{(a + \ell)^2}{a\,(a + 2\ell)}\right]\hat\imath = \frac{kQ^2}{\ell^2}\,\ln\!\left[\frac{(a + \ell)^2}{a\,(a + 2\ell)}\right]\hat\imath$$
+$$\vec F = k\lambda^2\ \ln\left[\frac{(a + \ell)^2}{a\ (a + 2\ell)}\right]\hat\imath = \frac{kQ^2}{\ell^2}\ \ln\left[\frac{(a + \ell)^2}{a\ (a + 2\ell)}\right]\hat\imath$$
 
 ### Hilo finito, en un punto fuera de su eje
 
-Punto a distancia $y$ del hilo. Conviene integrar en el ángulo $\theta$ (con $x = y\tan\theta$, $dx = y\,d\theta/\cos^2\theta$). Los ángulos se miden desde la perpendicular al hilo: positivos en sentido antihorario y negativos en sentido horario.
+Punto a distancia $y$ del hilo. Conviene integrar en el ángulo $\theta$ (con $x = y\tan\theta$, $dx = y\ d\theta/\cos^2\theta$). Los ángulos se miden desde la perpendicular al hilo: positivos en sentido antihorario y negativos en sentido horario.
 
-$$\vec E = \frac{k\lambda}{y}\Big[(\cos\theta_2 - \cos\theta_1)\,\hat\imath + (\sin\theta_2 - \sin\theta_1)\,\hat\jmath\Big]$$
+$$\vec E = \frac{k\lambda}{y}\Big[(\cos\theta_2 - \cos\theta_1)\ \hat\imath + (\sin\theta_2 - \sin\theta_1)\ \hat\jmath\Big]$$
 
 **En la mediatriz** ($\theta_1 = -\theta_2$, con $\tan\theta_2 = \frac{\ell/2}{y}$): el campo es perpendicular al hilo:
 
-$$\vec E = \frac{2k\lambda}{y}\sin\theta_2\,\hat\jmath = \frac{2k\lambda}{y}\,\frac{\ell/2}{\sqrt{(\ell/2)^2 + y^2}}\,\hat\jmath$$
+$$\vec E = \frac{2k\lambda}{y}\sin\theta_2\ \hat\jmath = \frac{2k\lambda}{y}\ \frac{\ell/2}{\sqrt{(\ell/2)^2 + y^2}}\ \hat\jmath$$
 
 ### Hilo infinito
 
 Haciendo $\theta_2 \to \pi/2$:
 
-$$\boxed{\vec E = \frac{2k\lambda}{r}\,\hat r = \frac{\lambda}{2\pi\varepsilon_0\,r}\,\hat r}$$
+$$\boxed{\vec E = \frac{2k\lambda}{r}\ \hat r = \frac{\lambda}{2\pi\varepsilon_0\ r}\ \hat r}$$
 
 Observar que $E \sim 1/r$, mientras que para la carga puntual $E \sim 1/r^2$. Los campos de distribuciones infinitas decaen más lentamente.
 
@@ -163,15 +163,15 @@ Anillo de radio $R$ y carga $Q = 2\pi R\lambda$. Por simetría, solo sobrevive l
 
 ![Campo en el eje de un anillo](img/teoria-anillo.png)
 
-$$\boxed{\vec E = \frac{kQ\,z}{(R^2 + z^2)^{3/2}}\,\hat k}$$
+$$\boxed{\vec E = \frac{kQ\ z}{(R^2 + z^2)^{3/2}}\ \hat k}$$
 
-Verificación: para $z \gg R$, $\vec E \approx kQ/z^2\,\hat k$ (carga puntual).
+Verificación: para $z \gg R$, $\vec E \approx kQ/z^2\ \hat k$ (carga puntual).
 
 ### Disco en su eje
 
-Disco de radio $R$ con $\sigma$ uniforme. Se suman anillos de radio $r$ y espesor $dr$ ($ds = r\,dr\,d\theta$):
+Disco de radio $R$ con $\sigma$ uniforme. Se suman anillos de radio $r$ y espesor $dr$ ($ds = r\ dr\ d\theta$):
 
-$$\vec E = \frac{\sigma z}{2\varepsilon_0}\int_0^R\frac{r\,dr}{(r^2 + z^2)^{3/2}}\,\hat k \quad\Rightarrow\quad \boxed{\vec E = \frac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\left[1 - \frac{1}{\sqrt{1 + R^2/z^2}}\right]\hat k}$$
+$$\vec E = \frac{\sigma z}{2\varepsilon_0}\int_0^R\frac{r\ dr}{(r^2 + z^2)^{3/2}}\ \hat k \quad\Rightarrow\quad \boxed{\vec E = \frac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\left[1 - \frac{1}{\sqrt{1 + R^2/z^2}}\right]\hat k}$$
 
 $\text{sg}(z) = z/|z|$ vale $+1$ si $z > 0$ y $-1$ si $z < 0$.
 
@@ -179,7 +179,7 @@ $\text{sg}(z) = z/|z|$ vale $+1$ si $z > 0$ y $-1$ si $z < 0$.
 
 Haciendo $z \ll R$ en el disco:
 
-$$\boxed{\vec E = \frac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\,\hat k}$$
+$$\boxed{\vec E = \frac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\ \hat k}$$
 
 **¡Es uniforme!** No depende de la distancia al plano.
 
@@ -196,11 +196,11 @@ Se superponen los campos de ambos planos (despreciando efectos de borde):
 
 Arco de radio $R$ y $\lambda$ uniforme, entre los ángulos $\theta_1$ y $\theta_2$:
 
-$$\vec E = \frac{k\lambda}{R}\Big[-(\sin\theta_2 - \sin\theta_1)\,\hat\imath + (\cos\theta_2 - \cos\theta_1)\,\hat\jmath\Big]$$
+$$\vec E = \frac{k\lambda}{R}\Big[-(\sin\theta_2 - \sin\theta_1)\ \hat\imath + (\cos\theta_2 - \cos\theta_1)\ \hat\jmath\Big]$$
 
 **Ejemplo (apunte):** semicircunferencia izquierda con $+Q$ en el cuarto superior ($\theta \in [\pi/2, \pi]$) y $-Q$ en el inferior ($\theta \in [\pi, 3\pi/2]$). Con $\lambda_1 = 2Q/(\pi R)$ y $\lambda_2 = -2Q/(\pi R)$:
 
-$$\vec E_1 = \frac{2kQ}{\pi R^2}(\hat\imath - \hat\jmath) \qquad \vec E_2 = \frac{2kQ}{\pi R^2}(-\hat\imath - \hat\jmath) \qquad \vec E = -\frac{4kQ}{\pi R^2}\,\hat\jmath$$
+$$\vec E_1 = \frac{2kQ}{\pi R^2}(\hat\imath - \hat\jmath) \qquad \vec E_2 = \frac{2kQ}{\pi R^2}(-\hat\imath - \hat\jmath) \qquad \vec E = -\frac{4kQ}{\pi R^2}\ \hat\jmath$$
 
 ---
 
@@ -229,10 +229,10 @@ Son una representación gráfica del campo:
 El flujo mide **cuántas líneas de campo atraviesan una superficie**.
 
 - Campo uniforme, perpendicular a una superficie plana de área $A$: $\phi = EA$.
-- Campo uniforme formando un ángulo $\theta$ con la normal $\hat n$: $\phi = EA\cos\theta = \vec E\cdot\hat n\,A$. Si las líneas son paralelas a la superficie ($\theta = 90°$), $\phi = 0$.
+- Campo uniforme formando un ángulo $\theta$ con la normal $\hat n$: $\phi = EA\cos\theta = \vec E\cdot\hat n\ A$. Si las líneas son paralelas a la superficie ($\theta = 90°$), $\phi = 0$.
 - **Caso general** (campo y superficie arbitrarios):
 
-$$\boxed{\phi = \int_S \vec E\cdot\hat n\,ds}$$
+$$\boxed{\phi = \int_S \vec E\cdot\hat n\ ds}$$
 
 ---
 
@@ -244,7 +244,7 @@ Una **superficie gaussiana** es una superficie **cerrada** imaginaria (sin reali
 - Una carga **externa** no aporta flujo: toda línea que entra sale por otro lado.
 - Por superposición:
 
-$$\boxed{\phi = \oint \vec E\cdot\hat n\,ds = \frac{Q_{enc}}{\varepsilon_0}}$$
+$$\boxed{\phi = \oint \vec E\cdot\hat n\ ds = \frac{Q_{enc}}{\varepsilon_0}}$$
 
 donde $Q_{enc}$ es la carga **encerrada** por la superficie. Es una de las cuatro **ecuaciones de Maxwell**.
 
@@ -254,7 +254,7 @@ donde $Q_{enc}$ es la carga **encerrada** por la superficie. Es una de las cuatr
 
 Sirve cuando se puede elegir una superficie gaussiana donde, en cada parte, o bien $\vec E \parallel \hat n$ con $|\vec E|$ constante, o bien $\vec E\cdot\hat n = 0$. Entonces:
 
-$$\frac{Q_{enc}}{\varepsilon_0} = \oint \vec E\cdot\hat n\,ds = E\,S \quad\Rightarrow\quad E = \frac{Q_{enc}}{\varepsilon_0\,S}$$
+$$\frac{Q_{enc}}{\varepsilon_0} = \oint \vec E\cdot\hat n\ ds = E\ S \quad\Rightarrow\quad E = \frac{Q_{enc}}{\varepsilon_0\ S}$$
 
 > **Pasos**
 >
@@ -270,18 +270,18 @@ $$\frac{Q_{enc}}{\varepsilon_0} = \oint \vec E\cdot\hat n\,ds = E\,S \quad\Right
 
 ### Ejemplo: cilindro infinito con $\rho$ uniforme
 
-Por simetría, $\vec E = E(r)\,\hat r$ (radial, depende solo de la distancia al eje). Gaussiana: cilindro coaxial de radio $r$ y altura $h$. En las tapas $\vec E \perp \hat n$ y no hay flujo; en la superficie lateral $\phi = E\,2\pi r h$.
+Por simetría, $\vec E = E(r)\ \hat r$ (radial, depende solo de la distancia al eje). Gaussiana: cilindro coaxial de radio $r$ y altura $h$. En las tapas $\vec E \perp \hat n$ y no hay flujo; en la superficie lateral $\phi = E\ 2\pi r h$.
 
 ![Superficie gaussiana cilíndrica](img/teoria-gauss-cilindro.png)
 
-- Adentro ($r < R$): $Q_{enc} = \rho\pi r^2 h$, entonces $\vec E = \dfrac{\rho}{2\varepsilon_0}\,r\,\hat r$.
-- Afuera ($r > R$): $Q_{enc} = \rho\pi R^2 h$, entonces $\vec E = \dfrac{\rho R^2}{2\varepsilon_0}\,\dfrac{1}{r}\,\hat r$.
+- Adentro ($r < R$): $Q_{enc} = \rho\pi r^2 h$, entonces $\vec E = \dfrac{\rho}{2\varepsilon_0}\ r\ \hat r$.
+- Afuera ($r > R$): $Q_{enc} = \rho\pi R^2 h$, entonces $\vec E = \dfrac{\rho R^2}{2\varepsilon_0}\ \dfrac{1}{r}\ \hat r$.
 
 ### Ejemplo: placa de espesor $d$ con $\rho$ uniforme
 
-Por simetría, $\vec E = E(x)\,\hat\imath$, con campos opuestos a ambos lados del plano central. Gaussiana: cilindro de tapas $A$ entre $-x$ y $x$:
+Por simetría, $\vec E = E(x)\ \hat\imath$, con campos opuestos a ambos lados del plano central. Gaussiana: cilindro de tapas $A$ entre $-x$ y $x$:
 
-$$2E(x)\,A = \frac{\rho\,2x\,A}{\varepsilon_0} \quad\Rightarrow\quad \vec E(x) = \frac{\rho\,x}{\varepsilon_0}\,\hat\imath \quad(|x| < d/2)$$
+$$2E(x)\ A = \frac{\rho\ 2x\ A}{\varepsilon_0} \quad\Rightarrow\quad \vec E(x) = \frac{\rho\ x}{\varepsilon_0}\ \hat\imath \quad(|x| < d/2)$$
 
 ---
 
@@ -292,7 +292,7 @@ Un conductor está en equilibrio electrostático cuando sus cargas libres están
 1. **El campo en el interior del conductor es nulo.** Si no, las cargas se acelerarían.
 2. **La carga se distribuye en la superficie.** Por Gauss, cualquier superficie dentro del conductor tiene flujo nulo, así que $Q_{enc} = 0$.
 3. **Las líneas de campo son perpendiculares a la superficie** (en sus proximidades). Si $\vec E$ tuviera componente tangencial, las cargas superficiales se moverían.
-4. **En la superficie, $\vec E = \dfrac{\sigma}{\varepsilon_0}\,\hat n$.**
+4. **En la superficie, $\vec E = \dfrac{\sigma}{\varepsilon_0}\ \hat n$.**
 5. **Efecto de puntas:** la carga se acumula en las zonas puntiagudas (principio del pararrayos).
 6. **Todo el conductor está al mismo potencial** y su superficie es equipotencial (ver sección 12).
 
@@ -315,7 +315,7 @@ $$\boxed{dV = -\vec E\cdot d\vec\ell} \qquad\qquad \boxed{V_B - V_A = -\int_A^B 
 
 ### Trabajo y energía
 
-$$\Delta U = q\,\Delta V \qquad W_{campo} = -\Delta U = -q\,(V_B - V_A) \qquad W_{externo}\ (\text{sin variar } E_c) = +q\,(V_B - V_A)$$
+$$\Delta U = q\ \Delta V \qquad W_{campo} = -\Delta U = -q\ (V_B - V_A) \qquad W_{externo}\ (\text{sin variar } E_c) = +q\ (V_B - V_A)$$
 
 ### Cero de potencial
 
@@ -356,7 +356,7 @@ Ejemplos: carga puntual, esferas centradas en la carga; campo uniforme, planos p
 
 $$\boxed{V(r) = \frac{kq}{r}}$$
 
-Para varias cargas o distribuciones continuas, se **suman** (sin vectores): $V = \sum \dfrac{kq_i}{r_i}$ o $V = k\displaystyle\int\frac{\delta q}{|\vec r - \vec r\,'|}$.
+Para varias cargas o distribuciones continuas, se **suman** (sin vectores): $V = \sum \dfrac{kq_i}{r_i}$ o $V = k\displaystyle\int\frac{\delta q}{|\vec r - \vec r\ '|}$.
 
 ### Anillo en su eje
 
@@ -372,7 +372,7 @@ $$V(z) = \frac{\sigma}{2\varepsilon_0}\left[\sqrt{R^2 + z^2} - |z|\right]$$
 
 Conviene calcular $E$ por Gauss e integrar. Con el cero en un cilindro de radio $r_0$ (que **no puede ser infinito**):
 
-$$V(r) = -\frac{\lambda}{2\pi\varepsilon_0}\,\ln\!\left(\frac{r}{r_0}\right)$$
+$$V(r) = -\frac{\lambda}{2\pi\varepsilon_0}\ \ln\left(\frac{r}{r_0}\right)$$
 
 ### Campo uniforme
 
@@ -380,7 +380,7 @@ Si se avanza una distancia $d$ **a favor** del campo, $\Delta V = -Ed$. Moverse 
 
 ### Regiones con $E(r)$ conocido (simetría esférica)
 
-Como $V(r) = -\int E(r)\,dr$ (una primitiva), en cada región $V$ es una primitiva más una constante. Las constantes salen de:
+Como $V(r) = -\int E(r)\ dr$ (una primitiva), en cada región $V$ es una primitiva más una constante. Las constantes salen de:
 
 1. el cero de potencial (por ejemplo, $V \to 0$ en el infinito, en la región exterior);
 2. la **continuidad del potencial** en cada frontera entre regiones.
@@ -391,13 +391,13 @@ Como $V(r) = -\int E(r)\,dr$ (una primitiva), en cada región $V$ es una primiti
 
 ### Oscilaciones de una carga en el eje de un anillo
 
-Una carga $-q$ de masa $m$ en el eje de un anillo con carga $+Q$: $m\ddot x = -\dfrac{kQq\,x}{(R^2 + x^2)^{3/2}}$. Para $x \ll R$ queda la ecuación del MAS, $\ddot x + \omega^2 x = 0$, con
+Una carga $-q$ de masa $m$ en el eje de un anillo con carga $+Q$: $m\ddot x = -\dfrac{kQq\ x}{(R^2 + x^2)^{3/2}}$. Para $x \ll R$ queda la ecuación del MAS, $\ddot x + \omega^2 x = 0$, con
 
 $$\omega^2 = \frac{kQq}{mR^3} \qquad f = \frac{1}{2\pi}\sqrt{\frac{kQq}{mR^3}}$$
 
 ### Electrón dentro de una placa cargada
 
-Con $\vec E = \rho x/\varepsilon_0\,\hat\imath$, un electrón cumple $\ddot x + \dfrac{e\rho}{\varepsilon_0 m}x = 0$, de modo que $f = \dfrac{1}{2\pi}\sqrt{\dfrac{e\rho}{\varepsilon_0 m}}$.
+Con $\vec E = \rho x/\varepsilon_0\ \hat\imath$, un electrón cumple $\ddot x + \dfrac{e\rho}{\varepsilon_0 m}x = 0$, de modo que $f = \dfrac{1}{2\pi}\sqrt{\dfrac{e\rho}{\varepsilon_0 m}}$.
 
 ### Carga en campo uniforme
 
@@ -405,7 +405,7 @@ Si $A$ y $C$ están sobre la misma línea de campo, separados $d_1$, y $C$ y $B$
 
 ### Disco con $\sigma = 850\ \mu\text{C/m}^2$, $R = 7$ cm
 
-Con la fórmula del potencial del disco: $V(12\text{ cm}) = 9{,}1\times10^5$ V y $V(19\text{ cm}) = 6\times10^5$ V. El trabajo del campo sobre $q = 9\ \mu\text{C}$ es $W_c = -q\,\Delta V = 2{,}8$ J.
+Con la fórmula del potencial del disco: $V(12\text{ cm}) = 9{,}1\times10^5$ V y $V(19\text{ cm}) = 6\times10^5$ V. El trabajo del campo sobre $q = 9\ \mu\text{C}$ es $W_c = -q\ \Delta V = 2{,}8$ J.
 
 ### Esfera conductora dentro de un casquete conductor
 
@@ -421,7 +421,7 @@ Esfera de radio $R_1$ con carga $q$, rodeada por un casquete de radios $R_2 < R_
 | 4: $r > R_3$ | $\dfrac{k(Q + q)}{r^2}\hat r$ | $\dfrac{k(q + Q)}{r}$ |
 
 - **Casquete a tierra:** $V_3 = 0$, así que adquiere carga $Q' = -q$ y todo $r \ge R_2$ queda a potencial cero.
-- **Esfera interna a tierra:** $V_1 = 0$, de donde la esfera adquiere $q' = \dfrac{R_1R_2}{R_1R_3 - R_1R_2 - R_2R_3}\,Q$.
+- **Esfera interna a tierra:** $V_1 = 0$, de donde la esfera adquiere $q' = \dfrac{R_1R_2}{R_1R_3 - R_1R_2 - R_2R_3}\ Q$.
 - **Ambos unidos por un cable:** forman un único conductor. Toda la carga $Q' = q + Q$ va a la superficie externa $R_3$.
 
 ---
@@ -432,15 +432,15 @@ Esfera de radio $R_1$ con carga $q$, rodeada por un casquete de radios $R_2 < R_
 |---|---|
 | Coulomb | $F = k\lvert q_1q_2\rvert/d^2$, $k = 1/(4\pi\varepsilon_0) = 9\times10^9$ N m²/C² |
 | Fuerza y campo | $\vec F = q\vec E$ |
-| Carga puntual | $\vec E = kq\,\hat r/r^2$, $V = kq/r$ |
-| Distribución continua | $\vec E = k\int \delta q\,(\vec r - \vec r\,')/\lvert\vec r - \vec r\,'\rvert^3$ |
+| Carga puntual | $\vec E = kq\ \hat r/r^2$, $V = kq/r$ |
+| Distribución continua | $\vec E = k\int \delta q\ (\vec r - \vec r\ ')/\lvert\vec r - \vec r\ '\rvert^3$ |
 | Hilo infinito | $E = \lambda/(2\pi\varepsilon_0 r)$ |
 | Anillo (eje) | $E = kQz/(R^2 + z^2)^{3/2}$, $V = kQ/\sqrt{R^2 + z^2}$ |
 | Disco (eje) | $E = \frac{\sigma}{2\varepsilon_0}\text{sg}(z)\big[1 - 1/\sqrt{1 + R^2/z^2}\big]$ |
 | Plano infinito | $E = \sigma/(2\varepsilon_0)$ |
 | Capacitor plano | $E = \sigma/\varepsilon_0$ (adentro), 0 afuera |
 | Superficie de conductor | $E = \sigma/\varepsilon_0$ |
-| Flujo | $\phi = \int_S \vec E\cdot\hat n\,ds$ |
-| Gauss | $\oint\vec E\cdot\hat n\,ds = Q_{enc}/\varepsilon_0$ |
+| Flujo | $\phi = \int_S \vec E\cdot\hat n\ ds$ |
+| Gauss | $\oint\vec E\cdot\hat n\ ds = Q_{enc}/\varepsilon_0$ |
 | Potencial | $V_B - V_A = -\int_A^B\vec E\cdot d\vec\ell$, $\vec E = -\nabla V$ |
 | Energía y trabajo | $\Delta U = q\Delta V$, $W_{campo} = -q\Delta V$ |

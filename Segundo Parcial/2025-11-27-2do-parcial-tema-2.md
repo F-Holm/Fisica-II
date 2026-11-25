@@ -28,33 +28,33 @@ Un hilo muy largo que transporta una corriente I adopta la forma indicada en la 
 
 **Paso 1 — Hilo recto finito.** Un tramo recto a distancia $d$ de P genera
 
-$$B = \frac{\mu_0I}{4\pi d}\left(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1\right)$$
+$$B = \frac{\mu_0I}{4\pi d}\left(\mathrm{sen}\ \beta_2 - \mathrm{sen}\ \beta_1\right)$$
 
 donde $\beta_{1,2}$ son los ángulos con que se ven los extremos, medidos desde la perpendicular trazada por P.
 
-**Paso 2 — Tramo vertical** ($d = D$). El pie de la perpendicular está en $y = 0$. Un extremo está en $-\infty$, así que $\mathrm{sen}\,\beta_1 = -1$. El otro está en $y = H$, así que $\mathrm{sen}\,\beta_2 = \dfrac{H}{\sqrt{H^2 + D^2}}$:
+**Paso 2 — Tramo vertical** ($d = D$). El pie de la perpendicular está en $y = 0$. Un extremo está en $-\infty$, así que $\mathrm{sen}\ \beta_1 = -1$. El otro está en $y = H$, así que $\mathrm{sen}\ \beta_2 = \dfrac{H}{\sqrt{H^2 + D^2}}$:
 
 $$B_v = \frac{\mu_0I}{4\pi D}\left(1 + \frac{H}{\sqrt{H^2 + D^2}}\right)$$
 
 Sentido: la corriente sube y P está a la derecha del hilo, así que $\vec B_v$ es **entrante** ($-\hat k$).
 
-**Paso 3 — Tramo horizontal** ($d = H$). El pie de la perpendicular está en $x = 0$. Un extremo está en $x = -D$, así que $\mathrm{sen}\,\beta_1 = -\dfrac{D}{\sqrt{H^2 + D^2}}$. El otro está en $+\infty$, así que $\mathrm{sen}\,\beta_2 = 1$:
+**Paso 3 — Tramo horizontal** ($d = H$). El pie de la perpendicular está en $x = 0$. Un extremo está en $x = -D$, así que $\mathrm{sen}\ \beta_1 = -\dfrac{D}{\sqrt{H^2 + D^2}}$. El otro está en $+\infty$, así que $\mathrm{sen}\ \beta_2 = 1$:
 
 $$B_h = \frac{\mu_0I}{4\pi H}\left(1 + \frac{D}{\sqrt{H^2 + D^2}}\right)$$
 
 Sentido: $d\vec l \times \hat r = \hat x \times (-\hat y) = -\hat k$, o sea que también es **entrante**. Los dos aportes se suman.
 
-**Paso 4 — Reemplazo de H = 4D.** $\sqrt{H^2 + D^2} = \sqrt{17}\,D$:
+**Paso 4 — Reemplazo de H = 4D.** $\sqrt{H^2 + D^2} = \sqrt{17}\ D$:
 
 $$B_v = \frac{\mu_0I}{4\pi D}\left(1 + \frac{4}{\sqrt{17}}\right) \qquad B_h = \frac{\mu_0I}{4\pi D}\cdot\frac14\left(1 + \frac{1}{\sqrt{17}}\right)$$
 
-$$B = \frac{\mu_0I}{4\pi D}\left(\frac54 + \frac{17}{4\sqrt{17}}\right) = \frac{\mu_0I}{4\pi D}\cdot\frac{5 + \sqrt{17}}{4} = \frac{(5 + \sqrt{17})\,\mu_0I}{16\pi D}$$
+$$B = \frac{\mu_0I}{4\pi D}\left(\frac54 + \frac{17}{4\sqrt{17}}\right) = \frac{\mu_0I}{4\pi D}\cdot\frac{5 + \sqrt{17}}{4} = \frac{(5 + \sqrt{17})\ \mu_0I}{16\pi D}$$
 
 **Paso 5 — Valor numérico del coeficiente.** $\dfrac{5 + \sqrt{17}}{16\pi} \approx 0{,}1815$.
 
 </details>
 
-**Respuesta:** $\vec B_P = \dfrac{(5 + \sqrt{17})\,\mu_0I}{16\pi D}\,(-\hat k) \approx 0{,}18\,\dfrac{\mu_0I}{D}$, entrante a la hoja
+**Respuesta:** $\vec B_P = \dfrac{(5 + \sqrt{17})\ \mu_0I}{16\pi D}\ (-\hat k) \approx 0{,}18\ \dfrac{\mu_0I}{D}$, entrante a la hoja
 
 </details>
 
@@ -86,7 +86,7 @@ $$\frac{F}{\ell} = \frac{\mu_0I_1I_2}{2\pi D} = \frac{4\mu_0I^2}{3\pi D} \quad\R
 
 $$B_P = \frac{\mu_0I}{2\pi(6D/5)} + \frac{\mu_0(8I/3)}{2\pi(D/5)} = \frac{\mu_0I}{2\pi D}\left(\frac56 + \frac{40}{3}\right) = \frac{\mu_0I}{2\pi D}\cdot\frac{85}{6}$$
 
-$$B_P = \frac{85\,\mu_0I}{12\pi D} \approx 2{,}25\,\frac{\mu_0I}{D}$$
+$$B_P = \frac{85\ \mu_0I}{12\pi D} \approx 2{,}25\ \frac{\mu_0I}{D}$$
 
 **Paso 4 — Puntos de campo nulo (ítem b).** Con corrientes paralelas, fuera de los hilos los dos campos tienen el mismo sentido y no se anulan. **Entre** los hilos tienen sentidos opuestos, y ahí sí puede haber un cero. A distancia $x$ del hilo 1:
 
@@ -96,7 +96,7 @@ El campo es nulo en toda la recta paralela a los hilos, contenida en su plano, a
 
 </details>
 
-**Respuesta:** a) $I_2 = \tfrac83 I$, paralela a I₁; $\vec B_P = \dfrac{85\,\mu_0I}{12\pi D}$ entrante. b) Sí: entre los hilos, a $x = \dfrac{3D}{11}$ del hilo 1
+**Respuesta:** a) $I_2 = \tfrac83 I$, paralela a I₁; $\vec B_P = \dfrac{85\ \mu_0I}{12\pi D}$ entrante. b) Sí: entre los hilos, a $x = \dfrac{3D}{11}$ del hilo 1
 
 </details>
 
@@ -120,11 +120,11 @@ El sistema de la figura consiste en una barra conductora de longitud 24 cm que d
 
 **Paso 2 — Flujo.** El circuito va de la resistencia ($x = 0$) a la barra ($x$). Como B depende de x, se integra en franjas de ancho $dx'$:
 
-$$\phi(x) = \int_0^x k x'\,\ell\,dx' = \frac{k\ell x^2}{2}$$
+$$\phi(x) = \int_0^x k x'\ \ell\ dx' = \frac{k\ell x^2}{2}$$
 
 **Paso 3 — Fem (Faraday).**
 
-$$|\mathcal E| = \frac{d\phi}{dt} = k\ell x\,\frac{dx}{dt} = k\ell x v = B(x)\,\ell\,v$$
+$$|\mathcal E| = \frac{d\phi}{dt} = k\ell x\ \frac{dx}{dt} = k\ell x v = B(x)\ \ell\ v$$
 
 Coincide con la fem de movimiento $B\ell v$ evaluada en la posición de la barra.
 
@@ -166,7 +166,7 @@ Como $\cos\varphi \le 1$, existe solución. El dibujo es esquemático y solo ind
 
 $$P = \frac{I_{MAX}^2}{2}R \quad\Rightarrow\quad R = \frac{2P}{I_{MAX}^2} = \frac{160}{16}\ \Omega = 10\ \Omega$$
 
-**Paso 4 — L.** $Z = V_{MAX}/I_{MAX} = 20\ \Omega$ y $X_L = Z\mathrm{sen}\,\varphi = 20\cdot\tfrac{\sqrt3}{2} = 17{,}32\ \Omega$:
+**Paso 4 — L.** $Z = V_{MAX}/I_{MAX} = 20\ \Omega$ y $X_L = Z\mathrm{sen}\ \varphi = 20\cdot\tfrac{\sqrt3}{2} = 17{,}32\ \Omega$:
 
 $$L = \frac{X_L}{2\pi f} = \frac{17{,}32}{2\pi\cdot100}\ \text{H} = 27{,}6\ \text{mH}$$
 

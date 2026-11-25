@@ -31,7 +31,7 @@ $$\boxed{\mathcal E(t) = \mathcal E_{MAX}\cos\omega t} \qquad f = \frac{\omega}{
 
 $\mathcal E_{MAX}$ es el **valor de pico**. En las redes domiciliarias $f = 50$ o $60$ Hz según el país. En los circuitos el generador se dibuja como un círculo con una onda adentro.
 
-> Algunos textos (y la guía) usan $\mathrm{sen}\,\omega t$ en lugar de $\cos\omega t$; lo único que cambia es el origen de tiempos.
+> Algunos textos (y la guía) usan $\mathrm{sen}\ \omega t$ en lugar de $\cos\omega t$; lo único que cambia es el origen de tiempos.
 
 ---
 
@@ -47,7 +47,7 @@ $$V_R = \mathcal E_{MAX}\cos\omega t \qquad I = \frac{V_R}{R} = I_{MAX}\cos\omeg
 
 **Potencia media.** Con $\langle\cos^2\omega t\rangle = \tfrac12$:
 
-$$\langle P\rangle = R\,\langle I^2\rangle = \frac{RI_{MAX}^2}{2} = \frac12V_{R,MAX}\,I_{MAX}$$
+$$\langle P\rangle = R\ \langle I^2\rangle = \frac{RI_{MAX}^2}{2} = \frac12V_{R,MAX}\ I_{MAX}$$
 
 ---
 
@@ -67,9 +67,9 @@ $$\langle P\rangle = RI_{EF}^2 = I_{EF}V_{EF} = \frac{V_{EF}^2}{R}$$
 
 ## 4. Capacitor con generador de alterna
 
-$V_C = \mathcal E_{MAX}\cos\omega t$ y $I = C\,\dfrac{dV_C}{dt}$:
+$V_C = \mathcal E_{MAX}\cos\omega t$ y $I = C\ \dfrac{dV_C}{dt}$:
 
-$$I = \omega CV_{C,MAX}\cos\!\left(\omega t + \frac\pi2\right)$$
+$$I = \omega CV_{C,MAX}\cos\left(\omega t + \frac\pi2\right)$$
 
 **Reactancia capacitiva:**
 
@@ -78,7 +78,7 @@ $$\boxed{X_C = \frac{1}{\omega C}} \qquad V_{C,MAX} = X_CI_{MAX} \qquad V_{C,EF}
 - Hace un papel análogo al de la resistencia: dificulta el paso de la carga.
 - **A menor frecuencia, mayor $X_C$.** Para $f = 0$ (continua) es infinita: el capacitor es una llave abierta, como en el estacionario de continua.
 - **La corriente adelanta 90° a la tensión en el capacitor.**
-- **Potencia media nula:** $P = -\dfrac{V_{C,MAX}^2}{2X_C}\mathrm{sen}\,2\omega t$, de promedio cero. La energía va y viene entre el generador y el capacitor.
+- **Potencia media nula:** $P = -\dfrac{V_{C,MAX}^2}{2X_C}\mathrm{sen}\ 2\omega t$, de promedio cero. La energía va y viene entre el generador y el capacitor.
 
 ![Fasores en un capacitor](img/teoria-fasor-c.png)
 
@@ -86,9 +86,9 @@ $$\boxed{X_C = \frac{1}{\omega C}} \qquad V_{C,MAX} = X_CI_{MAX} \qquad V_{C,EF}
 
 ## 5. Inductor con generador de alterna
 
-$V_L = L\,\dfrac{dI}{dt} = \mathcal E_{MAX}\cos\omega t$:
+$V_L = L\ \dfrac{dI}{dt} = \mathcal E_{MAX}\cos\omega t$:
 
-$$I = \frac{\mathcal E_{MAX}}{\omega L}\cos\!\left(\omega t - \frac\pi2\right)$$
+$$I = \frac{\mathcal E_{MAX}}{\omega L}\cos\left(\omega t - \frac\pi2\right)$$
 
 **Reactancia inductiva:**
 
@@ -152,7 +152,7 @@ La potencia **depende de la fase**. Los circuitos reales suelen ser inductivos (
 |---|---|---|---|
 | **Activa** | $\langle P\rangle = V_{EF}I_{EF}\cos\phi = RI_{EF}^2$ | W | La que efectivamente se entrega al circuito |
 | **Aparente** | $S = V_{EF}I_{EF} = ZI_{EF}^2$ | VA | No tiene en cuenta la fase |
-| **Reactiva** | $Q = V_{EF}I_{EF}\mathrm{sen}\,\phi = XI_{EF}^2$ | VAR | Va y viene entre las reactancias y el generador |
+| **Reactiva** | $Q = V_{EF}I_{EF}\mathrm{sen}\ \phi = XI_{EF}^2$ | VAR | Va y viene entre las reactancias y el generador |
 
 **Triángulo de potencias:**
 
@@ -189,11 +189,11 @@ Esta fórmula es muy útil cuando se conocen la frecuencia de trabajo y la de re
 
 Como las expresiones de alterna contienen información sobre los valores de pico y sobre las fases, conviene describirlas con **números complejos**. Los diagramas de fasores son la representación polar de esos números.
 
-$$V = \mathrm{Re}\,(\mathbb V) \qquad I = \mathrm{Re}\,(\mathbb I) \qquad \mathbb V = \mathbb V_0e^{j\omega t} \qquad \mathbb I = \mathbb I_0e^{j\omega t}$$
+$$V = \mathrm{Re}\ (\mathbb V) \qquad I = \mathrm{Re}\ (\mathbb I) \qquad \mathbb V = \mathbb V_0e^{j\omega t} \qquad \mathbb I = \mathbb I_0e^{j\omega t}$$
 
 ($j$ es la unidad imaginaria.) Se recupera una relación lineal, como la ley de Ohm:
 
-$$\boxed{\mathbb V = \mathbb Z\,\mathbb I}$$
+$$\boxed{\mathbb V = \mathbb Z\ \mathbb I}$$
 
 **Impedancias complejas:**
 
@@ -203,17 +203,17 @@ $$\mathbb Z_R = R \qquad \mathbb Z_L = jX_L = j\omega L \qquad \mathbb Z_C = -jX
 
 $$\text{Serie: } \mathbb Z_{EQ} = \sum\mathbb Z_i \qquad \text{Paralelo: } \mathbb Z_{EQ}^{-1} = \sum\mathbb Z_i^{-1}$$
 
-La impedancia tiene una parte **resistiva** $\mathrm{Re}\,(\mathbb Z)$ y una **reactiva** $\mathrm{Im}\,(\mathbb Z)$:
+La impedancia tiene una parte **resistiva** $\mathrm{Re}\ (\mathbb Z)$ y una **reactiva** $\mathrm{Im}\ (\mathbb Z)$:
 
-$$\tan\phi = \frac{\mathrm{Im}\,\mathbb Z}{\mathrm{Re}\,\mathbb Z} \qquad \cos\phi = \frac{\mathrm{Re}\,\mathbb Z}{|\mathbb Z|}$$
+$$\tan\phi = \frac{\mathrm{Im}\ \mathbb Z}{\mathrm{Re}\ \mathbb Z} \qquad \cos\phi = \frac{\mathrm{Re}\ \mathbb Z}{|\mathbb Z|}$$
 
-**Condición de resonancia:** $\mathrm{Im}\,(\mathbb Z) = 0$ (tensión y corriente en fase).
+**Condición de resonancia:** $\mathrm{Im}\ (\mathbb Z) = 0$ (tensión y corriente en fase).
 
 **Ejemplo (apunte): bobina con resistencia interna $R$ en paralelo con un capacitor.**
 
 ![Bobina real en paralelo con un capacitor](img/teoria-paralelo-lc.png)
 
-$\mathbb Z_{RL} = R + j\omega L$ y $\mathbb Z_{ef} = \dfrac{\mathbb Z_{RL}\mathbb Z_C}{\mathbb Z_{RL} + \mathbb Z_C}$. Pidiendo $\mathrm{Im}\,(\mathbb Z_{ef}) = 0$:
+$\mathbb Z_{RL} = R + j\omega L$ y $\mathbb Z_{ef} = \dfrac{\mathbb Z_{RL}\mathbb Z_C}{\mathbb Z_{RL} + \mathbb Z_C}$. Pidiendo $\mathrm{Im}\ (\mathbb Z_{ef}) = 0$:
 
 $$f = \frac{1}{2\pi}\sqrt{\frac{1}{LC} - \frac{R^2}{L^2}}$$
 
@@ -237,7 +237,7 @@ Variando la relación de vueltas se obtiene una tensión de salida distinta de l
 
 ## 11. Cómo encarar un ejercicio de RLC serie
 
-> 1. Pasar todo a **eficaces** (o todo a **pico**) y no mezclar. Si el dato es $i(t) = I_0\mathrm{sen}\,(\dots)$, entonces $I_0$ es pico.
+> 1. Pasar todo a **eficaces** (o todo a **pico**) y no mezclar. Si el dato es $i(t) = I_0\mathrm{sen}\ (\dots)$, entonces $I_0$ es pico.
 > 2. Con la potencia activa y la corriente: $R = P/I_{EF}^2$.
 > 3. Con la potencia aparente o la tensión: $Z = V_{EF}/I_{EF} = S/I_{EF}^2$.
 > 4. Con el ángulo o el factor de potencia: $\cos\phi = R/Z$, $X = X_L - X_C = R\tan\phi$ (o $\pm\sqrt{Z^2 - R^2}$).
@@ -260,7 +260,7 @@ Variando la relación de vueltas se obtiene una tensión de salida distinta de l
 | Tensión total | $\mathcal E = \sqrt{V_R^2 + (V_L - V_C)^2}$ |
 | Activa | $P = V_{EF}I_{EF}\cos\phi = RI_{EF}^2$ [W] |
 | Aparente | $S = V_{EF}I_{EF}$ [VA] |
-| Reactiva | $Q = V_{EF}I_{EF}\mathrm{sen}\,\phi$ [VAR], $S^2 = P^2 + Q^2$ |
+| Reactiva | $Q = V_{EF}I_{EF}\mathrm{sen}\ \phi$ [VAR], $S^2 = P^2 + Q^2$ |
 | Resonancia | $\omega_R = 1/\sqrt{LC}$, $Z = R$ |
 | Reactancia neta | $X = \omega L(1 - \omega_R^2/\omega^2)$ |
 | Complejos | $\mathbb Z_L = j\omega L$, $\mathbb Z_C = -j/(\omega C)$, $\mathbb V = \mathbb Z\mathbb I$ |

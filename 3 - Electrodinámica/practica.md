@@ -29,11 +29,11 @@ Un alambre de longitud *L* y resistencia *R*=6Ω se estira hasta una longitud *3
 
 **Paso 1 — Qué se conserva.** La masa no cambia y la densidad del material tampoco, así que el **volumen** se conserva:
 
-$$L\,A = L'\,A' \quad\Rightarrow\quad A' = A\,\frac{L}{L'} = \frac{A}{3}$$
+$$L\ A = L'\ A' \quad\Rightarrow\quad A' = A\ \frac{L}{L'} = \frac{A}{3}$$
 
-**Paso 2 — Nueva resistencia.** Con $R = \rho\,\dfrac{L}{A}$:
+**Paso 2 — Nueva resistencia.** Con $R = \rho\ \dfrac{L}{A}$:
 
-$$R' = \rho\,\frac{L'}{A'} = \rho\,\frac{3L}{A/3} = 9\,\rho\,\frac LA = 9R$$
+$$R' = \rho\ \frac{L'}{A'} = \rho\ \frac{3L}{A/3} = 9\ \rho\ \frac LA = 9R$$
 
 **Paso 3 — Cálculo.**
 
@@ -57,11 +57,11 @@ Un bobinado de alambre de cobre de 1mm<sup>2</sup> de sección (a 20°C la resis
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Resistencia a 20 °C.** La longitud total del alambre es $L = N\,\ell_{vuelta}$:
+**Paso 1 — Resistencia a 20 °C.** La longitud total del alambre es $L = N\ \ell_{vuelta}$:
 
-$$R_0 = \rho_{Cu}\,\frac{N\,\ell_{vuelta}}{A}$$
+$$R_0 = \rho_{Cu}\ \frac{N\ \ell_{vuelta}}{A}$$
 
-**Paso 2 — Variación con la temperatura.** $R = R_0\,(1 + \alpha\,\Delta T)$, entonces
+**Paso 2 — Variación con la temperatura.** $R = R_0\ (1 + \alpha\ \Delta T)$, entonces
 
 $$\Delta T = \frac{1}{\alpha}\left(\frac{R}{R_0} - 1\right)$$
 
@@ -105,7 +105,7 @@ e) compare la potencia entregada por la fuente con la disipada por la resistenci
 
 **Paso 2 — Fórmulas.**
 
-$$R_{eq} = R_1 + R_2 + R_3 \qquad i = \frac{V}{R_{eq}} \qquad V_k = R_k\,i \qquad P_k = R_k\,i^2 \qquad P_{fuente} = V\,i$$
+$$R_{eq} = R_1 + R_2 + R_3 \qquad i = \frac{V}{R_{eq}} \qquad V_k = R_k\ i \qquad P_k = R_k\ i^2 \qquad P_{fuente} = V\ i$$
 
 **Paso 3 — Cálculo.**
 
@@ -115,7 +115,7 @@ $$V_{R1} = 8\ \text{V} \qquad V_{R2} = 20\ \text{V} \qquad V_{R3} = 30\ \text{V}
 
 $$P_{R1} = 4\cdot4 = 16\ \text{W} \qquad P_{R2} = 10\cdot4 = 40\ \text{W} \qquad P_{R3} = 15\cdot4 = 60\ \text{W}$$
 
-$$P_{fuente} = 58\ \text{V}\cdot2\ \text{A} = 116\ \text{W} = P_{R1} + P_{R2} + P_{R3} = R_{eq}\,i^2$$
+$$P_{fuente} = 58\ \text{V}\cdot2\ \text{A} = 116\ \text{W} = P_{R1} + P_{R2} + P_{R3} = R_{eq}\ i^2$$
 
 </details>
 
@@ -153,17 +153,17 @@ c) la diferencia de potencial *V*<sub>BA</sub> = *V<sub>A</sub>*-*V<sub>B</sub>*
 
 **Paso 2 — Tensión del paralelo.** Con la potencia de $R_3$: $P_3 = \dfrac{V_{23}^2}{R_3}$, entonces
 
-$$V_{23} = \sqrt{P_3\,R_3}$$
+$$V_{23} = \sqrt{P_3\ R_3}$$
 
 **Paso 3 — Corriente total.**
 
 $$R_{23} = \frac{R_2R_3}{R_2 + R_3} \qquad I = \frac{V_{23}}{R_{23}}$$
 
-**Paso 4 — $R_1$ (ítem a).** Por la ley de mallas, $V = I\,R_1 + V_{23} + I\,R_4$:
+**Paso 4 — $R_1$ (ítem a).** Por la ley de mallas, $V = I\ R_1 + V_{23} + I\ R_4$:
 
 $$R_1 = \frac{V - V_{23}}{I} - R_4$$
 
-**Paso 5 — Potencia total (ítem b)** $= V\,I$. **Diferencia de potencial (ítem c):** de B a A, pasando por $R_4$ y el paralelo, la tensión sube lo que cae en ellos: $V_A - V_B = V_{23} + I\,R_4$.
+**Paso 5 — Potencia total (ítem b)** $= V\ I$. **Diferencia de potencial (ítem c):** de B a A, pasando por $R_4$ y el paralelo, la tensión sube lo que cae en ellos: $V_A - V_B = V_{23} + I\ R_4$.
 
 **Paso 6 — Cálculo.**
 
@@ -211,13 +211,13 @@ $$I_{20} = \sqrt{\frac{0{,}45}{20}} = 0{,}15\ \text{A} \qquad I_{100} = \sqrt{\f
 
 **Paso 4 — Malla $M_1 \to N \to M_2$ vs. la de 100 Ω.** Entre $M_1$ y $M_2$ hay dos caminos con la misma tensión: la de 100 Ω y las dos $R$ en serie, que llevan $I_R = 0{,}10$ A:
 
-$$2R\,I_R = V_{100} \quad\Rightarrow\quad R = \frac{V_{100}}{2I_R} = \frac{5}{0{,}2}\ \Omega = 25\ \Omega$$
+$$2R\ I_R = V_{100} \quad\Rightarrow\quad R = \frac{V_{100}}{2I_R} = \frac{5}{0{,}2}\ \Omega = 25\ \Omega$$
 
 **Paso 5 — Potencias.**
 
 $$P_R = I_R^2R = 0{,}01\cdot25 = 0{,}25\ \text{W} \qquad P_{total} = 2\cdot0{,}45 + 0{,}25 + 2\cdot0{,}25 = 1{,}65\ \text{W}$$
 
-**Paso 6 — Tensión de la fuente.** La fuente entrega $P = V\,I_{20}$:
+**Paso 6 — Tensión de la fuente.** La fuente entrega $P = V\ I_{20}$:
 
 $$V = \frac{1{,}65\ \text{W}}{0{,}15\ \text{A}} = 11\ \text{V}$$
 
@@ -253,13 +253,13 @@ f) la potencia entregada por la batería.
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Estructura.** $(R_1 \,/\!/\, R_2)$ en serie con $(R_3 \,/\!/\, R_4)$ en serie con $R_5$.
+**Paso 1 — Estructura.** $(R_1 \ //\  R_2)$ en serie con $(R_3 \ //\  R_4)$ en serie con $R_5$.
 
 $$R_{12} = \frac{R_1R_2}{R_1 + R_2} \qquad R_{34} = \frac{R_3R_4}{R_3 + R_4} \qquad R_{eq} = R_{12} + R_{34} + R_5$$
 
 **Paso 2 — Corriente total y tensiones.**
 
-$$i = \frac{V}{R_{eq}} \qquad V_{12} = i\,R_{12} \qquad V_{34} = i\,R_{34} \qquad V_5 = i\,R_5$$
+$$i = \frac{V}{R_{eq}} \qquad V_{12} = i\ R_{12} \qquad V_{34} = i\ R_{34} \qquad V_5 = i\ R_5$$
 
 **Paso 3 — Corrientes en los paralelos.** $i_k = V_{par}/R_k$.
 
@@ -279,7 +279,7 @@ $$V_5 = 38{,}0\ \text{V}, \quad i_5 = 0{,}38\ \text{A}$$
 
 $$P_1 = 0{,}271\ \text{W} \quad P_2 = 0{,}813\ \text{W} \quad P_3 = 2{,}08\ \text{W} \quad P_4 = 1{,}39\ \text{W} \quad P_5 = 14{,}46\ \text{W}$$
 
-$$P_{pila} = V\,i = 50\cdot0{,}380\ \text{W} = 19\ \text{W}\quad(\text{igual a la suma de las disipadas})$$
+$$P_{pila} = V\ i = 50\cdot0{,}380\ \text{W} = 19\ \text{W}\quad(\text{igual a la suma de las disipadas})$$
 
 </details>
 
@@ -326,11 +326,11 @@ $$R_{PS} = \frac{R\cdot R}{R + R} = \frac R2$$
 
 **Paso 4 — Total.** A → P ($R$), P → S ($R/2$), S → B ($R$), todo en serie:
 
-$$R_{eq} = R + \frac R2 + R = 2{,}5\,R$$
+$$R_{eq} = R + \frac R2 + R = 2{,}5\ R$$
 
 </details>
 
-**Respuesta:** $R_{eq} = 2{,}5\,R$
+**Respuesta:** $R_{eq} = 2{,}5\ R$
 
 </details>
 
@@ -407,7 +407,7 @@ d) indique cuánto marcan los instrumentos cuando se conectan, para los valores 
 
 **Paso 1 — Ítems a y b.** El amperímetro tiene que medir la corriente **de** la resistencia: en serie lo atraviesa la misma corriente. El voltímetro tiene que medir la tensión **de** la resistencia: en paralelo está a la misma diferencia de potencial.
 
-**Paso 2 — Sin instrumentos (ítem c).** $R_1$ en serie con $(R_2 \,/\!/\, R_3)$:
+**Paso 2 — Sin instrumentos (ítem c).** $R_1$ en serie con $(R_2 \ //\  R_3)$:
 
 $$R_{23} = \frac{15\cdot10}{25} = 6\ \Omega \qquad i_1 = \frac{V}{R_1 + R_{23}} = \frac{6}{30} = 0{,}2\ \text{A}$$
 
@@ -473,7 +473,7 @@ d) calcule el trabajo requerido para transportar una carga *q*=1μC entre A y B 
 - Central: $V_3$ del − al + (sube 10) y $V_2$ del + al − (cae 5): $\mathcal E_C = +5$ V.
 - Derecha: $V_4$ del − al + (sube): $\mathcal E_D = +5$ V.
 
-**Paso 4 — Método del nodo.** Para cada rama, $V_A = V_B + \mathcal E_k - R_k\,i_k$, donde $i_k$ es la corriente de B hacia A. Despejando, $i_k = \dfrac{\mathcal E_k - V_{AB}}{R_k}$ con $V_{AB} = V_A - V_B$. La ley de nodos en A pide $\sum i_k = 0$:
+**Paso 4 — Método del nodo.** Para cada rama, $V_A = V_B + \mathcal E_k - R_k\ i_k$, donde $i_k$ es la corriente de B hacia A. Despejando, $i_k = \dfrac{\mathcal E_k - V_{AB}}{R_k}$ con $V_{AB} = V_A - V_B$. La ley de nodos en A pide $\sum i_k = 0$:
 
 $$V_{AB} = \frac{\sum \mathcal E_k/R_k}{\sum 1/R_k} = \frac{\mathcal E_I + \mathcal E_C + \mathcal E_D}{3}\quad(\text{las tres } R \text{ son iguales})$$
 
@@ -485,7 +485,7 @@ $$i_I = \frac{-15 + 1{,}67}{20}\ \text{A} = -0{,}667\ \text{A} \qquad i_C = i_D 
 
 Por la rama izquierda circulan 667 mA **de A hacia B**, y vuelven 333 mA por cada una de las otras dos ramas.
 
-**Paso 6 — Trabajo (ítem d).** El trabajo externo para llevar $q$ de A a B es $W = q\,(V_B - V_A)$:
+**Paso 6 — Trabajo (ítem d).** El trabajo externo para llevar $q$ de A a B es $W = q\ (V_B - V_A)$:
 
 $$W = 10^{-6}\ \text{C}\cdot1{,}67\ \text{V} = 1{,}67\ \mu\text{J}$$
 
@@ -536,7 +536,7 @@ $$I_D = \sqrt{\frac{P_5}{5\ \Omega}} = \sqrt{\frac{0{,}05}{5}}\ \text{A} = 0{,}1
 
 **Paso 3 — $V_2$ (ítem a).** En la malla derecha, con las pilas sumándose (según su orientación en la figura):
 
-$$V_2 + 10\ \text{V} = I_D\,(170 + 5)\ \Omega \quad\Rightarrow\quad V_2 = 0{,}1\cdot175 - 10 = 7{,}5\ \text{V}$$
+$$V_2 + 10\ \text{V} = I_D\ (170 + 5)\ \Omega \quad\Rightarrow\quad V_2 = 0{,}1\cdot175 - 10 = 7{,}5\ \text{V}$$
 
 **Paso 4 — Malla izquierda (ítem b).** La rama de $V_2$ no tiene resistencia, así que la malla izquierda queda determinada sola:
 
@@ -548,7 +548,7 @@ $$V_A - V_B = 10 - 0{,}5 = 9{,}5\ \text{V}$$
 
 **Paso 6 — Carga del capacitor (ítem d).** Por la de 40 kΩ no pasa corriente, así que no tiene caída y el capacitor está a $V_A - V_B$:
 
-$$Q = C\,(V_A - V_B) = 3\ \mu\text{F}\cdot9{,}5\ \text{V} = 28{,}5\ \mu\text{C}$$
+$$Q = C\ (V_A - V_B) = 3\ \mu\text{F}\cdot9{,}5\ \text{V} = 28{,}5\ \mu\text{C}$$
 
 **Paso 7 — Tiempo (ítem e).** El capacitor se carga a través de unos 40 kΩ (el resto del circuito aporta resistencias despreciables frente a eso):
 
@@ -617,9 +617,9 @@ Dado el circuito de la figura, calcule la intensidad de la corriente derivada a 
 
 $$i_T = i_1 - i_2 = 5 - 4 = 1\ \text{A}$$
 
-**Paso 2 — Potencial de A.** Tierra está a 0 V. Se recorre la rama de tierra hasta A, en sentido opuesto a $i_T$. Al atravesar $R_3$ en contra de la corriente, la tensión sube $R_3\,i_T$; la pila $V_3$, con la polaridad de la figura, también suma:
+**Paso 2 — Potencial de A.** Tierra está a 0 V. Se recorre la rama de tierra hasta A, en sentido opuesto a $i_T$. Al atravesar $R_3$ en contra de la corriente, la tensión sube $R_3\ i_T$; la pila $V_3$, con la polaridad de la figura, también suma:
 
-$$V_A = R_3\,i_T + V_3 = 40\cdot1 + 10 = 50\ \text{V}$$
+$$V_A = R_3\ i_T + V_3 = 40\cdot1 + 10 = 50\ \text{V}$$
 
 </details>
 
@@ -641,15 +641,15 @@ El capacitor del circuito de la figura tiene, en vacío, capacidad *C<sub>0</sub
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Capacidad con dieléctrico.** $C = \varepsilon_R\,C_0$.
+**Paso 1 — Capacidad con dieléctrico.** $C = \varepsilon_R\ C_0$.
 
-**Paso 2 — Estacionario.** Por el capacitor no pasa corriente. Queda la 10 Ω (en paralelo con C) en serie con el paralelo $30 \,/\!/\, 20 = 12\ \Omega$:
+**Paso 2 — Estacionario.** Por el capacitor no pasa corriente. Queda la 10 Ω (en paralelo con C) en serie con el paralelo $30 \ //\  20 = 12\ \Omega$:
 
 $$I = \frac{110\ \text{V}}{10 + 12\ \Omega} = 5\ \text{A}$$
 
 **Paso 3 — Tensión del capacitor.** Es la de la 10 Ω: $V_C = 10\ \Omega\cdot I$.
 
-$$Q = \varepsilon_R C_0\,V_C = 20\cdot25\ \mu\text{F}\cdot50\ \text{V} = 25000\ \mu\text{C}$$
+$$Q = \varepsilon_R C_0\ V_C = 20\cdot25\ \mu\text{F}\cdot50\ \text{V} = 25000\ \mu\text{C}$$
 
 </details>
 
@@ -684,9 +684,9 @@ b) se cambian la pila *V<sub>1</sub>* y la resistencia *R<sub>3</sub>*, dejando 
 
 El capacitor une P y Q y en estacionario no lleva corriente.
 
-**Paso 2 — Tensión del paralelo.** Por la rama derecha pasan $I_A = 0{,}2$ A, así que $V_{par} = R_4\,I_A$. La rama izquierda tiene la misma tensión:
+**Paso 2 — Tensión del paralelo.** Por la rama derecha pasan $I_A = 0{,}2$ A, así que $V_{par} = R_4\ I_A$. La rama izquierda tiene la misma tensión:
 
-$$I_{23} = \frac{R_4\,I_A}{R_2 + R_3} \qquad I_1 = I_A + I_{23}$$
+$$I_{23} = \frac{R_4\ I_A}{R_2 + R_3} \qquad I_1 = I_A + I_{23}$$
 
 **Paso 3 — Ítem a.**
 
@@ -696,11 +696,11 @@ $$V_{par} = 40\cdot0{,}2 = 8\ \text{V} \qquad I_{23} = \frac{8}{80} = 0{,}1\ \te
 
 $$R_3' = \frac{V_{par}}{I_{23}'} - R_2 = \frac{8}{0{,}15} - 15 = 38{,}33\ \Omega$$
 
-**Paso 5 — Tensión del capacitor.** Q está al potencial de la línea inferior (el amperímetro ideal no tiene caída). P está $R_3'\,I_{23}'$ por encima:
+**Paso 5 — Tensión del capacitor.** Q está al potencial de la línea inferior (el amperímetro ideal no tiene caída). P está $R_3'\ I_{23}'$ por encima:
 
-$$V_C = R_3'\,I_{23}' = V_{par} - R_2\,I_{23}' = 8 - 15\cdot0{,}15 = 5{,}75\ \text{V}$$
+$$V_C = R_3'\ I_{23}' = V_{par} - R_2\ I_{23}' = 8 - 15\cdot0{,}15 = 5{,}75\ \text{V}$$
 
-$$Q = C\,V_C = 20\ \mu\text{F}\cdot5{,}75\ \text{V} = 115\ \mu\text{C}$$
+$$Q = C\ V_C = 20\ \mu\text{F}\cdot5{,}75\ \text{V} = 115\ \mu\text{C}$$
 
 </details>
 
@@ -730,11 +730,11 @@ $$I = \frac{15 + 25}{15 + 5}\ \text{A} = 2\ \text{A} \qquad P_5 = 5\cdot2^2 = 20
 
 **Paso 3 — Calor necesario.** No hay cambio de fase (60 °C está entre −5 °C y 380 °C):
 
-$$Q = m\,c\,\Delta T$$
+$$Q = m\ c\ \Delta T$$
 
-**Paso 4 — Tiempo.** $P\,t = Q$:
+**Paso 4 — Tiempo.** $P\ t = Q$:
 
-$$t = \frac{m\,c\,\Delta T}{P_5}$$
+$$t = \frac{m\ c\ \Delta T}{P_5}$$
 
 **Paso 5 — Cálculo.**
 
@@ -777,13 +777,13 @@ d) estime el tiempo que le lleva al circuito alcanzar el régimen estacionario.
 
 **Paso 3 — Mallas** (con las polaridades de la figura, en la malla izquierda las pilas de 10 V y 15 V se suman; en la derecha la de 5 V se opone a la de 15 V):
 
-$$\text{Izquierda: } 10 + 15 = 13\,i_1 + 25\,(i_1 - i_2) + 12\,i_1 \quad\Rightarrow\quad 50\,i_1 - 25\,i_2 = 25$$
+$$\text{Izquierda: } 10 + 15 = 13\ i_1 + 25\ (i_1 - i_2) + 12\ i_1 \quad\Rightarrow\quad 50\ i_1 - 25\ i_2 = 25$$
 
-$$\text{Derecha: } 5 - 15 = 20\,i_2 + 5\,i_2 - 25\,(i_1 - i_2) \quad\Rightarrow\quad -25\,i_1 + 50\,i_2 = -10$$
+$$\text{Derecha: } 5 - 15 = 20\ i_2 + 5\ i_2 - 25\ (i_1 - i_2) \quad\Rightarrow\quad -25\ i_1 + 50\ i_2 = -10$$
 
-**Paso 4 — Resolver.** Multiplicando la segunda por 2 y sumándola a la primera: $75\,i_2 = 5$.
+**Paso 4 — Resolver.** Multiplicando la segunda por 2 y sumándola a la primera: $75\ i_2 = 5$.
 
-$$i_2 = \frac{1}{15}\ \text{A} = 66{,}7\ \text{mA} \qquad i_1 = \frac{25 + 25\,i_2}{50} = 533\ \text{mA} \qquad i_{25} = 466{,}7\ \text{mA}$$
+$$i_2 = \frac{1}{15}\ \text{A} = 66{,}7\ \text{mA} \qquad i_1 = \frac{25 + 25\ i_2}{50} = 533\ \text{mA} \qquad i_{25} = 466{,}7\ \text{mA}$$
 
 **Paso 5 — Potencia en 5 Ω (ítem b).**
 
@@ -791,7 +791,7 @@ $$P_5 = 5\cdot\left(\tfrac{1}{15}\right)^2\ \text{W} = 22{,}2\ \text{mW}$$
 
 **Paso 6 — Energía en los capacitores (ítem c).** Los dos capacitores conectan el extremo derecho de la 40 Ω con la línea inferior: están **en paralelo**, $C = 5\ \mu\text{F}$. Por la 40 Ω no pasa corriente, así que ese extremo está al potencial de B. La línea inferior es el borne negativo de la pila de 10 V:
 
-$$V_C = 10 - 13\,i_1 = 10 - 6{,}93 = 3{,}07\ \text{V} \qquad U = \tfrac12\,C\,V_C^2 = \tfrac12\cdot5\ \mu\text{F}\cdot3{,}07^2 = 23{,}5\ \mu\text{J}$$
+$$V_C = 10 - 13\ i_1 = 10 - 6{,}93 = 3{,}07\ \text{V} \qquad U = \tfrac12\ C\ V_C^2 = \tfrac12\cdot5\ \mu\text{F}\cdot3{,}07^2 = 23{,}5\ \mu\text{J}$$
 
 > La guía da $U = 27{,}9\ \mu\text{J}$, que corresponde a usar $|V_B - V_A| = 3{,}33$ V. Con la conexión de la figura (los capacitores van a la línea inferior, no al punto A) la tensión es 3,07 V.
 
@@ -826,11 +826,11 @@ c) En su casa usted tiene conectados al mismo tiempo diversos aparatos eléctric
 
 **Paso 1 — Ítem a.** Con la misma resistencia, $P = V^2/R$ crece con el cuadrado de la tensión: $\left(\dfrac{220}{12}\right)^2 \approx 336$ veces la potencia nominal. El filamento se funde: la lámpara literalmente explota.
 
-**Paso 2 — Ítem b.** De $P = V^2/R$ sale $R = V^2/P$. Con $R = \rho\,\dfrac LS$:
+**Paso 2 — Ítem b.** De $P = V^2/R$ sale $R = V^2/P$. Con $R = \rho\ \dfrac LS$:
 
-$$\frac LS = \frac{R}{\rho} = \frac{V^2}{P\,\rho} = \frac{144}{60\cdot5{,}25\times10^{-8}}\ \text{m}^{-1} = 4{,}57\times10^7\ \text{m}^{-1}$$
+$$\frac LS = \frac{R}{\rho} = \frac{V^2}{P\ \rho} = \frac{144}{60\cdot5{,}25\times10^{-8}}\ \text{m}^{-1} = 4{,}57\times10^7\ \text{m}^{-1}$$
 
-**Paso 3 — Ítem c.** Todos los aparatos de una casa reciben la misma tensión (220 V) y funcionan independientemente: están **en paralelo**. "Consumir más" significa más potencia $P = V\,I$; con la misma $V$, la plancha toma **más corriente** (tiene menor resistencia).
+**Paso 3 — Ítem c.** Todos los aparatos de una casa reciben la misma tensión (220 V) y funcionan independientemente: están **en paralelo**. "Consumir más" significa más potencia $P = V\ I$; con la misma $V$, la plancha toma **más corriente** (tiene menor resistencia).
 
 </details>
 
@@ -859,7 +859,7 @@ Del siguiente conjunto de afirmaciones sólo una es verdadera. Indique cuál es
 
 **Potencia serie vs. paralelo.** Con una pila $V$ y dos resistencias $R$:
 
-$$P_{serie} = \frac{V^2}{2R} \qquad P_{paralelo} = \frac{V^2}{R/2} = \frac{2V^2}{R} = 4\,P_{serie}$$
+$$P_{serie} = \frac{V^2}{2R} \qquad P_{paralelo} = \frac{V^2}{R/2} = \frac{2V^2}{R} = 4\ P_{serie}$$
 
 Es decir, en **paralelo** disipan cuatro veces lo que en serie.
 

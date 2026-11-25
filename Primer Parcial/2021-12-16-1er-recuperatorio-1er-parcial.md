@@ -50,7 +50,7 @@ $$R = \frac{V_p}{I_3} = \frac{1\ \text{V}}{1/3\ \text{A}} = 3\ \Omega$$
 
 **Paso 5 — Calor en la de 6 Ω.** $P = 6\cdot(7/3)^2 = 32{,}67$ W $= 7{,}815$ cal/s. En $t = 240$ s:
 
-$$Q = P\,t = 1875{,}6\ \text{cal} = m\,c\,\Delta T \quad\Rightarrow\quad \Delta T = \frac{1875{,}6}{50\cdot1}\ ^\circ\text{C} = 37{,}5\ ^\circ\text{C}$$
+$$Q = P\ t = 1875{,}6\ \text{cal} = m\ c\ \Delta T \quad\Rightarrow\quad \Delta T = \frac{1875{,}6}{50\cdot1}\ ^\circ\text{C} = 37{,}5\ ^\circ\text{C}$$
 
 </details>
 
@@ -104,7 +104,7 @@ Un anillo de radio R tiene una de sus mitades cargada uniformemente con densidad
 
 **Paso 2 — Superposición.** Con λ₁ en la mitad superior y λ₂ en la inferior:
 
-$$\vec E_0 = \frac{2k}{R}(\lambda_2 - \lambda_1)\,\hat\jmath$$
+$$\vec E_0 = \frac{2k}{R}(\lambda_2 - \lambda_1)\ \hat\jmath$$
 
 **Paso 3 — Condición.**
 
@@ -134,7 +134,7 @@ En una primera experiencia, se dispone de un cilindro muy largo de radio 8 cm, q
 
 **Paso 2 — Trabajo.** Los puntos a 10 cm y 11 cm están **dentro** del segundo cilindro. Sin campo, el potencial es constante y no hace falta trabajo:
 
-$$W = q\,[V(11\ \text{cm}) - V(10\ \text{cm})] = 0$$
+$$W = q\ [V(11\ \text{cm}) - V(10\ \text{cm})] = 0$$
 
 Los datos de la primera experiencia sirven para hallar $\sigma$ (y el campo **afuera**), pero no se necesitan para la pregunta.
 
@@ -168,13 +168,13 @@ $$\vec F = q\vec E = kq\lambda\left[\frac{1}{x_3 - x_2} - \frac{1}{x_3 - x_1}\ri
 
 **Paso 2 — Potencial del hilo en $x > x_2$.**
 
-$$V(x) = k\lambda\int_{x_1}^{x_2}\frac{dx'}{x - x'} = k\lambda\ln\!\left(\frac{x - x_1}{x - x_2}\right)$$
+$$V(x) = k\lambda\int_{x_1}^{x_2}\frac{dx'}{x - x'} = k\lambda\ln\left(\frac{x - x_1}{x - x_2}\right)$$
 
 **Paso 3 — Trabajo (ítem b).**
 
-$$W = -q\,[V(x_4) - V(x_3)] = kq\lambda\ln\!\left[\frac{(x_3 - x_1)(x_4 - x_2)}{(x_3 - x_2)(x_4 - x_1)}\right]$$
+$$W = -q\ [V(x_4) - V(x_3)] = kq\lambda\ln\left[\frac{(x_3 - x_1)(x_4 - x_2)}{(x_3 - x_2)(x_4 - x_1)}\right]$$
 
-$$W = 1{,}44\cdot\ln\!\left(\frac{16\cdot12}{8\cdot20}\right)\ \text{J} = 1{,}44\cdot\ln(1{,}2)\ \text{J} = 0{,}263\ \text{J}$$
+$$W = 1{,}44\cdot\ln\left(\frac{16\cdot12}{8\cdot20}\right)\ \text{J} = 1{,}44\cdot\ln(1{,}2)\ \text{J} = 0{,}263\ \text{J}$$
 
 </details>
 

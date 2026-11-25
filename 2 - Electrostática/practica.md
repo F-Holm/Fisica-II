@@ -40,11 +40,11 @@ c) justifique si el resultado anterior depende del signo de *q<sub>3</sub>*.
 **Paso 1 — Fuerzas sobre $q_1$ (ítem a).**
 
 - $q_2 < 0$ **atrae** a $q_1$, hacia $+x$: $F_{12} = \dfrac{k|q_1||q_2|}{d^2}$.
-- $q_3 > 0$ **repele** a $q_1$, hacia $-x$: $F_{13} = \dfrac{k\,q_1\,q_3}{(2d)^2}$.
+- $q_3 > 0$ **repele** a $q_1$, hacia $-x$: $F_{13} = \dfrac{k\ q_1\ q_3}{(2d)^2}$.
 
 **Paso 2 — Condición de fuerza nula.** Los módulos tienen que ser iguales:
 
-$$\frac{k\,q_1\,|q_2|}{d^2} = \frac{k\,q_1\,q_3}{4d^2} \quad\Rightarrow\quad q_3 = 4\,|q_2|$$
+$$\frac{k\ q_1\ |q_2|}{d^2} = \frac{k\ q_1\ q_3}{4d^2} \quad\Rightarrow\quad q_3 = 4\ |q_2|$$
 
 **Paso 3 — Equilibrio de $q_3$ (ítem b).** $q_3$ está en equilibrio donde el **campo** de $q_1$ y $q_2$ se anula. Hay que ver en qué zona puede pasar eso:
 
@@ -54,15 +54,15 @@ $$\frac{k\,q_1\,|q_2|}{d^2} = \frac{k\,q_1\,q_3}{4d^2} \quad\Rightarrow\quad q_3
 
 **Paso 4 — Planteo en $x > d$.**
 
-$$\frac{k\,|q_1|}{x^2} = \frac{k\,|q_2|}{(x - d)^2} \quad\Rightarrow\quad \frac{3}{x^2} = \frac{1}{(x - d)^2} \quad\Rightarrow\quad \sqrt3\,(x - d) = x$$
+$$\frac{k\ |q_1|}{x^2} = \frac{k\ |q_2|}{(x - d)^2} \quad\Rightarrow\quad \frac{3}{x^2} = \frac{1}{(x - d)^2} \quad\Rightarrow\quad \sqrt3\ (x - d) = x$$
 
-$$x = \frac{\sqrt3}{\sqrt3 - 1}\,d$$
+$$x = \frac{\sqrt3}{\sqrt3 - 1}\ d$$
 
 **Paso 5 — Cálculo.**
 
-$$x = \frac{1{,}732}{0{,}732}\,d = 2{,}366\,d$$
+$$x = \frac{1{,}732}{0{,}732}\ d = 2{,}366\ d$$
 
-> La guía también da $x = 0{,}635\,d$. Esa es la otra raíz de $3(x - d)^2 = x^2$, pero cae **entre** las cargas, donde los campos se suman: no es una posición de equilibrio.
+> La guía también da $x = 0{,}635\ d$. Esa es la otra raíz de $3(x - d)^2 = x^2$, pero cae **entre** las cargas, donde los campos se suman: no es una posición de equilibrio.
 
 **Paso 6 — Ítem c.** La condición del paso 4 es $\vec E = 0$, que **no depende de $q_3$**: si el campo es nulo, la fuerza $q_3\vec E$ es nula para cualquier signo de $q_3$.
 
@@ -70,8 +70,8 @@ $$x = \frac{1{,}732}{0{,}732}\,d = 2{,}366\,d$$
 
 **Respuesta:**
 
-- a) $q_3 = 4\,|q_2|$
-- b) $x = 2{,}366\,d$ medido desde $q_1$ hacia la derecha. (La guía agrega $x = 0{,}635\,d$, que es una raíz espuria; ver paso a paso.)
+- a) $q_3 = 4\ |q_2|$
+- b) $x = 2{,}366\ d$ medido desde $q_1$ hacia la derecha. (La guía agrega $x = 0{,}635\ d$, que es una raíz espuria; ver paso a paso.)
 - c) El signo de $q_3$ es irrelevante.
 
 </details>
@@ -102,11 +102,11 @@ Dividiendo: $F_e = mg\tan\theta$.
 
 **Paso 4 — Coulomb y despeje.**
 
-$$\frac{k_0\,q^2}{(2\ell\sin\theta)^2} = mg\tan\theta \quad\Rightarrow\quad q = 2\ell\sin\theta\,\sqrt{\frac{mg\tan\theta}{k_0}}$$
+$$\frac{k_0\ q^2}{(2\ell\sin\theta)^2} = mg\tan\theta \quad\Rightarrow\quad q = 2\ell\sin\theta\ \sqrt{\frac{mg\tan\theta}{k_0}}$$
 
 </details>
 
-**Respuesta:** $q = 2\ell\sin\theta\,\left[\dfrac{mg\tan\theta}{k_0}\right]^{1/2}$ con $k_0 = \dfrac{1}{4\pi\varepsilon_0} \approx 9\times10^9\ \text{N m}^2/\text{C}^2$.
+**Respuesta:** $q = 2\ell\sin\theta\ \left[\dfrac{mg\tan\theta}{k_0}\right]^{1/2}$ con $k_0 = \dfrac{1}{4\pi\varepsilon_0} \approx 9\times10^9\ \text{N m}^2/\text{C}^2$.
 
 </details>
 
@@ -134,7 +134,7 @@ c) halle la relación *q<sub>3</sub>* /ℓ (siendo ℓ la distancia entre *q<sub
 
 **Paso 2 — Equilibrio (ítem a).** Fuerza elástica = fuerza eléctrica:
 
-$$k_{RES}\,\Delta\ell = \frac{k_0\,q_1\,q_2}{d^2} \quad\Rightarrow\quad k_{RES} = \frac{k_0\,q_1\,q_2}{d^2\,\Delta\ell}$$
+$$k_{RES}\ \Delta\ell = \frac{k_0\ q_1\ q_2}{d^2} \quad\Rightarrow\quad k_{RES} = \frac{k_0\ q_1\ q_2}{d^2\ \Delta\ell}$$
 
 **Paso 3 — Cálculo.**
 
@@ -144,11 +144,11 @@ $$k_{RES} = \frac{9\times10^9\cdot4\times10^{-6}\cdot2\times10^{-6}}{(0{,}24)^2\
 
 **Paso 5 — Relación pedida (ítem c).** Equilibrio de $q_1$: la atracción de $q_3$ (a distancia $\ell$) compensa la repulsión de $q_2$ (a 0,24 m):
 
-$$\frac{k_0\,q_1\,|q_3|}{\ell^2} = \frac{k_0\,q_1\,q_2}{(0{,}24)^2} \quad\Rightarrow\quad \frac{|q_3|}{\ell^2} = \frac{q_2}{(0{,}24)^2}$$
+$$\frac{k_0\ q_1\ |q_3|}{\ell^2} = \frac{k_0\ q_1\ q_2}{(0{,}24)^2} \quad\Rightarrow\quad \frac{|q_3|}{\ell^2} = \frac{q_2}{(0{,}24)^2}$$
 
 Para que **también** $q_2$ esté en equilibrio hace falta $\dfrac{|q_3|}{(0{,}24 - \ell)^2} = \dfrac{q_1}{(0{,}24)^2}$. Resolviendo ambas:
 
-$$\ell = 0{,}24\,\frac{\sqrt{q_1}}{\sqrt{q_1} + \sqrt{q_2}} = 0{,}141\ \text{m} \qquad |q_3| = 6{,}86\times10^{-7}\ \text{C}$$
+$$\ell = 0{,}24\ \frac{\sqrt{q_1}}{\sqrt{q_1} + \sqrt{q_2}} = 0{,}141\ \text{m} \qquad |q_3| = 6{,}86\times10^{-7}\ \text{C}$$
 
 > La guía escribe la relación como $q_3/\ell^2 = q_1/(0{,}24)^2$, que corresponde a medir $\ell$ desde $q_2$ (es la condición de equilibrio de $q_2$). Midiendo $\ell$ desde $q_1$, como dice el enunciado, aparece $q_2$.
 
@@ -186,22 +186,22 @@ c) con la expresión de la fuerza hallada en el punto (b) calcule el trabajo que
 
 **Paso 1 — Campo en $(x; 0)$.**
 
-- De $q'$: $\vec E' = \dfrac{k\,q'}{x^2}\,\hat e_x$.
+- De $q'$: $\vec E' = \dfrac{k\ q'}{x^2}\ \hat e_x$.
 - De la $Q$ de arriba: vector desde la carga al punto $(x; -\ell)$, distancia $\sqrt{x^2 + \ell^2}$. De la de abajo: $(x; \ell)$. Las componentes $y$ se cancelan y las $x$ se suman:
 
-$$\vec E_Q = \frac{2kQ\,x}{(x^2 + \ell^2)^{3/2}}\,\hat e_x$$
+$$\vec E_Q = \frac{2kQ\ x}{(x^2 + \ell^2)^{3/2}}\ \hat e_x$$
 
 **Paso 2 — Ítem a ($x = \ell$).**
 
-$$\frac{kq'}{\ell^2} + \frac{2kQ\,\ell}{(2\ell^2)^{3/2}} = 0 \quad\Rightarrow\quad q' + \frac{2Q}{2\sqrt2} = 0 \quad\Rightarrow\quad q' = -\frac{\sqrt2}{2}\,Q$$
+$$\frac{kq'}{\ell^2} + \frac{2kQ\ \ell}{(2\ell^2)^{3/2}} = 0 \quad\Rightarrow\quad q' + \frac{2Q}{2\sqrt2} = 0 \quad\Rightarrow\quad q' = -\frac{\sqrt2}{2}\ Q$$
 
 **Paso 3 — Ítem b.** Con $q' = -2Q$, la fuerza sobre $q$ es $q(\vec E' + \vec E_Q)$:
 
-$$\vec F = k\,2Qq\left(\frac{x}{(x^2 + \ell^2)^{3/2}} - \frac{1}{x^2}\right)\hat e_x$$
+$$\vec F = k\ 2Qq\left(\frac{x}{(x^2 + \ell^2)^{3/2}} - \frac{1}{x^2}\right)\hat e_x$$
 
-**Paso 4 — Ítem c.** El trabajo es la integral de la fuerza a lo largo del eje. Usando $\int \dfrac{x\,dx}{(x^2 + \ell^2)^{3/2}} = -\dfrac{1}{\sqrt{x^2 + \ell^2}}$ y $\int \dfrac{dx}{x^2} = -\dfrac1x$:
+**Paso 4 — Ítem c.** El trabajo es la integral de la fuerza a lo largo del eje. Usando $\int \dfrac{x\ dx}{(x^2 + \ell^2)^{3/2}} = -\dfrac{1}{\sqrt{x^2 + \ell^2}}$ y $\int \dfrac{dx}{x^2} = -\dfrac1x$:
 
-$$W = \int_{x_1}^{x_2}\vec F\cdot d\vec x = k\,2Qq\int_{x_1}^{x_2}\left(\frac{x}{(x^2 + \ell^2)^{3/2}} - \frac{1}{x^2}\right)dx = k\,2Qq\left(\frac{-1}{\sqrt{x^2 + \ell^2}} + \frac1x\right)\Bigg|_{x_1}^{x_2}$$
+$$W = \int_{x_1}^{x_2}\vec F\cdot d\vec x = k\ 2Qq\int_{x_1}^{x_2}\left(\frac{x}{(x^2 + \ell^2)^{3/2}} - \frac{1}{x^2}\right)dx = k\ 2Qq\left(\frac{-1}{\sqrt{x^2 + \ell^2}} + \frac1x\right)\Bigg|_{x_1}^{x_2}$$
 
 (La guía resuelve el ítem c para la carga de prueba $q$ del ítem b.)
 
@@ -209,9 +209,9 @@ $$W = \int_{x_1}^{x_2}\vec F\cdot d\vec x = k\,2Qq\int_{x_1}^{x_2}\left(\frac{x}
 
 **Respuesta:**
 
-- a) $q' = -\dfrac{\sqrt2}{2}\,Q$
-- b) $\vec F = k_0\,2Qq\left(\dfrac{x}{(x^2 + \ell^2)^{3/2}} - \dfrac{1}{x^2}\right)\hat e_x$
-- c) $W = k_0\,2Qq\left(\dfrac{-1}{\sqrt{x^2 + \ell^2}} + \dfrac1x\right)\Bigg|_{x_1}^{x_2}$
+- a) $q' = -\dfrac{\sqrt2}{2}\ Q$
+- b) $\vec F = k_0\ 2Qq\left(\dfrac{x}{(x^2 + \ell^2)^{3/2}} - \dfrac{1}{x^2}\right)\hat e_x$
+- c) $W = k_0\ 2Qq\left(\dfrac{-1}{\sqrt{x^2 + \ell^2}} + \dfrac1x\right)\Bigg|_{x_1}^{x_2}$
 
 </details>
 
@@ -235,7 +235,7 @@ b) el valor del campo eléctrico que las cargas *q<sub>1</sub>* y *q<sub>2</sub>
 
 **Posiciones (en m).** $q_1$ en $(0; 0)$, $q_2$ en $(4{,}5; 0)$, $q_3$ en $(3; 2)$.
 
-**Paso 1 — Conviene calcular primero el campo (ítem b)** y después $\vec F = q_3\vec E$. Para cada carga: $\vec E_i = k q_i\,\dfrac{\vec r - \vec r_i}{|\vec r - \vec r_i|^3}$.
+**Paso 1 — Conviene calcular primero el campo (ítem b)** y después $\vec F = q_3\vec E$. Para cada carga: $\vec E_i = k q_i\ \dfrac{\vec r - \vec r_i}{|\vec r - \vec r_i|^3}$.
 
 **Paso 2 — Vectores y distancias.**
 
@@ -244,15 +244,15 @@ b) el valor del campo eléctrico que las cargas *q<sub>1</sub>* y *q<sub>2</sub>
 
 **Paso 3 — Campos.**
 
-$$\vec E_1 = \frac{9\times10^9\cdot2\times10^{-6}}{3{,}606^3}\,(3; 2) = 383{,}9\,(3; 2) = (1152; 768)\ \tfrac{\text{N}}{\text{C}}$$
+$$\vec E_1 = \frac{9\times10^9\cdot2\times10^{-6}}{3{,}606^3}\ (3; 2) = 383{,}9\ (3; 2) = (1152; 768)\ \tfrac{\text{N}}{\text{C}}$$
 
-$$\vec E_2 = \frac{9\times10^9\cdot(-3\times10^{-6})}{2{,}5^3}\,(-1{,}5; 2) = -1728\,(-1{,}5; 2) = (2592; -3456)\ \tfrac{\text{N}}{\text{C}}$$
+$$\vec E_2 = \frac{9\times10^9\cdot(-3\times10^{-6})}{2{,}5^3}\ (-1{,}5; 2) = -1728\ (-1{,}5; 2) = (2592; -3456)\ \tfrac{\text{N}}{\text{C}}$$
 
 $$\vec E = \vec E_1 + \vec E_2 = (3744; -2688)\ \tfrac{\text{N}}{\text{C}}$$
 
 **Paso 4 — Fuerza (ítem a).**
 
-$$\vec F = q_3\,\vec E = 10^{-6}\cdot(3744; -2688)\ \text{N} = (3{,}74; -2{,}69)\times10^{-3}\ \text{N}$$
+$$\vec F = q_3\ \vec E = 10^{-6}\cdot(3744; -2688)\ \text{N} = (3{,}74; -2{,}69)\times10^{-3}\ \text{N}$$
 
 </details>
 
@@ -282,11 +282,11 @@ c) discuta por qué difieren los resultados respecto del ejercicio anterior a pe
 
 **Paso 1 — Carga de la varilla (ítem a).**
 
-$$Q = \int_0^{0{,}25}\lambda\,dx' = \lambda L = 8\times10^{-6}\cdot0{,}25\ \text{C} = 2\times10^{-6}\ \text{C} = q_1 \ ✓$$
+$$Q = \int_0^{0{,}25}\lambda\ dx' = \lambda L = 8\times10^{-6}\cdot0{,}25\ \text{C} = 2\times10^{-6}\ \text{C} = q_1 \ ✓$$
 
-**Paso 2 — Campo de la varilla en $(x_0; y_0) = (3; 2)$.** Elemento $\delta q = \lambda\,dx'$ en $(x'; 0)$; vector al punto $(x_0 - x'; y_0)$:
+**Paso 2 — Campo de la varilla en $(x_0; y_0) = (3; 2)$.** Elemento $\delta q = \lambda\ dx'$ en $(x'; 0)$; vector al punto $(x_0 - x'; y_0)$:
 
-$$\vec E_\lambda = k\lambda\int_0^L\frac{(x_0 - x';\ y_0)}{\left[(x_0 - x')^2 + y_0^2\right]^{3/2}}\,dx'$$
+$$\vec E_\lambda = k\lambda\int_0^L\frac{(x_0 - x';\ y_0)}{\left[(x_0 - x')^2 + y_0^2\right]^{3/2}}\ dx'$$
 
 Con $u = x_0 - x'$ (de $u = 3$ a $u = 2{,}75$):
 
@@ -306,7 +306,7 @@ $$\vec F = 10^{-6}\cdot(1205 + 2592;\ 839 - 3456)\ \text{N} = (3{,}80; -2{,}62)\
 
 **Respuesta:**
 
-- a) $Q = \int_0^{0{,}25}\lambda\,dx' = 2\times10^{-6}$ C
+- a) $Q = \int_0^{0{,}25}\lambda\ dx' = 2\times10^{-6}$ C
 - b) $\vec F \approx (3{,}81; -2{,}60)\times10^{-3}$ N (con más decimales: $(3{,}80; -2{,}62)\times10^{-3}$ N)
 - c) La distribución de cargas a lo largo de la varilla provoca una distribución de fuerzas sobre la carga $q_3$. Su integral resulta en una fuerza de magnitud diferente respecto del ejercicio anterior.
 
@@ -334,17 +334,17 @@ d) en la situación del apartado (c), halle la expresión del campo eléctrico g
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Planteo general.** Elemento $\delta q = \lambda_0\,dx'$ en $(x'; 0)$, punto $(0; y)$. Vector del elemento al punto: $(-x'; y)$.
+**Paso 1 — Planteo general.** Elemento $\delta q = \lambda_0\ dx'$ en $(x'; 0)$, punto $(0; y)$. Vector del elemento al punto: $(-x'; y)$.
 
-$$\vec E = k\lambda_0\int dx'\,\frac{(-x';\ y)}{(x'^2 + y^2)^{3/2}}$$
+$$\vec E = k\lambda_0\int dx'\ \frac{(-x';\ y)}{(x'^2 + y^2)^{3/2}}$$
 
-Primitivas útiles: $\displaystyle\int\frac{x'\,dx'}{(x'^2 + y^2)^{3/2}} = \frac{-1}{(x'^2 + y^2)^{1/2}}$ y $\displaystyle\int\frac{dx'}{(x'^2 + y^2)^{3/2}} = \frac{x'}{y^2(x'^2 + y^2)^{1/2}}$.
+Primitivas útiles: $\displaystyle\int\frac{x'\ dx'}{(x'^2 + y^2)^{3/2}} = \frac{-1}{(x'^2 + y^2)^{1/2}}$ y $\displaystyle\int\frac{dx'}{(x'^2 + y^2)^{3/2}} = \frac{x'}{y^2(x'^2 + y^2)^{1/2}}$.
 
 **Paso 2 — Varilla centrada, de $-L$ a $L$ (ítems a y b).** Por simetría, cada elemento en $x'$ tiene un compañero en $-x'$ y las componentes $x$ se cancelan:
 
 $$E_x = -k\lambda_0\left[\frac{-1}{(x'^2 + y^2)^{1/2}}\right]_{-L}^{L} = 0$$
 
-$$E_y = k\lambda_0\,y\left[\frac{x'}{y^2(x'^2 + y^2)^{1/2}}\right]_{-L}^{L} = k\lambda_0\,\frac{2L}{y\sqrt{L^2 + y^2}}$$
+$$E_y = k\lambda_0\ y\left[\frac{x'}{y^2(x'^2 + y^2)^{1/2}}\right]_{-L}^{L} = k\lambda_0\ \frac{2L}{y\sqrt{L^2 + y^2}}$$
 
 El campo es vertical, hacia arriba, y disminuye al alejarse.
 
@@ -352,11 +352,11 @@ El campo es vertical, hacia arriba, y disminuye al alejarse.
 
 $$E_x = -k\lambda_0\left[\frac{-1}{(x'^2 + y^2)^{1/2}}\right]_0^{2L} = k\lambda_0\left(\frac{1}{\sqrt{4L^2 + y^2}} - \frac{1}{|y|}\right) \quad(< 0)$$
 
-$$E_y = k\lambda_0\,y\left[\frac{x'}{y^2(x'^2 + y^2)^{1/2}}\right]_0^{2L} = k\lambda_0\,\frac{2L}{y\sqrt{4L^2 + y^2}}$$
+$$E_y = k\lambda_0\ y\left[\frac{x'}{y^2(x'^2 + y^2)^{1/2}}\right]_0^{2L} = k\lambda_0\ \frac{2L}{y\sqrt{4L^2 + y^2}}$$
 
 **Paso 4 — Eje X, $x > 2L$ (ítem d).** Vector del elemento al punto: $(x - x'; 0)$:
 
-$$\vec E = k\lambda_0\int_0^{2L}\frac{dx'}{(x - x')^2}\,\hat e_x = k\lambda_0\left[\frac{1}{x - x'}\right]_0^{2L}\hat e_x = k\lambda_0\left(\frac{1}{x - 2L} - \frac1x\right)\hat e_x$$
+$$\vec E = k\lambda_0\int_0^{2L}\frac{dx'}{(x - x')^2}\ \hat e_x = k\lambda_0\left[\frac{1}{x - x'}\right]_0^{2L}\hat e_x = k\lambda_0\left(\frac{1}{x - 2L} - \frac1x\right)\hat e_x$$
 
 </details>
 
@@ -399,7 +399,7 @@ d) discuta cómo cambian los resultados si la densidad de carga fuera de la form
 
 **Paso 1 — Carga total (ítem a).**
 
-$$Q = \int_{-L}^{L}\lambda_0\,x\,dx = \lambda_0\left[\frac{x^2}{2}\right]_{-L}^{L} = 0$$
+$$Q = \int_{-L}^{L}\lambda_0\ x\ dx = \lambda_0\left[\frac{x^2}{2}\right]_{-L}^{L} = 0$$
 
 La mitad derecha es positiva y la izquierda negativa, con igual módulo.
 
@@ -407,12 +407,12 @@ La mitad derecha es positiva y la izquierda negativa, con igual módulo.
 
 **Paso 3 — Cálculo (ítem c).**
 
-$$\vec E = k\lambda_0\int_{-L}^{L}x'\,dx'\,\frac{(-x';\ y)}{(x'^2 + y^2)^{3/2}}$$
+$$\vec E = k\lambda_0\int_{-L}^{L}x'\ dx'\ \frac{(-x';\ y)}{(x'^2 + y^2)^{3/2}}$$
 
 - Componente $y$: el integrando $x'y/(\dots)^{3/2}$ es **impar** en $x'$, así que la integral es 0.
-- Componente $x$: el integrando $-x'^2/(\dots)^{3/2}$ es par y negativo. Usando la primitiva $\int\frac{x'^2\,dx'}{(x'^2 + y^2)^{3/2}} = \ln\!\left(x' + \sqrt{x'^2 + y^2}\right) - \frac{x'}{\sqrt{x'^2 + y^2}}$:
+- Componente $x$: el integrando $-x'^2/(\dots)^{3/2}$ es par y negativo. Usando la primitiva $\int\frac{x'^2\ dx'}{(x'^2 + y^2)^{3/2}} = \ln\left(x' + \sqrt{x'^2 + y^2}\right) - \frac{x'}{\sqrt{x'^2 + y^2}}$:
 
-$$E_x = -2k\lambda_0\left[\ln\!\left(\frac{L + \sqrt{L^2 + y^2}}{y}\right) - \frac{L}{\sqrt{L^2 + y^2}}\right] \quad(< 0)$$
+$$E_x = -2k\lambda_0\left[\ln\left(\frac{L + \sqrt{L^2 + y^2}}{y}\right) - \frac{L}{\sqrt{L^2 + y^2}}\right] \quad(< 0)$$
 
 El resultado coincide con el dibujo: campo horizontal hacia la izquierda.
 
@@ -427,7 +427,7 @@ El resultado coincide con el dibujo: campo horizontal hacia la izquierda.
 
 ![Líneas de campo del ejercicio 8](img/ej-08-respuesta.png)
 
-- c) $\vec E = k_0\lambda_0\displaystyle\int_{-L}^{L}x'\,dx'\,\frac{(-x';\ y)}{(x'^2 + y^2)^{3/2}}$ (la segunda integral resulta nula) $= \left(-2k_0\lambda_0\left[\ln\dfrac{L + \sqrt{L^2 + y^2}}{y} - \dfrac{L}{\sqrt{L^2 + y^2}}\right];\ 0\right)$
+- c) $\vec E = k_0\lambda_0\displaystyle\int_{-L}^{L}x'\ dx'\ \frac{(-x';\ y)}{(x'^2 + y^2)^{3/2}}$ (la segunda integral resulta nula) $= \left(-2k_0\lambda_0\left[\ln\dfrac{L + \sqrt{L^2 + y^2}}{y} - \dfrac{L}{\sqrt{L^2 + y^2}}\right];\ 0\right)$
 - d) $Q_{TOTAL}$ no sería nula, y el CE sobre el eje Y tendría componente solo paralela al eje Y.
 
 </details>
@@ -452,19 +452,19 @@ b) del campo eléctrico en el centro de la espira (el punto *(0;0;0)*).
 
 **Paso 1 — Campo del anillo en su eje.** Con $Q = 2\pi R\lambda$ (ver [teoría](teoria.md#anillo-en-su-eje)):
 
-$$E(z) = \frac{kQ\,z}{(R^2 + z^2)^{3/2}} = \frac{2\pi kR\lambda\,z}{(R^2 + z^2)^{3/2}}\quad(\text{hacia } +z)$$
+$$E(z) = \frac{kQ\ z}{(R^2 + z^2)^{3/2}} = \frac{2\pi kR\lambda\ z}{(R^2 + z^2)^{3/2}}\quad(\text{hacia } +z)$$
 
 **Paso 2 — Equilibrio en $z = D$ (ítem a).** La fuerza eléctrica hacia arriba compensa el peso:
 
-$$q\,\frac{2\pi kR\lambda\,D}{(R^2 + D^2)^{3/2}} = mg \quad\Rightarrow\quad \lambda = \frac{(R^2 + D^2)^{3/2}\,mg}{2\pi qkRD}$$
+$$q\ \frac{2\pi kR\lambda\ D}{(R^2 + D^2)^{3/2}} = mg \quad\Rightarrow\quad \lambda = \frac{(R^2 + D^2)^{3/2}\ mg}{2\pi qkRD}$$
 
 **Paso 3 — Campo en el centro (ítem b).** El anillo **no** genera campo en su centro (todas las contribuciones se cancelan por simetría). Solo queda el campo de la carga $+q$, que está a distancia $D$ arriba y apunta alejándose de ella, es decir hacia abajo:
 
-$$\vec E = \frac{kq}{D^2}\,(-\hat e_z)$$
+$$\vec E = \frac{kq}{D^2}\ (-\hat e_z)$$
 
 </details>
 
-**Respuesta:** a) $\lambda = \dfrac{(R^2 + D^2)^{3/2}\,mg}{2\pi qkRD}$; b) $\vec E = \dfrac{kq}{D^2}\,(-\hat e_z)$
+**Respuesta:** a) $\lambda = \dfrac{(R^2 + D^2)^{3/2}\ mg}{2\pi qkRD}$; b) $\vec E = \dfrac{kq}{D^2}\ (-\hat e_z)$
 
 </details>
 
@@ -488,14 +488,14 @@ b) dibuje las líneas de campo en los puntos (0; 0 < y < R) correspondientes a e
 
 **Paso 1 — Signo de la carga.** La semicircunferencia está a la izquierda: $\phi \in [\pi/2;\ 3\pi/2]$. Ahí $\cos\phi \le 0$, así que **toda la carga es negativa** (más intensa cerca de $\phi = \pi$, sobre el eje X, y nula en los extremos).
 
-**Paso 2 — Campo en P.** Elemento en $R(\cos\phi; \sin\phi)$, $\delta q = \lambda_0\cos\phi\,R\,d\phi$, versor del elemento a P: $-(\cos\phi; \sin\phi)$:
+**Paso 2 — Campo en P.** Elemento en $R(\cos\phi; \sin\phi)$, $\delta q = \lambda_0\cos\phi\ R\ d\phi$, versor del elemento a P: $-(\cos\phi; \sin\phi)$:
 
-$$\vec E = -\frac{k\lambda_0}{R}\int_{\pi/2}^{3\pi/2}\cos\phi\,(\cos\phi;\ \sin\phi)\,d\phi$$
+$$\vec E = -\frac{k\lambda_0}{R}\int_{\pi/2}^{3\pi/2}\cos\phi\ (\cos\phi;\ \sin\phi)\ d\phi$$
 
-- $\int_{\pi/2}^{3\pi/2}\cos^2\phi\,d\phi = \dfrac{\pi}{2}$
-- $\int_{\pi/2}^{3\pi/2}\cos\phi\sin\phi\,d\phi = \left[\dfrac{\sin^2\phi}{2}\right]_{\pi/2}^{3\pi/2} = 0$
+- $\int_{\pi/2}^{3\pi/2}\cos^2\phi\ d\phi = \dfrac{\pi}{2}$
+- $\int_{\pi/2}^{3\pi/2}\cos\phi\sin\phi\ d\phi = \left[\dfrac{\sin^2\phi}{2}\right]_{\pi/2}^{3\pi/2} = 0$
 
-$$\vec E = -\frac{\pi k\lambda_0}{2R}\,\hat e_x$$
+$$\vec E = -\frac{\pi k\lambda_0}{2R}\ \hat e_x$$
 
 **Paso 3 — Fuerza sobre una carga positiva (ítem a).** $\vec F = q\vec E$ tiene la dirección del eje X y sentido $-x$: la carga positiva es atraída por la semicircunferencia negativa.
 
@@ -505,7 +505,7 @@ $$\vec E = -\frac{\pi k\lambda_0}{2R}\,\hat e_x$$
 
 **Respuesta:**
 
-- a) $\vec F = F_x\,(-\hat e_x)$, con $F_x = \dfrac{\pi k\lambda_0 q}{2R} > 0$.
+- a) $\vec F = F_x\ (-\hat e_x)$, con $F_x = \dfrac{\pi k\lambda_0 q}{2R} > 0$.
 - b) Líneas de campo de la guía:
 
 ![Líneas de campo del ejercicio 10](img/ej-10-respuesta.png)
@@ -526,21 +526,21 @@ Un disco plano, de radio *r<sub>b</sub>*, fijo a un sistema de referencia, está
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Dividir el disco en anillos.** Un anillo de radio $r$ y ancho $dr$ tiene carga $dQ = \sigma\,2\pi r\,dr$ y, en el eje, genera (ver ejercicio 9):
+**Paso 1 — Dividir el disco en anillos.** Un anillo de radio $r$ y ancho $dr$ tiene carga $dQ = \sigma\ 2\pi r\ dr$ y, en el eje, genera (ver ejercicio 9):
 
-$$dE_z = \frac{k\,dQ\,z}{(r^2 + z^2)^{3/2}} = \frac{2\pi k\sigma z\,r\,dr}{(r^2 + z^2)^{3/2}}$$
+$$dE_z = \frac{k\ dQ\ z}{(r^2 + z^2)^{3/2}} = \frac{2\pi k\sigma z\ r\ dr}{(r^2 + z^2)^{3/2}}$$
 
 **Paso 2 — Integrar de $0$ a $r_b$.** Con $u = r^2 + z^2$:
 
-$$E_z = 2\pi k\sigma z\int_0^{r_b}\frac{r\,dr}{(r^2 + z^2)^{3/2}} = -\left(\frac{2\pi k\sigma z}{(r^2 + z^2)^{1/2}}\right)\Bigg|_0^{r_b} = 2\pi k\sigma z\left[\frac{1}{|z|} - \frac{1}{\sqrt{r_b^2 + z^2}}\right]$$
+$$E_z = 2\pi k\sigma z\int_0^{r_b}\frac{r\ dr}{(r^2 + z^2)^{3/2}} = -\left(\frac{2\pi k\sigma z}{(r^2 + z^2)^{1/2}}\right)\Bigg|_0^{r_b} = 2\pi k\sigma z\left[\frac{1}{|z|} - \frac{1}{\sqrt{r_b^2 + z^2}}\right]$$
 
 **Paso 3 — Ordenar.** Con $2\pi k = \dfrac{1}{2\varepsilon_0}$ y $\dfrac{z}{|z|} = \text{sg}(z)$:
 
-$$\vec E = \frac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\left[1 - \frac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$$
+$$\vec E = \frac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\left[1 - \frac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$$
 
 </details>
 
-**Respuesta:** $\vec E = \dfrac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\left[1 - \dfrac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$
+**Respuesta:** $\vec E = \dfrac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\left[1 - \dfrac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$
 
 </details>
 
@@ -564,27 +564,27 @@ c) un plano infinito.
 
 **Paso 1 — Anillo (ítem a).** Se integra directamente sobre el anillo (densidad $\lambda_0$): elemento en $(r_b\cos\phi'; r_b\sin\phi'; 0)$, vector al punto $(-r_b\cos\phi'; -r_b\sin\phi'; z)$:
 
-$$\vec E = k_0\lambda_0\int_0^{2\pi}r_b\,d\phi'\,\frac{(-r_b\cos\phi';\ -r_b\sin\phi';\ z)}{(r_b^2 + z^2)^{3/2}}$$
+$$\vec E = k_0\lambda_0\int_0^{2\pi}r_b\ d\phi'\ \frac{(-r_b\cos\phi';\ -r_b\sin\phi';\ z)}{(r_b^2 + z^2)^{3/2}}$$
 
 Las integrales de $\cos\phi'$ y $\sin\phi'$ en una vuelta son 0; la de $z$ da $2\pi$:
 
-$$\vec E = \frac{2\pi k_0\lambda_0\,r_b\,z}{(r_b^2 + z^2)^{3/2}}\,\hat e_z$$
+$$\vec E = \frac{2\pi k_0\lambda_0\ r_b\ z}{(r_b^2 + z^2)^{3/2}}\ \hat e_z$$
 
 **Paso 2 — Corona (ítem b).** Una corona es un disco de radio $r_b$ al que se le quita un disco de radio $r_a$. Por superposición, $\vec E_{corona} = \vec E_{disco}(r_b) - \vec E_{disco}(r_a)$:
 
-$$\vec E = \frac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\left[\frac{1}{\sqrt{1 + r_a^2/z^2}} - \frac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$$
+$$\vec E = \frac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\left[\frac{1}{\sqrt{1 + r_a^2/z^2}} - \frac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$$
 
 **Paso 3 — Plano infinito (ítem c).** Se hace $r_b \to \infty$ en el disco: el término $1/\sqrt{1 + r_b^2/z^2} \to 0$:
 
-$$\vec E = \frac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\,\hat e_Z$$
+$$\vec E = \frac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\ \hat e_Z$$
 
 </details>
 
 **Respuesta:**
 
-- a) $\vec E = \dfrac{2\pi k_0\lambda_0 r_b z}{(r_b^2 + z^2)^{3/2}}\,\hat e_z$
-- b) $\vec E = \dfrac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\left[\dfrac{1}{\sqrt{1 + r_a^2/z^2}} - \dfrac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$
-- c) $\vec E = \dfrac{\sigma}{2\varepsilon_0}\,\text{sg}(z)\,\hat e_Z$
+- a) $\vec E = \dfrac{2\pi k_0\lambda_0 r_b z}{(r_b^2 + z^2)^{3/2}}\ \hat e_z$
+- b) $\vec E = \dfrac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\left[\dfrac{1}{\sqrt{1 + r_a^2/z^2}} - \dfrac{1}{\sqrt{1 + r_b^2/z^2}}\right]\hat e_Z$
+- c) $\vec E = \dfrac{\sigma}{2\varepsilon_0}\ \text{sg}(z)\ \hat e_Z$
 
 </details>
 
@@ -606,7 +606,7 @@ La configuración de cargas de la figura consiste en un anillo de radio *R,* uni
 
 **Paso 2 — Carga del alambre** (de $-L$ a $L$):
 
-$$Q_2 = \int_{-L}^{L}\beta\lambda_0x^2\,dx = \beta\lambda_0\,\frac{2L^3}{3}$$
+$$Q_2 = \int_{-L}^{L}\beta\lambda_0x^2\ dx = \beta\lambda_0\ \frac{2L^3}{3}$$
 
 **Paso 3 — Carga total nula.**
 
@@ -666,7 +666,7 @@ Un cuerpo puntual de masa *m* = 20g se encuentra suspendido de un hilo que forma
 
 **Paso 3 — Despeje.**
 
-$$q = \frac{2\varepsilon_0\,mg\tan\alpha}{\sigma}$$
+$$q = \frac{2\varepsilon_0\ mg\tan\alpha}{\sigma}$$
 
 **Paso 4 — Cálculo.**
 
@@ -702,7 +702,7 @@ $$E = \frac{\sigma}{2\varepsilon_0} + \frac{2\sigma}{2\varepsilon_0} = \frac{3\s
 
 **Paso 2 — Equilibrio.** $\tan\alpha = \dfrac{qE}{mg}$:
 
-$$\tan\alpha = \frac{3\sigma q}{2\varepsilon_0\,mg} \qquad\Longleftrightarrow\qquad q = 2\varepsilon_0\,\frac{mg\tan\alpha}{3\sigma}$$
+$$\tan\alpha = \frac{3\sigma q}{2\varepsilon_0\ mg} \qquad\Longleftrightarrow\qquad q = 2\varepsilon_0\ \frac{mg\tan\alpha}{3\sigma}$$
 
 **Paso 3 — Cálculo.**
 
@@ -744,7 +744,7 @@ c) calcule el valor del campo eléctrico ***E*** en todo punto del eje *Z* (obse
 
 **Paso 3 — Campo de un hilo finito en su mediatriz.** El punto $(0;0;z)$ está sobre la mediatriz de cada hilo, a una distancia $d = \sqrt{a^2/4 + z^2}$. Con el resultado de la [teoría](teoria.md#hilo-finito-en-un-punto-fuera-de-su-eje) (longitud $2L$):
 
-$$E_{hilo} = \frac{2k\lambda}{d}\,\frac{L}{\sqrt{L^2 + d^2}}\quad(\text{dirigido del hilo al punto})$$
+$$E_{hilo} = \frac{2k\lambda}{d}\ \frac{L}{\sqrt{L^2 + d^2}}\quad(\text{dirigido del hilo al punto})$$
 
 **Paso 4 — Componente Z de cada hilo y suma.** La componente $z$ es $E_{hilo}\cdot\dfrac{z}{d}$. Los dos hilos aportan lo mismo:
 
@@ -778,19 +778,19 @@ Dada la configuración de la figura (un alambre semicircular cargado con densida
 
 **Geometría.** C en el origen. Arco de radio $R$ a la izquierda: $\phi \in [\pi/2;\ 3\pi/2]$. Cargas $q$ en $(R; R; 0)$ y $(R; -R; 0)$. Punto $(0; 0; z)$.
 
-**Paso 1 — Campo del arco.** Elemento en $R(\cos\phi; \sin\phi; 0)$, $\delta q = \lambda_0R\,d\phi$, vector al punto $(-R\cos\phi; -R\sin\phi; z)$, distancia $\sqrt{R^2 + z^2}$:
+**Paso 1 — Campo del arco.** Elemento en $R(\cos\phi; \sin\phi; 0)$, $\delta q = \lambda_0R\ d\phi$, vector al punto $(-R\cos\phi; -R\sin\phi; z)$, distancia $\sqrt{R^2 + z^2}$:
 
-$$\vec E_\lambda = \frac{k_0\lambda_0R}{(R^2 + z^2)^{3/2}}\int_{\pi/2}^{3\pi/2}(-R\cos\phi;\ -R\sin\phi;\ z)\,d\phi$$
+$$\vec E_\lambda = \frac{k_0\lambda_0R}{(R^2 + z^2)^{3/2}}\int_{\pi/2}^{3\pi/2}(-R\cos\phi;\ -R\sin\phi;\ z)\ d\phi$$
 
-- $\int\cos\phi\,d\phi = \sin\frac{3\pi}{2} - \sin\frac{\pi}{2} = -2$, entonces la componente $x$ vale $+2R$.
-- $\int\sin\phi\,d\phi = 0$.
-- $\int z\,d\phi = \pi z$.
+- $\int\cos\phi\ d\phi = \sin\frac{3\pi}{2} - \sin\frac{\pi}{2} = -2$, entonces la componente $x$ vale $+2R$.
+- $\int\sin\phi\ d\phi = 0$.
+- $\int z\ d\phi = \pi z$.
 
-$$\vec E_\lambda = \frac{k_0\lambda_0}{(R^2 + z^2)^{3/2}}\left(2R^2\,\hat e_x + \pi Rz\,\hat e_z\right)$$
+$$\vec E_\lambda = \frac{k_0\lambda_0}{(R^2 + z^2)^{3/2}}\left(2R^2\ \hat e_x + \pi Rz\ \hat e_z\right)$$
 
 **Paso 2 — Campo de las dos cargas.** Vectores al punto: $(-R; \mp R; z)$, distancia $\sqrt{2R^2 + z^2}$. Las componentes $y$ se cancelan:
 
-$$\vec E_q = \frac{2k_0q}{(2R^2 + z^2)^{3/2}}\left(-R\,\hat e_x + z\,\hat e_z\right)$$
+$$\vec E_q = \frac{2k_0q}{(2R^2 + z^2)^{3/2}}\left(-R\ \hat e_x + z\ \hat e_z\right)$$
 
 **Paso 3 — ¿Equilibrio del aro?** El arco (positivo) repele a las cargas $q$ (positivas): el arco está a la izquierda, así que las empuja hacia $+x$. Las componentes $y$ se cancelan por simetría. Por acción y reacción, las cargas empujan al arco hacia $-x$. El aro **no** está en equilibrio: tiende a desplazarse hacia $-\hat e_x$. Para mantenerlo quieto hay que aplicarle una fuerza en dirección X, sentido $+\hat e_x$.
 
@@ -798,7 +798,7 @@ $$\vec E_q = \frac{2k_0q}{(2R^2 + z^2)^{3/2}}\left(-R\,\hat e_x + z\,\hat e_z\ri
 
 **Respuesta:** $\vec E = \vec E_\lambda + \vec E_q$ ($\vec E_\lambda$ es el campo del alambre y $\vec E_q$ el generado por las cargas puntuales), con
 
-$$\vec E_\lambda = \frac{k_0\lambda_0}{(R^2 + z^2)^{3/2}}(2R^2\,\hat e_x + \pi Rz\,\hat e_z) \qquad \vec E_q = \frac{2k_0q}{(2R^2 + z^2)^{3/2}}(-R\,\hat e_x + z\,\hat e_z)$$
+$$\vec E_\lambda = \frac{k_0\lambda_0}{(R^2 + z^2)^{3/2}}(2R^2\ \hat e_x + \pi Rz\ \hat e_z) \qquad \vec E_q = \frac{2k_0q}{(2R^2 + z^2)^{3/2}}(-R\ \hat e_x + z\ \hat e_z)$$
 
 El aro tiende a desplazarse en la dirección $-\hat e_x$; hay que aplicarle una fuerza en $+\hat e_x$.
 
@@ -823,7 +823,7 @@ El campo eléctrico que ingresa a una región del espacio (un cubo de 25m de ari
 
 **Paso 2 — Gauss.**
 
-$$\frac{Q}{\varepsilon_0} = \phi_1 + \phi_2 = (E_2 - E_1)\,A \quad\Rightarrow\quad Q = \varepsilon_0\,[E(x = 25\text{ m}) - E(x = 0)]\,(25\text{ m})^2$$
+$$\frac{Q}{\varepsilon_0} = \phi_1 + \phi_2 = (E_2 - E_1)\ A \quad\Rightarrow\quad Q = \varepsilon_0\ [E(x = 25\text{ m}) - E(x = 0)]\ (25\text{ m})^2$$
 
 **Paso 3 — Cálculo.**
 
@@ -833,7 +833,7 @@ Tiene sentido: entra más flujo del que sale, así que adentro hay carga negativ
 
 </details>
 
-**Respuesta:** $Q = \varepsilon_0[E(x = 25\text{ m}) - E(x = 0)]\,(25\text{ m})^2 = -0{,}83\ \mu\text{C}$
+**Respuesta:** $Q = \varepsilon_0[E(x = 25\text{ m}) - E(x = 0)]\ (25\text{ m})^2 = -0{,}83\ \mu\text{C}$
 
 </details>
 
@@ -917,11 +917,11 @@ $$V_{q_1}(3;2) = \frac{9\times10^9\cdot2\times10^{-6}}{3{,}606}\ \text{V} = 4992
 
 $$V(3;2) = -5807{,}7\ \text{V}$$
 
-**Paso 4 — Trabajo de la fuerza eléctrica (ítem b).** $W_{el} = -q_3\,\Delta V = -q_3\,[V_{final} - V_{inicial}]$:
+**Paso 4 — Trabajo de la fuerza eléctrica (ítem b).** $W_{el} = -q_3\ \Delta V = -q_3\ [V_{final} - V_{inicial}]$:
 
 $$V(0;2) = \frac{18000}{2} - \frac{27000}{4{,}924} = 9000 - 5483 = 3517{,}1\ \text{V}$$
 
-$$W_{el} = -10^{-6}\,[3517{,}1 - (-5807{,}7)]\ \text{J} = -9{,}32\times10^{-3}\ \text{J}$$
+$$W_{el} = -10^{-6}\ [3517{,}1 - (-5807{,}7)]\ \text{J} = -9{,}32\times10^{-3}\ \text{J}$$
 
 Es negativo: hay que "empujar" a $q_3$ (positiva) hacia una zona de mayor potencial.
 
@@ -952,13 +952,13 @@ $$\int_0^L\frac{dx}{\sqrt{(x - 3)^2 + 4}} = \int_{-3}^{L-3}\frac{du}{\sqrt{u^2 +
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Potencial del alambre.** Elemento $\lambda\,dx$ en $(x; 0)$, distancia al punto $\sqrt{(x - 3)^2 + 4}$:
+**Paso 1 — Potencial del alambre.** Elemento $\lambda\ dx$ en $(x; 0)$, distancia al punto $\sqrt{(x - 3)^2 + 4}$:
 
-$$V_{al} = k\lambda\int_0^L\frac{dx}{\sqrt{(x - 3)^2 + 4}} = k\lambda\,\ln\left[u + \sqrt{u^2 + 4}\right]_{-3}^{-2{,}75}$$
+$$V_{al} = k\lambda\int_0^L\frac{dx}{\sqrt{(x - 3)^2 + 4}} = k\lambda\ \ln\left[u + \sqrt{u^2 + 4}\right]_{-3}^{-2{,}75}$$
 
 **Paso 2 — Cálculo.**
 
-$$\ln\!\left(-2{,}75 + \sqrt{11{,}5625}\right) - \ln\!\left(-3 + \sqrt{13}\right) = \ln(0{,}6504) - \ln(0{,}6056) = 0{,}07140$$
+$$\ln\left(-2{,}75 + \sqrt{11{,}5625}\right) - \ln\left(-3 + \sqrt{13}\right) = \ln(0{,}6504) - \ln(0{,}6056) = 0{,}07140$$
 
 $$V_{al} = 9\times10^9\cdot8\times10^{-6}\cdot0{,}07140\ \text{V} = 5140{,}7\ \text{V}$$
 
@@ -966,9 +966,9 @@ Es mayor que los 4992,3 V de la carga puntual: parte de la carga del alambre est
 
 **Paso 3 — Trabajo externo (ítem b).** Llevar $q_3$ desde el infinito (donde $V = 0$) sin variar su energía cinética:
 
-$$W_{ext} = q_3\,[V(3;2) - V(\infty)] = q_3\,(V_{al} + V_{q_2})$$
+$$W_{ext} = q_3\ [V(3;2) - V(\infty)] = q_3\ (V_{al} + V_{q_2})$$
 
-$$W_{ext} = 10^{-6}\,(5140{,}7 - 10800)\ \text{J} = -5{,}66\times10^{-3}\ \text{J}$$
+$$W_{ext} = 10^{-6}\ (5140{,}7 - 10800)\ \text{J} = -5{,}66\times10^{-3}\ \text{J}$$
 
 </details>
 
@@ -994,15 +994,15 @@ b) el trabajo mecánico requerido para llevar una carga puntual de valor *Q* des
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Distancias.** Cada vértice está a $\sqrt2\,L$ de A (media diagonal). Módulo del campo de cada carga en A:
+**Paso 1 — Distancias.** Cada vértice está a $\sqrt2\ L$ de A (media diagonal). Módulo del campo de cada carga en A:
 
 $$E_i = \frac{1}{4\pi\varepsilon_0}\frac{q}{2L^2}$$
 
 **Paso 2 — Direcciones.** Las cargas de arriba ($+q$) generan campo que se aleja de ellas: apunta hacia abajo en diagonal. Las de abajo ($-q$) generan campo hacia ellas: también hacia abajo en diagonal. Las componentes horizontales se cancelan de a pares y las verticales se suman. Cada componente vertical es $E_i\cos45^\circ = E_i/\sqrt2$:
 
-$$E_A = 4\cdot\frac{1}{4\pi\varepsilon_0}\frac{q}{2L^2}\cdot\frac{1}{\sqrt2} = \frac{1}{4\pi\varepsilon_0}\frac{\sqrt2}{L^2}\,q$$
+$$E_A = 4\cdot\frac{1}{4\pi\varepsilon_0}\frac{q}{2L^2}\cdot\frac{1}{\sqrt2} = \frac{1}{4\pi\varepsilon_0}\frac{\sqrt2}{L^2}\ q$$
 
-**Paso 3 — Potenciales (ítem b).** $W = Q\,(V_B - V_A)$.
+**Paso 3 — Potenciales (ítem b).** $W = Q\ (V_B - V_A)$.
 
 - En A las cuatro cargas están a la misma distancia y suman cero: $V_A = 0$.
 - B está en la mediatriz horizontal, así que equidista de cada $q$ y de la $-q$ que tiene debajo: sus potenciales se anulan de a pares. $V_B = 0$.
@@ -1013,7 +1013,7 @@ Entonces $W_{AB} = 0$.
 
 **Respuesta:**
 
-- a) $\vec E_A = -\dfrac{1}{4\pi\varepsilon_0}\dfrac{\sqrt2}{L^2}\,q\ \hat e_y$
+- a) $\vec E_A = -\dfrac{1}{4\pi\varepsilon_0}\dfrac{\sqrt2}{L^2}\ q\ \hat e_y$
 - b) $V_A = V_B = 0$, debido a que A equidista de las cuatro cargas, que suman cero, y en B se anula el potencial de $q_1$ con el de $q_3$ y el de $q_2$ con el de $q_4$. En consecuencia $W_{AB} = 0$.
 
 </details>
@@ -1040,7 +1040,7 @@ Dos cargas puntuales *q<sub>1</sub>* y *q<sub>2</sub> = −3q<sub>1</sub>* se ha
 
 **Paso 2 — Campo nulo.** Entre cargas de signo opuesto los campos se suman, así que el punto está **afuera**, del lado de la carga menor ($q_1$), es decir $x < 0$:
 
-$$\frac{k|q_1|}{x^2} = \frac{3k|q_1|}{(1 - x)^2} \quad\Rightarrow\quad 1 - x = \sqrt3\,|x| = -\sqrt3\,x \quad\Rightarrow\quad x = -\frac{1}{\sqrt3 - 1} = -1{,}366\ \text{m}$$
+$$\frac{k|q_1|}{x^2} = \frac{3k|q_1|}{(1 - x)^2} \quad\Rightarrow\quad 1 - x = \sqrt3\ |x| = -\sqrt3\ x \quad\Rightarrow\quad x = -\frac{1}{\sqrt3 - 1} = -1{,}366\ \text{m}$$
 
 **Paso 3 — Infinito.** Lejos, el potencial se comporta como $k(q_1 + q_2)/r \to 0$.
 
@@ -1072,7 +1072,7 @@ c) justifique si el valor hallado en (a) vale para todo punto del cuadrado.
 
 **Paso 1 — Planteo.** Todas las cargas están a la misma distancia del centro, la media diagonal $r = \dfrac{\sqrt2}{2}$ m:
 
-$$V = \frac{k}{r}\,(q_1 + q_2 + q_3 + q_4)$$
+$$V = \frac{k}{r}\ (q_1 + q_2 + q_3 + q_4)$$
 
 **Paso 2 — Cálculo.** $\sum q = (1 - 2 + 3 + 2)\times10^{-4} = 4\times10^{-4}$ C:
 
@@ -1114,7 +1114,7 @@ b) grafique la función campo eléctrico suponiendo $1 + \frac{q}{Q} > \left(\fr
 
 - $r > r_{EXT}$: $V(r) = \dfrac{q + Q}{4\pi\varepsilon_0r}$.
 - En el metal el potencial es constante e igual al de su superficie externa: $V = \dfrac{q + Q}{4\pi\varepsilon_0r_{EXT}}$.
-- $r < r_{INT}$: $V(r) = V(r_{INT}) - \displaystyle\int_{r_{INT}}^{r}E\,dr = V(r_{INT}) + \dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac1r - \dfrac{1}{r_{INT}}\right)$.
+- $r < r_{INT}$: $V(r) = V(r_{INT}) - \displaystyle\int_{r_{INT}}^{r}E\ dr = V(r_{INT}) + \dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac1r - \dfrac{1}{r_{INT}}\right)$.
 
 **Paso 4 — Gráfico (ítem b).** El campo decrece como $1/r^2$ hasta $r_{INT}$ (donde vale $kQ/r_{INT}^2$), es nulo dentro del metal y salta en $r_{EXT}$ a $k(Q + q)/r_{EXT}^2$. La condición del enunciado equivale a $\dfrac{k(Q + q)}{r_{EXT}^2} > \dfrac{kQ}{r_{INT}^2}$: el valor justo afuera de la cáscara es **mayor** que el valor justo antes de entrar.
 
@@ -1159,7 +1159,7 @@ d) el signo del trabajo que debemos realizar en contra de la fuerza eléctrica p
 
 **Paso 4 — Trabajo externo.** La carga va de afuera hacia adentro, en el mismo sentido que $\vec F$. Para ir a velocidad constante, nuestra fuerza tiene que ser opuesta a $\vec F$ (saliente) mientras el desplazamiento es entrante, así que el trabajo es **negativo**.
 
-Otra forma de verlo: $W_{ext} = q\,(V_a - V_b)$, con $q < 0$ y $V_a > V_b$, da $W_{ext} < 0$.
+Otra forma de verlo: $W_{ext} = q\ (V_a - V_b)$, con $q < 0$ y $V_a > V_b$, da $W_{ext} < 0$.
 
 </details>
 
@@ -1190,7 +1190,7 @@ $$V(x) = \frac{2kQ}{\sqrt{x^2 + \ell^2}} + \frac{kq'}{|x|} = 2kQ\left(\frac{1}{\
 
 **Paso 2 — Trabajo sobre $q'$.** Si se mueve $q'$, solo la afectan las $Q$ (una carga no interactúa con su propio campo). El potencial de las $Q$ es $V_Q = \dfrac{2kQ}{\sqrt{x^2 + \ell^2}}$:
 
-$$W = -q'\,[V_Q(x_2) - V_Q(x_1)] = -2kQq'\left(\frac{1}{\sqrt{x_2^2 + \ell^2}} - \frac{1}{\sqrt{x_1^2 + \ell^2}}\right)$$
+$$W = -q'\ [V_Q(x_2) - V_Q(x_1)] = -2kQq'\left(\frac{1}{\sqrt{x_2^2 + \ell^2}} - \frac{1}{\sqrt{x_1^2 + \ell^2}}\right)$$
 
 **Paso 3 — Comparación con el 4c.** En el 4c la carga que se mueve es una carga de prueba que siente el campo de **las tres** cargas; acá $q'$ siente solo el de las dos $Q$. Por eso las expresiones difieren (falta el término $1/x$).
 
@@ -1232,7 +1232,7 @@ d) discuta y justifique cómo cambiarían cualitativamente los resultados de los
 
 **Paso 1 — El camino no importa.** El campo electrostático es conservativo: el trabajo depende solo de los extremos. Los tres caminos (a1, a2, a3) dan el mismo resultado:
 
-$$W_{ext} = q_3\,(V_D - V_C)$$
+$$W_{ext} = q_3\ (V_D - V_C)$$
 
 **Paso 2 — Potenciales.**
 
@@ -1253,7 +1253,7 @@ La fuerza eléctrica total es $1{,}047$ N hacia $+x$. La fuerza necesaria para e
 
 **Paso 5 — Ítem c.** Punto E $(0{,}7; 0)$: $V_E = \dfrac{18000}{1{,}7} - \dfrac{27000}{0{,}3} = -79412$ V, entonces
 
-$$W = q_3\,(V_E - V_C) = 5\times10^{-6}\,(-79412 + 6364)\ \text{J} = -0{,}365\ \text{J}$$
+$$W = q_3\ (V_E - V_C) = 5\times10^{-6}\ (-79412 + 6364)\ \text{J} = -0{,}365\ \text{J}$$
 
 Su **módulo** es mayor que el de (a).
 
@@ -1290,7 +1290,7 @@ $$V(z) = \frac{2\pi k\lambda R_a}{\sqrt{R_a^2 + z^2}}$$
 
 **Paso 2 — Trabajo del campo.**
 
-$$W = -q\,[V(4) - V(0)] = -2\pi k\lambda q R_a\left(\frac{1}{\sqrt{R_a^2 + z^2}}\right)\Bigg|_0^{4}$$
+$$W = -q\ [V(4) - V(0)] = -2\pi k\lambda q R_a\left(\frac{1}{\sqrt{R_a^2 + z^2}}\right)\Bigg|_0^{4}$$
 
 **Paso 3 — Cálculo.** $2\pi k\lambda R_a = 2\pi\cdot9\times10^9\cdot2\times10^{-8}\cdot3 = 3393\ \text{V m}$:
 
@@ -1389,15 +1389,15 @@ e) suponga que se cambia la densidad uniforme de carga por otra variable, digamo
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Simetría.** El alambre es igual si se lo traslada a lo largo de su eje o si se lo rota alrededor de él. Entonces $\vec E = E(R)\,\hat e_R$, radial y dependiente solo de la distancia $R$.
+**Paso 1 — Simetría.** El alambre es igual si se lo traslada a lo largo de su eje o si se lo rota alrededor de él. Entonces $\vec E = E(R)\ \hat e_R$, radial y dependiente solo de la distancia $R$.
 
 **Paso 2 — Gauss (ítem a).** Cilindro coaxial de radio $R$ y altura $h$; solo la cara lateral tiene flujo:
 
-$$E\cdot2\pi Rh = \frac{\lambda h}{\varepsilon_0} \quad\Rightarrow\quad \vec E = \frac{\lambda}{2\pi\varepsilon_0R}\,\hat e_R$$
+$$E\cdot2\pi Rh = \frac{\lambda h}{\varepsilon_0} \quad\Rightarrow\quad \vec E = \frac{\lambda}{2\pi\varepsilon_0R}\ \hat e_R$$
 
 **Paso 3 — Potencial (ítem b).** Integrando desde un radio de referencia $R_0$:
 
-$$V(R) - V(R_0) = -\int_{R_0}^{R}\frac{\lambda}{2\pi\varepsilon_0R'}\,dR' \quad\Rightarrow\quad V(R) = V(R_0) - \frac{\lambda}{2\pi\varepsilon_0}\ln\!\left(\frac{R}{R_0}\right)$$
+$$V(R) - V(R_0) = -\int_{R_0}^{R}\frac{\lambda}{2\pi\varepsilon_0R'}\ dR' \quad\Rightarrow\quad V(R) = V(R_0) - \frac{\lambda}{2\pi\varepsilon_0}\ln\left(\frac{R}{R_0}\right)$$
 
 **Paso 4 — Ítems c y d.** Si $R_0 \to \infty$ o $R_0 \to 0$, el logaritmo diverge. No se puede poner el cero en el infinito (hay carga allí, porque el alambre es infinito) ni sobre el alambre (hay carga). Hay que elegir $0 < R_0 < \infty$.
 
@@ -1408,7 +1408,7 @@ $$V(R) - V(R_0) = -\int_{R_0}^{R}\frac{\lambda}{2\pi\varepsilon_0R'}\,dR' \quad\
 **Respuesta:**
 
 - a) $\vec E(R) = \dfrac{\lambda}{2\pi\varepsilon_0R}\hat e_R$
-- b) $V(R) = V(R_0) - \dfrac{\lambda}{2\pi\varepsilon_0}\ln\!\left(\dfrac{R}{R_0}\right)$, con $0 < R_0 < \infty$
+- b) $V(R) = V(R_0) - \dfrac{\lambda}{2\pi\varepsilon_0}\ln\left(\dfrac{R}{R_0}\right)$, con $0 < R_0 < \infty$
 - c) No, porque esta distribución tiene carga en el infinito.
 - d) No, porque sobre el alambre hay cargas.
 - e) Solo se conserva la simetría de rotación; se pierde la de traslación y el campo y el potencial dejan de ser cilíndricamente simétricos.
@@ -1433,27 +1433,27 @@ b) el trabajo que realiza el campo para transportar a velocidad constante una ca
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Fuerza sobre un elemento del anillo (ítem a).** El elemento en $\phi$ tiene carga $\delta q = \lambda_0\cos\phi\,R\,d\phi$. La carga $q$ está en el centro, a distancia $R$, y lo empuja radialmente hacia afuera, en la dirección $(\cos\phi; \sin\phi)$:
+**Paso 1 — Fuerza sobre un elemento del anillo (ítem a).** El elemento en $\phi$ tiene carga $\delta q = \lambda_0\cos\phi\ R\ d\phi$. La carga $q$ está en el centro, a distancia $R$, y lo empuja radialmente hacia afuera, en la dirección $(\cos\phi; \sin\phi)$:
 
-$$d\vec F = \frac{kq\,\lambda_0\cos\phi\,R\,d\phi}{R^2}(\cos\phi;\ \sin\phi)$$
+$$d\vec F = \frac{kq\ \lambda_0\cos\phi\ R\ d\phi}{R^2}(\cos\phi;\ \sin\phi)$$
 
 **Paso 2 — Integrar de $\pi/6$ a $\pi/2$.**
 
-$$F_x = \frac{kq\lambda_0}{R}\int_{\pi/6}^{\pi/2}\cos^2\phi\,d\phi = \frac{kq\lambda_0}{R}\left[\frac\phi2 + \frac{\sin2\phi}{4}\right]_{\pi/6}^{\pi/2} = \frac{kq\lambda_0}{R}\left(\frac\pi6 - \frac{\sqrt3}{8}\right) = 0{,}307\,\frac{kq\lambda_0}{R}$$
+$$F_x = \frac{kq\lambda_0}{R}\int_{\pi/6}^{\pi/2}\cos^2\phi\ d\phi = \frac{kq\lambda_0}{R}\left[\frac\phi2 + \frac{\sin2\phi}{4}\right]_{\pi/6}^{\pi/2} = \frac{kq\lambda_0}{R}\left(\frac\pi6 - \frac{\sqrt3}{8}\right) = 0{,}307\ \frac{kq\lambda_0}{R}$$
 
-$$F_y = \frac{kq\lambda_0}{R}\int_{\pi/6}^{\pi/2}\cos\phi\sin\phi\,d\phi = \frac{kq\lambda_0}{R}\left[\frac{\sin^2\phi}{2}\right]_{\pi/6}^{\pi/2} = \frac{kq\lambda_0}{R}\cdot\frac38 = 0{,}375\,\frac{kq\lambda_0}{R}$$
+$$F_y = \frac{kq\lambda_0}{R}\int_{\pi/6}^{\pi/2}\cos\phi\sin\phi\ d\phi = \frac{kq\lambda_0}{R}\left[\frac{\sin^2\phi}{2}\right]_{\pi/6}^{\pi/2} = \frac{kq\lambda_0}{R}\cdot\frac38 = 0{,}375\ \frac{kq\lambda_0}{R}$$
 
-> La guía da $(kq\lambda_0/R)(-0{,}5\,\hat e_x; -0{,}867\,\hat e_y)$. Esos números ($\int\cos\phi = 0{,}5$, $\int\sin\phi = 0{,}866$) corresponden a una densidad **uniforme** $\lambda_0$ y a la fuerza **sobre q**. Con $\lambda = \lambda_0\cos\phi$ sale el resultado de arriba (la fuerza sobre $q$ es la opuesta).
+> La guía da $(kq\lambda_0/R)(-0{,}5\ \hat e_x; -0{,}867\ \hat e_y)$. Esos números ($\int\cos\phi = 0{,}5$, $\int\sin\phi = 0{,}866$) corresponden a una densidad **uniforme** $\lambda_0$ y a la fuerza **sobre q**. Con $\lambda = \lambda_0\cos\phi$ sale el resultado de arriba (la fuerza sobre $q$ es la opuesta).
 
 **Paso 3 — Potencial del anillo en el eje (ítem b).** Todos los puntos del anillo están a la misma distancia $\sqrt{R^2 + z^2}$ del punto, así que el potencial es proporcional a la carga total del anillo:
 
-$$Q_{anillo} = \int_0^{2\pi}\lambda_0\cos\phi\,R\,d\phi = 0 \quad\Rightarrow\quad V_{anillo}(z) = 0$$
+$$Q_{anillo} = \int_0^{2\pi}\lambda_0\cos\phi\ R\ d\phi = 0 \quad\Rightarrow\quad V_{anillo}(z) = 0$$
 
 El anillo no aporta trabajo; solo cuenta la carga del centro.
 
 **Paso 4 — Trabajo del campo.**
 
-$$W = -q\,[V(z_2) - V(z_1)] = -kq^2\left[\frac{1}{z_2} - \frac{1}{z_1}\right]$$
+$$W = -q\ [V(z_2) - V(z_1)] = -kq^2\left[\frac{1}{z_2} - \frac{1}{z_1}\right]$$
 
 Como $z_2 > z_1$, el corchete es negativo y $W > 0$: la repulsión empuja a la carga hacia afuera.
 
@@ -1461,7 +1461,7 @@ Como $z_2 > z_1$, el corchete es negativo y $W > 0$: la repulsión empuja a la c
 
 **Respuesta:**
 
-- a) $\vec F_{sobre\ sector} = \dfrac{kq\lambda_0}{R}\left(\dfrac\pi6 - \dfrac{\sqrt3}{8};\ \dfrac38\right) = \dfrac{kq\lambda_0}{R}(0{,}307\,\hat e_x + 0{,}375\,\hat e_y)$. (La guía da $\dfrac{kq\lambda_0}{R}(-0{,}5\,\hat e_x; -0{,}867\,\hat e_y)$; ver la nota del paso a paso.)
+- a) $\vec F_{sobre\ sector} = \dfrac{kq\lambda_0}{R}\left(\dfrac\pi6 - \dfrac{\sqrt3}{8};\ \dfrac38\right) = \dfrac{kq\lambda_0}{R}(0{,}307\ \hat e_x + 0{,}375\ \hat e_y)$. (La guía da $\dfrac{kq\lambda_0}{R}(-0{,}5\ \hat e_x; -0{,}867\ \hat e_y)$; ver la nota del paso a paso.)
 - b) $W = -kq^2\left[\dfrac{1}{z_2} - \dfrac{1}{z_1}\right] > 0$ (el CE del anillo es perpendicular al eje Z y su potencial en el eje es nulo).
 
 </details>
@@ -1494,13 +1494,13 @@ $$x = v_0 t \qquad y = \frac12 a_y t^2$$
 
 **Paso 4 — Eliminar $t$.** De la primera, $t = x/v_0$:
 
-$$y = -\frac{q_\alpha V}{2m_\alpha b\,v_0^2}\,x^2 \qquad (x < d)$$
+$$y = -\frac{q_\alpha V}{2m_\alpha b\ v_0^2}\ x^2 \qquad (x < d)$$
 
 Es una **parábola**, igual que un tiro horizontal en un campo gravitatorio.
 
 </details>
 
-**Respuesta:** $y = -\dfrac{q_\alpha V}{2m_\alpha b\,v_0^2}\,x^2$, para $x < d$
+**Respuesta:** $y = -\dfrac{q_\alpha V}{2m_\alpha b\ v_0^2}\ x^2$, para $x < d$
 
 </details>
 

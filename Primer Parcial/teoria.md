@@ -47,13 +47,13 @@ Teoría completa: [Electrodinámica](../3%20-%20Electrodin%C3%A1mica/teoria.md) 
 
 ### Lo que hay que saber
 
-$$V = IR \qquad P = VI = I^2R = \frac{V^2}{R} \qquad E = P\,t$$
+$$V = IR \qquad P = VI = I^2R = \frac{V^2}{R} \qquad E = P\ t$$
 
 $$R_{serie} = R_1 + R_2 + \dots \qquad \frac{1}{R_{paralelo}} = \frac{1}{R_1} + \frac{1}{R_2} + \dots \qquad \left(R_1\parallel R_2 = \frac{R_1R_2}{R_1 + R_2}\right)$$
 
 - **Serie:** misma corriente; las tensiones se suman. **Paralelo:** misma tensión; las corrientes se suman.
 - **Amperímetro ideal:** resistencia nula, va **en serie** y mide la corriente de su rama. **Voltímetro ideal:** resistencia infinita, va **en paralelo** y no deriva corriente.
-- **Potencia que entrega la fuente:** $P = V_{fuente}\,I_{fuente}$. Siempre coincide con la suma de $I^2R$ de todas las resistencias, y sirve de verificación.
+- **Potencia que entrega la fuente:** $P = V_{fuente}\ I_{fuente}$. Siempre coincide con la suma de $I^2R$ de todas las resistencias, y sirve de verificación.
 
 ### Método
 
@@ -72,7 +72,7 @@ Con un tiempo largo, **por la rama de un capacitor no circula corriente**: la ra
 
 ### Joule + calorimetría
 
-La energía que disipa una resistencia en un tiempo $t$ se transforma en calor: $Q = I^2R\,t$ (en J; 1 cal = 4,18 J). Si calienta agua en un recipiente adiabático: $I^2Rt = mc\,\Delta T$. Ver [sección 7](#7-calorimetría-y-dilatación).
+La energía que disipa una resistencia en un tiempo $t$ se transforma en calor: $Q = I^2R\ t$ (en J; 1 cal = 4,18 J). Si calienta agua en un recipiente adiabático: $I^2Rt = mc\ \Delta T$. Ver [sección 7](#7-calorimetría-y-dilatación).
 
 ---
 
@@ -123,9 +123,9 @@ Teoría completa: [Electrostática](../2%20-%20Electrost%C3%A1tica/teoria.md) �
 
 ### Lo que hay que saber
 
-$$k = \frac{1}{4\pi\varepsilon_0} = 9\times10^9\ \frac{\text{N m}^2}{\text{C}^2} \qquad d\vec E = k\frac{dq}{r^2}\hat r \qquad dV = k\frac{dq}{r} \qquad dq = \lambda\,dl$$
+$$k = \frac{1}{4\pi\varepsilon_0} = 9\times10^9\ \frac{\text{N m}^2}{\text{C}^2} \qquad d\vec E = k\frac{dq}{r^2}\hat r \qquad dV = k\frac{dq}{r} \qquad dq = \lambda\ dl$$
 
-$$\vec F = q\vec E \qquad W_{campo}^{A\to B} = q\,(V_A - V_B) = -\Delta U$$
+$$\vec F = q\vec E \qquad W_{campo}^{A\to B} = q\ (V_A - V_B) = -\Delta U$$
 
 **Método general:** elegir un $dq$, escribir su distancia $r$ al punto, descomponer $d\vec E$ y **usar la simetría** para anular componentes antes de integrar. El potencial es escalar: se integra sin descomponer, y suele ser el camino más corto para calcular trabajos.
 
@@ -136,7 +136,7 @@ $$\vec F = q\vec E \qquad W_{campo}^{A\to B} = q\,(V_A - V_B) = -\Delta U$$
 | [Hilo finito, punto en su eje](../2%20-%20Electrost%C3%A1tica/teoria.md#hilo-finito-en-un-punto-de-su-eje), a distancias $a$ y $b$ de los extremos ($a < b$) | $E = k\lambda\left(\dfrac1a - \dfrac1b\right)$, sobre el eje | $V = k\lambda\ln\dfrac{b}{a}$ |
 | [Hilo infinito](../2%20-%20Electrost%C3%A1tica/teoria.md#hilo-infinito) | $E = \dfrac{2k\lambda}{r} = \dfrac{\lambda}{2\pi\varepsilon_0r}$ | (solo diferencias) $V_A - V_B = 2k\lambda\ln\dfrac{r_B}{r_A}$ |
 | [Anillo, punto en su eje](../2%20-%20Electrost%C3%A1tica/teoria.md#anillo-en-su-eje) a distancia $z$ | $E = \dfrac{kQz}{(R^2 + z^2)^{3/2}}$ | $V = \dfrac{kQ}{\sqrt{R^2 + z^2}}$ |
-| [Arco de ángulo θ, en el centro](../2%20-%20Electrost%C3%A1tica/teoria.md#arco-de-circunferencia-en-el-centro) | $E = \dfrac{2k\lambda}{R}\mathrm{sen}\,\dfrac\theta2$ (semianillo: $2k\lambda/R$) | $V = k\lambda\theta$ |
+| [Arco de ángulo θ, en el centro](../2%20-%20Electrost%C3%A1tica/teoria.md#arco-de-circunferencia-en-el-centro) | $E = \dfrac{2k\lambda}{R}\mathrm{sen}\ \dfrac\theta2$ (semianillo: $2k\lambda/R$) | $V = k\lambda\theta$ |
 | Carga puntual | $E = kq/r^2$ | $V = kq/r$ |
 
 ### Casos de examen
@@ -159,7 +159,7 @@ $$\oint\vec E\cdot d\vec S = \frac{Q_{enc}}{\varepsilon_0}$$
 1. **Simetría:** decir hacia dónde apunta $\vec E$ (radial) y de qué depende su módulo (solo de $r$).
 2. **Superficie gaussiana** con esa simetría: una esfera de radio $r$, o un cilindro coaxial de radio $r$ y largo $\ell$. En el cilindro, las tapas no aportan flujo porque $\vec E$ es paralelo a ellas.
 3. **Flujo:** $E\cdot4\pi r^2$ (esfera) o $E\cdot2\pi r\ell$ (cilindro).
-4. **Carga encerrada:** si ρ es uniforme, $\rho\cdot\text{volumen}$. Si $\rho(r)$, **integrar en cascarones**: $Q_{enc} = \int_0^r\rho(r')\,dV'$ con $dV' = 4\pi r'^2dr'$ (esfera) o $2\pi r'\ell\,dr'$ (cilindro). Para $r$ fuera de la distribución, la integral llega solo hasta $R$.
+4. **Carga encerrada:** si ρ es uniforme, $\rho\cdot\text{volumen}$. Si $\rho(r)$, **integrar en cascarones**: $Q_{enc} = \int_0^r\rho(r')\ dV'$ con $dV' = 4\pi r'^2dr'$ (esfera) o $2\pi r'\ell\ dr'$ (cilindro). Para $r$ fuera de la distribución, la integral llega solo hasta $R$.
 5. Despejar E, una vez **adentro** ($r < R$) y otra **afuera** ($r > R$).
 
 ### Resultados
@@ -191,7 +191,7 @@ Es la "ley de Ohm térmica": $H \leftrightarrow I$, $\Delta T \leftrightarrow \D
 ### Método para barras en serie
 
 1. En **régimen estacionario** y con las barras aisladas lateralmente, **el flujo de calor H es el mismo en todas**.
-2. $T_{caliente} - T_{frío} = H\,(R_1 + R_2 + \dots)$, de donde sale H.
+2. $T_{caliente} - T_{frío} = H\ (R_1 + R_2 + \dots)$, de donde sale H.
 3. Temperatura de cada unión: desde el foco frío, $T_{unión} = T_{frío} + H R_1$ (o desde el caliente restando).
 4. Si falta una conductividad: con la temperatura de una unión se obtiene H usando las barras conocidas, y después se despeja la $k$ que falta.
 
@@ -234,11 +234,11 @@ En un ciclo $\Delta U = 0$, así que $W_{neto} = Q_{neto}$.
 
 Teoría completa: [calorimetría](../1%20-%20Termodin%C3%A1mica/teoria.md#2-calorimetría), [dilatación](../1%20-%20Termodin%C3%A1mica/teoria.md#3-dilatación-térmica).
 
-$$Q = mc\,\Delta T \qquad Q = mL\ (\text{cambio de fase}) \qquad \sum Q_i = 0\ (\text{recipiente adiabático})$$
+$$Q = mc\ \Delta T \qquad Q = mL\ (\text{cambio de fase}) \qquad \sum Q_i = 0\ (\text{recipiente adiabático})$$
 
 $$\Delta L = \alpha L_0\Delta T \qquad \Delta V = \beta V_0\Delta T \qquad \beta = 3\alpha$$
 
-Con Joule, la energía eléctrica entra como calor: $I^2Rt = mc\,\Delta T$, con $c_{agua} = 1$ cal/(g °C) = 4,18 J/(g °C).
+Con Joule, la energía eléctrica entra como calor: $I^2Rt = mc\ \Delta T$, con $c_{agua} = 1$ cal/(g °C) = 4,18 J/(g °C).
 
 ---
 

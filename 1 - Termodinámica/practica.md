@@ -35,31 +35,31 @@ d) realice la curva de calor (T=f(Q)) de todo el sistema (c<sub>AGUA, LIQ</sub> 
 
 **Datos.** $\pi = 20\ \text{g}$, $m_a = 100\ \text{g}$ (agua), $m_X = 50\ \text{g}$, $T_a = 20\ ^\circ\text{C}$ (agua y calorímetro), $T_X = 90\ ^\circ\text{C}$, $T_f = 24\ ^\circ\text{C}$.
 
-**Paso 1 — Planteo (ítem a).** El calorímetro se comporta como $\pi$ gramos de agua, así que su calor es $Q_{cal} = \pi\,c_a\,(T_f - T_a)$. En el balance intervienen el calorímetro, el agua y la sustancia X:
+**Paso 1 — Planteo (ítem a).** El calorímetro se comporta como $\pi$ gramos de agua, así que su calor es $Q_{cal} = \pi\ c_a\ (T_f - T_a)$. En el balance intervienen el calorímetro, el agua y la sustancia X:
 
 $$Q_{cal} + Q_{agua} + Q_X = 0$$
 
-$$\pi\,c_a\,(T_f - T_a) + m_a\,c_a\,(T_f - T_a) + m_X\,c_X\,(T_f - T_X) = 0$$
+$$\pi\ c_a\ (T_f - T_a) + m_a\ c_a\ (T_f - T_a) + m_X\ c_X\ (T_f - T_X) = 0$$
 
 **Paso 2 — Despeje de $c_X$.** Se pasa el término de X al otro lado:
 
-$$c_X = \frac{(\pi + m_a)\,c_a\,(T_f - T_a)}{m_X\,(T_X - T_f)}$$
+$$c_X = \frac{(\pi + m_a)\ c_a\ (T_f - T_a)}{m_X\ (T_X - T_f)}$$
 
 **Paso 3 — Cálculo.**
 
-$$c_X = \frac{(20 + 100)\,\text{g}\cdot 1\,\tfrac{\text{cal}}{\text{g}\,^\circ\text{C}}\cdot 4\ ^\circ\text{C}}{50\ \text{g}\cdot 66\ ^\circ\text{C}} = \frac{480}{3300}\ \frac{\text{cal}}{\text{g}\,^\circ\text{C}} = 0{,}145\ \frac{\text{cal}}{\text{g}\,^\circ\text{C}}$$
+$$c_X = \frac{(20 + 100)\ \text{g}\cdot 1\ \tfrac{\text{cal}}{\text{g}\ ^\circ\text{C}}\cdot 4\ ^\circ\text{C}}{50\ \text{g}\cdot 66\ ^\circ\text{C}} = \frac{480}{3300}\ \frac{\text{cal}}{\text{g}\ ^\circ\text{C}} = 0{,}145\ \frac{\text{cal}}{\text{g}\ ^\circ\text{C}}$$
 
 **Paso 4 — Masa del calorímetro de zinc (ítem b).** El equivalente en agua es la masa de agua que absorbe el mismo calor que el calorímetro para el mismo $\Delta T$:
 
-$$m_{Zn}\,c_{Zn} = \pi\,c_a \quad\Rightarrow\quad m_{Zn} = \frac{\pi\,c_a}{c_{Zn}} = \frac{20\ \text{g}\cdot 1}{0{,}1} = 200\ \text{g}$$
+$$m_{Zn}\ c_{Zn} = \pi\ c_a \quad\Rightarrow\quad m_{Zn} = \frac{\pi\ c_a}{c_{Zn}} = \frac{20\ \text{g}\cdot 1}{0{,}1} = 200\ \text{g}$$
 
 **Paso 5 — Calorímetro de hierro (ítem c).** Para que el experimento no cambie, el calorímetro de hierro tiene que tener **el mismo equivalente en agua** (20 g):
 
-$$m_{Fe} = \frac{\pi\,c_a}{c_{Fe}} = \frac{20\ \text{g}\cdot 1}{0{,}113} = 177\ \text{g}$$
+$$m_{Fe} = \frac{\pi\ c_a}{c_{Fe}} = \frac{20\ \text{g}\cdot 1}{0{,}113} = 177\ \text{g}$$
 
 **Paso 6 — Curva de calor (ítem d).** Se calcula cuánto calor intercambia cada parte:
 
-- Calorímetro: $Q_{cal} = \pi\,c_a\,\Delta T = 20\cdot 1\cdot 4 = 80\ \text{cal}$ (pasa de 20 °C a 24 °C).
+- Calorímetro: $Q_{cal} = \pi\ c_a\ \Delta T = 20\cdot 1\cdot 4 = 80\ \text{cal}$ (pasa de 20 °C a 24 °C).
 - Agua: $Q_{agua} = 100\cdot1\cdot4 = 400\ \text{cal}$ (pasa de 20 °C a 24 °C).
 - Sustancia X: $Q_X = -(80 + 400) = -480\ \text{cal}$ (pasa de 90 °C a 24 °C).
 
@@ -92,9 +92,9 @@ El gráfico muestra la cantidad de calor que cede una sustancia al enfriarse. Se
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Qué dice el gráfico.** Al enfriarse de 450 K a 300 K ($\Delta T = -150\ \text{K}$), la sustancia cede 1650 cal. Como $Q = m\,c\,\Delta T$, el gráfico nos da el producto $m_X c_X$ (la "capacidad calorífica" de la sustancia):
+**Paso 1 — Qué dice el gráfico.** Al enfriarse de 450 K a 300 K ($\Delta T = -150\ \text{K}$), la sustancia cede 1650 cal. Como $Q = m\ c\ \Delta T$, el gráfico nos da el producto $m_X c_X$ (la "capacidad calorífica" de la sustancia):
 
-$$m_X\,c_X = \frac{Q}{\Delta T} = \frac{-1650\ \text{cal}}{-150\ \text{K}}$$
+$$m_X\ c_X = \frac{Q}{\Delta T} = \frac{-1650\ \text{cal}}{-150\ \text{K}}$$
 
 No hace falta conocer $m_X$ y $c_X$ por separado.
 
@@ -102,15 +102,15 @@ No hace falta conocer $m_X$ y $c_X$ por separado.
 
 **Paso 3 — Balance.** El recipiente se considera ideal:
 
-$$m_X\,c_X\,(T_f - T_X) + M_a\,c_a\,(T_f - T_a) = 0$$
+$$m_X\ c_X\ (T_f - T_X) + M_a\ c_a\ (T_f - T_a) = 0$$
 
 **Paso 4 — Despeje.**
 
-$$M_a = \frac{m_X\,c_X\,(T_X - T_f)}{c_a\,(T_f - T_a)}$$
+$$M_a = \frac{m_X\ c_X\ (T_X - T_f)}{c_a\ (T_f - T_a)}$$
 
 **Paso 5 — Cálculo.**
 
-$$m_X c_X = 11\ \text{cal/°C} \qquad M_a = \frac{11\ \tfrac{\text{cal}}{^\circ\text{C}}\cdot(227 - 35)\ ^\circ\text{C}}{1\ \tfrac{\text{cal}}{\text{g}\,^\circ\text{C}}\cdot(35 - 25)\ ^\circ\text{C}} = \frac{2112}{10}\ \text{g} = 211{,}2\ \text{g}$$
+$$m_X c_X = 11\ \text{cal/°C} \qquad M_a = \frac{11\ \tfrac{\text{cal}}{^\circ\text{C}}\cdot(227 - 35)\ ^\circ\text{C}}{1\ \tfrac{\text{cal}}{\text{g}\ ^\circ\text{C}}\cdot(35 - 25)\ ^\circ\text{C}} = \frac{2112}{10}\ \text{g} = 211{,}2\ \text{g}$$
 
 </details>
 
@@ -134,12 +134,12 @@ El gráfico muestra la curva de calor de una dada masa *M* de sustancia desconoc
 
 **Paso 1 — Temperatura de fusión (ítem a).** Durante un cambio de fase la temperatura no cambia, así que el cambio de fase es el **tramo horizontal**, que está a 400 K. Entonces $T_f = 400\ \text{K}$.
 
-**Paso 2 — Tramos con pendiente (ítem b).** En cada tramo sin cambio de fase vale $Q = M\,c\,\Delta T$, es decir $c = \dfrac{Q}{M\,\Delta T}$:
+**Paso 2 — Tramos con pendiente (ítem b).** En cada tramo sin cambio de fase vale $Q = M\ c\ \Delta T$, es decir $c = \dfrac{Q}{M\ \Delta T}$:
 
 - Sólido (de 200 K a 400 K): $Q_s = 400\ \text{kcal}$, $\Delta T_s = 200\ \text{K}$.
 - Líquido (de 400 K a 500 K): $Q_l = 1000 - 600 = 400\ \text{kcal}$, $\Delta T_l = 100\ \text{K}$.
 
-$$\frac{c_{sol}}{c_{liq}} = \frac{Q_s/(M\,\Delta T_s)}{Q_l/(M\,\Delta T_l)} = \frac{Q_s\,\Delta T_l}{Q_l\,\Delta T_s}$$
+$$\frac{c_{sol}}{c_{liq}} = \frac{Q_s/(M\ \Delta T_s)}{Q_l/(M\ \Delta T_l)} = \frac{Q_s\ \Delta T_l}{Q_l\ \Delta T_s}$$
 
 La masa $M$ se simplifica.
 
@@ -181,21 +181,21 @@ Un calorímetro con equivalente en agua π=30g contiene 200g de una sustancia cu
 
 **Paso 1 — Calor entregado.** Una potencia constante $P$ durante un tiempo $t$ entrega
 
-$$Q = P\,t$$
+$$Q = P\ t$$
 
 **Paso 2 — Quién absorbe ese calor.** Se calientan la sustancia y el calorímetro (que equivale a $\pi$ gramos de agua), ambos con el mismo $\Delta T$:
 
-$$P\,t = (\pi\,c_a + m\,c)\,\Delta T$$
+$$P\ t = (\pi\ c_a + m\ c)\ \Delta T$$
 
 **Paso 3 — Despeje.**
 
-$$c = \frac{1}{m}\left(\frac{P\,t}{\Delta T} - \pi\,c_a\right)$$
+$$c = \frac{1}{m}\left(\frac{P\ t}{\Delta T} - \pi\ c_a\right)$$
 
 **Paso 4 — Cálculo.** Se pasa el calor a calorías ($1\ \text{cal} = 4{,}18\ \text{J}$):
 
-$$P\,t = 20\ \text{W}\cdot180\ \text{s} = 3600\ \text{J} = \frac{3600}{4{,}18}\ \text{cal} = 861{,}2\ \text{cal}$$
+$$P\ t = 20\ \text{W}\cdot180\ \text{s} = 3600\ \text{J} = \frac{3600}{4{,}18}\ \text{cal} = 861{,}2\ \text{cal}$$
 
-$$c = \frac{1}{200\ \text{g}}\left(\frac{861{,}2\ \text{cal}}{4{,}9\ ^\circ\text{C}} - 30\ \tfrac{\text{cal}}{^\circ\text{C}}\right) = \frac{175{,}8 - 30}{200}\ \frac{\text{cal}}{\text{g}\,^\circ\text{C}} = 0{,}73\ \frac{\text{cal}}{\text{g}\,^\circ\text{C}}$$
+$$c = \frac{1}{200\ \text{g}}\left(\frac{861{,}2\ \text{cal}}{4{,}9\ ^\circ\text{C}} - 30\ \tfrac{\text{cal}}{^\circ\text{C}}\right) = \frac{175{,}8 - 30}{200}\ \frac{\text{cal}}{\text{g}\ ^\circ\text{C}} = 0{,}73\ \frac{\text{cal}}{\text{g}\ ^\circ\text{C}}$$
 
 </details>
 
@@ -219,21 +219,21 @@ En un calorímetro ideal se mezclan 2kg de agua a 80°C y 2,5 kg de un sólido a
 
 **Paso 1 — Idea clave (ítem a).** Como el calorímetro es ideal, **en todo momento** el calor que cede el agua es el que absorbe el sólido. No hace falta llegar al equilibrio: se puede plantear el balance en el instante en que el agua está a 60 °C y el sólido a 30 °C.
 
-$$m_a\,c_a\,(60 - 80) + m_s\,c_s\,(30 - (-10)) = 0$$
+$$m_a\ c_a\ (60 - 80) + m_s\ c_s\ (30 - (-10)) = 0$$
 
 **Paso 2 — Despeje de $c_s$.**
 
-$$c_s = \frac{m_a\,c_a\,(80 - 60)}{m_s\,(30 + 10)}$$
+$$c_s = \frac{m_a\ c_a\ (80 - 60)}{m_s\ (30 + 10)}$$
 
 **Paso 3 — Cálculo.**
 
-$$c_s = \frac{2000\cdot 1\cdot 20}{2500\cdot 40}\ \frac{\text{cal}}{\text{g}\,^\circ\text{C}} = \frac{40000}{100000} = 0{,}4\ \frac{\text{cal}}{\text{g}\,^\circ\text{C}}$$
+$$c_s = \frac{2000\cdot 1\cdot 20}{2500\cdot 40}\ \frac{\text{cal}}{\text{g}\ ^\circ\text{C}} = \frac{40000}{100000} = 0{,}4\ \frac{\text{cal}}{\text{g}\ ^\circ\text{C}}$$
 
 **Paso 4 — Temperatura de equilibrio (ítem b).** Ahora se plantea el balance entre los estados iniciales y la temperatura final común $T_e$:
 
-$$m_a\,c_a\,(T_e - 80) + m_s\,c_s\,(T_e + 10) = 0$$
+$$m_a\ c_a\ (T_e - 80) + m_s\ c_s\ (T_e + 10) = 0$$
 
-$$T_e = \frac{m_a\,c_a\cdot 80 - m_s\,c_s\cdot 10}{m_a\,c_a + m_s\,c_s}$$
+$$T_e = \frac{m_a\ c_a\cdot 80 - m_s\ c_s\cdot 10}{m_a\ c_a + m_s\ c_s}$$
 
 **Paso 5 — Cálculo.** $m_a c_a = 2000\ \text{cal/°C}$ y $m_s c_s = 1000\ \text{cal/°C}$:
 
@@ -261,23 +261,23 @@ En problemas con hielo **no se sabe de antemano** si se funde todo, una parte o 
 
 **Paso 1 — Calor máximo que puede ceder el agua sin congelarse** (de 20 °C a 0 °C):
 
-$$Q_{agua} = m_a\,c_a\,(0 - 20) = 250\cdot1\cdot(-20) = -5000\ \text{cal}$$
+$$Q_{agua} = m_a\ c_a\ (0 - 20) = 250\cdot1\cdot(-20) = -5000\ \text{cal}$$
 
 Es decir, el agua puede entregar hasta 5000 cal.
 
 **Paso 2 — Calor necesario para llevar el hielo a 0 °C:**
 
-$$Q_1 = m_h\,c_h\,(0 - (-10)) = 100\cdot0{,}5\cdot10 = 500\ \text{cal}$$
+$$Q_1 = m_h\ c_h\ (0 - (-10)) = 100\cdot0{,}5\cdot10 = 500\ \text{cal}$$
 
 **Paso 3 — Calor necesario para fundir todo el hielo:**
 
-$$Q_2 = m_h\,L_f = 100\cdot80 = 8000\ \text{cal}$$
+$$Q_2 = m_h\ L_f = 100\cdot80 = 8000\ \text{cal}$$
 
 **Paso 4 — Comparación.** Para calentar el hielo y fundirlo todo harían falta $500 + 8000 = 8500\ \text{cal}$, pero el agua solo puede dar 5000 cal. Además, $5000 > 500$, así que el hielo **sí llega a 0 °C**. Conclusión: se funde **una parte** del hielo y el equilibrio queda a **0 °C**.
 
 **Paso 5 — Masa de hielo que se funde.** Se plantea el balance con $T_f = 0\ ^\circ\text{C}$ y una masa fundida $m_f$ desconocida:
 
-$$m_a\,c_a\,(0 - 20) + m_h\,c_h\,(0 + 10) + m_f\,L_f = 0 \quad\Rightarrow\quad m_f = \frac{m_a\,c_a\cdot20 - m_h\,c_h\cdot10}{L_f}$$
+$$m_a\ c_a\ (0 - 20) + m_h\ c_h\ (0 + 10) + m_f\ L_f = 0 \quad\Rightarrow\quad m_f = \frac{m_a\ c_a\cdot20 - m_h\ c_h\cdot10}{L_f}$$
 
 **Paso 6 — Cálculo.**
 
@@ -318,7 +318,7 @@ c) estime una cota mínima para el tiempo que lleva alcanzar el equilibrio sabie
 
 **Paso 2 — Balance en B.**
 
-$$m_{Fe}\,c_{Fe}\,(T_B - 200) + m_h\,c_h\,(T_B + 3) = 0 \quad\Rightarrow\quad T_B = \frac{m_{Fe}c_{Fe}\cdot200 - m_hc_h\cdot3}{m_{Fe}c_{Fe} + m_hc_h}$$
+$$m_{Fe}\ c_{Fe}\ (T_B - 200) + m_h\ c_h\ (T_B + 3) = 0 \quad\Rightarrow\quad T_B = \frac{m_{Fe}c_{Fe}\cdot200 - m_hc_h\cdot3}{m_{Fe}c_{Fe} + m_hc_h}$$
 
 **Paso 3 — Cálculo.** $m_{Fe}c_{Fe} = 1{,}13\ \text{cal/°C}$ y $m_hc_h = 150\ \text{cal/°C}$:
 
@@ -326,7 +326,7 @@ $$T_B = \frac{1{,}13\cdot200 - 150\cdot3}{1{,}13 + 150}\ ^\circ\text{C} = \frac{
 
 **Paso 4 — Ítem b: equilibrio del sistema completo.** Ahora el agua de A (400 g a 90 °C) entrega calor al recipiente B. El agua de A puede dar hasta $400\cdot90 = 36000\ \text{cal}$ al bajar a 0 °C, mientras que fundir todo el hielo cuesta apenas $\approx 222 + 24000\ \text{cal}$. Entonces **se funde todo el hielo** y el equilibrio queda por encima de 0 °C. Se plantea el balance desde los estados iniciales:
 
-$$\underbrace{m_A c_a (T - 90)}_{\text{agua A}} + \underbrace{m_{Fe}c_{Fe}(T - 200)}_{\text{hierro}} + \underbrace{m_hc_h(0 + 3)}_{\text{hielo a }0\,^\circ\text{C}} + \underbrace{m_hL_f}_{\text{fusión}} + \underbrace{m_hc_a(T - 0)}_{\text{agua de deshielo}} = 0$$
+$$\underbrace{m_A c_a (T - 90)}_{\text{agua A}} + \underbrace{m_{Fe}c_{Fe}(T - 200)}_{\text{hierro}} + \underbrace{m_hc_h(0 + 3)}_{\text{hielo a }0\ ^\circ\text{C}} + \underbrace{m_hL_f}_{\text{fusión}} + \underbrace{m_hc_a(T - 0)}_{\text{agua de deshielo}} = 0$$
 
 **Paso 5 — Despeje.**
 
@@ -338,11 +338,11 @@ $$T = \frac{36000 + 226 - 450 - 24000}{400 + 1{,}13 + 300}\ ^\circ\text{C} = \fr
 
 **Paso 7 — Ítem c: cota mínima del tiempo.** El calor que tiene que pasar por la varilla es, aproximadamente, el que entrega el agua de A al bajar de 90 °C a ~17 °C:
 
-$$\delta Q = m_Ac_a\,(90 - 17) $$
+$$\delta Q = m_Ac_a\ (90 - 17) $$
 
-Por la varilla pasa una corriente térmica $I = \lambda_{Cu}\,\dfrac{S}{L}\,\Delta T$. La mayor diferencia de temperatura posible es la inicial: $\Delta T \approx 90 - (-2) \approx 92\ ^\circ\text{C}$. Con esa $\Delta T$ máxima, la corriente es la máxima y el tiempo resulta **mínimo**. En realidad $\Delta T$ va disminuyendo, así que el tiempo real es mayor: por eso es una **cota mínima**.
+Por la varilla pasa una corriente térmica $I = \lambda_{Cu}\ \dfrac{S}{L}\ \Delta T$. La mayor diferencia de temperatura posible es la inicial: $\Delta T \approx 90 - (-2) \approx 92\ ^\circ\text{C}$. Con esa $\Delta T$ máxima, la corriente es la máxima y el tiempo resulta **mínimo**. En realidad $\Delta T$ va disminuyendo, así que el tiempo real es mayor: por eso es una **cota mínima**.
 
-$$t_{min} = \frac{\delta Q}{I_{max}} = \frac{m_Ac_a\,(90 - 17)\,L}{\lambda_{Cu}\,S\,\Delta T_{max}}$$
+$$t_{min} = \frac{\delta Q}{I_{max}} = \frac{m_Ac_a\ (90 - 17)\ L}{\lambda_{Cu}\ S\ \Delta T_{max}}$$
 
 **Paso 8 — Cálculo.**
 
@@ -378,13 +378,13 @@ c) el valor de la resistencia térmica de la capa de poliestireno expandido;
 
 **Paso 1 — Resistencia térmica (ítem c).** Conviene calcularla primero:
 
-$$R_T = \frac{e}{\lambda\,A} = \frac{0{,}03\ \text{m}}{0{,}01\ \tfrac{\text{W}}{\text{m}\,^\circ\text{C}}\cdot4\ \text{m}^2} = 0{,}75\ \frac{^\circ\text{C}}{\text{W}}$$
+$$R_T = \frac{e}{\lambda\ A} = \frac{0{,}03\ \text{m}}{0{,}01\ \tfrac{\text{W}}{\text{m}\ ^\circ\text{C}}\cdot4\ \text{m}^2} = 0{,}75\ \frac{^\circ\text{C}}{\text{W}}$$
 
 **Paso 2 — Potencia calorífica (ítem a).** Con la "ley de Ohm térmica":
 
 $$\phi_Q = \frac{\Delta T}{R_T} = \frac{20\ ^\circ\text{C}}{0{,}75\ ^\circ\text{C/W}} = 26{,}7\ \text{W}$$
 
-**Paso 3 — Calor en un día (ítem b).** La potencia es constante, así que $Q = \phi_Q\,t$, con $t = 24\cdot3600\ \text{s} = 86400\ \text{s}$:
+**Paso 3 — Calor en un día (ítem b).** La potencia es constante, así que $Q = \phi_Q\ t$, con $t = 24\cdot3600\ \text{s} = 86400\ \text{s}$:
 
 $$Q = 26{,}67\ \text{W}\cdot86400\ \text{s} = 2{,}3\times10^6\ \text{J} = \frac{2{,}3\times10^6}{4{,}18}\ \text{cal} \approx 552\ \text{kcal}$$
 
@@ -410,9 +410,9 @@ Suponga ahora que el recinto del ejercicio anterior no es un foco calorífico si
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Calor que necesita el aire.** La masa de aire es $m = \delta\,\mathcal V$, así que
+**Paso 1 — Calor que necesita el aire.** La masa de aire es $m = \delta\ \mathcal V$, así que
 
-$$Q = \delta\,\mathcal V\,c\,\Delta T_{aire} \qquad (\Delta T_{aire} = 7 - 5 = 2\ ^\circ\text{C})$$
+$$Q = \delta\ \mathcal V\ c\ \Delta T_{aire} \qquad (\Delta T_{aire} = 7 - 5 = 2\ ^\circ\text{C})$$
 
 **Paso 2 — Potencia que entra por las paredes.** La diferencia de temperatura entre afuera y adentro va cambiando: al principio es $20 - 5 = 15\ ^\circ\text{C}$ y al final $20 - 7 = 13\ ^\circ\text{C}$. Como estimación se usa el **promedio**, $\langle\Delta T\rangle = 14\ ^\circ\text{C}$. Con la resistencia del ejercicio 8 ($R_T = 0{,}75\ \text{K/W}$):
 
@@ -420,7 +420,7 @@ $$\phi \approx \frac{\langle\Delta T\rangle}{R_T}$$
 
 **Paso 3 — Tiempo.**
 
-$$\Delta t = \frac{Q}{\phi} = \frac{\delta\,\mathcal V\,c\,\Delta T_{aire}\;R_T}{\langle\Delta T\rangle}$$
+$$\Delta t = \frac{Q}{\phi} = \frac{\delta\ \mathcal V\ c\ \Delta T_{aire}\ R_T}{\langle\Delta T\rangle}$$
 
 **Paso 4 — Cálculo.** $\mathcal V = 450\ \ell = 0{,}45\ \text{m}^3$:
 
@@ -448,11 +448,11 @@ Dos varillas de igual longitud e idéntica sección, dispuestas en serie, se con
 
 **Paso 1 — Misma corriente.** Las varillas están en **serie**, así que por las dos pasa la **misma** corriente térmica:
 
-$$I = \lambda_{Cu}\,\frac{S}{L}\,(T_C - T_U) = \lambda_{Ag}\,\frac{S}{L}\,(T_U - T_F)$$
+$$I = \lambda_{Cu}\ \frac{S}{L}\ (T_C - T_U) = \lambda_{Ag}\ \frac{S}{L}\ (T_U - T_F)$$
 
 **Paso 2 — Simplificación.** $S$ y $L$ son iguales para ambas, así que se cancelan:
 
-$$\lambda_{Cu}\,(T_C - T_U) = \lambda_{Ag}\,(T_U - T_F)$$
+$$\lambda_{Cu}\ (T_C - T_U) = \lambda_{Ag}\ (T_U - T_F)$$
 
 **Paso 3 — Comparación.** Como $\lambda_{Cu} < \lambda_{Ag}$, para que los productos sean iguales el otro factor del cobre tiene que ser **mayor**:
 
@@ -490,7 +490,7 @@ b) la longitud *L<sub>2</sub>* de la barra de acero.
 
 **Paso 1 — Corriente por el cobre (ítem a).** En el cobre se conocen las dos temperaturas de los extremos (100 °C y 60 °C):
 
-$$\phi_Q = \lambda_{Cu}\,\frac{S}{L_1}\,(100 - T_U)$$
+$$\phi_Q = \lambda_{Cu}\ \frac{S}{L_1}\ (100 - T_U)$$
 
 **Paso 2 — Cálculo.**
 
@@ -498,7 +498,7 @@ $$\phi_Q = 0{,}92\ \tfrac{\text{cal}}{\text{s cm °C}}\cdot\frac{0{,}5\ \text{cm
 
 **Paso 3 — Longitud del acero (ítem b).** Por estar en serie, por el acero pasa **la misma** corriente:
 
-$$\phi_Q = \lambda_{ac}\,\frac{S}{L_2}\,(T_U - 0) \quad\Rightarrow\quad L_2 = \frac{\lambda_{ac}\,S\,T_U}{\phi_Q}$$
+$$\phi_Q = \lambda_{ac}\ \frac{S}{L_2}\ (T_U - 0) \quad\Rightarrow\quad L_2 = \frac{\lambda_{ac}\ S\ T_U}{\phi_Q}$$
 
 **Paso 4 — Cálculo.**
 
@@ -532,11 +532,11 @@ c) escriba la expresión de la resistencia térmica equivalente con las tres var
 
 **Paso 2 — Ítem a.** Agregar una rama en paralelo **disminuye** la resistencia equivalente. Con la misma $\Delta T$, la potencia total $\phi = \Delta T / R_{eq}$ **aumenta**. Dicho de otra forma: a la corriente de la serie se le suma la de la nueva varilla.
 
-**Paso 3 — Ítem b.** La serie Cu-acero sigue conectada a las mismas fuentes (100 °C y 0 °C), así que su corriente $\phi_{serie} = \Delta T/(R_{Cu} + R_{ac})$ **no cambia**. Entonces tampoco cambia la caída en el cobre, $100 - T_U = R_{Cu}\,\phi_{serie}$, y $T_U$ sigue valiendo 60 °C.
+**Paso 3 — Ítem b.** La serie Cu-acero sigue conectada a las mismas fuentes (100 °C y 0 °C), así que su corriente $\phi_{serie} = \Delta T/(R_{Cu} + R_{ac})$ **no cambia**. Entonces tampoco cambia la caída en el cobre, $100 - T_U = R_{Cu}\ \phi_{serie}$, y $T_U$ sigue valiendo 60 °C.
 
 **Paso 4 — Ítem c.** Paralelo entre $(R_{Cu} + R_{ac})$ y $R_3$:
 
-$$\frac{1}{R_{eq}} = \frac{1}{R_{Cu} + R_{ac}} + \frac{1}{R_3} \quad\Rightarrow\quad R_{eq} = \frac{(R_{Cu} + R_{ac})\,R_3}{R_{Cu} + R_{ac} + R_3}$$
+$$\frac{1}{R_{eq}} = \frac{1}{R_{Cu} + R_{ac}} + \frac{1}{R_3} \quad\Rightarrow\quad R_{eq} = \frac{(R_{Cu} + R_{ac})\ R_3}{R_{Cu} + R_{ac} + R_3}$$
 
 </details>
 
@@ -544,7 +544,7 @@ $$\frac{1}{R_{eq}} = \frac{1}{R_{Cu} + R_{ac}} + \frac{1}{R_3} \quad\Rightarrow\
 
 - a) Sí, aumenta, porque disminuye la resistencia térmica equivalente.
 - b) No, porque la potencia calorífica a través de la serie no cambia.
-- c) $R_{eq} = \dfrac{(R_{Cu} + R_{ac})\,R_3}{R_{Cu} + R_{ac} + R_3}$
+- c) $R_{eq} = \dfrac{(R_{Cu} + R_{ac})\ R_3}{R_{Cu} + R_{ac} + R_3}$
 
 </details>
 
@@ -566,7 +566,7 @@ c) suponga que desea mantenerse la habitación a 20°C cuando en el exterior la 
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Fórmula de cada resistencia.** Cada elemento es una placa plana, así que $R = \dfrac{e}{\lambda\,A}$.
+**Paso 1 — Fórmula de cada resistencia.** Cada elemento es una placa plana, así que $R = \dfrac{e}{\lambda\ A}$.
 
 **Paso 2 — Cálculo (ítem a).**
 
@@ -599,7 +599,7 @@ Se ve que casi todo el calor se va por la **ventana**, que tiene la menor resist
 **Respuesta:**
 
 - a) $R_L = 7{,}12\times10^{-3}\ \text{K/W}$; $R_R = 7{,}7\times10^{-4}\ \text{K/W}$ (la guía: $1{,}25\times10^{-2}$); $R_M = 0{,}26\ \text{K/W}$; $R_V = 2{,}31\times10^{-3}\ \text{K/W}$
-- b) $R_{eq} = [(R_L \text{ s } R_R) \,/\!/\, R_M] \,/\!/\, R_V \approx 2\times10^{-3}\ \text{K/W}$ (con el $R_R$ corregido, $1{,}8\times10^{-3}$)
+- b) $R_{eq} = [(R_L \text{ s } R_R) \ //\  R_M] \ //\  R_V \approx 2\times10^{-3}\ \text{K/W}$ (con el $R_R$ corregido, $1{,}8\times10^{-3}$)
 - c) Alrededor de 2000 cal/s.
 
 </details>
@@ -618,15 +618,15 @@ Con el objeto de aprovechar mejor la energía, se desea reducir al 40% la potenc
 
 **Paso 1 — Relación entre potencia y resistencia.** Con la misma $\Delta T$ (interior y exterior no cambian), $\phi = \Delta T/R$. Para que la potencia baje al 40 %, la resistencia total tiene que **aumentar** en el factor $1/0{,}4 = 2{,}5$:
 
-$$\phi' = 0{,}4\,\phi \quad\Rightarrow\quad R' = \frac{R_P}{0{,}4} = 2{,}5\,R_P$$
+$$\phi' = 0{,}4\ \phi \quad\Rightarrow\quad R' = \frac{R_P}{0{,}4} = 2{,}5\ R_P$$
 
 **Paso 2 — El corcho se agrega en serie.** $R' = R_P + R_C$, así que
 
-$$R_C = R' - R_P = 1{,}5\,R_P$$
+$$R_C = R' - R_P = 1{,}5\ R_P$$
 
 **Paso 3 — Despeje del espesor.** Ambas capas tienen la misma área $A$:
 
-$$\frac{e_c}{\lambda_C\,A} = 1{,}5\,\frac{e_P}{\lambda_P\,A} \quad\Rightarrow\quad e_c = 1{,}5\,e_P\,\frac{\lambda_C}{\lambda_P}$$
+$$\frac{e_c}{\lambda_C\ A} = 1{,}5\ \frac{e_P}{\lambda_P\ A} \quad\Rightarrow\quad e_c = 1{,}5\ e_P\ \frac{\lambda_C}{\lambda_P}$$
 
 **Paso 4 — Cálculo.**
 
@@ -656,7 +656,7 @@ b) indique en qué cambiaría el resultado si la temperatura externa fuera de 10
 
 **Paso 1 — Resistencia de un caño.** Como el flujo es radial, la sección que atraviesa el calor crece con el radio ($A = 2\pi r L$). Integrando capas cilíndricas en serie (ver [teoría](teoria.md#conducción-radial-caño-cilíndrico)):
 
-$$R = \frac{\ln(R_{EXT}/R_{INT})}{2\pi\,\lambda\,L} \quad\Rightarrow\quad \phi_Q = \frac{2\pi\,\lambda\,L\,(T_{EXT} - T_{INT})}{\ln(R_{EXT}/R_{INT})}$$
+$$R = \frac{\ln(R_{EXT}/R_{INT})}{2\pi\ \lambda\ L} \quad\Rightarrow\quad \phi_Q = \frac{2\pi\ \lambda\ L\ (T_{EXT} - T_{INT})}{\ln(R_{EXT}/R_{INT})}$$
 
 **Paso 2 — Datos.** $R_{EXT} = 10\ \text{cm}$; el espesor es 1 cm, así que $R_{INT} = 9\ \text{cm}$. El enunciado no da la longitud, así que se calcula **por metro de caño** ($\phi_Q/L$).
 
@@ -672,7 +672,7 @@ El calor entra **desde el exterior hacia el fluido** (el exterior está más cal
 
 **Respuesta:**
 
-- a) $\phi_Q = \dfrac{2\pi\lambda L\,(T_{EXT} - T_{INT})}{\ln(R_{EXT}/R_{INT})} \approx 6\times10^4\ \text{W}$ por metro de caño, del exterior hacia el fluido.
+- a) $\phi_Q = \dfrac{2\pi\lambda L\ (T_{EXT} - T_{INT})}{\ln(R_{EXT}/R_{INT})} \approx 6\times10^4\ \text{W}$ por metro de caño, del exterior hacia el fluido.
 - b) Mismo valor, sentido opuesto (el fluido cede calor al exterior).
 
 </details>
@@ -693,13 +693,13 @@ Sobre una de las superficies límites de una plancha de acero de espesor e = 2cm
 
 **Paso 1 — Régimen estacionario.** El mismo flujo por unidad de área $\delta\phi_0$ atraviesa la plancha por conducción y después pasa al fluido por convección (en serie).
 
-**Paso 2 — Convección (superficie 2 → fluido).** Por la ley de Newton, $\delta\phi_0 = h\,(T_2 - T_\infty)$:
+**Paso 2 — Convección (superficie 2 → fluido).** Por la ley de Newton, $\delta\phi_0 = h\ (T_2 - T_\infty)$:
 
 $$T_2 = T_\infty + \frac{\delta\phi_0}{h}$$
 
-**Paso 3 — Conducción (superficie 1 → superficie 2).** Por la ley de Fourier, $\delta\phi_0 = \lambda\,\dfrac{T_1 - T_2}{e}$:
+**Paso 3 — Conducción (superficie 1 → superficie 2).** Por la ley de Fourier, $\delta\phi_0 = \lambda\ \dfrac{T_1 - T_2}{e}$:
 
-$$T_1 = T_2 + \frac{\delta\phi_0\,e}{\lambda}$$
+$$T_1 = T_2 + \frac{\delta\phi_0\ e}{\lambda}$$
 
 **Paso 4 — Cálculo.**
 
@@ -727,11 +727,11 @@ Calcule el espesor e<sub>P</sub> de la plancha de fibra de vidrio (conductividad
 
 **Paso 2 — Igualación de flujos.**
 
-$$\lambda\,\frac{T_{cal} - T_s}{e_P} = h\,(T_s - T_\infty)$$
+$$\lambda\ \frac{T_{cal} - T_s}{e_P} = h\ (T_s - T_\infty)$$
 
 **Paso 3 — Despeje.**
 
-$$e_P = \frac{\lambda\,(T_{cal} - T_s)}{h\,(T_s - T_\infty)}$$
+$$e_P = \frac{\lambda\ (T_{cal} - T_s)}{h\ (T_s - T_\infty)}$$
 
 **Paso 4 — Cálculo.**
 
@@ -759,13 +759,13 @@ Un cubo de 0,5m de lado se halla en un recinto a 10°C. Una resistencia eléctri
 
 **Paso 2 — Radiación neta.** El cubo emite según su temperatura y absorbe según la del recinto. La potencia neta es
 
-$$P_{RAD} = \varepsilon\,\sigma\,A\,(T_c^4 - T_r^4)$$
+$$P_{RAD} = \varepsilon\ \sigma\ A\ (T_c^4 - T_r^4)$$
 
 con temperaturas **absolutas**: $T_c = 34 + 273{,}15 = 307{,}15\ \text{K}$ y $T_r = 10 + 273{,}15 = 283{,}15\ \text{K}$.
 
 **Paso 3 — Convección.** Por la ley de Newton:
 
-$$P_{CONV} = h\,A\,(T_c - T_r)$$
+$$P_{CONV} = h\ A\ (T_c - T_r)$$
 
 (acá alcanza con la diferencia, que vale lo mismo en °C o en K).
 
@@ -799,17 +799,17 @@ b) calcule la cantidad de energía que por segundo incide sobre cada metro cuadr
 
 **Paso 1 — Luminosidad (ítem a).** Es un cuerpo negro ($\varepsilon = 1$) con superficie esférica $4\pi R_\odot^2$:
 
-$$L_\odot = 4\pi R_\odot^2\,\sigma\,T_{eff}^4$$
+$$L_\odot = 4\pi R_\odot^2\ \sigma\ T_{eff}^4$$
 
 **Paso 2 — Constante solar (ítem b).** Toda esa potencia se reparte uniformemente sobre una esfera de radio $R_{TS}$:
 
-$$S = \frac{L_\odot}{4\pi R_{TS}^2} = \sigma\,T_{eff}^4\left(\frac{R_\odot}{R_{TS}}\right)^2$$
+$$S = \frac{L_\odot}{4\pi R_{TS}^2} = \sigma\ T_{eff}^4\left(\frac{R_\odot}{R_{TS}}\right)^2$$
 
 **Paso 3 — Cálculo.** $R_\odot = 7\times10^8\ \text{m}$:
 
-$$L_\odot = 4\pi\,(7\times10^8)^2\cdot5{,}67\times10^{-8}\cdot5770^4\ \text{W} = 6{,}16\times10^{18}\cdot6{,}28\times10^{7}\ \text{W} \approx 3{,}87\times10^{26}\ \text{W}$$
+$$L_\odot = 4\pi\ (7\times10^8)^2\cdot5{,}67\times10^{-8}\cdot5770^4\ \text{W} = 6{,}16\times10^{18}\cdot6{,}28\times10^{7}\ \text{W} \approx 3{,}87\times10^{26}\ \text{W}$$
 
-$$S = \frac{3{,}87\times10^{26}}{4\pi\,(1{,}496\times10^{11})^2}\ \frac{\text{W}}{\text{m}^2} \approx 1376\ \frac{\text{W}}{\text{m}^2}$$
+$$S = \frac{3{,}87\times10^{26}}{4\pi\ (1{,}496\times10^{11})^2}\ \frac{\text{W}}{\text{m}^2} \approx 1376\ \frac{\text{W}}{\text{m}^2}$$
 
 > La guía da $3{,}826\times10^{26}\ \text{W}$ y $1360\ \text{W/m}^2$. Esos valores salen de usar el radio real del Sol, $6{,}96\times10^8\ \text{m}$, en lugar de los 700.000 km del enunciado. La diferencia es solo de redondeo.
 
@@ -853,7 +853,7 @@ d) transforme el gráfico a los planos *PT* y *VT.*
 
 **Paso 2 — $V_B$ (ítem b).** Como A y C están sobre la misma isoterma, $P_A V_A = P_C V_C$. Con $P_C = P_D$ y $V_C = V_B$:
 
-$$V_B = V_C = \frac{P_A\,V_A}{P_D}$$
+$$V_B = V_C = \frac{P_A\ V_A}{P_D}$$
 
 **Paso 3 — Temperaturas (ítem a).** Por la ecuación de estado $T = \dfrac{PV}{nR}$:
 
@@ -913,19 +913,19 @@ Datos del gráfico: $V_A = V_D = 75\ \ell$, $T_A = 600\ \text{K}$, $T_B = T_D = 
 
 **Paso 2 — Completar los estados.**
 
-- A→B isobárica: $V_B = V_A\,\dfrac{T_B}{T_A} = 75\cdot\dfrac{900}{600} = 112{,}5\ \ell$.
-- D→A isocórica: $P_D = P_A\,\dfrac{T_D}{T_A} = 200\cdot\dfrac{900}{600} = 300\ \text{kPa}$.
-- C→D isobárica a 300 kPa y B→C isocórica: $T_C = T_D\,\dfrac{V_C}{V_D} = 900\cdot\dfrac{112{,}5}{75} = 1350\ \text{K}$.
+- A→B isobárica: $V_B = V_A\ \dfrac{T_B}{T_A} = 75\cdot\dfrac{900}{600} = 112{,}5\ \ell$.
+- D→A isocórica: $P_D = P_A\ \dfrac{T_D}{T_A} = 200\cdot\dfrac{900}{600} = 300\ \text{kPa}$.
+- C→D isobárica a 300 kPa y B→C isocórica: $T_C = T_D\ \dfrac{V_C}{V_D} = 900\cdot\dfrac{112{,}5}{75} = 1350\ \text{K}$.
 
 **Paso 3 — Ítem a.** En el plano $PV$: A(75 ℓ; 200 kPa) → B(112,5; 200) a la derecha → C(112,5; 300) arriba → D(75; 300) a la izquierda → A abajo. Es un recorrido **antihorario**, así que $W_{ciclo} < 0$: el sistema **recibe** trabajo.
 
 **Paso 4 — Ítem b: calor en BCD.** B→C es isocórica y C→D es isobárica:
 
-$$Q_{BCD} = Q_{BC} + Q_{CD} = n\,c_V\,(T_C - T_B) + n\,c_P\,(T_D - T_C)$$
+$$Q_{BCD} = Q_{BC} + Q_{CD} = n\ c_V\ (T_C - T_B) + n\ c_P\ (T_D - T_C)$$
 
 Como $T_D = T_B$, se puede escribir $T_D - T_C = -(T_C - T_B)$:
 
-$$Q_{BCD} = n\,(T_C - T_B)\,(c_V - c_P) = -n\,R\,(T_C - T_B)$$
+$$Q_{BCD} = n\ (T_C - T_B)\ (c_V - c_P) = -n\ R\ (T_C - T_B)$$
 
 **Paso 5 — Cálculo.** No hace falta $n$ por separado: $nR = \dfrac{P_AV_A}{T_A} = \dfrac{200\ \text{kPa}\cdot75\ \ell}{600\ \text{K}} = 25\ \text{J/K}$ (recordar que kPa·ℓ = J).
 
@@ -1036,9 +1036,9 @@ $$W_{ACBA} = -\left[3030\cdot0{,}6931 - 101\cdot15\right]\ \text{J} = -\left[210
 
 **Paso 6 — Ítem d: calor en CBA.** C→B es la isoterma recorrida al revés (compresión) y B→A es isocórica:
 
-$$Q_{CB} = W_{CB} = -P_BV_B\ln\frac{V_C}{V_B} \qquad Q_{BA} = n\,c_V\,(T_A - T_B) = \tfrac32\,(P_AV_A - P_BV_B)$$
+$$Q_{CB} = W_{CB} = -P_BV_B\ln\frac{V_C}{V_B} \qquad Q_{BA} = n\ c_V\ (T_A - T_B) = \tfrac32\ (P_AV_A - P_BV_B)$$
 
-$$Q_{CBA} = -P_BV_B\ln2 + \tfrac32\,(P_AV_A - P_BV_B)$$
+$$Q_{CBA} = -P_BV_B\ln2 + \tfrac32\ (P_AV_A - P_BV_B)$$
 
 **Paso 7 — Cálculo.**
 
@@ -1085,10 +1085,10 @@ b) el calor intercambiado en el ciclo ABDA.
 $$Q_{ABC} = \Delta U_{AC} + W_{AB} + W_{BC}$$
 
 - A→B es isocórica: $W_{AB} = 0$.
-- B→C es isobárica: $W_{BC} = P_B\,(V_C - V_B)$.
+- B→C es isobárica: $W_{BC} = P_B\ (V_C - V_B)$.
 - $\Delta U_{AC} = U_C - U_A = 1875\ \text{J}$ (positiva, porque C está más caliente).
 
-$$Q_{ABC} = \Delta U_{AC} + P_B\,(V_C - V_B)$$
+$$Q_{ABC} = \Delta U_{AC} + P_B\ (V_C - V_B)$$
 
 **Paso 3 — Cálculo.**
 
@@ -1097,10 +1097,10 @@ $$Q_{ABC} = 1875\ \text{J} + 150\ \text{kPa}\cdot10\ \ell = 1875\ \text{J} + 150
 **Paso 4 — Ítem b.** En un ciclo, $\Delta U = 0$, así que $Q_{ciclo} = W_{ciclo}$. Se calcula el trabajo de cada tramo:
 
 - A→B: isocórica, $W = 0$.
-- B→D: recta de (5; 150) a (15; 200). El área bajo una recta es la de un trapecio: $W_{BD} = \dfrac{P_B + P_D}{2}\,(V_D - V_B)$.
-- D→A: isobárica a 200 kPa, compresión: $W_{DA} = P_A\,(V_A - V_D)$.
+- B→D: recta de (5; 150) a (15; 200). El área bajo una recta es la de un trapecio: $W_{BD} = \dfrac{P_B + P_D}{2}\ (V_D - V_B)$.
+- D→A: isobárica a 200 kPa, compresión: $W_{DA} = P_A\ (V_A - V_D)$.
 
-$$Q_{ABDA} = \frac{P_B + P_D}{2}\,(V_D - V_B) - P_A\,(V_D - V_A)$$
+$$Q_{ABDA} = \frac{P_B + P_D}{2}\ (V_D - V_B) - P_A\ (V_D - V_A)$$
 
 **Paso 5 — Cálculo.**
 
@@ -1173,15 +1173,15 @@ b) indique cuáles son las tres aseveraciones correctas
 
 **Paso 1 — Estados.** A (55 ℓ; 150 kPa), B (55 ℓ; 120 kPa), C ($V_C$; 120 kPa). Falta $V_C$.
 
-**Paso 2 — Obtener $V_C$ con el dato de energía.** Para un gas ideal, $\Delta U = n\,c_V\,\Delta T = \dfrac{c_V}{R}\,\Delta(PV)$:
+**Paso 2 — Obtener $V_C$ con el dato de energía.** Para un gas ideal, $\Delta U = n\ c_V\ \Delta T = \dfrac{c_V}{R}\ \Delta(PV)$:
 
-$$U_C - U_A = 2{,}5\,(P_CV_C - P_AV_A) \quad\Rightarrow\quad V_C = \frac{\dfrac{U_C - U_A}{2{,}5} + P_AV_A}{P_C}$$
+$$U_C - U_A = 2{,}5\ (P_CV_C - P_AV_A) \quad\Rightarrow\quad V_C = \frac{\dfrac{U_C - U_A}{2{,}5} + P_AV_A}{P_C}$$
 
 $$V_C = \frac{1825 + 150\cdot55}{120}\ \ell = \frac{10075}{120}\ \ell = 83{,}96\ \ell$$
 
 **Paso 3 — Calor del ciclo (ítem a).** $Q_{ciclo} = W_{ciclo}$, que es el área del triángulo. El recorrido A→B (abajo) → C (derecha) → A (arriba a la izquierda) es **antihorario**, así que el trabajo es negativo:
 
-$$Q_{ciclo} = -\frac12\,(V_C - V_A)\,(P_A - P_B)$$
+$$Q_{ciclo} = -\frac12\ (V_C - V_A)\ (P_A - P_B)$$
 
 $$Q_{ciclo} = -\frac12\cdot28{,}96\ \ell\cdot30\ \text{kPa} = -434{,}4\ \text{J}$$
 
@@ -1241,16 +1241,16 @@ d) indique las afirmaciones verdaderas.
 
 Datos: $V_A = 50\ \ell$, $T_A = 300\ \text{K}$; $V_C = 75\ \ell$, $T_C = 500\ \text{K}$.
 
-- A→B isobárica: $T_B = T_A\,\dfrac{V_B}{V_A} = 300\cdot\dfrac{75}{50} = 450\ \text{K}$.
-- C→D isobárica: $T_D = T_C\,\dfrac{V_D}{V_C} = 500\cdot\dfrac{50}{75} = 333{,}3\ \text{K}$.
+- A→B isobárica: $T_B = T_A\ \dfrac{V_B}{V_A} = 300\cdot\dfrac{75}{50} = 450\ \text{K}$.
+- C→D isobárica: $T_D = T_C\ \dfrac{V_D}{V_C} = 500\cdot\dfrac{50}{75} = 333{,}3\ \text{K}$.
 
-**Paso 2 — Fórmulas de cada tramo.** En una isobárica, $W = P\Delta V = nR\,\Delta T$. En una isocórica, $W = 0$. Siempre $\Delta U = n c_V \Delta T = \tfrac32 nR\,\Delta T$, y $Q = \Delta U + W$ (en una isobárica, $Q = \tfrac52 nR\,\Delta T$).
+**Paso 2 — Fórmulas de cada tramo.** En una isobárica, $W = P\Delta V = nR\ \Delta T$. En una isocórica, $W = 0$. Siempre $\Delta U = n c_V \Delta T = \tfrac32 nR\ \Delta T$, y $Q = \Delta U + W$ (en una isobárica, $Q = \tfrac52 nR\ \Delta T$).
 
 **Paso 3 — Trabajos (ítem a).** $nR = 3\cdot8{,}314 = 24{,}94\ \text{J/K}$.
 
-$$W_{AB} = nR\,(T_B - T_A) = 24{,}94\cdot150\ \text{J} = 3741\ \text{J} \qquad W_{BC} = 0$$
+$$W_{AB} = nR\ (T_B - T_A) = 24{,}94\cdot150\ \text{J} = 3741\ \text{J} \qquad W_{BC} = 0$$
 
-$$W_{CD} = nR\,(T_D - T_C) = 24{,}94\cdot(-166{,}7)\ \text{J} = -4157\ \text{J} \qquad W_{DA} = 0$$
+$$W_{CD} = nR\ (T_D - T_C) = 24{,}94\cdot(-166{,}7)\ \text{J} = -4157\ \text{J} \qquad W_{DA} = 0$$
 
 $$W_{ciclo} = 3741 - 4157 = -416\ \text{J}$$
 
@@ -1324,7 +1324,7 @@ d) indique cuáles son las dos aseveraciones correctas
 **Paso 1 — Leer el diagrama V-T.**
 
 - A→B es vertical ($T = 450\ \text{K}$ constante): **isoterma**, de 15 ℓ a 12 ℓ (compresión).
-- B→C es una recta que, prolongada, pasa por el origen ($V \propto T$): **isobárica**. $T_C = T_B\,\dfrac{V_C}{V_B} = 450\cdot\dfrac{15}{12} = 562{,}5\ \text{K}$.
+- B→C es una recta que, prolongada, pasa por el origen ($V \propto T$): **isobárica**. $T_C = T_B\ \dfrac{V_C}{V_B} = 450\cdot\dfrac{15}{12} = 562{,}5\ \text{K}$.
 - C→A es horizontal (15 ℓ): **isocórica**.
 
 **Paso 2 — Ítem a.** En el plano $PV$: A (15 ℓ, $P$ baja) → B (12 ℓ, $P$ alta) sube a la izquierda; B → C (15 ℓ, misma $P$ alta) va a la derecha; C → A baja. Es un recorrido **horario**, así que $W_{ciclo} > 0$: el gas **entrega** trabajo.
@@ -1337,7 +1337,7 @@ $$Q_{AB} = 1\cdot8{,}314\cdot450\cdot\ln\frac{12}{15}\ \text{J} = 3741{,}3\cdot(
 
 **Paso 4 — Ítem c: calor en todo el ciclo.**
 
-$$Q_{ciclo} = Q_{AB} + \underbrace{n\,c_P\,(T_C - T_B)}_{Q_{BC}} + \underbrace{n\,c_V\,(T_A - T_C)}_{Q_{CA}} = Q_{AB} + nR\,(T_C - T_B)\left(\tfrac72 - \tfrac52\right)$$
+$$Q_{ciclo} = Q_{AB} + \underbrace{n\ c_P\ (T_C - T_B)}_{Q_{BC}} + \underbrace{n\ c_V\ (T_A - T_C)}_{Q_{CA}} = Q_{AB} + nR\ (T_C - T_B)\left(\tfrac72 - \tfrac52\right)$$
 
 (se usó $T_A = T_B$, así que $T_A - T_C = -(T_C - T_B)$).
 
@@ -1383,21 +1383,21 @@ b) la cantidad de calor entregada al sistema.
 
 **Paso 1 — Presión del gas.** El pistón está en equilibrio: la fuerza del gas hacia arriba equilibra la presión externa y el peso del pistón.
 
-$$P\,S = P_{EXT}\,S + M\,g \quad\Rightarrow\quad P = P_{EXT} + \frac{Mg}{S}$$
+$$P\ S = P_{EXT}\ S + M\ g \quad\Rightarrow\quad P = P_{EXT} + \frac{Mg}{S}$$
 
 Como el pistón sube lentamente, $P$ se mantiene constante: es un proceso **isobárico**.
 
-**Paso 2 — Diferencia de temperatura (ítem a).** Con $PV = nRT$ a $P$ constante: $P\,\Delta V = nR\,\Delta T$, y $\Delta V = S\,h$:
+**Paso 2 — Diferencia de temperatura (ítem a).** Con $PV = nRT$ a $P$ constante: $P\ \Delta V = nR\ \Delta T$, y $\Delta V = S\ h$:
 
-$$\Delta T = \frac{P\,S\,h}{nR} = \frac{(P_{EXT}S + Mg)\,h}{nR}$$
+$$\Delta T = \frac{P\ S\ h}{nR} = \frac{(P_{EXT}S + Mg)\ h}{nR}$$
 
 **Paso 3 — Calor (ítem b).** En una isobárica:
 
-$$Q = n\,c_P\,\Delta T = \tfrac52\,nR\,\Delta T = \tfrac52\,P\,S\,h$$
+$$Q = n\ c_P\ \Delta T = \tfrac52\ nR\ \Delta T = \tfrac52\ P\ S\ h$$
 
 **Paso 4 — Cálculo.** $P = 101000 + \dfrac{0{,}8\cdot9{,}8}{0{,}04} = 101196\ \text{Pa}$ y $\Delta V = 0{,}04\cdot0{,}05 = 0{,}002\ \text{m}^3$:
 
-$$P\,\Delta V = 101196\cdot0{,}002\ \text{J} = 202{,}4\ \text{J}$$
+$$P\ \Delta V = 101196\cdot0{,}002\ \text{J} = 202{,}4\ \text{J}$$
 
 $$\Delta T = \frac{202{,}4}{3\cdot8{,}314}\ \text{K} = 8{,}1\ \text{K} \qquad Q = 2{,}5\cdot202{,}4\ \text{J} = 506\ \text{J}$$
 
@@ -1423,19 +1423,19 @@ El recipiente de la figura es adiabático salvo en su tapa inferior, de 2cm de e
 
 **Paso 1 — Presión y trabajo.** Igual que en el ejercicio 29:
 
-$$P = P_{ATM} + \frac{m\,g}{S} \qquad W = P\,S\,h$$
+$$P = P_{ATM} + \frac{m\ g}{S} \qquad W = P\ S\ h$$
 
 **Paso 2 — Calor y variación de temperatura del gas.** Proceso isobárico:
 
-$$\Delta T_{gas} = \frac{W}{nR} \qquad Q = n\,c_P\,\Delta T_{gas} = \tfrac52\,W$$
+$$\Delta T_{gas} = \frac{W}{nR} \qquad Q = n\ c_P\ \Delta T_{gas} = \tfrac52\ W$$
 
 **Paso 3 — Ley de Fourier en la placa.** El calor entra por conducción durante $t = 30\ \text{s}$:
 
-$$\frac{Q}{t} = \lambda\,\frac{S}{e}\,\Delta T_{placa} \quad\Rightarrow\quad \lambda = \frac{Q\,e}{t\,S\,\Delta T_{placa}}$$
+$$\frac{Q}{t} = \lambda\ \frac{S}{e}\ \Delta T_{placa} \quad\Rightarrow\quad \lambda = \frac{Q\ e}{t\ S\ \Delta T_{placa}}$$
 
 El enunciado no da la temperatura del medio externo. Para llegar al resultado de la guía hay que tomar como diferencia de temperatura a través de la placa la variación de temperatura del gas: $\Delta T_{placa} = \Delta T_{gas}$. Con esa hipótesis:
 
-$$\lambda = \frac{n\,c_P\,\Delta T_{gas}\,e}{t\,S\,\Delta T_{gas}} = \frac{n\,c_P\,e}{t\,S}$$
+$$\lambda = \frac{n\ c_P\ \Delta T_{gas}\ e}{t\ S\ \Delta T_{gas}} = \frac{n\ c_P\ e}{t\ S}$$
 
 **Paso 4 — Cálculo.** Los datos intermedios ($P = 101339\ \text{Pa}$, $W = 506{,}7\ \text{J}$, $\Delta T_{gas} = 20{,}3\ \text{K}$, $Q = 1266{,}7\ \text{J}$) se simplifican:
 
@@ -1473,13 +1473,13 @@ $$\eta = 1 - \frac{T_2}{T_1} = 1 - \frac{273}{373} = 0{,}268$$
 
 **Paso 3 — Calor cedido (ítem b).** En Carnot, $\dfrac{Q_C}{Q_A} = -\dfrac{T_2}{T_1}$:
 
-$$Q_C = -Q_A\,\frac{T_2}{T_1} = -100\ \text{J}\cdot\frac{273}{373} = -73{,}2\ \text{J}$$
+$$Q_C = -Q_A\ \frac{T_2}{T_1} = -100\ \text{J}\cdot\frac{273}{373} = -73{,}2\ \text{J}$$
 
 **Paso 4 — Trabajo (ítem c).** En el ciclo, $\Delta U = 0$, así que $W = Q_A + Q_C$:
 
 $$W = 100\ \text{J} - 73{,}2\ \text{J} = 26{,}8\ \text{J}$$
 
-(o también $W = \eta\,Q_A = 0{,}268\cdot100\ \text{J}$).
+(o también $W = \eta\ Q_A = 0{,}268\cdot100\ \text{J}$).
 
 </details>
 
@@ -1501,7 +1501,7 @@ Dos máquinas térmicas cíclicas trabajan entre las mismas fuentes, la caliente
 
 **Paso 1 — Rendimiento de la máquina real.**
 
-$$\varepsilon_R = 0{,}8\,\varepsilon_{C} = 0{,}8\left(1 - \frac{T_2}{T_1}\right)$$
+$$\varepsilon_R = 0{,}8\ \varepsilon_{C} = 0{,}8\left(1 - \frac{T_2}{T_1}\right)$$
 
 **Paso 2 — Calor absorbido.** De la definición, $\varepsilon_R = \dfrac{W}{Q_A}$, así que $Q_A = \dfrac{W}{\varepsilon_R}$.
 
@@ -1563,7 +1563,7 @@ La máquina cíclica de la figura realiza el ciclo ACBA, en el que la transforma
 **Respuesta:**
 
 - La máquina recibe trabajo y es frigorífica.
-- Si BA fuera una isoterma, $Q_{CEDIDO,\,CICLO}$ sería mayor.
+- Si BA fuera una isoterma, $Q_{CEDIDO,\ CICLO}$ sería mayor.
 - $U_{CB} > 0$ y $W_{CB} > 0$.
 
 </details>
@@ -1600,7 +1600,7 @@ Este ejercicio está resuelto en el [apunte de Termodinámica](Aula%20Virtual/Te
 
 $$nR = \frac{P_AV_A}{T_A} = \frac{500\cdot2}{600}\ \frac{\text{J}}{\text{K}} = \frac53\ \frac{\text{J}}{\text{K}} \qquad \left(n = \frac{5/3}{8{,}314} = 0{,}2\ \text{mol}\right)$$
 
-**Paso 2 — Estado B** (isoterma, $V_B = 2V_A = 4\ \ell$): $T_B = 600\ \text{K}$ y $P_B = P_A\,\dfrac{V_A}{V_B} = 250\ \text{kPa}$.
+**Paso 2 — Estado B** (isoterma, $V_B = 2V_A = 4\ \ell$): $T_B = 600\ \text{K}$ y $P_B = P_A\ \dfrac{V_A}{V_B} = 250\ \text{kPa}$.
 
 **Paso 3 — Estado C** (adiabática hasta 6 ℓ, $\gamma = 5/3$): de $P_BV_B^\gamma = P_CV_C^\gamma$,
 
@@ -1608,7 +1608,7 @@ $$P_C = P_B\left(\frac{V_B}{V_C}\right)^{\gamma} = 250\left(\frac46\right)^{5/3}
 
 **Paso 4 — Estado D** (isobárica hasta $V_D = 2\ \ell$): $P_D = 127{,}19\ \text{kPa}$ y $T_D = \dfrac{P_DV_D}{nR} = 152{,}6\ \text{K}$.
 
-**Paso 5 — Tramo por tramo** (con $\Delta U = \tfrac32 nR\,\Delta T$):
+**Paso 5 — Tramo por tramo** (con $\Delta U = \tfrac32 nR\ \Delta T$):
 
 | Tramo | Tipo | $\Delta U$ [J] | $W$ [J] | $Q$ [J] |
 |---|---|---|---|---|

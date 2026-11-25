@@ -97,9 +97,9 @@ $$V_1 = \frac{48}{4} = 12\ \text{V} \qquad V_2 = \frac{48}{6} = 8\ \text{V} \qqu
 
 Con la misma carga, el capacitor más chico de una serie se queda con la mayor tensión ($V = Q/C$).
 
-**Paso 9 — Ítem d: energía.** *De dónde sale:* con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\,dq$. Sumando de 0 a $Q$:
+**Paso 9 — Ítem d: energía.** *De dónde sale:* con carga $q$, la tensión del capacitor es $q/C$, y agregar $dq$ cuesta $\frac qC\ dq$. Sumando de 0 a $Q$:
 
-$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
+$$U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$$
 
 En μF y V, la energía sale en μJ:
 
@@ -199,7 +199,7 @@ c) si se retira el capacitor *C<sub>3</sub>*, justifique si la carga almacenada 
 
 **Estructura.** $C_1$ en serie con el paralelo $C_{23} = C_2 + C_3$:
 
-$$C_{eq} = \frac{C_1\,C_{23}}{C_1 + C_{23}} = \frac{C_1}{1 + C_1/C_{23}} < C_1$$
+$$C_{eq} = \frac{C_1\ C_{23}}{C_1 + C_{23}} = \frac{C_1}{1 + C_1/C_{23}} < C_1$$
 
 **Ítem a.** En serie, $1/C_{eq} = 1/C_1 + 1/C_{23} > 1/C_1$, así que $C_{eq} < C_1$: la equivalente en serie es menor que la menor.
 
@@ -246,7 +246,7 @@ d) la capacidad de la esfera de radio *r<sub>1</sub>*.
 - Una esfera de metal de radio $r_1$ con carga $Q$, rodeada por una cáscara esférica de metal (radios $r_2$ y $r_3$), con el mismo centro. La cáscara no tiene carga propia.
 - **a)** La diferencia de potencial entre la esfera y la superficie exterior de la cáscara. **b)** El potencial de la esfera, tomando cero en el infinito. **c)** La capacidad del par esfera–cáscara. **d)** La capacidad de la esfera sola.
 
-**La idea, desde cero.** En un metal en equilibrio el campo es cero, y toda su carga se va a las superficies. La carga $Q$ de la esfera atrae carga negativa a la cara interior de la cáscara: aparece $-Q$ en $r_2$. Como la cáscara es neutra, en su cara exterior queda $+Q$. El campo se calcula con **Gauss**: el flujo del campo a través de una esfera imaginaria de radio $r$ es la carga encerrada sobre $\varepsilon_0$, lo que da $E = kQ/r^2$ donde hay carga neta encerrada y $E = 0$ dentro del metal. El **potencial** es la integral del campo: $V(a) - V(b) = \int_a^b E\,dr$ yendo hacia afuera. Y la **capacidad** es carga dividida por la diferencia de potencial entre los dos conductores, $C = Q/\Delta V$.
+**La idea, desde cero.** En un metal en equilibrio el campo es cero, y toda su carga se va a las superficies. La carga $Q$ de la esfera atrae carga negativa a la cara interior de la cáscara: aparece $-Q$ en $r_2$. Como la cáscara es neutra, en su cara exterior queda $+Q$. El campo se calcula con **Gauss**: el flujo del campo a través de una esfera imaginaria de radio $r$ es la carga encerrada sobre $\varepsilon_0$, lo que da $E = kQ/r^2$ donde hay carga neta encerrada y $E = 0$ dentro del metal. El **potencial** es la integral del campo: $V(a) - V(b) = \int_a^b E\ dr$ yendo hacia afuera. Y la **capacidad** es carga dividida por la diferencia de potencial entre los dos conductores, $C = Q/\Delta V$.
 
 **Resolución.**
 
@@ -305,13 +305,13 @@ b) la energía almacenada por el sistema *C<sub>1</sub> C<sub>2</sub>* antes de 
 - Llave en posición (2): $C_2$ queda conectado con $C_3 = 2$ μF, que estaba descargado.
 - **a)** La carga final de $C_3$. **b)** La energía guardada antes de mover la llave y después.
 
-**La idea, desde cero.** Un capacitor guarda carga: $Q = CV$. En serie, todos tienen la misma carga; en paralelo, la misma tensión. Cuando un capacitor cargado se desconecta de la pila y se conecta con otro descargado, la carga no puede aparecer ni desaparecer: **se conserva** y se reparte hasta que los dos quedan con la misma tensión. Es como dos tanques de agua que se conectan por abajo y quedan al mismo nivel. En ese reparto se pierde energía en forma de calor en los cables, aunque la carga total sea la misma. La energía de un capacitor es $U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
+**La idea, desde cero.** Un capacitor guarda carga: $Q = CV$. En serie, todos tienen la misma carga; en paralelo, la misma tensión. Cuando un capacitor cargado se desconecta de la pila y se conecta con otro descargado, la carga no puede aparecer ni desaparecer: **se conserva** y se reparte hasta que los dos quedan con la misma tensión. Es como dos tanques de agua que se conectan por abajo y quedan al mismo nivel. En ese reparto se pierde energía en forma de calor en los cables, aunque la carga total sea la misma. La energía de un capacitor es $U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \tfrac12CV^2$.
 
 **Resolución.**
 
 **Paso 1 — Posición (1).** La llave une $C_1$ con $C_2$: quedan **en serie** con la pila de 10 V.
 
-$$C_s = \frac{C_1C_2}{C_1 + C_2} \qquad Q_0 = C_s\,V \qquad U_0 = \tfrac12C_sV^2$$
+$$C_s = \frac{C_1C_2}{C_1 + C_2} \qquad Q_0 = C_s\ V \qquad U_0 = \tfrac12C_sV^2$$
 
 $$C_s = \frac{72}{18} = 4\ \mu\text{F} \qquad Q_0 = 40\ \mu\text{C} \qquad U_0 = \tfrac12\cdot4\cdot100 = 200\ \mu\text{J}$$
 
@@ -430,7 +430,7 @@ $$E_1 = E_2 = \frac Vd$$
 
 **Paso 3 — Desplazamiento (ítem b):** $D_i = \varepsilon_{Ri}\varepsilon_0E$.
 
-**Paso 4 — Carga libre (ítem a):** la densidad de carga libre en la placa es $\sigma_i = D_i$, así que $Q_{Li} = D_i\,\dfrac A2 = \dfrac{\varepsilon_{Ri}\varepsilon_0(A/2)V}{d}$.
+**Paso 4 — Carga libre (ítem a):** la densidad de carga libre en la placa es $\sigma_i = D_i$, así que $Q_{Li} = D_i\ \dfrac A2 = \dfrac{\varepsilon_{Ri}\varepsilon_0(A/2)V}{d}$.
 
 **Paso 5 — Cálculo.**
 
@@ -526,7 +526,7 @@ $$E_{1t} = E_1\cos60^\circ \qquad E_{1n} = E_1\sin60^\circ$$
 
 **Paso 2 — Condiciones de contorno** (sin carga libre en la interfaz):
 
-$$E_{2t} = E_{1t} \qquad D_{2n} = D_{1n} \;\Rightarrow\; \varepsilon_{R2}E_{2n} = \varepsilon_{R1}E_{1n} \;\Rightarrow\; E_{2n} = \frac{\varepsilon_{R1}}{\varepsilon_{R2}}E_1\sin60^\circ$$
+$$E_{2t} = E_{1t} \qquad D_{2n} = D_{1n} \ \Rightarrow\  \varepsilon_{R2}E_{2n} = \varepsilon_{R1}E_{1n} \ \Rightarrow\  E_{2n} = \frac{\varepsilon_{R1}}{\varepsilon_{R2}}E_1\sin60^\circ$$
 
 **Paso 3 — Ángulo de $\vec D_2$ con la superficie.** $\vec D_2 = \varepsilon_2\vec E_2$ es paralelo a $\vec E_2$:
 
@@ -585,7 +585,7 @@ g) de la energía antes y después de introducir los dieléctricos. Discuta a qu
 
 **Paso 2 — Fórmulas.**
 
-$$C_0 = \frac{\varepsilon_0A}{d} \qquad C' = \frac{\varepsilon_{R1}\varepsilon_0(A/2)}{d} + \frac{\varepsilon_{R2}\varepsilon_0(A/2)}{d} = \frac{\varepsilon_{R1} + \varepsilon_{R2}}{2}\,C_0$$
+$$C_0 = \frac{\varepsilon_0A}{d} \qquad C' = \frac{\varepsilon_{R1}\varepsilon_0(A/2)}{d} + \frac{\varepsilon_{R2}\varepsilon_0(A/2)}{d} = \frac{\varepsilon_{R1} + \varepsilon_{R2}}{2}\ C_0$$
 
 **Paso 3 — Carga y tensión.** Con la fuente desconectada, el capacitor queda aislado y la carga se conserva: $Q' = Q_0 = C_0V$.
 
@@ -593,13 +593,13 @@ $$\Delta V' = \frac{Q_0}{C'} = \frac{2V}{\varepsilon_{R1} + \varepsilon_{R2}}$$
 
 **Paso 4 — Campos.** En paralelo, $E$ es el mismo en ambos medios: $E = \Delta V'/d$. Además $D_i = \varepsilon_{Ri}\varepsilon_0E$ y $P_i = D_i - \varepsilon_0E = (\varepsilon_{Ri} - 1)\varepsilon_0E$. Todos apuntan de la placa + a la − ($\hat e_x$).
 
-**Paso 5 — Cargas.** Carga libre frente a cada dieléctrico: $Q_{Li} = D_i\,A/2$. Densidad de polarización: $\sigma_{Pi} = P_i$.
+**Paso 5 — Cargas.** Carga libre frente a cada dieléctrico: $Q_{Li} = D_i\ A/2$. Densidad de polarización: $\sigma_{Pi} = P_i$.
 
 **Paso 6 — Energías:** $U_0 = \tfrac12Q_0V$ y $U' = \tfrac12Q_0\Delta V'$.
 
 **Paso 7 — Cálculo.**
 
-$$C_0 = \frac{8{,}85\times10^{-12}\cdot0{,}2}{0{,}004}\ \text{F} = 0{,}44\ \text{nF} \qquad C' = 20\,C_0 = 8{,}85\ \text{nF}$$
+$$C_0 = \frac{8{,}85\times10^{-12}\cdot0{,}2}{0{,}004}\ \text{F} = 0{,}44\ \text{nF} \qquad C' = 20\ C_0 = 8{,}85\ \text{nF}$$
 
 $$Q_0 = 0{,}4425\ \text{nF}\cdot50\ \text{V} = 22\ \text{nC} \qquad \Delta V' = \frac{100}{40}\ \text{V} = 2{,}5\ \text{V} \qquad E = \frac{2{,}5}{0{,}004}\ \tfrac{\text{V}}{\text{m}} = 625\ \tfrac{\text{V}}{\text{m}}$$
 
@@ -660,11 +660,11 @@ $$E_i = \frac{D}{\varepsilon_{Ri}\varepsilon_0} \qquad P_i = D - \varepsilon_0E_
 
 **Paso 3 — Cálculo.** $C_0 = 0{,}4425$ nF y $Q_0 = 22$ nC, igual que en el ejercicio 10.
 
-$$C_1 = 20\,C_0 \qquad C_2 = 60\,C_0 \qquad C' = 15\,C_0 = 6{,}64\ \text{nF}$$
+$$C_1 = 20\ C_0 \qquad C_2 = 60\ C_0 \qquad C' = 15\ C_0 = 6{,}64\ \text{nF}$$
 
 $$D = \frac{22\times10^{-9}}{0{,}2}\ \tfrac{\text{C}}{\text{m}^2} = 1{,}1\times10^{-7}\ \tfrac{\text{C}}{\text{m}^2} \qquad E_1 = \frac{1{,}1\times10^{-7}}{10\cdot8{,}85\times10^{-12}}\ \tfrac{\text{V}}{\text{m}} = 1243\ \tfrac{\text{V}}{\text{m}} \qquad E_2 = 414\ \tfrac{\text{V}}{\text{m}}$$
 
-$$\Delta V' = (1243 + 414)\cdot0{,}002\ \text{V} = 3{,}31\ \text{V} \qquad P_1 = 0{,}9\,D = 9{,}9\times10^{-8}\ \tfrac{\text{C}}{\text{m}^2} \qquad P_2 = \tfrac{29}{30}D = 1{,}06\times10^{-7}\ \tfrac{\text{C}}{\text{m}^2}$$
+$$\Delta V' = (1243 + 414)\cdot0{,}002\ \text{V} = 3{,}31\ \text{V} \qquad P_1 = 0{,}9\ D = 9{,}9\times10^{-8}\ \tfrac{\text{C}}{\text{m}^2} \qquad P_2 = \tfrac{29}{30}D = 1{,}06\times10^{-7}\ \tfrac{\text{C}}{\text{m}^2}$$
 
 $$Q_{L1} = Q_{L2} = 22\ \text{nC} \qquad U' = \tfrac12\cdot22\times10^{-9}\cdot3{,}31\ \text{J} = 3{,}65\times10^{-8}\ \text{J}$$
 
@@ -801,7 +801,7 @@ b) calcule el valor de la densidad de carga de polarización en A y en D.
 - Dos dieléctricos ($\varepsilon_1$ y $\varepsilon_2$) separados por una superficie vertical. En el primero hay un campo $\vec E_1$ que forma un ángulo $\alpha$ con la horizontal.
 - **a)** Si llevar una carga $Q$ de A a B (en el medio 1, distancia $d$) cuesta $W_1$, ¿cuánto cuesta llevarla de B a D (en el medio 2, distancia $2d$)? **b)** La carga de polarización por unidad de área en A y en D.
 
-**La idea, desde cero.** El trabajo para mover una carga a velocidad constante contra un campo uniforme es $W = Q\,E\,\ell$, usando solo la componente del campo a lo largo del camino. Acá el camino es horizontal, perpendicular a las superficies, así que importa la componente **normal** del campo. Al pasar de un medio a otro sin carga libre en la superficie, se conserva la componente normal de $\vec D = \varepsilon\vec E$, así que $E_N$ se divide por $\varepsilon_2/\varepsilon_1$. La carga de polarización por unidad de área en una cara del dieléctrico es la componente normal de $\vec P = (\varepsilon - \varepsilon_0)\vec E$.
+**La idea, desde cero.** El trabajo para mover una carga a velocidad constante contra un campo uniforme es $W = Q\ E\ \ell$, usando solo la componente del campo a lo largo del camino. Acá el camino es horizontal, perpendicular a las superficies, así que importa la componente **normal** del campo. Al pasar de un medio a otro sin carga libre en la superficie, se conserva la componente normal de $\vec D = \varepsilon\vec E$, así que $E_N$ se divide por $\varepsilon_2/\varepsilon_1$. La carga de polarización por unidad de área en una cara del dieléctrico es la componente normal de $\vec P = (\varepsilon - \varepsilon_0)\vec E$.
 
 **Resolución.**
 
@@ -809,7 +809,7 @@ b) calcule el valor de la densidad de carga de polarización en A y en D.
 
 **Paso 2 — Trabajo en el medio 1.** El campo es uniforme en cada medio:
 
-$$W_1 = Q\,E_{1N}\,d = Q\,E_1\cos\alpha\,d$$
+$$W_1 = Q\ E_{1N}\ d = Q\ E_1\cos\alpha\ d$$
 
 **Paso 3 — Componente normal en el medio 2.** Sin carga libre en la interfaz, $D_{1N} = D_{2N}$, es decir $\varepsilon_1E_{1N} = \varepsilon_2E_{2N}$:
 
@@ -817,7 +817,7 @@ $$E_{2N} = \frac{\varepsilon_1}{\varepsilon_2}E_{1N}$$
 
 **Paso 4 — Trabajo en el medio 2** (espesor $2d$):
 
-$$W_2 = Q\,E_{2N}\,2d = Q\,E_{1N}\frac{\varepsilon_1}{\varepsilon_2}\,2d = 2\frac{\varepsilon_1}{\varepsilon_2}W_1$$
+$$W_2 = Q\ E_{2N}\ 2d = Q\ E_{1N}\frac{\varepsilon_1}{\varepsilon_2}\ 2d = 2\frac{\varepsilon_1}{\varepsilon_2}W_1$$
 
 **Paso 5 — Polarización (ítem b).** La densidad de carga de polarización en una superficie es la componente normal de $\vec P = (\varepsilon - \varepsilon_0)\vec E$:
 

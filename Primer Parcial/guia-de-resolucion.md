@@ -71,7 +71,7 @@ $$\vec E = \frac{kq}{r^2}\hat r \qquad V = \frac{kq}{r}$$
 
 donde $\hat r$ apunta **desde la carga hacia el punto**. Las cargas positivas "empujan" el campo hacia afuera; las negativas lo "tiran" hacia ellas.
 
-Si la carga está repartida en un cuerpo, se parte en elementos $dq$ y se suma (superposición). Según la forma, $dq = \lambda\,dl$ (curva), $\sigma\,dA$ (superficie) o $\rho\,dV$ (volumen):
+Si la carga está repartida en un cuerpo, se parte en elementos $dq$ y se suma (superposición). Según la forma, $dq = \lambda\ dl$ (curva), $\sigma\ dA$ (superficie) o $\rho\ dV$ (volumen):
 
 $$\vec E(P) = k\int\frac{dq}{r^2}\hat r \qquad V(P) = k\int\frac{dq}{r}$$
 
@@ -86,8 +86,8 @@ El campo es conservativo (como los campos de gradiente de AM2): la integral no d
 **Fuerza y trabajo.**
 
 - Fuerza sobre una carga $q$: $\vec F = q\vec E$. Si $q < 0$, la fuerza es **opuesta** al campo.
-- Trabajo **del campo** al llevar $q$ de A a B: $W_{campo} = -q\,[V(B) - V(A)]$.
-- Trabajo de un **agente externo** que la lleva "sin aceleración": $W_{ext} = +q\,[V(B) - V(A)]$.
+- Trabajo **del campo** al llevar $q$ de A a B: $W_{campo} = -q\ [V(B) - V(A)]$.
+- Trabajo de un **agente externo** que la lleva "sin aceleración": $W_{ext} = +q\ [V(B) - V(A)]$.
 
 ### 0.3 Ley de Gauss (el teorema de la divergencia)
 
@@ -101,7 +101,7 @@ El flujo del campo por una superficie **cerrada** es la carga encerrada sobre $\
 | Cilíndrica (cilindro o hilo infinito) | cilindro coaxial de radio $r$ y altura $h$ | $E\cdot2\pi rh$ (las tapas no aportan) |
 | Plana (plano infinito) | cilindro que atraviesa el plano | $E\cdot2A$ |
 
-$Q_{enc}$ es una integral de volumen de $\rho$ sobre lo que queda **adentro** de la superficie gaussiana. Si $\rho$ depende de $r$, se integra en cáscaras: $dV = 4\pi r^2dr$ (esfera) o $2\pi rh\,dr$ (cilindro).
+$Q_{enc}$ es una integral de volumen de $\rho$ sobre lo que queda **adentro** de la superficie gaussiana. Si $\rho$ depende de $r$, se integra en cáscaras: $dV = 4\pi r^2dr$ (esfera) o $2\pi rh\ dr$ (cilindro).
 
 **Conductores** (metales en equilibrio): adentro $E = 0$, el potencial es constante y toda la carga está en la superficie.
 
@@ -112,7 +112,7 @@ $Q_{enc}$ es una integral de volumen de $\rho$ sobre lo que queda **adentro** de
 | Carga puntual | $\dfrac{kq}{r^2}$ radial | $\dfrac{kq}{r}$ |
 | Hilo finito ($x_1$ a $x_2$), punto sobre su eje en $x > x_2$ | $k\lambda\left(\dfrac{1}{x - x_2} - \dfrac{1}{x - x_1}\right)$ en $+\hat x$ | $k\lambda\ln\dfrac{x - x_1}{x - x_2}$ |
 | Anillo (carga total $Q$, radio $R$), sobre su eje a distancia $z$ | $\dfrac{kQz}{(R^2 + z^2)^{3/2}}$ a lo largo del eje | $\dfrac{kQ}{\sqrt{R^2 + z^2}}$ |
-| Arco de ángulo $\theta$ y radio $R$, en el centro | $\dfrac{2k\lambda}{R}\mathrm{sen}\,\dfrac\theta2$ por la bisectriz | $\dfrac{k\lambda\theta R}{R} = k\lambda\theta$ |
+| Arco de ángulo $\theta$ y radio $R$, en el centro | $\dfrac{2k\lambda}{R}\mathrm{sen}\ \dfrac\theta2$ por la bisectriz | $\dfrac{k\lambda\theta R}{R} = k\lambda\theta$ |
 | Semicircunferencia, en el centro ($\theta = \pi$) | $\dfrac{2k\lambda}{R}$ | $k\lambda\pi$ |
 | Esfera de radio $R$ con $\rho$ uniforme | adentro $\dfrac{\rho r}{3\varepsilon_0}$; afuera $\dfrac{\rho R^3}{3\varepsilon_0r^2} = \dfrac{kQ}{r^2}$ | afuera $\dfrac{kQ}{r}$ |
 | Hilo infinito / cilindro, afuera | $\dfrac{\lambda}{2\pi\varepsilon_0r}$ ($\lambda$ = carga por unidad de longitud) | $-\dfrac{\lambda}{2\pi\varepsilon_0}\ln r + cte$ |
@@ -142,7 +142,7 @@ Lo más difícil de los ejercicios de circuitos es **leer el dibujo**: identific
 - **Calor sensible:** para cambiar la temperatura de una masa $m$ hace falta $Q = mc\Delta T$ ($c$ = calor específico; agua: 1 cal/(g °C)).
 - **Conducción (ley de Fourier):** una barra de largo $L$, sección $A$ y conductividad $k$, con sus extremos a temperaturas que difieren en $\Delta T$, conduce una **corriente térmica** (calor por segundo, en W):
 
-$$H = \frac{kA\,\Delta T}{L} = \frac{\Delta T}{R_T} \qquad R_T = \frac{L}{kA}$$
+$$H = \frac{kA\ \Delta T}{L} = \frac{\Delta T}{R_T} \qquad R_T = \frac{L}{kA}$$
 
   Es exactamente la ley de Ohm con $\Delta T$ en lugar de $V$, $H$ en lugar de $I$ y $R_T$ en lugar de $R$. Las barras en **serie** suman resistencias térmicas.
 - **Máquina térmica:** en cada ciclo absorbe $Q_A > 0$ del foco caliente, cede $Q_C < 0$ al frío y hace un trabajo $W = Q_A + Q_C$. Rendimiento $\eta = W/Q_A$.
@@ -239,7 +239,7 @@ $$\Delta T = \frac{E}{mc} = \frac{1875{,}6\ \text{cal}}{50\ \text{g}\cdot1\ \tex
 1. **Etapa 1** (fuente conectada): calcular la $C_{eq}$ que ve la fuente y $Q_0 = C_{eq}V$. Si es una serie, todos los capacitores de la serie tienen la misma carga $Q_0$.
 2. **Etapa 2** (fuente desconectada, se conecta un grupo descargado): lo cargado queda aislado, así que **la carga se conserva**. Los dos grupos terminan en paralelo, con la misma tensión:
 
-$$V' = \frac{Q_0}{C_{grupo\,1} + C_{grupo\,2}} \qquad Q_{grupo} = C_{grupo}V'$$
+$$V' = \frac{Q_0}{C_{grupo\ 1} + C_{grupo\ 2}} \qquad Q_{grupo} = C_{grupo}V'$$
 
 3. Dentro de un grupo en serie, cada capacitor tiene la carga del grupo.
 4. Si piden energía disipada: al cargar desde la fuente se pierde $\tfrac12C_{eq}V^2$ (la mitad de lo que entrega); en el reparto se pierde $U_{antes} - U_{después}$.
@@ -347,9 +347,9 @@ Negativo: se aleja la carga del anillo, contra la atracción.
 
 **Receta.**
 
-1. Campo de un arco uniforme en su centro: parametrizando con el ángulo, $dq = \lambda R\,d\varphi$, todos a distancia $R$. Las componentes perpendiculares a la bisectriz se cancelan:
+1. Campo de un arco uniforme en su centro: parametrizando con el ángulo, $dq = \lambda R\ d\varphi$, todos a distancia $R$. Las componentes perpendiculares a la bisectriz se cancelan:
 
-$$E = \frac{k\lambda}{R}\int_{-\theta/2}^{\theta/2}\cos\varphi\,d\varphi = \frac{2k\lambda}{R}\mathrm{sen}\,\frac\theta2$$
+$$E = \frac{k\lambda}{R}\int_{-\theta/2}^{\theta/2}\cos\varphi\ d\varphi = \frac{2k\lambda}{R}\mathrm{sen}\ \frac\theta2$$
 
    Para una semicircunferencia: $\dfrac{2k\lambda}{R}$, apuntando **alejándose** de ella si $\lambda > 0$.
 2. Superponer los tramos con signo.
@@ -361,7 +361,7 @@ $$E = \frac{k\lambda}{R}\int_{-\theta/2}^{\theta/2}\cos\varphi\,d\varphi = \frac
 
 Con λ₁ en la mitad de arriba y λ₂ en la de abajo: la de arriba da $\dfrac{2k\lambda_1}{R}$ hacia abajo ($-\hat y$) y la de abajo da $\dfrac{2k\lambda_2}{R}$ hacia arriba ($+\hat y$):
 
-$$\vec E_0 = \frac{2k}{R}(\lambda_2 - \lambda_1)\,\hat y$$
+$$\vec E_0 = \frac{2k}{R}(\lambda_2 - \lambda_1)\ \hat y$$
 
 $$\frac{2k}{R}\lvert\lambda_2 - \lambda_1\rvert = \frac{2k\lambda_1}{R} \quad\Rightarrow\quad \lambda_2 - \lambda_1 = \pm\lambda_1 \quad\Rightarrow\quad \lambda_2 = 14\ \mu\text{C/m}\ \ \text{o}\ \ \lambda_2 = 0$$
 
@@ -377,8 +377,8 @@ $$\frac{2k}{R}\lvert\lambda_2 - \lambda_1\rvert = \frac{2k\lambda_1}{R} \quad\Ri
    - Adentro ($r < R$): $Q_{enc} = \rho\tfrac43\pi r^3$, así que $E = \dfrac{\rho r}{3\varepsilon_0}$.
    - Afuera ($r > R$): $Q_{enc} = \rho\tfrac43\pi R^3$, así que $E = \dfrac{\rho R^3}{3\varepsilon_0r^2}$.
 2. Con el dato, despejar la **combinación** de constantes que aparece (en general no hace falta $\rho$ sola).
-3. Potencial: $V(b) - V(a) = -\displaystyle\int_a^bE\,dr$.
-4. Trabajo del campo: $W = -q\,\Delta V$.
+3. Potencial: $V(b) - V(a) = -\displaystyle\int_a^bE\ dr$.
+4. Trabajo del campo: $W = -q\ \Delta V$.
 
 ### Ejemplo — 2º Recuperatorio 12/02/2021, Ej. 2
 
@@ -386,7 +386,7 @@ $$\frac{2k}{R}\lvert\lambda_2 - \lambda_1\rvert = \frac{2k\lambda_1}{R} \quad\Ri
 
 **a)** En $R/2$ (adentro): $\dfrac{\rho R}{6\varepsilon_0} = 8$ V/m, así que $\dfrac{\rho R}{\varepsilon_0} = 48$ V/m. En $2R$ (afuera):
 
-$$E(2R) = \frac{\rho R^3}{3\varepsilon_0(2R)^2} = \frac{1}{12}\,\frac{\rho R}{\varepsilon_0} = 4\ \text{V/m}$$
+$$E(2R) = \frac{\rho R^3}{3\varepsilon_0(2R)^2} = \frac{1}{12}\ \frac{\rho R}{\varepsilon_0} = 4\ \text{V/m}$$
 
 **b)**
 
@@ -407,7 +407,7 @@ $$W = -q[V(4R) - V(3R)] = 5\times10^{-6}\cdot0{,}5\ \text{J} = 2{,}5\ \mu\text{J
 **Receta.**
 
 1. Justificar la simetría: cilindro infinito con densidad que depende solo de $r$ → $\vec E = E(r)\hat r$ radial. Superficie gaussiana: cilindro coaxial de radio $r$ y altura $h$. Las tapas no tienen flujo ($\vec E\perp d\vec A$) y la cara lateral da $E\cdot2\pi rh$.
-2. $Q_{enc}$ con integral en cáscaras: $Q_{enc} = \displaystyle\int_0^{\min(r,R)}\rho(r')\,2\pi r'h\,dr'$.
+2. $Q_{enc}$ con integral en cáscaras: $Q_{enc} = \displaystyle\int_0^{\min(r,R)}\rho(r')\ 2\pi r'h\ dr'$.
 3. Despejar $E$. Adentro y afuera dan fórmulas distintas.
 4. Si toda la carga está en la **superficie**, adentro $Q_{enc} = 0$ → $E = 0$ → potencial constante → trabajo nulo entre dos puntos interiores.
 
@@ -421,7 +421,7 @@ Sea $\rho = \rho_0r$ con $\rho_0 = 90\ \mu\text{C}$/m⁴.
 
 **a) Adentro** ($r = 4$ cm $< R$):
 
-$$Q_{enc} = \int_0^r\rho_0r'\,2\pi r'h\,dr' = \frac{2\pi h\rho_0r^3}{3} \qquad E\cdot2\pi rh = \frac{2\pi h\rho_0r^3}{3\varepsilon_0} \quad\Rightarrow\quad E = \frac{\rho_0r^2}{3\varepsilon_0}$$
+$$Q_{enc} = \int_0^r\rho_0r'\ 2\pi r'h\ dr' = \frac{2\pi h\rho_0r^3}{3} \qquad E\cdot2\pi rh = \frac{2\pi h\rho_0r^3}{3\varepsilon_0} \quad\Rightarrow\quad E = \frac{\rho_0r^2}{3\varepsilon_0}$$
 
 $$E(0{,}04) = \frac{90\times10^{-6}\cdot0{,}04^2}{3\cdot8{,}85\times10^{-12}}\ \tfrac{\text{V}}{\text{m}} = 5424\ \tfrac{\text{V}}{\text{m}}$$
 
@@ -462,7 +462,7 @@ $$T - T_1 = HR_1 = \frac{\Delta T}{\frac53R_1}R_1 = \frac35\cdot44\ ^\circ\text{
 
 **b)** Misma área y misma $\Delta T$: para 4 veces la corriente hace falta un cuarto de la resistencia:
 
-$$\frac{0{,}6}{KA} = \frac14\cdot\frac53\cdot\frac{0{,}2}{kA} \quad\Rightarrow\quad K = 7{,}2\,k = 1656\ \tfrac{\text{W}}{\text{m}\,^\circ\text{C}}$$
+$$\frac{0{,}6}{KA} = \frac14\cdot\frac53\cdot\frac{0{,}2}{kA} \quad\Rightarrow\quad K = 7{,}2\ k = 1656\ \tfrac{\text{W}}{\text{m}\ ^\circ\text{C}}$$
 
 **Variantes.** [2º Recuperatorio 12/02/2021, Ej. 4](2021-02-12-2do-recuperatorio-1er-parcial.md#ejercicio-4): tres barras con números; piden una temperatura de unión y la conductividad de una barra para que la corriente baje a 0,9 veces. Se hace $R'_3 = R_{eq}/0{,}9 - R_1 - R_2$, y es posible si da positiva.
 

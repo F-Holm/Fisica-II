@@ -29,7 +29,7 @@ Ejercicios: [práctica del tema](practica.md).
 
 Una carga $q$ que se mueve con velocidad $\vec v$ ($v \ll c$) en una región sin campo eléctrico experimenta una fuerza
 
-$$\boxed{\vec F_M = q\,\vec v\times\vec B}$$
+$$\boxed{\vec F_M = q\ \vec v\times\vec B}$$
 
 Esa expresión **define** el campo magnético $\vec B$. Unidad SI: el **tesla**,
 
@@ -39,7 +39,7 @@ Propiedades:
 
 - El sentido de la fuerza depende del **signo de la carga**.
 - $\vec F_M \perp \vec v$ y $\vec F_M \perp \vec B$.
-- Módulo: $F_M = |q|\,v\,B\sin\theta$, con $\theta$ el ángulo entre $\vec v$ y $\vec B$.
+- Módulo: $F_M = |q|\ v\ B\sin\theta$, con $\theta$ el ángulo entre $\vec v$ y $\vec B$.
 - Si la partícula está en reposo, o si $\vec v \parallel \vec B$, la fuerza es nula.
 - El sentido se obtiene con la **regla de la mano derecha** para $\vec v\times\vec B$.
 - A diferencia del campo eléctrico (fuerza tangente a las líneas), **la fuerza magnética es perpendicular a las líneas de campo**.
@@ -54,11 +54,11 @@ Propiedades:
 
 Si hay campo eléctrico y magnético, la fuerza total es la **fuerza de Lorentz**:
 
-$$\boxed{\vec F = q\,\vec E + q\,\vec v\times\vec B}$$
+$$\boxed{\vec F = q\ \vec E + q\ \vec v\times\vec B}$$
 
 No se conocen fuentes ni sumideros de líneas de campo magnético: **no existe la carga magnética** (monopolo). Las líneas de $\vec B$ son cerradas y el flujo por cualquier superficie cerrada es nulo:
 
-$$\boxed{\oint_S\vec B\cdot\hat n\,ds = 0}\quad(\text{Gauss para }\vec B)$$
+$$\boxed{\oint_S\vec B\cdot\hat n\ ds = 0}\quad(\text{Gauss para }\vec B)$$
 
 ---
 
@@ -70,7 +70,7 @@ La fuerza no cambia la rapidez pero se mantiene siempre perpendicular a la veloc
 
 ![MCU de una carga en un campo uniforme](img/teoria-mcu.png)
 
-$$|q|\,v\,B = m\,\frac{v^2}{R} \quad\Rightarrow\quad \boxed{R = \frac{mv}{|q|B}}$$
+$$|q|\ v\ B = m\ \frac{v^2}{R} \quad\Rightarrow\quad \boxed{R = \frac{mv}{|q|B}}$$
 
 $$\boxed{T = \frac{2\pi m}{|q|B}} \qquad \boxed{f = \frac{|q|B}{2\pi m}}\ (\text{frecuencia de ciclotrón}) \qquad \boxed{\omega = \frac{|q|B}{m}}$$
 
@@ -86,7 +86,7 @@ Se descompone $\vec v = \vec v_\perp + \vec v_\parallel$ respecto de $\vec B$. S
 
 El resultado es un **MCU en el plano perpendicular a $\vec B$** combinado con un **MRU a lo largo de $\vec B$**: un **movimiento helicoidal**.
 
-$$R = \frac{m\,v_\perp}{|q|B} \qquad T = \frac{2\pi m}{|q|B} \qquad \text{paso: } p = v_\parallel\,T$$
+$$R = \frac{m\ v_\perp}{|q|B} \qquad T = \frac{2\pi m}{|q|B} \qquad \text{paso: } p = v_\parallel\ T$$
 
 Si $\theta$ es el ángulo entre $\vec v$ y $\vec B$: $v_\perp = v\sin\theta$, $v_\parallel = v\cos\theta$.
 
@@ -120,7 +120,7 @@ Un selector de velocidades ($E$, $B_1$) seguido de una zona con campo $B_2$, don
 
 ![Espectrómetro de masas](img/teoria-espectrometro.png)
 
-$$R = \frac{mv}{|q|B_2},\quad v = \frac{E}{B_1} \quad\Rightarrow\quad \boxed{\frac{|q|}{m} = \frac{E}{R\,B_1B_2}}$$
+$$R = \frac{mv}{|q|B_2},\quad v = \frac{E}{B_1} \quad\Rightarrow\quad \boxed{\frac{|q|}{m} = \frac{E}{R\ B_1B_2}}$$
 
 Sirve para medir la relación carga/masa o las masas de los distintos isótopos de un ion. (Thomson usó una variante en 1897 para medir $q/m$ del electrón.)
 
@@ -132,21 +132,21 @@ Sirve para medir la relación carga/masa o las masas de los distintos isótopos 
 
 En un tramo de longitud $\ell$ y sección $A$ hay $N = nA\ell$ portadores, cada uno con fuerza $q\vec v\times\vec B$. Usando $I = qnAv$ y definiendo $\vec\ell$ (módulo $\ell$, sentido de la corriente):
 
-$$\boxed{\vec F = I\,\vec\ell\times\vec B}\quad(\text{tramo recto, campo uniforme})$$
+$$\boxed{\vec F = I\ \vec\ell\times\vec B}\quad(\text{tramo recto, campo uniforme})$$
 
 ### Caso general
 
 Para un conductor de forma arbitraria o un campo no uniforme, se toma un elemento $d\vec\ell$ en el sentido de la corriente:
 
-$$\boxed{d\vec F = I\,d\vec\ell\times\vec B} \qquad \vec F = \int_{cond}I\,d\vec\ell\times\vec B$$
+$$\boxed{d\vec F = I\ d\vec\ell\times\vec B} \qquad \vec F = \int_{cond}I\ d\vec\ell\times\vec B$$
 
-> **Propiedad:** la fuerza magnética neta sobre una **espira cerrada** en un campo **uniforme** es **nula**. Y la fuerza sobre un alambre cualquiera en un campo uniforme es igual a la que sentiría un alambre **recto** que una sus extremos: $\vec F = I\,\vec L_{AB}\times\vec B$.
+> **Propiedad:** la fuerza magnética neta sobre una **espira cerrada** en un campo **uniforme** es **nula**. Y la fuerza sobre un alambre cualquiera en un campo uniforme es igual a la que sentiría un alambre **recto** que una sus extremos: $\vec F = I\ \vec L_{AB}\times\vec B$.
 
 ### Coordenadas polares (repaso)
 
-$\hat r = \cos\theta\,\hat\imath + \sin\theta\,\hat\jmath$ y $\hat\theta = -\sin\theta\,\hat\imath + \cos\theta\,\hat\jmath$. En un arco de radio $R$ recorrido en sentido antihorario, $d\vec\ell = R\,d\theta\,\hat\theta$.
+$\hat r = \cos\theta\ \hat\imath + \sin\theta\ \hat\jmath$ y $\hat\theta = -\sin\theta\ \hat\imath + \cos\theta\ \hat\jmath$. En un arco de radio $R$ recorrido en sentido antihorario, $d\vec\ell = R\ d\theta\ \hat\theta$.
 
-**Ejemplo (apunte):** espira formada por dos radios y un cuarto de circunferencia en un campo saliente $B\hat k$. Tramo sobre el eje X: $\vec F_1 = IR\hat\imath\times B\hat k = -IRB\hat\jmath$. Tramo sobre el eje Y (bajando): $\vec F_3 = -IRB\hat\imath$. Arco: $d\vec F_2 = IRB\,d\theta\,\hat r$, entonces $\vec F_2 = IRB(\hat\imath + \hat\jmath)$. Total: **cero**, como se esperaba.
+**Ejemplo (apunte):** espira formada por dos radios y un cuarto de circunferencia en un campo saliente $B\hat k$. Tramo sobre el eje X: $\vec F_1 = IR\hat\imath\times B\hat k = -IRB\hat\jmath$. Tramo sobre el eje Y (bajando): $\vec F_3 = -IRB\hat\imath$. Arco: $d\vec F_2 = IRB\ d\theta\ \hat r$, entonces $\vec F_2 = IRB(\hat\imath + \hat\jmath)$. Total: **cero**, como se esperaba.
 
 ---
 
@@ -162,7 +162,7 @@ $$M = IabB\sin\theta = IAB\sin\theta$$
 
 Se define el **momento dipolar magnético** de una espira de $N$ vueltas y área $A$:
 
-$$\boxed{\vec\mu = N\,I\,A\,\hat n} \qquad \boxed{\vec M = \vec\mu\times\vec B}$$
+$$\boxed{\vec\mu = N\ I\ A\ \hat n} \qquad \boxed{\vec M = \vec\mu\times\vec B}$$
 
 Vale para **cualquier espira plana** en un campo uniforme. Es el análogo del dipolo eléctrico, $\vec M = \vec p\times\vec E$.
 
@@ -170,9 +170,9 @@ Vale para **cualquier espira plana** en un campo uniforme. Es el análogo del di
 
 ## 7. Ley de Biot-Savart
 
-Las corrientes (cargas en movimiento) **generan** campos magnéticos (Oersted, 1819: una brújula se desvía cerca de un cable con corriente). Para un elemento de corriente $I\,d\vec\ell$, el campo que genera en un punto P a distancia $r$ es
+Las corrientes (cargas en movimiento) **generan** campos magnéticos (Oersted, 1819: una brújula se desvía cerca de un cable con corriente). Para un elemento de corriente $I\ d\vec\ell$, el campo que genera en un punto P a distancia $r$ es
 
-$$\boxed{d\vec B = \frac{\mu_0 I}{4\pi}\,\frac{d\vec\ell\times\hat r}{r^2}} \qquad \mu_0 = 4\pi\times10^{-7}\ \frac{\text{T m}}{\text{A}}$$
+$$\boxed{d\vec B = \frac{\mu_0 I}{4\pi}\ \frac{d\vec\ell\times\hat r}{r^2}} \qquad \mu_0 = 4\pi\times10^{-7}\ \frac{\text{T m}}{\text{A}}$$
 
 donde $\hat r$ va **desde el elemento hacia P**. $\mu_0$ es la **permeabilidad del vacío**.
 
@@ -190,7 +190,7 @@ donde $\hat r$ va **desde el elemento hacia P**. $\mu_0$ es la **permeabilidad d
 
 Punto a distancia $y$ del hilo. Los ángulos $\theta_1$ y $\theta_2$ se miden desde la perpendicular al hilo que pasa por el punto, hasta cada extremo: **positivos en sentido antihorario, negativos en sentido horario**.
 
-$$\boxed{B = \frac{\mu_0 I}{4\pi y}\,(\sin\theta_2 - \sin\theta_1)}$$
+$$\boxed{B = \frac{\mu_0 I}{4\pi y}\ (\sin\theta_2 - \sin\theta_1)}$$
 
 La dirección se obtiene con la regla de la mano derecha (en el dibujo del apunte, $\hat k$).
 
@@ -210,7 +210,7 @@ Si la perpendicular por el punto cae justo en el extremo del hilo ($\theta_1 = 0
 
 Cada lado está a $a/2$ con $\theta = \pm45^\circ$, y los cuatro aportan lo mismo:
 
-$$B = 4\cdot\frac{\mu_0 I}{4\pi(a/2)}\cdot2\cdot\frac{\sqrt2}{2} \quad\Rightarrow\quad \boxed{B = \frac{2\sqrt2\,\mu_0 I}{\pi a}}$$
+$$B = 4\cdot\frac{\mu_0 I}{4\pi(a/2)}\cdot2\cdot\frac{\sqrt2}{2} \quad\Rightarrow\quad \boxed{B = \frac{2\sqrt2\ \mu_0 I}{\pi a}}$$
 
 ### Espira circular, en su eje
 
@@ -218,7 +218,7 @@ Las componentes perpendiculares al eje se cancelan de a pares y solo queda la ax
 
 ![Campo en el eje de una espira circular](img/teoria-anillo.png)
 
-$$\boxed{B(z) = \frac{\mu_0 I R^2}{2\,(R^2 + z^2)^{3/2}}}\quad(\text{sobre el eje})$$
+$$\boxed{B(z) = \frac{\mu_0 I R^2}{2\ (R^2 + z^2)^{3/2}}}\quad(\text{sobre el eje})$$
 
 En el centro ($z = 0$): $\boxed{B = \dfrac{\mu_0 I}{2R}}$.
 
@@ -226,13 +226,13 @@ En el centro ($z = 0$): $\boxed{B = \dfrac{\mu_0 I}{2R}}$.
 
 Cada elemento aporta lo mismo ($d\vec\ell\perp\hat r$, misma distancia $R$). El campo es proporcional al ángulo abarcado:
 
-$$\boxed{B = \frac{\mu_0 I}{2R}\,\frac{\theta_2 - \theta_1}{2\pi}}$$
+$$\boxed{B = \frac{\mu_0 I}{2R}\ \frac{\theta_2 - \theta_1}{2\pi}}$$
 
 Una **semiespira** da $B = \dfrac{\mu_0 I}{4R}$.
 
 ### Solenoide finito, en su eje
 
-Solenoide de radio $R$, $N$ vueltas, longitud $\ell$ y corriente $I$. Una rebanada de espesor $dz'$ es un anillo con corriente $dI = I\,N\,dz'/\ell$. Integrando:
+Solenoide de radio $R$, $N$ vueltas, longitud $\ell$ y corriente $I$. Una rebanada de espesor $dz'$ es un anillo con corriente $dI = I\ N\ dz'/\ell$. Integrando:
 
 ![Campo de un solenoide](img/teoria-solenoide.png)
 
@@ -244,7 +244,7 @@ $\phi_1$ y $\phi_2$ son los ángulos con que se ve cada extremo desde el punto.
 
 $\phi_1, \phi_2 \to 0$:
 
-$$\boxed{B = \mu_0\,n\,I} \qquad n = \frac N\ell\ (\text{densidad de espiras})$$
+$$\boxed{B = \mu_0\ n\ I} \qquad n = \frac N\ell\ (\text{densidad de espiras})$$
 
 Es un campo **uniforme** en el interior. Un solenoide puede considerarse infinito si su longitud es mucho mayor que el radio de sus espiras. Un **toroide** de radio mucho mayor que el de sus espiras tiene adentro $B = \mu_0 n I$ circulando a lo largo del toro.
 
@@ -256,9 +256,9 @@ Las limaduras de hierro alrededor de un cable con corriente se ordenan en circun
 
 ![Campo alrededor de un hilo](img/teoria-ampere.png)
 
-Para el hilo infinito, a lo largo de una circunferencia de radio $r$: $\oint\vec B\cdot d\vec\ell = B\,2\pi r = \mu_0 I$. Ese resultado vale en general:
+Para el hilo infinito, a lo largo de una circunferencia de radio $r$: $\oint\vec B\cdot d\vec\ell = B\ 2\pi r = \mu_0 I$. Ese resultado vale en general:
 
-$$\boxed{\oint_C\vec B\cdot d\vec\ell = \mu_0\,I_C}\quad(\text{ley de Ampère})$$
+$$\boxed{\oint_C\vec B\cdot d\vec\ell = \mu_0\ I_C}\quad(\text{ley de Ampère})$$
 
 $I_C$ es la corriente **concatenada** por la curva: la que atraviesa cualquier superficie limitada por ella. Igual que con Gauss, la ley vale siempre, pero **sirve para calcular $B$ solo si hay mucha simetría** (hilos infinitos, cilindros, solenoides infinitos, toroides).
 
@@ -267,7 +267,7 @@ $I_C$ es la corriente **concatenada** por la curva: la que atraviesa cualquier s
 > 1. Por simetría, decidir la dirección de $\vec B$ y de qué depende su módulo (en cilindros, $\vec B = B(r)\hat\theta$).
 > 2. Elegir una curva sobre la que $\vec B\parallel d\vec\ell$ y $|\vec B|$ es constante (circunferencia coaxial).
 > 3. Calcular $I_C$: si la corriente está distribuida, usar $J = I/A$ y multiplicar por el área encerrada; las corrientes opuestas se restan.
-> 4. Igualar $B\,2\pi r = \mu_0 I_C$ y despejar.
+> 4. Igualar $B\ 2\pi r = \mu_0 I_C$ y despejar.
 
 ### Ejemplo: cable coaxial
 
@@ -277,8 +277,8 @@ Conductor interior de radio $a$ con corriente $I$; conductor exterior entre $b$ 
 
 | Zona | $I_C$ | $\vec B$ |
 |---|---|---|
-| $r < a$ | $I\,r^2/a^2$ | $\dfrac{\mu_0 I}{2\pi a^2}\,r\,\hat\theta$ |
-| $a < r < b$ | $I$ | $\dfrac{\mu_0 I}{2\pi r}\,\hat\theta$ |
+| $r < a$ | $I\ r^2/a^2$ | $\dfrac{\mu_0 I}{2\pi a^2}\ r\ \hat\theta$ |
+| $a < r < b$ | $I$ | $\dfrac{\mu_0 I}{2\pi r}\ \hat\theta$ |
 | $b < r < c$ | $I\left(1 - \dfrac{r^2 - b^2}{c^2 - b^2}\right)$ | $\dfrac{\mu_0 I}{2\pi r}\left(1 - \dfrac{r^2 - b^2}{c^2 - b^2}\right)\hat\theta$ |
 | $r > c$ | $0$ | $0$ |
 
@@ -288,18 +288,18 @@ Conductor interior de radio $a$ con corriente $I$; conductor exterior entre $b$ 
 
 | Ley | Forma integral |
 |---|---|
-| Gauss para $\vec E$ | $\oint_S\vec E\cdot\hat n\,ds = Q_{enc}/\varepsilon_0$ |
+| Gauss para $\vec E$ | $\oint_S\vec E\cdot\hat n\ ds = Q_{enc}/\varepsilon_0$ |
 | Campo electrostático conservativo | $\oint_C\vec E\cdot d\vec\ell = 0$ |
-| Gauss para $\vec B$ | $\oint_S\vec B\cdot\hat n\,ds = 0$ |
+| Gauss para $\vec B$ | $\oint_S\vec B\cdot\hat n\ ds = 0$ |
 | Ampère | $\oint_C\vec B\cdot d\vec\ell = \mu_0 I_C$ |
 
 ---
 
 ## 11. Fuerza entre dos hilos paralelos
 
-El hilo 2 está en el campo del hilo 1, $B_1 = \mu_0 I_1/(2\pi D)$, que es el mismo en todo el hilo 2. La fuerza sobre un tramo $\ell$ es $F_2 = I_2\,\ell\,B_1$:
+El hilo 2 está en el campo del hilo 1, $B_1 = \mu_0 I_1/(2\pi D)$, que es el mismo en todo el hilo 2. La fuerza sobre un tramo $\ell$ es $F_2 = I_2\ \ell\ B_1$:
 
-$$\boxed{\frac F\ell = \frac{\mu_0\,I_1I_2}{2\pi D}}$$
+$$\boxed{\frac F\ell = \frac{\mu_0\ I_1I_2}{2\pi D}}$$
 
 ![Fuerza entre hilos paralelos y antiparalelos](img/teoria-hilos-paralelos.png)
 
@@ -311,13 +311,13 @@ Con $I_1 = I_2 = 1$ A y $D = 1$ m resulta $F/\ell = 2\times10^{-7}$ N/m: así se
 
 ## 12. Flujo magnético
 
-$$\boxed{\phi_B = \int_S\vec B\cdot\hat n\,ds} \qquad [\phi_B] = \text{T m}^2 = \text{Wb (weber)}$$
+$$\boxed{\phi_B = \int_S\vec B\cdot\hat n\ ds} \qquad [\phi_B] = \text{T m}^2 = \text{Wb (weber)}$$
 
-**Ejemplo (apunte):** espira rectangular de lados $b$ (horizontal) y $c$, coplanar con un hilo infinito con corriente $I$, con su lado más cercano a distancia $a$. Como $B = \mu_0 I/(2\pi x)$ depende de $x$, se integra en tiras verticales $ds = c\,dx$:
+**Ejemplo (apunte):** espira rectangular de lados $b$ (horizontal) y $c$, coplanar con un hilo infinito con corriente $I$, con su lado más cercano a distancia $a$. Como $B = \mu_0 I/(2\pi x)$ depende de $x$, se integra en tiras verticales $ds = c\ dx$:
 
 ![Flujo a través de una espira junto a un hilo](img/teoria-flujo-espira.png)
 
-$$\phi = \int_a^{a+b}\frac{\mu_0 I}{2\pi x}\,c\,dx \quad\Rightarrow\quad \boxed{\phi = \frac{\mu_0 I c}{2\pi}\ln\!\left(\frac{a + b}{a}\right)}$$
+$$\phi = \int_a^{a+b}\frac{\mu_0 I}{2\pi x}\ c\ dx \quad\Rightarrow\quad \boxed{\phi = \frac{\mu_0 I c}{2\pi}\ln\left(\frac{a + b}{a}\right)}$$
 
 Este resultado se usa mucho en el tema de inducción.
 
@@ -352,7 +352,7 @@ Equilibrio: $mg\sin\theta = I\ell B\cos\theta$, de donde $B = \dfrac{mg}{I\ell}\
 
 ### Alambre en U con semicírculo en campo uniforme
 
-Con $\vec B = B\hat\jmath$ (paralelo a los tramos rectos): solo el arco aporta, $\vec F = -2IRB\,\hat k$. Con $\vec B = B\hat\imath$: el arco no aporta y los tramos rectos dan fuerzas opuestas, de modo que **el conjunto tiende a girar alrededor del eje Y**.
+Con $\vec B = B\hat\jmath$ (paralelo a los tramos rectos): solo el arco aporta, $\vec F = -2IRB\ \hat k$. Con $\vec B = B\hat\imath$: el arco no aporta y los tramos rectos dan fuerzas opuestas, de modo que **el conjunto tiende a girar alrededor del eje Y**.
 
 ### Electrón en campos $\vec E$ y $\vec B$ paralelos
 
@@ -364,7 +364,7 @@ $$z = -\frac{eE}{2m}t^2 \qquad x(t) = -\frac{mv_0}{eB}\left(1 - \cos\frac{eB}{m}
 
 $I_1 = 100$ A, $I_2 = 10$ A, $a = b = 1$ cm, $c = 4$ cm. Las fuerzas sobre los lados horizontales se cancelan; el lado cercano (corriente antiparalela) es repelido más que lo que el lejano es atraído:
 
-$$\vec F = c\,\frac{\mu_0I_1I_2}{2\pi}\left(\frac1a - \frac{1}{a + b}\right)\hat\imath = 4\times10^{-4}\ \text{N}\ \hat\imath$$
+$$\vec F = c\ \frac{\mu_0I_1I_2}{2\pi}\left(\frac1a - \frac{1}{a + b}\right)\hat\imath = 4\times10^{-4}\ \text{N}\ \hat\imath$$
 
 ---
 
@@ -378,7 +378,7 @@ $$\vec F = c\,\frac{\mu_0I_1I_2}{2\pi}\left(\frac1a - \frac{1}{a + b}\right)\hat
 | Hélice | $R = mv_\perp/(\lvert q\rvert B)$, paso $p = v_\parallel T$ |
 | Selector | $v = E/B$ |
 | Espectrómetro | $\lvert q\rvert/m = E/(RB_1B_2)$ |
-| Conductor | $\vec F = I\vec\ell\times\vec B$, $d\vec F = I\,d\vec\ell\times\vec B$ |
+| Conductor | $\vec F = I\vec\ell\times\vec B$, $d\vec F = I\ d\vec\ell\times\vec B$ |
 | Momento dipolar | $\vec\mu = NIA\hat n$, $\vec M = \vec\mu\times\vec B$ |
 | Biot-Savart | $d\vec B = \frac{\mu_0 I}{4\pi}\frac{d\vec\ell\times\hat r}{r^2}$ |
 | Hilo finito | $B = \frac{\mu_0 I}{4\pi y}(\sin\theta_2 - \sin\theta_1)$ |
@@ -388,6 +388,6 @@ $$\vec F = c\,\frac{\mu_0I_1I_2}{2\pi}\left(\frac1a - \frac{1}{a + b}\right)\hat
 | Espira cuadrada (centro) | $B = 2\sqrt2\mu_0 I/(\pi a)$ |
 | Solenoide | $B = \frac{\mu_0 NI}{2\ell}(\cos\phi_1 + \cos\phi_2)$; infinito $\mu_0 nI$ |
 | Ampère | $\oint\vec B\cdot d\vec\ell = \mu_0 I_C$ |
-| Gauss para B | $\oint\vec B\cdot\hat n\,ds = 0$ |
+| Gauss para B | $\oint\vec B\cdot\hat n\ ds = 0$ |
 | Hilos paralelos | $F/\ell = \mu_0 I_1I_2/(2\pi D)$ |
-| Flujo | $\phi_B = \int\vec B\cdot\hat n\,ds$ |
+| Flujo | $\phi_B = \int\vec B\cdot\hat n\ ds$ |

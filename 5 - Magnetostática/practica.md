@@ -41,7 +41,7 @@ b) calcule el valor de la distancia AC. (1 keV= 1,6 × 10<sup>−16</sup> J).
 - Iones de hierro (masa y carga dadas) con energía de 10 keV entran por A a una zona con campo de 0,1 T, dan media vuelta y salen por C.
 - **a)** Hacia dónde apunta el campo. **b)** La distancia entre A y C.
 
-**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\,\vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
+**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\ \vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
 
 $$\lvert q\rvert vB = \frac{mv^2}{r} \quad\Rightarrow\quad r = \frac{mv}{\lvert q\rvert B} \qquad T = \frac{2\pi r}{v} = \frac{2\pi m}{\lvert q\rvert B}$$
 
@@ -51,9 +51,9 @@ El período no depende de la velocidad: una carga más rápida da una vuelta má
 
 **Paso 1 — Dirección de B (ítem a).** El ion entra en A moviéndose hacia $+x$ y describe una semicircunferencia hacia abajo, hasta C. En A, la fuerza tiene que apuntar hacia el centro de la circunferencia, es decir hacia $-\hat e_y$. Con $q > 0$:
 
-$$\vec F = q\,v\,\hat e_x\times\vec B = -F\,\hat e_y$$
+$$\vec F = q\ v\ \hat e_x\times\vec B = -F\ \hat e_y$$
 
-Como $\hat e_x\times\hat e_z = -\hat e_y$, el campo tiene que ser $\vec B = B_0\,\hat e_z$ (saliente de la hoja). Además, $\vec B$ tiene que ser perpendicular a la velocidad para que la trayectoria sea una circunferencia en el plano XY.
+Como $\hat e_x\times\hat e_z = -\hat e_y$, el campo tiene que ser $\vec B = B_0\ \hat e_z$ (saliente de la hoja). Además, $\vec B$ tiene que ser perpendicular a la velocidad para que la trayectoria sea una circunferencia en el plano XY.
 
 **Paso 2 — Velocidad.** La energía es toda cinética:
 
@@ -61,7 +61,7 @@ $$E = \tfrac12mv^2 \quad\Rightarrow\quad v = \sqrt{\frac{2E}{m}}$$
 
 **Paso 3 — Distancia AC.** A y C son extremos de un diámetro:
 
-$$AC = 2R_{CICL} = 2\,\frac{mv}{qB} = \frac{2\sqrt{2mE}}{qB}$$
+$$AC = 2R_{CICL} = 2\ \frac{mv}{qB} = \frac{2\sqrt{2mE}}{qB}$$
 
 **Paso 4 — Cálculo.** $E = 10\ \text{keV} = 1{,}6\times10^{-15}$ J:
 
@@ -71,7 +71,7 @@ $$AC = 2\cdot\frac{8{,}96\times10^{-27}\cdot5{,}98\times10^5}{3{,}2\times10^{-19
 
 </details>
 
-**Respuesta:** a) $\vec B = B_0\,\hat e_z$; b) $2R_{CICL} = 2\dfrac{mv}{qB} \approx 0{,}336$ m
+**Respuesta:** a) $\vec B = B_0\ \hat e_z$; b) $2R_{CICL} = 2\dfrac{mv}{qB} \approx 0{,}336$ m
 
 </details>
 
@@ -94,7 +94,7 @@ Una partícula de masa $m$ =1,67x10<sup>-27</sup> kg y carga ***q*** =1,6x10<sup
 - Una partícula (masa y carga dadas) gira en circunferencia a $10^6$ m/s, perpendicular a un campo de 1,75 T.
 - **Qué piden:** cuántas vueltas da por segundo (la frecuencia de giro).
 
-**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\,\vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
+**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\ \vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
 
 $$\lvert q\rvert vB = \frac{mv^2}{r} \quad\Rightarrow\quad r = \frac{mv}{\lvert q\rvert B} \qquad T = \frac{2\pi r}{v} = \frac{2\pi m}{\lvert q\rvert B}$$
 
@@ -124,7 +124,7 @@ $$f = \frac{1{,}6\times10^{-19}\cdot1{,}75}{2\pi\cdot1{,}67\times10^{-27}}\ \tex
 
 ### Ejercicio 3
 
-⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución. Practica la dirección de la fuerza $q\,\vec v\times\vec B$ y cómo depende del signo de la carga, sin cuentas.
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 7: Movimiento de una carga en un campo magnético](../Segundo%20Parcial/guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) de la guía de resolución. Practica la dirección de la fuerza $q\ \vec v\times\vec B$ y cómo depende del signo de la carga, sin cuentas.
 
 Una carga *q* > 0 ingresa a la región entre las placas de un capacitor plano. El espacio entre las placas es vacío, y en él existe un campo magnético uniforme ***B***, como indica la figura. Discuta cuáles son las tres afirmaciones correctas
 
@@ -151,15 +151,15 @@ Una carga *q* > 0 ingresa a la región entre las placas de un capacitor plano. E
 - Una carga positiva entra entre las placas de un capacitor, donde hay a la vez un campo eléctrico (de la placa + a la −) y un campo magnético entrante.
 - **Qué piden:** elegir las tres afirmaciones correctas sobre si la carga se desvía y hacia dónde.
 
-**La idea, desde cero.** Sobre la carga actúan dos fuerzas. La **eléctrica**, $q\vec E$, va en el sentido del campo eléctrico (para $q > 0$), o sea hacia la placa negativa. La **magnética**, $q\,\vec v\times\vec B$, es perpendicular a la velocidad y al campo magnético. Si las dos fuerzas son opuestas y de igual módulo ($qE = qvB$), se cancelan y la carga sigue derecho: así funciona un **selector de velocidades**, que solo deja pasar las cargas con $v = E/B$. Si una gana, la carga se desvía hacia ese lado.
+**La idea, desde cero.** Sobre la carga actúan dos fuerzas. La **eléctrica**, $q\vec E$, va en el sentido del campo eléctrico (para $q > 0$), o sea hacia la placa negativa. La **magnética**, $q\ \vec v\times\vec B$, es perpendicular a la velocidad y al campo magnético. Si las dos fuerzas son opuestas y de igual módulo ($qE = qvB$), se cancelan y la carga sigue derecho: así funciona un **selector de velocidades**, que solo deja pasar las cargas con $v = E/B$. Si una gana, la carga se desvía hacia ese lado.
 
 **Resolución.**
 
 **Paso 1 — Fuerza eléctrica.** El campo $\vec E$ va de la placa + (arriba) a la − (abajo). Con $q > 0$, $\vec F_E = q\vec E$ apunta **hacia abajo** (hacia la placa negativa), con módulo $qE$.
 
-**Paso 2 — Fuerza magnética.** $\vec v = v\,\hat e_x$, $\vec B = -B\,\hat e_z$ (entrante):
+**Paso 2 — Fuerza magnética.** $\vec v = v\ \hat e_x$, $\vec B = -B\ \hat e_z$ (entrante):
 
-$$\vec F_M = q\,v\,\hat e_x\times(-B\,\hat e_z) = qvB\,\hat e_y$$
+$$\vec F_M = q\ v\ \hat e_x\times(-B\ \hat e_z) = qvB\ \hat e_y$$
 
 Apunta **hacia arriba** (placa positiva), con módulo $qvB$.
 
@@ -204,7 +204,7 @@ Un electrón (masa $m$ =9,1x10<sup>-31</sup> kg y carga $q$ =−1,6x10<sup>-19</
 - Un electrón con energía de 2 keV entra a un campo de 0,1 T formando 89° con él.
 - **Qué piden:** las características de la hélice que describe: período (tiempo de una vuelta), paso (lo que avanza por vuelta) y radio.
 
-**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\,\vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
+**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\ \vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
 
 $$\lvert q\rvert vB = \frac{mv^2}{r} \quad\Rightarrow\quad r = \frac{mv}{\lvert q\rvert B} \qquad T = \frac{2\pi r}{v} = \frac{2\pi m}{\lvert q\rvert B}$$
 
@@ -218,7 +218,7 @@ $$v_\perp = v\sin\theta \qquad v_\parallel = v\cos\theta \qquad v = \sqrt{\frac{
 
 **Paso 2 — Fórmulas de la hélice.**
 
-$$T = \frac{2\pi m}{|q|B} \qquad p = v_\parallel\,T \qquad r = \frac{m\,v_\perp}{|q|B}$$
+$$T = \frac{2\pi m}{|q|B} \qquad p = v_\parallel\ T \qquad r = \frac{m\ v_\perp}{|q|B}$$
 
 **Paso 3 — Cálculo.** $E = 2\ \text{keV} = 3{,}2\times10^{-16}$ J:
 
@@ -259,7 +259,7 @@ b) suponiendo que el protón fue acelerado desde el reposo por una diferencia de
 - Un protón gira en circunferencia, perpendicular a un campo, con período $10^{-8}$ s.
 - **a)** El valor del campo. **b)** Si el protón se aceleró desde el reposo con 3 kV, el radio de la órbita.
 
-**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\,\vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
+**La idea, desde cero.** Una carga $q$ que se mueve con velocidad $\vec v$ dentro de un campo magnético $\vec B$ siente la fuerza $\vec F = q\ \vec v\times\vec B$. Esa fuerza es siempre perpendicular a la velocidad, así que no cambia la rapidez de la carga: solo la desvía. Si la carga entra perpendicular a un campo uniforme, describe una circunferencia, y la fuerza magnética cumple el papel de fuerza centrípeta:
 
 $$\lvert q\rvert vB = \frac{mv^2}{r} \quad\Rightarrow\quad r = \frac{mv}{\lvert q\rvert B} \qquad T = \frac{2\pi r}{v} = \frac{2\pi m}{\lvert q\rvert B}$$
 
@@ -269,7 +269,7 @@ El período no depende de la velocidad: una carga más rápida da una vuelta má
 
 **Paso 1 — Campo (ítem a).** De $\tau = \dfrac{2\pi m}{qB}$:
 
-$$B = \frac{2\pi m}{q\,\tau}$$
+$$B = \frac{2\pi m}{q\ \tau}$$
 
 **Paso 2 — Velocidad (ítem b).** La energía ganada al acelerarse es $q\Delta V = \tfrac12mv^2$:
 
@@ -295,7 +295,7 @@ $$r = \frac{1{,}67\times10^{-27}\cdot7{,}58\times10^5}{1{,}6\times10^{-19}\cdot6
 
 ### Ejercicio 6
 
-⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 10: Barra sobre rieles](../Segundo%20Parcial/guia-de-resolucion.md#10-barra-sobre-rieles) de la guía de resolución. Practica la fuerza sobre un cable con corriente, $i\,\vec\ell\times\vec B$, que es la que frena a la barra.
+⭐ **Sirve para el 2º Parcial** (concepto base): ejercicio más simple que ayuda a entender el [tipo 10: Barra sobre rieles](../Segundo%20Parcial/guia-de-resolucion.md#10-barra-sobre-rieles) de la guía de resolución. Practica la fuerza sobre un cable con corriente, $i\ \vec\ell\times\vec B$, que es la que frena a la barra.
 
 Un alambre de 1m de longitud transporta una corriente de intensidad *i*=10A. El alambre se halla en una región donde existe un campo magnético uniforme B=1,5T, y forma un ángulo α=30° con la dirección del campo. Calcule la fuerza que el campo ejerce sobre el alambre.
 
@@ -312,15 +312,15 @@ Un alambre de 1m de longitud transporta una corriente de intensidad *i*=10A. El 
 - Un alambre de 1 m con 10 A, dentro de un campo de 1,5 T que forma 30° con el alambre.
 - **Qué piden:** la fuerza magnética sobre el alambre (vector).
 
-**La idea, desde cero.** Una corriente son cargas en movimiento, así que un cable con corriente dentro de un campo magnético siente fuerza. Sumando $q\,\vec v\times\vec B$ sobre todas las cargas de un tramo recto en un campo uniforme queda $\vec F = i\,\vec\ell\times\vec B$, donde $\vec\ell$ apunta en el sentido de la corriente y mide lo que el tramo. El módulo es $i\ell B\sin\alpha$: es máximo si el cable es perpendicular al campo y nulo si es paralelo.
+**La idea, desde cero.** Una corriente son cargas en movimiento, así que un cable con corriente dentro de un campo magnético siente fuerza. Sumando $q\ \vec v\times\vec B$ sobre todas las cargas de un tramo recto en un campo uniforme queda $\vec F = i\ \vec\ell\times\vec B$, donde $\vec\ell$ apunta en el sentido de la corriente y mide lo que el tramo. El módulo es $i\ell B\sin\alpha$: es máximo si el cable es perpendicular al campo y nulo si es paralelo.
 
 **Resolución.**
 
-**Paso 1 — Vectores.** El alambre está sobre el eje X con la corriente hacia $+x$: $\vec\ell = L\,\hat e_x$. El campo está en el plano XY formando $\alpha$ con el alambre: $\vec B = B(\cos\alpha;\ \sin\alpha;\ 0)$.
+**Paso 1 — Vectores.** El alambre está sobre el eje X con la corriente hacia $+x$: $\vec\ell = L\ \hat e_x$. El campo está en el plano XY formando $\alpha$ con el alambre: $\vec B = B(\cos\alpha;\ \sin\alpha;\ 0)$.
 
 **Paso 2 — Fuerza.**
 
-$$\vec F = i\,\vec\ell\times\vec B = iLB\,(\hat e_x\times(\cos\alpha\,\hat e_x + \sin\alpha\,\hat e_y)) = iLB\sin\alpha\,\hat e_z$$
+$$\vec F = i\ \vec\ell\times\vec B = iLB\ (\hat e_x\times(\cos\alpha\ \hat e_x + \sin\alpha\ \hat e_y)) = iLB\sin\alpha\ \hat e_z$$
 
 **Paso 3 — Cálculo.**
 
@@ -353,23 +353,23 @@ Un alambre metálico de masa *m* desliza sin fricción sobre dos rieles metálic
 - Un alambre de masa $m$ apoyado sobre dos rieles, sin rozamiento, en un campo $B$. Un generador hace circular una corriente $i$ por los rieles y el alambre.
 - **Qué piden:** la velocidad del alambre en función del tiempo, si arranca quieto.
 
-**La idea, desde cero.** El tramo de alambre con corriente dentro del campo siente $\vec F = i\,\vec\ell\times\vec B$, de módulo $iDB$ (el alambre es perpendicular al campo). Esa fuerza es constante, así que, por Newton, la aceleración es constante, $a = F/m$, y la velocidad crece linealmente desde cero: $v = at$.
+**La idea, desde cero.** El tramo de alambre con corriente dentro del campo siente $\vec F = i\ \vec\ell\times\vec B$, de módulo $iDB$ (el alambre es perpendicular al campo). Esa fuerza es constante, así que, por Newton, la aceleración es constante, $a = F/m$, y la velocidad crece linealmente desde cero: $v = at$.
 
 **Resolución.**
 
-**Paso 1 — Sentido de la corriente en el alambre.** En la figura, la corriente viene por el riel superior hacia la izquierda, baja por el alambre y vuelve por el riel inferior hacia la derecha. En el alambre: $\vec\ell = D\,(-\hat e_y)$.
+**Paso 1 — Sentido de la corriente en el alambre.** En la figura, la corriente viene por el riel superior hacia la izquierda, baja por el alambre y vuelve por el riel inferior hacia la derecha. En el alambre: $\vec\ell = D\ (-\hat e_y)$.
 
-**Paso 2 — Fuerza.** El campo es entrante, $\vec B = B\,(-\hat e_z)$:
+**Paso 2 — Fuerza.** El campo es entrante, $\vec B = B\ (-\hat e_z)$:
 
-$$\vec F = i\,D(-\hat e_y)\times B(-\hat e_z) = iDB\,(\hat e_y\times\hat e_z) = iDB\,\hat e_x$$
+$$\vec F = i\ D(-\hat e_y)\times B(-\hat e_z) = iDB\ (\hat e_y\times\hat e_z) = iDB\ \hat e_x$$
 
 **Paso 3 — Movimiento.** La fuerza es constante (no hay fricción): MRUV con $a = iDB/m$ desde el reposo:
 
-$$\vec v(t) = \frac{iDB}{m}\,t\ \hat e_x$$
+$$\vec v(t) = \frac{iDB}{m}\ t\ \hat e_x$$
 
 </details>
 
-**Respuesta:** $\vec v = \dfrac{iDBt}{m}\,\hat e_x$
+**Respuesta:** $\vec v = \dfrac{iDBt}{m}\ \hat e_x$
 
 </details>
 
@@ -400,23 +400,23 @@ d) discuta cómo cambian los resultados si el campo B tuviera la dirección ***e
 - Un alambre con forma de "U" (dos tramos rectos semiinfinitos unidos por media circunferencia de radio $R$), con corriente $i$, dentro de un campo uniforme $B_0$ hacia $-y$.
 - **a)** La fuerza sobre el alambre. **b)**, **c)** y **d)** Cómo cambia si se invierte el campo, si se invierte la corriente, o si el campo apunta hacia $x$.
 
-**La idea, desde cero.** La fuerza sobre un pedacito de cable es $d\vec F = i\,d\vec l\times\vec B$, y la total es la integral a lo largo del cable. Los tramos paralelos al campo no sienten fuerza ($d\vec l\times\vec B = 0$). Para el arco se integra en el ángulo. Hay un atajo útil: en un campo **uniforme**, la fuerza sobre un cable curvo es la misma que sobre el segmento recto que une sus extremos, porque $\int d\vec l$ es justamente ese segmento.
+**La idea, desde cero.** La fuerza sobre un pedacito de cable es $d\vec F = i\ d\vec l\times\vec B$, y la total es la integral a lo largo del cable. Los tramos paralelos al campo no sienten fuerza ($d\vec l\times\vec B = 0$). Para el arco se integra en el ángulo. Hay un atajo útil: en un campo **uniforme**, la fuerza sobre un cable curvo es la misma que sobre el segmento recto que une sus extremos, porque $\int d\vec l$ es justamente ese segmento.
 
 **Resolución.**
 
 **Paso 1 — Tramos rectos.** Son verticales, paralelos a $\vec B$: $\vec\ell\times\vec B = 0$. No aportan.
 
-**Paso 2 — Arco.** La corriente sube por el tramo derecho, recorre la semicircunferencia en sentido antihorario (de $\theta = 0$ a $\theta = \pi$) y baja por el izquierdo. Con $d\vec\ell = R\,d\theta\,(-\sin\theta;\ \cos\theta;\ 0)$:
+**Paso 2 — Arco.** La corriente sube por el tramo derecho, recorre la semicircunferencia en sentido antihorario (de $\theta = 0$ a $\theta = \pi$) y baja por el izquierdo. Con $d\vec\ell = R\ d\theta\ (-\sin\theta;\ \cos\theta;\ 0)$:
 
-$$d\vec F = i\,d\vec\ell\times\vec B = iR\,d\theta\,(-\sin\theta\,\hat e_x + \cos\theta\,\hat e_y)\times(-B_0\,\hat e_y) = iRB_0\sin\theta\,d\theta\,\hat e_z$$
+$$d\vec F = i\ d\vec\ell\times\vec B = iR\ d\theta\ (-\sin\theta\ \hat e_x + \cos\theta\ \hat e_y)\times(-B_0\ \hat e_y) = iRB_0\sin\theta\ d\theta\ \hat e_z$$
 
 (se usó $\hat e_x\times\hat e_y = \hat e_z$ y $\hat e_y\times\hat e_y = 0$).
 
 **Paso 3 — Integrar.**
 
-$$\vec F = iRB_0\,\hat e_z\int_0^\pi\sin\theta\,d\theta = 2iB_0R\,\hat e_z$$
+$$\vec F = iRB_0\ \hat e_z\int_0^\pi\sin\theta\ d\theta = 2iB_0R\ \hat e_z$$
 
-Atajo: en un campo uniforme, la fuerza sobre el arco es la misma que sobre la cuerda que une sus extremos, $\vec L = -2R\,\hat e_x$: $\vec F = i(-2R\hat e_x)\times(-B_0\hat e_y) = 2iRB_0\hat e_z$ ✓.
+Atajo: en un campo uniforme, la fuerza sobre el arco es la misma que sobre la cuerda que une sus extremos, $\vec L = -2R\ \hat e_x$: $\vec F = i(-2R\hat e_x)\times(-B_0\hat e_y) = 2iRB_0\hat e_z$ ✓.
 
 **Paso 4 — Ítems b y c.** La fuerza es lineal en $\vec B$ y en $i$. Invertir cualquiera de los dos invierte la fuerza.
 
@@ -424,7 +424,7 @@ Atajo: en un campo uniforme, la fuerza sobre el arco es la misma que sobre la cu
 
 </details>
 
-**Respuesta:** a) $\vec F = 2iB_0R\,\hat e_z$; b) $\vec F = 2iB_0R\,(-\hat e_z)$; c) $\vec F = 2iB_0R\,(-\hat e_z)$; d) el alambre tendería a rotar alrededor del eje Y.
+**Respuesta:** a) $\vec F = 2iB_0R\ \hat e_z$; b) $\vec F = 2iB_0R\ (-\hat e_z)$; c) $\vec F = 2iB_0R\ (-\hat e_z)$; d) el alambre tendería a rotar alrededor del eje Y.
 
 </details>
 
@@ -457,11 +457,11 @@ c) halle la expresión de la intensidad *B<sub>0</sub>* del campo magnético.
 
 **Resolución.**
 
-**Paso 1 — Fuerza sobre la semiespira.** En un campo uniforme, equivale a la de la cuerda que une los extremos. La corriente recorre el arco desde el extremo izquierdo hasta el derecho (sentido horario visto desde +Z), así que la cuerda es $\vec L = 2R\,\hat e_x$:
+**Paso 1 — Fuerza sobre la semiespira.** En un campo uniforme, equivale a la de la cuerda que une los extremos. La corriente recorre el arco desde el extremo izquierdo hasta el derecho (sentido horario visto desde +Z), así que la cuerda es $\vec L = 2R\ \hat e_x$:
 
-$$\vec F = i\,(2R\,\hat e_x)\times\vec B$$
+$$\vec F = i\ (2R\ \hat e_x)\times\vec B$$
 
-**Paso 2 — Dirección de B (ítem a).** La fuerza tiene que compensar el peso, así que debe apuntar en $+\hat e_y$. Como $\hat e_x\times(-\hat e_z) = \hat e_y$, el campo tiene que ser $\vec B = B_0\,(-\hat e_z)$.
+**Paso 2 — Dirección de B (ítem a).** La fuerza tiene que compensar el peso, así que debe apuntar en $+\hat e_y$. Como $\hat e_x\times(-\hat e_z) = \hat e_y$, el campo tiene que ser $\vec B = B_0\ (-\hat e_z)$.
 
 **Paso 3 — Alambres de conexión (ítem b).** Para que no sientan fuerza, tienen que ser **paralelos a $\vec B$** (es decir, ir en la dirección Z): así $d\vec\ell\times\vec B = 0$.
 
@@ -506,7 +506,7 @@ b) si la corriente fuera de 2A, calcule la aceleración de la barra a lo largo d
 
 **Paso 2 — Proyectar sobre el plano.** Es el mismo esquema que el ejemplo de clase. A lo largo del plano (positivo hacia abajo):
 
-$$m\,a = mg\sin\alpha - iLB\cos\alpha$$
+$$m\ a = mg\sin\alpha - iLB\cos\alpha$$
 
 **Paso 3 — Equilibrio (ítem a).** $a = 0$:
 
@@ -559,7 +559,7 @@ Calcule el campo magnético generado a una distancia *R* por un alambre recto in
 
 **Paso 2 — Ampère.** En una circunferencia de radio $R$ centrada en el alambre, $\vec B\parallel d\vec\ell$ y $|\vec B|$ es constante:
 
-$$\oint\vec B\cdot d\vec\ell = B\,2\pi R = \mu_0 i \quad\Rightarrow\quad \vec B = \frac{\mu_0 i}{2\pi R}\,\hat e_\phi$$
+$$\oint\vec B\cdot d\vec\ell = B\ 2\pi R = \mu_0 i \quad\Rightarrow\quad \vec B = \frac{\mu_0 i}{2\pi R}\ \hat e_\phi$$
 
 (Se obtiene lo mismo con Biot-Savart, $\theta_1 = -\pi/2$, $\theta_2 = \pi/2$.)
 
@@ -567,7 +567,7 @@ $$\oint\vec B\cdot d\vec\ell = B\,2\pi R = \mu_0 i \quad\Rightarrow\quad \vec B 
 
 </details>
 
-**Respuesta:** $\vec B = \dfrac{\mu_0 i}{2\pi R}\,\hat e_\phi$. Si se invierte el sentido de $i$, el campo tiene sentido opuesto.
+**Respuesta:** $\vec B = \dfrac{\mu_0 i}{2\pi R}\ \hat e_\phi$. Si se invierte el sentido de $i$, el campo tiene sentido opuesto.
 
 </details>
 
@@ -594,13 +594,13 @@ b) las corrientes son antiparalelas. (μ<sub>0</sub>=4π×10<sup>−7</sup> N/A<
 - Dos hilos paralelos a 0,6 m, con 0,2 A y 0,3 A.
 - **Qué piden:** la fuerza por metro que uno hace sobre el otro, con las corrientes en el mismo sentido y en sentidos opuestos.
 
-**La idea, desde cero.** Cada hilo está dentro del campo del otro. El hilo de arriba produce, en el de abajo, $B = \mu_0 i_1/(2\pi D)$ (Ampère), perpendicular al hilo. Sobre un metro del hilo de abajo actúa $F = i_2\cdot1\cdot B$ (fuerza sobre un cable, $i\,\vec\ell\times\vec B$). Haciendo el producto vectorial con las direcciones se ve que las corrientes del mismo sentido se atraen y las de sentido opuesto se repelen. El módulo es el mismo en los dos casos.
+**La idea, desde cero.** Cada hilo está dentro del campo del otro. El hilo de arriba produce, en el de abajo, $B = \mu_0 i_1/(2\pi D)$ (Ampère), perpendicular al hilo. Sobre un metro del hilo de abajo actúa $F = i_2\cdot1\cdot B$ (fuerza sobre un cable, $i\ \vec\ell\times\vec B$). Haciendo el producto vectorial con las direcciones se ve que las corrientes del mismo sentido se atraen y las de sentido opuesto se repelen. El módulo es el mismo en los dos casos.
 
 **Resolución.**
 
 **Paso 1 — Fórmula.** El hilo inferior está en el campo del superior, $B = \mu_0 i_1/(2\pi D)$, perpendicular a él:
 
-$$\frac F\ell = i_2\,B = \frac{\mu_0\,i_1i_2}{2\pi D}$$
+$$\frac F\ell = i_2\ B = \frac{\mu_0\ i_1i_2}{2\pi D}$$
 
 **Paso 2 — Cálculo.**
 
@@ -688,7 +688,7 @@ c) el tiempo que le lleva a la carga desplazarse hasta un punto B, situado a 0,7
 - Dos alambres paralelos a 1,5 m (corrientes de 2 mA y 3 mA en el mismo sentido) y una carga de 2 μC que va del alambre de abajo al de arriba a 0,05 m/s.
 - **a)** La fuerza sobre la carga cuando pasa por A (a 0,6 m del de abajo). **b)** El campo entre los alambres. **c)** Cuánto tarda en llegar a B (a 0,7 m).
 
-**La idea, desde cero.** Entre dos hilos con corrientes del mismo sentido, sus campos apuntan en sentidos opuestos y se restan; puede haber un punto donde se cancelan. La fuerza sobre la carga es $q\,\vec v\times\vec B$: si en el punto $B = 0$, la fuerza es cero. Además, la fuerza magnética nunca cambia la rapidez (es perpendicular a la velocidad), así que el tiempo es distancia sobre velocidad.
+**La idea, desde cero.** Entre dos hilos con corrientes del mismo sentido, sus campos apuntan en sentidos opuestos y se restan; puede haber un punto donde se cancelan. La fuerza sobre la carga es $q\ \vec v\times\vec B$: si en el punto $B = 0$, la fuerza es cero. Además, la fuerza magnética nunca cambia la rapidez (es perpendicular a la velocidad), así que el tiempo es distancia sobre velocidad.
 
 **Resolución.**
 
@@ -732,9 +732,9 @@ La figura muestra un alambre recto semiinfinito circulado por una corriente de i
 - Un alambre semiinfinito sobre el semieje $z > 0$, con corriente $i$.
 - **Qué piden:** el campo a distancia $R$ del eje, tanto en puntos enfrentados al alambre ($z_0 > 0$) como en puntos enfrentados a la parte sin cable ($z_0 < 0$).
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Acá un extremo está en el infinito ($\sin\theta_2 = 1$) y el otro en el origen, que visto desde el punto está a una altura $-z_0$.
 
@@ -784,9 +784,9 @@ La figura muestra un segmento rectilíneo de alambre, de longitud *L*, que condu
 - Un segmento recto de largo $L$ con corriente $i$, y un punto P a distancia $R$ de su recta y a una altura $h > L/2$ del centro del segmento: el pie de la perpendicular cae **afuera** del segmento.
 - **Qué piden:** el campo en P.
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Como el pie de la perpendicular cae afuera del segmento, los dos extremos quedan del mismo lado: los dos senos tienen el mismo signo y se **restan**.
 
@@ -835,9 +835,9 @@ b) del valor del campo magnético generado por la corriente *i* en un punto P si
 - Un alambre en forma de U abierta: dos ramas horizontales semiinfinitas separadas $L$, unidas por un lado vertical de largo $L$, con corriente $i$.
 - **a)** La fuerza por metro que la rama de arriba hace sobre la de abajo, lejos de la esquina. **b)** El campo en un punto P a distancia $D$ a la izquierda del lado vertical, a media altura.
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Para la fuerza: lejos de la esquina, la rama de arriba se ve como un hilo infinito, y las corrientes en las dos ramas van en sentidos opuestos, así que se repelen. Para el campo en P: se suman los tres tramos (dos semiinfinitos y uno finito), cada uno con su sentido.
 
@@ -851,7 +851,7 @@ $$B = \frac{\mu_0 i}{4\pi L}\left(1 + \frac{1}{\sqrt{1 + L^2/z_0^2}}\right)\xrig
 
 Las corrientes son antiparalelas, así que se repelen. Sobre el alambre inferior la fuerza va hacia abajo:
 
-$$\frac{\vec F}{\ell} = i\,B\,(-\hat e_y) = \frac{\mu_0 i^2}{2\pi L}\,(-\hat e_y)$$
+$$\frac{\vec F}{\ell} = i\ B\ (-\hat e_y) = \frac{\mu_0 i^2}{2\pi L}\ (-\hat e_y)$$
 
 **Paso 2 — Ítem b: ramas horizontales.** P está a $L/2$ de cada rama, enfrentado a ellas (el pie de la perpendicular cae sobre el alambre, a una distancia $D$ de su extremo). Con el ejercicio 15, $R = L/2$, $z_0 = D$:
 
@@ -861,13 +861,13 @@ Sentidos: rama superior (corriente $+x$, P abajo): $\hat e_x\times(-\hat e_y) = 
 
 **Paso 3 — Ítem b: lado vertical.** P está en la mediatriz del segmento de longitud $L$, a distancia $D$:
 
-$$B_{vert} = \frac{\mu_0 i}{4\pi D}\cdot2\cdot\frac{L/2}{\sqrt{L^2/4 + D^2}} = \frac{\mu_0 i}{\pi}\,\frac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}$$
+$$B_{vert} = \frac{\mu_0 i}{4\pi D}\cdot2\cdot\frac{L/2}{\sqrt{L^2/4 + D^2}} = \frac{\mu_0 i}{\pi}\ \frac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}$$
 
 Sentido: corriente $-\hat e_y$, P a la izquierda: $(-\hat e_y)\times(-\hat e_x) = -\hat e_z$.
 
 **Paso 4 — Suma.**
 
-$$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \frac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right]\,(-\hat e_z)$$
+$$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \frac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right]\ (-\hat e_z)$$
 
 > La guía escribe $\dfrac2L$ en lugar de $\dfrac1L$ y $\sqrt{L^2/(4D^2)}$ en lugar de $\sqrt{1 + L^2/(4D^2)}$. Con el resultado del ejercicio 15, cada rama aporta $\frac{\mu_0 i}{2\pi L}(1 + \dots)$ y las dos juntas $\frac{\mu_0 i}{\pi L}(1 + \dots)$.
 
@@ -876,7 +876,7 @@ $$\vec B = \frac{\mu_0 i}{\pi}\left[\frac1L\left(1 + \frac{1}{\sqrt{1 + \frac{L^
 **Respuesta:**
 
 - a) $\dfrac{\vec F}{\ell} = \dfrac{\mu_0 i^2}{2\pi L}(-\hat e_y)$
-- b) $\vec B = \dfrac{\mu_0 i}{\pi}\left[\dfrac1L\left(1 + \dfrac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \dfrac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right]\,(-\hat e_z)$ (la guía: $\dfrac{\mu_0 i}{\pi}\left[\dfrac2L\left(1 + \dfrac{1}{\sqrt{L^2/4D^2}}\right) + \dfrac{L}{4D\sqrt{L^2/4 + D^2}}\right]\,(-\hat e_z)$; ver nota)
+- b) $\vec B = \dfrac{\mu_0 i}{\pi}\left[\dfrac1L\left(1 + \dfrac{1}{\sqrt{1 + \frac{L^2}{4D^2}}}\right) + \dfrac{L}{4D\sqrt{\frac{L^2}{4} + D^2}}\right]\ (-\hat e_z)$ (la guía: $\dfrac{\mu_0 i}{\pi}\left[\dfrac2L\left(1 + \dfrac{1}{\sqrt{L^2/4D^2}}\right) + \dfrac{L}{4D\sqrt{L^2/4 + D^2}}\right]\ (-\hat e_z)$; ver nota)
 
 </details>
 
@@ -901,9 +901,9 @@ Calcule el campo magnético generado en su centro por una espira cuadrada de lad
 - Una espira cuadrada de lado $L$ con corriente $i$.
 - **Qué piden:** el campo en su centro.
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Cada lado es un tramo recto visto desde su mediatriz, a distancia $L/2$, y ve sus extremos a $\pm45^\circ$. Los cuatro lados aportan lo mismo y en el mismo sentido (perpendicular al plano), así que se multiplica por 4.
 
@@ -915,13 +915,13 @@ $$B_{lado} = \frac{\mu_0 i}{4\pi(L/2)}\left(\sin45^\circ - \sin(-45^\circ)\right
 
 **Paso 2 — Cuatro lados.** Todos aportan lo mismo y en el mismo sentido:
 
-$$B = 4\,B_{lado} = 2\sqrt2\,\frac{\mu_0 i}{\pi L}$$
+$$B = 4\ B_{lado} = 2\sqrt2\ \frac{\mu_0 i}{\pi L}$$
 
 **Paso 3 — Sentido.** En la figura la corriente circula en sentido **horario** (en el lado superior va hacia la derecha), así que el campo en el centro es **entrante**: $-\hat e_z$.
 
 </details>
 
-**Respuesta:** $\vec B = 2\sqrt2\,\dfrac{\mu_0 i}{\pi L}\,(-\hat e_z)$
+**Respuesta:** $\vec B = 2\sqrt2\ \dfrac{\mu_0 i}{\pi L}\ (-\hat e_z)$
 
 </details>
 
@@ -946,9 +946,9 @@ La figura muestra un sector de un conductor recto y de gran longitud, por el que
 - Un cable largo doblado en ángulo recto en el origen: llega por el eje X y sale por el eje Y, con 8 A.
 - **Qué piden:** el campo (vector) en el punto P = (0; 0; 0,5 m), sobre el eje Z.
 
-**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\,dx}{\sqrt{x^2 + R^2}}$, y la integral da
+**La idea, desde cero.** El campo de un cable es la suma de lo que aporta cada pedacito, según Biot-Savart: $d\vec B = \dfrac{\mu_0 i}{4\pi}\dfrac{d\vec l\times\hat r}{r^2}$, con $\hat r$ apuntando del pedacito al punto. Para un tramo recto, con el punto a distancia $R$ de su recta y $x$ medido desde el pie de la perpendicular, $\lvert d\vec l\times\hat r\rvert = \dfrac{R\ dx}{\sqrt{x^2 + R^2}}$, y la integral da
 
-$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\,dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
+$$B = \frac{\mu_0 i}{4\pi}\int_{x_1}^{x_2}\frac{R\ dx}{(x^2 + R^2)^{3/2}} = \frac{\mu_0 i}{4\pi R}\left[\frac{x}{\sqrt{x^2 + R^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 i}{4\pi R}(\sin\theta_2 - \sin\theta_1)$$
 
 (primitiva con $x = R\tan u$). $\theta$ es el ángulo con que el punto ve cada extremo, medido desde la perpendicular y con signo. Un tramo que apunta directo hacia el punto no aporta nada, porque ahí $d\vec l\parallel\hat r$. Cada tramo es semiinfinito y P está frente a su extremo (el origen), así que el corchete vale $1 - 0$ y cada uno aporta $\mu_0 i/(4\pi R)$. Pero los dos aportes apuntan en direcciones distintas, porque los tramos están sobre ejes distintos: hay que sumarlos como vectores.
 
@@ -1006,21 +1006,21 @@ c) escriba ahora la expresión que permite calcular el campo generado por un ani
 
 **Resolución.**
 
-**Paso 1 — Biot-Savart.** Elemento en $\vec r' = R(\cos\phi';\ \sin\phi';\ 0)$, con $d\vec\ell = R\,d\phi'(-\sin\phi';\ \cos\phi';\ 0)$. Vector del elemento al punto $(0;0;z)$: $(-R\cos\phi';\ -R\sin\phi';\ z)$, de módulo $\sqrt{R^2 + z^2}$.
+**Paso 1 — Biot-Savart.** Elemento en $\vec r' = R(\cos\phi';\ \sin\phi';\ 0)$, con $d\vec\ell = R\ d\phi'(-\sin\phi';\ \cos\phi';\ 0)$. Vector del elemento al punto $(0;0;z)$: $(-R\cos\phi';\ -R\sin\phi';\ z)$, de módulo $\sqrt{R^2 + z^2}$.
 
 **Paso 2 — Producto vectorial.**
 
-$$d\vec\ell\times(\vec r - \vec r') = R\,d\phi'\,(z\cos\phi';\ z\sin\phi';\ R)$$
+$$d\vec\ell\times(\vec r - \vec r') = R\ d\phi'\ (z\cos\phi';\ z\sin\phi';\ R)$$
 
-$$\vec B(z) = \frac{\mu_0 i}{4\pi}\int\frac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi'$$
+$$\vec B(z) = \frac{\mu_0 i}{4\pi}\int\frac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi'$$
 
 **Paso 3 — Ítem a (de 0 a 2π).** Las integrales de $\cos\phi'$ y $\sin\phi'$ se anulan:
 
-$$\vec B(z) = \frac{\mu_0 i}{4\pi}\,\frac{2\pi R^2}{(R^2 + z^2)^{3/2}}\,\hat e_z = \frac{\mu_0 i}{2}\,\frac{R^2}{(R^2 + z^2)^{3/2}}\,\hat e_z$$
+$$\vec B(z) = \frac{\mu_0 i}{4\pi}\ \frac{2\pi R^2}{(R^2 + z^2)^{3/2}}\ \hat e_z = \frac{\mu_0 i}{2}\ \frac{R^2}{(R^2 + z^2)^{3/2}}\ \hat e_z$$
 
 **Paso 4 — Ítem b (de 0 a π).** $\int_0^\pi\cos\phi' = 0$, $\int_0^\pi\sin\phi' = 2$, $\int_0^\pi d\phi' = \pi$:
 
-$$\vec B(z) = \frac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\,\hat e_y + \pi R^2\,\hat e_z\right)$$
+$$\vec B(z) = \frac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\ \hat e_y + \pi R^2\ \hat e_z\right)$$
 
 Ahora aparece una componente perpendicular al eje, porque la media espira no es simétrica. La componente $z$ es la mitad de la del anillo completo, como era de esperar.
 
@@ -1030,9 +1030,9 @@ Ahora aparece una componente perpendicular al eje, porque la media espira no es 
 
 **Respuesta:**
 
-- a) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{2\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi' = \dfrac{\mu_0 i}{2}\,\dfrac{R^2}{(R^2 + z^2)^{3/2}}\,\hat e_z$
-- b) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi' = \dfrac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\,\hat e_y + \pi R^2\,\hat e_z\right)$
-- c) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_{\phi_1}^{\phi_2}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\,d\phi'$
+- a) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{2\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi' = \dfrac{\mu_0 i}{2}\ \dfrac{R^2}{(R^2 + z^2)^{3/2}}\ \hat e_z$
+- b) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^{\pi}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi' = \dfrac{\mu_0 i}{4\pi(R^2 + z^2)^{3/2}}\left(2Rz\ \hat e_y + \pi R^2\ \hat e_z\right)$
+- c) $\vec B(z) = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_{\phi_1}^{\phi_2}\dfrac{(Rz\cos\phi';\ Rz\sin\phi';\ R^2)}{(R^2 + z^2)^{3/2}}\ d\phi'$
 
 (La guía escribe en b el factor $\dfrac{\mu_0 i}{4(R^2 + z^2)^{3/2}}$, sin $\pi$ en el denominador. Así, la componente $z$ quedaría $\pi/2$ veces la del anillo completo, cuando tiene que ser la mitad: falta el $\pi$.)
 
@@ -1061,7 +1061,7 @@ Halle la expresión del vector ***B*** en el centro *C* de las siguientes config
 - Varias configuraciones de semicircunferencias concéntricas unidas por tramos rectos que apuntan al centro C, más una sucesión infinita (d).
 - **Qué piden:** el campo en C en cada caso.
 
-**La idea, desde cero.** Dos herramientas. (1) Un tramo recto cuya prolongación pasa por C no aporta campo en C, porque cada pedacito apunta hacia C ($d\vec l\parallel\hat r$). (2) Una semicircunferencia de radio $R$ centrada en C aporta $\dfrac{\mu_0 i}{4R}$. Sale de Biot-Savart: cada pedacito está a distancia $R$ y es perpendicular al radio, así que $B = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^\pi\frac{R\,d\varphi}{R^2} = \dfrac{\mu_0 i}{4R}$. El sentido sale de la mano derecha: recorrida antihoraria → saliente; horaria → entrante. Después se suma con signos.
+**La idea, desde cero.** Dos herramientas. (1) Un tramo recto cuya prolongación pasa por C no aporta campo en C, porque cada pedacito apunta hacia C ($d\vec l\parallel\hat r$). (2) Una semicircunferencia de radio $R$ centrada en C aporta $\dfrac{\mu_0 i}{4R}$. Sale de Biot-Savart: cada pedacito está a distancia $R$ y es perpendicular al radio, así que $B = \dfrac{\mu_0 i}{4\pi}\displaystyle\int_0^\pi\frac{R\ d\varphi}{R^2} = \dfrac{\mu_0 i}{4R}$. El sentido sale de la mano derecha: recorrida antihoraria → saliente; horaria → entrante. Después se suma con signos.
 
 **Resolución.**
 
@@ -1084,11 +1084,11 @@ $$\vec B = \frac{\mu_0 i}{4}\left(\frac{1}{R_3} + \frac{1}{R_1} - \frac{1}{R_2}\
 
 **Paso 5 — (d).** Las semiespiras consecutivas se recorren alternadamente en un sentido y en el otro. Cada una aporta
 
-$$\frac{\mu_0 i_n}{4R_n} = \frac{\mu_0\,(i_0/n^2)}{4\,r_a/(2n)} = \frac{\mu_0 i_0}{2r_a}\cdot\frac1n$$
+$$\frac{\mu_0 i_n}{4R_n} = \frac{\mu_0\ (i_0/n^2)}{4\ r_a/(2n)} = \frac{\mu_0 i_0}{2r_a}\cdot\frac1n$$
 
 con signos alternados $(-1)^n$:
 
-$$\vec B = \frac{\mu_0 i_0}{2r_a}\sum_{n=1}^\infty\frac{(-1)^n}{n}\,\hat e_z = \frac{\mu_0 i_0}{2r_a}(-\ln2)\,\hat e_z = \frac{\mu_0 i}{2r_a}\ln2\,(-\hat e_z)$$
+$$\vec B = \frac{\mu_0 i_0}{2r_a}\sum_{n=1}^\infty\frac{(-1)^n}{n}\ \hat e_z = \frac{\mu_0 i_0}{2r_a}(-\ln2)\ \hat e_z = \frac{\mu_0 i}{2r_a}\ln2\ (-\hat e_z)$$
 
 **Paso 6 — Invertir la corriente.** En todos los casos el campo cambia de sentido (el módulo no cambia).
 
@@ -1149,7 +1149,7 @@ $$\vec B(z) = \frac{\mu_0 n i}{2}\left(\frac{z}{(r_a^2 + z^2)^{1/2}} + \frac{L -
 
 o, equivalentemente
 
-$$\vec B(z) = \frac{\mu_0 n i}{2}(\cos\phi_I + \cos\phi_D)\,\hat e_z$$
+$$\vec B(z) = \frac{\mu_0 n i}{2}(\cos\phi_I + \cos\phi_D)\ \hat e_z$$
 
 (Observe que este resultado es válido para puntos dentro o fuera del solenoide, pero siempre sobre su eje de simetría axial).
 
@@ -1166,27 +1166,27 @@ $$\vec B(z) = \frac{\mu_0 n i}{2}(\cos\phi_I + \cos\phi_D)\,\hat e_z$$
 - Un solenoide (muchas espiras de radio $r_a$, $n$ por metro, a lo largo de un largo $L$).
 - **Qué piden:** demostrar la fórmula del campo en el eje integrando el campo de los anillos.
 
-**La idea, desde cero.** Un solenoide es una pila de anillos. Una rebanada de espesor $dz'$ contiene $n\,dz'$ espiras, o sea que equivale a un anillo con corriente $n\,i\,dz'$. Su campo en el eje es el del anillo (ejercicio 20), y sumando (integrando) todas las rebanadas sale el campo del solenoide.
+**La idea, desde cero.** Un solenoide es una pila de anillos. Una rebanada de espesor $dz'$ contiene $n\ dz'$ espiras, o sea que equivale a un anillo con corriente $n\ i\ dz'$. Su campo en el eje es el del anillo (ejercicio 20), y sumando (integrando) todas las rebanadas sale el campo del solenoide.
 
 **Resolución.**
 
-**Paso 1 — Un elemento.** Una rebanada de espesor $dz'$ en la posición $z'$ contiene $n\,dz'$ espiras: equivale a un anillo con corriente $di = n\,i\,dz'$. Su campo en $z$ (ejercicio 20a):
+**Paso 1 — Un elemento.** Una rebanada de espesor $dz'$ en la posición $z'$ contiene $n\ dz'$ espiras: equivale a un anillo con corriente $di = n\ i\ dz'$. Su campo en $z$ (ejercicio 20a):
 
-$$dB = \frac{\mu_0\,n\,i\,dz'}{2}\,\frac{r_a^2}{\left(r_a^2 + (z - z')^2\right)^{3/2}}$$
+$$dB = \frac{\mu_0\ n\ i\ dz'}{2}\ \frac{r_a^2}{\left(r_a^2 + (z - z')^2\right)^{3/2}}$$
 
 **Paso 2 — Integrar de 0 a L.** Con $u = z' - z$ y la primitiva $\displaystyle\int\frac{du}{(u^2 + r_a^2)^{3/2}} = \frac{u}{r_a^2\sqrt{u^2 + r_a^2}}$:
 
-$$B(z) = \frac{\mu_0 n i\,r_a^2}{2}\left[\frac{u}{r_a^2\sqrt{u^2 + r_a^2}}\right]_{-z}^{L - z} = \frac{\mu_0 n i}{2}\left(\frac{L - z}{\sqrt{r_a^2 + (L - z)^2}} + \frac{z}{\sqrt{r_a^2 + z^2}}\right)$$
+$$B(z) = \frac{\mu_0 n i\ r_a^2}{2}\left[\frac{u}{r_a^2\sqrt{u^2 + r_a^2}}\right]_{-z}^{L - z} = \frac{\mu_0 n i}{2}\left(\frac{L - z}{\sqrt{r_a^2 + (L - z)^2}} + \frac{z}{\sqrt{r_a^2 + z^2}}\right)$$
 
 **Paso 3 — Forma con ángulos.** $\dfrac{z}{\sqrt{r_a^2 + z^2}}$ es el coseno del ángulo $\phi_I$ con que se ve el borde del extremo izquierdo desde el punto, y $\dfrac{L - z}{\sqrt{r_a^2 + (L - z)^2}}$ el de $\phi_D$:
 
-$$\vec B(z) = \frac{\mu_0 n i}{2}(\cos\phi_I + \cos\phi_D)\,\hat e_z\ ✓$$
+$$\vec B(z) = \frac{\mu_0 n i}{2}(\cos\phi_I + \cos\phi_D)\ \hat e_z\ ✓$$
 
 Afuera del solenoide uno de los cosenos resulta negativo y la expresión sigue valiendo.
 
 </details>
 
-**Respuesta:** Queda demostrado integrando anillos de corriente $di = n\,i\,dz'$ a lo largo de la longitud del solenoide.
+**Respuesta:** Queda demostrado integrando anillos de corriente $di = n\ i\ dz'$ a lo largo de la longitud del solenoide.
 
 </details>
 
@@ -1215,19 +1215,19 @@ A partir del ejercicio anterior, calcule el campo magnético en cada punto del e
 
 **Paso 1 — Solenoide infinito.** Si los extremos están muy lejos del punto comparados con el radio, $\phi_I, \phi_D \to 0$ y ambos cosenos valen 1:
 
-$$\vec B_{sol} = \mu_0\,n\,i\,\hat e_z$$
+$$\vec B_{sol} = \mu_0\ n\ i\ \hat e_z$$
 
 Condición: $L \gg r_{espira}$ (y el punto lejos de los extremos).
 
 **Paso 2 — Toroide.** Es un solenoide "doblado" sobre sí mismo: no tiene extremos. Si su radio es mucho mayor que el de las espiras, localmente se ve como un solenoide infinito, con el campo a lo largo del toro:
 
-$$\vec B_{tor} = \mu_0\,n\,i\,\hat e_\phi$$
+$$\vec B_{tor} = \mu_0\ n\ i\ \hat e_\phi$$
 
 Condición: $R_{tor} \gg r_{espira}$ (y $n = N/(2\pi R_{tor})$).
 
 </details>
 
-**Respuesta:** $\vec B_{sol} = \mu_0 n i\,\hat e_z$ (válido si $L \gg r_{espira}$); $\vec B_{tor} = \mu_0 n i\,\hat e_\phi$ (válido si $R_{tor} \gg r_{espira}$)
+**Respuesta:** $\vec B_{sol} = \mu_0 n i\ \hat e_z$ (válido si $L \gg r_{espira}$); $\vec B_{tor} = \mu_0 n i\ \hat e_\phi$ (válido si $R_{tor} \gg r_{espira}$)
 
 </details>
 
@@ -1258,7 +1258,7 @@ Calcule el campo magnético en un punto sobre el eje, y a 8 cm de uno de los ext
 
 $$B_{exacto} = \frac{\mu_0 n i}{2}\left(\frac{z}{\sqrt{r_a^2 + z^2}} + \frac{L - z}{\sqrt{r_a^2 + (L - z)^2}}\right)$$
 
-**Paso 3 — Expresión aproximada (solenoide infinito).** $B_{aprox} = \mu_0\,n\,i$.
+**Paso 3 — Expresión aproximada (solenoide infinito).** $B_{aprox} = \mu_0\ n\ i$.
 
 **Paso 4 — Cálculo.**
 
@@ -1266,7 +1266,7 @@ $$\mu_0 n i = 4\pi\times10^{-7}\cdot3000\cdot0{,}2\ \text{T} = 7{,}54\times10^{-
 
 $$\frac{0{,}08}{\sqrt{0{,}0036 + 0{,}0064}} = 0{,}8 \qquad \frac{0{,}06}{\sqrt{0{,}0036 + 0{,}0036}} = 0{,}707$$
 
-$$B_{exacto} = \frac{7{,}54\times10^{-4}}{2}\,(0{,}8 + 0{,}707)\ \text{T} = 5{,}68\times10^{-4}\ \text{T}$$
+$$B_{exacto} = \frac{7{,}54\times10^{-4}}{2}\ (0{,}8 + 0{,}707)\ \text{T} = 5{,}68\times10^{-4}\ \text{T}$$
 
 La diferencia es grande (≈ 25 %): el solenoide **no es largo** comparado con el radio de sus espiras (14 cm contra 6 cm), así que la aproximación de solenoide infinito no es buena.
 
@@ -1303,7 +1303,7 @@ Repita el cálculo del ejercicio anterior suponiendo ahora que el radio de las e
 
 $$\frac{0{,}08}{\sqrt{0{,}006^2 + 0{,}08^2}} = 0{,}9972 \qquad \frac{0{,}06}{\sqrt{0{,}006^2 + 0{,}06^2}} = 0{,}9950$$
 
-$$B_{exacto} = \frac{7{,}54\times10^{-4}}{2}\,(0{,}9972 + 0{,}9950)\ \text{T} = 7{,}5\times10^{-4}\ \text{T}$$
+$$B_{exacto} = \frac{7{,}54\times10^{-4}}{2}\ (0{,}9972 + 0{,}9950)\ \text{T} = 7{,}5\times10^{-4}\ \text{T}$$
 
 **Paso 2 — Aproximado:** $B_{aprox} = \mu_0 n i = 7{,}53\times10^{-4}$ T, como antes.
 
@@ -1342,7 +1342,7 @@ Indique cuáles son las dos proposiciones correctas del siguiente conjunto de en
 
 - Ocho afirmaciones sobre campos magnéticos; dos son correctas.
 
-**La idea, desde cero.** Lo que hay que tener presente: la fuerza magnética $q\,\vec v\times\vec B$ es perpendicular a la velocidad, así que nunca cambia la energía cinética, y es nula si la carga está quieta o se mueve paralela al campo. Entre dos hilos con corrientes opuestas los campos se suman (nunca se anulan ahí), y las corrientes opuestas se repelen. Ampère vale siempre, pero solo sirve para despejar $B$ cuando hay mucha simetría. El campo de un solenoide real no es uniforme cerca de los extremos.
+**La idea, desde cero.** Lo que hay que tener presente: la fuerza magnética $q\ \vec v\times\vec B$ es perpendicular a la velocidad, así que nunca cambia la energía cinética, y es nula si la carga está quieta o se mueve paralela al campo. Entre dos hilos con corrientes opuestas los campos se suman (nunca se anulan ahí), y las corrientes opuestas se repelen. Ampère vale siempre, pero solo sirve para despejar $B$ cuando hay mucha simetría. El campo de un solenoide real no es uniforme cerca de los extremos.
 
 **Resolución.**
 

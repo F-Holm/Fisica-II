@@ -57,7 +57,7 @@ La mitad de los puntos se pierde por sentidos mal puestos. Convención: $\hat x$
 
 $$\hat x\times\hat y = \hat k \qquad \hat y\times\hat k = \hat x \qquad \hat k\times\hat x = \hat y \qquad (\text{al revés, cambia el signo})$$
 
-- **Campo de una corriente:** pulgar en el sentido de I y los dedos dan el sentido de $\vec B$, que rodea el hilo. Formalmente, $d\vec B \propto I\,d\vec l\times\hat r$, con $\hat r$ **desde el hilo hacia el punto**.
+- **Campo de una corriente:** pulgar en el sentido de I y los dedos dan el sentido de $\vec B$, que rodea el hilo. Formalmente, $d\vec B \propto I\ d\vec l\times\hat r$, con $\hat r$ **desde el hilo hacia el punto**.
   - Hilo vertical con I hacia arriba: a su **derecha** el campo es entrante; a su **izquierda**, saliente.
 - **Espira o arco:** si la corriente gira en **sentido antihorario** visto desde el lector, el campo en el centro es **saliente**; si gira en sentido horario, entrante.
 - **Fuerza sobre una carga:** $\vec F = q\vec v\times\vec B$. Si $q < 0$, el sentido se invierte.
@@ -75,7 +75,7 @@ Teoría completa: [Biot-Savart](../5%20-%20Magnetost%C3%A1tica/teoria.md#7-ley-d
 
 **Hilo recto finito** ([teoría](../5%20-%20Magnetost%C3%A1tica/teoria.md#hilo-recto-finito)): a distancia $y$ del punto, con $\theta_1, \theta_2$ los ángulos con que se ven los extremos, medidos desde la perpendicular que pasa por P (con signo):
 
-$$B = \frac{\mu_0I}{4\pi y}\left(\mathrm{sen}\,\theta_2 - \mathrm{sen}\,\theta_1\right) \qquad \mathrm{sen}\,\theta = \frac{x_{extremo}}{\sqrt{x_{extremo}^2 + y^2}}$$
+$$B = \frac{\mu_0I}{4\pi y}\left(\mathrm{sen}\ \theta_2 - \mathrm{sen}\ \theta_1\right) \qquad \mathrm{sen}\ \theta = \frac{x_{extremo}}{\sqrt{x_{extremo}^2 + y^2}}$$
 
 | Caso | Resultado |
 |---|---|
@@ -83,10 +83,10 @@ $$B = \frac{\mu_0I}{4\pi y}\left(\mathrm{sen}\,\theta_2 - \mathrm{sen}\,\theta_1
 | [Semi-infinito](../5%20-%20Magnetost%C3%A1tica/teoria.md#hilo-semiinfinito) con el extremo **al pie** de la perpendicular | $B = \dfrac{\mu_0I}{4\pi r}$ (la mitad) |
 | Semi-infinito con el extremo **desplazado** $x_0$ del pie | $B = \dfrac{\mu_0I}{4\pi y}\left(1 \mp \dfrac{x_0}{\sqrt{x_0^2 + y^2}}\right)$ (− si el hilo arranca después del pie, + si lo cruza) |
 | Lado de longitud $\ell$, punto en su mediatriz a distancia $y$ | $B = \dfrac{\mu_0I}{4\pi y}\cdot\dfrac{\ell}{\sqrt{(\ell/2)^2 + y^2}}$ |
-| [Arco de ángulo Δθ](../5%20-%20Magnetost%C3%A1tica/teoria.md#arco-de-circunferencia-en-el-centro), en su centro | $B = \dfrac{\mu_0I\,\Delta\theta}{4\pi R}$ (semicírculo: $\mu_0I/4R$) |
+| [Arco de ángulo Δθ](../5%20-%20Magnetost%C3%A1tica/teoria.md#arco-de-circunferencia-en-el-centro), en su centro | $B = \dfrac{\mu_0I\ \Delta\theta}{4\pi R}$ (semicírculo: $\mu_0I/4R$) |
 | [Espira circular](../5%20-%20Magnetost%C3%A1tica/teoria.md#espira-circular-en-su-eje), en el centro | $B = \dfrac{\mu_0I}{2R}$ |
 | Espira circular, en el eje a distancia $z$ | $B = \dfrac{\mu_0IR^2}{2(R^2 + z^2)^{3/2}}$ |
-| Espira cuadrada de lado $a$, centro | $B = \dfrac{2\sqrt2\,\mu_0I}{\pi a}$ |
+| Espira cuadrada de lado $a$, centro | $B = \dfrac{2\sqrt2\ \mu_0I}{\pi a}$ |
 | Espira rectangular $a\times b$, centro | $B = \dfrac{2\mu_0I\sqrt{a^2 + b^2}}{\pi ab}$ |
 
 ### Método para un hilo doblado (o una figura con tramos)
@@ -132,14 +132,14 @@ $$B_i = \frac{\mu_0I_i}{2\pi r_i} \qquad \frac{F}{\ell} = \frac{\mu_0I_1I_2}{2\p
 
 Teoría completa: [fuerza sobre una carga](../5%20-%20Magnetost%C3%A1tica/teoria.md#1-fuerza-magnética-sobre-una-carga), [movimiento en campo uniforme](../5%20-%20Magnetost%C3%A1tica/teoria.md#3-movimiento-de-una-carga-en-un-campo-uniforme), [fuerza sobre un conductor](../5%20-%20Magnetost%C3%A1tica/teoria.md#5-fuerza-sobre-un-conductor-con-corriente).
 
-$$\vec F = q\vec v\times\vec B \qquad |\vec F| = |q|vB\mathrm{sen}\,\theta \qquad \vec F_{conductor} = I\vec\ell\times\vec B$$
+$$\vec F = q\vec v\times\vec B \qquad |\vec F| = |q|vB\mathrm{sen}\ \theta \qquad \vec F_{conductor} = I\vec\ell\times\vec B$$
 
 - **La fuerza magnética no hace trabajo**, porque es siempre perpendicular a $\vec v$: **el módulo de la velocidad es constante**, aunque B dependa de la posición. Ejemplo: [18/02/22 Ej 2](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-2) (la respuesta es la velocidad inicial).
 - **$\vec v\perp\vec B$ uniforme:** movimiento circular uniforme con
 
 $$R = \frac{mv}{|q|B} \qquad T = \frac{2\pi m}{|q|B}$$
 
-- **$\vec v$ oblicua (ángulo θ con B):** hélice con $R = \dfrac{mv\mathrm{sen}\,\theta}{|q|B}$ y paso $p = v\cos\theta\cdot T$. Si no se conocen $m$, $q$, $v$, se despeja la combinación $mv/|q|$ de un dato y se usa en el otro. Ejemplo: [25/11/21 Ej 3](2021-11-25-2do-parcial.md#ejercicio-3).
+- **$\vec v$ oblicua (ángulo θ con B):** hélice con $R = \dfrac{mv\mathrm{sen}\ \theta}{|q|B}$ y paso $p = v\cos\theta\cdot T$. Si no se conocen $m$, $q$, $v$, se despeja la combinación $mv/|q|$ de un dato y se usa en el otro. Ejemplo: [25/11/21 Ej 3](2021-11-25-2do-parcial.md#ejercicio-3).
 - **Carga en el centro de una espira con $\vec v$ en el plano:** $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $F = |q|vB$. Ejemplo: [18/02/22 Ej 1](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-1).
 
 ---
@@ -155,7 +155,7 @@ $$M = \frac{\mu_0N_1N_2A_{chico}}{\ell} \qquad U = \frac12LI^2 \qquad u = \frac{
 - **"Justifique la fórmula":** hay que deducirla. Con Ampère, $B = \mu_0nI$; el flujo por espira es $BA$; el flujo concatenado es $N\cdot BA$; y $L = N\phi/I$.
 - **Mutua de solenoides coaxiales:** el campo del interior solo existe dentro del solenoide de **menor** radio, así que se usa **el área chica**.
 - **Pedir la longitud con L, I y B:** de B sale $n$, y de $L = \mu_0n^2A\ell$ sale $\ell$. También se puede por energía: $\tfrac12LI^2 = \dfrac{B^2}{2\mu_0}A\ell$. Ejemplos: [28/11/24 Ej 3](2024-11-28-2do-parcial.md#ejercicio-3), [simulacro Ej 3](simulacro-2do-parcial.md#ejercicio-3).
-- **Fem autoinducida con $I(t) = I_0\mathrm{sen}\,\omega t$:** $\mathcal E = -LI_0\omega\cos\omega t$. Ejemplo: [18/02/22 Ej 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4).
+- **Fem autoinducida con $I(t) = I_0\mathrm{sen}\ \omega t$:** $\mathcal E = -LI_0\omega\cos\omega t$. Ejemplo: [18/02/22 Ej 4](2022-02-18-2do-recuperatorio-2do-parcial.md#ejercicio-4).
 
 ---
 
@@ -163,13 +163,13 @@ $$M = \frac{\mu_0N_1N_2A_{chico}}{\ell} \qquad U = \frac12LI^2 \qquad u = \frac{
 
 Teoría completa: [flujo magnético](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/teoria.md#1-flujo-magnético), [Faraday-Lenz](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/teoria.md#2-ley-de-faraday-lenz), [sentido de la corriente inducida](../6%20-%20Inducci%C3%B3n%20Magn%C3%A9tica/teoria.md#3-cómo-determinar-el-sentido-de-la-corriente-inducida), [espira junto a un hilo](../5%20-%20Magnetost%C3%A1tica/teoria.md#espira-rectangular-junto-a-un-hilo).
 
-$$\phi = \int\vec B\cdot\hat n\,dS \qquad \mathcal E = -N\frac{d\phi}{dt} \qquad I_{ind} = \frac{|\mathcal E|}{R}$$
+$$\phi = \int\vec B\cdot\hat n\ dS \qquad \mathcal E = -N\frac{d\phi}{dt} \qquad I_{ind} = \frac{|\mathcal E|}{R}$$
 
 ### Flujo de un hilo infinito a través de una espira rectangular coplanar
 
-Lados $c$ (paralelo al hilo) y desde $a$ hasta $b$ de distancia al hilo. Como B depende de $x$, se integra en franjas $dS = c\,dx$:
+Lados $c$ (paralelo al hilo) y desde $a$ hasta $b$ de distancia al hilo. Como B depende de $x$, se integra en franjas $dS = c\ dx$:
 
-$$\phi = \int_a^b\frac{\mu_0I}{2\pi x}\,c\,dx = \frac{\mu_0Ic}{2\pi}\ln\frac{b}{a}$$
+$$\phi = \int_a^b\frac{\mu_0I}{2\pi x}\ c\ dx = \frac{\mu_0Ic}{2\pi}\ln\frac{b}{a}$$
 
 Con varios hilos, se suman los flujos con signo (campos opuestos restan).
 
@@ -177,8 +177,8 @@ Con varios hilos, se suman los flujos con signo (campos opuestos restan).
 
 | Qué varía | Fem | Ejemplo |
 |---|---|---|
-| La corriente: $I(t)$ | $\mathcal E = -\dfrac{\mu_0c}{2\pi}\ln\dfrac ba\,\dfrac{dI}{dt}$ | [19/02/21 Ej 3a](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-3), [25/11/21 Ej 1c](2021-11-25-2do-parcial.md#ejercicio-1) |
-| La posición: la espira se aleja, $a(t) = a_0 + vt$, $b(t) = b_0 + vt$ | $|\mathcal E| = \dfrac{\mu_0Ic}{2\pi}\,v\left(\dfrac1a - \dfrac1b\right)$ | [19/02/21 Ej 3b](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-3) |
+| La corriente: $I(t)$ | $\mathcal E = -\dfrac{\mu_0c}{2\pi}\ln\dfrac ba\ \dfrac{dI}{dt}$ | [19/02/21 Ej 3a](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-3), [25/11/21 Ej 1c](2021-11-25-2do-parcial.md#ejercicio-1) |
+| La posición: la espira se aleja, $a(t) = a_0 + vt$, $b(t) = b_0 + vt$ | $|\mathcal E| = \dfrac{\mu_0Ic}{2\pi}\ v\left(\dfrac1a - \dfrac1b\right)$ | [19/02/21 Ej 3b](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-3) |
 | El campo: $B(t)$ uniforme sobre una bobina de N vueltas | $\mathcal E = -NA\dfrac{dB}{dt}$ | [simulacro Ej 2](simulacro-2do-parcial.md#ejercicio-2) |
 
 ### Sentido (Lenz)
@@ -247,10 +247,10 @@ En resonancia $X_L = X_C$, Z = R es mínima, la corriente es máxima y $\cos\var
 1. Pasar todo a **eficaces** (el amperímetro mide eficaces; "corriente de pico" o $I_0$ en $I(t)$ es pico).
 2. $R = P/I^2$, o $R = Z\cos\varphi$.
 3. $Z = V/I = S/I^2$.
-4. $|X| = \sqrt{Z^2 - R^2} = Z\mathrm{sen}\,\varphi$, y el signo sale de la fase o de la frecuencia respecto de la resonancia.
+4. $|X| = \sqrt{Z^2 - R^2} = Z\mathrm{sen}\ \varphi$, y el signo sale de la fase o de la frecuencia respecto de la resonancia.
 5. **Con $f$ y $f_0$:** $X = \omega L - \dfrac{1}{\omega C}$ y $C = \dfrac{1}{\omega_0^2L}$ dan
 
-$$X = L\,\frac{\omega^2 - \omega_0^2}{\omega} \quad\Rightarrow\quad L = \frac{X\omega}{\omega^2 - \omega_0^2}$$
+$$X = L\ \frac{\omega^2 - \omega_0^2}{\omega} \quad\Rightarrow\quad L = \frac{X\omega}{\omega^2 - \omega_0^2}$$
 
 6. Tensión en cada elemento: $V_R = IR$, $V_L = IX_L$, $V_C = IX_C$. No se suman algebraicamente: $V = \sqrt{V_R^2 + (V_L - V_C)^2}$.
 
@@ -294,7 +294,7 @@ Ejemplos: [28/11/24 Ej 1](2024-11-28-2do-parcial.md#ejercicio-1), [12/12/24 Ej 1
 - Mezclar valores **pico** y **eficaces** en alterna.
 - Signo de X: decidirlo con la fase (adelanta → capacitivo) o con la frecuencia respecto de la resonancia. No suponerlo.
 - Inductancia mutua con el área del solenoide grande (va la del **chico**).
-- Ángulos de 0,01 s en $\mathrm{sen}\,(100\pi t)$: la calculadora tiene que estar en **radianes**.
+- Ángulos de 0,01 s en $\mathrm{sen}\ (100\pi t)$: la calculadora tiene que estar en **radianes**.
 - Olvidar N (el número de vueltas) en Faraday.
 - Polaridad de una barra: el extremo **hacia donde empuja** $\vec v\times\vec B$ a las cargas positivas es el de **mayor** potencial.
 
@@ -307,8 +307,8 @@ Ejemplos: [28/11/24 Ej 1](2024-11-28-2do-parcial.md#ejercicio-1), [12/12/24 Ej 1
 | Fuerza sobre una carga | $\vec F = q\vec v\times\vec B$ |
 | Fuerza sobre un conductor | $\vec F = I\vec\ell\times\vec B$ |
 | MCU | $R = mv/(\lvert q\rvert B)$, $T = 2\pi m/(\lvert q\rvert B)$ |
-| Hélice | paso $p = v\cos\theta\,T$ |
-| Hilo finito | $B = \frac{\mu_0I}{4\pi y}(\mathrm{sen}\,\theta_2 - \mathrm{sen}\,\theta_1)$ |
+| Hélice | paso $p = v\cos\theta\ T$ |
+| Hilo finito | $B = \frac{\mu_0I}{4\pi y}(\mathrm{sen}\ \theta_2 - \mathrm{sen}\ \theta_1)$ |
 | Hilo infinito | $B = \mu_0I/(2\pi r)$ |
 | Arco (centro) | $B = \mu_0I\Delta\theta/(4\pi R)$ |
 | Espira circular (centro / eje) | $\mu_0I/(2R)$ / $\mu_0IR^2/[2(R^2 + z^2)^{3/2}]$ |
@@ -316,7 +316,7 @@ Ejemplos: [28/11/24 Ej 1](2024-11-28-2do-parcial.md#ejercicio-1), [12/12/24 Ej 1
 | Hilos paralelos | $F/\ell = \mu_0I_1I_2/(2\pi D)$ |
 | Solenoide | $B = \mu_0nI$, $L = \mu_0N^2A/\ell$, $M = \mu_0N_1N_2A_{chico}/\ell$ |
 | Energía magnética | $U = \tfrac12LI^2$, $u = B^2/(2\mu_0)$ |
-| Faraday | $\mathcal E = -N\,d\phi/dt$ |
+| Faraday | $\mathcal E = -N\ d\phi/dt$ |
 | Flujo hilo → espira | $\phi = \frac{\mu_0Ic}{2\pi}\ln(b/a)$ |
 | Fem de movimiento | $\mathcal E = BLv$; barra que gira $\tfrac12B\omega L^2$; junto a hilo $\frac{\mu_0Iv}{2\pi}\ln\frac{d + l}{d}$ |
 | Reactancias | $X_L = \omega L$, $X_C = 1/(\omega C)$ |

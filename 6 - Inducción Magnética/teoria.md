@@ -29,14 +29,14 @@ Ejercicios: [práctica del tema](practica.md).
 
 Una espira en presencia de un campo magnético es atravesada por un **flujo magnético**:
 
-$$\boxed{\phi = \int_S\vec B\cdot\hat n\,ds} \qquad [\phi] = \text{T m}^2 = \text{Wb (weber)}$$
+$$\boxed{\phi = \int_S\vec B\cdot\hat n\ ds} \qquad [\phi] = \text{T m}^2 = \text{Wb (weber)}$$
 
 $\hat n$ es la normal a la superficie de la espira. El campo puede deberse a un imán, a una corriente cercana o a la corriente de la **propia** espira. Para una bobina de $N$ vueltas, el flujo total es $N$ veces el de una espira.
 
 - Campo uniforme y espira plana de área $A$: $\phi = BA\cos\theta$ ($\theta$ = ángulo entre $\vec B$ y $\hat n$).
 - Espira rectangular de lados $b$ (perpendicular) y $c$ (paralelo), coplanar con un hilo infinito, con el lado cercano a distancia $a$ (ver [Magnetostática](../5%20-%20Magnetost%C3%A1tica/teoria.md#12-flujo-magnético)):
 
-$$\phi = \frac{\mu_0 I c}{2\pi}\ln\!\left(\frac{a + b}{a}\right)$$
+$$\phi = \frac{\mu_0 I c}{2\pi}\ln\left(\frac{a + b}{a}\right)$$
 
 ---
 
@@ -58,7 +58,7 @@ Resultados experimentales:
 
 Si fuera al revés (que la corriente inducida reforzara la variación), se acumularían variaciones del mismo sentido y la corriente crecería indefinidamente sin ninguna fuente de energía: se violaría la **conservación de la energía**. Por eso el signo menos:
 
-$$\boxed{\oint_C\vec E\cdot d\vec\ell = \mathcal E = -\frac{d\phi}{dt} = -\frac{d}{dt}\int_{S(C)}\vec B\cdot\hat n\,ds}\qquad(\text{ley de Faraday-Lenz})$$
+$$\boxed{\oint_C\vec E\cdot d\vec\ell = \mathcal E = -\frac{d\phi}{dt} = -\frac{d}{dt}\int_{S(C)}\vec B\cdot\hat n\ ds}\qquad(\text{ley de Faraday-Lenz})$$
 
 El sentido de $\hat n$ queda fijado por el sentido de $d\vec\ell$ en la integral de línea (regla de la mano derecha).
 
@@ -89,7 +89,7 @@ Una barra conductora de longitud $\ell$ se mueve con velocidad $\vec v$ en un ca
 
 ![Barra moviéndose en un campo](img/teoria-barra-fem.png)
 
-Sobre cada electrón actúa $\vec F_M = -e\,\vec v\times\vec B$, que lo empuja hacia un extremo. Ese extremo se carga negativamente y el otro positivamente: se induce una fem. La separación de cargas crea un campo electrostático $\vec E_0$ y el movimiento cesa cuando $-e\vec E_0 - e\vec v\times\vec B = 0$.
+Sobre cada electrón actúa $\vec F_M = -e\ \vec v\times\vec B$, que lo empuja hacia un extremo. Ese extremo se carga negativamente y el otro positivamente: se induce una fem. La separación de cargas crea un campo electrostático $\vec E_0$ y el movimiento cesa cuando $-e\vec E_0 - e\vec v\times\vec B = 0$.
 
 Para un observador sobre la barra (que ve los electrones en reposo), es "como si" hubiera un campo eléctrico **no conservativo**:
 
@@ -97,7 +97,7 @@ $$\vec E = \vec v\times\vec B$$
 
 $$\boxed{\mathcal E_{12} = \int_1^2(\vec v\times\vec B)\cdot d\vec\ell}\quad(\text{fem de movimiento})$$
 
-Para una barra recta perpendicular a $\vec B$ y a $\vec v$: $|\mathcal E| = B\,\ell\,v$.
+Para una barra recta perpendicular a $\vec B$ y a $\vec v$: $|\mathcal E| = B\ \ell\ v$.
 
 > El resultado es el mismo que se obtiene derivando el flujo del área que barre la barra. Se puede usar cualquiera de los dos métodos.
 
@@ -115,10 +115,10 @@ Barra de longitud $\ell$ sobre rieles sin rozamiento, cerrados por una resistenc
 
 $$I = \frac{B\ell v}{R} \qquad F_M = I\ell B = \frac{B^2\ell^2 v}{R}$$
 
-- **Velocidad constante:** un agente externo tiene que aplicar $\vec F_{AE} = \dfrac{B^2\ell^2v}{R}\hat\imath$. La potencia que entrega, $P = F_{AE}\,v = \dfrac{B^2\ell^2v^2}{R}$, es igual a la disipada en la resistencia, $RI^2$: **el trabajo mecánico se convierte en energía eléctrica**, que se disipa como calor.
-- **Si el agente deja de actuar** (con $v(0) = v_0$): $-I\ell B = m\,\dfrac{dv}{dt}$, con $I = B\ell v/R$:
+- **Velocidad constante:** un agente externo tiene que aplicar $\vec F_{AE} = \dfrac{B^2\ell^2v}{R}\hat\imath$. La potencia que entrega, $P = F_{AE}\ v = \dfrac{B^2\ell^2v^2}{R}$, es igual a la disipada en la resistencia, $RI^2$: **el trabajo mecánico se convierte en energía eléctrica**, que se disipa como calor.
+- **Si el agente deja de actuar** (con $v(0) = v_0$): $-I\ell B = m\ \dfrac{dv}{dt}$, con $I = B\ell v/R$:
 
-$$v(t) = v_0\,e^{-\frac{B^2\ell^2}{Rm}t}\quad(\text{cae exponencialmente})$$
+$$v(t) = v_0\ e^{-\frac{B^2\ell^2}{Rm}t}\quad(\text{cae exponencialmente})$$
 
 ### Barra que cae (rieles verticales)
 
@@ -166,7 +166,7 @@ Energía total: $E = \dfrac{2ab^2vB^2}{R}$.
 
 ### Barra que gira alrededor de un extremo
 
-Barra de longitud $\ell$ que gira con $\omega$ alrededor de A, con $\vec B$ saliente. Con el flujo: el área barrida es $\tfrac12\omega\ell^2t$, entonces $|\mathcal E| = \tfrac12B\omega\ell^2$. Con la fem de movimiento: $\vec v\times\vec B = \omega rB\,\hat r$, de donde $V_B - V_A = \int_0^\ell\omega Br\,dr = \tfrac12B\omega\ell^2$. El extremo libre B queda a mayor potencial.
+Barra de longitud $\ell$ que gira con $\omega$ alrededor de A, con $\vec B$ saliente. Con el flujo: el área barrida es $\tfrac12\omega\ell^2t$, entonces $|\mathcal E| = \tfrac12B\omega\ell^2$. Con la fem de movimiento: $\vec v\times\vec B = \omega rB\ \hat r$, de donde $V_B - V_A = \int_0^\ell\omega Br\ dr = \tfrac12B\omega\ell^2$. El extremo libre B queda a mayor potencial.
 
 Si gira alrededor de un punto O a distancia $d$ de A: $V_B - V_A = \tfrac12B\omega\ell(\ell - 2d)$.
 
@@ -174,7 +174,7 @@ Si gira alrededor de un punto O a distancia $d$ de A: $V_B - V_A = \tfrac12B\ome
 
 Barra de longitud $\ell$, perpendicular a un hilo infinito con corriente $I$, que se mueve con $v$ paralela al hilo; su extremo cercano está a distancia $d$:
 
-$$V_1 - V_2 = \frac{\mu_0 I v}{2\pi}\ln\!\left(1 + \frac\ell d\right)$$
+$$V_1 - V_2 = \frac{\mu_0 I v}{2\pi}\ln\left(1 + \frac\ell d\right)$$
 
 (El extremo cercano al hilo, 1, queda a mayor potencial si la corriente y la velocidad van en el mismo sentido.)
 
@@ -184,7 +184,7 @@ $$V_1 - V_2 = \frac{\mu_0 I v}{2\pi}\ln\!\left(1 + \frac\ell d\right)$$
 
 Una espira con corriente $I$ genera un campo $\vec B\propto I$ (Biot-Savart), y ese campo genera a través de la **propia** espira un flujo $\phi\propto B\propto I$. La constante de proporcionalidad es la **inductancia** (o coeficiente de autoinducción):
 
-$$\boxed{\phi = L\,I} \qquad [L] = \frac{\text{T m}^2}{\text{A}} = \frac{\text{V s}}{\text{A}} = \text{H (henry)}$$
+$$\boxed{\phi = L\ I} \qquad [L] = \frac{\text{T m}^2}{\text{A}} = \frac{\text{V s}}{\text{A}} = \text{H (henry)}$$
 
 $L$ depende **solo de la geometría** (y del medio) y es siempre positiva.
 
@@ -261,13 +261,13 @@ $$\boxed{U_M = \frac12LI^2}\quad(\text{análogo a } \tfrac12CV^2)$$
 
 **Densidad de energía magnética** (con el solenoide, pero el resultado es general):
 
-$$\boxed{u_M = \frac{B^2}{2\mu_0}} \qquad U = \frac{1}{2\mu_0}\int_{Vol}B^2\,dVol$$
+$$\boxed{u_M = \frac{B^2}{2\mu_0}} \qquad U = \frac{1}{2\mu_0}\int_{Vol}B^2\ dVol$$
 
 Análogo a $u_E = \tfrac12\varepsilon_0E^2$.
 
 **Ejemplo:** cable coaxial (cilindros de radios $a$ y $b$, corrientes opuestas). $B = \mu_0 I/(2\pi r)$ solo entre ellos:
 
-$$U = \frac{\mu_0}{4\pi}\ell\ln\!\left(\frac ba\right)I^2 \quad\Rightarrow\quad L = \frac{\mu_0}{2\pi}\ell\ln\!\left(\frac ba\right)$$
+$$U = \frac{\mu_0}{4\pi}\ell\ln\left(\frac ba\right)I^2 \quad\Rightarrow\quad L = \frac{\mu_0}{2\pi}\ell\ln\left(\frac ba\right)$$
 
 ---
 
@@ -289,7 +289,7 @@ $$\lambda_\pm = \frac{R}{2L}\pm\sqrt{\frac{R^2}{4L^2} - \frac{1}{LC}}$$
 
 ![Oscilación subamortiguada](img/teoria-subamortiguado.png)
 
-Las constantes salen de las condiciones iniciales: $I(0) = 0$ (la corriente en la bobina es continua) y $L\,\dfrac{dI}{dt}\Big|_0$ = la tensión que queda sobre la bobina en $t = 0$.
+Las constantes salen de las condiciones iniciales: $I(0) = 0$ (la corriente en la bobina es continua) y $L\ \dfrac{dI}{dt}\Big|_0$ = la tensión que queda sobre la bobina en $t = 0$.
 
 **Ejemplos de clase:**
 
@@ -304,19 +304,19 @@ $$I(t) = 0{,}021\ \text{A}\left(e^{-20{,}42t} - e^{-979{,}58t}\right)$$
 
 | Tema | Fórmula |
 |---|---|
-| Flujo | $\phi = \int\vec B\cdot\hat n\,ds$ |
+| Flujo | $\phi = \int\vec B\cdot\hat n\ ds$ |
 | Faraday-Lenz | $\mathcal E = \oint\vec E\cdot d\vec\ell = -d\phi/dt$ |
-| Bobina de N vueltas | $\mathcal E = -N\,d\phi_1/dt$ |
+| Bobina de N vueltas | $\mathcal E = -N\ d\phi_1/dt$ |
 | Fem de movimiento | $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec\ell$; barra recta $B\ell v$ |
 | Barra que gira | $\mathcal E = \tfrac12B\omega\ell^2$ |
 | Barra sobre rieles | $I = B\ell v/R$, $F = B^2\ell^2v/R$ |
 | Velocidad terminal | $v_T = mgR/(B^2\ell^2)$ |
 | Generador | $\mathcal E = NBA\omega\sin\omega t$ |
 | Carga inducida | $Q = \Delta\phi/R$ |
-| Autoinductancia | $\phi = LI$, $\mathcal E = -L\,dI/dt$ |
+| Autoinductancia | $\phi = LI$, $\mathcal E = -L\ dI/dt$ |
 | Solenoide | $L = \mu_0N^2A/\ell$ |
 | RL | $I = \frac VR(1 - e^{-Rt/L})$, $\tau = L/R$ |
-| Mutua | $\phi_{12} = MI_2$, $\mathcal E_1 = -M\,dI_2/dt$ |
+| Mutua | $\phi_{12} = MI_2$, $\mathcal E_1 = -M\ dI_2/dt$ |
 | Solenoides coaxiales | $M = \mu_0N_1N_2\pi R_1^2/\ell$ |
 | Serie con M | $L_{ef} = L_1 + L_2\pm2M$ |
 | Energía | $U = \tfrac12LI^2$, $u_M = B^2/(2\mu_0)$ |

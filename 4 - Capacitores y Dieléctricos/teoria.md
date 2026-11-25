@@ -64,7 +64,7 @@ Dos cilindros coaxiales de radios $a < b$ y longitud $\ell \gg a, b$, con cargas
 
 ![Capacitor cilíndrico](img/teoria-cilindrico.png)
 
-Entre ambos, solo contribuye el cilindro interior (Gauss): $\vec E = \dfrac{Q}{2\pi\varepsilon_0\ell\,r}\hat r$.
+Entre ambos, solo contribuye el cilindro interior (Gauss): $\vec E = \dfrac{Q}{2\pi\varepsilon_0\ell\ r}\hat r$.
 
 $$V = \frac{Q}{2\pi\varepsilon_0\ell}\int_a^b\frac{dr}{r} = \frac{Q}{2\pi\varepsilon_0\ell}\ln\frac ba \qquad \boxed{C = \frac{2\pi\varepsilon_0\ell}{\ln(b/a)}}$$
 
@@ -74,7 +74,7 @@ $$V = \frac{Q}{2\pi\varepsilon_0\ell}\int_a^b\frac{dr}{r} = \frac{Q}{2\pi\vareps
 
 (Aparece en la guía.) Esfera de radio $r_1$ con $+Q$ y cáscara concéntrica de radio interno $r_2$ con $-Q$. Entre ambas, $E = kQ/r^2$:
 
-$$V = kQ\left(\frac{1}{r_1} - \frac{1}{r_2}\right) \qquad \boxed{C = \frac{1}{k\left(\frac{1}{r_1} - \frac{1}{r_2}\right)} = \frac{4\pi\varepsilon_0\,r_1r_2}{r_2 - r_1}}$$
+$$V = kQ\left(\frac{1}{r_1} - \frac{1}{r_2}\right) \qquad \boxed{C = \frac{1}{k\left(\frac{1}{r_1} - \frac{1}{r_2}\right)} = \frac{4\pi\varepsilon_0\ r_1r_2}{r_2 - r_1}}$$
 
 Una **esfera aislada** de radio $R$ (el otro conductor en el infinito) tiene $C = 4\pi\varepsilon_0R = R/k$.
 
@@ -131,8 +131,8 @@ $$\boxed{C_{eq} = \sum_iC_i}\quad(\text{paralelo, misma tensión})$$
 
 Mientras se carga el capacitor, cada carga $\delta q$ que pasa de una placa a la otra:
 
-- recibe de la batería $\delta U_{BAT} = V_{BAT}\,\delta q$, y en total $U_{BAT} = V_{BAT}\,Q$;
-- se almacena en el capacitor $\delta U_{CAP} = \frac qC\,\delta q$, y en total $U_{CAP} = \dfrac{Q^2}{2C}$.
+- recibe de la batería $\delta U_{BAT} = V_{BAT}\ \delta q$, y en total $U_{BAT} = V_{BAT}\ Q$;
+- se almacena en el capacitor $\delta U_{CAP} = \frac qC\ \delta q$, y en total $U_{CAP} = \dfrac{Q^2}{2C}$.
 
 Como $Q = CV_{BAT}$, resulta $U_{CAP} = \dfrac{V_{BAT}Q}{2} = \dfrac{U_{BAT}}{2}$: **la mitad de la energía entregada se almacena y la otra mitad se disipa** en las resistencias (sea cual sea su valor).
 
@@ -150,7 +150,7 @@ Al conectar un capacitor se pasa por un **régimen transitorio** en el que carga
 
 Malla: $V - RI - \dfrac QC = 0$ con $I = \dfrac{dQ}{dt}$. Separando variables e integrando desde $Q(0) = 0$:
 
-$$\boxed{Q(t) = CV\left(1 - e^{-t/RC}\right)} \qquad \boxed{I(t) = \frac VR\,e^{-t/RC}}$$
+$$\boxed{Q(t) = CV\left(1 - e^{-t/RC}\right)} \qquad \boxed{I(t) = \frac VR\ e^{-t/RC}}$$
 
 ![Carga de un capacitor](img/teoria-carga-rc.png)
 
@@ -158,7 +158,7 @@ $$\boxed{Q(t) = CV\left(1 - e^{-t/RC}\right)} \qquad \boxed{I(t) = \frac VR\,e^{
 
 Malla: $\dfrac QC - RI = 0$ con $I = -\dfrac{dQ}{dt}$:
 
-$$\boxed{Q(t) = Q_0\,e^{-t/RC}} \qquad \boxed{I(t) = \frac{Q_0}{RC}\,e^{-t/RC}}$$
+$$\boxed{Q(t) = Q_0\ e^{-t/RC}} \qquad \boxed{I(t) = \frac{Q_0}{RC}\ e^{-t/RC}}$$
 
 ![Descarga de un capacitor](img/teoria-descarga-rc.png)
 
@@ -172,22 +172,22 @@ Matemáticamente los valores estacionarios se alcanzan solo asintóticamente. Co
 
 **Ejemplo de clase:** batería de 18 V, 2 Ω en serie, luego 3 Ω en paralelo con (8 Ω + 6 μF).
 
-- Al cerrar: el capacitor es un cable, así que $3 \,/\!/\, 8 = 2{,}18\ \Omega$; $I = 18/4{,}18 = 4{,}3$ A y $P = 77{,}5$ W.
+- Al cerrar: el capacitor es un cable, así que $3 \ //\  8 = 2{,}18\ \Omega$; $I = 18/4{,}18 = 4{,}3$ A y $P = 77{,}5$ W.
 - Tiempo largo: el capacitor es una llave abierta, así que $I = 18/5 = 3{,}6$ A; $V_C = V_{3\Omega} = 10{,}8$ V y $Q = 64{,}8\ \mu\text{C}$.
 
 ---
 
 ## 10. Densidad de energía del campo
 
-En un capacitor plano, $U = \tfrac12CV^2 = \tfrac12\varepsilon_0E^2\,(Ad)$, y $Ad$ es el volumen donde hay campo. Se interpreta que **la energía está almacenada en el campo eléctrico**, con densidad
+En un capacitor plano, $U = \tfrac12CV^2 = \tfrac12\varepsilon_0E^2\ (Ad)$, y $Ad$ es el volumen donde hay campo. Se interpreta que **la energía está almacenada en el campo eléctrico**, con densidad
 
-$$\boxed{u = \frac12\varepsilon_0E^2} \qquad \boxed{U = \int_{Vol}u\,dVol = \frac12\varepsilon_0\int E^2\,dVol}$$
+$$\boxed{u = \frac12\varepsilon_0E^2} \qquad \boxed{U = \int_{Vol}u\ dVol = \frac12\varepsilon_0\int E^2\ dVol}$$
 
 Vale en general (no solo para campo uniforme). Con dieléctrico: $u = \tfrac12\varepsilon E^2 = \tfrac12\vec D\cdot\vec E$.
 
 **Ejemplo:** esfera de radio $R$ con carga $Q$ en la superficie. $E = 0$ adentro y $kQ/r^2$ afuera:
 
-$$U = 4\pi\int_R^\infty\frac{Q^2}{32\pi^2\varepsilon_0}\frac{1}{r^4}\,r^2dr = \frac{Q^2}{8\pi\varepsilon_0R}$$
+$$U = 4\pi\int_R^\infty\frac{Q^2}{32\pi^2\varepsilon_0}\frac{1}{r^4}\ r^2dr = \frac{Q^2}{8\pi\varepsilon_0R}$$
 
 ---
 
@@ -218,11 +218,11 @@ Esas cargas generan un campo $\vec E_{ind}$ **opuesto** a $\vec E_0$, así que e
 
 $$\boxed{E = \frac{E_0}{K}} \qquad K > 1\ (K = 1 \text{ en vacío})$$
 
-$$\boxed{\sigma_{ind} = \frac{K - 1}{K}\,\sigma} \quad (\sigma_{ind} < \sigma)$$
+$$\boxed{\sigma_{ind} = \frac{K - 1}{K}\ \sigma} \quad (\sigma_{ind} < \sigma)$$
 
 **Capacitancia.** Con el capacitor desconectado, $Q$ no cambia y $V = Ed = V_0/K$:
 
-$$\boxed{C = K\,C_0}$$
+$$\boxed{C = K\ C_0}$$
 
 El dieléctrico **aumenta** la capacidad: para eso se lo pone. Si el campo supera la **rigidez dieléctrica** del material, este se vuelve conductor y el capacitor deja de funcionar.
 
@@ -249,23 +249,23 @@ Con el capacitor desconectado la energía disminuye porque el capacitor **"chupa
 
 **Polarización:** momento dipolar por unidad de volumen. Si hay $n$ moléculas por unidad de volumen, cada una con $\vec p$:
 
-$$\boxed{\vec P = n\,\vec p}$$
+$$\boxed{\vec P = n\ \vec p}$$
 
 En la mayoría de los materiales es paralela al campo:
 
-$$\boxed{\vec P = \chi\,\varepsilon_0\,\vec E}$$
+$$\boxed{\vec P = \chi\ \varepsilon_0\ \vec E}$$
 
-$\chi$ es la **susceptibilidad eléctrica** (adimensional). En el capacitor plano, el momento dipolar total es $Q_{ind}\,d = |\vec P|\,Ad$, de donde:
+$\chi$ es la **susceptibilidad eléctrica** (adimensional). En el capacitor plano, el momento dipolar total es $Q_{ind}\ d = |\vec P|\ Ad$, de donde:
 
 $$\boxed{|\vec P| = \sigma_{ind}}\quad(\text{la densidad de carga de polarización en la superficie vale } \vec P\cdot\hat n) \qquad \boxed{\chi = K - 1}$$
 
 **Desplazamiento eléctrico.** De $E = \dfrac{\sigma}{\varepsilon_0} - \dfrac{P}{\varepsilon_0}$ sale $\sigma = \varepsilon_0E + P$. Se define:
 
-$$\boxed{\vec D = \varepsilon_0\vec E + \vec P = \varepsilon\,\vec E} \qquad \vec D\cdot\hat n = \sigma_{libre}$$
+$$\boxed{\vec D = \varepsilon_0\vec E + \vec P = \varepsilon\ \vec E} \qquad \vec D\cdot\hat n = \sigma_{libre}$$
 
 **Gauss para $\vec D$:**
 
-$$\boxed{\oint\vec D\cdot\hat n\,ds = Q_{libre}}$$
+$$\boxed{\oint\vec D\cdot\hat n\ ds = Q_{libre}}$$
 
 Es decir, **el flujo de $\vec D$ depende solo de las cargas libres**. En casos de alta simetría se calcula $\vec D$ por Gauss y después $\vec E = \vec D/\varepsilon$.
 
@@ -273,7 +273,7 @@ Resumen de qué "ve" cada vector: $\vec D$ se asocia a la **carga libre**; $\vec
 
 **Ejemplo de clase:** esfera de permitividad $\varepsilon_1$ con $\rho$ uniforme, rodeada por un medio $\varepsilon_2$.
 
-- $\vec D = \frac{\rho}{3}r\,\hat r$ ($r < R$) y $\frac{\rho R^3}{3r^2}\hat r$ ($r > R$).
+- $\vec D = \frac{\rho}{3}r\ \hat r$ ($r < R$) y $\frac{\rho R^3}{3r^2}\hat r$ ($r > R$).
 - Entonces $\vec E = \frac{\rho r}{3\varepsilon_1}\hat r$ adentro y $\frac{\rho R^3}{3\varepsilon_2r^2}\hat r$ afuera.
 
 ---
@@ -304,7 +304,7 @@ En la superficie que separa dos medios ($\hat n$ apuntando del 1 al 2):
 
 ![Capacitor con dos dieléctricos separados por la diagonal](img/teoria-dos-dielectricos.png)
 
-$$C = C_0\,\frac{K_1K_2}{K_1 - K_2}\ln\!\left(\frac{K_1}{K_2}\right)$$
+$$C = C_0\ \frac{K_1K_2}{K_1 - K_2}\ln\left(\frac{K_1}{K_2}\right)$$
 
 ---
 
@@ -328,5 +328,5 @@ $$C = C_0\,\frac{K_1K_2}{K_1 - K_2}\ln\!\left(\frac{K_1}{K_2}\right)$$
 | Carga inducida | $\sigma_{ind} = \frac{K - 1}{K}\sigma = P$ |
 | Polarización | $\vec P = \chi\varepsilon_0\vec E$, $\chi = K - 1$ |
 | Desplazamiento | $\vec D = \varepsilon_0\vec E + \vec P = \varepsilon\vec E$ |
-| Gauss para D | $\oint\vec D\cdot\hat n\,ds = Q_{libre}$ |
+| Gauss para D | $\oint\vec D\cdot\hat n\ ds = Q_{libre}$ |
 | Contorno | $D_{1n} = D_{2n}$ (sin $\sigma_{libre}$), $E_{1t} = E_{2t}$ |

@@ -26,7 +26,7 @@ Un hilo muy largo que transporta una corriente I=2 A adopta la forma indicada en
 
 **Paso 2 — Tramo vertical** (de $(0;0)$ a $(0;-H)$, corriente hacia abajo). Distancia perpendicular $D$; el pie de la perpendicular es el extremo superior. Los ángulos van de 0 a $\arctan(H/D)$:
 
-$$B_v = \frac{\mu_0 I}{4\pi D}\,\frac{H}{\sqrt{H^2 + D^2}}$$
+$$B_v = \frac{\mu_0 I}{4\pi D}\ \frac{H}{\sqrt{H^2 + D^2}}$$
 
 Sentido: $(-\hat y)\times(-\hat x) = -\hat z$ (**entrante**).
 
@@ -66,25 +66,25 @@ Un anillo de radio R=8 cm, cuyo eje coincide con el eje de las Z y cuyo centro e
 
 **Paso 1 — Campo del anillo en el eje:**
 
-$$\vec B_a = \frac{\mu_0 IR^2}{2(R^2 + z_1^2)^{3/2}}\,\hat k$$
+$$\vec B_a = \frac{\mu_0 IR^2}{2(R^2 + z_1^2)^{3/2}}\ \hat k$$
 
 **Paso 2 — Campo del hilo** (a distancia $z_2 - z_1$ por debajo de él). Corriente $\hat\imath$ y vector del hilo al punto $-\hat k$: $\hat\imath\times(-\hat k) = \hat\jmath$:
 
-$$\vec B_h = \frac{\mu_0 I}{2\pi(z_2 - z_1)}\,\hat\jmath$$
+$$\vec B_h = \frac{\mu_0 I}{2\pi(z_2 - z_1)}\ \hat\jmath$$
 
 **Paso 3 — Cálculo.**
 
 $$B_a = \frac{4\pi\times10^{-7}\cdot2\cdot0{,}0064}{2\cdot(0{,}0164)^{3/2}}\ \text{T} = 3{,}83\ \mu\text{T} \qquad B_h = \frac{2\times10^{-7}\cdot2}{0{,}08}\ \text{T} = 5\ \mu\text{T}$$
 
-$$\vec B(z_1) = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu\text{T}$$
+$$\vec B(z_1) = (5\ \hat\jmath + 3{,}83\ \hat k)\ \mu\text{T}$$
 
-**Paso 4 — Fuerza (ítem b).** $\vec F = q\,\vec v\times\vec B$. La parte de $\vec B$ paralela a $\vec v$ (la del anillo) no aporta:
+**Paso 4 — Fuerza (ítem b).** $\vec F = q\ \vec v\times\vec B$. La parte de $\vec B$ paralela a $\vec v$ (la del anillo) no aporta:
 
-$$\vec F = q\,v\,B_h\,(\hat k\times\hat\jmath) = -q\,v\,B_h\,\hat\imath = -6\times10^{-6}\cdot5\times10^4\cdot5\times10^{-6}\ \text{N}\ \hat\imath = -1{,}5\times10^{-6}\ \text{N}\ \hat\imath$$
+$$\vec F = q\ v\ B_h\ (\hat k\times\hat\jmath) = -q\ v\ B_h\ \hat\imath = -6\times10^{-6}\cdot5\times10^4\cdot5\times10^{-6}\ \text{N}\ \hat\imath = -1{,}5\times10^{-6}\ \text{N}\ \hat\imath$$
 
 </details>
 
-**Respuesta:** a) $\vec B = (5\,\hat\jmath + 3{,}83\,\hat k)\ \mu\text{T}$ (el signo de cada componente depende de los sentidos de la figura); b) $|\vec F| = 1{,}5\ \mu\text{N}$, en la dirección del hilo ($-\hat\imath$ con los ejes elegidos).
+**Respuesta:** a) $\vec B = (5\ \hat\jmath + 3{,}83\ \hat k)\ \mu\text{T}$ (el signo de cada componente depende de los sentidos de la figura); b) $|\vec F| = 1{,}5\ \mu\text{N}$, en la dirección del hilo ($-\hat\imath$ con los ejes elegidos).
 
 </details>
 
@@ -108,13 +108,13 @@ $$\phi = \frac{\mu_0 I L_3}{2\pi}\ln\frac{L_2}{L_1}$$
 
 **Paso 2 — Ítem a.** Solo varía la corriente:
 
-$$|\mathcal E| = \frac{\mu_0 L_3}{2\pi}\ln\frac{L_2}{L_1}\,\frac{dI}{dt} = \frac{\mu_0 L_3}{2\pi}\ln\frac{L_2}{L_1}\,I_0\omega\cos(\omega t)$$
+$$|\mathcal E| = \frac{\mu_0 L_3}{2\pi}\ln\frac{L_2}{L_1}\ \frac{dI}{dt} = \frac{\mu_0 L_3}{2\pi}\ln\frac{L_2}{L_1}\ I_0\omega\cos(\omega t)$$
 
 $$|\mathcal E| = 2\times10^{-7}\cdot0{,}15\cdot\ln\frac{20}{12}\cdot3\cdot5\pi\cos(5\pi t)\ \text{V} = 7{,}2\times10^{-7}\cos(5\pi t)\ \text{V}$$
 
 **Paso 3 — Ítem b.** Con $b = L_2 - L_1 = 8$ cm y la distancia al lado cercano $x(t) = L_1 + vt$:
 
-$$\phi(x) = \frac{\mu_0 I_0L_3}{2\pi}\ln\frac{x + b}{x} \quad\Rightarrow\quad |\mathcal E| = \frac{\mu_0 I_0L_3}{2\pi}\,\frac{b\,v}{x(x + b)}$$
+$$\phi(x) = \frac{\mu_0 I_0L_3}{2\pi}\ln\frac{x + b}{x} \quad\Rightarrow\quad |\mathcal E| = \frac{\mu_0 I_0L_3}{2\pi}\ \frac{b\ v}{x(x + b)}$$
 
 En el instante inicial ($x = L_1$):
 

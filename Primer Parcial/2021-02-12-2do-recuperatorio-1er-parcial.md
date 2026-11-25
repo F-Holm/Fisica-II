@@ -64,11 +64,11 @@ $$|\Delta V| = \frac{\rho R^3}{3\varepsilon_0}\left(\frac{1}{2R} - \frac{1}{3R}\
 
 $$1\ \text{V} = 48\ \tfrac{\text{V}}{\text{m}}\cdot\frac{R}{18} \quad\Rightarrow\quad R = \frac{18}{48}\ \text{m} = 0{,}375\ \text{m}$$
 
-**Paso 4 — Ítem c.** $W = -q\,[V(4R) - V(3R)]$, con
+**Paso 4 — Ítem c.** $W = -q\ [V(4R) - V(3R)]$, con
 
 $$V(4R) - V(3R) = -\frac{\rho R^3}{3\varepsilon_0}\left(\frac{1}{3R} - \frac{1}{4R}\right) = -\frac{\rho R^2}{36\varepsilon_0}$$
 
-$$W = \frac{q\,\rho R^2}{36\varepsilon_0} = 5\times10^{-6}\cdot\frac{48\cdot0{,}375}{36}\ \text{J} = 2{,}5\times10^{-6}\ \text{J}$$
+$$W = \frac{q\ \rho R^2}{36\varepsilon_0} = 5\times10^{-6}\cdot\frac{48\cdot0{,}375}{36}\ \text{J} = 2{,}5\times10^{-6}\ \text{J}$$
 
 </details>
 
@@ -88,10 +88,10 @@ Un hilo finito con densidad de carga uniforme λ<sub>1</sub>=5 μC/m se halla so
 <details>
 <summary>Solución paso a paso</summary>
 
-**Paso 1 — Campo de un hilo sobre su propio eje.** Integrando $k\lambda\,dx'/(x - x')^2$:
+**Paso 1 — Campo de un hilo sobre su propio eje.** Integrando $k\lambda\ dx'/(x - x')^2$:
 
 - Para un punto a la **derecha** del hilo ($x > x_b > x_a$): $\vec E = k\lambda\left[\dfrac{1}{x - x_b} - \dfrac{1}{x - x_a}\right]\hat\imath$.
-- Para un punto a la **izquierda** ($x < x_a < x_b$): $\vec E = k\lambda\left[\dfrac{1}{x_a - x} - \dfrac{1}{x_b - x}\right]\,(-\hat\imath)$.
+- Para un punto a la **izquierda** ($x < x_a < x_b$): $\vec E = k\lambda\left[\dfrac{1}{x_a - x} - \dfrac{1}{x_b - x}\right]\ (-\hat\imath)$.
 
 **Paso 2 — Hilo 1** (a la izquierda de $x_5$, positivo; empuja hacia $+x$):
 
@@ -99,7 +99,7 @@ $$\vec E_1 = k\lambda_1\left[\frac{1}{x_5 - x_2} - \frac{1}{x_5 - x_1}\right]\ha
 
 **Paso 3 — Hilo 2** (a la derecha, negativo; atrae hacia él, también $+x$):
 
-$$\vec E_2 = k\lambda_2\left[\frac{1}{x_3 - x_5} - \frac{1}{x_4 - x_5}\right]\,(-\hat\imath) = 9\times10^9\cdot(-3\times10^{-6})\left[\frac{1}{0{,}04} - \frac{1}{0{,}10}\right]\,(-\hat\imath) = 4{,}05\times10^5\ \tfrac{\text{N}}{\text{C}}\ \hat\imath$$
+$$\vec E_2 = k\lambda_2\left[\frac{1}{x_3 - x_5} - \frac{1}{x_4 - x_5}\right]\ (-\hat\imath) = 9\times10^9\cdot(-3\times10^{-6})\left[\frac{1}{0{,}04} - \frac{1}{0{,}10}\right]\ (-\hat\imath) = 4{,}05\times10^5\ \tfrac{\text{N}}{\text{C}}\ \hat\imath$$
 
 **Paso 4 — Total y fuerza.**
 
@@ -127,9 +127,9 @@ Tres barras cilíndricas, de longitudes L<sub>1</sub>=33 cm, L<sub>2</sub>=39 cm
 
 **Paso 2 — Corriente y temperatura (ítem a).** $I = \dfrac{T_C - T_F}{R_{eq}}$. La unión 2-3 está separada del foco caliente solo por la barra 3:
 
-$$T_C - T = R_3\,I \quad\Rightarrow\quad T = T_C - R_3\,\frac{T_C - T_F}{R_1 + R_2 + R_3}$$
+$$T_C - T = R_3\ I \quad\Rightarrow\quad T = T_C - R_3\ \frac{T_C - T_F}{R_1 + R_2 + R_3}$$
 
-**Paso 3 — Ítem b.** Para que $I' = 0{,}9\,I$ con la misma $\Delta T$, la resistencia total tiene que ser $R'_{eq} = R_{eq}/0{,}9$. Solo cambia $R_3$:
+**Paso 3 — Ítem b.** Para que $I' = 0{,}9\ I$ con la misma $\Delta T$, la resistencia total tiene que ser $R'_{eq} = R_{eq}/0{,}9$. Solo cambia $R_3$:
 
 $$R'_3 = \frac{R_{eq}}{0{,}9} - R_1 - R_2 \qquad k'_3 = \frac{L_3}{R'_3A}$$
 
@@ -141,7 +141,7 @@ $$R_1 = \frac{0{,}33}{320\cdot6{,}158\times10^{-4}} = 1{,}6748\ \tfrac{^\circ\te
 
 $$R_{eq} = 4{,}9653\ \tfrac{^\circ\text{C}}{\text{W}} \qquad I = \frac{82}{4{,}9653}\ \text{W} = 16{,}51\ \text{W} \qquad T = 85 - 16{,}51\cdot1{,}6239 = 58{,}18\ ^\circ\text{C}$$
 
-$$R'_3 = \frac{4{,}9653}{0{,}9} - 3{,}3414 = 2{,}1756\ \tfrac{^\circ\text{C}}{\text{W}} \qquad k'_3 = \frac{0{,}51}{2{,}1756\cdot6{,}158\times10^{-4}} = 380{,}7\ \tfrac{\text{W}}{\text{m}\,^\circ\text{C}}$$
+$$R'_3 = \frac{4{,}9653}{0{,}9} - 3{,}3414 = 2{,}1756\ \tfrac{^\circ\text{C}}{\text{W}} \qquad k'_3 = \frac{0{,}51}{2{,}1756\cdot6{,}158\times10^{-4}} = 380{,}7\ \tfrac{\text{W}}{\text{m}\ ^\circ\text{C}}$$
 
 </details>
 

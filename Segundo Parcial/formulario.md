@@ -22,7 +22,7 @@ Todo en metros antes de reemplazar. Calculadora en **radianes**.
 
 | Ley | Fórmula |
 |---|---|
-| Fuerza magnética | $\vec F = q\,\vec v\times\vec B$ $\qquad \vec F = I\,\vec\ell\times\vec B$ |
+| Fuerza magnética | $\vec F = q\ \vec v\times\vec B$ $\qquad \vec F = I\ \vec\ell\times\vec B$ |
 | Faraday | $\mathcal E = -N\dfrac{d\phi}{dt}$, $\quad\phi = BA$ (uniforme y perpendicular), $\quad I = \dfrac{\mathcal E}{R}$ |
 | Inductancia | $N\phi = LI$ $\qquad N_2\phi_2 = MI_1$ |
 | Capacitor | $Q = CV$ |
@@ -34,7 +34,7 @@ Todo en metros antes de reemplazar. Calculadora en **radianes**.
 
 | # | Atajo |
 |---|---|
-| 1 | **Tramo recto:** $B = \dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$. Hilo infinito $\dfrac{\mu_0 I}{2\pi d}$; semi-infinito con P frente a su extremo $\dfrac{\mu_0 I}{4\pi d}$; P sobre la prolongación $0$ |
+| 1 | **Tramo recto:** $B = \dfrac{\mu_0 I}{4\pi d}(\mathrm{sen}\ \beta_2 - \mathrm{sen}\ \beta_1)$. Hilo infinito $\dfrac{\mu_0 I}{2\pi d}$; semi-infinito con P frente a su extremo $\dfrac{\mu_0 I}{4\pi d}$; P sobre la prolongación $0$ |
 | 2 | **Arco centrado en P:** $B = \dfrac{\mu_0 I\theta}{4\pi R}$. Espira circular $\dfrac{\mu_0 I}{2R}$ |
 | 3 | **Anillo en su eje:** $B = \dfrac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$ |
 | 4 | **Solenoide:** $B = \mu_0 nI$, $\ n = N/\ell$ |

@@ -27,7 +27,7 @@ Dos conductores rectilíneos muy largos se encuentran ubicados paralelos al eje 
 
 **Paso 2 — Valor de I (ítem b).**
 
-$$\frac{F}{\ell} = \frac{\mu_0I^2}{2\pi D} \quad\Rightarrow\quad I = \sqrt{\frac{2\pi D\,(F/\ell)}{\mu_0}} = \sqrt{\frac{0{,}15\cdot2{,}5}{2\times10^{-7}}}\ \text{A} = 1369\ \text{A}$$
+$$\frac{F}{\ell} = \frac{\mu_0I^2}{2\pi D} \quad\Rightarrow\quad I = \sqrt{\frac{2\pi D\ (F/\ell)}{\mu_0}} = \sqrt{\frac{0{,}15\cdot2{,}5}{2\times10^{-7}}}\ \text{A} = 1369\ \text{A}$$
 
 **Paso 3 — Geometría (ítem c).** Los hilos están sobre el eje x: el hilo 1 en $x = 0$ y el hilo 2 en $x = D$, ambos con corriente en $+\hat k$. Como el sentido no está dado, se elige así; abajo se ve que no cambia el resultado. La carga está en $x = -d$, sobre el eje x.
 
@@ -37,7 +37,7 @@ $$\vec B = -\frac{\mu_0I}{2\pi}\left(\frac1d + \frac{1}{d + D}\right)\hat y = -2
 
 **Paso 5 — Fuerza.** $\vec F = q\vec v\times\vec B$, con $\vec v \parallel \hat y$ y $\vec B \parallel \hat y$:
 
-$$\vec F = q\,v\hat y\times(-B\hat y) = \vec 0$$
+$$\vec F = q\ v\hat y\times(-B\hat y) = \vec 0$$
 
 Si las dos corrientes fueran en $-\hat k$, $\vec B$ apuntaría en $+\hat y$ y la fuerza seguiría siendo nula, porque la velocidad es paralela al campo.
 
@@ -69,9 +69,9 @@ $$r = \sqrt{\frac{A}{\pi}} = \sqrt{\frac{2{,}21\times10^{-3}}{\pi}}\ \text{m} = 
 
 $$N = \frac{5\ \text{m}}{0{,}1666\ \text{m}} = 30\ \text{vueltas}$$
 
-**Paso 2 — Fem y corriente.** El flujo concatenado es $N\phi = NA\,B(t)$, así que
+**Paso 2 — Fem y corriente.** El flujo concatenado es $N\phi = NA\ B(t)$, así que
 
-$$|\mathcal E| = NA\frac{dB}{dt} = NA\,(2at + 4bt^3) \qquad I(t) = \frac{NA}{R}(2at + 4bt^3)$$
+$$|\mathcal E| = NA\frac{dB}{dt} = NA\ (2at + 4bt^3) \qquad I(t) = \frac{NA}{R}(2at + 4bt^3)$$
 
 con $NA = 30\cdot2{,}21\times10^{-3} = 0{,}0663$ m². Las dos corrientes se toman con el mismo signo, tal como están dadas.
 
@@ -153,11 +153,11 @@ Con corriente en **sentido antihorario** (vista desde arriba de la hoja), el cam
 
 **Paso 2 — Espira cuadrada.** Cada lado de longitud D está a $D/2$ del centro y ve sus extremos a 45°:
 
-$$B_{lado} = \frac{\mu_0I}{4\pi(D/2)}\cdot2\mathrm{sen}\,45^\circ = \frac{\sqrt2\,\mu_0I}{2\pi D} \qquad B_{cuad} = 4B_{lado} = \frac{2\sqrt2\,\mu_0I}{\pi D}$$
+$$B_{lado} = \frac{\mu_0I}{4\pi(D/2)}\cdot2\mathrm{sen}\ 45^\circ = \frac{\sqrt2\ \mu_0I}{2\pi D} \qquad B_{cuad} = 4B_{lado} = \frac{2\sqrt2\ \mu_0I}{\pi D}$$
 
 **Paso 3 — Condición (ítem b).** $B_{cuad} = 3B_c$:
 
-$$D = \frac{2\sqrt2\,\mu_0I_{cuad}}{3\pi B_c} = \frac{2\sqrt2\cdot4\pi\times10^{-7}\cdot8}{3\pi\cdot7{,}54\times10^{-5}}\ \text{m} = 0{,}040\ \text{m}$$
+$$D = \frac{2\sqrt2\ \mu_0I_{cuad}}{3\pi B_c} = \frac{2\sqrt2\cdot4\pi\times10^{-7}\cdot8}{3\pi\cdot7{,}54\times10^{-5}}\ \text{m} = 0{,}040\ \text{m}$$
 
 </details>
 

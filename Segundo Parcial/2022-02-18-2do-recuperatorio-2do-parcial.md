@@ -27,7 +27,7 @@ Una espira rectangular de lados L y 4L transporta una corriente de intensidad 1,
 
 Sumando todo:
 
-$$B = \frac{2\mu_0I\sqrt{a^2 + b^2}}{\pi\,a\,b}$$
+$$B = \frac{2\mu_0I\sqrt{a^2 + b^2}}{\pi\ a\ b}$$
 
 **Paso 2 — Cálculo** con $a = 2$ cm y $b = 8$ cm:
 
@@ -57,7 +57,7 @@ Una carga puntual q=-14 μC se encuentra pasando por el punto (0; 0; 5 cm) con v
 
 **Paso 1 — Idea clave.** La fuerza magnética $\vec F = q\vec v\times\vec B$ es **siempre perpendicular a la velocidad**, así que no hace trabajo:
 
-$$dW = \vec F\cdot d\vec r = (q\vec v\times\vec B)\cdot\vec v\,dt = 0$$
+$$dW = \vec F\cdot d\vec r = (q\vec v\times\vec B)\cdot\vec v\ dt = 0$$
 
 **Paso 2 — Conclusión.** La energía cinética, y con ella el **módulo** de la velocidad, se conserva, aunque el campo no sea uniforme y la trayectoria sea complicada. (Solo actúa la fuerza magnética.)
 
@@ -89,21 +89,21 @@ La barra conductora de la figura, de longitud 30 cm, se mueve con velocidad cons
 
 **Paso 2 — $\vec v\times\vec B$.**
 
-$$\vec v\times\vec B = (-v\,\hat y)\times\left(-\frac{\mu_0I}{2\pi x}\hat z\right) = \frac{\mu_0Iv}{2\pi x}\,\hat x$$
+$$\vec v\times\vec B = (-v\ \hat y)\times\left(-\frac{\mu_0I}{2\pi x}\hat z\right) = \frac{\mu_0Iv}{2\pi x}\ \hat x$$
 
 Empuja las cargas positivas hacia el extremo 2.
 
 **Paso 3 — Fem de movimiento.**
 
-$$V_2 - V_1 = \int_1^2(\vec v\times\vec B)\cdot d\vec\ell = \frac{\mu_0Iv}{2\pi}\int_d^{d+\ell}\frac{dx}{x} = \frac{\mu_0Iv}{2\pi}\ln\!\left(1 + \frac\ell d\right)$$
+$$V_2 - V_1 = \int_1^2(\vec v\times\vec B)\cdot d\vec\ell = \frac{\mu_0Iv}{2\pi}\int_d^{d+\ell}\frac{dx}{x} = \frac{\mu_0Iv}{2\pi}\ln\left(1 + \frac\ell d\right)$$
 
 **Paso 4 — Cálculo.**
 
-$$V_2 - V_1 = 2\times10^{-7}\cdot10\cdot40\cdot\ln\!\left(\frac{39}{9}\right)\ \text{V} = 8\times10^{-5}\cdot1{,}466\ \text{V} = 1{,}17\times10^{-4}\ \text{V}$$
+$$V_2 - V_1 = 2\times10^{-7}\cdot10\cdot40\cdot\ln\left(\frac{39}{9}\right)\ \text{V} = 8\times10^{-5}\cdot1{,}466\ \text{V} = 1{,}17\times10^{-4}\ \text{V}$$
 
 </details>
 
-**Respuesta:** $V_2 - V_1 = \dfrac{\mu_0Iv}{2\pi}\ln\!\left(1 + \dfrac\ell d\right) \approx 117\ \mu\text{V}$ (el extremo 2 está a mayor potencial).
+**Respuesta:** $V_2 - V_1 = \dfrac{\mu_0Iv}{2\pi}\ln\left(1 + \dfrac\ell d\right) \approx 117\ \mu\text{V}$ (el extremo 2 está a mayor potencial).
 
 </details>
 
@@ -155,7 +155,7 @@ $$L = \frac{R\tan\phi}{\omega\left(1 - (f_R/f)^2\right)} = \frac{24{,}4}{376{,}9
 
 **Paso 4 — Potencias (ítem c).**
 
-$$S = \frac{P}{\cos\phi} = \frac{70}{0{,}82}\ \text{VA} = 85{,}4\ \text{VA} \qquad Q = S\mathrm{sen}\,\phi = 85{,}4\cdot0{,}572\ \text{VAR} = 48{,}9\ \text{VAR}$$
+$$S = \frac{P}{\cos\phi} = \frac{70}{0{,}82}\ \text{VA} = 85{,}4\ \text{VA} \qquad Q = S\mathrm{sen}\ \phi = 85{,}4\cdot0{,}572\ \text{VAR} = 48{,}9\ \text{VAR}$$
 
 </details>
 

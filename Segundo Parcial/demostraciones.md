@@ -8,9 +8,9 @@ Lo único que se supone sabido:
 
 | Ley | Fórmula |
 |---|---|
-| Biot-Savart | $d\vec B = \dfrac{\mu_0 I}{4\pi}\,\dfrac{d\vec l\times\vec r}{r^3}$, con $\vec r$ del elemento de cable al punto P |
+| Biot-Savart | $d\vec B = \dfrac{\mu_0 I}{4\pi}\ \dfrac{d\vec l\times\vec r}{r^3}$, con $\vec r$ del elemento de cable al punto P |
 | Ampère | $\displaystyle\oint\vec B\cdot d\vec l = \mu_0 I_{enc}$ |
-| Fuerza magnética | $\vec F = q\,\vec v\times\vec B$ |
+| Fuerza magnética | $\vec F = q\ \vec v\times\vec B$ |
 | Faraday | $\mathcal E = -\dfrac{d\phi}{dt}$, $\ \phi = \displaystyle\iint\vec B\cdot d\vec A$ |
 | Inductancia | $N\phi = LI$, $\ \mathcal E = -L\dfrac{dI}{dt}$ |
 | Capacitor | $q = Cv$ |
@@ -27,7 +27,7 @@ Volver al [índice de parciales](README.md).
 
 **Demostrá** que un tramo recto de cable con corriente $I$ produce en un punto P a distancia $d$ de su recta
 
-$$B = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 I}{4\pi d}(\mathrm{sen}\,\beta_2 - \mathrm{sen}\,\beta_1)$$
+$$B = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2} = \frac{\mu_0 I}{4\pi d}(\mathrm{sen}\ \beta_2 - \mathrm{sen}\ \beta_1)$$
 
 donde $x_1$ y $x_2$ son las posiciones de los extremos medidas desde el pie de la perpendicular trazada desde P. Deducí de ahí el hilo infinito $\dfrac{\mu_0 I}{2\pi d}$, el semi-infinito con P frente a su extremo $\dfrac{\mu_0 I}{4\pi d}$, y que si P está sobre la prolongación del tramo $B = 0$.
 
@@ -43,19 +43,19 @@ Poné el cable sobre el eje $x$ con el origen en el pie de la perpendicular, y P
 <details>
 <summary>Demostración</summary>
 
-El elemento de cable en $(x, 0)$ es $d\vec l = dx\,\hat x$. El vector que va de él a P es $\vec r = (-x,\ d)$, de módulo $r = \sqrt{x^2 + d^2}$.
+El elemento de cable en $(x, 0)$ es $d\vec l = dx\ \hat x$. El vector que va de él a P es $\vec r = (-x,\ d)$, de módulo $r = \sqrt{x^2 + d^2}$.
 
-$$d\vec l\times\vec r = dx\,\hat x\times(-x\,\hat x + d\,\hat y) = d\,dx\,\hat z$$
+$$d\vec l\times\vec r = dx\ \hat x\times(-x\ \hat x + d\ \hat y) = d\ dx\ \hat z$$
 
 (porque $\hat x\times\hat x = 0$ y $\hat x\times\hat y = \hat z$). Todos los elementos aportan en la misma dirección $\hat z$, así que alcanza con integrar el módulo:
 
-$$B = \frac{\mu_0 I}{4\pi}\int_{x_1}^{x_2}\frac{d\,dx}{(x^2 + d^2)^{3/2}}$$
+$$B = \frac{\mu_0 I}{4\pi}\int_{x_1}^{x_2}\frac{d\ dx}{(x^2 + d^2)^{3/2}}$$
 
-Con $x = d\tan u$: $dx = d\sec^2u\,du$ y $(x^2 + d^2)^{3/2} = d^3\sec^3u$. Entonces
+Con $x = d\tan u$: $dx = d\sec^2u\ du$ y $(x^2 + d^2)^{3/2} = d^3\sec^3u$. Entonces
 
-$$\int\frac{d\,dx}{(x^2 + d^2)^{3/2}} = \int\frac{d\cdot d\sec^2u}{d^3\sec^3u}\,du = \frac1d\int\cos u\,du = \frac{\mathrm{sen}\,u}{d} = \frac{1}{d}\cdot\frac{x}{\sqrt{x^2 + d^2}}$$
+$$\int\frac{d\ dx}{(x^2 + d^2)^{3/2}} = \int\frac{d\cdot d\sec^2u}{d^3\sec^3u}\ du = \frac1d\int\cos u\ du = \frac{\mathrm{sen}\ u}{d} = \frac{1}{d}\cdot\frac{x}{\sqrt{x^2 + d^2}}$$
 
-(de $\tan u = x/d$ se tiene $\mathrm{sen}\,u = x/\sqrt{x^2 + d^2}$). Queda
+(de $\tan u = x/d$ se tiene $\mathrm{sen}\ u = x/\sqrt{x^2 + d^2}$). Queda
 
 $$B = \frac{\mu_0 I}{4\pi d}\left[\frac{x}{\sqrt{x^2 + d^2}}\right]_{x_1}^{x_2}$$
 
@@ -91,9 +91,9 @@ Todos los elementos del arco están a la misma distancia de P. ¿Qué ángulo fo
 <details>
 <summary>Demostración</summary>
 
-Cada elemento del arco está a distancia $r = R$ de P, y $d\vec l$ es tangente al arco, o sea perpendicular al radio. Entonces $\lvert d\vec l\times\vec r\rvert = dl\cdot R$, y todos los aportes apuntan en la misma dirección (perpendicular al plano del arco). Con $dl = R\,d\varphi$:
+Cada elemento del arco está a distancia $r = R$ de P, y $d\vec l$ es tangente al arco, o sea perpendicular al radio. Entonces $\lvert d\vec l\times\vec r\rvert = dl\cdot R$, y todos los aportes apuntan en la misma dirección (perpendicular al plano del arco). Con $dl = R\ d\varphi$:
 
-$$B = \frac{\mu_0 I}{4\pi}\int\frac{dl\cdot R}{R^3} = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\,d\varphi}{R^2} = \frac{\mu_0 I\theta}{4\pi R}$$
+$$B = \frac{\mu_0 I}{4\pi}\int\frac{dl\cdot R}{R^3} = \frac{\mu_0 I}{4\pi}\int_0^\theta\frac{R\ d\varphi}{R^2} = \frac{\mu_0 I\theta}{4\pi R}$$
 
 **Espira circular:** $\theta = 2\pi$, así que $B = \dfrac{\mu_0 I\cdot2\pi}{4\pi R} = \dfrac{\mu_0 I}{2R}$.
 
@@ -114,26 +114,26 @@ dirigido a lo largo del eje.
 <details>
 <summary>Pista</summary>
 
-Anillo en el plano $xy$ centrado en el origen, P en $(0, 0, z)$. Parametrizá el anillo con el ángulo $\varphi$: posición $R(\cos\varphi, \mathrm{sen}\,\varphi, 0)$. Escribí $d\vec l$ y $\vec r$ en componentes y hacé el producto vectorial completo. Al integrar en $\varphi$ de 0 a $2\pi$, ¿qué componentes sobreviven?
+Anillo en el plano $xy$ centrado en el origen, P en $(0, 0, z)$. Parametrizá el anillo con el ángulo $\varphi$: posición $R(\cos\varphi, \mathrm{sen}\ \varphi, 0)$. Escribí $d\vec l$ y $\vec r$ en componentes y hacé el producto vectorial completo. Al integrar en $\varphi$ de 0 a $2\pi$, ¿qué componentes sobreviven?
 
 </details>
 
 <details>
 <summary>Demostración</summary>
 
-Elemento en $R(\cos\varphi, \mathrm{sen}\,\varphi, 0)$:
+Elemento en $R(\cos\varphi, \mathrm{sen}\ \varphi, 0)$:
 
-$$d\vec l = R\,d\varphi\,(-\mathrm{sen}\,\varphi,\ \cos\varphi,\ 0) \qquad \vec r = P - \text{elemento} = (-R\cos\varphi,\ -R\,\mathrm{sen}\,\varphi,\ z)$$
+$$d\vec l = R\ d\varphi\ (-\mathrm{sen}\ \varphi,\ \cos\varphi,\ 0) \qquad \vec r = P - \text{elemento} = (-R\cos\varphi,\ -R\ \mathrm{sen}\ \varphi,\ z)$$
 
 y $r = \sqrt{R^2 + z^2}$, igual para todos los elementos. Producto vectorial:
 
-$$(-\mathrm{sen}\,\varphi,\ \cos\varphi,\ 0)\times(-R\cos\varphi,\ -R\,\mathrm{sen}\,\varphi,\ z) = (z\cos\varphi,\ z\,\mathrm{sen}\,\varphi,\ R\,\mathrm{sen}^2\varphi + R\cos^2\varphi) = (z\cos\varphi,\ z\,\mathrm{sen}\,\varphi,\ R)$$
+$$(-\mathrm{sen}\ \varphi,\ \cos\varphi,\ 0)\times(-R\cos\varphi,\ -R\ \mathrm{sen}\ \varphi,\ z) = (z\cos\varphi,\ z\ \mathrm{sen}\ \varphi,\ R\ \mathrm{sen}^2\varphi + R\cos^2\varphi) = (z\cos\varphi,\ z\ \mathrm{sen}\ \varphi,\ R)$$
 
 Entonces
 
-$$\vec B = \frac{\mu_0 I}{4\pi r^3}\int_0^{2\pi}R\,(z\cos\varphi,\ z\,\mathrm{sen}\,\varphi,\ R)\,d\varphi$$
+$$\vec B = \frac{\mu_0 I}{4\pi r^3}\int_0^{2\pi}R\ (z\cos\varphi,\ z\ \mathrm{sen}\ \varphi,\ R)\ d\varphi$$
 
-Las integrales de $\cos\varphi$ y $\mathrm{sen}\,\varphi$ en un período dan 0: las componentes perpendiculares al eje se cancelan. Queda solo la componente $z$:
+Las integrales de $\cos\varphi$ y $\mathrm{sen}\ \varphi$ en un período dan 0: las componentes perpendiculares al eje se cancelan. Queda solo la componente $z$:
 
 $$B_z = \frac{\mu_0 I}{4\pi r^3}\cdot R^2\cdot2\pi = \frac{\mu_0 IR^2}{2r^3} = \frac{\mu_0 IR^2}{2(R^2 + z^2)^{3/2}}$$
 
@@ -194,7 +194,7 @@ $$\mathcal E = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
 
 **a)** El campo del hilo depende solo de la distancia al hilo. Tomá como elemento de área una franja paralela al hilo, donde $B$ es constante.
 
-**b)** No hay circuito cerrado. Sobre cada carga de la barra actúa $q\,\vec v\times\vec B$, que hace de campo eléctrico. La fem es la integral de línea de ese campo a lo largo de la barra.
+**b)** No hay circuito cerrado. Sobre cada carga de la barra actúa $q\ \vec v\times\vec B$, que hace de campo eléctrico. La fem es la integral de línea de ese campo a lo largo de la barra.
 
 </details>
 
@@ -207,13 +207,13 @@ $$B\cdot2\pi x = \mu_0 I \quad\Rightarrow\quad B(x) = \frac{\mu_0 I}{2\pi x}$$
 
 En el plano del hilo, $\vec B$ es perpendicular a ese plano.
 
-**a)** El campo es perpendicular a la espira y constante en cada franja de largo $c$ y ancho $dx$, a distancia $x$ del hilo. Con $dA = c\,dx$:
+**a)** El campo es perpendicular a la espira y constante en cada franja de largo $c$ y ancho $dx$, a distancia $x$ del hilo. Con $dA = c\ dx$:
 
-$$\phi = \iint\vec B\cdot d\vec A = \int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}\,c\,dx = \frac{\mu_0 Ic}{2\pi}\ln\frac{x_2}{x_1}$$
+$$\phi = \iint\vec B\cdot d\vec A = \int_{x_1}^{x_2}\frac{\mu_0 I}{2\pi x}\ c\ dx = \frac{\mu_0 Ic}{2\pi}\ln\frac{x_2}{x_1}$$
 
 **b)** $\vec v$ es paralela al hilo y $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$. Entonces $\vec v\times\vec B$ tiene módulo $vB$ y es perpendicular a los dos, o sea que apunta a lo largo de la barra. Integrando desde el extremo cercano ($r = d$) hasta el lejano ($r = d + \ell$):
 
-$$\mathcal E = \int_d^{d + \ell}(\vec v\times\vec B)\cdot d\vec r = \int_d^{d + \ell}v\,\frac{\mu_0 I}{2\pi r}\,dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
+$$\mathcal E = \int_d^{d + \ell}(\vec v\times\vec B)\cdot d\vec r = \int_d^{d + \ell}v\ \frac{\mu_0 I}{2\pi r}\ dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
 
 </details>
 
@@ -243,7 +243,7 @@ Hacelo de dos formas: con la fuerza magnética y con Faraday.
 
 **Con la fuerza magnética.** El punto a distancia $r$ del eje se mueve con $v = \omega r$, perpendicular a la barra. Como $\vec B$ es perpendicular al plano de giro, $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $\omega rB$, a lo largo de la barra:
 
-$$\mathcal E = \int_0^{r_0}(\vec v\times\vec B)\cdot d\vec r = \int_0^{r_0}\omega rB\,dr = \tfrac12B\omega r_0^2$$
+$$\mathcal E = \int_0^{r_0}(\vec v\times\vec B)\cdot d\vec r = \int_0^{r_0}\omega rB\ dr = \tfrac12B\omega r_0^2$$
 
 **Con Faraday.** En un tiempo $t$ la barra gira un ángulo $\omega t$ y barre un sector circular de área $\tfrac12r_0^2\omega t$. El flujo a través de esa área es $\phi = \tfrac12Br_0^2\omega t$ y
 
@@ -279,11 +279,11 @@ $$P = L\frac{di}{dt}\cdot i$$
 
 La energía es la integral de la potencia en el tiempo. Cambiando la variable a $i$ (que va de 0 a $I$):
 
-$$U = \int L\,i\,\frac{di}{dt}\,dt = \int_0^IL\,i\,di = \tfrac12LI^2$$
+$$U = \int L\ i\ \frac{di}{dt}\ dt = \int_0^IL\ i\ di = \tfrac12LI^2$$
 
 **En un solenoide**, con $L = \mu_0 n^2A\ell$ y $B = \mu_0 nI$:
 
-$$U = \tfrac12\mu_0 n^2A\ell\,I^2 = \frac{(\mu_0 nI)^2}{2\mu_0}A\ell = \frac{B^2}{2\mu_0}\cdot A\ell$$
+$$U = \tfrac12\mu_0 n^2A\ell\ I^2 = \frac{(\mu_0 nI)^2}{2\mu_0}A\ell = \frac{B^2}{2\mu_0}\cdot A\ell$$
 
 y $A\ell$ es el volumen interior.
 
@@ -299,7 +299,7 @@ $$U = \tfrac12CV^2 = \frac{Q^2}{2C}$$
 
 y que una fuente de tensión fija $V$, al cargarlo desde cero, entrega $QV$: el doble de lo que queda guardado. La otra mitad se disipa en las resistencias.
 
-**Partí de:** $q = Cv$, y que mover una carga $dq$ a través de una tensión $v$ cuesta $v\,dq$.
+**Partí de:** $q = Cv$, y que mover una carga $dq$ a través de una tensión $v$ cuesta $v\ dq$.
 
 <details>
 <summary>Pista</summary>
@@ -311,13 +311,13 @@ Durante la carga, la tensión del capacitor no es fija: depende de la carga que 
 <details>
 <summary>Demostración</summary>
 
-**Energía guardada.** Cuando el capacitor tiene carga $q$, su tensión es $v = q/C$. Llevar una carga $dq$ más cuesta $v\,dq$. Integrando de 0 a $Q$:
+**Energía guardada.** Cuando el capacitor tiene carga $q$, su tensión es $v = q/C$. Llevar una carga $dq$ más cuesta $v\ dq$. Integrando de 0 a $Q$:
 
-$$U = \int_0^Q\frac qC\,dq = \frac{Q^2}{2C} = \frac{(CV)^2}{2C} = \tfrac12CV^2$$
+$$U = \int_0^Q\frac qC\ dq = \frac{Q^2}{2C} = \frac{(CV)^2}{2C} = \tfrac12CV^2$$
 
 **Energía que entrega la fuente.** La fuente mantiene la tensión $V$ fija mientras pasa toda la carga:
 
-$$W = \int_0^QV\,dq = QV = CV^2$$
+$$W = \int_0^QV\ dq = QV = CV^2$$
 
 La diferencia, $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$, se disipa en las resistencias del circuito. No depende de cuánto valgan.
 
@@ -327,11 +327,11 @@ La diferencia, $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$, se disipa en las resistenci
 
 ## 9. Eficaces y potencia
 
-**Demostrá** que, con $v = V_0\,\mathrm{sen}\,(\omega t)$ e $i = I_0\,\mathrm{sen}\,(\omega t - \varphi)$:
+**Demostrá** que, con $v = V_0\ \mathrm{sen}\ (\omega t)$ e $i = I_0\ \mathrm{sen}\ (\omega t - \varphi)$:
 
-**a)** El valor eficaz, $V_{EF} = \sqrt{\dfrac1T\displaystyle\int_0^Tv^2\,dt}$, es $V_{EF} = \dfrac{V_0}{\sqrt2}$.
+**a)** El valor eficaz, $V_{EF} = \sqrt{\dfrac1T\displaystyle\int_0^Tv^2\ dt}$, es $V_{EF} = \dfrac{V_0}{\sqrt2}$.
 
-**b)** La potencia media, $P = \dfrac1T\displaystyle\int_0^Tv\,i\,dt$, es $P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$.
+**b)** La potencia media, $P = \dfrac1T\displaystyle\int_0^Tv\ i\ dt$, es $P = V_{EF}I_{EF}\cos\varphi = I_{EF}^2R$.
 
 **Partí de:** $V_0 = ZI_0$ y $\cos\varphi = R/Z$ (módulo y argumento de $Z$).
 
@@ -340,7 +340,7 @@ La diferencia, $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$, se disipa en las resistenci
 
 **a)** $\mathrm{sen}^2u = \tfrac12(1 - \cos2u)$.
 
-**b)** $\mathrm{sen}\,a\,\mathrm{sen}\,b = \tfrac12[\cos(a - b) - \cos(a + b)]$. Un coseno de $2\omega t$ promedia cero en un período.
+**b)** $\mathrm{sen}\ a\ \mathrm{sen}\ b = \tfrac12[\cos(a - b) - \cos(a + b)]$. Un coseno de $2\omega t$ promedia cero en un período.
 
 </details>
 
@@ -349,13 +349,13 @@ La diferencia, $CV^2 - \tfrac12CV^2 = \tfrac12CV^2$, se disipa en las resistenci
 
 **a)** Con $T = 2\pi/\omega$:
 
-$$V_{EF}^2 = \frac1T\int_0^TV_0^2\,\mathrm{sen}^2(\omega t)\,dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos(2\omega t)}{2}\,dt = \frac{V_0^2}{T}\cdot\frac T2 = \frac{V_0^2}{2}$$
+$$V_{EF}^2 = \frac1T\int_0^TV_0^2\ \mathrm{sen}^2(\omega t)\ dt = \frac{V_0^2}{T}\int_0^T\frac{1 - \cos(2\omega t)}{2}\ dt = \frac{V_0^2}{T}\cdot\frac T2 = \frac{V_0^2}{2}$$
 
 porque la integral de $\cos(2\omega t)$ en un período es 0. Entonces $V_{EF} = V_0/\sqrt2$, y lo mismo para la corriente.
 
 **b)** Con $a = \omega t$ y $b = \omega t - \varphi$, se tiene $a - b = \varphi$ y $a + b = 2\omega t - \varphi$:
 
-$$P = \frac{V_0I_0}{T}\int_0^T\frac{\cos\varphi - \cos(2\omega t - \varphi)}{2}\,dt = \frac{V_0I_0}{2}\cos\varphi$$
+$$P = \frac{V_0I_0}{T}\int_0^T\frac{\cos\varphi - \cos(2\omega t - \varphi)}{2}\ dt = \frac{V_0I_0}{2}\cos\varphi$$
 
 Como $\dfrac{V_0I_0}{2} = \dfrac{V_0}{\sqrt2}\cdot\dfrac{I_0}{\sqrt2} = V_{EF}I_{EF}$, queda $P = V_{EF}I_{EF}\cos\varphi$.
 
@@ -393,7 +393,7 @@ $$E\cdot2\pi r\ell = \frac{\lambda\ell}{\varepsilon_0} \quad\Rightarrow\quad E =
 
 Diferencia de potencial entre los cilindros:
 
-$$V = \int_a^b\frac{\lambda}{2\pi\varepsilon_0 r}\,dr = \frac{\lambda}{2\pi\varepsilon_0}\ln\frac ba$$
+$$V = \int_a^b\frac{\lambda}{2\pi\varepsilon_0 r}\ dr = \frac{\lambda}{2\pi\varepsilon_0}\ln\frac ba$$
 
 Entonces
 
