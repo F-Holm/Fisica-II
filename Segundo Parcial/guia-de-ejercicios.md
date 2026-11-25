@@ -389,7 +389,7 @@ $$V' = \frac{40}{6 + 2} = 5\ \text{V} \qquad Q_3' = 2\cdot5 = 10\ \mu\text{C} \q
 
 $$U_0 = \tfrac12C_sV^2 = \tfrac12\cdot4\cdot10^2 = 200\ \mu\text{J}$$
 
-Control sumando cada uno con $Q^2/2C$: $\dfrac{40^2}{2\cdot12} + \dfrac{40^2}{2\cdot6} = 66{,}67 + 133{,}33 = 200\ \mu$J ✓.
+Control sumando cada uno con $Q^2/2C$: $\dfrac{40^2}{2\cdot12} + \dfrac{40^2}{2\cdot6} = 66{,}67 + 133{,}33 = 200\ \mu\text{J}$ ✓.
 
 **Paso 5 — Energía después.** $C_1$ sigue con 40 μC, y $C_2$ y $C_3$ quedan a 5 V:
 
