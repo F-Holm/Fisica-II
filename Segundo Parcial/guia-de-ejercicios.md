@@ -941,7 +941,7 @@ $$\frac F\ell = i_2B = \frac{\mu_0 i_1i_2}{2\pi D}$$
 
 $$\frac F\ell = \frac{4\pi\times10^{-7}\cdot0{,}2\cdot0{,}3}{2\pi\cdot0{,}6}\ \tfrac{\text{N}}{\text{m}} = 2\times10^{-8}\ \tfrac{\text{N}}{\text{m}}$$
 
-**Paso 3 — Sentido.** Con las corrientes en el mismo sentido, el producto vectorial $i_2\,d\vec l\times\vec B_1$ apunta hacia el hilo superior: la fuerza es **atractiva**.
+**Paso 3 — Sentido.** Con las corrientes en el mismo sentido, el producto vectorial $i_2\ d\vec l\times\vec B_1$ apunta hacia el hilo superior: la fuerza es **atractiva**.
 
 #### Ítem b)
 
@@ -2218,7 +2218,7 @@ $$L = \mu_0\frac{N^2}{\ell}\pi r^2 = 4\pi\times10^{-7}\cdot\frac{2000^2}{0{,}4}\
 
 #### Ítem b)
 
-**Paso 2 — Fem autoinducida.** Derivando $i = 2\,\mathrm{sen}\,(100\pi t)$:
+**Paso 2 — Fem autoinducida.** Derivando $i = 2\ \mathrm{sen}\ (100\pi t)$:
 
 $$\mathcal E = -L\frac{di}{dt} = -L\cdot2\cdot100\pi\cos(100\pi t) \qquad \lvert\mathcal E(t)\rvert = 200\pi\cdot0{,}0158\cos(100\pi t) = 9{,}92\cos(100\pi t)\ \text{V}$$
 
@@ -2948,7 +2948,7 @@ $$Z = \frac{\mathcal E_{EF}}{I_{EF}} = \frac{100}{0{,}2} = 500\ \Omega$$
 
 **Paso 2 — R y C.** Del triángulo de impedancias, con $\varphi = 60^\circ$:
 
-$$R = Z\cos\varphi = 500\cdot0{,}5 = 250\ \Omega \qquad X_C = Z\,\mathrm{sen}\,\varphi = 500\cdot0{,}866 = 433\ \Omega$$
+$$R = Z\cos\varphi = 500\cdot0{,}5 = 250\ \Omega \qquad X_C = Z\ \mathrm{sen}\ \varphi = 500\cdot0{,}866 = 433\ \Omega$$
 
 $$C = \frac{1}{\omega X_C} = \frac{1}{314{,}16\cdot433}\ \text{F} = 7{,}35\ \mu\text{F}$$
 
