@@ -7,6 +7,7 @@ Ejercicios ordenados de fácil a difícil para aprender los temas del 2º Parcia
 - Hacé los ejercicios en orden. Intentá cada uno en papel antes de abrir la solución.
 - El botón **Solución** muestra la respuesta. Adentro, **Solución paso a paso** explica todo como si no supieras física: **Qué piden, en palabras** traduce el enunciado, **La idea, desde cero** explica la física que hace falta, y cada fórmula despejada se **deduce** desde la integral o la derivada de la que sale, con el atajo al lado.
 - Las explicaciones se repiten a propósito: cada ejercicio se puede leer solo.
+- Cada ejercicio 🔴 dice qué probabilidad hay de que en el parcial aparezca uno del mismo tipo. Al final está la [composición de los parciales](#composición-de-los-parciales).
 
 **Niveles.**
 
@@ -470,6 +471,8 @@ $$E(a) = \frac{V}{a\ln(b/a)} = \frac{100}{10^{-3}\cdot1{,}609}\ \tfrac{\text{V}}
 
 **Nivel:** 🔴 Parcial · **Fuente:** [1er Recuperatorio del 2º Parcial — 12/12/2024, Ej. 1](2024-12-12-1er-recuperatorio-2do-parcial.md#ejercicio-1) (enunciado textual) · **Tipo de la guía de resolución:** [1. Capacitores con llaves: energía disipada](guia-de-resolucion.md#1-capacitores-con-llaves-energ%C3%ADa-disipada)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 65 % · el tipo 1 apareció en 2 de los 3 exámenes desde 2024 (antes no se tomaba), la última vez el 12/12/2024 ([cómo se calcula](#composición-de-los-parciales)).
+
 En el circuito de la figura, inicialmente los capacitores se hallan descargados y las llaves se encuentran abiertas. Se cierra la llave 1 y, transcurrido un tiempo muy largo, se abre la llave 1 y a continuación se cierra la llave 2. Calcular la energía disipada en las resistencias en la evolución completa del sistema.
 **Datos:** V=60 V; C<sub>1</sub>=20 μF; C<sub>2</sub>=30 μF.
 
@@ -525,6 +528,8 @@ $$V_f = \frac{1200\ \mu\text{C}}{50\ \mu\text{F}} = 24\ \text{V} \qquad U_f = \t
 ### Ejercicio 8
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 28/11/2024, Ej. 1](2024-11-28-2do-parcial.md#ejercicio-1) (enunciado textual) · **Tipo de la guía de resolución:** [1. Capacitores con llaves: energía disipada](guia-de-resolucion.md#1-capacitores-con-llaves-energ%C3%ADa-disipada)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 65 % · el tipo 1 apareció en 2 de los 3 exámenes desde 2024 (antes no se tomaba), la última vez el 12/12/2024 ([cómo se calcula](#composición-de-los-parciales)).
 
 En el circuito de la figura, inicialmente los capacitores se encuentran descargados y las llaves se hallan abiertas. Se cierra la llave 1 y, transcurrido un tiempo muy largo, se abre la llave 1 y luego se cierra la llave 2. Determine la carga final de cada capacitor, y calcule la energía disipada en las resistencias del circuito desde que se cierra la llave 1 hasta alcanzado el estado final del sistema.
 **Datos:** V=50 V, C<sub>1</sub>=30 μF, C<sub>2</sub>=20 μF, C<sub>3</sub>=60 μF.
@@ -1310,6 +1315,8 @@ Ahora aparece una componente perpendicular al eje, porque la media espira no es 
 
 **Nivel:** 🔴 Parcial · **Fuente:** [1er Recuperatorio del 2º Parcial — 09/12/2021, Ej. 1](2021-12-09-1er-recuperatorio-2do-parcial.md#ejercicio-1) (enunciado textual) · **Tipo de la guía de resolución:** [2. Hilos paralelos: campo en un punto y punto de campo nulo](guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 45 % · el tipo 2 apareció en 5 de los 10 exámenes, la última vez el 28/11/2024 ([cómo se calcula](#composición-de-los-parciales)).
+
 Dos alambres paralelos infinitos, separados por una distancia de 8 cm, están circulados por corrientes I<sub>1</sub>=1 A e I<sub>2</sub>, respectivamente. El campo magnético generado por los alambres se anula a una distancia de 2 cm del primero, en la región externa a los dos alambres. **a)** Determine I<sub>2</sub>. **b)** Halle el campo magnético en el punto medio entre ambos alambres. **c)** Una carga q=6 μC pasa por el punto del ítem anterior con una velocidad de módulo 4 x 10<sup>4</sup> m/s y dirección coincidente con la de los hilos. Determine el módulo de la fuerza sobre la carga.
 
 <details>
@@ -1377,6 +1384,8 @@ $$F = 6\times10^{-6}\cdot4\times10^4\cdot30\times10^{-6}\ \text{N} = 7{,}2\ \mu\
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial (Tema 2) — 27/11/2025, Ej. 2](2025-11-27-2do-parcial-tema-2.md#ejercicio-2) (enunciado textual) · **Tipo de la guía de resolución:** [3. Fuerza entre hilos](guia-de-resolucion.md#3-fuerza-entre-hilos)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 25 % · el tipo 3 apareció en 2 de los 10 exámenes, la última vez el 27/11/2025 ([cómo se calcula](#composición-de-los-parciales)).
+
 Dos hilos muy largos y que transportan corrientes I<sub>1</sub>=I e I<sub>2</sub> de valor y sentido desconocidos se hallan dispuestos de forma coplanar, y separados por una distancia D.
 **a)** Sabiendo que los hilos se atraen entre sí con una fuerza por unidad de longitud de módulo 4μ<sub>0</sub>I<sup>2</sup>/(3πD), determine el campo en el punto P (H=D/5). Exprese en términos de μ<sub>0</sub>, I y D.
 **b)** ¿Existen puntos donde el campo magnético sea nulo? En caso afirmativo, determine alguno de ellos. En caso negativo, justifique claramente.
@@ -1442,6 +1451,8 @@ $$\frac{I}{x} = \frac{8I/3}{D - x} \quad\Rightarrow\quad 3(D - x) = 8x \quad\Rig
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 25/11/2021, Ej. 2](2021-11-25-2do-parcial.md#ejercicio-2) (enunciado textual) · **Tipo de la guía de resolución:** [5. Espiras: campo en el centro](guia-de-resolucion.md#5-espiras-campo-en-el-centro)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 40 % · el tipo 5 apareció en 5 de los 10 exámenes, pero ninguno desde 2024, la última vez el 18/02/2022 ([cómo se calcula](#composición-de-los-parciales)).
+
 **a)** Determine el campo magnético en el centro de una espira rectangular de lados 5 y 10 cm, que transporta una corriente de 2 A. **b)** ¿Qué radio debería tener una espira circular que transportase una corriente de 0,5 A, para que el campo en su centro tuviese un valor igual al determinado en **a)**?
 
 <details>
@@ -1505,6 +1516,8 @@ $$\frac{\mu_0\cdot0{,}5}{2R} = 35{,}8\times10^{-6} \quad\Rightarrow\quad R = \fr
 ### Ejercicio 24
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Recuperatorio del 2º Parcial — 19/02/2021, Ej. 2](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-2) (enunciado textual) · **Tipo de la guía de resolución:** [4. Campo en 3D (anillo + hilo) y fuerza sobre una carga](guia-de-resolucion.md#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 15 % · el tipo 4 apareció en 2 de los 10 exámenes, la última vez el 09/12/2021 ([cómo se calcula](#composición-de-los-parciales)).
 
 Un anillo de radio R=8 cm, cuyo eje coincide con el eje de las Z y cuyo centro es el punto z=0, transporta una corriente I=2 A. Un hilo muy largo perpendicular al eje de las Z y que lo intersecta en el punto z<sub>2</sub>=18 cm, transporta la misma corriente I. **a)** Determine el campo magnético en el punto z<sub>1</sub>=10 cm. **b)** En un instante dado, una carga q=6 μC pasa por el punto z<sub>1</sub> con velocidad **v**=5 x 10<sup>4</sup> m/s **k**. Determinar la fuerza magnética sobre la carga, en ese instante. **Dato:** μ<sub>0</sub>= 4π x 10<sup>-7</sup> Tm/A.
 
@@ -1570,6 +1583,8 @@ $$\vec F = q\ v\ B_h\ (\hat k\times\hat\jmath) = -qvB_h\ \hat\imath = -6\times10
 ### Ejercicio 25
 
 **Nivel:** 🔴 Parcial · **Fuente:** [1er Recuperatorio del 2º Parcial — 12/12/2024, Ej. 2](2024-12-12-1er-recuperatorio-2do-parcial.md#ejercicio-2) (enunciado textual) · **Tipo de la guía de resolución:** [6. Hilo doblado: Biot-Savart por tramos](guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 55 % · el tipo 6 apareció en 5 de los 10 exámenes, dos de ellos desde 2024, la última vez el 27/11/2025 ([cómo se calcula](#composición-de-los-parciales)).
 
 Un hilo muy largo con corriente adopta la forma indicada en la figura. Determinar el campo magnético en el punto P.
 **Datos:** R=8 cm; I=2 A; α=30°; μ<sub>0</sub>=4π x 10<sup>-7</sup> Tm/A.
@@ -1644,6 +1659,8 @@ $$B_P = 9{,}16 - 0{,}67 = 8{,}49\ \mu\text{T, entrante}$$
 ### Ejercicio 26
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 25/11/2021, Ej. 3](2021-11-25-2do-parcial.md#ejercicio-3) (enunciado textual) · **Tipo de la guía de resolución:** [7. Movimiento de una carga en un campo magnético](guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 15 % · el tipo 7 apareció en 2 de los 10 exámenes, la última vez el 18/02/2022 ([cómo se calcula](#composición-de-los-parciales)).
 
 Una partícula cargada ingresa con una cierta velocidad en una zona de campo magnético uniforme de módulo 0,24 T y que forma un ángulo de 80<sup>0</sup> con la velocidad, observándose que la carga describe una trayectoria helicoidal de paso 0,85 mm. Teniendo esto en cuenta, se pide determinar el radio de la trayectoria circular que esa misma partícula, con esa misma velocidad, habría descrito si hubiese ingresado en una zona de campo uniforme perpendicular a la velocidad y de módulo 0,18 T.
 
@@ -2358,6 +2375,8 @@ Volumen: $\pi\cdot0{,}01^2\cdot0{,}25 = 7{,}85\times10^{-5}$ m³. $U = 40{,}2\cd
 
 **Nivel:** 🔴 Parcial · **Fuente:** [Simulacro del 2º Parcial (sin fecha), Ej. 2](simulacro-2do-parcial.md#ejercicio-2) (enunciado textual) · **Tipo de la guía de resolución:** [8. Bobina en un campo que varía con el tiempo](guia-de-resolucion.md#8-bobina-en-un-campo-que-var%C3%ADa-con-el-tiempo)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 10 % · el tipo 8 apareció en solo en el simulacro ([cómo se calcula](#composición-de-los-parciales)).
+
 Un alambre de longitud 5 m se enrolla para formar una bobina circular de área 2,21 x 10<sup>-3</sup> m<sup>2</sup>. La bobina es sumergida en un campo magnético perpendicular al plano que la contiene, y cuya intensidad varía en el tiempo según la ley:
 
 B(t) = a t<sup>2</sup> + b t<sup>4</sup> [T],
@@ -2413,6 +2432,8 @@ Restando dos veces la primera a la segunda: $24b = -41{,}48$, así que $b = -1{,
 ### Ejercicio 39
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Recuperatorio del 2º Parcial — 19/02/2021, Ej. 3](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-3) (enunciado textual) · **Tipo de la guía de resolución:** [9. Espira junto a un hilo: flujo con integral](guia-de-resolucion.md#9-espira-junto-a-un-hilo-flujo-con-integral)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 15 % · el tipo 9 apareció en 2 de los 10 exámenes, la última vez el 25/11/2021 ([cómo se calcula](#composición-de-los-parciales)).
 
 En la figura el hilo es muy largo, y la corriente por el mismo varía en el tiempo según la ley I(t) = I<sub>0</sub> sen (ωt). **a)** Determine la fem inducida en la espira. **b)** Suponga ahora que la corriente en el hilo se mantiene constante en el tiempo con valor I<sub>0</sub>, y que la espira parte de la posición inicial anterior y se aleja del hilo con velocidad constante de módulo 5 cm/s. Determinar la fem inducida en la espira. **c)** Suponga que la espira es conductora, con resistencia 3Ω. Determinar, para el caso del ítem anterior, la corriente inducida en la espira, indicando el sentido de circulación. **Datos:** L<sub>1</sub>=12 cm, L<sub>2</sub>=20 cm, L<sub>3</sub>=15 cm, I<sub>0</sub>=3 A, ω=5π 1/s, μ<sub>0</sub>=4π x 10<sup>-7</sup> Tm/A.
 
@@ -2480,6 +2501,8 @@ $I = \mathcal E/R = 5\times10^{-9}$ A. Sentido: a la derecha del hilo (corriente
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 03/12/2020, Ej. 3](2020-12-03-2do-parcial.md#ejercicio-3) (enunciado textual) · **Tipo de la guía de resolución:** [10. Barra sobre rieles](guia-de-resolucion.md#10-barra-sobre-rieles)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 25 % · el tipo 10 apareció en 2 de los 10 exámenes, la última vez el 27/11/2025 ([cómo se calcula](#composición-de-los-parciales)).
+
 La barra de longitud L=11 cm se desplaza con velocidad constante hacia la izquierda y de módulo 15 m/s, sobre rieles conductores, en presencia de un campo magnético entrante y uniforme de módulo B=3 T. No hay rozamiento. Determine: **a)** Valor y sentido de circulación de la corriente inducida, y **b)** Módulo, dirección y sentido de la fuerza magnética y de la fuerza del agente externo que actúan sobre la barra. R<sub>1</sub>=5Ω, R<sub>2</sub>=2Ω, R<sub>3</sub>=6Ω.
 
 ![Figura del ejercicio 3](img/2020-12-03-ej3.png)
@@ -2542,6 +2565,8 @@ Hacia la derecha: frena la barra. El agente externo hace $1{,}42$ N hacia la izq
 
 **Nivel:** 🔴 Parcial · **Fuente:** [1er Recuperatorio del 2º Parcial — 12/12/2024, Ej. 4](2024-12-12-1er-recuperatorio-2do-parcial.md#ejercicio-4) (enunciado textual) · **Tipo de la guía de resolución:** [11. Barra que se mueve junto a un hilo](guia-de-resolucion.md#11-barra-que-se-mueve-junto-a-un-hilo)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 25 % · el tipo 11 apareció en 2 de los 10 exámenes, la última vez el 12/12/2024 ([cómo se calcula](#composición-de-los-parciales)).
+
 Un hilo muy largo transporta una corriente I=3A. Una barra conductora de longitud l=10 cm se mueve en dirección paralela al hilo, con velocidad de módulo 20 m/s y de sentido opuesto al de circulación de la corriente. La distancia entre el hilo y el extremo más próximo de la barra es d=5 cm. Determinar la diferencia de potencial inducida entre los extremos de la barra. Justificar cuál se halla a mayor potencial.
 
 ![Figura del ejercicio 4](img/2024-12-12-ej4.png)
@@ -2588,6 +2613,8 @@ Polaridad: hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\
 ### Ejercicio 42
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 20/11/2015, Ej. 3](2015-11-20-2do-parcial.md#ejercicio-3) (enunciado textual) · **Tipo de la guía de resolución:** [12. Barra que gira](guia-de-resolucion.md#12-barra-que-gira)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 10 % · el tipo 12 apareció en 1 de los 10 exámenes, la última vez el 20/11/2015 ([cómo se calcula](#composición-de-los-parciales)).
 
 Una barra conductora de longitud 45 cm y extremos P y Q, gira en sentido horario alrededor del punto O de la barra, situado a una distancia de 15 cm del extremo P. Existe un campo magnético uniforme, saliente respecto del plano de la hoja. Sabiendo que ω=8 1/s y B=0,3 T, determine la diferencia de tensión entre P y Q. Justifique cuál de ellos se halla a mayor potencial.
 
@@ -2636,6 +2663,8 @@ P (el más cercano al eje) está a mayor potencial.
 ### Ejercicio 43
 
 **Nivel:** 🔴 Parcial · **Fuente:** [1er Recuperatorio del 2º Parcial — 09/12/2021, Ej. 2](2021-12-09-1er-recuperatorio-2do-parcial.md#ejercicio-2) (enunciado textual) · **Tipo de la guía de resolución:** [13. Autoinductancia e inductancia mutua de solenoides](guia-de-resolucion.md#13-autoinductancia-e-inductancia-mutua-de-solenoides)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 15 % · el tipo 13 apareció en 2 de los 10 exámenes, la última vez el 18/02/2022 ([cómo se calcula](#composición-de-los-parciales)).
 
 Un solenoide de radio 2 cm y longitud 60 cm tiene arrolladas 3000 vueltas de alambre. **a)** Determine el coeficiente de autoinducción del solenoide. Justifique la fórmula utilizada. **b)** Se dispone al solenoide de forma coaxial con otro solenoide de la misma longitud, radio 3 cm y 2000 vueltas de alambre. ¿Cuál es la inductancia mutua? Justifique la fórmula utilizada.
 
@@ -2686,6 +2715,8 @@ $$M = \frac{N_1B_2\pi R_1^2}{I_2} = \frac{\mu_0 N_1N_2\pi R_1^2}{\ell} = \frac{4
 ### Ejercicio 44
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 28/11/2024, Ej. 3](2024-11-28-2do-parcial.md#ejercicio-3) (enunciado textual) · **Tipo de la guía de resolución:** [14. Solenoide: campo, inductancia, energía y longitud](guia-de-resolucion.md#14-solenoide-campo-inductancia-energ%C3%ADa-y-longitud)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 25 % · el tipo 14 apareció en 2 de los 10 exámenes, la última vez el 28/11/2024 ([cómo se calcula](#composición-de-los-parciales)).
 
 Un solenoide muy largo de radio R=0,8 cm y autoinducción L=2 x 10<sup>-5</sup> H transporta una corriente I=18 A. Sabiendo que el módulo del campo magnético en su interior es B=5 x 10<sup>-4</sup> T, determinar la longitud del solenoide.
 
@@ -3141,6 +3172,8 @@ $X_C > X_L$: **capacitivo**, la corriente adelanta 55,7°. Es lo esperable: 40 H
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 03/12/2020, Ej. 5](2020-12-03-2do-parcial.md#ejercicio-5) (enunciado textual) · **Tipo de la guía de resolución:** [15. RLC serie a partir de mediciones](guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 25 % · el tipo 15 apareció en 3 de los 10 exámenes, la última vez el 09/12/2021 ([cómo se calcula](#composición-de-los-parciales)).
+
 En un circuito RLC serie con generador de alterna la frecuencia es de 50 Hz y la corriente adelanta en 30<sup>0</sup> a la tensión. La lectura del amperímetro es de 4 A, y la potencia aparente es de 800 VA. **a)** Calcular el valor de la resistencia. **b)** Si L=60 mH, determinar C. **c)** ¿Cuál es la frecuencia de resonancia?
 
 <details>
@@ -3216,6 +3249,8 @@ Coherente: capacitivo y $50 < 76{,}3$ Hz ✓.
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial — 25/11/2021, Ej. 4](2021-11-25-2do-parcial.md#ejercicio-4) (enunciado textual) · **Tipo de la guía de resolución:** [16. RLC serie con la frecuencia de resonancia como dato](guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 30 % · el tipo 16 apareció en 3 de los 10 exámenes, la última vez el 12/12/2024 ([cómo se calcula](#composición-de-los-parciales)).
+
 A un circuito RLC serie que opera a 40Hz y resuena a 50 Hz, se le suministra una potencia aparente de 60 VA. Si la corriente (cuyo valor eficaz es 0,6 A) adelanta 30<sup>0</sup> respecto de la tensión, calcule: **a)** el valor de *R*; **b)** los valores de *L* y *C*; **c)** la tensión eficaz en cada elemento.
 
 <details>
@@ -3279,6 +3314,8 @@ $$V_R = 86{,}6\ \text{V} \qquad V_L = 89\ \text{V} \qquad V_C = 138{,}8\ \text{V
 ### Ejercicio 52
 
 **Nivel:** 🔴 Parcial · **Fuente:** [Simulacro del 2º Parcial (sin fecha), Ej. 5](simulacro-2do-parcial.md#ejercicio-5) (enunciado textual) · **Tipo de la guía de resolución:** [17. Dos capacitores posibles (corregir el factor de potencia)](guia-de-resolucion.md#17-dos-capacitores-posibles-corregir-el-factor-de-potencia)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 40 % · el tipo 17 apareció en 4 de los 10 exámenes, la última vez el 28/11/2024 ([cómo se calcula](#composición-de-los-parciales)).
 
 Un generador de alterna de frecuencia 50 Hz se conecta con una bobina cuya resistencia interna no es despreciable. La lectura del amperímetro es de 5 A, la potencia es de 100 W y el factor de potencia es 0,6.
 **a)** Determine la inductancia L de la bobina.
@@ -3348,6 +3385,8 @@ $$X_C = 5{,}33 + 1{,}94 = 7{,}27\ \Omega \Rightarrow C_2 = \frac{1}{100\pi\cdot7
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Parcial (Tema 2) — 27/11/2025, Ej. 4](2025-11-27-2do-parcial-tema-2.md#ejercicio-4) (enunciado textual) · **Tipo de la guía de resolución:** [18. Diagrama de fasores: identificar los elementos](guia-de-resolucion.md#18-diagrama-de-fasores-identificar-los-elementos)
 
+**Probabilidad de que aparezca uno parecido:** ≈ 15 % · el tipo 18 apareció en 1 de los 10 exámenes, la última vez el 27/11/2025 ([cómo se calcula](#composición-de-los-parciales)).
+
 El diagrama de fases de la figura corresponde a un circuito de CA de solo dos elementos pasivos que disipa 80W a 100Hz. Calcule el valor de esos elementos, en caso de que exista solución. **Datos:** I<sub>MAX</sub> = 4 A ; V<sub>MAX</sub> = 80 V.
 
 ![Figura del ejercicio 4](img/2025-11-27-ej4.png)
@@ -3399,6 +3438,8 @@ El ángulo del dibujo es esquemático: solo importa cuál fasor va adelante.
 ### Ejercicio 54
 
 **Nivel:** 🔴 Parcial · **Fuente:** [2º Recuperatorio del 2º Parcial — 19/02/2021, Ej. 5](2021-02-19-2do-recuperatorio-2do-parcial.md#ejercicio-5) (enunciado textual) · **Tipo de la guía de resolución:** [19. Afirmaciones verdaderas o falsas sobre RLC](guia-de-resolucion.md#19-afirmaciones-verdaderas-o-falsas-sobre-rlc)
+
+**Probabilidad de que aparezca uno parecido:** ≈ 10 % · el tipo 19 apareció en 1 de los 10 exámenes, la última vez el 19/02/2021 ([cómo se calcula](#composición-de-los-parciales)).
 
 Considere las siguientes tres afirmaciones:
 
@@ -3454,5 +3495,65 @@ Respuesta: **solo una es verdadera**.
 **Respuesta:** Solo la afirmación 3 es verdadera.
 
 </details>
+
+---
+
+## Composición de los parciales
+
+Datos de los 10 exámenes del 2º Parcial que hay en esta carpeta (el simulacro y 9 parciales y recuperatorios, de 2015 a 2025). La tabla completa ejercicio por ejercicio está en la [tabla de cobertura](guia-de-resolucion.md#tabla-de-cobertura) de la guía de resolución.
+
+### Formato actual (desde 2024)
+
+**4 ejercicios**, ordenados por unidad:
+
+| | [28/11/2024](2024-11-28-2do-parcial.md) | [12/12/2024](2024-12-12-1er-recuperatorio-2do-parcial.md) | [27/11/2025](2025-11-27-2do-parcial-tema-2.md) |
+|---|---|---|---|
+| **Ej. 1** | U4 · Capacitores con llaves (tipo 1) | U4 · Capacitores con llaves (tipo 1) | U5 · Hilo doblado (tipo 6) |
+| **Ej. 2** | U5 · Hilos paralelos (tipo 2) | U5 · Hilo doblado (tipo 6) | U5 · Fuerza entre hilos y campo (tipo 3) |
+| **Ej. 3** | U6 · Solenoide (tipo 14) | U7 · RLC con un capacitor cilíndrico (tipo 16) | U6 · Barra sobre rieles (tipo 10) |
+| **Ej. 4** | U7 · Dos capacitores posibles (tipo 17) | U6 · Barra junto a un hilo (tipo 11) | U7 · Diagrama de fasores (tipo 18) |
+
+Lo que se repite:
+
+- **Magnetostática (U5):** siempre, 1 o 2 ejercicios. El hilo doblado (tipo 6) estuvo en 2 de los 3.
+- **Inducción (U6):** siempre, 1 ejercicio.
+- **Corriente alterna (U7):** siempre, 1 ejercicio.
+- **Capacitores (U4):** en 2 de los 3, siempre como capacitores con llaves y energía disipada. Cuando no estuvo, su lugar lo ocupó un segundo ejercicio de magnetostática.
+
+**Composición típica:** 1 de capacitores con llaves, 1 o 2 de magnetostática, 1 de inducción y 1 de alterna.
+
+### Formato anterior (2015-2022 y simulacro)
+
+**4 o 5 ejercicios**, sin capacitores: 2 o 3 de magnetostática, 1 o 2 de inducción y 1 o 2 de alterna. A veces un mismo ejercicio mezclaba dos tipos (por ejemplo, hilos paralelos y flujo en una espira).
+
+### Probabilidad de cada tipo
+
+**Cómo se calcula.** Es la proporción de exámenes en los que apareció un ejercicio de ese tipo, contando **doble** los 3 de 2024-2025, porque son los del formato actual. Para capacitores se cuentan solo los exámenes desde 2024, porque antes no se tomaban. El resultado se redondea a múltiplos de 5 %. Es la probabilidad de que aparezca un ejercicio **del mismo tipo**, no el mismo enunciado.
+
+Son estimaciones con pocos datos (10 exámenes, y de 2025 hay uno solo). Sirven para decidir qué practicar primero, no para descartar temas: un tipo con 10 % puede tocar igual.
+
+| Unidad | Tipo | Probabilidad | Ejercicio de esta guía |
+|---|---|---|---|
+| 4 | [1. Capacitores con llaves](guia-de-resolucion.md#1-capacitores-con-llaves-energ%C3%ADa-disipada) | **≈ 65 %** | [7](#ejercicio-7) · [8](#ejercicio-8) |
+| 5 | [6. Hilo doblado: Biot-Savart por tramos](guia-de-resolucion.md#6-hilo-doblado-biot-savart-por-tramos) | **≈ 55 %** | [25](#ejercicio-25) |
+| 5 | [2. Hilos paralelos: campo y punto de campo nulo](guia-de-resolucion.md#2-hilos-paralelos-campo-en-un-punto-y-punto-de-campo-nulo) | **≈ 45 %** | [21](#ejercicio-21) |
+| 5 | [5. Espiras: campo en el centro](guia-de-resolucion.md#5-espiras-campo-en-el-centro) | ≈ 40 % | [23](#ejercicio-23) |
+| 7 | [17. Dos capacitores posibles](guia-de-resolucion.md#17-dos-capacitores-posibles-corregir-el-factor-de-potencia) | ≈ 40 % | [52](#ejercicio-52) |
+| 7 | [16. RLC con la frecuencia de resonancia como dato](guia-de-resolucion.md#16-rlc-serie-con-la-frecuencia-de-resonancia-como-dato) | ≈ 30 % | [51](#ejercicio-51) |
+| 5 | [3. Fuerza entre hilos](guia-de-resolucion.md#3-fuerza-entre-hilos) | ≈ 25 % | [22](#ejercicio-22) |
+| 6 | [10. Barra sobre rieles](guia-de-resolucion.md#10-barra-sobre-rieles) | ≈ 25 % | [40](#ejercicio-40) |
+| 6 | [11. Barra que se mueve junto a un hilo](guia-de-resolucion.md#11-barra-que-se-mueve-junto-a-un-hilo) | ≈ 25 % | [41](#ejercicio-41) |
+| 6 | [14. Solenoide: campo, inductancia, energía](guia-de-resolucion.md#14-solenoide-campo-inductancia-energ%C3%ADa-y-longitud) | ≈ 25 % | [44](#ejercicio-44) |
+| 7 | [15. RLC serie a partir de mediciones](guia-de-resolucion.md#15-rlc-serie-a-partir-de-mediciones) | ≈ 25 % | [50](#ejercicio-50) |
+| 5 | [4. Campo en 3D (anillo + hilo)](guia-de-resolucion.md#4-campo-en-3d-anillo--hilo-y-fuerza-sobre-una-carga) | ≈ 15 % | [24](#ejercicio-24) |
+| 5 | [7. Carga en un campo magnético](guia-de-resolucion.md#7-movimiento-de-una-carga-en-un-campo-magn%C3%A9tico) | ≈ 15 % | [26](#ejercicio-26) |
+| 6 | [9. Espira junto a un hilo](guia-de-resolucion.md#9-espira-junto-a-un-hilo-flujo-con-integral) | ≈ 15 % | [39](#ejercicio-39) |
+| 6 | [13. Autoinductancia e inductancia mutua](guia-de-resolucion.md#13-autoinductancia-e-inductancia-mutua-de-solenoides) | ≈ 15 % | [43](#ejercicio-43) |
+| 7 | [18. Diagrama de fasores](guia-de-resolucion.md#18-diagrama-de-fasores-identificar-los-elementos) | ≈ 15 % | [53](#ejercicio-53) |
+| 6 | [8. Bobina en un campo que varía](guia-de-resolucion.md#8-bobina-en-un-campo-que-var%C3%ADa-con-el-tiempo) | ≈ 10 % | [38](#ejercicio-38) |
+| 6 | [12. Barra que gira](guia-de-resolucion.md#12-barra-que-gira) | ≈ 10 % | [42](#ejercicio-42) |
+| 7 | [19. Verdadero o falso sobre RLC](guia-de-resolucion.md#19-afirmaciones-verdaderas-o-falsas-sobre-rlc) | ≈ 10 % | [54](#ejercicio-54) |
+
+Las probabilidades no suman 100 % porque cada examen tiene varios ejercicios. Dentro de cada unidad sí se reparten: en promedio sale 1 de inducción y 1 de alterna, así que conviene saber resolver todos los tipos de esas unidades, empezando por los de mayor porcentaje.
 
 Volver al [índice de parciales](README.md).
