@@ -98,23 +98,25 @@ $$\mathcal E = -N\frac{d\phi}{dt}$$
 
 ($N$ = número de vueltas: cada vuelta aporta su fem y se suman, como pilas en serie). Si el circuito está cerrado, circula corriente $I = \mathcal E/R$ (ley de Ohm), sin ninguna pila. El signo menos es la **ley de Lenz**: la corriente inducida circula de modo de **oponerse al cambio** de flujo. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor.
 
+El **flujo magnético** $\phi$ mide cuánto campo atraviesa la superficie encerrada por cada vuelta. Si el campo es uniforme y perpendicular a la vuelta, es campo por área: $\phi = BA$. Se mide en weber (Wb = T m²).
+
 Acá la bobina no se mueve; el flujo cambia porque cambia $B$.
 
-**Deducción de la fem** (atajo: $\lvert\mathcal E\rvert = NA\left\lvert\dfrac{dB}{dt}\right\rvert$). El campo es uniforme y perpendicular, así que el flujo por cada vuelta es $\phi = \iint\vec B\cdot d\vec A = B(t)\ A$. Con $N$ vueltas y $A$ fija, derivando:
+**Paso 1 — Flujo φ.** El campo es uniforme y perpendicular a las vueltas, así que el flujo por cada vuelta es $\phi = B\ A$, con $A = 20\ \text{cm}^2 = 2\times10^{-3}$ m²:
 
-$$\lvert\mathcal E\rvert = N\left\lvert\frac{d(BA)}{dt}\right\rvert = NA\left\lvert\frac{dB}{dt}\right\rvert$$
+$$\phi_{inicial} = 0{,}1\cdot2\times10^{-3}\ \text{Wb} = 2\times10^{-4}\ \text{Wb} \qquad \phi_{final} = 0{,}5\cdot2\times10^{-3}\ \text{Wb} = 1\times10^{-3}\ \text{Wb}$$
 
-Si $B$ crece "de manera uniforme" (lineal), la derivada es constante: $\dfrac{dB}{dt} = \dfrac{\Delta B}{\Delta t}$.
+Como $B$ crece "de manera uniforme" (lineal), el flujo también crece lineal y su rapidez de cambio es constante:
 
-**Paso 1 — Rapidez de cambio del campo.**
-
-$$\frac{dB}{dt} = \frac{0{,}5 - 0{,}1}{0{,}2}\ \tfrac{\text{T}}{\text{s}} = 2\ \tfrac{\text{T}}{\text{s}}$$
+$$\frac{d\phi}{dt} = \frac{\Delta\phi}{\Delta t} = \frac{1\times10^{-3} - 2\times10^{-4}}{0{,}2}\ \tfrac{\text{Wb}}{\text{s}} = 4\times10^{-3}\ \tfrac{\text{Wb}}{\text{s}}$$
 
 #### Ítem a)
 
-**Paso 2 — Fem.** $A = 20\ \text{cm}^2 = 2\times10^{-3}$ m²:
+**Paso 2 — Fem.** Faraday con $N = 50$ vueltas:
 
-$$\lvert\mathcal E\rvert = 50\cdot2\times10^{-3}\cdot2\ \text{V} = 0{,}2\ \text{V}$$
+$$\lvert\mathcal E\rvert = N\left\lvert\frac{d\phi}{dt}\right\rvert = 50\cdot4\times10^{-3}\ \text{V} = 0{,}2\ \text{V}$$
+
+(Atajo para la próxima: como el área no cambia, $\dfrac{d\phi}{dt} = A\dfrac{dB}{dt}$, así que $\lvert\mathcal E\rvert = NA\left\lvert\dfrac{dB}{dt}\right\rvert$.)
 
 #### Ítem b)
 
@@ -159,27 +161,33 @@ $$\mathcal E = -N\frac{d\phi}{dt}$$
 
 ($N$ = número de vueltas: cada vuelta aporta su fem y se suman, como pilas en serie). Si el circuito está cerrado, circula corriente $I = \mathcal E/R$ (ley de Ohm), sin ninguna pila. El signo menos es la **ley de Lenz**: la corriente inducida circula de modo de **oponerse al cambio** de flujo. Si el flujo crece, genera campo en contra; si decrece, genera campo a favor.
 
+El **flujo magnético** $\phi$ mide cuánto campo atraviesa la superficie encerrada por el circuito. Si el campo es uniforme y perpendicular a esa superficie, es campo por área: $\phi = BA$, en weber (Wb = T m²).
+
 Acá el campo es fijo; lo que cambia es el **área** del circuito, porque la barra se mueve. La barra funciona como una pila: es el único lugar donde "se genera" la tensión.
 
-**Deducción de la fem** (atajo: $\mathcal E = B\ell v$). Sea $x$ la distancia de la barra a la resistencia. El rectángulo tiene área $\ell x$ y, con $B$ uniforme y perpendicular, $\phi = B\ell x$. Derivando ($B$ y $\ell$ fijos, $dx/dt = v$):
+**Paso 1 — Flujo φ.** Sea $x$ la distancia de la barra a la resistencia. El circuito es un rectángulo de lados $\ell = 0{,}5$ m y $x$, así que su área es $\ell x$. El campo es uniforme y perpendicular:
 
-$$\lvert\mathcal E\rvert = \left\lvert\frac{d(B\ell x)}{dt}\right\rvert = B\ell\frac{dx}{dt} = B\ell v$$
+$$\phi = B\ell x = 0{,}2\cdot0{,}5\cdot x = 0{,}1\ x\ \text{Wb}\quad(x\text{ en metros})$$
+
+La barra se aleja de la resistencia, así que $x$ crece a razón de $\dfrac{dx}{dt} = v = 3$ m/s.
+
+#### Ítem a)
+
+**Paso 2 — Fem.** Faraday, con una sola vuelta. $B$ y $\ell$ son fijos, así que derivar el flujo es derivar $x$:
+
+$$\lvert\mathcal E\rvert = \left\lvert\frac{d\phi}{dt}\right\rvert = B\ell\frac{dx}{dt} = B\ell v = 0{,}2\cdot0{,}5\cdot3\ \text{V} = 0{,}3\ \text{V}$$
+
+(Atajo para la próxima: $\mathcal E = B\ell v$ en cualquier barra sobre rieles con campo uniforme y perpendicular.)
 
 **Otra forma, mirando la barra** (sale lo mismo). Los electrones libres de la barra se mueven con ella a velocidad $\vec v$, así que sienten la fuerza magnética $q\ \vec v\times\vec B$, que los empuja a lo largo de la barra. Eso hace de un campo eléctrico $\vec v\times\vec B$, de módulo $vB$ (porque $\vec v\perp\vec B$). La fem es su integral a lo largo de la barra:
 
 $$\mathcal E = \int_0^\ell(\vec v\times\vec B)\cdot d\vec l = \int_0^\ell vB\ dl = B\ell v\ ✓$$
 
-#### Ítem a)
-
-**Paso 1 — Fem.**
-
-$$\mathcal E = 0{,}2\cdot0{,}5\cdot3\ \text{V} = 0{,}3\ \text{V}$$
-
 #### Ítem b)
 
-**Paso 2 — Corriente.** $I = \mathcal E/R = 0{,}3/1{,}5 = 0{,}2$ A.
+**Paso 3 — Corriente.** $I = \mathcal E/R = 0{,}3/1{,}5 = 0{,}2$ A.
 
-**Paso 3 — Sentido.** El área crece y el flujo **entrante crece**. La corriente inducida produce campo saliente adentro del rectángulo: sentido **antihorario**. Con la barra a la derecha, eso es: sube por la barra y baja por la resistencia. Control con $\vec v\times\vec B$: $\vec v = v\hat x$, $\vec B = -B\hat z$, $\hat x\times(-\hat z) = \hat y$: empuja las cargas positivas **hacia arriba** en la barra ✓.
+**Paso 4 — Sentido.** El área crece y el flujo **entrante crece**. La corriente inducida produce campo saliente adentro del rectángulo: sentido **antihorario**. Con la barra a la derecha, eso es: sube por la barra y baja por la resistencia. Control con $\vec v\times\vec B$: $\vec v = v\hat x$, $\vec B = -B\hat z$, $\hat x\times(-\hat z) = \hat y$: empuja las cargas positivas **hacia arriba** en la barra ✓.
 
 </details>
 
@@ -216,7 +224,7 @@ d) calcule la potencia que se disipa por efecto Joule y compárela con la desarr
 - Una barra de 0,5 m desliza a 4 m/s sobre un marco metálico, en un campo entrante de 0,5 T. Resistencia total 0,2 Ω.
 - **a)** La fem. **b)** El sentido de la corriente. **c)** La fuerza externa para mantener la velocidad. **d)** La potencia disipada en calor, comparada con la de la fuerza externa.
 
-**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\ \vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. La barra con corriente dentro del campo siente $i\ \vec\ell\times\vec B$, que la frena (Lenz). Para que vaya a velocidad constante, alguien tiene que empujar con una fuerza igual y opuesta. La energía se conserva: el trabajo por segundo del que empuja ($Fv$) termina convertido en calor en la resistencia ($i^2R$).
+**La idea, desde cero.** Barra, marco y resistencia forman un circuito cerrado: un rectángulo cuya área crece porque la barra se mueve. El **flujo magnético** $\phi$ mide cuánto campo atraviesa esa área; con un campo uniforme y perpendicular es campo por área, $\phi = BA$, en weber (Wb = T m²). La **ley de Faraday** dice que, si el flujo cambia, aparece en el circuito una tensión llamada **fem inducida**, igual a la rapidez con que cambia el flujo: $\mathcal E = -\dfrac{d\phi}{dt}$. La barra hace de pila y circula una corriente $i = \mathcal E/R$. El signo menos es la **ley de Lenz**: la corriente inducida se opone al cambio de flujo. La barra con corriente dentro del campo siente $i\ \vec\ell\times\vec B$, que la frena (también es Lenz). Para que vaya a velocidad constante, alguien tiene que empujar con una fuerza igual y opuesta. La energía se conserva: el trabajo por segundo del que empuja ($Fv$) termina convertido en calor en la resistencia ($i^2R$).
 
 **Deducción de la fuerza sobre la barra** (atajo: $F = iLB$). Sobre cada pedacito de barra con corriente actúa $d\vec F = i\ d\vec l\times\vec B$. $i$ y $\vec B$ son constantes a lo largo de la barra, así que sumando queda $\vec F = i\ \vec L\times\vec B$, de módulo $iLB$ (la barra es perpendicular al campo). Con $i = \mathcal E/R = BLv/R$: $F = \dfrac{B^2L^2v}{R}$.
 
@@ -226,17 +234,25 @@ d) calcule la potencia que se disipa por efecto Joule y compárela con la desarr
 
 #### Ítem a)
 
-**Paso 1 — Fem.** La barra es perpendicular a $\vec B$ y a $\vec v$:
+**Paso 1 — Flujo φ.** Sea $x$ la distancia de la barra al lado opuesto del marco. El circuito es un rectángulo de lados $L = 0{,}5$ m y $x$, con el campo uniforme y perpendicular:
 
-$$\mathcal E = BLv = 0{,}5\cdot0{,}5\cdot4\ \text{V} = 1\ \text{V}$$
+$$\phi = BLx = 0{,}5\cdot0{,}5\cdot x = 0{,}25\ x\ \text{Wb}\quad(x\text{ en metros})$$
+
+La barra avanza, así que $x$ crece a razón de $\dfrac{dx}{dt} = v = 4$ m/s.
+
+**Paso 2 — Fem.** Faraday. $B$ y $L$ son fijos, así que derivar el flujo es derivar $x$:
+
+$$\lvert\mathcal E\rvert = \left\lvert\frac{d\phi}{dt}\right\rvert = BL\frac{dx}{dt} = BLv = 0{,}5\cdot0{,}5\cdot4\ \text{V} = 1\ \text{V}$$
+
+(Lo mismo da la fem de movimiento: las cargas de la barra se mueven con ella, sienten $q\ \vec v\times\vec B$ a lo largo de la barra, y $\displaystyle\int_0^L(\vec v\times\vec B)\cdot d\vec l = vBL$.)
 
 #### Ítem b)
 
-**Paso 2 — Sentido.** El área del circuito (y el flujo **entrante**) crece, así que la corriente genera campo saliente: sentido **antihorario**.
+**Paso 3 — Sentido.** El área del circuito crece, y con ella el flujo **entrante**. La corriente se opone generando campo saliente: sentido **antihorario**.
 
 #### Ítem c)
 
-**Paso 3 — Corriente y fuerza.**
+**Paso 4 — Corriente y fuerza.**
 
 $$i = \frac{\mathcal E}{R} = \frac{1}{0{,}2} = 5\ \text{A} \qquad F = iLB = \frac{B^2L^2v}{R} = 5\cdot0{,}5\cdot0{,}5 = 1{,}25\ \text{N}$$
 
@@ -244,7 +260,7 @@ La fuerza magnética frena la barra ($-\hat e_x$); para mantener la velocidad, l
 
 #### Ítem d)
 
-**Paso 4 — Potencias.**
+**Paso 5 — Potencias.**
 
 $$P_{Joule} = i^2R = 5^2\cdot0{,}2 = 5\ \text{W} \qquad P_{ext} = Fv = 1{,}25\cdot4 = 5\ \text{W}$$
 
@@ -350,15 +366,21 @@ c) calcule el valor absoluto de la fem inducida en función de la posición e in
 
 **Resolución.**
 
-**Paso 1 — Flujo.** Bobina de $N$ vueltas, lado paralelo $a$, desde $x$ hasta $x + a$:
+**Paso 1 — Flujo φ por vuelta.** Cada vuelta es un cuadrado de lado $a$ con un lado paralelo al hilo, que se extiende desde la distancia $x$ hasta $x + a$. Se corta en tiras paralelas al hilo, de largo $a$ y ancho $dx'$; en cada tira el campo $\dfrac{\mu_0 i}{2\pi x'}$ es parejo y perpendicular, y su flujo es $B\ (a\ dx')$. Sumando:
 
-$$\phi = N\frac{\mu_0 i a}{2\pi}\ln\left(\frac{x + a}{x}\right)$$
+$$\phi = \int_x^{x + a}\frac{\mu_0 i}{2\pi x'}\ a\ dx' = \frac{\mu_0 i a}{2\pi}\ln\left(\frac{x + a}{x}\right)$$
+
+Por Faraday, cada una de las $N$ vueltas aporta $\dfrac{d\phi}{dt}$ y se suman, como pilas en serie: $\lvert\mathcal E\rvert = N\left\lvert\dfrac{d\phi}{dt}\right\rvert$.
 
 #### Ítem a)
 
-**Paso 2 (espira quieta en $x = d$).**
+**Paso 2 (espira quieta en $x = d$).** La geometría está fija y solo cambia $i$. Con $d = 0{,}25$ m y $a = 0{,}1$ m:
 
-$$|\mathcal E| = N\frac{\mu_0 a}{2\pi}\ln\left(\frac{d + a}{d}\right)\frac{di}{dt} \qquad \frac{di}{dt} = 0{,}3\ \beta\ e^{-\beta t}$$
+$$\phi(t) = \frac{\mu_0 a}{2\pi}\ln\left(\frac{d + a}{d}\right)i(t) = 2\times10^{-7}\cdot0{,}1\cdot\ln(1{,}4)\cdot i(t)\ \text{Wb} = 6{,}73\times10^{-9}\ i(t)\ \text{Wb}$$
+
+Derivando:
+
+$$|\mathcal E| = N\frac{d\phi}{dt} = N\frac{\mu_0 a}{2\pi}\ln\left(\frac{d + a}{d}\right)\frac{di}{dt} \qquad \frac{di}{dt} = 0{,}3\ \beta\ e^{-\beta t}$$
 
 $$|\mathcal E| = 100\cdot2\times10^{-7}\cdot0{,}1\cdot\ln(1{,}4)\cdot0{,}03\ e^{-\beta t}\ \text{V} = 2\times10^{-8}e^{-\beta t}\ \text{V}$$
 
@@ -370,11 +392,11 @@ Sentido: la corriente baja por el cable, así que a la derecha el campo es salie
 
 #### Ítem c)
 
-**Paso 4 (espira que se acerca).** Ahora cambia $x$, con $dx/dt = -v$:
+**Paso 4 (espira que se acerca).** Ahora la corriente es fija, $i_0$, y lo que cambia es $x$, con $dx/dt = -v$. El flujo por vuelta del Paso 1 es $\phi = \dfrac{\mu_0 i_0 a}{2\pi}\ln\left(\dfrac{x + a}{x}\right)$, y se deriva con la regla de la cadena, $\dfrac{d\phi}{dt} = \dfrac{d\phi}{dx}\dfrac{dx}{dt}$:
 
 $$\frac{d}{dx}\ln\left(\frac{x + a}{x}\right) = \frac{1}{x + a} - \frac1x = -\frac{a}{x(x + a)}$$
 
-$$|\mathcal E| = N\frac{\mu_0 i_0 a}{2\pi}\ \frac{1}{a + x}\left(\frac ax\right)v$$
+$$|\mathcal E| = N\left\lvert\frac{d\phi}{dt}\right\rvert = N\frac{\mu_0 i_0 a}{2\pi}\ \frac{1}{a + x}\left(\frac ax\right)v$$
 
 Al acercarse, el flujo saliente crece: sentido **horario**.
 
@@ -415,21 +437,29 @@ b) ¿Cuál de los dos extremos está a mayor potencial?
 
 La dificultad es que el campo del hilo **no es uniforme**: es más fuerte cerca del hilo. Cada pedacito de barra empuja con distinta fuerza, y por eso hay que integrar.
 
+**Cómo usar Faraday si la barra no forma un circuito.** La **ley de Faraday** dice que la fem es la rapidez con que cambia el **flujo magnético** $\phi$, que mide cuánto campo atraviesa una superficie: $\lvert\mathcal E\rvert = \left\lvert\dfrac{d\phi}{dt}\right\rvert$. Si el campo es uniforme y perpendicular, el flujo es campo por área. Una barra suelta no encierra ninguna superficie, pero al moverse **barre** una: el rectángulo que va dejando atrás. La fem entre sus extremos es la rapidez con que crece el flujo a través de lo barrido. Es como si se cerrara el circuito con cables quietos, que no aportan fem.
+
 **Deducción del campo del hilo** (atajo: $B = \dfrac{\mu_0 I}{2\pi r}$). Ampère sobre una circunferencia de radio $r$ centrada en el hilo: $B\cdot2\pi r = \mu_0 I$.
-
-**Deducción de la fem** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). La velocidad es paralela al hilo y el campo es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB(r)$ y apunta a lo largo de la barra. Integrando desde $r = d$ hasta $r = d + \ell$:
-
-$$\mathcal E = \int_d^{d + \ell}v\ \frac{\mu_0 I}{2\pi r}\ dr = \frac{\mu_0 Iv}{2\pi}\int_d^{d + \ell}\frac{dr}{r} = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
 
 #### Ítem a)
 
-**Paso 1 — Valor.** $d = 0{,}02$ m, $d + \ell = 0{,}22$ m, $\dfrac{\mu_0}{2\pi} = 2\times10^{-7}$:
+**Paso 1 — Flujo φ a través de lo barrido.** En un tiempo $t$ la barra sube $vt$ y barre un rectángulo que va de $r = d$ a $r = d + \ell$ (distancias al hilo) y tiene alto $vt$. El campo del hilo no es uniforme: cambia con $r$. Se corta el rectángulo en tiras paralelas al hilo, de ancho $dr$ y alto $vt$; en cada tira $B = \dfrac{\mu_0 I}{2\pi r}$ es parejo y perpendicular, y el flujo de la tira es $B\ (vt\ dr)$. Sumando todas:
+
+$$\phi(t) = \int_d^{d + \ell}\frac{\mu_0 I}{2\pi r}\ vt\ dr = \frac{\mu_0 I\ vt}{2\pi}\int_d^{d + \ell}\frac{dr}{r} = \frac{\mu_0 I\ vt}{2\pi}\ln\frac{d + \ell}{d}$$
+
+**Paso 2 — Fem.** En $\phi(t)$ lo único que depende del tiempo es $t$, así que la derivada es el factor que lo acompaña (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$):
+
+$$\mathcal E = \frac{d\phi}{dt} = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
+
+Con $d = 0{,}02$ m, $d + \ell = 0{,}22$ m y $\dfrac{\mu_0}{2\pi} = 2\times10^{-7}$:
 
 $$\mathcal E = 2\times10^{-7}\cdot10\cdot5\cdot\ln11\ \text{V} = 10^{-5}\cdot2{,}398\ \text{V} = 2{,}40\times10^{-5}\ \text{V} = 24\ \mu\text{V}$$
 
+**Otra forma, mirando la barra** (sale lo mismo y sirve para la polaridad). La velocidad es paralela al hilo y el campo es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB(r)$ y apunta a lo largo de la barra. Integrando a lo largo de la barra: $\displaystyle\int_d^{d + \ell}v\ \frac{\mu_0 I}{2\pi r}\ dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$ ✓.
+
 #### Ítem b)
 
-**Paso 2 — Polaridad.** Ejes: $\hat x$ a la derecha, $\hat y$ hacia arriba, $\hat z$ saliente. A la derecha del hilo el campo es entrante, $\vec B = -B\hat z$. La barra sube, $\vec v = v\hat y$:
+**Paso 3 — Polaridad.** Ejes: $\hat x$ a la derecha, $\hat y$ hacia arriba, $\hat z$ saliente. A la derecha del hilo el campo es entrante, $\vec B = -B\hat z$. La barra sube, $\vec v = v\hat y$:
 
 $$\vec v\times\vec B = vB\ \hat y\times(-\hat z) = -vB\ \hat x$$
 
@@ -466,29 +496,33 @@ b) indique el sentido de circulación que tendría la corriente inducida en la b
 - Una barra de largo $L$ gira con velocidad angular $\omega$ alrededor de un pivote P, en un campo uniforme entrante.
 - **a)** La fem entre sus extremos. **b)** El sentido de la corriente inducida.
 
-**La idea, desde cero.** **Fem de movimiento:** cuando un conductor se mueve dentro de un campo magnético, sus cargas libres se mueven con él y sienten la fuerza $q\ \vec v\times\vec B$, que las empuja a lo largo del conductor. Eso equivale a una pila: la fem es $\mathcal E = \int(\vec v\times\vec B)\cdot d\vec l$ a lo largo del conductor. Para una barra recta de largo $L$, perpendicular al campo y a la velocidad, da $BLv$. Es lo mismo que Faraday: la barra va cambiando el área del circuito, y $\dfrac{d(BLx)}{dt} = BLv$. Acá cada punto de la barra va a distinta velocidad: el que está a distancia $r$ del pivote se mueve con $v = \omega r$. Por eso hay que integrar a lo largo de la barra.
+**La idea, desde cero.** La **ley de Faraday** dice que aparece una tensión (fem inducida) cuando cambia el **flujo magnético** $\phi$, que mide cuánto campo atraviesa una superficie. Con un campo uniforme y perpendicular, el flujo es campo por área, $\phi = BA$, y la fem es su rapidez de cambio: $\lvert\mathcal E\rvert = \left\lvert\dfrac{d\phi}{dt}\right\rvert$. Una barra sola no encierra ninguna superficie, pero al girar **barre** una: un sector circular, como el limpiaparabrisas de un auto. La fem entre sus extremos es la rapidez con que crece el flujo a través de lo barrido. Para el sentido se mira la fuerza sobre las cargas de la barra: se mueven con ella, sienten $q\ \vec v\times\vec B$, y esa fuerza las empuja a lo largo de la barra.
 
 **Resolución.**
 
 #### Ítem a)
 
-**Paso 1 — Velocidad de cada punto.** Un punto a distancia $r$ del pivote tiene $\vec v = \omega r\ \hat e_\phi$ (gira en sentido antihorario).
+**Paso 1 — Área barrida.** En un tiempo $t$ la barra gira un ángulo $\theta = \omega t$. Un sector circular de radio $L$ y ángulo $\theta$ (en radianes) es la fracción $\dfrac{\theta}{2\pi}$ del círculo entero, de área $\pi L^2$, así que su área es $\tfrac12L^2\theta$:
 
-**Paso 2 — $\vec v\times\vec B$.** Con $\hat e_\phi\times(-\hat e_z) = -\hat e_R$:
+$$A(t) = \tfrac12L^2\omega t$$
 
-$$\vec v\times\vec B = \omega rB_0\ (-\hat e_R)$$
+**Paso 2 — Flujo φ.** El campo es uniforme y perpendicular al plano de giro:
 
-Apunta **hacia el pivote**.
+$$\phi(t) = B_0\ A(t) = \tfrac12B_0L^2\omega t$$
 
-**Paso 3 — Fem de movimiento.**
+**Paso 3 — Fem.** En $\phi(t)$ lo único que depende del tiempo es $t$ (atajo: $\mathcal E = \tfrac12B\omega L^2$):
 
-$$|\mathcal E| = \int_0^L\omega rB_0\ dr = \frac{B_0L^2\omega}{2}$$
+$$|\mathcal E| = \frac{d\phi}{dt} = \frac{B_0L^2\omega}{2}$$
 
-(También sale con el flujo: el área barrida es $\tfrac12\omega L^2t$.)
+(Lo mismo da la fem de movimiento: el punto a distancia $r$ del pivote se mueve con $v = \omega r$, perpendicular a la barra y a $\vec B$, así que $\lvert\vec v\times\vec B\rvert = \omega rB_0$ y $\displaystyle\int_0^L\omega rB_0\ dr = \frac{B_0L^2\omega}{2}$ ✓.)
 
 #### Ítem b)
 
-**Paso 4 — Sentido.** El "campo" $\vec v\times\vec B$ empuja las cargas positivas hacia P: la corriente inducida circularía en sentido radial **entrante**, hacia el pivote.
+**Paso 4 — Sentido.** Un punto a distancia $r$ del pivote tiene $\vec v = \omega r\ \hat e_\phi$ (gira en sentido antihorario). Con $\hat e_\phi\times(-\hat e_z) = -\hat e_R$:
+
+$$\vec v\times\vec B = \omega rB_0\ (-\hat e_R)$$
+
+Apunta **hacia el pivote**: empuja las cargas positivas hacia P, así que la corriente inducida circularía en sentido radial **entrante**, hacia el pivote.
 
 </details>
 
@@ -523,17 +557,33 @@ Por una bobina de 2 cm de radio y 40 cm de longitud, que tiene arrolladas 2000 v
 
 **Resolución.**
 
+**Paso 1 — Campo adentro.** Se aproxima por solenoide largo ($40\ \text{cm} \gg 2\ \text{cm}$). Con $n = N/\ell = 2000/0{,}4 = 5000$ vueltas por metro:
+
+$$B(t) = \mu_0 n\ i(t) = 4\pi\times10^{-7}\cdot5000\cdot i(t)\ \text{T} = 6{,}28\times10^{-3}\ i(t)\ \text{T}$$
+
+**Paso 2 — Flujo φ por vuelta.** El **flujo** mide cuánto campo atraviesa cada vuelta. Adentro el campo es uniforme y perpendicular a las vueltas, así que es campo por área, con $A = \pi r^2 = \pi\cdot0{,}02^2 = 1{,}257\times10^{-3}$ m²:
+
+$$\phi(t) = B(t)\ A = 6{,}28\times10^{-3}\cdot1{,}257\times10^{-3}\ i(t)\ \text{Wb} = 7{,}90\times10^{-6}\ i(t)\ \text{Wb}$$
+
 #### Ítem a)
 
-**Paso 1 — Inductancia.** Se aproxima por solenoide largo ($40\ \text{cm} \gg 2\ \text{cm}$):
+**Paso 3 — Inductancia.** Por definición, el flujo total de las $N$ vueltas es $N\phi = Li$:
 
-$$L = \mu_0\frac{N^2}{\ell}\pi r^2 = 4\pi\times10^{-7}\cdot\frac{2000^2}{0{,}4}\cdot\pi\cdot0{,}02^2\ \text{H} = 15{,}8\ \text{mH}$$
+$$L = \frac{N\phi}{i} = 2000\cdot7{,}90\times10^{-6}\ \text{H} = 15{,}8\ \text{mH}$$
+
+(En letras: $L = \dfrac{N\cdot\mu_0\frac N\ell i\cdot\pi r^2}{i} = \mu_0\dfrac{N^2}{\ell}\pi r^2$.)
 
 #### Ítem b)
 
-**Paso 2 — Fem autoinducida.** Derivando $i = 2\ \mathrm{sen}\ (100\pi t)$:
+**Paso 4 — Flujo en función del tiempo.** Con $i(t) = 2\ \mathrm{sen}\ (100\pi t)$:
 
-$$\mathcal E = -L\frac{di}{dt} = -L\cdot2\cdot100\pi\cos(100\pi t) \qquad \lvert\mathcal E(t)\rvert = 200\pi\cdot0{,}0158\cos(100\pi t) = 9{,}92\cos(100\pi t)\ \text{V}$$
+$$\phi(t) = 7{,}90\times10^{-6}\cdot2\ \mathrm{sen}\ (100\pi t)\ \text{Wb} = 1{,}579\times10^{-5}\ \mathrm{sen}\ (100\pi t)\ \text{Wb}$$
+
+**Paso 5 — Fem autoinducida.** Faraday en las $N$ vueltas de la propia bobina, derivando el seno ($\dfrac{d}{dt}\mathrm{sen}\ (100\pi t) = 100\pi\cos(100\pi t)$):
+
+$$\mathcal E = -N\frac{d\phi}{dt} = -2000\cdot1{,}579\times10^{-5}\cdot100\pi\cos(100\pi t)\ \text{V} = -9{,}92\cos(100\pi t)\ \text{V}$$
+
+Es lo mismo que $\mathcal E = -L\dfrac{di}{dt}$, porque $N\phi = Li$.
 
 </details>
 
@@ -582,15 +632,29 @@ Va siempre el radio **menor**.
 
 #### Ítem a)
 
-**Paso 1 — Valor.**
+**Paso 1 — Campo del solenoide exterior.** $N_2 = 1000$ vueltas en $\ell = 0{,}5$ m:
 
-$$M = \frac{4\pi\times10^{-7}\cdot400\cdot1000\cdot\pi\cdot0{,}02^2}{0{,}5}\ \text{H} = 1{,}26\times10^{-3}\ \text{H} = 1{,}26\ \text{mH}$$
+$$B_2 = \mu_0\frac{N_2}{\ell}I_2 = 4\pi\times10^{-7}\cdot\frac{1000}{0{,}5}\ I_2\ \text{T} = 2{,}51\times10^{-3}\ I_2\ \text{T}$$
+
+**Paso 2 — Flujo φ en cada vuelta del interior.** El **flujo** mide cuánto campo atraviesa cada vuelta. El campo $B_2$ es uniforme y perpendicular a las vueltas del interior, y las atraviesa por su área, $\pi r_1^2 = \pi\cdot0{,}02^2 = 1{,}257\times10^{-3}$ m²:
+
+$$\phi_1 = B_2\ \pi r_1^2 = 2{,}51\times10^{-3}\cdot1{,}257\times10^{-3}\ I_2\ \text{Wb} = 3{,}16\times10^{-6}\ I_2\ \text{Wb}$$
+
+**Paso 3 — M.** Por definición, $N_1\phi_1 = MI_2$, con $N_1 = 400$:
+
+$$M = \frac{N_1\phi_1}{I_2} = 400\cdot3{,}16\times10^{-6}\ \text{H} = 1{,}26\times10^{-3}\ \text{H} = 1{,}26\ \text{mH}$$
 
 #### Ítem b)
 
-**Paso 2 — Fem.**
+**Paso 4 — Rapidez de cambio del flujo.** El flujo del Paso 2 es proporcional a $I_2$, que crece a 100 A/s:
 
-$$\lvert\mathcal E_1\rvert = M\frac{dI_2}{dt} = 1{,}26\times10^{-3}\cdot100\ \text{V} = 0{,}126\ \text{V}$$
+$$\frac{d\phi_1}{dt} = 3{,}16\times10^{-6}\ \frac{dI_2}{dt} = 3{,}16\times10^{-6}\cdot100\ \tfrac{\text{Wb}}{\text{s}} = 3{,}16\times10^{-4}\ \tfrac{\text{Wb}}{\text{s}}$$
+
+**Paso 5 — Fem.** Faraday en las $N_1 = 400$ vueltas del interior:
+
+$$\lvert\mathcal E_1\rvert = N_1\frac{d\phi_1}{dt} = 400\cdot3{,}16\times10^{-4}\ \text{V} = 0{,}126\ \text{V}$$
+
+Es lo mismo que $M\dfrac{dI_2}{dt} = 1{,}26\times10^{-3}\cdot100$ V.
 
 </details>
 
@@ -699,19 +763,21 @@ donde a y b son coeficientes. Sabiendo que la resistencia de la bobina es de 5Ω
 
 La bobina está quieta y el campo crece con el tiempo, como $at^2 + bt^4$. El flujo por cada vuelta es $B$ por el área, y hay $N$ vueltas. Al cambiar el flujo aparece una fem igual a la rapidez con que cambia, o sea la derivada de $NAB(t)$. Esa fem empuja corriente por la resistencia de 5 Ω, según la ley de Ohm. La derivada tiene a $a$ y a $b$, y la corriente es dato en dos instantes: quedan dos ecuaciones lineales con dos incógnitas.
 
-**N.** $r = \sqrt{A/\pi} = 2{,}652$ cm, perímetro $2\pi r = 0{,}1666$ m, $N = 5/0{,}1666 = 30$ vueltas. Entonces $NA = 0{,}0663$ m².
+**Paso 1 — Número de vueltas.** Cada vuelta es una circunferencia de área $A$: $r = \sqrt{A/\pi} = 2{,}652$ cm, perímetro $2\pi r = 0{,}1666$ m, $N = 5/0{,}1666 = 30$ vueltas. Entonces $NA = 0{,}0663$ m².
 
-**Deducción de la corriente** (atajo: $I = \dfrac{NA}{R}\dfrac{dB}{dt}$). El campo es uniforme y perpendicular a cada vuelta, así que la integral de superficie del flujo se reduce a un producto: $\phi = \displaystyle\iint\vec B\cdot d\vec A = B(t)\ A$. Con $N$ vueltas el flujo total es $NB(t)A$. Faraday, con $N$ y $A$ fijos:
+**Paso 2 — Flujo φ por vuelta.** El **flujo** mide cuánto campo atraviesa cada vuelta. El campo es uniforme y perpendicular a la bobina, así que la integral de superficie $\phi = \displaystyle\iint\vec B\cdot d\vec A$ se reduce a campo por área:
 
-$$\lvert\mathcal E\rvert = \left\lvert\frac{d(NAB)}{dt}\right\rvert = NA\left\lvert\frac{dB}{dt}\right\rvert$$
+$$\phi(t) = B(t)\ A = A\ (at^2 + bt^4)$$
 
-y la corriente sale de la ley de Ohm, $I = \mathcal E/R$.
+**Paso 3 — Fem.** Faraday: cada una de las $N$ vueltas aporta $\dfrac{d\phi}{dt}$ y se suman, como pilas en serie. $A$ es fija, así que se deriva solo el paréntesis:
 
-**Corriente.** Derivando $B(t) = at^2 + bt^4$:
+$$\lvert\mathcal E\rvert = N\left\lvert\frac{d\phi}{dt}\right\rvert = NA\ (2at + 4bt^3)$$
 
-$$I(t) = \frac{NA}{R}\ \frac{dB}{dt} = \frac{NA}{R}(2at + 4bt^3)$$
+**Paso 4 — Corriente.** Ley de Ohm, $I = \mathcal E/R$ (atajo: $I = \dfrac{NA}{R}\dfrac{dB}{dt}$):
 
-**Sistema.**
+$$I(t) = \frac{NA}{R}(2at + 4bt^3)$$
+
+**Paso 5 — Sistema.**
 
 $$t = 1:\ 2a + 4b = \frac{0{,}3\cdot5}{0{,}0663} = 22{,}62 \qquad t = 2:\ 4a + 32b = \frac{0{,}05\cdot5}{0{,}0663} = 3{,}771$$
 
@@ -763,19 +829,23 @@ El hilo produce a su derecha un campo entrante, más fuerte cerca del hilo (a 12
 
 La espira va de $x = L_1$ a $x = L_2$, con lado paralelo $L_3$.
 
-**Deducción del flujo** (atajo: $\phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$). El campo del hilo a distancia $x$ es $B(x) = \dfrac{\mu_0 I}{2\pi x}$ (Ampère sobre una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 I$) y es perpendicular al plano de la espira. No es uniforme, pero es constante a lo largo de cada franja paralela al hilo. Se toma como elemento de área una franja de largo $L_3$ y ancho $dx$, $dA = L_3\ dx$, y la integral de superficie queda simple:
+**Paso 1 — Flujo φ** (atajo: $\phi = \dfrac{\mu_0 Ic}{2\pi}\ln\dfrac{x_2}{x_1}$). El **flujo** mide cuánto campo atraviesa la superficie de la espira: si el campo fuera uniforme y perpendicular, sería campo por área. El campo del hilo a distancia $x$ es $B(x) = \dfrac{\mu_0 I}{2\pi x}$ (Ampère sobre una circunferencia de radio $x$: $B\cdot2\pi x = \mu_0 I$) y es perpendicular al plano de la espira. No es uniforme, pero es constante a lo largo de cada franja paralela al hilo. Se toma como elemento de área una franja de largo $L_3$ y ancho $dx$, $dA = L_3\ dx$, y la integral de superficie queda simple:
 
 $$\phi = \iint\vec B\cdot d\vec A = \int_{L_1}^{L_2}\frac{\mu_0 I}{2\pi x}\ L_3\ dx = \frac{\mu_0 IL_3}{2\pi}\ln\frac{L_2}{L_1}$$
 
 #### Ítem a)
 
-Solo varía $I$. Por Faraday, $\lvert\mathcal E\rvert = \left\lvert\dfrac{d\phi}{dt}\right\rvert$, con la geometría fija y $\dfrac{dI}{dt} = I_0\omega\cos(\omega t)$:
+**Paso 2 — Flujo en función del tiempo.** La espira está quieta, así que solo varía $I(t) = I_0\ \mathrm{sen}\ (\omega t)$:
+
+$$\phi(t) = \frac{\mu_0L_3}{2\pi}\ln\frac{L_2}{L_1}\ I_0\ \mathrm{sen}\ (\omega t) = 2\times10^{-7}\cdot0{,}15\cdot\ln\frac{20}{12}\cdot3\ \mathrm{sen}\ (5\pi t)\ \text{Wb} = 4{,}6\times10^{-8}\ \mathrm{sen}\ (5\pi t)\ \text{Wb}$$
+
+**Paso 3 — Fem.** Faraday, $\lvert\mathcal E\rvert = \left\lvert\dfrac{d\phi}{dt}\right\rvert$, con la geometría fija y $\dfrac{dI}{dt} = I_0\omega\cos(\omega t)$:
 
 $$\lvert\mathcal E\rvert = \frac{\mu_0L_3}{2\pi}\ln\frac{L_2}{L_1}\ I_0\omega\cos(\omega t) = 2\times10^{-7}\cdot0{,}15\cdot0{,}511\cdot3\cdot5\pi\cos(5\pi t)\ \text{V} = 7{,}2\times10^{-7}\cos(5\pi t)\ \text{V}$$
 
 #### Ítem b)
 
-Ahora $I = I_0$ fija y se mueve la espira. Con $b = L_2 - L_1 = 0{,}08$ m y $x(t) = L_1 + vt$, el flujo es la misma integral entre $x$ y $x + b$. Se deriva con la regla de la cadena, usando $\dfrac{d}{dt}\ln\dfrac{x + b}{x} = \left(\dfrac{1}{x + b} - \dfrac1x\right)\dfrac{dx}{dt}$:
+**Paso 4 — Flujo y fem con la espira en movimiento.** Ahora $I = I_0$ fija y se mueve la espira. Con $b = L_2 - L_1 = 0{,}08$ m y $x(t) = L_1 + vt$ (posición del lado cercano), el flujo es la misma integral del Paso 1, entre $x$ y $x + b$. Por Faraday, la fem es su derivada, que se saca con la regla de la cadena, usando $\dfrac{d}{dt}\ln\dfrac{x + b}{x} = \left(\dfrac{1}{x + b} - \dfrac1x\right)\dfrac{dx}{dt}$:
 
 $$\phi = \frac{\mu_0 I_0L_3}{2\pi}\ln\frac{x + b}{x} \quad\Rightarrow\quad \lvert\mathcal E\rvert = \frac{\mu_0 I_0L_3}{2\pi}\left(\frac{1}{x} - \frac{1}{x + b}\right)v = \frac{\mu_0 I_0L_3}{2\pi}\ \frac{bv}{x(x + b)}$$
 
@@ -783,7 +853,7 @@ En $t = 0$: $\lvert\mathcal E\rvert = 2\times10^{-7}\cdot3\cdot0{,}15\cdot\dfrac
 
 #### Ítem c)
 
-$I = \mathcal E/R = 5\times10^{-9}$ A. Sentido: a la derecha del hilo (corriente hacia arriba) el campo es entrante; al alejarse, el flujo entrante disminuye; la corriente inducida lo refuerza → **horario**.
+**Paso 5 — Corriente y sentido.** $I = \mathcal E/R = 5\times10^{-9}$ A. Sentido: a la derecha del hilo (corriente hacia arriba) el campo es entrante; al alejarse, el flujo entrante disminuye; la corriente inducida lo refuerza → **horario**.
 
 </details>
 
@@ -827,19 +897,23 @@ Rieles, barra y resistencias forman un rectángulo. La barra va hacia la izquier
 
 La corriente que circula por la barra está dentro del campo, así que recibe una fuerza, y esa fuerza la frena: apunta hacia la derecha. Como la barra va a velocidad constante, la fuerza total sobre ella es cero, así que el agente externo empuja con la misma fuerza hacia la izquierda.
 
-**Deducción de la fem** (atajo: $\mathcal E = B\ell v$). El circuito es el rectángulo formado por los rieles, la barra y el tramo con resistencias. Si $x$ es la distancia de la barra a ese tramo, el área es $\ell x$ y, con $B$ uniforme y perpendicular, $\phi = B\ell x$. Faraday:
-
-$$\lvert\mathcal E\rvert = \left\lvert\frac{d(B\ell x)}{dt}\right\rvert = B\ell\left\lvert\frac{dx}{dt}\right\rvert = B\ell v$$
-
 #### Ítem a)
 
-$$\mathcal E = B\ell v = 3\cdot0{,}11\cdot15\ \text{V} = 4{,}95\ \text{V}$$
+**Paso 1 — Flujo φ.** El **flujo** mide cuánto campo atraviesa la superficie encerrada por el circuito; con un campo uniforme y perpendicular es campo por área. El circuito es el rectángulo formado por los rieles, la barra y el tramo con resistencias. Si $x$ es la distancia de la barra a ese tramo, el área es $\ell x$:
 
-Las tres resistencias están en paralelo entre los rieles (las tres tienen la tensión $\mathcal E$ y las corrientes se suman, así que $\dfrac{1}{R_{eq}} = \sum\dfrac{1}{R_i}$):
+$$\phi = B\ell x = 3\cdot0{,}11\cdot x = 0{,}33\ x\ \text{Wb}\quad(x\text{ en metros})$$
+
+La barra va hacia la izquierda, hacia las resistencias: $x$ disminuye a razón de $\left\lvert\dfrac{dx}{dt}\right\rvert = v = 15$ m/s.
+
+**Paso 2 — Fem.** Faraday. $B$ y $\ell$ son fijos, así que derivar el flujo es derivar $x$ (atajo: $\mathcal E = B\ell v$):
+
+$$\lvert\mathcal E\rvert = \left\lvert\frac{d\phi}{dt}\right\rvert = B\ell\left\lvert\frac{dx}{dt}\right\rvert = B\ell v = 3\cdot0{,}11\cdot15\ \text{V} = 4{,}95\ \text{V}$$
+
+**Paso 3 — Corriente.** Las tres resistencias están en paralelo entre los rieles (las tres tienen la tensión $\mathcal E$ y las corrientes se suman, así que $\dfrac{1}{R_{eq}} = \sum\dfrac{1}{R_i}$):
 
 $$R_{eq} = \left(\frac15 + \frac12 + \frac16\right)^{-1}\ \Omega = 1{,}154\ \Omega \qquad I = \frac{4{,}95}{1{,}154}\ \text{A} = 4{,}29\ \text{A}$$
 
-Sentido: la barra va hacia la izquierda, el área encerrada se achica y el flujo entrante disminuye. La corriente inducida lo refuerza → **horaria** (en la barra, hacia abajo). Comprobación: $\vec v\times\vec B = (-\hat x)\times(-\hat z) = -\hat y$, hacia abajo ✓.
+**Paso 4 — Sentido.** La barra va hacia la izquierda, el área encerrada se achica y el flujo entrante disminuye. La corriente inducida lo refuerza → **horaria** (en la barra, hacia abajo). Comprobación: $\vec v\times\vec B = (-\hat x)\times(-\hat z) = -\hat y$, hacia abajo ✓.
 
 #### Ítem b)
 
@@ -888,15 +962,19 @@ Como el campo del hilo es más fuerte cerca del hilo, cada pedazo de barra empuj
 
 La barra está a la derecha del hilo, dentro de su campo entrante, y baja, en contra de la corriente. Sus cargas bajan con ella, y la fuerza $q\ \vec v\times\vec B$ las empuja a lo largo de la barra: a las positivas, alejándolas del hilo. Se acumulan cargas positivas en el extremo lejano, que queda a mayor potencial. Cerca del hilo el campo es más fuerte y empuja más. Por eso la fem es una integral a lo largo de la barra, que da un logaritmo.
 
-**Deducción** (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$). No hay circuito cerrado, así que se usa la fem de movimiento: sobre cada carga de la barra actúa $q\ \vec v\times\vec B$, que equivale a un campo eléctrico $\vec v\times\vec B$, y la fem es su integral de línea a lo largo de la barra. El campo del hilo a distancia $r$ es $\dfrac{\mu_0 I}{2\pi r}$ (Ampère: $B\cdot2\pi r = \mu_0 I$). $\vec v$ es paralela al hilo y $\vec B$ es perpendicular al plano, así que $\vec v\perp\vec B$ y $\vec v\times\vec B$ tiene módulo $vB$ y apunta a lo largo de la barra. Entonces:
+**Cómo usar Faraday si la barra no forma un circuito.** La **ley de Faraday** dice que la fem es la rapidez con que cambia el **flujo magnético** $\phi$, que mide cuánto campo atraviesa una superficie: $\lvert\mathcal E\rvert = \left\lvert\dfrac{d\phi}{dt}\right\rvert$. Si el campo es uniforme y perpendicular, el flujo es campo por área. Una barra suelta no encierra ninguna superficie, pero al moverse **barre** una: el rectángulo que va dejando atrás. La fem entre sus extremos es la rapidez con que crece el flujo a través de lo barrido. Es como si se cerrara el circuito con cables quietos, que no aportan fem.
 
-$$\mathcal E = \int_d^{d + \ell}(\vec v\times\vec B)\cdot d\vec r = \int_d^{d + \ell}\frac{\mu_0 Iv}{2\pi r}\ dr = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d}$$
+**Paso 1 — Flujo φ a través de lo barrido.** El campo del hilo a distancia $r$ es $B = \dfrac{\mu_0 I}{2\pi r}$ (Ampère: $B\cdot2\pi r = \mu_0 I$), perpendicular al plano. En un tiempo $t$ la barra baja $vt$ y barre un rectángulo que va de $r = d$ a $r = d + \ell$ y tiene alto $vt$. El campo no es uniforme, así que se corta el rectángulo en tiras paralelas al hilo, de ancho $dr$ y alto $vt$; en cada tira $B$ es parejo y el flujo es $B\ (vt\ dr)$. Sumando:
 
-Con los datos:
+$$\phi(t) = \int_d^{d + \ell}\frac{\mu_0 I}{2\pi r}\ vt\ dr = \frac{\mu_0 I\ vt}{2\pi}\ln\frac{d + \ell}{d}$$
 
-$$\mathcal E = 2\times10^{-7}\cdot3\cdot20\cdot\ln\frac{15}{5}\ \text{V} = 13{,}2\ \mu\text{V}$$
+**Paso 2 — Fem.** En $\phi(t)$ lo único que depende del tiempo es $t$ (atajo: $\mathcal E = \dfrac{\mu_0 Iv}{2\pi}\ln\dfrac{d + \ell}{d}$):
 
-Polaridad: hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\hat z$. La barra va hacia abajo: $\vec v\times\vec B = (-\hat y)\times(-\hat z) = \hat x$. Las cargas positivas se van al extremo **más lejano del hilo**, que queda a mayor potencial.
+$$\mathcal E = \frac{d\phi}{dt} = \frac{\mu_0 Iv}{2\pi}\ln\frac{d + \ell}{d} = 2\times10^{-7}\cdot3\cdot20\cdot\ln\frac{15}{5}\ \text{V} = 13{,}2\ \mu\text{V}$$
+
+(Lo mismo da la fem de movimiento: sobre cada carga de la barra actúa $q\ \vec v\times\vec B$, que equivale a un campo eléctrico $\vec v\times\vec B$ de módulo $vB$ a lo largo de la barra, y $\displaystyle\int_d^{d + \ell}\frac{\mu_0 Iv}{2\pi r}\ dr$ da el mismo logaritmo ✓.)
+
+**Paso 3 — Polaridad.** Hilo con corriente hacia arriba, barra a su derecha → $\vec B = -B\hat z$. La barra va hacia abajo: $\vec v\times\vec B = (-\hat y)\times(-\hat z) = \hat x$. Las cargas positivas se van al extremo **más lejano del hilo**, que queda a mayor potencial.
 
 </details>
 
@@ -934,13 +1012,23 @@ La barra gira alrededor de O. Las dos mitades, OP (15 cm) y OQ (30 cm), giran co
 
 $OP = 0{,}15$ m y $OQ = 0{,}30$ m.
 
-**Deducción de la fem de cada mitad** (atajo: $\mathcal E = \tfrac12B\omega r_0^2$). Fem de movimiento: el punto de la barra a distancia $r$ de O se mueve con $v = \omega r$, perpendicular a la barra y a $\vec B$, así que $\lvert\vec v\times\vec B\rvert = \omega rB$, a lo largo de la barra. Integrando desde O hasta el extremo, a distancia $r_0$:
+**Cómo usar Faraday si la barra no forma un circuito.** La **ley de Faraday** dice que la fem es la rapidez con que cambia el **flujo magnético** $\phi$, que mide cuánto campo atraviesa una superficie; con un campo uniforme y perpendicular, es campo por área. Cada mitad de la barra no encierra ninguna superficie, pero al girar **barre** una: un sector circular, como un limpiaparabrisas. La fem entre O y el extremo es la rapidez con que crece el flujo a través de lo barrido.
 
-$$\mathcal E = \int_0^{r_0}\omega rB\ dr = \tfrac12B\omega r_0^2$$
+**Paso 1 — Área barrida por cada mitad.** En un tiempo $t$ la barra gira un ángulo $\theta = \omega t$. Una mitad de largo $r_0$ barre un sector de radio $r_0$, que es la fracción $\dfrac{\theta}{2\pi}$ del círculo de área $\pi r_0^2$:
 
-(Por Faraday sale lo mismo: en un tiempo $t$ la mitad barre un sector de ángulo $\omega t$ y área $\tfrac12r_0^2\omega t$, así que $\phi = \tfrac12Br_0^2\omega t$ y $\dfrac{d\phi}{dt} = \tfrac12B\omega r_0^2$.)
+$$A(t) = \tfrac12r_0^2\ \omega t$$
 
-Sentido: con la barra sobre $+\hat x$ y giro horario, $\vec v = -\omega r\hat y$ y $\vec v\times\vec B = (-\hat y)\times\hat z\cdot\omega rB = -\omega rB\ \hat x$: apunta **hacia O**. Lo mismo pasa en la otra mitad. O queda al mayor potencial y el potencial cae hacia cada extremo:
+**Paso 2 — Flujo φ.** El campo es uniforme y perpendicular al plano de giro:
+
+$$\phi(t) = B\ A(t) = \tfrac12Br_0^2\ \omega t$$
+
+**Paso 3 — Fem de cada mitad.** Lo único que depende del tiempo es $t$ (atajo: $\mathcal E = \tfrac12B\omega r_0^2$):
+
+$$\mathcal E = \frac{d\phi}{dt} = \tfrac12B\omega r_0^2$$
+
+(Lo mismo da la fem de movimiento: el punto a distancia $r$ de O se mueve con $v = \omega r$, perpendicular a la barra y a $\vec B$, así que $\lvert\vec v\times\vec B\rvert = \omega rB$ y $\displaystyle\int_0^{r_0}\omega rB\ dr = \tfrac12B\omega r_0^2$ ✓.)
+
+**Paso 4 — Sentido y resta.** Con la barra sobre $+\hat x$ y giro horario, $\vec v = -\omega r\hat y$ y $\vec v\times\vec B = (-\hat y)\times\hat z\cdot\omega rB = -\omega rB\ \hat x$: apunta **hacia O**. Lo mismo pasa en la otra mitad. O queda al mayor potencial y el potencial cae hacia cada extremo:
 
 $$V_O - V_P = \tfrac12\cdot0{,}3\cdot8\cdot0{,}15^2 = 0{,}027\ \text{V} \qquad V_O - V_Q = \tfrac12\cdot0{,}3\cdot8\cdot0{,}30^2 = 0{,}108\ \text{V}$$
 
@@ -1046,9 +1134,9 @@ Igualarlas da $\ell$ directamente, sin necesitar el número de vueltas.
 
 $$\oint\vec B\cdot d\vec l = B\ell' = \mu_0 n\ell' I \quad\Rightarrow\quad B = \mu_0 nI$$
 
-- *Inductancia* (atajo: $L = \mu_0 n^2\pi R^2\ell$). Por definición $N\Phi = LI$. Cada una de las $N = n\ell$ vueltas tiene flujo $B\pi R^2$:
+- *Inductancia* (atajo: $L = \mu_0 n^2\pi R^2\ell$). Por definición $N\phi = LI$. Cada una de las $N = n\ell$ vueltas tiene flujo $B\pi R^2$:
 
-$$L = \frac{N\Phi}{I} = \frac{n\ell\cdot\mu_0 nI\cdot\pi R^2}{I} = \mu_0 n^2\pi R^2\ell$$
+$$L = \frac{N\phi}{I} = \frac{n\ell\cdot\mu_0 nI\cdot\pi R^2}{I} = \mu_0 n^2\pi R^2\ell$$
 
 - *Energía* (atajo: $U = \tfrac12LI^2 = \dfrac{B^2}{2\mu_0}\cdot\text{volumen}$). Mientras la corriente crece de 0 a $I$, la fuente tiene que vencer la fem autoinducida $L\ di/dt$ (Faraday). La potencia es $L\ i\ \dfrac{di}{dt}$ y su integral en el tiempo es
 
