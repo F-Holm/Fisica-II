@@ -2312,9 +2312,9 @@ Un solenoide de 25 cm de largo y 1 cm de radio tiene 500 vueltas y lleva una cor
 
 a) Calcule su autoinductancia.
 
-b) Calcule la energía que guarda, con $\tfrac12LI^2$.
+b) Calcule la energía magnética que guarda a partir de su autoinductancia.
 
-c) Calcule el campo en su interior y verifique la energía con la densidad $\dfrac{B^2}{2\mu_0}$.
+c) Calcule el campo en su interior y verifique la energía usando la densidad de energía magnética (energía por unidad de volumen).
 
 <details>
 <summary><b>Solución</b></summary>
